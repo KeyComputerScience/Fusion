@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decoded streaming row used by FusionPipeline",
+  "description": "CSV capacities_json is decoded to capacities. Empty optional CSV values become null. A feedback row is consumed after the slot decision.",
+  "type": "object",
+  "required": ["slot", "inference_load", "training_load", "capacities", "logged_training", "logged_inference", "policy_version"],
+  "properties": {
+    "slot": {"type":"integer", "minimum":1},
+    "regime": {"type":["string","null"]},
+    "queue": {"type":["number","null"], "minimum":0},
+    "arrival_rate": {"type":["number","null"], "minimum":0},
+    "utilization": {"type":["number","null"], "minimum":0, "maximum":1},
+    "cpu_fraction": {"type":["number","null"], "minimum":0, "maximum":1},
+    "bandwidth": {"type":["number","null"], "minimum":0},
+    "inference_load": {"type":"number", "minimum":0},
+    "training_load": {"type":"number", "minimum":0},
+    "capacities": {"type":"array", "minItems":1, "items":{"type":"array", "minItems":3, "maxItems":3, "items":{"type":"number", "minimum":0}}},
+    "logged_training": {"type":["string","null"], "minLength":1},
+    "logged_inference": {"type":["string","null"], "minLength":1},
+    "execution_status": {"type":"string", "enum":["executed","no_dispatch"]},
+    "policy_version": {"type":"string", "minLength":1},
+    "environment_reward": {"type":["number","null"]},
+    "observed_training_cost": {"type":["number","null"], "minimum":0},
+    "completion_ratio": {"type":["number","null"], "minimum":0, "maximum":1},
+    "deadline_loss": {"type":["number","null"], "minimum":0},
+    "availability": {"type":["number","null"], "minimum":0, "maximum":1},
+    "throughput_ratio": {"type":["number","null"], "minimum":0, "maximum":1},
+    "deployed_gain": {"type":["number","null"], "minimum":0},
+    "completed_training_profile": {"type":["string","null"]},
+    "completed_training_load": {"type":["number","null"], "minimum":0},
+    "provenance": {"type":["string","null"]}
+  },
+  "allOf":[
+    {"if":{"required":["execution_status"],"properties":{"execution_status":{"const":"no_dispatch"}}},
+     "then":{},
+     "else":{"properties":{"logged_training":{"type":"string"},"logged_inference":{"type":"string"}}}}
+  ],
+  "additionalProperties": false
+}

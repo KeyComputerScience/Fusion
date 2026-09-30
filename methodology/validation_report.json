@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "tests_run": 27,
+  "unit_test_failures": [],
+  "diagnostic_runs": 19,
+  "diagnostic_slots": 22800,
+  "invariant_violation_totals": {
+    "resource_violations": 0,
+    "future_information_violations": 0,
+    "weight_or_mask_violations": 0
+  },
+  "missing_equation_labels": [],
+  "covered_cases": [
+    "source masking and outages",
+    "capped-simplex projection",
+    "delayed target availability",
+    "no future suffix leakage",
+    "future-baseline tangent bound",
+    "known pending deployments",
+    "geometric zero/one/near-one limits",
+    "coupled resource feasibility",
+    "pruning preserves proxy optimum",
+    "AO monotonicity and a nonzero-gap counterexample",
+    "recommendation is not deployment",
+    "bounded live history",
+    "no-dispatch feedback"
+  ],
+  "provenance": "synthetic functional verification",
+  "establishes_real_DRL_improvement": false,
+  "pdf_layout_verified_separately": "See pdf_qa.json when included."
+}

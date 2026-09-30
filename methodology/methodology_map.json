@@ -1,0 +1,43 @@
+{
+  "schema_version":"1.0",
+  "source_order":["workload", "operating", "performance"],
+  "module_roles":{
+    "fusion.py":"Two completed windows; physical/active masks; block-bootstrap reliability; delayed predictive calibration; capped KL projection; disagreement and fallback.",
+    "proxy.py":"Causal recovery baseline; known pending deployments; delay-dependent tangent and geometric upper coefficients; conditional exact proxy increment.",
+    "coordinator.py":"Current per-node resource constraints; distinct gain/cost/intensity; exact or multi-start AO; optional dominance pruning; actual feedback updates.",
+    "pipeline.py":"Decide before feedback; freeze normalization prefix; completed-window scores available only from next slot.",
+    "live_adapter.py":"Backend protocol for actual execution, asynchronous deployment feedback, and no-dispatch admission handling."
+  },
+  "equation_to_code":[
+    {"label":"eq:fusion-workload","implementation":"fusion.normalized_jsd","notation":"d_1"},
+    {"label":"eq:fusion-operating","implementation":"EvidenceFusion._evidence(source=1)","notation":"d_2"},
+    {"label":"eq:fusion-performance","implementation":"EvidenceFusion._performance","notation":"d_3"},
+    {"label":"eq:fusion-reliability","implementation":"EvidenceFusion.complete_window","notation":"r_s, pi_s"},
+    {"label":"eq:fusion-cap","implementation":"fusion.capped_weights","notation":"alpha_s"},
+    {"label":"eq:fusion-calibration","implementation":"PredictiveCalibration.update","notation":"E_s"},
+    {"label":"eq:6","implementation":"EvidenceFusion.complete_window","notation":"Gamma, D"},
+    {"label":"eq:fusion-uncertainty","implementation":"EvidenceFusion.complete_window","notation":"U"},
+    {"label":"eq:9","implementation":"Coordinator.feasible","notation":"A_mr <= B_mr"},
+    {"label":"eq:11","implementation":"Coordinator.retention / Coordinator.observe","notation":"rho, H"},
+    {"label":"eq:12","implementation":"Coordinator.service_quality / Coordinator.observe","notation":"beta_hat"},
+    {"label":"eq:15","implementation":"Coordinator._allowed","notation":"z_t"},
+    {"label":"eq:16","implementation":"Coordinator.choose","notation":"argmax pair"},
+    {"label":"eq:17","implementation":"Coordinator.choose cached training_values/inference_values","notation":"F_i + W_j"},
+    {"label":"eq:baseline_forecast","implementation":"RecoveryForecast.construct","notation":"h0"},
+    {"label":"eq:forecast_state","implementation":"RecoveryForecast.factors","notation":"phi_i(h)"},
+    {"label":"eq:proxy_increment","implementation":"RecoveryForecast.exact_increment","notation":"Delta_proxy"},
+    {"label":"eq:retraining_value","implementation":"RecoveryForecast.coefficient(mode=tangent)","notation":"V_i"},
+    {"label":"eq:geometric_upper","implementation":"proxy.geometric_sum / RecoveryForecast.coefficient","notation":"V_geo"},
+    {"label":"eq:29","implementation":"Coordinator.choose AO training block","notation":"i^(q+1)"},
+    {"label":"eq:30","implementation":"Coordinator.choose AO inference block","notation":"j^(q+1)"}
+  ],
+  "timing":{
+    "completed_window":"Window ending at slot b is first usable at b+1.",
+    "deployment_delay":"A job selected at t with delay delta first enters H_(t+delta); completion is recorded after slot t+delta-1.",
+    "retention_forecast":"future_retentions[h-1] maps H_(t+h-1) to H_(t+h).",
+    "pending_gain_forecast":"A positive key h identifies a pre-decision known contribution entering H_(t+h).",
+    "parameter_update":"A recommendation creates no policy deployment and no recovery-state gain."
+  },
+  "unvalidated_inputs":["profile recovery gains", "profile costs", "update intensity units", "deployment delays", "resource demands", "initial quality priors", "trigger thresholds", "retention and attenuation parameters"],
+  "empirical_status":"Executable methodological reference and synthetic functional demonstration; no new manuscript experimental result."
+}

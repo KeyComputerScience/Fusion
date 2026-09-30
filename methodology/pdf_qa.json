@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "visual_review": "All 9 methodology pages and the 1-page synthetic trace were rendered and inspected. No clipped formulas, overlaps, missing glyphs, or unreadable labels were observed.",
+  "style": "White background, black text and lines; Times New Roman body/figure labels; TeX Gyre Termes Math for mathematical symbols.",
+  "pdfs": [
+    {
+      "file": "methods_preview.pdf",
+      "pages": 9,
+      "all_fonts_embedded": true,
+      "font_names": [
+        "AAAAAA+TimesNewRomanPS-BoldMT",
+        "AAAAAA+TimesNewRomanPS-ItalicMT",
+        "AAAAAA+TimesNewRomanPSMT",
+        "BSSJWF+TimesNewRomanPS-ItalicMT",
+        "BZKQRR+TimesNewRomanPS-BoldMT",
+        "COYUXA+TeXGyreTermesMath-Regular-Identity-H",
+        "HZLMNS+TimesNewRomanPSMT"
+      ],
+      "page_bounds_violations": [],
+      "sha256": "1f23b930c8d037312aac07f1b53e75918c51f20b1db116d9c31e12e91e037f5d"
+    },
+    {
+      "file": "example_results/synthetic_trace.pdf",
+      "pages": 1,
+      "all_fonts_embedded": true,
+      "font_names": [
+        "DFKAVT+TimesNewRomanPSMT"
+      ],
+      "page_bounds_violations": [],
+      "sha256": "e4bc124fc071555278d9d9a618c33889006af10e1edd44653bfed3d4d574d63c"
+    }
+  ],
+  "latex_warnings": []
+}

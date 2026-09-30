@@ -1,0 +1,47 @@
+{
+  "scope": "current proxy on the same fixed synthetic logged feedback",
+  "diagnostics": {
+    "exact": {
+      "slots": 1200,
+      "complete_windows": 24,
+      "fallback_windows": 4,
+      "infeasible_slots": 0,
+      "resource_violations": 0,
+      "future_information_violations": 0,
+      "weight_or_mask_violations": 0,
+      "training_recommendation_fraction": 0.041666666666666664,
+      "mean_disagreement": 0.017913290706856492,
+      "maximum_source_weight": 0.7,
+      "next_degradation_pairs": 16,
+      "weighted_next_prediction_mae": 0.06304707034333604,
+      "weighted_next_prediction_rmse": 0.15853629057952404,
+      "raw_gamma_next_degradation_mae": 0.10547903580156451,
+      "causal_policy_return_evaluated": false,
+      "calibration_prefix_sha256": "84e02b9f17ee44ea7aac1eda1eb7b5b9fc851bfdffd519cf2bf412fabf1fe375"
+    },
+    "ao": {
+      "slots": 1200,
+      "complete_windows": 24,
+      "fallback_windows": 4,
+      "infeasible_slots": 0,
+      "resource_violations": 0,
+      "future_information_violations": 0,
+      "weight_or_mask_violations": 0,
+      "training_recommendation_fraction": 0.041666666666666664,
+      "mean_disagreement": 0.017913290706856492,
+      "maximum_source_weight": 0.7,
+      "next_degradation_pairs": 16,
+      "weighted_next_prediction_mae": 0.06304707034333604,
+      "weighted_next_prediction_rmse": 0.15853629057952404,
+      "raw_gamma_next_degradation_mae": 0.10547903580156451,
+      "causal_policy_return_evaluated": false,
+      "calibration_prefix_sha256": "84e02b9f17ee44ea7aac1eda1eb7b5b9fc851bfdffd519cf2bf412fabf1fe375"
+    }
+  },
+  "compared_feasible_slots": 1200,
+  "pair_agreements": 1190,
+  "maximum_exact_minus_ao_proxy_gap": 0.027099827231573004,
+  "minimum_exact_minus_ao_proxy_gap": 0.0,
+  "ao_global_optimality_claimed": false,
+  "warning": "Agreement on this stream is not a guarantee. A separate test exhibits a positive AO global gap."
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "2.0",
+  "description": "Core methodology: capped reliability fusion, causal delayed value, exact/AO coordination. Profile values require calibration.",
+  "evaluation_horizon": 1200,
+  "state_columns": [
+    "queue",
+    "arrival_rate",
+    "utilization",
+    "cpu_fraction",
+    "bandwidth"
+  ],
+  "normalization_std_floor": 0.001,
+  "fusion": {
+    "enabled_sources": [
+      0,
+      1,
+      2
+    ],
+    "weighting_mode": "fixed",
+    "maximum_source_weight": 0.7,
+    "fixed_weights": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "enable_predictive_calibration": true,
+    "use_support": true,
+    "use_freshness": true,
+    "use_noise": true,
+    "use_disagreement": true,
+    "window_size": 50,
+    "minimum_source_samples": 10,
+    "minimum_context_samples": 2,
+    "bootstrap_replicates": 32,
+    "bootstrap_block_size": 5,
+    "unsupported_noise_variance": 0.25,
+    "support_scale": 20.0,
+    "freshness_scale": 50.0,
+    "error_scale": 0.2,
+    "epsilon_noise": 0.0025,
+    "epsilon_reward": 1e-06,
+    "missing_source_penalty": 0.5,
+    "observed_cost_reward_scale": 0.12,
+    "seed": 20260930,
+    "predictive_calibration": {
+      "ridge": 0.1,
+      "forgetting": 0.99,
+      "error_rate": 0.15,
+      "error": 0.05
+    }
+  },
+  "coordination": {
+    "proxy_mode": "tangent",
+    "enable_delayed_value": true,
+    "dominance_pruning": false,
+    "nodes": 10,
+    "initial_recovery": 1.0,
+    "eta_gamma": 0.08,
+    "eta_uncertainty": 0.02,
+    "rho_min": 0.8,
+    "xi": 0.35,
+    "lambda_cost": 0.12,
+    "omega_intensity": 0.04,
+    "kappa_uncertainty": 0.08,
+    "lookahead": 16,
+    "exact_pair_limit": 30,
+    "ao_max_sweeps": 50,
+    "quality_update_rate": 0.1,
+    "quality_weights": {
+      "completion": 0.4,
+      "deadline_compliance": 0.3,
+      "availability": 0.15,
+      "throughput": 0.15
+    },
+    "trigger": {
+      "on": 0.15,
+      "off": 0.08,
+      "maximum_uncertainty": 0.8,
+      "minimum_coverage": 0.6666666666666666
+    }
+  }
+}

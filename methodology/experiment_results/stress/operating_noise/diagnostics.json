@@ -1,0 +1,24 @@
+{
+  "category": "stress",
+  "name": "operating_noise",
+  "slots": 1200,
+  "complete_windows": 24,
+  "fallback_windows": 4,
+  "infeasible_slots": 0,
+  "resource_violations": 0,
+  "future_information_violations": 0,
+  "weight_or_mask_violations": 0,
+  "training_recommendation_fraction": 0.041666666666666664,
+  "mean_disagreement": 0.019060153279752214,
+  "maximum_source_weight": 0.7,
+  "next_degradation_pairs": 16,
+  "weighted_next_prediction_mae": 0.06207313466035157,
+  "weighted_next_prediction_rmse": 0.158213790913715,
+  "raw_gamma_next_degradation_mae": 0.10577040588463527,
+  "causal_policy_return_evaluated": false,
+  "calibration_prefix_sha256": "84e02b9f17ee44ea7aac1eda1eb7b5b9fc851bfdffd519cf2bf412fabf1fe375",
+  "provenance": [
+    "synthetic",
+    "synthetic+measurement_stress"
+  ]
+}

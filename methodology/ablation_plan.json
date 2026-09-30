@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Logged-replay diagnostics only; no causal return estimate from unexecuted recommendations.",
+  "source_order": ["workload", "operating", "performance"],
+  "variants": [
+    {"name":"full", "patch":{}},
+    {"name":"workload_only", "patch":{"fusion":{"enabled_sources":[0],"enable_predictive_calibration":false}}},
+    {"name":"operating_only", "patch":{"fusion":{"enabled_sources":[1],"enable_predictive_calibration":false}}},
+    {"name":"performance_only", "patch":{"fusion":{"enabled_sources":[2],"enable_predictive_calibration":false}}},
+    {"name":"equal_weights", "patch":{"fusion":{"weighting_mode":"equal"}}},
+    {"name":"fixed_weights", "patch":{"fusion":{"weighting_mode":"fixed"}}},
+    {"name":"uncapped_weights", "patch":{"fusion":{"maximum_source_weight":1.0}}},
+    {"name":"no_predictive_calibration", "patch":{"fusion":{"enable_predictive_calibration":false}}},
+    {"name":"no_support", "patch":{"fusion":{"use_support":false}}},
+    {"name":"no_freshness", "patch":{"fusion":{"use_freshness":false}}},
+    {"name":"no_noise_weighting", "patch":{"fusion":{"use_noise":false}}},
+    {"name":"no_disagreement_penalty", "patch":{"fusion":{"use_disagreement":false}}},
+    {"name":"no_delayed_value", "patch":{"coordination":{"enable_delayed_value":false}}}
+  ],
+  "interpretation": {
+    "single_source": "Disable cross-source predictive calibration to prevent performance evidence from entering a workload-only or operating-only baseline indirectly.",
+    "coverage": "Coverage is relative to the enabled set; single-source uncertainty is not comparable as a calibrated probability.",
+    "equal_fixed": "Their weights do not depend on calibrated reliability; no-predictive-calibration isolates that factor in the reliability mode.",
+    "no_disagreement": "Retains missing-source penalties, masking, and resource constraints.",
+    "no_delayed_value": "Removes future training credit and retains current inference value and all costs."
+  }
+}

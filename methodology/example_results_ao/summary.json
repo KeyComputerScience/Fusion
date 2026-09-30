@@ -1,0 +1,29 @@
+{
+  "mode": "offline_logged_replay",
+  "causal_return_of_recommendations_evaluated": false,
+  "provenance": [
+    "synthetic"
+  ],
+  "slots": 1200,
+  "complete_windows": 24,
+  "unfinished_window_samples": 0,
+  "solver_counts": {
+    "ao": 1200
+  },
+  "status_counts": {
+    "feasible": 1200
+  },
+  "training_recommendations": {
+    "tr0": 1150,
+    "tr2": 9,
+    "tr4": 7,
+    "tr3": 34
+  },
+  "inference_recommendations": {
+    "inf5": 1159,
+    "inf3": 7,
+    "inf4": 34
+  },
+  "maximum_evaluated_pairs": 24,
+  "warning": "Synthetic demo and illustrative profiles are not manuscript experimental results."
+}

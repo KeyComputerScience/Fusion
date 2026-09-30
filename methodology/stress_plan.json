@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "time_unit":"evaluation slot, beginning after the frozen calibration prefix",
+  "seed":20260930,
+  "cases":[
+    {"name":"performance_outage", "kind":"outage", "start":401, "end":500, "sources":[2]},
+    {"name":"all_sources_outage", "kind":"outage", "start":751, "end":800, "sources":[0,1,2]},
+    {"name":"operating_noise", "kind":"state_noise", "start":401, "end":500, "std_multiplier":4.0},
+    {"name":"source_conflict", "kind":"conflict", "start":401, "end":500, "adjusted_reward":1.0}
+  ],
+  "limitations":"Artificial measurement perturbations diagnose masks, reliability, and disagreement. They are not genuine drift labels, a calibrated failure model, or closed-loop policy experiments. Dispatch metadata and deployed gains remain logged observations."
+}
