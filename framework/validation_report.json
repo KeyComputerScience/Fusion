@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "functional reference implementation on synthetic logged data",
+  "empirical_drl_improvement_validated": false,
+  "calibration_cutoff": 300,
+  "evaluation_slots_per_solver": 1200,
+  "completed_windows": 24,
+  "solvers_validated": [
+    "exact",
+    "multi_start_ao"
+  ],
+  "resource_violations": 0,
+  "future_evidence_violations": 0,
+  "reported_infeasible_rows": 0,
+  "ao_monotonic_trajectories": true,
+  "ao_suboptimal_slots_against_same_slot_exact_surrogate": 10,
+  "ao_maximum_surrogate_gap": 0.027099827231573004,
+  "unit_tests": 14,
+  "unit_test_status": "passed",
+  "latex_compilation": "passed_without_warnings",
+  "visual_inspection": "passed: all five methods pages, framework and synthetic trace inspected",
+  "fonts": {
+    "text": "Times New Roman",
+    "math": "TeX Gyre Termes Math",
+    "all_pdf_fonts_embedded": true
+  },
+  "methods_preview_pages": 5,
+  "framework_text_fit_checks": 45,
+  "framework_drawing_reproduction": "pixel-identical 600 dpi PNG"
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "package": "fusion_methods_package",
+  "provenance": "proposed method plus synthetic functional demonstration",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8398,
+      "sha256": "d1c870df041cd5548fa500fbb5f4ed44a91f588ef1b09931a553f530bea92302"
+    },
+    {
+      "path": "build_preview.py",
+      "bytes": 1758,
+      "sha256": "c3d19a98fdb5e2df74ad7f8e2667d06e0728c7300eb8b36df873641a735bcd8e"
+    },
+    {
+      "path": "calibrate_reference.py",
+      "bytes": 2076,
+      "sha256": "6248db14de57316f9dd2e10d5c85ee70aacdbdf8aa0906a4a9930ef548598826"
+    },
+    {
+      "path": "config.json",
+      "bytes": 1510,
+      "sha256": "bd5beaf9d4cfe76de5ae57ae952686db26d9e21f528f285b526a2f8c24417d8d"
+    },
+    {
+      "path": "coordinator.py",
+      "bytes": 13355,
+      "sha256": "ad3a227a4ea2f3e176c41994347600631d71fb79b92a358caa484c6615077455"
+    },
+    {
+      "path": "draw_framework.py",
+      "bytes": 10626,
+      "sha256": "f63a5c43aa52c6cb122cf8d05d43601d7d0bb963b6ba8e05dbd342e9b94b5e34"
+    },
+    {
+      "path": "example_results/decisions.csv",
+      "bytes": 360991,
+      "sha256": "950cef2e9bef633d6ad07527611cb13e3da44bd4f63ad0ae0cbff809fe71788b"
+    },
+    {
+      "path": "example_results/fusion_windows.jsonl",
+      "bytes": 19436,
+      "sha256": "4416d8fd8a65cddf123292af1b32596758711eaeae4834539b06890e034f643e"
+    },
+    {
+      "path": "example_results/summary.json",
+      "bytes": 584,
+      "sha256": "f16d5e22d08ee1db7f65ae9b493bf41eafd86d43691e0ab711bc276c27d19cc6"
+    },
+    {
+      "path": "example_results/synthetic_trace.pdf",
+      "bytes": 30100,
+      "sha256": "543ec78d83c5c475d1ece593336f8b7f5d12745bec2a63ce67e06b0ecc3f25fe"
+    },
+    {
+      "path": "example_results/synthetic_trace.png",
+      "bytes": 440676,
+      "sha256": "5a3f01725b9a47879c82c6249defa7dc5202c64e25a2826a25edcf5c4f2ed7da"
+    },
+    {
+      "path": "example_results/synthetic_trace.svg",
+      "bytes": 73229,
+      "sha256": "7a45768f10e81f14f0ad64a4cce43fad13d8c23a086f87491ec0185731a79f1d"
+    },
+    {
+      "path": "example_results_ao/decisions.csv",
+      "bytes": 383533,
+      "sha256": "950b7e3fb84906cc4520a2e001129d7285c02f96ed317d292a5d26ff46b8e27a"
+    },
+    {
+      "path": "example_results_ao/fusion_windows.jsonl",
+      "bytes": 19436,
+      "sha256": "4416d8fd8a65cddf123292af1b32596758711eaeae4834539b06890e034f643e"
+    },
+    {
+      "path": "example_results_ao/summary.json",
+      "bytes": 610,
+      "sha256": "4eb11eabeffa5c6ab495a19979e2640350ac0f0c84c46e29962eeb4bf86fdabb"
+    },
+    {
+      "path": "example_stream.csv",
+      "bytes": 1107220,
+      "sha256": "89e1a446a5222e85454a47ab514f68b6d8f9a1e4b075858a99ceb97bc341e0da"
+    },
+    {
+      "path": "fig/information_fusion_framework.pdf",
+      "bytes": 119366,
+      "sha256": "8f1075e595b73bb80388ece5edca7e6bf9cc2d13a990b848f5c7e8751d395a3d"
+    },
+    {
+      "path": "fig/information_fusion_framework.png",
+      "bytes": 1155326,
+      "sha256": "434a6fae0db7efe3b0c3e632cb0d302cdec79b51a7f8222af67f0c9f97360075"
+    },
+    {
+      "path": "fig/information_fusion_framework.svg",
+      "bytes": 129708,
+      "sha256": "2b782a18b8deb694d4b76ef602000138577a18b494d9e9728c46ebaa09d50d4d"
+    },
+    {
+      "path": "fonts/GUST-FONT-LICENSE.txt",
+      "bytes": 1456,
+      "sha256": "2bd69affc3da00715116f713f57eab9707e96daf3562ad0215987b15b9c16f73"
+    },
+    {
+      "path": "fonts/LICENSE-DejaVu.txt",
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "path": "fonts/MANIFEST-TeX-Gyre-Termes-Math.txt",
+      "bytes": 2216,
+      "sha256": "151704ec4829741093107305e9ff5e4261378f258d7d01ad877c6647dbd82c8d"
+    },
+    {
+      "path": "fonts/README-TeX-Gyre-Termes-Math.txt",
+      "bytes": 4399,
+      "sha256": "88ba1d5940d2eaa7aa55a36becdbb2561edcf93e096a1b23ec7fd2c7ae666baa"
+    },
+    {
+      "path": "fonts/SOURCE.md",
+      "bytes": 544,
+      "sha256": "80f291b34ee074d61efd8271a37a6b59878052d5826fcc8f174ae9b9ccc1fece"
+    },
+    {
+      "path": "fonts/texgyretermes-math.otf",
+      "bytes": 532404,
+      "sha256": "e5ce42b4fe826b7ea4c0874359decf0b294439355c511a4794107a9924e2cd5a"
+    },
+    {
+      "path": "fusion.py",
+      "bytes": 12844,
+      "sha256": "31235b0449b83708f28d0c04dd07595a5832bacc8a8cd377d815ad83c2c12ec8"
+    },
+    {
+      "path": "generate_demo.py",
+      "bytes": 4650,
+      "sha256": "cc68cbbf4d4396ac41e6abdb6e4aef678e863a1ffad1d0816041414c599aab6d"
+    },
+    {
+      "path": "input_schema.json",
+      "bytes": 1973,
+      "sha256": "461d17fb27a267efe2cde79f05a9cab0d611963bcaf1fd87d8f0b628c1d947b2"
+    },
+    {
+      "path": "logio.py",
+      "bytes": 5739,
+      "sha256": "9d0ca203426073be0aa5d1a0f6eb429b84a41575aa245cabddc2f36c5a59fd36"
+    },
+    {
+      "path": "main.tex",
+      "bytes": 1395,
+      "sha256": "5fa9b1e2309efc2763277049cc3d900bf9a301f93c298afeef87824302e93459"
+    },
+    {
+      "path": "methods_preview.pdf",
+      "bytes": 237506,
+      "sha256": "0214dd52c84ce9a3e85b71dec8a06d7fc8fa803f59b9bdbc25dc920d76c20276"
+    },
+    {
+      "path": "methods_reconstructed.tex",
+      "bytes": 17728,
+      "sha256": "6936f1509dabfeb38ab1ca7f94e494ce174b654f7ca4226ed0d1aefb65602182"
+    },
+    {
+      "path": "pipeline.py",
+      "bytes": 6278,
+      "sha256": "188b531123b6ce567ab1dca2811fc43b5480c8c8209ab4cd20c70bf51050814f"
+    },
+    {
+      "path": "plot_demo.py",
+      "bytes": 3712,
+      "sha256": "bb8b8630b9f906651152ce8bcedee323636efc8fef4aa2390ed35b14ea047c57"
+    },
+    {
+      "path": "profiles.json",
+      "bytes": 1948,
+      "sha256": "25eedb0031f9e3135f2b1e36389a7e2a417def615cefdc67ac8d01a6b0760094"
+    },
+    {
+      "path": "reference.json",
+      "bytes": 944,
+      "sha256": "3271859ece43e85635996f171081e27d3fe11376068a81a6c1c5d2b5c85b0988"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 1377,
+      "sha256": "716f5f5ea3a60fb54bdf075ea570e9d264c5ea1ea9e4e950e64261d2853d349c"
+    },
+    {
+      "path": "requirements-visuals.txt",
+      "bytes": 177,
+      "sha256": "84c4189e13cb7f9a24edd377970d1b745e3580f7ad6010813ea1539752af5be3"
+    },
+    {
+      "path": "test_results.txt",
+      "bytes": 1899,
+      "sha256": "ae93d798fe186015ada1e5cb8f769b9b78dd144aa39d60ac307365f0cd63c865"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 11376,
+      "sha256": "670e768783db4ee1e05748a377b8a0cd0ece40c4c60d026f2a1a474a1b33205e"
+    },
+    {
+      "path": "validate_package.py",
+      "bytes": 5280,
+      "sha256": "45a5dff7f02b572965ace3cac1fba20b8170928ff3e99cb64b8feea41a0687c6"
+    },
+    {
+      "path": "validation_report.json",
+      "bytes": 1007,
+      "sha256": "c9752677534d829405310545f3ba84b1c55e4f68d96368cf1abb5751f111d088"
+    }
+  ]
+}
