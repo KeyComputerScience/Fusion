@@ -1,0 +1,52 @@
+[
+  {
+    "backbone": "dqn",
+    "seed": 10,
+    "slots": 3000,
+    "return": 1941.9902609930346,
+    "return_difference": 0.0,
+    "equal_fields": [
+      "return",
+      "arrival_count",
+      "completed_count",
+      "deadline_count",
+      "queue_end",
+      "training_jobs",
+      "deployed_jobs",
+      "gradient_updates",
+      "training_cost",
+      "initial_parameter_sha256",
+      "final_parameter_sha256"
+    ],
+    "initial_parameter_sha256": "de7bd35954af08e8d08502746254ea8ee9e3d6a9c6efb4bfcf84e7da42471ddf",
+    "final_parameter_sha256": "23cd31c7bc348fd724f310a9f412beef27b0a3156c823ed563d9550005940356",
+    "calibration_gradient_updates": 50,
+    "parameter_changing_deployments": 2,
+    "all_passed": true
+  },
+  {
+    "backbone": "ppo",
+    "seed": 10,
+    "slots": 3000,
+    "return": 1934.6322084845258,
+    "return_difference": 0.0,
+    "equal_fields": [
+      "return",
+      "arrival_count",
+      "completed_count",
+      "deadline_count",
+      "queue_end",
+      "training_jobs",
+      "deployed_jobs",
+      "gradient_updates",
+      "training_cost",
+      "initial_parameter_sha256",
+      "final_parameter_sha256"
+    ],
+    "initial_parameter_sha256": "206965ca7d6fecb2376fe9c4b34a0da6068f1964afa21ad86b0f994b83c39fc5",
+    "final_parameter_sha256": "b491b1e9560a3bd77ca30ba9e4a52106ba817a7cdc890b48887519535dcaabc7",
+    "calibration_gradient_updates": 36,
+    "parameter_changing_deployments": 2,
+    "all_passed": true
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "runs": 95,
+  "slots_checked": 285000,
+  "deployments_checked": 531,
+  "resource_violations": 0,
+  "checks": [
+    "paired exogenous hashes",
+    "initial checkpoint hashes",
+    "task conservation",
+    "inference selection execution",
+    "completed-window chronology",
+    "external reward identity",
+    "recovery identity",
+    "actual parameter-changing deployment",
+    "horizon and window counts"
+  ],
+  "all_passed": true
+}

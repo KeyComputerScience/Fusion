@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "fit_through_slot": 1200,
+  "calibration_samples": 1200,
+  "state_columns": [
+    "queue",
+    "arrival_rate",
+    "utilization",
+    "cpu_fraction",
+    "bandwidth"
+  ],
+  "state_scales": {
+    "queue": {
+      "mean": 0.13720000000000002,
+      "std": 0.0376235963193313,
+      "samples": 1200
+    },
+    "arrival_rate": {
+      "mean": 1.1340833333333333,
+      "std": 0.3454899801570067,
+      "samples": 1200
+    },
+    "utilization": {
+      "mean": 0.35679401290752666,
+      "std": 0.18122463016527873,
+      "samples": 1200
+    },
+    "cpu_fraction": {
+      "mean": 0.04937684847050593,
+      "std": 0.06641127149145631,
+      "samples": 1200
+    },
+    "bandwidth": {
+      "mean": 1.0033951007784316,
+      "std": 0.011823690027033588,
+      "samples": 1200
+    }
+  },
+  "calibration_prefix_sha256": "d0a4ecae4c6abf3c8b3b85cff696924290e428d12dc6b71b4234672f51b15d61",
+  "provenance": [
+    "controlled_synthetic"
+  ]
+}

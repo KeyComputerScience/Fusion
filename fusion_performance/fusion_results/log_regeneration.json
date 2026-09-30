@@ -1,0 +1,15 @@
+{
+  "repaired": [
+    "dqn_reactive_seed_10",
+    "dqn_reactive_seed_20",
+    "dqn_workload_seed_20",
+    "dqn_workload_seed_30",
+    "dqn_workload_seed_40",
+    "dqn_reactive_seed_50",
+    "dqn_workload_seed_50",
+    "dqn_uncapped_seed_50",
+    "dqn_no_delayed_seed_50",
+    "ppo_reactive_seed_50"
+  ],
+  "criterion": "identical reward, task counts, training cost, deployment count and final model digest"
+}

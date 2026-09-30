@@ -1,0 +1,440 @@
+{
+  "data_kind": "controlled_synthetic_closed_loop",
+  "mode": "executed_closed_loop",
+  "configuration": {
+    "schema_version": "1.0",
+    "data_kind": "controlled_synthetic_closed_loop",
+    "seeds": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "calibration_slots": 1200,
+    "evaluation_slots": 3000,
+    "slot_duration": "abstract service slot; no conversion to hardware latency",
+    "drift_onsets": [
+      901,
+      1801
+    ],
+    "phase_rates": [
+      1.15,
+      2.2,
+      1.45
+    ],
+    "phase_mixes": [
+      [
+        0.75,
+        0.2,
+        0.05
+      ],
+      [
+        0.1,
+        0.3,
+        0.6
+      ],
+      [
+        0.55,
+        0.35,
+        0.1
+      ]
+    ],
+    "capacity_uniform": [
+      0.8,
+      1.2
+    ],
+    "capacity_wave_amplitude": 0.08,
+    "task_work": [
+      1.0,
+      1.2,
+      1.8
+    ],
+    "task_deadlines": [
+      3,
+      2,
+      1
+    ],
+    "work_per_compute_unit": 4.0,
+    "queue_scale": 20.0,
+    "training_load": 0.5,
+    "minimum_new_transitions": 128,
+    "reward_weights": {
+      "completion": 1.0,
+      "deadline": 0.5,
+      "queue": 0.05,
+      "training": 0.12
+    },
+    "periodic_interval": 200,
+    "periodic_profile": "tr2",
+    "dpp": {
+      "quality_scale": 1.0,
+      "completion_target": 0.65,
+      "cost_scale": 1.0
+    },
+    "backbones": [
+      "dqn",
+      "ppo"
+    ],
+    "service_actions": [
+      "prioritize_light",
+      "prioritize_mixed",
+      "prioritize_cpu_heavy"
+    ],
+    "state_dimension": 14,
+    "agent": {
+      "hidden": [
+        128,
+        128
+      ],
+      "discount": 0.99,
+      "learning_rate": 0.0008,
+      "batch_size": 128,
+      "replay_capacity": 50000,
+      "warmup": 1000,
+      "target_update": 250,
+      "epsilon_start": 0.95,
+      "epsilon_end": 0.05,
+      "ppo_clip": 0.2,
+      "ppo_gae": 0.95,
+      "ppo_entropy": 0.01,
+      "gradient_clip": 1.0,
+      "threads": 1,
+      "device": "cpu"
+    },
+    "main_methods": [
+      "fusion",
+      "no_rt",
+      "periodic",
+      "reactive",
+      "dpp"
+    ],
+    "ablation_methods": [
+      "equal",
+      "fixed",
+      "workload",
+      "operating",
+      "performance",
+      "no_predictive",
+      "uncapped",
+      "no_disagreement",
+      "no_delayed"
+    ],
+    "stress_scenarios": [
+      "performance_outage",
+      "all_outage",
+      "operating_noise",
+      "conflict"
+    ],
+    "fault_interval": [
+      901,
+      1000
+    ],
+    "solver_audit": {
+      "training_profiles": 25,
+      "inference_profiles": 30,
+      "states_per_seed": 100
+    },
+    "statistics": {
+      "confidence": 0.95,
+      "paired_bootstrap": "enumerate all 5^5 seed resamples",
+      "wilcoxon": "exact two-sided"
+    }
+  },
+  "core_configuration": {
+    "schema_version": "2.0",
+    "description": "Core methodology: capped reliability fusion, causal delayed value, exact/AO coordination. Profile values require calibration.",
+    "evaluation_horizon": 3000,
+    "state_columns": [
+      "queue",
+      "arrival_rate",
+      "utilization",
+      "cpu_fraction",
+      "bandwidth"
+    ],
+    "normalization_std_floor": 0.001,
+    "fusion": {
+      "enabled_sources": [
+        0,
+        1,
+        2
+      ],
+      "weighting_mode": "reliability",
+      "maximum_source_weight": 0.7,
+      "fixed_weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "enable_predictive_calibration": true,
+      "use_support": true,
+      "use_freshness": true,
+      "use_noise": true,
+      "use_disagreement": true,
+      "window_size": 50,
+      "minimum_source_samples": 10,
+      "minimum_context_samples": 2,
+      "bootstrap_replicates": 32,
+      "bootstrap_block_size": 5,
+      "unsupported_noise_variance": 0.25,
+      "support_scale": 20.0,
+      "freshness_scale": 50.0,
+      "error_scale": 0.2,
+      "epsilon_noise": 0.0025,
+      "epsilon_reward": 1e-06,
+      "missing_source_penalty": 0.5,
+      "observed_cost_reward_scale": 0.12,
+      "seed": 20260930,
+      "predictive_calibration": {
+        "ridge": 0.1,
+        "forgetting": 0.99,
+        "error_rate": 0.15,
+        "error": 0.05
+      }
+    },
+    "coordination": {
+      "proxy_mode": "tangent",
+      "enable_delayed_value": true,
+      "dominance_pruning": false,
+      "nodes": 10,
+      "initial_recovery": 1.0,
+      "eta_gamma": 0.08,
+      "eta_uncertainty": 0.02,
+      "rho_min": 0.8,
+      "xi": 0.35,
+      "lambda_cost": 0.12,
+      "omega_intensity": 0.04,
+      "kappa_uncertainty": 0.08,
+      "lookahead": 16,
+      "exact_pair_limit": 30,
+      "ao_max_sweeps": 50,
+      "quality_update_rate": 0.1,
+      "quality_weights": {
+        "completion": 0.4,
+        "deadline_compliance": 0.3,
+        "availability": 0.15,
+        "throughput": 0.15
+      },
+      "trigger": {
+        "on": 0.15,
+        "off": 0.08,
+        "maximum_uncertainty": 0.8,
+        "minimum_coverage": 0.6666666666666666
+      }
+    }
+  },
+  "profile_priors": {
+    "schema_version": "1.0",
+    "provenance": "ILLUSTRATIVE: profile values require calibration before real deployment.",
+    "resource_order": [
+      "memory",
+      "compute",
+      "budget"
+    ],
+    "resource_units": "normalized per-node demand per unit workload",
+    "base_training_profile": "tr0",
+    "training": [
+      {
+        "id": "tr0",
+        "updates": 0,
+        "gain": 0.0,
+        "cost": 0.0,
+        "intensity": 0.0,
+        "deployment_delay": 1,
+        "resources": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "tr1",
+        "updates": 1,
+        "gain": 0.18,
+        "cost": 0.2,
+        "intensity": 0.125,
+        "deployment_delay": 1,
+        "resources": [
+          0.05,
+          0.1,
+          0.05
+        ]
+      },
+      {
+        "id": "tr2",
+        "updates": 2,
+        "gain": 0.25,
+        "cost": 0.4,
+        "intensity": 0.25,
+        "deployment_delay": 2,
+        "resources": [
+          0.1,
+          0.2,
+          0.12
+        ]
+      },
+      {
+        "id": "tr3",
+        "updates": 4,
+        "gain": 0.33,
+        "cost": 0.7,
+        "intensity": 0.5,
+        "deployment_delay": 4,
+        "resources": [
+          0.18,
+          0.38,
+          0.24
+        ]
+      },
+      {
+        "id": "tr4",
+        "updates": 8,
+        "gain": 0.42,
+        "cost": 1.0,
+        "intensity": 1.0,
+        "deployment_delay": 8,
+        "resources": [
+          0.3,
+          0.62,
+          0.42
+        ]
+      }
+    ],
+    "inference": [
+      {
+        "id": "inf0",
+        "beta": 0.6,
+        "resources": [
+          0.08,
+          0.16,
+          0.08
+        ],
+        "quality_prior": {
+          "completion": 0.9,
+          "deadline_compliance": 0.92,
+          "availability": 0.99,
+          "throughput": 0.85
+        }
+      },
+      {
+        "id": "inf1",
+        "beta": 0.68,
+        "resources": [
+          0.12,
+          0.24,
+          0.12
+        ],
+        "quality_prior": {
+          "completion": 0.91,
+          "deadline_compliance": 0.93,
+          "availability": 0.99,
+          "throughput": 0.87
+        }
+      },
+      {
+        "id": "inf2",
+        "beta": 0.76,
+        "resources": [
+          0.18,
+          0.34,
+          0.18
+        ],
+        "quality_prior": {
+          "completion": 0.92,
+          "deadline_compliance": 0.94,
+          "availability": 0.99,
+          "throughput": 0.89
+        }
+      },
+      {
+        "id": "inf3",
+        "beta": 0.84,
+        "resources": [
+          0.25,
+          0.46,
+          0.26
+        ],
+        "quality_prior": {
+          "completion": 0.93,
+          "deadline_compliance": 0.95,
+          "availability": 0.99,
+          "throughput": 0.91
+        }
+      },
+      {
+        "id": "inf4",
+        "beta": 0.92,
+        "resources": [
+          0.34,
+          0.62,
+          0.36
+        ],
+        "quality_prior": {
+          "completion": 0.94,
+          "deadline_compliance": 0.96,
+          "availability": 0.99,
+          "throughput": 0.93
+        }
+      },
+      {
+        "id": "inf5",
+        "beta": 1.0,
+        "resources": [
+          0.44,
+          0.8,
+          0.48
+        ],
+        "quality_prior": {
+          "completion": 0.95,
+          "deadline_compliance": 0.97,
+          "availability": 0.99,
+          "throughput": 0.95
+        }
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "seed": 10,
+      "path": "data/exogenous_seed_10.npz",
+      "sha256": "89bc6b8eefc6d324971cda57d0e8087ed373f56639aed30aa85db1dbe661baf8",
+      "provenance": "controlled_synthetic"
+    },
+    {
+      "seed": 20,
+      "path": "data/exogenous_seed_20.npz",
+      "sha256": "63bc4b0cfca329160a96f64913a669fa54c32d1361671d91521f8ab884b42520",
+      "provenance": "controlled_synthetic"
+    },
+    {
+      "seed": 30,
+      "path": "data/exogenous_seed_30.npz",
+      "sha256": "1234eb7ba568e578d2642480af61c9bdb5b308d6fc60df709fdfcae1e0871e8b",
+      "provenance": "controlled_synthetic"
+    },
+    {
+      "seed": 40,
+      "path": "data/exogenous_seed_40.npz",
+      "sha256": "a047954f73c6983b2d8c8125924b7743ec8fba86ee4762a8a6fbdc3faeddf71a",
+      "provenance": "controlled_synthetic"
+    },
+    {
+      "seed": 50,
+      "path": "data/exogenous_seed_50.npz",
+      "sha256": "ec7edc4d47e4e9d5ebfd24a4b9b4f82ebdcaa0e87dfe9ba08a86e52ca9a8f580",
+      "provenance": "controlled_synthetic"
+    }
+  ],
+  "runs": 95,
+  "python": "3.12.14",
+  "system": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "numpy": "1.26.4",
+  "torch": "2.3.1+cpu",
+  "device": "cpu",
+  "threads": 1,
+  "deterministic_algorithms": true,
+  "calibration_in_evaluation_return": false,
+  "unexecuted_policy_returns_used": false,
+  "elapsed_seconds": 248.17216708600245
+}

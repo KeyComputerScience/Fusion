@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "provenance": "ILLUSTRATIVE: profile values require calibration before real deployment.",
+  "resource_order": [
+    "memory",
+    "compute",
+    "budget"
+  ],
+  "resource_units": "normalized per-node demand per unit workload",
+  "base_training_profile": "tr0",
+  "training": [
+    {
+      "id": "tr0",
+      "updates": 0,
+      "gain": 0.0,
+      "cost": 0.0,
+      "intensity": 0.0,
+      "deployment_delay": 1,
+      "resources": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tr1",
+      "updates": 1,
+      "gain": 0.18,
+      "cost": 0.2,
+      "intensity": 0.125,
+      "deployment_delay": 1,
+      "resources": [
+        0.05,
+        0.1,
+        0.05
+      ]
+    },
+    {
+      "id": "tr2",
+      "updates": 2,
+      "gain": 0.25,
+      "cost": 0.4,
+      "intensity": 0.25,
+      "deployment_delay": 2,
+      "resources": [
+        0.1,
+        0.2,
+        0.12
+      ]
+    },
+    {
+      "id": "tr3",
+      "updates": 4,
+      "gain": 0.33,
+      "cost": 0.7,
+      "intensity": 0.5,
+      "deployment_delay": 4,
+      "resources": [
+        0.18,
+        0.38,
+        0.24
+      ]
+    },
+    {
+      "id": "tr4",
+      "updates": 8,
+      "gain": 0.42,
+      "cost": 1.0,
+      "intensity": 1.0,
+      "deployment_delay": 8,
+      "resources": [
+        0.3,
+        0.62,
+        0.42
+      ]
+    }
+  ],
+  "inference": [
+    {
+      "id": "inf0",
+      "beta": 0.6,
+      "resources": [
+        0.08,
+        0.16,
+        0.08
+      ],
+      "quality_prior": {
+        "completion": 0.08780749604623918,
+        "deadline_compliance": 0.9400849161854538,
+        "availability": 1.0,
+        "throughput": 0.1690860667969801
+      }
+    },
+    {
+      "id": "inf1",
+      "beta": 0.68,
+      "resources": [
+        0.12,
+        0.24,
+        0.12
+      ],
+      "quality_prior": {
+        "completion": 0.1804515419032361,
+        "deadline_compliance": 0.9395608234267095,
+        "availability": 1.0,
+        "throughput": 0.44694937151341946
+      }
+    },
+    {
+      "id": "inf2",
+      "beta": 0.76,
+      "resources": [
+        0.18,
+        0.34,
+        0.18
+      ],
+      "quality_prior": {
+        "completion": 0.2499754668284545,
+        "deadline_compliance": 0.9235107231718029,
+        "availability": 1.0,
+        "throughput": 0.7263364611292075
+      }
+    },
+    {
+      "id": "inf3",
+      "beta": 0.84,
+      "resources": [
+        0.25,
+        0.46,
+        0.26
+      ],
+      "quality_prior": {
+        "completion": 0.36609399258829994,
+        "deadline_compliance": 0.9250800588306543,
+        "availability": 1.0,
+        "throughput": 0.9289216351412307
+      }
+    },
+    {
+      "id": "inf4",
+      "beta": 0.92,
+      "resources": [
+        0.34,
+        0.62,
+        0.36
+      ],
+      "quality_prior": {
+        "completion": 0.4843919036858626,
+        "deadline_compliance": 0.9449940758551549,
+        "availability": 1.0,
+        "throughput": 0.9853260559978153
+      }
+    },
+    {
+      "id": "inf5",
+      "beta": 1.0,
+      "resources": [
+        0.44,
+        0.8,
+        0.48
+      ],
+      "quality_prior": {
+        "completion": 0.6840206447816203,
+        "deadline_compliance": 0.9752958260004583,
+        "availability": 1.0,
+        "throughput": 0.9984126082251084
+      }
+    }
+  ]
+}
