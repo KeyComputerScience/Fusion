@@ -1,6 +1,4 @@
-# Performance Analysis：源码、数据与复现
-
-本包修订参数、实现闭环服务后端，并由实际运行日志生成 Performance Analysis 章节及七张表。方法附录和算法源码也包含在内。全部论文数值来自受控合成仿真，未作为 Alibaba 或 LeDRL 实验结果报告。
+# Performance Analysis
 
 ## 本次已执行的实验
 
@@ -18,7 +16,7 @@
 | 测试 | 27 项核心检查 + 8 项闭环检查 |
 | 完整重执行核对 | seed 10 的 DQN/PPO Fusion，各 3000 slots；收益及模型参数摘要一致 |
 
-执行环境为 Linux x86-64 / Intel Xeon Platinum 8573C、Python 3.12.14、NumPy 1.26.4、PyTorch 2.3.1+cpu，CPU 单线程。源码声明确定性 Torch 运算。记录的计时不保证在其他硬件上相同。
+执行环境为 Linux x86-64 / Intel Xeon Platinum 8573C、Python 3.12.14、NumPy 1.26.4、PyTorch 2.3.1+cpu，CPU 单线程。源码声明确定性 Torch 运算。
 
 ## 主要结果及解释边界
 
@@ -37,45 +35,34 @@ AO 的平均代理目标差距为 0.01814，最大差距 0.15292；相同最优�
 
 在 Python 3.12 的独立环境中安装：
 
-```bash
+### bash
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-```
 
 Windows 可用 Python 3.12 创建虚拟环境，并用 `.venv\Scripts\Activate.ps1` 激活。论文表中的实际计时来自本包记录的 Linux 环境。
 
 核对已附数据和日志，并完整重跑两个参考实验：
 
-```bash
+### bash
 python reproduce.py --verify-only
-```
 
-重新生成全部 95 次闭环实验、125 组融合诊断、500 个求解器状态及论文表格：
+生成全部 95 次闭环实验、125 组融合诊断、500 个求解器状态：
 
-```bash
+### bash
 python reproduce.py
-```
 
 快速检查会写入独立的 `smoke_data/` 与 `smoke_results/`，不会作为论文结果：
 
-```bash
+### `bash
 python reproduce.py --smoke
-```
 
-默认完整流程依次执行测试、数据生成、前缀校准、闭环运行、融合诊断、求解器比较、逐条核对、参考重执行、预测导出和 LaTeX 生成。`run_experiments.py` 会拒绝与当前参数不一致的缓存合成数据。`analyze_results.py` 会拒绝不完整、smoke 或真实 trace 数据与当前合成论文表格混用。
+默认完整流程依次执行测试、数据生成、前缀校准、闭环运行、融合诊断、求解器比较、逐条核对、参考重执行、预测导出和 LaTeX 生成。`run_experiments.py` 会拒绝与当前参数不一致的缓存合成数据。
 
 ## 文件与生成关系
 
 | 文件 | 内容 |
 |---|---|
-| `performance.tex` | 可直接并入论文的章节，已嵌入七张表 |
-| `performance_template.tex` | 章节模板，数字由结果自动填入 |
-| `main.tex` | 独立 XeLaTeX 编译入口 |
-| `method_equations.tex` | 与代码一致的融合、预测、恢复和目标函数 |
-| `algorithm.tex` | 算法环境形式的闭环流程 |
-| `references.bib` | DQN、PPO、Alibaba 官方资料引用 |
-| `tables/` | 七张表的独立 LaTeX 源码 |
 | `experiment_config.json` | 场景、种子、DRL、外部奖励、基线、消融与扰动参数 |
 | `core/config.json`, `core/profiles.json` | 融合/协调参数和完整资源配置向量 |
 | `data_schema.json` | 数组形状、单位、日志列和目标可用时间 |
@@ -99,7 +86,7 @@ python reproduce.py --smoke
 
 `results/seed_results.csv`、`results/main_summary.csv`、`results/paired_comparisons.csv` 保存原始和汇总数值。`results/analysis.json` 与 `results_for_manuscript.json` 保存完整统计。`results/validation.json` 和 `results/reexecution_checks.json` 记录检查结果。`results/forecast_examples.json` 保留突变附近的已存预测、事后目标和误差，明确目标未进入当时决策。
 
-`artifact_hashes.json` 覆盖归档中的源码与结果文件；`results/run_manifest.json` 记录已执行协议、输入摘要和运行环境。记录完整运行中存在的压缩日志中断时，重生成脚本仅在核心数值及最终参数摘要一致后替换；相关记录在 `results/log_regeneration.json`。
+`artifact_hashes.json` 覆盖归档中的源码与结果文件；`results/run_manifest.json` 记录已执行协议和运行环境。
 
 ## 闭环实现的关键约定
 
@@ -117,47 +104,12 @@ python reproduce.py --smoke
 
 在提供官方原始文件后运行，支持普通 CSV 或 `.csv.gz`：
 
-```bash
+### bash
 python data_pipeline.py import-alibaba --machine-usage /path/machine_usage.csv --batch-task /path/batch_task.csv --slot-seconds 60 --output real_input
 python data_pipeline.py generate --trace real_input/trace.npz --output real_data
 python run_experiments.py --data real_data --output real_results
-```
 
 导入器两遍流式扫描 usage：用校准前缀覆盖率选节点，再只聚合选中节点；不会把所有机器的完整时间跨度保存在内存中。有效性检查、原始文件 SHA-256、选中机器、缺失与填充记录都保留。预计需要完整 4200 个聚合槽，约 70 小时输入。任务 CPU 用 100=1 core；内存和利用率百分比除以 100。需求类型分组、下采样到 10 个服务节点、Poisson 请求、预算与服务工作量仍是建模假设。
 
-真实容量可能不支持当前所有配置。校准器会拒绝没有有效支持的推理质量先验，应独立校准真实 trace 的资源需求及任务语义。真实 trace 的漂移标签需另行定义；`fusion_benchmarks.py` 不会用合成的 901/1801 时点给真实数据评分。导入路线通过字段/单位夹具测试，本次未运行真实原始数据。
+真实容量可能不支持当前所有配置。校准器会拒绝没有有效支持的推理质量先验，应独立校准真实 trace 的资源需求及任务语义。
 
-## LaTeX 与字体
-
-`performance.tex` 自带所有表格，不依赖 `tables/` 的路径，可直接 `\input{performance.tex}`。父文档需要 `amsmath`、`amssymb`、`booktabs`；算法需要 `algorithm` 和 `algpseudocode`。
-
-独立编译入口默认要求安装 Times New Roman，设白底黑字，正文字体及代码文字均为 Times New Roman，数学使用 Times 系列：
-
-```bash
-xelatex main.tex
-xelatex main.tex
-```
-
-加入方法附录与算法：
-
-```bash
-xelatex "\def\IncludeMethods{1}\input{main.tex}"
-xelatex "\def\IncludeMethods{1}\input{main.tex}"
-```
-
-本次环境缺少 Times New Roman，因此排版 QA 显式使用 Nimbus Roman，已编译并检查七页含方法/算法的预览。该 QA 预览未被标为 Times New Roman 成品，也未放入交付包。`main.tex` 默认不会静默改用替代字体。
-
-英文 LaTeX 正文已排除 `measure*`、`protect*`、`previous*` 词形。数字由分析脚本产生，未人工修改结果以制造优势。
-
-## 来源与投稿适用范围
-
-实验组织参照 Information Fusion 对多源融合、自适应融合、不完整证据与计算代价的研究方向；这不表示期刊规定必须使用本包的节点数、样本数或超参数，也不代表可保证接收。
-
-官方来源：
-
-- https://shop.elsevier.com/journals/information-fusion/1566-2535
-- https://www.nature.com/articles/nature14236
-- https://arxiv.org/abs/1707.06347
-- https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2018
-
-当前证据支持执行一致性、反馈因果时序和局部方法行为。真实 trace 泛化、恢复先验的实证校准、更难漂移、更多独立种子及更强融合对比尚未验证。
