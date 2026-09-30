@@ -1,0 +1,4082 @@
+[
+  {
+    "completed_slot": 1250,
+    "window_index": 1,
+    "scores": [
+      null,
+      null,
+      null
+    ],
+    "masks": [
+      false,
+      false,
+      false
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      0,
+      0,
+      0
+    ],
+    "ages": [
+      null,
+      null,
+      null
+    ],
+    "noise_variances": [
+      null,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      null,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 1.0,
+    "coverage": 0.0,
+    "fallback": true,
+    "fallback_reason": "no_completed_pair",
+    "valid_masks": [
+      false,
+      false,
+      false
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1251
+  },
+  {
+    "completed_slot": 1300,
+    "window_index": 2,
+    "scores": [
+      0.030669398254338138,
+      0.1488752317179546,
+      0.008051092806943156
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      201.3328574238862,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0002630178240168068,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.030669398254338138,
+      null,
+      null
+    ],
+    "gamma": 0.030669398254338138,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1301
+  },
+  {
+    "completed_slot": 1350,
+    "window_index": 3,
+    "scores": [
+      0.0015284029975106465,
+      0.17774678041328665,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      220.05182263226325,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00012272671456055103,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.04264109179839248,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.0,
+      null,
+      null
+    ],
+    "gamma": 0.0015284029975106465,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1351
+  },
+  {
+    "completed_slot": 1400,
+    "window_index": 4,
+    "scores": [
+      0.002525492019458462,
+      0.21431623382618525,
+      0.0416042270566627
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      225.62878895308012,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00013759916538607216,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.036504564784980965,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.007309195434753237,
+      null,
+      null
+    ],
+    "gamma": 0.002525492019458462,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1401
+  },
+  {
+    "completed_slot": 1450,
+    "window_index": 5,
+    "scores": [
+      0.002525492019458462,
+      0.19217593534991176,
+      0.027697231752915507
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      230.62609597582306,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00015124441681042234,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.031091230870970425,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.013971886749103048,
+      null,
+      null
+    ],
+    "gamma": 0.002525492019458462,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1451
+  },
+  {
+    "completed_slot": 1500,
+    "window_index": 6,
+    "scores": [
+      0.002525492019458462,
+      0.2183357574039051,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      230.7384072589116,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00021207566082119493,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.026456828283224324,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.010504426769373005,
+      null,
+      null
+    ],
+    "gamma": 0.002525492019458462,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1501
+  },
+  {
+    "completed_slot": 1550,
+    "window_index": 7,
+    "scores": [
+      0.014587090743909526,
+      0.07905330673420938,
+      0.013467243426132437
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      223.65188421436636,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0003540646858217107,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.02248962078312191,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.023022816288863324,
+      null,
+      null
+    ],
+    "gamma": 0.014587090743909526,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1551
+  },
+  {
+    "completed_slot": 1600,
+    "window_index": 8,
+    "scores": [
+      0.0032255658444625313,
+      0.18190904850625575,
+      0.01296114118352456
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      251.37353137824937,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      8.231483704936785e-05,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.019131363261542432,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.01010168586061903,
+      null,
+      null
+    ],
+    "gamma": 0.0032255658444625313,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1601
+  },
+  {
+    "completed_slot": 1650,
+    "window_index": 9,
+    "scores": [
+      0.01767400022502534,
+      0.16079093511496217,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      237.99583506850948,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00026667168959826836,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.016276965380895063,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.022915286538209463,
+      null,
+      null
+    ],
+    "gamma": 0.01767400022502534,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1651
+  },
+  {
+    "completed_slot": 1700,
+    "window_index": 10,
+    "scores": [
+      0.04120259398127841,
+      0.2238776536376809,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      226.4113647135873,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00044279133370497706,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.01391418712733004,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.043177102078233096,
+      null,
+      null
+    ],
+    "gamma": 0.04120259398127841,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1701
+  },
+  {
+    "completed_slot": 1750,
+    "window_index": 11,
+    "scores": [
+      0.041202593981278415,
+      0.24938963644681644,
+      0.037269043695724625
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      212.57955905216375,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0006670648823992838,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.011832294831308203,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.042450292156369855,
+      null,
+      null
+    ],
+    "gamma": 0.041202593981278415,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1751
+  },
+  {
+    "completed_slot": 1800,
+    "window_index": 12,
+    "scores": [
+      0.005209229512132396,
+      0.1767476030889624,
+      0.003622488129271683
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      247.97235691076,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00023613903312757632,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.010283590361446982,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.003098607479787874,
+      null,
+      null
+    ],
+    "gamma": 0.005209229512132396,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1801
+  },
+  {
+    "completed_slot": 1850,
+    "window_index": 13,
+    "scores": [
+      0.002525492019458462,
+      0.19599695282379262,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      257.8862666698295,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00015130486695103538,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.008742492012477005,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.00018690720970140386,
+      null,
+      null
+    ],
+    "gamma": 0.002525492019458462,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1851
+  },
+  {
+    "completed_slot": 1900,
+    "window_index": 14,
+    "scores": [
+      0.01007286462500093,
+      0.09543717269063341,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      264.0807080041665,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00010614640356758757,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.007431123450751209,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.007524630812727224,
+      null,
+      null
+    ],
+    "gamma": 0.01007286462500093,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1901
+  },
+  {
+    "completed_slot": 1950,
+    "window_index": 15,
+    "scores": [
+      0.01007286462500093,
+      0.06400847391598705,
+      0.05925499653230511
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      266.6828475160863,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      8.993720255003267e-05,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.006717859543760719,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.011724806613783072,
+      null,
+      null
+    ],
+    "gamma": 0.01007286462500093,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 1951
+  },
+  {
+    "completed_slot": 2000,
+    "window_index": 16,
+    "scores": [
+      0.0,
+      0.05164522932766178,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      267.0305863971326,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      9.936147505443233e-05,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.005730801275716203,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.0010363572798376402,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2001
+  },
+  {
+    "completed_slot": 2050,
+    "window_index": 17,
+    "scores": [
+      0.014587090743909526,
+      0.1527553358049924,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      241.00449086773637,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0003924698710182158,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.004871342189820493,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.015154648831021276,
+      null,
+      null
+    ],
+    "gamma": 0.014587090743909526,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2051
+  },
+  {
+    "completed_slot": 2100,
+    "window_index": 18,
+    "scores": [
+      0.005209229512132396,
+      0.15879114325683105,
+      0.01705785754184074
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      264.5822648639235,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00014434896807661186,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.00414118419185696,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.006156779309536791,
+      null,
+      null
+    ],
+    "gamma": 0.005209229512132396,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2101
+  },
+  {
+    "completed_slot": 2150,
+    "window_index": 19,
+    "scores": [
+      0.020294448000613266,
+      0.7967866376624912,
+      0.5386124202670607
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      208.40021371258916,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      40
+    ],
+    "ages": [
+      0,
+      0,
+      1
+    ],
+    "noise_variances": [
+      0.0002226098310206677,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.04604635800120155,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.05421230230297232,
+      null,
+      null
+    ],
+    "gamma": 0.020294448000613266,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2151
+  },
+  {
+    "completed_slot": 2200,
+    "window_index": 20,
+    "scores": [
+      0.0,
+      0.23795777735661378,
+      0.05559317510729754
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      234.93147100551036,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      48
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.03913969032247657,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03538612166684703,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2201
+  },
+  {
+    "completed_slot": 2250,
+    "window_index": 21,
+    "scores": [
+      1.0,
+      0.13354308845500554,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      241.7029501361391,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      46
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.03345656341509822,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.9699640912311611,
+      null,
+      null
+    ],
+    "gamma": 1.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2251
+  },
+  {
+    "completed_slot": 2300,
+    "window_index": 22,
+    "scores": [
+      0.002525492019458462,
+      0.198495921194409,
+      0.11234932960451537
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      134.49909646612198,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      39
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00015357518465925686,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.13876354080682274,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.039073111843944436,
+      null,
+      null
+    ],
+    "gamma": 0.002525492019458462,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2301
+  },
+  {
+    "completed_slot": 2350,
+    "window_index": 23,
+    "scores": [
+      0.020294448000613266,
+      0.16464607190724045,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      146.72638802058356,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      48
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0001961461902933379,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.11817801589617474,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.039446977792825966,
+      null,
+      null
+    ],
+    "gamma": 0.020294448000613266,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2351
+  },
+  {
+    "completed_slot": 2400,
+    "window_index": 24,
+    "scores": [
+      0.020294448000613266,
+      0.13899388040365693,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      163.25752604476105,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      46
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00014462838511695007,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.10068472312029669,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.037402670589955125,
+      null,
+      null
+    ],
+    "gamma": 0.020294448000613266,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2401
+  },
+  {
+    "completed_slot": 2450,
+    "window_index": 25,
+    "scores": [
+      0.0,
+      0.2130757478915835,
+      0.0881005528682592
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      176.19299734862176,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00013758913255958592,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0859675559423779,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03700949780877366,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2451
+  },
+  {
+    "completed_slot": 2500,
+    "window_index": 26,
+    "scores": [
+      0.0015284029975106465,
+      0.23465787042861655,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      181.38961540079373,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      40
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00022984918295238907,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.07327787799022986,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03539433106762508,
+      null,
+      null
+    ],
+    "gamma": 0.0015284029975106465,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2501
+  },
+  {
+    "completed_slot": 2550,
+    "window_index": 27,
+    "scores": [
+      0.030669398254338138,
+      0.2182352591532178,
+      0.022971900463987335
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      192.12363288618647,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0002226270386505441,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.06230934380901071,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03906939865426868,
+      null,
+      null
+    ],
+    "gamma": 0.030669398254338138,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2551
+  },
+  {
+    "completed_slot": 2600,
+    "window_index": 28,
+    "scores": [
+      0.06276448651079401,
+      0.20990836081447833,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      167.7955973614479,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      44
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0007627714148091836,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.053191904924340026,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.04208426818597777,
+      null,
+      null
+    ],
+    "gamma": 0.06276448651079401,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2601
+  },
+  {
+    "completed_slot": 2650,
+    "window_index": 29,
+    "scores": [
+      0.01635266301738329,
+      0.1631206184335881,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      194.4753209810443,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0004258465617193423,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.04547878203000142,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03349939998225337,
+      null,
+      null
+    ],
+    "gamma": 0.01635266301738329,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2651
+  },
+  {
+    "completed_slot": 2700,
+    "window_index": 30,
+    "scores": [
+      0.002525492019458462,
+      0.10413474435289746,
+      0.026497104631152478
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      202.71557161128453,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      48
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00040419886165001613,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.03866431954652882,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.031171744857190885,
+      null,
+      null
+    ],
+    "gamma": 0.002525492019458462,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2701
+  },
+  {
+    "completed_slot": 2750,
+    "window_index": 31,
+    "scores": [
+      0.010074367041093144,
+      0.1451110541407688,
+      0.08590859820938342
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      226.02804402379508,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      48
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00017527856607669833,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.03331409008178441,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.0345481674650337,
+      null,
+      null
+    ],
+    "gamma": 0.010074367041093144,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2751
+  },
+  {
+    "completed_slot": 2800,
+    "window_index": 32,
+    "scores": [
+      0.01762480774187877,
+      0.13398924562654554,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      225.84216278062178,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      48
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00024276522336467445,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.028496012950795548,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.034272318522536316,
+      null,
+      null
+    ],
+    "gamma": 0.01762480774187877,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2801
+  },
+  {
+    "completed_slot": 2850,
+    "window_index": 33,
+    "scores": [
+      0.0015284029975106465,
+      0.2608907791289535,
+      0.010809588285453819
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      225.75678557155024,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      48
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00030191710370449076,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.02430418596470293,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.031018353001657242,
+      null,
+      null
+    ],
+    "gamma": 0.0015284029975106465,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2851
+  },
+  {
+    "completed_slot": 2900,
+    "window_index": 34,
+    "scores": [
+      0.010279759564375294,
+      0.2305233622478006,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      227.03211893292988,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00033538334795319937,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.020802878803437803,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03112421750159961,
+      null,
+      null
+    ],
+    "gamma": 0.010279759564375294,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2901
+  },
+  {
+    "completed_slot": 2950,
+    "window_index": 35,
+    "scores": [
+      0.05189916032131552,
+      0.1669143942860481,
+      0.03998762341867675
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      230.37775089365184,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      48
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00033797715952215443,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.017694230977589764,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03759410474556654,
+      null,
+      null
+    ],
+    "gamma": 0.05189916032131552,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 2951
+  },
+  {
+    "completed_slot": 3000,
+    "window_index": 36,
+    "scores": [
+      0.0,
+      0.17481354672246602,
+      0.03481584836991856
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      265.0148970795292,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      42
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.015041254137224623,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.029835821064738647,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3001
+  },
+  {
+    "completed_slot": 3050,
+    "window_index": 37,
+    "scores": [
+      1.0,
+      0.6815633400075903,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      267.84256081400935,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      36
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      1.3481509610710651e-33,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.012918592449431995,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.17784029747178431,
+      null,
+      null
+    ],
+    "gamma": 1.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3051
+  },
+  {
+    "completed_slot": 3100,
+    "window_index": 38,
+    "scores": [
+      0.01903872126700702,
+      0.12774568948808313,
+      0.01905840776684961
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      192.1315851499548,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0009531600953455534,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.014762556856757703,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.0309718049914325,
+      null,
+      null
+    ],
+    "gamma": 0.01903872126700702,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3101
+  },
+  {
+    "completed_slot": 3150,
+    "window_index": 39,
+    "scores": [
+      0.040432600584635,
+      0.20881106774752806,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      183.0242849810754,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.001162712112492251,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.012692061233908146,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03135583673533128,
+      null,
+      null
+    ],
+    "gamma": 0.040432600584635,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3151
+  },
+  {
+    "completed_slot": 3200,
+    "window_index": 40,
+    "scores": [
+      0.012940594619554352,
+      0.12544688933707787,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      230.6505542110668,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00043204630806785243,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.010935730323427836,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.028500869857534954,
+      null,
+      null
+    ],
+    "gamma": 0.012940594619554352,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3201
+  },
+  {
+    "completed_slot": 3250,
+    "window_index": 41,
+    "scores": [
+      0.02033554072368589,
+      0.2045034584962669,
+      0.04634107724718794
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      250.13134610755668,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00022530764614376436,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.009343111724869534,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.029576919081563024,
+      null,
+      null
+    ],
+    "gamma": 0.02033554072368589,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3251
+  },
+  {
+    "completed_slot": 3300,
+    "window_index": 42,
+    "scores": [
+      0.020640297600894635,
+      0.15417739871598207,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      240.71969452392736,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0003499047099388431,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.008072864087492703,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02866639612568936,
+      null,
+      null
+    ],
+    "gamma": 0.020640297600894635,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3301
+  },
+  {
+    "completed_slot": 3350,
+    "window_index": 43,
+    "scores": [
+      0.010084866371934943,
+      0.22683971795419317,
+      0.10275125949627742
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      253.17775652509798,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00021492711512982883,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0076852195214646025,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.030256083597296073,
+      null,
+      null
+    ],
+    "gamma": 0.010084866371934943,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3351
+  },
+  {
+    "completed_slot": 3400,
+    "window_index": 44,
+    "scores": [
+      0.010890971952645578,
+      0.20090997591019547,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      259.4544675753152,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00016273305973006096,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.006669751182441897,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.029378380279805265,
+      null,
+      null
+    ],
+    "gamma": 0.010890971952645578,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3401
+  },
+  {
+    "completed_slot": 3450,
+    "window_index": 45,
+    "scores": [
+      0.041420615114313476,
+      0.08199833481430645,
+      0.022670397874469294
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      258.60221518649985,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00018481498766849302,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.005676038059268157,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.031215698327313704,
+      null,
+      null
+    ],
+    "gamma": 0.041420615114313476,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3451
+  },
+  {
+    "completed_slot": 3500,
+    "window_index": 46,
+    "scores": [
+      0.04835996578611165,
+      0.09220005078449185,
+      0.029075395173778707
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      248.44735189730613,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.000306464441975877,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.004825319485016287,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.03161903949720215,
+      null,
+      null
+    ],
+    "gamma": 0.04835996578611165,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3501
+  },
+  {
+    "completed_slot": 3550,
+    "window_index": 47,
+    "scores": [
+      0.0,
+      0.12027062004684545,
+      0.04055999470778089
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      267.0858496407828,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00011992407431813254,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.004113512664275481,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.028637566993098246,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3551
+  },
+  {
+    "completed_slot": 3600,
+    "window_index": 48,
+    "scores": [
+      0.00215162595499813,
+      0.2562829244956222,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      253.26067854753794,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00026977536871364467,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0036195023011267873,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.027945879294071784,
+      null,
+      null
+    ],
+    "gamma": 0.00215162595499813,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3601
+  },
+  {
+    "completed_slot": 3650,
+    "window_index": 49,
+    "scores": [
+      0.000638346562879042,
+      0.20364991373066887,
+      0.0414960707470985
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      271.46973353481593,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      9.065774054286649e-05,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.003104118109219821,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02823076781515123,
+      null,
+      null
+    ],
+    "gamma": 0.000638346562879042,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3651
+  },
+  {
+    "completed_slot": 3700,
+    "window_index": 50,
+    "scores": [
+      0.010656676737534792,
+      0.1987164658026675,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      257.512855251612,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00023579799840755118,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0027580468305517945,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02812141549558686,
+      null,
+      null
+    ],
+    "gamma": 0.010656676737534792,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3701
+  },
+  {
+    "completed_slot": 3750,
+    "window_index": 51,
+    "scores": [
+      0.0,
+      0.13179123977413468,
+      0.017904855845155776
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      257.9776508310508,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00023630946872817303,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0023599965196326477,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02711398170519992,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3751
+  },
+  {
+    "completed_slot": 3800,
+    "window_index": 52,
+    "scores": [
+      0.012498664535781022,
+      0.1918225086575574,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      251.2432959746313,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00031307982088672954,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.002116272242274238,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.027246064379080847,
+      null,
+      null
+    ],
+    "gamma": 0.012498664535781022,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3801
+  },
+  {
+    "completed_slot": 3850,
+    "window_index": 53,
+    "scores": [
+      0.0005661215746894137,
+      0.11001700201245398,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      276.56383620737193,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      1
+    ],
+    "noise_variances": [
+      5.8165647327170616e-05,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0019101836095554551,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.025698313087840898,
+      null,
+      null
+    ],
+    "gamma": 0.0005661215746894137,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3851
+  },
+  {
+    "completed_slot": 3900,
+    "window_index": 54,
+    "scores": [
+      0.011116492865944867,
+      0.25009250532930855,
+      0.05914105424858319
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      238.5323008451372,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      49
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00046780082284370283,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0017914186085737978,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.027307743672082684,
+      null,
+      null
+    ],
+    "gamma": 0.011116492865944867,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3901
+  },
+  {
+    "completed_slot": 3950,
+    "window_index": 55,
+    "scores": [
+      0.0011115962218487536,
+      0.14896747960653273,
+      0.0068673326613088405
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      269.92053744314063,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00012538760858706282,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0015853773776311328,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02609371989975296,
+      null,
+      null
+    ],
+    "gamma": 0.0011115962218487536,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 3951
+  },
+  {
+    "completed_slot": 4000,
+    "window_index": 56,
+    "scores": [
+      0.025599882845986497,
+      0.28928560734964703,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      201.3010164017516,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0010227190366686072,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0014497031037174774,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02715821411329132,
+      null,
+      null
+    ],
+    "gamma": 0.025599882845986497,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 4001
+  },
+  {
+    "completed_slot": 4050,
+    "window_index": 57,
+    "scores": [
+      0.016310067062712753,
+      0.30746540002693584,
+      0.09186315752388757
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      248.02029365629693,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.0003532856355055387,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0018602570934251254,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02805930890424214,
+      null,
+      null
+    ],
+    "gamma": 0.016310067062712753,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 4051
+  },
+  {
+    "completed_slot": 4100,
+    "window_index": 58,
+    "scores": [
+      0.0,
+      0.15738571454516276,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      275.8060042329307,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      6.790070996611882e-05,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.001699317251838909,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.026243580565065865,
+      null,
+      null
+    ],
+    "gamma": 0.0,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 4101
+  },
+  {
+    "completed_slot": 4150,
+    "window_index": 59,
+    "scores": [
+      0.010079270553765937,
+      0.2905102312221767,
+      0.0
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      270.8302510266381,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.00011706158319824528,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.001547728492194338,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.02631735003200154,
+      null,
+      null
+    ],
+    "gamma": 0.010079270553765937,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 4151
+  },
+  {
+    "completed_slot": 4200,
+    "window_index": 60,
+    "scores": [
+      0.0205508694405006,
+      0.06373086564234876,
+      0.01444412507291579
+    ],
+    "masks": [
+      true,
+      false,
+      false
+    ],
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "reliability": [
+      260.6743852783952,
+      0.0,
+      0.0
+    ],
+    "effective_samples": [
+      50,
+      50,
+      50
+    ],
+    "ages": [
+      0,
+      0,
+      0
+    ],
+    "noise_variances": [
+      0.000221892481641094,
+      null,
+      null
+    ],
+    "predictive_errors": [
+      0.0013367152390045458,
+      0.05,
+      0.05
+    ],
+    "next_target_predictions": [
+      0.026784549576793295,
+      null,
+      null
+    ],
+    "gamma": 0.0205508694405006,
+    "disagreement": 0.0,
+    "uncertainty": 0.0,
+    "coverage": 1.0,
+    "fallback": false,
+    "fallback_reason": "",
+    "valid_masks": [
+      true,
+      true,
+      true
+    ],
+    "weighting_mode": "reliability",
+    "effective_weight_cap": 1.0,
+    "source_names": [
+      "workload",
+      "operating",
+      "performance"
+    ],
+    "available_from_slot": 4201
+  }
+]
