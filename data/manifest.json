@@ -1,0 +1,405 @@
+{
+  "protocol": {
+    "schema_version": "1.0",
+    "data_kind": "controlled_synthetic_closed_loop",
+    "seeds": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "calibration_slots": 1200,
+    "evaluation_slots": 3000,
+    "slot_duration": "abstract service slot; no conversion to hardware latency",
+    "drift_onsets": [
+      901,
+      1801
+    ],
+    "phase_rates": [
+      1.15,
+      2.2,
+      1.45
+    ],
+    "phase_mixes": [
+      [
+        0.75,
+        0.2,
+        0.05
+      ],
+      [
+        0.1,
+        0.3,
+        0.6
+      ],
+      [
+        0.55,
+        0.35,
+        0.1
+      ]
+    ],
+    "capacity_uniform": [
+      0.8,
+      1.2
+    ],
+    "capacity_wave_amplitude": 0.08,
+    "task_work": [
+      1.0,
+      1.2,
+      1.8
+    ],
+    "task_deadlines": [
+      3,
+      2,
+      1
+    ],
+    "work_per_compute_unit": 4.0,
+    "queue_scale": 20.0,
+    "training_load": 0.5,
+    "minimum_new_transitions": 128,
+    "reward_weights": {
+      "completion": 1.0,
+      "deadline": 0.5,
+      "queue": 0.05,
+      "training": 0.12
+    },
+    "periodic_interval": 200,
+    "periodic_profile": "tr2",
+    "dpp": {
+      "quality_scale": 1.0,
+      "completion_target": 0.65,
+      "cost_scale": 1.0
+    },
+    "backbones": [
+      "dqn",
+      "ppo"
+    ],
+    "service_actions": [
+      "prioritize_light",
+      "prioritize_mixed",
+      "prioritize_cpu_heavy"
+    ],
+    "state_dimension": 14,
+    "agent": {
+      "hidden": [
+        128,
+        128
+      ],
+      "discount": 0.99,
+      "learning_rate": 0.0008,
+      "batch_size": 128,
+      "replay_capacity": 50000,
+      "warmup": 1000,
+      "target_update": 250,
+      "epsilon_start": 0.95,
+      "epsilon_end": 0.05,
+      "ppo_clip": 0.2,
+      "ppo_gae": 0.95,
+      "ppo_entropy": 0.01,
+      "gradient_clip": 1.0,
+      "threads": 1,
+      "device": "cpu"
+    },
+    "main_methods": [
+      "fusion",
+      "no_rt",
+      "periodic",
+      "reactive",
+      "dpp"
+    ],
+    "ablation_methods": [
+      "equal",
+      "fixed",
+      "workload",
+      "operating",
+      "performance",
+      "no_predictive",
+      "uncapped",
+      "no_disagreement",
+      "no_delayed"
+    ],
+    "stress_scenarios": [
+      "performance_outage",
+      "all_outage",
+      "operating_noise",
+      "conflict"
+    ],
+    "fault_interval": [
+      901,
+      1000
+    ],
+    "solver_audit": {
+      "training_profiles": 25,
+      "inference_profiles": 30,
+      "states_per_seed": 100
+    },
+    "statistics": {
+      "confidence": 0.95,
+      "paired_bootstrap": "enumerate all 5^5 seed resamples",
+      "wilcoxon": "exact two-sided"
+    }
+  },
+  "streams": [
+    {
+      "seed": 10,
+      "path": "data/exogenous_seed_10.npz",
+      "sha256": "89bc6b8eefc6d324971cda57d0e8087ed373f56639aed30aa85db1dbe661baf8",
+      "provenance": "controlled_synthetic",
+      "arrays": {
+        "arrivals": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "int64"
+        },
+        "capacities": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "rates": {
+          "shape": [
+            4200
+          ],
+          "dtype": "float64"
+        },
+        "mixes": {
+          "shape": [
+            4200,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "phase": {
+          "shape": [
+            4200
+          ],
+          "dtype": "int64"
+        },
+        "provenance": {
+          "shape": [],
+          "dtype": "<U20"
+        },
+        "seed": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      },
+      "evaluation_arrivals": 47352
+    },
+    {
+      "seed": 20,
+      "path": "data/exogenous_seed_20.npz",
+      "sha256": "63bc4b0cfca329160a96f64913a669fa54c32d1361671d91521f8ab884b42520",
+      "provenance": "controlled_synthetic",
+      "arrays": {
+        "arrivals": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "int64"
+        },
+        "capacities": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "rates": {
+          "shape": [
+            4200
+          ],
+          "dtype": "float64"
+        },
+        "mixes": {
+          "shape": [
+            4200,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "phase": {
+          "shape": [
+            4200
+          ],
+          "dtype": "int64"
+        },
+        "provenance": {
+          "shape": [],
+          "dtype": "<U20"
+        },
+        "seed": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      },
+      "evaluation_arrivals": 47550
+    },
+    {
+      "seed": 30,
+      "path": "data/exogenous_seed_30.npz",
+      "sha256": "1234eb7ba568e578d2642480af61c9bdb5b308d6fc60df709fdfcae1e0871e8b",
+      "provenance": "controlled_synthetic",
+      "arrays": {
+        "arrivals": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "int64"
+        },
+        "capacities": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "rates": {
+          "shape": [
+            4200
+          ],
+          "dtype": "float64"
+        },
+        "mixes": {
+          "shape": [
+            4200,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "phase": {
+          "shape": [
+            4200
+          ],
+          "dtype": "int64"
+        },
+        "provenance": {
+          "shape": [],
+          "dtype": "<U20"
+        },
+        "seed": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      },
+      "evaluation_arrivals": 47688
+    },
+    {
+      "seed": 40,
+      "path": "data/exogenous_seed_40.npz",
+      "sha256": "a047954f73c6983b2d8c8125924b7743ec8fba86ee4762a8a6fbdc3faeddf71a",
+      "provenance": "controlled_synthetic",
+      "arrays": {
+        "arrivals": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "int64"
+        },
+        "capacities": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "rates": {
+          "shape": [
+            4200
+          ],
+          "dtype": "float64"
+        },
+        "mixes": {
+          "shape": [
+            4200,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "phase": {
+          "shape": [
+            4200
+          ],
+          "dtype": "int64"
+        },
+        "provenance": {
+          "shape": [],
+          "dtype": "<U20"
+        },
+        "seed": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      },
+      "evaluation_arrivals": 48013
+    },
+    {
+      "seed": 50,
+      "path": "data/exogenous_seed_50.npz",
+      "sha256": "ec7edc4d47e4e9d5ebfd24a4b9b4f82ebdcaa0e87dfe9ba08a86e52ca9a8f580",
+      "provenance": "controlled_synthetic",
+      "arrays": {
+        "arrivals": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "int64"
+        },
+        "capacities": {
+          "shape": [
+            4200,
+            10,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "rates": {
+          "shape": [
+            4200
+          ],
+          "dtype": "float64"
+        },
+        "mixes": {
+          "shape": [
+            4200,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "phase": {
+          "shape": [
+            4200
+          ],
+          "dtype": "int64"
+        },
+        "provenance": {
+          "shape": [],
+          "dtype": "<U20"
+        },
+        "seed": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      },
+      "evaluation_arrivals": 47659
+    }
+  ],
+  "source": "generated Poisson tasks and normalized synthetic capacities; not Alibaba trace records"
+}

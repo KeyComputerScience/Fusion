@@ -1,0 +1,52 @@
+{
+  "protocol": "controlled_synthetic_closed_loop",
+  "indexing": {
+    "npz": "zero-based complete prefix plus evaluation stream",
+    "feedback_slot": "one-based complete stream index",
+    "evaluation_slot": "one-based index after the 1200-slot prefix",
+    "fusion_window": "one-based evaluation-window index"
+  },
+  "exogenous_npz": {
+    "arrivals": {"shape": [4200, 10, 3], "dtype": "int64", "unit": "task count"},
+    "capacities": {"shape": [4200, 10, 3], "dtype": "float64", "columns": ["memory", "compute", "budget"], "unit": "normalized residual system capacity before queues and jobs"},
+    "rates": {"shape": [4200], "unit": "expected tasks per node per slot"},
+    "mixes": {"shape": [4200, 3], "unit": "class probability"},
+    "phase": {"shape": [4200], "unit": "controlled phase index; not real-trace drift ground truth"},
+    "provenance": {"shape": [], "value": "controlled_synthetic"},
+    "seed": {"shape": [], "unit": "paired seed identifier"}
+  },
+  "feedback_csv_gz": {
+    "rows_per_run": 3000,
+    "key": ["backbone", "method", "seed", "slot"],
+    "decision": ["training_profile", "inference_profile", "training_allowed", "status", "objective", "rho", "recovery_state", "fusion_completed_slot"],
+    "execution": ["logged_training", "logged_inference", "application_action", "completion_ratio", "deadline_loss", "queue_after", "environment_reward", "observed_training_cost"],
+    "fusion": ["source_scores", "source_weights", "source_masks", "predictions", "gamma", "uncertainty", "coverage"],
+    "deployment": ["completed_training_profile", "completed_training_load", "deployed_gain_used", "policy_version", "policy_version_after"],
+    "timing": "coordinator_ms excludes window fusion and neural worker optimization; training_wall_ms records private worker computation",
+    "logged_training_semantics": "active training allocation; may differ from newly admitted training_profile",
+    "structured_cells": "JSON strings for arrays, dictionaries and AO trajectories",
+    "empty_value": "unavailable; never automatically converted to numeric zero"
+  },
+  "deployment_json": {
+    "key": ["launch_slot", "deployment_slot", "profile", "model_version"],
+    "delay": "deployment_slot - launch_slot + 1; may exceed declared active-slot delay due to pause",
+    "gain": "profile estimate credited on actual completion; not empirical neural reward gain",
+    "parameter_hashes": "SHA-256 over deployed model parameter bytes before and after deployment"
+  },
+  "fusion_targets": {
+    "name": "next-window performance-degradation score d3",
+    "availability": "target is read only after its window completes",
+    "comparison": "intersection of eligible target windows within each seed and scenario",
+    "not_a_probability": true
+  },
+  "trace_import": {
+    "machine_usage_fields": ["machine_id", "time_stamp", "cpu_util_percent", "mem_util_percent", "mem_gps", "mkpi", "net_in", "net_out", "disk_io_percent"],
+    "batch_task_fields": ["task_name", "instance_num", "job_name", "task_type", "status", "start_time", "end_time", "plan_cpu", "plan_mem"],
+    "cpu_util_unit": "percent divided by 100",
+    "plan_cpu_unit": "100 units per CPU core",
+    "plan_mem_unit": "percent divided by 100",
+    "machine_selection": "calibration-prefix coverage only",
+    "budget_and_service_model": "synthetic; not provided by Alibaba",
+    "executed_in_reported_tables": false
+  }
+}
