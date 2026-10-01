@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "provenance": "ILLUSTRATIVE: profile values require calibration before real deployment.",
+  "resource_order": ["memory", "compute", "budget"],
+  "resource_units": "normalized per-node demand per unit workload",
+  "base_training_profile": "tr0",
+  "training": [
+    {"id":"tr0", "updates":0, "gain":0.0, "cost":0.0, "intensity":0.0, "deployment_delay":1, "resources":[0.0,0.0,0.0]},
+    {"id":"tr1", "updates":1, "gain":0.18, "cost":0.2, "intensity":0.125, "deployment_delay":1, "resources":[0.05,0.10,0.05]},
+    {"id":"tr2", "updates":2, "gain":0.25, "cost":0.4, "intensity":0.25, "deployment_delay":2, "resources":[0.10,0.20,0.12]},
+    {"id":"tr3", "updates":4, "gain":0.33, "cost":0.7, "intensity":0.5, "deployment_delay":4, "resources":[0.18,0.38,0.24]},
+    {"id":"tr4", "updates":8, "gain":0.42, "cost":1.0, "intensity":1.0, "deployment_delay":8, "resources":[0.30,0.62,0.42]}
+  ],
+  "inference": [
+    {"id":"inf0", "beta":0.60, "resources":[0.08,0.16,0.08], "quality_prior":{"completion":0.90,"deadline_compliance":0.92,"availability":0.99,"throughput":0.85}},
+    {"id":"inf1", "beta":0.68, "resources":[0.12,0.24,0.12], "quality_prior":{"completion":0.91,"deadline_compliance":0.93,"availability":0.99,"throughput":0.87}},
+    {"id":"inf2", "beta":0.76, "resources":[0.18,0.34,0.18], "quality_prior":{"completion":0.92,"deadline_compliance":0.94,"availability":0.99,"throughput":0.89}},
+    {"id":"inf3", "beta":0.84, "resources":[0.25,0.46,0.26], "quality_prior":{"completion":0.93,"deadline_compliance":0.95,"availability":0.99,"throughput":0.91}},
+    {"id":"inf4", "beta":0.92, "resources":[0.34,0.62,0.36], "quality_prior":{"completion":0.94,"deadline_compliance":0.96,"availability":0.99,"throughput":0.93}},
+    {"id":"inf5", "beta":1.0, "resources":[0.44,0.80,0.48], "quality_prior":{"completion":0.95,"deadline_compliance":0.97,"availability":0.99,"throughput":0.95}}
+  ]
+}
