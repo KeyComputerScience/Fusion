@@ -1,0 +1,5004 @@
+{
+  "study_status": "post-test exploratory; Air formal test results had already been inspected; not independent confirmation",
+  "analysis_version": 1,
+  "input_files": {
+    "air_invariant": {
+      "path": "/Users/key/Documents/Codex/2026-10-02/jih/outputs/fusion_repro/results/real_air_invariant_results.json.gz",
+      "uncompressed_sha256": "de7ed963377c9398c5f5b245bbf06457d7694d0589e50f8aaaed6f17b1c943bf"
+    },
+    "air_first_evaluation": {
+      "path": "/Users/key/Documents/Codex/2026-10-02/jih/outputs/fusion_repro/results/real_air_results.json.gz",
+      "uncompressed_sha256": "c5ee7d973ec49d1d017b459145760963e4562ca73e6bad270c879091e60aa92d"
+    },
+    "gas": {
+      "path": "/Users/key/Documents/Codex/2026-10-02/jih/outputs/fusion_repro/results/real_action_results.json.gz",
+      "uncompressed_sha256": "5d612399c8f61217c465a04f537cfc2ed8c22cc938e9e333cd08b1e48af4c092"
+    },
+    "causal_recovery": {
+      "path": "/Users/key/Documents/Codex/2026-10-02/jih/outputs/fusion_repro/results/real_recovery_causal_audit.json",
+      "uncompressed_sha256": "2c23dbb0046808cf7d9901d1ee653c01eff34e28b7b16a1043375e2a68f669da"
+    }
+  },
+  "air_invariant": {
+    "decision_full": {
+      "net": 2962.9999999999995,
+      "deployments": 3.5,
+      "potential_accuracy": 0.5228936464088397,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 42.0,
+      "total_fee": 80.39999999999998,
+      "dropped_service": 62.0,
+      "gross_served_reward": 3043.4,
+      "reward_change_full_minus_comparator": 1.1368683772161603e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5730.0
+    },
+    "context_joint": {
+      "net": 2921.0999999999995,
+      "deployments": 4.2,
+      "potential_accuracy": 0.5173342541436463,
+      "paired_full_minus_comparator": {
+        "mean": 41.9,
+        "median": 51.0,
+        "sd": 60.111840209174545,
+        "range": [
+          -77.0,
+          113.0
+        ],
+        "positive": 7,
+        "negative": 2,
+        "ties": 1,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.1014200223713146,
+          84.90142002237131
+        ],
+        "ci95_student_t9": [
+          -1.1014200223713146,
+          84.90142002237131
+        ],
+        "ci95_normal": [
+          4.64229543660354,
+          79.15770456339646
+        ],
+        "two_sided_exact_sign_p": 0.1796875,
+        "two_sided_exact_signflip_p": 0.046875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        0.0,
+        11.0,
+        -1.0,
+        105.0,
+        76.0,
+        82.0,
+        84.0,
+        113.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 3.5,
+      "actual_action_differences_total": 35,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 50.4,
+      "total_fee": 88.79999999999998,
+      "dropped_service": 64.8,
+      "gross_served_reward": 3009.9,
+      "reward_change_full_minus_comparator": 33.50000000000012,
+      "fee_saving_comparator_minus_full": 8.399999999999993,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5727.2
+    },
+    "decision_diagonal": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 40.2,
+        "median": 41.5,
+        "sd": 57.70191600901231,
+        "range": [
+          -77.0,
+          133.0
+        ],
+        "positive": 8,
+        "negative": 1,
+        "ties": 1,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_student_t9": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_normal": [
+          4.435981930934496,
+          75.9640180690655
+        ],
+        "two_sided_exact_sign_p": 0.0390625,
+        "two_sided_exact_signflip_p": 0.0546875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        24.0,
+        11.0,
+        61.0,
+        133.0,
+        57.0,
+        73.0,
+        0.0,
+        94.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 3.5,
+      "actual_action_differences_total": 35,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 34.20000000000012,
+      "fee_saving_comparator_minus_full": 5.999999999999998,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "quality_only": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 40.2,
+        "median": 41.5,
+        "sd": 57.70191600901231,
+        "range": [
+          -77.0,
+          133.0
+        ],
+        "positive": 8,
+        "negative": 1,
+        "ties": 1,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_student_t9": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_normal": [
+          4.435981930934496,
+          75.9640180690655
+        ],
+        "two_sided_exact_sign_p": 0.0390625,
+        "two_sided_exact_signflip_p": 0.0546875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        24.0,
+        11.0,
+        61.0,
+        133.0,
+        57.0,
+        73.0,
+        0.0,
+        94.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 3.5,
+      "actual_action_differences_total": 35,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 34.20000000000012,
+      "fee_saving_comparator_minus_full": 5.999999999999998,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "rf_c": {
+      "net": 2919.5999999999995,
+      "deployments": 3.9,
+      "potential_accuracy": 0.5167299723756906,
+      "paired_full_minus_comparator": {
+        "mean": 43.4,
+        "median": 43.5,
+        "sd": 62.960657909876105,
+        "range": [
+          -77.0,
+          133.0
+        ],
+        "positive": 7,
+        "negative": 1,
+        "ties": 2,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.6393414383311722,
+          88.43934143833117
+        ],
+        "ci95_student_t9": [
+          -1.6393414383311722,
+          88.43934143833117
+        ],
+        "ci95_normal": [
+          4.376579932330671,
+          82.42342006766933
+        ],
+        "two_sided_exact_sign_p": 0.0703125,
+        "two_sided_exact_signflip_p": 0.0546875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        0.0,
+        11.0,
+        61.0,
+        133.0,
+        104.0,
+        82.0,
+        0.0,
+        94.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 2.6,
+      "actual_action_differences_total": 26,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 46.8,
+      "total_fee": 85.19999999999997,
+      "dropped_service": 63.6,
+      "gross_served_reward": 3004.8,
+      "reward_change_full_minus_comparator": 38.600000000000115,
+      "fee_saving_comparator_minus_full": 4.800000000000002,
+      "decomposition_error": 1.2079226507921703e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.4
+    },
+    "prefix_only_archive": {
+      "net": 2813.8999999999996,
+      "deployments": 3.2,
+      "potential_accuracy": 0.49663328729281764,
+      "paired_full_minus_comparator": {
+        "mean": 149.1,
+        "median": 145.0,
+        "sd": 49.0361544622378,
+        "range": [
+          65.0,
+          225.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          114.02164826471679,
+          184.1783517352832
+        ],
+        "ci95_student_t9": [
+          114.02164826471679,
+          184.1783517352832
+        ],
+        "ci95_normal": [
+          118.70707658388588,
+          179.4929234161141
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        65.0,
+        171.0,
+        136.0,
+        142.0,
+        179.0,
+        112.0,
+        103.0,
+        148.0,
+        210.0,
+        225.0
+      ],
+      "mean_actual_action_differences": 6.5,
+      "actual_action_differences_total": 65,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 38.4,
+      "total_fee": 76.8,
+      "dropped_service": 60.8,
+      "gross_served_reward": 2890.7,
+      "reward_change_full_minus_comparator": 152.7000000000001,
+      "fee_saving_comparator_minus_full": -3.599999999999981,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5731.2
+    },
+    "no_context": {
+      "net": 2959.0999999999995,
+      "deployments": 3.6,
+      "potential_accuracy": 0.5225310773480663,
+      "paired_full_minus_comparator": {
+        "mean": 3.9,
+        "median": 0.0,
+        "sd": 12.332882874656681,
+        "range": [
+          0.0,
+          39.0
+        ],
+        "positive": 1,
+        "negative": 0,
+        "ties": 9,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -4.92241293453,
+          12.72241293453
+        ],
+        "ci95_student_t9": [
+          -4.92241293453,
+          12.72241293453
+        ],
+        "ci95_normal": [
+          -3.744,
+          11.544
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        39.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.3,
+      "actual_action_differences_total": 3,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 43.2,
+      "total_fee": 81.59999999999998,
+      "dropped_service": 62.4,
+      "gross_served_reward": 3040.7,
+      "reward_change_full_minus_comparator": 2.7000000000001165,
+      "fee_saving_comparator_minus_full": 1.199999999999997,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5729.6
+    },
+    "no_delay_replay": {
+      "net": 2957.7,
+      "deployments": 3.7,
+      "potential_accuracy": 0.5226174033149171,
+      "paired_full_minus_comparator": {
+        "mean": 5.3,
+        "median": 0.0,
+        "sd": 15.129441496631658,
+        "range": [
+          -12.0,
+          39.0
+        ],
+        "positive": 2,
+        "negative": 1,
+        "ties": 7,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -5.522950457624757,
+          16.122950457624757
+        ],
+        "ci95_student_t9": [
+          -5.522950457624757,
+          16.122950457624757
+        ],
+        "ci95_normal": [
+          -4.077324991702057,
+          14.677324991702058
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.5,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        -12.0,
+        0.0,
+        39.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 0.8,
+      "actual_action_differences_total": 8,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 44.4,
+      "total_fee": 82.79999999999998,
+      "dropped_service": 62.8,
+      "gross_served_reward": 3040.5,
+      "reward_change_full_minus_comparator": 2.9000000000001194,
+      "fee_saving_comparator_minus_full": 2.399999999999994,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5729.2
+    },
+    "uncorrected_gain": {
+      "net": 2785.2999999999997,
+      "deployments": 2.0,
+      "potential_accuracy": 0.4880697513812155,
+      "paired_full_minus_comparator": {
+        "mean": 177.7,
+        "median": 185.5,
+        "sd": 51.63343016991135,
+        "range": [
+          96.0,
+          259.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          140.76366915060333,
+          214.63633084939664
+        ],
+        "ci95_student_t9": [
+          140.76366915060333,
+          214.63633084939664
+        ],
+        "ci95_normal": [
+          145.69726842214175,
+          209.70273157785823
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        96.0,
+        190.0,
+        146.0,
+        181.0,
+        224.0,
+        124.0,
+        132.0,
+        211.0,
+        259.0,
+        214.0
+      ],
+      "mean_actual_action_differences": 5.5,
+      "actual_action_differences_total": 55,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 24.0,
+      "total_fee": 62.40000000000002,
+      "dropped_service": 56.0,
+      "gross_served_reward": 2847.7,
+      "reward_change_full_minus_comparator": 195.70000000000005,
+      "fee_saving_comparator_minus_full": -17.99999999999995,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5736.0
+    },
+    "periodic": {
+      "net": 2765.3999999999996,
+      "deployments": 24.0,
+      "potential_accuracy": 0.5385531767955801,
+      "paired_full_minus_comparator": {
+        "mean": 197.6,
+        "median": 216.5,
+        "sd": 47.86601670867919,
+        "range": [
+          108.0,
+          255.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          163.35871438762558,
+          231.8412856123744
+        ],
+        "ci95_student_t9": [
+          163.35871438762558,
+          231.8412856123744
+        ],
+        "ci95_normal": [
+          167.9323354774559,
+          227.2676645225441
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        108.0,
+        243.0,
+        156.0,
+        216.0,
+        255.0,
+        155.0,
+        168.0,
+        217.0,
+        237.0,
+        221.0
+      ],
+      "mean_actual_action_differences": 25.9,
+      "actual_action_differences_total": 259,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 288.0,
+      "total_fee": 326.4000000000001,
+      "dropped_service": 144.0,
+      "gross_served_reward": 3091.8,
+      "reward_change_full_minus_comparator": -48.4,
+      "fee_saving_comparator_minus_full": 246.00000000000009,
+      "decomposition_error": 8.526512829121202e-14,
+      "test_opportunities": 5792,
+      "served_opportunities": 5648.0
+    },
+    "frozen_deploy": {
+      "net": 2218.5999999999995,
+      "deployments": 0.0,
+      "potential_accuracy": 0.3901933701657459,
+      "paired_full_minus_comparator": {
+        "mean": 744.4,
+        "median": 754.0,
+        "sd": 47.777726098163264,
+        "range": [
+          667.0,
+          806.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          710.2218736855878,
+          778.5781263144122
+        ],
+        "ci95_student_t9": [
+          710.2218736855878,
+          778.5781263144122
+        ],
+        "ci95_normal": [
+          714.7870585648024,
+          774.0129414351976
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        667.0,
+        765.0,
+        713.0,
+        743.0,
+        793.0,
+        694.0,
+        702.0,
+        776.0,
+        806.0,
+        785.0
+      ],
+      "mean_actual_action_differences": 3.5,
+      "actual_action_differences_total": 35,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 0.0,
+      "total_fee": 38.40000000000002,
+      "dropped_service": 48.0,
+      "gross_served_reward": 2257.0,
+      "reward_change_full_minus_comparator": 786.4000000000001,
+      "fee_saving_comparator_minus_full": -41.999999999999964,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5744.0
+    },
+    "context_joint_prefix_tuned": {
+      "net": 2921.0999999999995,
+      "deployments": 4.2,
+      "potential_accuracy": 0.5173342541436463,
+      "paired_full_minus_comparator": {
+        "mean": 41.9,
+        "median": 51.0,
+        "sd": 60.111840209174545,
+        "range": [
+          -77.0,
+          113.0
+        ],
+        "positive": 7,
+        "negative": 2,
+        "ties": 1,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.1014200223713146,
+          84.90142002237131
+        ],
+        "ci95_student_t9": [
+          -1.1014200223713146,
+          84.90142002237131
+        ],
+        "ci95_normal": [
+          4.64229543660354,
+          79.15770456339646
+        ],
+        "two_sided_exact_sign_p": 0.1796875,
+        "two_sided_exact_signflip_p": 0.046875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        0.0,
+        11.0,
+        -1.0,
+        105.0,
+        76.0,
+        82.0,
+        84.0,
+        113.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 3.5,
+      "actual_action_differences_total": 35,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 50.4,
+      "total_fee": 88.79999999999998,
+      "dropped_service": 64.8,
+      "gross_served_reward": 3009.9,
+      "reward_change_full_minus_comparator": 33.50000000000012,
+      "fee_saving_comparator_minus_full": 8.399999999999993,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5727.2
+    },
+    "decision_diagonal_prefix_tuned": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 40.2,
+        "median": 41.5,
+        "sd": 57.70191600901231,
+        "range": [
+          -77.0,
+          133.0
+        ],
+        "positive": 8,
+        "negative": 1,
+        "ties": 1,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_student_t9": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_normal": [
+          4.435981930934496,
+          75.9640180690655
+        ],
+        "two_sided_exact_sign_p": 0.0390625,
+        "two_sided_exact_signflip_p": 0.0546875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        24.0,
+        11.0,
+        61.0,
+        133.0,
+        57.0,
+        73.0,
+        0.0,
+        94.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 3.5,
+      "actual_action_differences_total": 35,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 34.20000000000012,
+      "fee_saving_comparator_minus_full": 5.999999999999998,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "quality_only_prefix_tuned": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 40.2,
+        "median": 41.5,
+        "sd": 57.70191600901231,
+        "range": [
+          -77.0,
+          133.0
+        ],
+        "positive": 8,
+        "negative": 1,
+        "ties": 1,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_student_t9": [
+          -1.0774641029942629,
+          81.47746410299428
+        ],
+        "ci95_normal": [
+          4.435981930934496,
+          75.9640180690655
+        ],
+        "two_sided_exact_sign_p": 0.0390625,
+        "two_sided_exact_signflip_p": 0.0546875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        24.0,
+        11.0,
+        61.0,
+        133.0,
+        57.0,
+        73.0,
+        0.0,
+        94.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 3.5,
+      "actual_action_differences_total": 35,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 34.20000000000012,
+      "fee_saving_comparator_minus_full": 5.999999999999998,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "rf_c_prefix_tuned": {
+      "net": 2919.5999999999995,
+      "deployments": 3.9,
+      "potential_accuracy": 0.5167299723756906,
+      "paired_full_minus_comparator": {
+        "mean": 43.4,
+        "median": 43.5,
+        "sd": 62.960657909876105,
+        "range": [
+          -77.0,
+          133.0
+        ],
+        "positive": 7,
+        "negative": 1,
+        "ties": 2,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.6393414383311722,
+          88.43934143833117
+        ],
+        "ci95_student_t9": [
+          -1.6393414383311722,
+          88.43934143833117
+        ],
+        "ci95_normal": [
+          4.376579932330671,
+          82.42342006766933
+        ],
+        "two_sided_exact_sign_p": 0.0703125,
+        "two_sided_exact_signflip_p": 0.0546875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -77.0,
+        0.0,
+        11.0,
+        61.0,
+        133.0,
+        104.0,
+        82.0,
+        0.0,
+        94.0,
+        26.0
+      ],
+      "mean_actual_action_differences": 2.6,
+      "actual_action_differences_total": 26,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 46.8,
+      "total_fee": 85.19999999999997,
+      "dropped_service": 63.6,
+      "gross_served_reward": 3004.8,
+      "reward_change_full_minus_comparator": 38.600000000000115,
+      "fee_saving_comparator_minus_full": 4.800000000000002,
+      "decomposition_error": 1.2079226507921703e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.4
+    },
+    "rf_c_normalized": {
+      "net": 2920.9999999999995,
+      "deployments": 4.3,
+      "potential_accuracy": 0.5172306629834253,
+      "paired_full_minus_comparator": {
+        "mean": 42.0,
+        "median": 42.0,
+        "sd": 69.25315877272314,
+        "range": [
+          -56.0,
+          174.0
+        ],
+        "positive": 7,
+        "negative": 2,
+        "ties": 1,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -7.540725386199753,
+          91.54072538619975
+        ],
+        "ci95_student_t9": [
+          -7.540725386199753,
+          91.54072538619975
+        ],
+        "ci95_normal": [
+          -0.9235525090829313,
+          84.92355250908292
+        ],
+        "two_sided_exact_sign_p": 0.1796875,
+        "two_sided_exact_signflip_p": 0.08984375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        19.0,
+        11.0,
+        -43.0,
+        174.0,
+        -56.0,
+        82.0,
+        84.0,
+        65.0,
+        84.0
+      ],
+      "mean_actual_action_differences": 4.6,
+      "actual_action_differences_total": 46,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 51.6,
+      "total_fee": 89.99999999999997,
+      "dropped_service": 65.2,
+      "gross_served_reward": 3011.0,
+      "reward_change_full_minus_comparator": 32.40000000000013,
+      "fee_saving_comparator_minus_full": 9.599999999999989,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5726.8
+    }
+  },
+  "air_first_evaluation": {
+    "decision_full": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "context_joint": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "decision_diagonal": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "quality_only": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "rf_c": {
+      "net": 2919.5999999999995,
+      "deployments": 3.9,
+      "potential_accuracy": 0.5167299723756906,
+      "paired_full_minus_comparator": {
+        "mean": 3.2,
+        "median": 0.0,
+        "sd": 17.523317798484012,
+        "range": [
+          -24.0,
+          47.0
+        ],
+        "positive": 2,
+        "negative": 1,
+        "ties": 7,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -9.33542640212001,
+          15.735426402120012
+        ],
+        "ci95_student_t9": [
+          -9.33542640212001,
+          15.735426402120012
+        ],
+        "ci95_normal": [
+          -7.661064895610678,
+          14.061064895610677
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.75,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -24.0,
+        0.0,
+        0.0,
+        0.0,
+        47.0,
+        9.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 1.7,
+      "actual_action_differences_total": 17,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 46.8,
+      "total_fee": 85.19999999999997,
+      "dropped_service": 63.6,
+      "gross_served_reward": 3004.8,
+      "reward_change_full_minus_comparator": 4.400000000000112,
+      "fee_saving_comparator_minus_full": -1.199999999999997,
+      "decomposition_error": 1.1501910535116622e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.4
+    },
+    "prefix_only_archive": {
+      "net": 2781.2,
+      "deployments": 3.3,
+      "potential_accuracy": 0.4910738950276243,
+      "paired_full_minus_comparator": {
+        "mean": 141.6,
+        "median": 135.0,
+        "sd": 89.13934160752044,
+        "range": [
+          31.0,
+          319.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          77.83355639015028,
+          205.3664436098497
+        ],
+        "ci95_student_t9": [
+          77.83355639015028,
+          205.3664436098497
+        ],
+        "ci95_normal": [
+          86.3508636729144,
+          196.8491363270856
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        319.0,
+        132.0,
+        245.0,
+        177.0,
+        55.0,
+        54.0,
+        31.0,
+        147.0,
+        118.0,
+        138.0
+      ],
+      "mean_actual_action_differences": 6.3,
+      "actual_action_differences_total": 63,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 39.6,
+      "total_fee": 77.99999999999999,
+      "dropped_service": 61.2,
+      "gross_served_reward": 2859.2,
+      "reward_change_full_minus_comparator": 150.00000000000009,
+      "fee_saving_comparator_minus_full": -8.399999999999983,
+      "decomposition_error": 1.1368683772161603e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5730.8
+    },
+    "no_context": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "no_delay_replay": {
+      "net": 2922.4999999999995,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172651933701657,
+      "paired_full_minus_comparator": {
+        "mean": 0.3,
+        "median": 0.0,
+        "sd": 0.9486832980505139,
+        "range": [
+          0.0,
+          3.0
+        ],
+        "positive": 1,
+        "negative": 0,
+        "ties": 9,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -0.37864714881,
+          0.9786471488099999
+        ],
+        "ci95_student_t9": [
+          -0.37864714881,
+          0.9786471488099999
+        ],
+        "ci95_normal": [
+          -0.288,
+          0.8879999999999999
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.2,
+      "actual_action_differences_total": 2,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3008.9,
+      "reward_change_full_minus_comparator": 0.3000000000001151,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1513012765362873e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "uncorrected_gain": {
+      "net": 2806.5999999999995,
+      "deployments": 2.0,
+      "potential_accuracy": 0.4928694751381215,
+      "paired_full_minus_comparator": {
+        "mean": 116.2,
+        "median": 139.0,
+        "sd": 76.56340872476588,
+        "range": [
+          18.0,
+          229.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          61.42983682646178,
+          170.97016317353823
+        ],
+        "ci95_student_t9": [
+          61.42983682646178,
+          170.97016317353823
+        ],
+        "ci95_normal": [
+          68.74550762865309,
+          163.65449237134692
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        123.0,
+        181.0,
+        155.0,
+        54.0,
+        37.0,
+        18.0,
+        25.0,
+        229.0,
+        184.0,
+        156.0
+      ],
+      "mean_actual_action_differences": 6.0,
+      "actual_action_differences_total": 60,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 24.0,
+      "total_fee": 62.40000000000002,
+      "dropped_service": 56.0,
+      "gross_served_reward": 2869.0,
+      "reward_change_full_minus_comparator": 140.20000000000005,
+      "fee_saving_comparator_minus_full": -23.99999999999995,
+      "decomposition_error": 9.947598300641403e-14,
+      "test_opportunities": 5792,
+      "served_opportunities": 5736.0
+    },
+    "periodic": {
+      "net": 2765.3999999999996,
+      "deployments": 24.0,
+      "potential_accuracy": 0.5385531767955801,
+      "paired_full_minus_comparator": {
+        "mean": 157.4,
+        "median": 150.0,
+        "sd": 45.41707950882697,
+        "range": [
+          95.0,
+          219.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          124.9105785257523,
+          189.8894214742477
+        ],
+        "ci95_student_t9": [
+          124.9105785257523,
+          189.8894214742477
+        ],
+        "ci95_normal": [
+          129.2502024795125,
+          185.54979752048752
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        185.0,
+        219.0,
+        145.0,
+        155.0,
+        122.0,
+        98.0,
+        95.0,
+        217.0,
+        143.0,
+        195.0
+      ],
+      "mean_actual_action_differences": 27.0,
+      "actual_action_differences_total": 270,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 288.0,
+      "total_fee": 326.4000000000001,
+      "dropped_service": 144.0,
+      "gross_served_reward": 3091.8,
+      "reward_change_full_minus_comparator": -82.6,
+      "fee_saving_comparator_minus_full": 240.00000000000009,
+      "decomposition_error": 8.526512829121202e-14,
+      "test_opportunities": 5792,
+      "served_opportunities": 5648.0
+    },
+    "frozen_deploy": {
+      "net": 2218.5999999999995,
+      "deployments": 0.0,
+      "potential_accuracy": 0.3901933701657459,
+      "paired_full_minus_comparator": {
+        "mean": 704.2,
+        "median": 707.0,
+        "sd": 51.40211841721874,
+        "range": [
+          629.0,
+          776.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          667.4291396103171,
+          740.970860389683
+        ],
+        "ci95_student_t9": [
+          667.4291396103171,
+          740.970860389683
+        ],
+        "ci95_normal": [
+          672.3406369318044,
+          736.0593630681957
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        744.0,
+        741.0,
+        702.0,
+        682.0,
+        660.0,
+        637.0,
+        629.0,
+        776.0,
+        712.0,
+        759.0
+      ],
+      "mean_actual_action_differences": 4.0,
+      "actual_action_differences_total": 40,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 0.0,
+      "total_fee": 38.40000000000002,
+      "dropped_service": 48.0,
+      "gross_served_reward": 2257.0,
+      "reward_change_full_minus_comparator": 752.2,
+      "fee_saving_comparator_minus_full": -47.999999999999964,
+      "decomposition_error": 0.0,
+      "test_opportunities": 5792,
+      "served_opportunities": 5744.0
+    },
+    "context_joint_prefix_tuned": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "decision_diagonal_prefix_tuned": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "quality_only_prefix_tuned": {
+      "net": 2922.7999999999997,
+      "deployments": 4.0,
+      "potential_accuracy": 0.5172824585635358,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 48.0,
+      "total_fee": 86.39999999999998,
+      "dropped_service": 64.0,
+      "gross_served_reward": 3009.2,
+      "reward_change_full_minus_comparator": 1.1510792319313623e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": 1.1510792319313623e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.0
+    },
+    "rf_c_prefix_tuned": {
+      "net": 2919.5999999999995,
+      "deployments": 3.9,
+      "potential_accuracy": 0.5167299723756906,
+      "paired_full_minus_comparator": {
+        "mean": 3.2,
+        "median": 0.0,
+        "sd": 17.523317798484012,
+        "range": [
+          -24.0,
+          47.0
+        ],
+        "positive": 2,
+        "negative": 1,
+        "ties": 7,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -9.33542640212001,
+          15.735426402120012
+        ],
+        "ci95_student_t9": [
+          -9.33542640212001,
+          15.735426402120012
+        ],
+        "ci95_normal": [
+          -7.661064895610678,
+          14.061064895610677
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.75,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -24.0,
+        0.0,
+        0.0,
+        0.0,
+        47.0,
+        9.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 1.7,
+      "actual_action_differences_total": 17,
+      "probe_steps": 1920.0,
+      "probe_fee": 38.40000000000002,
+      "deploy_fee": 46.8,
+      "total_fee": 85.19999999999997,
+      "dropped_service": 63.6,
+      "gross_served_reward": 3004.8,
+      "reward_change_full_minus_comparator": 4.400000000000112,
+      "fee_saving_comparator_minus_full": -1.199999999999997,
+      "decomposition_error": 1.1501910535116622e-13,
+      "test_opportunities": 5792,
+      "served_opportunities": 5728.4
+    }
+  },
+  "gas": {
+    "decision_full": {
+      "net": 7259.0,
+      "deployments": 2.0,
+      "potential_accuracy": 0.6970474847202632,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 24.0,
+      "total_fee": 91.19999999999997,
+      "dropped_service": 92.0,
+      "gross_served_reward": 7350.2,
+      "reward_change_full_minus_comparator": -1.4210854715202004e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": -1.4210854715202004e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.0
+    },
+    "context_joint": {
+      "net": 7271.0,
+      "deployments": 2.0,
+      "potential_accuracy": 0.6981852374236014,
+      "paired_full_minus_comparator": {
+        "mean": -12.0,
+        "median": 0.0,
+        "sd": 41.57990967870047,
+        "range": [
+          -130.0,
+          10.0
+        ],
+        "positive": 1,
+        "negative": 1,
+        "ties": 8,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -41.74447553700359,
+          17.744475537003588
+        ],
+        "ci95_student_t9": [
+          -41.74447553700359,
+          17.744475537003588
+        ],
+        "ci95_normal": [
+          -37.771495019799595,
+          13.771495019799595
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -130.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.4,
+      "actual_action_differences_total": 4,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 24.0,
+      "total_fee": 91.19999999999997,
+      "dropped_service": 92.0,
+      "gross_served_reward": 7362.2,
+      "reward_change_full_minus_comparator": -12.000000000000142,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": -1.4210854715202004e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.0
+    },
+    "decision_diagonal": {
+      "net": 7258.1,
+      "deployments": 1.8,
+      "potential_accuracy": 0.696680771039022,
+      "paired_full_minus_comparator": {
+        "mean": 0.9,
+        "median": 0.0,
+        "sd": 63.43229111072337,
+        "range": [
+          -130.0,
+          139.0
+        ],
+        "positive": 1,
+        "negative": 1,
+        "ties": 8,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -44.47672750562767,
+          46.27672750562767
+        ],
+        "ci95_student_t9": [
+          -44.47672750562767,
+          46.27672750562767
+        ],
+        "ci95_normal": [
+          -38.4157413540966,
+          40.2157413540966
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -130.0,
+        0.0,
+        0.0,
+        139.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.6,
+      "actual_action_differences_total": 6,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 21.6,
+      "total_fee": 88.79999999999998,
+      "dropped_service": 91.2,
+      "gross_served_reward": 7346.9,
+      "reward_change_full_minus_comparator": 3.2999999999998524,
+      "fee_saving_comparator_minus_full": -2.399999999999994,
+      "decomposition_error": -1.417754802446325e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.8
+    },
+    "quality_only": {
+      "net": 7253.7,
+      "deployments": 1.7,
+      "potential_accuracy": 0.6961542078044194,
+      "paired_full_minus_comparator": {
+        "mean": 5.3,
+        "median": 0.0,
+        "sd": 65.0299930801165,
+        "range": [
+          -130.0,
+          139.0
+        ],
+        "positive": 2,
+        "negative": 2,
+        "ties": 6,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -41.21965464306636,
+          51.81965464306636
+        ],
+        "ci95_student_t9": [
+          -41.21965464306636,
+          51.81965464306636
+        ],
+        "ci95_normal": [
+          -35.00600729419872,
+          45.60600729419871
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.75,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        46.0,
+        -130.0,
+        0.0,
+        0.0,
+        139.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 1.3,
+      "actual_action_differences_total": 13,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 20.4,
+      "total_fee": 87.59999999999998,
+      "dropped_service": 90.8,
+      "gross_served_reward": 7341.3,
+      "reward_change_full_minus_comparator": 8.899999999999846,
+      "fee_saving_comparator_minus_full": -3.5999999999999885,
+      "decomposition_error": -1.4299672557172016e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10544.2
+    },
+    "rf_c": {
+      "net": 7342.7,
+      "deployments": 2.1,
+      "potential_accuracy": 0.7050399623883404,
+      "paired_full_minus_comparator": {
+        "mean": -83.7,
+        "median": -17.5,
+        "sd": 141.15952362880486,
+        "range": [
+          -339.0,
+          98.0
+        ],
+        "positive": 1,
+        "negative": 6,
+        "ties": 3,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -184.67944006701106,
+          17.279440067011038
+        ],
+        "ci95_student_t9": [
+          -184.67944006701106,
+          17.279440067011038
+        ],
+        "ci95_normal": [
+          -171.19157918591048,
+          3.791579185910493
+        ],
+        "two_sided_exact_sign_p": 0.125,
+        "two_sided_exact_signflip_p": 0.125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -214.0,
+        -269.0,
+        0.0,
+        98.0,
+        -15.0,
+        -78.0,
+        -339.0,
+        0.0,
+        -20.0
+      ],
+      "mean_actual_action_differences": 2.3,
+      "actual_action_differences_total": 23,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 25.2,
+      "total_fee": 92.39999999999995,
+      "dropped_service": 92.4,
+      "gross_served_reward": 7435.1,
+      "reward_change_full_minus_comparator": -84.90000000000013,
+      "fee_saving_comparator_minus_full": 1.1999999999999944,
+      "decomposition_error": -1.4210854715202004e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10542.6
+    },
+    "frozen_moment": {
+      "net": 7258.1,
+      "deployments": 1.8,
+      "potential_accuracy": 0.6967183826986366,
+      "paired_full_minus_comparator": {
+        "mean": 0.9,
+        "median": 0.0,
+        "sd": 66.7373791647363,
+        "range": [
+          -130.0,
+          139.0
+        ],
+        "positive": 2,
+        "negative": 2,
+        "ties": 6,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -46.84104506980432,
+          48.64104506980432
+        ],
+        "ci95_student_t9": [
+          -46.84104506980432,
+          48.64104506980432
+        ],
+        "ci95_normal": [
+          -40.46425615324312,
+          42.26425615324312
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -130.0,
+        0.0,
+        0.0,
+        139.0,
+        0.0,
+        44.0,
+        0.0,
+        0.0,
+        -44.0
+      ],
+      "mean_actual_action_differences": 1.0,
+      "actual_action_differences_total": 10,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 21.6,
+      "total_fee": 88.79999999999997,
+      "dropped_service": 91.2,
+      "gross_served_reward": 7346.9,
+      "reward_change_full_minus_comparator": 3.2999999999998524,
+      "fee_saving_comparator_minus_full": -2.399999999999994,
+      "decomposition_error": -1.417754802446325e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.8
+    },
+    "no_context": {
+      "net": 7259.0,
+      "deployments": 2.0,
+      "potential_accuracy": 0.6970474847202632,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 24.0,
+      "total_fee": 91.19999999999997,
+      "dropped_service": 92.0,
+      "gross_served_reward": 7350.2,
+      "reward_change_full_minus_comparator": -1.4210854715202004e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": -1.4210854715202004e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.0
+    },
+    "no_delay_replay": {
+      "net": 7259.0,
+      "deployments": 2.0,
+      "potential_accuracy": 0.6970474847202632,
+      "paired_full_minus_comparator": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.0,
+      "actual_action_differences_total": 0,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 24.0,
+      "total_fee": 91.19999999999997,
+      "dropped_service": 92.0,
+      "gross_served_reward": 7350.2,
+      "reward_change_full_minus_comparator": -1.4210854715202004e-13,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": -1.4210854715202004e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.0
+    },
+    "periodic": {
+      "net": 8311.4,
+      "deployments": 29.0,
+      "potential_accuracy": 0.8357310766337565,
+      "paired_full_minus_comparator": {
+        "mean": -1052.3999999999992,
+        "median": -1042.999999999999,
+        "sd": 140.12232750945392,
+        "range": [
+          -1224.999999999999,
+          -813.9999999999991
+        ],
+        "positive": 0,
+        "negative": 10,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1152.6374746602187,
+          -952.1625253397796
+        ],
+        "ci95_student_t9": [
+          -1152.6374746602187,
+          -952.1625253397796
+        ],
+        "ci95_normal": [
+          -1139.248718370892,
+          -965.5512816291064
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        -972.9999999999991,
+        -1211.999999999999,
+        -813.9999999999991,
+        -941.9999999999991,
+        -1128.999999999999,
+        -1203.999999999999,
+        -996.9999999999991,
+        -1088.999999999999,
+        -938.9999999999991,
+        -1224.999999999999
+      ],
+      "mean_actual_action_differences": 30.4,
+      "actual_action_differences_total": 304,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 348.0,
+      "total_fee": 415.2000000000003,
+      "dropped_service": 200.0,
+      "gross_served_reward": 8726.6,
+      "reward_change_full_minus_comparator": -1376.3999999999996,
+      "fee_saving_comparator_minus_full": 324.00000000000034,
+      "decomposition_error": 0.0,
+      "test_opportunities": 10635,
+      "served_opportunities": 10435.0
+    },
+    "frozen_deploy": {
+      "net": 3915.8000000000006,
+      "deployments": 0.0,
+      "potential_accuracy": 0.37762106252938404,
+      "paired_full_minus_comparator": {
+        "mean": 3343.2,
+        "median": 3328.0,
+        "sd": 120.37330822625643,
+        "range": [
+          3149.0,
+          3569.0
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          3257.09012266955,
+          3429.3098773304496
+        ],
+        "ci95_student_t9": [
+          3257.09012266955,
+          3429.3098773304496
+        ],
+        "ci95_normal": [
+          3268.591850597047,
+          3417.8081494029525
+        ],
+        "two_sided_exact_sign_p": 0.001953125,
+        "two_sided_exact_signflip_p": 0.001953125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        3410.0,
+        3244.0,
+        3569.0,
+        3370.0,
+        3270.0,
+        3280.0,
+        3424.0,
+        3286.0,
+        3430.0,
+        3149.0
+      ],
+      "mean_actual_action_differences": 2.0,
+      "actual_action_differences_total": 20,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 0.0,
+      "total_fee": 67.20000000000002,
+      "dropped_service": 84.0,
+      "gross_served_reward": 3983.0,
+      "reward_change_full_minus_comparator": 3367.2,
+      "fee_saving_comparator_minus_full": -23.999999999999943,
+      "decomposition_error": 0.0,
+      "test_opportunities": 10635,
+      "served_opportunities": 10551.0
+    },
+    "context_joint_prefix_tuned": {
+      "net": 7271.0,
+      "deployments": 2.0,
+      "potential_accuracy": 0.6981852374236014,
+      "paired_full_minus_comparator": {
+        "mean": -12.0,
+        "median": 0.0,
+        "sd": 41.57990967870047,
+        "range": [
+          -130.0,
+          10.0
+        ],
+        "positive": 1,
+        "negative": 1,
+        "ties": 8,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -41.74447553700359,
+          17.744475537003588
+        ],
+        "ci95_student_t9": [
+          -41.74447553700359,
+          17.744475537003588
+        ],
+        "ci95_normal": [
+          -37.771495019799595,
+          13.771495019799595
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -130.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.4,
+      "actual_action_differences_total": 4,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 24.0,
+      "total_fee": 91.19999999999997,
+      "dropped_service": 92.0,
+      "gross_served_reward": 7362.2,
+      "reward_change_full_minus_comparator": -12.000000000000142,
+      "fee_saving_comparator_minus_full": 0.0,
+      "decomposition_error": -1.4210854715202004e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.0
+    },
+    "decision_diagonal_prefix_tuned": {
+      "net": 7258.1,
+      "deployments": 1.8,
+      "potential_accuracy": 0.696680771039022,
+      "paired_full_minus_comparator": {
+        "mean": 0.9,
+        "median": 0.0,
+        "sd": 63.43229111072337,
+        "range": [
+          -130.0,
+          139.0
+        ],
+        "positive": 1,
+        "negative": 1,
+        "ties": 8,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -44.47672750562767,
+          46.27672750562767
+        ],
+        "ci95_student_t9": [
+          -44.47672750562767,
+          46.27672750562767
+        ],
+        "ci95_normal": [
+          -38.4157413540966,
+          40.2157413540966
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -130.0,
+        0.0,
+        0.0,
+        139.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 0.6,
+      "actual_action_differences_total": 6,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 21.6,
+      "total_fee": 88.79999999999998,
+      "dropped_service": 91.2,
+      "gross_served_reward": 7346.9,
+      "reward_change_full_minus_comparator": 3.2999999999998524,
+      "fee_saving_comparator_minus_full": -2.399999999999994,
+      "decomposition_error": -1.417754802446325e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10543.8
+    },
+    "quality_only_prefix_tuned": {
+      "net": 7253.7,
+      "deployments": 1.7,
+      "potential_accuracy": 0.6961542078044194,
+      "paired_full_minus_comparator": {
+        "mean": 5.3,
+        "median": 0.0,
+        "sd": 65.0299930801165,
+        "range": [
+          -130.0,
+          139.0
+        ],
+        "positive": 2,
+        "negative": 2,
+        "ties": 6,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -41.21965464306636,
+          51.81965464306636
+        ],
+        "ci95_student_t9": [
+          -41.21965464306636,
+          51.81965464306636
+        ],
+        "ci95_normal": [
+          -35.00600729419872,
+          45.60600729419871
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.75,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        46.0,
+        -130.0,
+        0.0,
+        0.0,
+        139.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "mean_actual_action_differences": 1.3,
+      "actual_action_differences_total": 13,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 20.4,
+      "total_fee": 87.59999999999998,
+      "dropped_service": 90.8,
+      "gross_served_reward": 7341.3,
+      "reward_change_full_minus_comparator": 8.899999999999846,
+      "fee_saving_comparator_minus_full": -3.5999999999999885,
+      "decomposition_error": -1.4299672557172016e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10544.2
+    },
+    "rf_c_prefix_tuned": {
+      "net": 7342.7,
+      "deployments": 2.1,
+      "potential_accuracy": 0.7050399623883404,
+      "paired_full_minus_comparator": {
+        "mean": -83.7,
+        "median": -17.5,
+        "sd": 141.15952362880486,
+        "range": [
+          -339.0,
+          98.0
+        ],
+        "positive": 1,
+        "negative": 6,
+        "ties": 3,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -184.67944006701106,
+          17.279440067011038
+        ],
+        "ci95_student_t9": [
+          -184.67944006701106,
+          17.279440067011038
+        ],
+        "ci95_normal": [
+          -171.19157918591048,
+          3.791579185910493
+        ],
+        "two_sided_exact_sign_p": 0.125,
+        "two_sided_exact_signflip_p": 0.125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "per_seed_difference": [
+        0.0,
+        -214.0,
+        -269.0,
+        0.0,
+        98.0,
+        -15.0,
+        -78.0,
+        -339.0,
+        0.0,
+        -20.0
+      ],
+      "mean_actual_action_differences": 2.3,
+      "actual_action_differences_total": 23,
+      "probe_steps": 3360.0,
+      "probe_fee": 67.20000000000002,
+      "deploy_fee": 25.2,
+      "total_fee": 92.39999999999995,
+      "dropped_service": 92.4,
+      "gross_served_reward": 7435.1,
+      "reward_change_full_minus_comparator": -84.90000000000013,
+      "fee_saving_comparator_minus_full": 1.1999999999999944,
+      "decomposition_error": -1.4210854715202004e-13,
+      "test_opportunities": 10635,
+      "served_opportunities": 10542.6
+    }
+  },
+  "air_monthly": [
+    {
+      "month": "2004-06",
+      "n": 607,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.456342668863262,
+          "balanced_accuracy": 0.4671840994954339,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.456342668863262,
+          "balanced_accuracy": 0.4671840994954339,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.45766062602965407,
+          "balanced_accuracy": 0.46845544584326826,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.456342668863262,
+          "balanced_accuracy": 0.4671840994954339,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5052718286655683,
+          "balanced_accuracy": 0.502110953372682,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.456342668863262,
+          "balanced_accuracy": 0.4671840994954339,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t9": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2004-07",
+      "n": 558,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.48960573476702507,
+          "balanced_accuracy": 0.4720245609669133,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.4935483870967742,
+          "balanced_accuracy": 0.47799742861488526,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.49534050179211475,
+          "balanced_accuracy": 0.48245195880643676,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.4935483870967742,
+          "balanced_accuracy": 0.47799742861488526,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5408602150537635,
+          "balanced_accuracy": 0.5016193966734429,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.4086021505376344,
+          "balanced_accuracy": 0.4460311271161158,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": -0.3942652329749108,
+        "median": 0.0,
+        "sd": 0.8811989923338496,
+        "range": [
+          -2.1505376344086056,
+          0.17921146953405187
+        ],
+        "positive": 1,
+        "negative": 2,
+        "ties": 7,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.024637017647955,
+          0.23610655169813344
+        ],
+        "ci95_student_t9": [
+          -1.024637017647955,
+          0.23610655169813344
+        ],
+        "ci95_normal": [
+          -0.9404380269484737,
+          0.1519075609986521
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.5,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2004-08",
+      "n": 428,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5294392523364486,
+          "balanced_accuracy": 0.42797751634810444,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.5238317757009346,
+          "balanced_accuracy": 0.4276456725836919,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.5233644859813085,
+          "balanced_accuracy": 0.4272066757102106,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.5247663551401869,
+          "balanced_accuracy": 0.428310805345778,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5371495327102804,
+          "balanced_accuracy": 0.4044935197611915,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.44392523364485986,
+          "balanced_accuracy": 0.4456553197926179,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 0.560747663551403,
+        "median": 0.0,
+        "sd": 1.1080011989893321,
+        "range": [
+          0.0,
+          3.5046728971962704
+        ],
+        "positive": 4,
+        "negative": 0,
+        "ties": 6,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -0.23186864593498313,
+          1.3533639730377893
+        ],
+        "ci95_student_t9": [
+          -0.23186864593498313,
+          1.3533639730377893
+        ],
+        "ci95_normal": [
+          -0.12599859449333073,
+          1.2474939215961367
+        ],
+        "two_sided_exact_sign_p": 0.125,
+        "two_sided_exact_signflip_p": 0.125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2004-09",
+      "n": 555,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5430630630630631,
+          "balanced_accuracy": 0.49997211996276497,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.5418018018018017,
+          "balanced_accuracy": 0.4925592234135208,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.5427027027027027,
+          "balanced_accuracy": 0.49612223061925215,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.5418018018018018,
+          "balanced_accuracy": 0.49615763302289173,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5427027027027027,
+          "balanced_accuracy": 0.48588551564957105,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.5225225225225225,
+          "balanced_accuracy": 0.5198626618522343,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 0.12612612612612484,
+        "median": 0.0,
+        "sd": 0.91500471584928,
+        "range": [
+          -1.8018018018018056,
+          1.8018018018017945
+        ],
+        "positive": 3,
+        "negative": 1,
+        "ties": 6,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -0.5284288163239677,
+          0.7806810685762173
+        ],
+        "ci95_student_t9": [
+          -0.5284288163239677,
+          0.7806810685762173
+        ],
+        "ci95_normal": [
+          -0.44099967236213833,
+          0.693251924614388
+        ],
+        "two_sided_exact_sign_p": 0.625,
+        "two_sided_exact_signflip_p": 0.75,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2004-10",
+      "n": 392,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5178571428571429,
+          "balanced_accuracy": 0.507856351838009,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.5028061224489796,
+          "balanced_accuracy": 0.501866381504269,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.5015306122448979,
+          "balanced_accuracy": 0.4956765845254144,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.5048469387755101,
+          "balanced_accuracy": 0.4994972335626985,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5931122448979591,
+          "balanced_accuracy": 0.5514820085740391,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.4591836734693878,
+          "balanced_accuracy": 0.44852376814742395,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 1.505102040816327,
+        "median": 1.1479591836734664,
+        "sd": 1.9885963591592073,
+        "range": [
+          0.0,
+          6.377551020408168
+        ],
+        "positive": 6,
+        "negative": 0,
+        "ties": 4,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          0.08254590216542401,
+          2.9276581794672296
+        ],
+        "ci95_student_t9": [
+          0.08254590216542401,
+          2.9276581794672296
+        ],
+        "ci95_normal": [
+          0.27255724785070523,
+          2.7376468337819486
+        ],
+        "two_sided_exact_sign_p": 0.03125,
+        "two_sided_exact_signflip_p": 0.03125,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2004-11",
+      "n": 679,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5362297496318116,
+          "balanced_accuracy": 0.4708956409582643,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.5362297496318116,
+          "balanced_accuracy": 0.47102237082986836,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.5354933726067748,
+          "balanced_accuracy": 0.4706918985673001,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.5354933726067748,
+          "balanced_accuracy": 0.4706918985673001,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5883652430044182,
+          "balanced_accuracy": 0.5130389570640242,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.37260677466863035,
+          "balanced_accuracy": 0.391802132304449,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.9391814663578316,
+        "range": [
+          -1.9145802650957333,
+          2.0618556701030966
+        ],
+        "positive": 1,
+        "negative": 2,
+        "ties": 7,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -0.671849947889564,
+          0.671849947889564
+        ],
+        "ci95_student_t9": [
+          -0.671849947889564,
+          0.671849947889564
+        ],
+        "ci95_normal": [
+          -0.58211070370188,
+          0.58211070370188
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2004-12",
+      "n": 561,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5049910873440285,
+          "balanced_accuracy": 0.48286181456914135,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.49429590017825314,
+          "balanced_accuracy": 0.47557087195572184,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.4834224598930481,
+          "balanced_accuracy": 0.46559697372355424,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.4834224598930481,
+          "balanced_accuracy": 0.46559697372355424,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.539572192513369,
+          "balanced_accuracy": 0.509366351364912,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.32085561497326204,
+          "balanced_accuracy": 0.339580311006423,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 1.0695187165775402,
+        "median": 0.0,
+        "sd": 3.211855437133589,
+        "range": [
+          -3.0303030303030276,
+          6.773618538324422
+        ],
+        "positive": 4,
+        "negative": 3,
+        "ties": 3,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.2281042512556557,
+          3.3671416844107362
+        ],
+        "ci95_student_t9": [
+          -1.2281042512556557,
+          3.3671416844107362
+        ],
+        "ci95_normal": [
+          -0.9212099079438865,
+          3.060247341098967
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.34375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2005-01",
+      "n": 616,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5266233766233765,
+          "balanced_accuracy": 0.4971353205257417,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.5152597402597403,
+          "balanced_accuracy": 0.4889790287185917,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.5186688311688312,
+          "balanced_accuracy": 0.4937615698117607,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.5155844155844156,
+          "balanced_accuracy": 0.4892388512037211,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.500487012987013,
+          "balanced_accuracy": 0.49126841999271936,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.288961038961039,
+          "balanced_accuracy": 0.3210019212637928,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 1.1363636363636367,
+        "median": 1.0551948051948035,
+        "sd": 3.975707940848893,
+        "range": [
+          -7.629870129870126,
+          7.3051948051948035
+        ],
+        "positive": 5,
+        "negative": 2,
+        "ties": 3,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.7076864951215636,
+          3.980413767848837
+        ],
+        "ci95_student_t9": [
+          -1.7076864951215636,
+          3.980413767848837
+        ],
+        "ci95_normal": [
+          -1.3278056749576579,
+          3.6005329476849313
+        ],
+        "two_sided_exact_sign_p": 0.453125,
+        "two_sided_exact_signflip_p": 0.4375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2005-02",
+      "n": 588,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5520408163265306,
+          "balanced_accuracy": 0.5371341956616306,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.5355442176870748,
+          "balanced_accuracy": 0.5211392401150051,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.5430272108843537,
+          "balanced_accuracy": 0.5273364260130209,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.5447278911564626,
+          "balanced_accuracy": 0.5303301253138645,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5015306122448979,
+          "balanced_accuracy": 0.4670686819471566,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.31802721088435376,
+          "balanced_accuracy": 0.3073020362105204,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 1.649659863945579,
+        "median": 0.0,
+        "sd": 4.548626510997928,
+        "range": [
+          -5.782312925170063,
+          9.523809523809524
+        ],
+        "positive": 4,
+        "negative": 3,
+        "ties": 3,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.6042315232367799,
+          4.903551251127938
+        ],
+        "ci95_student_t9": [
+          -1.6042315232367799,
+          4.903551251127938
+        ],
+        "ci95_normal": [
+          -1.1696080560893847,
+          4.468927783980543
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.296875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2005-03",
+      "n": 723,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5549100968188105,
+          "balanced_accuracy": 0.5364596792584828,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.549792531120332,
+          "balanced_accuracy": 0.5288286797929702,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.5461964038727525,
+          "balanced_accuracy": 0.5262377828330983,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.5437067773167359,
+          "balanced_accuracy": 0.5246144016614778,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.5304287690179806,
+          "balanced_accuracy": 0.5027885209940842,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.36099585062240663,
+          "balanced_accuracy": 0.35470856262617595,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": 0.5117565698478564,
+        "median": 0.0,
+        "sd": 2.471675116350083,
+        "range": [
+          -1.9363762102351356,
+          5.255878284923932
+        ],
+        "positive": 3,
+        "negative": 4,
+        "ties": 3,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -1.2563732938722634,
+          2.279886433567976
+        ],
+        "ci95_student_t9": [
+          -1.2563732938722634,
+          2.279886433567976
+        ],
+        "ci95_normal": [
+          -1.0202035388632211,
+          2.0437166785589342
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.546875,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    },
+    {
+      "month": "2005-04",
+      "n": 85,
+      "metrics": {
+        "decision_full": {
+          "accuracy": 0.5858823529411764,
+          "balanced_accuracy": 0.5139886039886039,
+          "classes_present": [
+            6
+          ]
+        },
+        "context_joint": {
+          "accuracy": 0.5976470588235293,
+          "balanced_accuracy": 0.504102564102564,
+          "classes_present": [
+            6
+          ]
+        },
+        "decision_diagonal": {
+          "accuracy": 0.6070588235294118,
+          "balanced_accuracy": 0.528005698005698,
+          "classes_present": [
+            6
+          ]
+        },
+        "rf_c": {
+          "accuracy": 0.6058823529411764,
+          "balanced_accuracy": 0.5304131054131054,
+          "classes_present": [
+            6
+          ]
+        },
+        "periodic": {
+          "accuracy": 0.6858823529411765,
+          "balanced_accuracy": 0.6247008547008547,
+          "classes_present": [
+            6
+          ]
+        },
+        "frozen_deploy": {
+          "accuracy": 0.4235294117647059,
+          "balanced_accuracy": 0.3678062678062678,
+          "classes_present": [
+            6
+          ]
+        }
+      },
+      "paired_accuracy_pp_full_minus_joint": {
+        "mean": -1.1764705882352948,
+        "median": 0.0,
+        "sd": 7.294539308916972,
+        "range": [
+          -10.588235294117654,
+          14.117647058823529
+        ],
+        "positive": 3,
+        "negative": 4,
+        "ties": 3,
+        "reported_rows": 10,
+        "unique_replays": 10,
+        "ci95_student_t": [
+          -6.394669658516998,
+          4.041728482046407
+        ],
+        "ci95_student_t9": [
+          -6.394669658516998,
+          4.041728482046407
+        ],
+        "ci95_normal": [
+          -5.6976728930057075,
+          3.3447317165351174
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.65625,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      }
+    }
+  ],
+  "accuracy_month_counts_vs_joint": {
+    "positive": 7,
+    "negative": 2,
+    "tie": 2
+  },
+  "same_state_action_audit": {
+    "total_decisions": 1870,
+    "eligible_decisions": 1721,
+    "eligible_rate": 0.9203208556149732,
+    "comparators": {
+      "context_joint": {
+        "crossings": 15,
+        "beneficial": 8,
+        "harmful": 5,
+        "ties": 2,
+        "local_sum": 47.0,
+        "eligible_crossing_rate": 0.008715862870424172,
+        "all_window_crossing_rate": 0.008021390374331552,
+        "mean_weight_l2": 0.3835809463601646
+      },
+      "decision_diagonal": {
+        "crossings": 16,
+        "beneficial": 5,
+        "harmful": 9,
+        "ties": 2,
+        "local_sum": -53.0,
+        "eligible_crossing_rate": 0.009296920395119116,
+        "all_window_crossing_rate": 0.008556149732620321,
+        "mean_weight_l2": 0.3552087161350536
+      },
+      "quality_only": {
+        "crossings": 16,
+        "beneficial": 5,
+        "harmful": 9,
+        "ties": 2,
+        "local_sum": -53.0,
+        "eligible_crossing_rate": 0.009296920395119116,
+        "all_window_crossing_rate": 0.008556149732620321,
+        "mean_weight_l2": 0.3605333297532959
+      },
+      "rf_c": {
+        "crossings": 11,
+        "beneficial": 4,
+        "harmful": 5,
+        "ties": 2,
+        "local_sum": -20.0,
+        "eligible_crossing_rate": 0.006391632771644393,
+        "all_window_crossing_rate": 0.0058823529411764705,
+        "mean_weight_l2": 0.345329948057731
+      }
+    }
+  },
+  "sensitivity_default_first5": {
+    "mean_return": 2954.8,
+    "mean_actions": 3.6,
+    "mean_action_changes": 0,
+    "paired_full_minus_joint": {
+      "mean": 7.6,
+      "median": 0.0,
+      "sd": 64.78271374371407,
+      "range": [
+        -77.0,
+        105.0
+      ],
+      "positive": 2,
+      "negative": 2,
+      "ties": 1,
+      "reported_rows": 5,
+      "unique_replays": 5,
+      "ci95_student_t": [
+        -72.83836336157388,
+        88.03836336157387
+      ],
+      "ci95_student_t4": [
+        -72.83836336157388,
+        88.03836336157387
+      ],
+      "ci95_normal": [
+        -49.18455226555898,
+        64.38455226555898
+      ],
+      "two_sided_exact_sign_p": 1.0,
+      "two_sided_exact_signflip_p": 0.75,
+      "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+      "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+    },
+    "seeds": [
+      99001,
+      99002,
+      99003,
+      99004,
+      99005
+    ]
+  },
+  "sensitivity": [
+    {
+      "setting": "beta_90",
+      "change": {
+        "beta": 0.9
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2897.6,
+          "joint_return": 2897.6,
+          "deployments": 5,
+          "actions_changed_vs_base": 3
+        },
+        {
+          "seed": 99002,
+          "full_return": 2906.6,
+          "joint_return": 2925.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 7
+        },
+        {
+          "seed": 99003,
+          "full_return": 2999.6,
+          "joint_return": 2974.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 2
+        },
+        {
+          "seed": 99004,
+          "full_return": 2903.6,
+          "joint_return": 2903.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 6
+        },
+        {
+          "seed": 99005,
+          "full_return": 2994.6,
+          "joint_return": 2996.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 7
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2940.4,
+      "mean_actions": 4.2,
+      "mean_action_changes": 5.0,
+      "paired_vs_joint": {
+        "mean": 0.8,
+        "median": 0.0,
+        "sd": 15.706686474237651,
+        "range": [
+          -19.0,
+          25.0
+        ],
+        "positive": 1,
+        "negative": 2,
+        "ties": 2,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -18.702427126150404,
+          20.302427126150405
+        ],
+        "ci95_student_t4": [
+          -18.702427126150404,
+          20.302427126150405
+        ],
+        "ci95_normal": [
+          -12.967517713807378,
+          14.56751771380738
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": -14.4,
+        "median": -17.0,
+        "sd": 57.69142050599899,
+        "range": [
+          -77.0,
+          68.0
+        ],
+        "positive": 2,
+        "negative": 3,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -86.03335984759028,
+          57.23335984759027
+        ],
+        "ci95_student_t4": [
+          -86.03335984759028,
+          57.23335984759027
+        ],
+        "ci95_normal": [
+          -64.96875968421611,
+          36.16875968421611
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.625,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "beta_1",
+      "change": {
+        "beta": 1.0
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2800.6,
+          "joint_return": 2825.6,
+          "deployments": 5,
+          "actions_changed_vs_base": 7
+        },
+        {
+          "seed": 99002,
+          "full_return": 2908.6,
+          "joint_return": 2908.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 4
+        },
+        {
+          "seed": 99003,
+          "full_return": 2815.6,
+          "joint_return": 2755.6,
+          "deployments": 5,
+          "actions_changed_vs_base": 7
+        },
+        {
+          "seed": 99004,
+          "full_return": 2900.6,
+          "joint_return": 2749.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 4
+        },
+        {
+          "seed": 99005,
+          "full_return": 2827.6,
+          "joint_return": 2832.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 7
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2850.6,
+      "mean_actions": 4.2,
+      "mean_action_changes": 5.8,
+      "paired_vs_joint": {
+        "mean": 36.2,
+        "median": 0.0,
+        "sd": 71.58700999483077,
+        "range": [
+          -25.0,
+          151.0
+        ],
+        "positive": 2,
+        "negative": 2,
+        "ties": 1,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -52.687013049705044,
+          125.08701304970505
+        ],
+        "ci95_student_t4": [
+          -52.687013049705044,
+          125.08701304970505
+        ],
+        "ci95_normal": [
+          -26.548780896524192,
+          98.9487808965242
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.5,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": -104.2,
+        "median": -85.0,
+        "sd": 48.97652498901897,
+        "range": [
+          -184.0,
+          -61.0
+        ],
+        "positive": 0,
+        "negative": 5,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -165.0123878360402,
+          -43.38761216395981
+        ],
+        "ci95_student_t4": [
+          -165.0123878360402,
+          -43.38761216395981
+        ],
+        "ci95_normal": [
+          -147.1298169574481,
+          -61.27018304255189
+        ],
+        "two_sided_exact_sign_p": 0.0625,
+        "two_sided_exact_signflip_p": 0.0625,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "lambda_0",
+      "change": {
+        "lam": 0.0
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2962.6,
+          "joint_return": 2962.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 2
+        },
+        {
+          "seed": 99002,
+          "full_return": 2959.6,
+          "joint_return": 2959.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 3
+        },
+        {
+          "seed": 99003,
+          "full_return": 2920.6,
+          "joint_return": 2920.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 4
+        },
+        {
+          "seed": 99004,
+          "full_return": 2900.6,
+          "joint_return": 2900.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 4
+        },
+        {
+          "seed": 99005,
+          "full_return": 2878.6,
+          "joint_return": 2878.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 5
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2924.4,
+      "mean_actions": 4.0,
+      "mean_action_changes": 3.6,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t4": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": -30.4,
+        "median": -24.0,
+        "sd": 76.51013004824917,
+        "range": [
+          -133.0,
+          77.0
+        ],
+        "positive": 1,
+        "negative": 4,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -125.3998739788745,
+          64.59987397887451
+        ],
+        "ci95_student_t4": [
+          -125.3998739788745,
+          64.59987397887451
+        ],
+        "ci95_normal": [
+          -97.46408588805187,
+          36.66408588805188
+        ],
+        "two_sided_exact_sign_p": 0.375,
+        "two_sided_exact_signflip_p": 0.4375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "lambda_4",
+      "change": {
+        "lam": 4.0
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2962.6,
+          "joint_return": 2885.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 2
+        },
+        {
+          "seed": 99002,
+          "full_return": 2898.6,
+          "joint_return": 2964.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 5
+        },
+        {
+          "seed": 99003,
+          "full_return": 2908.6,
+          "joint_return": 2920.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 2
+        },
+        {
+          "seed": 99004,
+          "full_return": 2898.6,
+          "joint_return": 3004.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 6
+        },
+        {
+          "seed": 99005,
+          "full_return": 2884.6,
+          "joint_return": 2911.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 5
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2910.6,
+      "mean_actions": 4.0,
+      "mean_action_changes": 4.0,
+      "paired_vs_joint": {
+        "mean": -26.8,
+        "median": -27.0,
+        "sd": 68.561651088637,
+        "range": [
+          -106.0,
+          77.0
+        ],
+        "positive": 1,
+        "negative": 4,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -111.93053381423614,
+          58.33053381423615
+        ],
+        "ci95_student_t4": [
+          -111.93053381423614,
+          58.33053381423615
+        ],
+        "ci95_normal": [
+          -86.89693689365541,
+          33.2969368936554
+        ],
+        "two_sided_exact_sign_p": 0.375,
+        "two_sided_exact_signflip_p": 0.375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": -44.2,
+        "median": -63.0,
+        "sd": 77.4803200819408,
+        "range": [
+          -127.0,
+          77.0
+        ],
+        "positive": 1,
+        "negative": 4,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -140.40452401512647,
+          52.004524015126464
+        ],
+        "ci95_student_t4": [
+          -140.40452401512647,
+          52.004524015126464
+        ],
+        "ci95_normal": [
+          -112.11449494769138,
+          23.714494947691378
+        ],
+        "two_sided_exact_sign_p": 0.375,
+        "two_sided_exact_signflip_p": 0.25,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "fee_4",
+      "change": {
+        "deploy_fee": 4.0
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2987.6,
+          "joint_return": 2970.6,
+          "deployments": 8,
+          "actions_changed_vs_base": 12
+        },
+        {
+          "seed": 99002,
+          "full_return": 2943.6,
+          "joint_return": 2950.6,
+          "deployments": 9,
+          "actions_changed_vs_base": 10
+        },
+        {
+          "seed": 99003,
+          "full_return": 2995.6,
+          "joint_return": 2969.6,
+          "deployments": 9,
+          "actions_changed_vs_base": 11
+        },
+        {
+          "seed": 99004,
+          "full_return": 2994.6,
+          "joint_return": 3029.6,
+          "deployments": 7,
+          "actions_changed_vs_base": 9
+        },
+        {
+          "seed": 99005,
+          "full_return": 3021.6,
+          "joint_return": 3030.6,
+          "deployments": 7,
+          "actions_changed_vs_base": 10
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2988.6,
+      "mean_actions": 8.0,
+      "mean_action_changes": 10.4,
+      "paired_vs_joint": {
+        "mean": -1.6,
+        "median": -7.0,
+        "sd": 24.01666088364492,
+        "range": [
+          -35.0,
+          26.0
+        ],
+        "positive": 2,
+        "negative": 3,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -31.4206231763142,
+          28.2206231763142
+        ],
+        "ci95_student_t4": [
+          -31.4206231763142,
+          28.2206231763142
+        ],
+        "ci95_normal": [
+          -22.651531440728963,
+          19.45153144072896
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.9375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": 33.8,
+        "median": 33.0,
+        "sd": 53.79776947049013,
+        "range": [
+          -40.0,
+          102.0
+        ],
+        "positive": 4,
+        "negative": 1,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -32.99875353522627,
+          100.59875353522627
+        ],
+        "ci95_student_t4": [
+          -32.99875353522627,
+          100.59875353522627
+        ],
+        "ci95_normal": [
+          -13.355824072960488,
+          80.95582407296048
+        ],
+        "two_sided_exact_sign_p": 0.375,
+        "two_sided_exact_signflip_p": 0.25,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "fee_24",
+      "change": {
+        "deploy_fee": 24.0
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2777.6,
+          "joint_return": 2766.6,
+          "deployments": 2,
+          "actions_changed_vs_base": 6
+        },
+        {
+          "seed": 99002,
+          "full_return": 2826.6,
+          "joint_return": 2826.6,
+          "deployments": 2,
+          "actions_changed_vs_base": 5
+        },
+        {
+          "seed": 99003,
+          "full_return": 2779.6,
+          "joint_return": 2779.6,
+          "deployments": 2,
+          "actions_changed_vs_base": 6
+        },
+        {
+          "seed": 99004,
+          "full_return": 2757.6,
+          "joint_return": 2757.6,
+          "deployments": 2,
+          "actions_changed_vs_base": 6
+        },
+        {
+          "seed": 99005,
+          "full_return": 2777.6,
+          "joint_return": 2777.6,
+          "deployments": 2,
+          "actions_changed_vs_base": 5
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2783.8,
+      "mean_actions": 2.0,
+      "mean_action_changes": 5.6,
+      "paired_vs_joint": {
+        "mean": 2.2,
+        "median": 0.0,
+        "sd": 4.919349550499538,
+        "range": [
+          0.0,
+          11.0
+        ],
+        "positive": 1,
+        "negative": 0,
+        "ties": 4,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -3.90817923144,
+          8.30817923144
+        ],
+        "ci95_student_t4": [
+          -3.90817923144,
+          8.30817923144
+        ],
+        "ci95_normal": [
+          -2.112,
+          6.5120000000000005
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": -171.0,
+        "median": -157.0,
+        "sd": 48.948953002081666,
+        "range": [
+          -234.0,
+          -108.0
+        ],
+        "positive": 0,
+        "negative": 5,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -231.77815269250118,
+          -110.22184730749883
+        ],
+        "ci95_student_t4": [
+          -231.77815269250118,
+          -110.22184730749883
+        ],
+        "ci95_normal": [
+          -213.90564904531803,
+          -128.09435095468197
+        ],
+        "two_sided_exact_sign_p": 0.0625,
+        "two_sided_exact_signflip_p": 0.0625,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "delay_1",
+      "change": {
+        "delay_low": 1,
+        "delay_high": 1
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2927.6,
+          "joint_return": 2947.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 4
+        },
+        {
+          "seed": 99002,
+          "full_return": 2927.6,
+          "joint_return": 2947.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 5
+        },
+        {
+          "seed": 99003,
+          "full_return": 2927.6,
+          "joint_return": 2947.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 6
+        },
+        {
+          "seed": 99004,
+          "full_return": 2927.6,
+          "joint_return": 2947.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 4
+        },
+        {
+          "seed": 99005,
+          "full_return": 2927.6,
+          "joint_return": 2947.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 5
+        }
+      ],
+      "unique_replay_count": 1,
+      "mean_return": 2927.6,
+      "mean_actions": 4.0,
+      "mean_action_changes": 4.8,
+      "paired_vs_joint": {
+        "mean": -20.0,
+        "median": -20.0,
+        "sd": 0.0,
+        "range": [
+          -20.0,
+          -20.0
+        ],
+        "positive": 0,
+        "negative": 5,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 1,
+        "ci95_student_t": null,
+        "ci95_normal": null,
+        "two_sided_exact_sign_p": null,
+        "two_sided_exact_signflip_p": null,
+        "interval_interpretation": "One deterministic replay repeated; no independent-seed interval."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": -27.2,
+        "median": -34.0,
+        "sd": 48.551004109081,
+        "range": [
+          -84.0,
+          42.0
+        ],
+        "positive": 1,
+        "negative": 4,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 1,
+        "ci95_student_t": null,
+        "ci95_normal": null,
+        "two_sided_exact_sign_p": null,
+        "two_sided_exact_signflip_p": null,
+        "interval_interpretation": "One deterministic replay repeated; no independent-seed interval.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "delay_8",
+      "change": {
+        "delay_low": 8,
+        "delay_high": 8
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2890.6,
+          "joint_return": 2902.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 8
+        },
+        {
+          "seed": 99002,
+          "full_return": 2890.6,
+          "joint_return": 2902.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 7
+        },
+        {
+          "seed": 99003,
+          "full_return": 2890.6,
+          "joint_return": 2902.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 6
+        },
+        {
+          "seed": 99004,
+          "full_return": 2890.6,
+          "joint_return": 2902.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 8
+        },
+        {
+          "seed": 99005,
+          "full_return": 2890.6,
+          "joint_return": 2902.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 7
+        }
+      ],
+      "unique_replay_count": 1,
+      "mean_return": 2890.6,
+      "mean_actions": 4.0,
+      "mean_action_changes": 7.2,
+      "paired_vs_joint": {
+        "mean": -12.0,
+        "median": -12.0,
+        "sd": 0.0,
+        "range": [
+          -12.0,
+          -12.0
+        ],
+        "positive": 0,
+        "negative": 5,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 1,
+        "ci95_student_t": null,
+        "ci95_normal": null,
+        "two_sided_exact_sign_p": null,
+        "two_sided_exact_signflip_p": null,
+        "interval_interpretation": "One deterministic replay repeated; no independent-seed interval."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": -64.2,
+        "median": -71.0,
+        "sd": 48.551004109081,
+        "range": [
+          -121.0,
+          5.0
+        ],
+        "positive": 1,
+        "negative": 4,
+        "ties": 0,
+        "reported_rows": 5,
+        "unique_replays": 1,
+        "ci95_student_t": null,
+        "ci95_normal": null,
+        "two_sided_exact_sign_p": null,
+        "two_sided_exact_signflip_p": null,
+        "interval_interpretation": "One deterministic replay repeated; no independent-seed interval.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "quality_flat",
+      "change": {
+        "quality_power": 0.0
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2885.6,
+          "joint_return": 2962.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 0
+        },
+        {
+          "seed": 99002,
+          "full_return": 2983.6,
+          "joint_return": 2983.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 0
+        },
+        {
+          "seed": 99003,
+          "full_return": 2931.6,
+          "joint_return": 2920.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 0
+        },
+        {
+          "seed": 99004,
+          "full_return": 2961.6,
+          "joint_return": 2962.6,
+          "deployments": 4,
+          "actions_changed_vs_base": 0
+        },
+        {
+          "seed": 99005,
+          "full_return": 3011.6,
+          "joint_return": 2906.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 0
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2954.8,
+      "mean_actions": 3.6,
+      "mean_action_changes": 0.0,
+      "paired_vs_joint": {
+        "mean": 7.6,
+        "median": 0.0,
+        "sd": 64.78271374371407,
+        "range": [
+          -77.0,
+          105.0
+        ],
+        "positive": 2,
+        "negative": 2,
+        "ties": 1,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -72.83836336157388,
+          88.03836336157387
+        ],
+        "ci95_student_t4": [
+          -72.83836336157388,
+          88.03836336157387
+        ],
+        "ci95_normal": [
+          -49.18455226555898,
+          64.38455226555898
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 0.75,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": 0.0,
+        "median": 0.0,
+        "sd": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          0.0,
+          0.0
+        ],
+        "ci95_student_t4": [
+          0.0,
+          0.0
+        ],
+        "ci95_normal": [
+          0.0,
+          0.0
+        ],
+        "two_sided_exact_sign_p": 1.0,
+        "two_sided_exact_signflip_p": 1.0,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    },
+    {
+      "setting": "outage",
+      "change": {
+        "mask_stress": true
+      },
+      "rows": [
+        {
+          "seed": 99001,
+          "full_return": 2926.6,
+          "joint_return": 2989.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 5
+        },
+        {
+          "seed": 99002,
+          "full_return": 2983.6,
+          "joint_return": 2914.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 0
+        },
+        {
+          "seed": 99003,
+          "full_return": 2901.6,
+          "joint_return": 2894.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 7
+        },
+        {
+          "seed": 99004,
+          "full_return": 2999.6,
+          "joint_return": 2999.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 5
+        },
+        {
+          "seed": 99005,
+          "full_return": 3012.6,
+          "joint_return": 2946.6,
+          "deployments": 3,
+          "actions_changed_vs_base": 4
+        }
+      ],
+      "unique_replay_count": 5,
+      "mean_return": 2964.8,
+      "mean_actions": 3.0,
+      "mean_action_changes": 4.2,
+      "paired_vs_joint": {
+        "mean": 15.8,
+        "median": 7.0,
+        "sd": 54.513301129173975,
+        "range": [
+          -63.0,
+          69.0
+        ],
+        "positive": 3,
+        "negative": 1,
+        "ties": 1,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -51.88720343538972,
+          83.48720343538972
+        ],
+        "ci95_student_t4": [
+          -51.88720343538972,
+          83.48720343538972
+        ],
+        "ci95_normal": [
+          -31.983015225077626,
+          63.58301522507763
+        ],
+        "two_sided_exact_sign_p": 0.625,
+        "two_sided_exact_signflip_p": 0.375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation."
+      },
+      "paired_setting_full_minus_default_full": {
+        "mean": 10.0,
+        "median": 1.0,
+        "sd": 29.690065678607045,
+        "range": [
+          -30.0,
+          41.0
+        ],
+        "positive": 3,
+        "negative": 1,
+        "ties": 1,
+        "reported_rows": 5,
+        "unique_replays": 5,
+        "ci95_student_t": [
+          -26.865085657460874,
+          46.865085657460874
+        ],
+        "ci95_student_t4": [
+          -26.865085657460874,
+          46.865085657460874
+        ],
+        "ci95_normal": [
+          -16.02449000460912,
+          36.02449000460912
+        ],
+        "two_sided_exact_sign_p": 0.625,
+        "two_sided_exact_signflip_p": 0.375,
+        "interval_interpretation": "Conditional assigned-delay/scenario interval; no dataset, model-fit, method-selection or multiplicity uncertainty.",
+        "signflip_assumption": "Reference test assumes symmetric independent sign flips of paired differences; not an exploration-adjusted confirmation.",
+        "interpretation": "Descriptive sensitivity against the five original delay scenarios; world/candidate changes can accompany the intervention."
+      }
+    }
+  ],
+  "causal_recovery": {
+    "definition": "same-deployed-state update-vs-keep fork, no later admissions; four postdeployment windows; at least three consecutive potential accuracy gains >=.03 and positive full local fee/opportunity-inclusive gain",
+    "studies": {
+      "formal": {
+        "decision_full": {
+          "admissions": 40,
+          "positive_local_gain": 16,
+          "harmful_local_gain": 22,
+          "zero_local_gain": 2,
+          "sustained": 19,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3,
+          "minimum_parameter_change": 0.3488565560996409,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "context_joint": {
+          "admissions": 40,
+          "positive_local_gain": 16,
+          "harmful_local_gain": 22,
+          "zero_local_gain": 2,
+          "sustained": 19,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3,
+          "minimum_parameter_change": 0.3488565560996409,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "decision_diagonal": {
+          "admissions": 40,
+          "positive_local_gain": 16,
+          "harmful_local_gain": 22,
+          "zero_local_gain": 2,
+          "sustained": 19,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3,
+          "minimum_parameter_change": 0.3488565560996409,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "quality_only": {
+          "admissions": 40,
+          "positive_local_gain": 16,
+          "harmful_local_gain": 22,
+          "zero_local_gain": 2,
+          "sustained": 19,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3,
+          "minimum_parameter_change": 0.3488565560996409,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "rf_c": {
+          "admissions": 39,
+          "positive_local_gain": 14,
+          "harmful_local_gain": 23,
+          "zero_local_gain": 2,
+          "sustained": 18,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3076923076923077,
+          "minimum_parameter_change": 0.27440886132871967,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "periodic": {
+          "admissions": 240,
+          "positive_local_gain": 12,
+          "harmful_local_gain": 225,
+          "zero_local_gain": 3,
+          "sustained": 83,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.05,
+          "minimum_parameter_change": 0.12437297068607402,
+          "truncated_horizons": 10,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        }
+      },
+      "exploratory": {
+        "decision_full": {
+          "admissions": 35,
+          "positive_local_gain": 13,
+          "harmful_local_gain": 20,
+          "zero_local_gain": 2,
+          "sustained": 17,
+          "valuable_sustained": 11,
+          "valuable_sustained_fraction": 0.3142857142857143,
+          "minimum_parameter_change": 0.3424232312359655,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "context_joint": {
+          "admissions": 42,
+          "positive_local_gain": 14,
+          "harmful_local_gain": 26,
+          "zero_local_gain": 2,
+          "sustained": 18,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.2857142857142857,
+          "minimum_parameter_change": 0.27440886132871967,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "decision_diagonal": {
+          "admissions": 40,
+          "positive_local_gain": 16,
+          "harmful_local_gain": 22,
+          "zero_local_gain": 2,
+          "sustained": 19,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3,
+          "minimum_parameter_change": 0.3488565560996409,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "quality_only": {
+          "admissions": 40,
+          "positive_local_gain": 16,
+          "harmful_local_gain": 22,
+          "zero_local_gain": 2,
+          "sustained": 19,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3,
+          "minimum_parameter_change": 0.3488565560996409,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "rf_c": {
+          "admissions": 39,
+          "positive_local_gain": 14,
+          "harmful_local_gain": 23,
+          "zero_local_gain": 2,
+          "sustained": 18,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.3076923076923077,
+          "minimum_parameter_change": 0.27440886132871967,
+          "truncated_horizons": 0,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        },
+        "periodic": {
+          "admissions": 240,
+          "positive_local_gain": 12,
+          "harmful_local_gain": 225,
+          "zero_local_gain": 3,
+          "sustained": 83,
+          "valuable_sustained": 12,
+          "valuable_sustained_fraction": 0.05,
+          "minimum_parameter_change": 0.12437297068607402,
+          "truncated_horizons": 10,
+          "max_return_error": 1.3642420526593924e-12,
+          "max_local_error": 0.0
+        }
+      }
+    }
+  },
+  "scale_diagnostics": {
+    "decision_count": 1870,
+    "fallbacks": 136,
+    "trace_min": 0.0,
+    "trace_max": 0.040771475617809916
+  },
+  "interpretive_limits": [
+    "All Air invariant results are post-test exploratory on one already inspected chronological dataset.",
+    "Seeds vary assigned feedback delay; they are not independent datasets or field deployments.",
+    "Potential accuracy includes unserved retained records; gross served reward excludes dropped service positions.",
+    "All five probe models are trained and paid equally; the controlled decision is candidate deployment admission.",
+    "Same-state local forks suppress later admissions; sums do not decompose whole-policy causal return.",
+    "Fixed-delay seeds repeat one identical deterministic replay and receive no independent confidence interval.",
+    "No month-specific net-return decomposition exists in the saved traces; month outputs are accuracy only.",
+    "Costs, delays and queue occupancy are experimental settings on measured source covariates and targets.",
+    "The legacy eventual-recovery field is confounded by later deployments; causal recovery uses separate fixed-state forks.",
+    "Normal and Student intervals are conditional summaries, with no method-selection or multiplicity correction."
+  ],
+  "air_paired_seed_rows": [
+    {
+      "seed": 99001,
+      "net_full": 2885.6,
+      "net_joint": 2962.6,
+      "net_gain": -77.0,
+      "deploy_full": 4,
+      "deploy_joint": 4,
+      "actual_action_changes": 2
+    },
+    {
+      "seed": 99002,
+      "net_full": 2983.6,
+      "net_joint": 2983.6,
+      "net_gain": 0.0,
+      "deploy_full": 3,
+      "deploy_joint": 3,
+      "actual_action_changes": 0
+    },
+    {
+      "seed": 99003,
+      "net_full": 2931.6,
+      "net_joint": 2920.6,
+      "net_gain": 11.0,
+      "deploy_full": 4,
+      "deploy_joint": 4,
+      "actual_action_changes": 4
+    },
+    {
+      "seed": 99004,
+      "net_full": 2961.6,
+      "net_joint": 2962.6,
+      "net_gain": -1.0,
+      "deploy_full": 4,
+      "deploy_joint": 4,
+      "actual_action_changes": 4
+    },
+    {
+      "seed": 99005,
+      "net_full": 3011.6,
+      "net_joint": 2906.6,
+      "net_gain": 105.0,
+      "deploy_full": 3,
+      "deploy_joint": 4,
+      "actual_action_changes": 5
+    },
+    {
+      "seed": 99006,
+      "net_full": 2912.6,
+      "net_joint": 2836.6,
+      "net_gain": 76.0,
+      "deploy_full": 4,
+      "deploy_joint": 5,
+      "actual_action_changes": 3
+    },
+    {
+      "seed": 99007,
+      "net_full": 2920.6,
+      "net_joint": 2838.6,
+      "net_gain": 82.0,
+      "deploy_full": 4,
+      "deploy_joint": 5,
+      "actual_action_changes": 3
+    },
+    {
+      "seed": 99008,
+      "net_full": 2994.6,
+      "net_joint": 2910.6,
+      "net_gain": 84.0,
+      "deploy_full": 3,
+      "deploy_joint": 5,
+      "actual_action_changes": 6
+    },
+    {
+      "seed": 99009,
+      "net_full": 3024.6,
+      "net_joint": 2911.6,
+      "net_gain": 113.0,
+      "deploy_full": 3,
+      "deploy_joint": 4,
+      "actual_action_changes": 5
+    },
+    {
+      "seed": 99010,
+      "net_full": 3003.6,
+      "net_joint": 2977.6,
+      "net_gain": 26.0,
+      "deploy_full": 3,
+      "deploy_joint": 4,
+      "actual_action_changes": 3
+    }
+  ],
+  "reference_check": {
+    "passed": true,
+    "checked_metrics": 757,
+    "max_absolute_difference": 4.547473508864641e-13,
+    "path": "/Users/key/Documents/Codex/2026-10-02/jih/outputs/fusion_repro/analysis.json",
+    "fixed_delay_note": "Repeated deterministic rows deliberately receive no independent CI."
+  }
+}
