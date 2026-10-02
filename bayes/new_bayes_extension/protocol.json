@@ -1,0 +1,20 @@
+{
+  "study": "Prospective two-task extension of unchanged frozen Bayesian canary controller",
+  "protocol_version": 1,
+  "base_protocol_sha256": "921eb4540ec9b6b9c159edd6b027c4620a6d5b04f13c5699a14089b64d35ac8d",
+  "unchanged_base_executable_sha256": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+  "extension_scope": "Exactly UCI MHEALTH319 and SmartphoneHAR240, retain all outcomes; no further dataset search or test-driven mechanism changes.",
+  "datasets": {
+    "mhealth319": {"participants": [1,2,3,4,5,6,7,8,9,10], "downsample": "Every50th raw acquisition row before target filtering; raw50Hz becomes1Hz; retain activitylabels1..12 and mapminus1", "feature_raw_indices": [0,1,2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22], "groups": [[0,1,2],[3,4,5,6,7,8,9,10,11],[12,13,14,15,16,17,18,19,20]], "classes": 12, "group_meaning": ["chestacceleration3", "leftankleaccelerationgyroorientation9", "rightarmaccelerationgyroorientation9"], "exclude": "RawECGcolumns3,4 excluded", "order": "participantIDascending, raw acquisitionroworderwithinparticipant"},
+    "har240": {"folds": ["train", "test"], "signal_groups": [["total_acc_x", "total_acc_y", "total_acc_z"], ["body_gyro_x", "body_gyro_y", "body_gyro_z"]], "features": "mean,standarddeviation,min,max ofeach128measurementsegment for eachchannel (24features)", "groups": [[0,1,2,3,4,5,6,7,8,9,10,11],[12,13,14,15,16,17,18,19,20,21,22,23]], "classes": 6, "target": "originalactivitylabelminus1", "order": "combineofficialtrain/test subjectIDs; participantIDascending thenoriginalacquisitionroworderwithinparticipant", "modalities": "Two sensor modalities, accelerometer andgyroscope; notsixindependentphysicaldevices"}
+  },
+  "timestamps": "DeterministicsubjectID/rawroworsegmentID strings used onlyfor fixedhashaudit; notrealcalendar timestamps. Orderedsubjectstreams areexplicitlyconstructed evaluationsequence.",
+  "split": "Samebaseengine fixedfirst30%fit/hash30%audit, next30%calibration firsthalfqfit secondhalf9configselection, last40%heldouttest; fitstatistics onlyfrom trainingnonauditprefix.",
+  "main_arms": ["mean_only", "diagonal", "joint", "bayes_weights", "bayes_gate", "bayes_both", "frequentist_gate", "posterior_unused", "periodic", "frozen"],
+  "new_control": "diagonal_posterior_gate: samejointweights andgain asbayes_gate, directionalSD usesdiag(U_raw) ratherthanfullU; sameinitialqfit, onlineprojectedcalibration, all9configs andsame3prefixdelayseeds. No addedposteriorweightarm orparameter.",
+  "fixed_algorithm": "Importunchangedbaseengine: window32,H4leases,refrefresh8,fee2+restore1/drop2,costupperbound5,commonprobe20/4windows,eta4,lambdaΣ+etaU samepredictivetangentscale,rawposteriorgatevariancefloor1e-4,gamma.05,alpha.1,delay1..4,forecastoutagefirst2/13windowsrotatingsource.",
+  "equal_selection_grid": {"lambda": [0.0,0.25,1.0], "margin": [0.0,4.0,12.0], "calibration_seeds": [71001,71002,71003], "test_seeds": [72001,72002,72003,72004,72005]},
+  "canary_accounting": "Dtilde=truegross−5; actualD=truegross−3−candidatecorrectextra2 = Dtilde+(2−candidatecorrectextra2); logslackforofflineaudit only. Gateandcalibration targetunchangedgain−truegross. Exactclosureasoldtwo tasks.",
+  "primary_reporting": "Alltasks/arms,seeds,negativeutility,actionforks,pairedconditional-delayintervals,weight/actiondifferences,causaldelayedcoverage,informativecoverage,solvercertificates andexactclosedloop/calibrationidentities. Do notclaimBayesian-specificsuperiorityifB/diagUposteriormatchedcontrolstie orbeatmethod.",
+  "limitations": "Real sensor recordings and labels; constructedsubjectsequence, feescharges/sourceforecastoutages/latency are replayinterventions. AcquisitionsegmentsmayoverlapHAR; row-basedprefixboundariesmaycutparticipants; auditlagscancontainadjacentphysicalwindows. Reportactualparticipantoverlap ratherthanclaimindependentparticipantswithoutinspection."
+}
