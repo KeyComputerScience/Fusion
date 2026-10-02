@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Execute two separate synthetic pipeline diagnostics; never an edge-service claim.
+"""Execute separate synthetic pipeline diagnostics; never an edge-service claim.
 
 The first streams causal forecasts through delayed labels and missing sources.
 The second performs real NumPy logistic-gradient updates on worker copies and
@@ -37,6 +37,7 @@ def json_safe(value):
 def streaming_fusion_demo(windows=120):
     from da_rf_fusion import DecisionAwareFusion, FusionConfig, QualityObservation
     from da_rf_predictor import DelayedRidgeForecaster, RidgeConfig
+    from da_rf_evidence import block_bootstrap_variance
 
     rng_prefix = np.random.default_rng(81007)
     prefix_size = 160
@@ -57,9 +58,11 @@ def streaming_fusion_demo(windows=120):
                                  max_weight=0.6, context_bandwidth=1.0)
     fusion = DecisionAwareFusion(3, 2, fusion_config)
     rng = np.random.default_rng(81008)
+    rng_bootstrap = np.random.default_rng(81009)
     current = 0.2
     state_history = []
     measurements = [[] for _ in range(3)]
+    diagnostic_history = [[] for _ in range(3)]
     labels_due = []
     issued = {}
     snapshots = []
@@ -101,21 +104,34 @@ def streaming_fusion_demo(windows=120):
             available[:] = False
         features = np.ones((3, 2))
         quality = []
+        quality_audits = []
         for s, sd in enumerate([0.02, 0.06, 0.10]):
             lag = 2 if s == 2 else 0
             observed = state_history[max(0, window - lag)]
             observed += rng.normal(0, 0.35 if s == 1 and 50 <= window < 62 else sd)
             if available[s]:
-                previous = measurements[s][-1] if measurements[s] else observed
+                previous = measurements[s][-1] if measurements[s] else np.nan
                 measurements[s].append(float(observed))
-                recent = measurements[s][-10:]
-                variance = float(np.var(recent, ddof=1)) if len(recent) > 1 else sd**2
-                diagnostic = float(np.clip(abs(observed - previous) / 0.3, 0, 1))
-                quality.append(QualityObservation(True, len(recent), lag, variance, diagnostic))
+                diagnostic = (float(np.clip(abs(observed - previous) / 0.3, 0, 1))
+                              if np.isfinite(previous) else np.nan)
+                diagnostic_history[s].append(diagnostic)
                 features[s, 1] = observed
             else:
+                measurements[s].append(np.nan)
+                diagnostic_history[s].append(np.nan)
                 features[s] = np.nan
-                quality.append(QualityObservation(False, 0, lag, None, None))
+                diagnostic = np.nan
+            recent = np.array(diagnostic_history[s][-10:])
+            count = int(np.isfinite(recent).sum())
+            variance, bootstrap_audit = block_bootstrap_variance(
+                recent, rng=rng_bootstrap, replicates=200, fallback_variance=0.25)
+            quality.append(QualityObservation(bool(available[s]), count, lag, variance,
+                                               diagnostic if np.isfinite(diagnostic) else None))
+            quality_audits.append({"source": s, "available_measurement": bool(available[s]),
+                                  "valid_diagnostic_count": count,
+                                  "chronological_diagnostic_window_size": len(recent),
+                                  "diagnostic": diagnostic, "variance": variance,
+                                  "bootstrap": bootstrap_audit})
         predictions = predictor.issue(window, features, available)
         # Context and stakes depend only on currently observed physical fields.
         context = np.array([np.cos(window / 13), np.sin(window / 11)])
@@ -127,7 +143,8 @@ def streaming_fusion_demo(windows=120):
                           "coverage": snapshot.coverage, "all_missing": snapshot.all_missing,
                           "solver_fallback": snapshot.solver_fallback,
                           "diagnostic": snapshot.diagnostic, "risk": snapshot.risk,
-                          "available": available, "audit": snapshot.audit})
+                          "available": available, "quality_audits": quality_audits,
+                          "audit": snapshot.audit})
     while labels_due:
         ingest(min(item[0] for item in labels_due))
     scored = [(issued[k], row["target"]) for k, row in target_log.items()
@@ -139,9 +156,10 @@ def streaming_fusion_demo(windows=120):
     return {
         "scope": "causal streaming fusion diagnostic with independent prefix-fitted source predictors",
         "not_evaluated": ["queue serving", "neural policy recovery", "DA-RF service superiority"],
-        "seed_prefix": 81007, "seed_stream": 81008,
+        "seed_prefix": 81007, "seed_stream": 81008, "seed_bootstrap": 81009,
         "forecast_target": "next physical window's normalized outcome, observed after delay",
-        "quality_variance": "causal sample variance of the most recent ten available measurements",
+        "quality_variance": "200-replicate moving-block bootstrap of the last ten chronological adjacent-measurement diagnostic values, preserving NaN gaps; fallback 0.25",
+        "support_count": "finite diagnostic values in the same chronological quality window",
         "predictor_config": predictor_config, "fusion_config": fusion_config,
         "issued_windows": windows, "label_records": len(label_audits),
         "scored_forecasts": len(scored), "mae": float(np.mean(np.abs(errors))),
@@ -372,9 +390,9 @@ def main():
                               "a population confidence guarantee for learned moments"]}
     script_dir = Path(__file__).resolve().parent
     files = ["run_da_rf_demo.py", "da_rf_fusion.py", "da_rf_predictor.py", "da_rf_coordinator.py"]
-    result = {"version": "da-rf-diagnostics-v1", "python_version": platform.python_version(),
+    result = {"version": "da-rf-diagnostics-v2-bootstrap-quality", "python_version": platform.python_version(),
               "numpy_version": np.__version__,
-              "scope": "two separate synthetic diagnostics, not a combined policy or service-benefit experiment",
+              "scope": "separate synthetic diagnostics, not a combined policy or service-benefit experiment",
               "script_sha256": {name: hashlib.sha256((script_dir / name).read_bytes()).hexdigest()
                                 for name in files if (script_dir / name).exists()},
               "streaming_fusion": streaming, "permanent_outage_moment": permanent,

@@ -12,10 +12,11 @@ import unittest
 import numpy as np
 
 from da_rf_fusion import (DecisionAwareFusion, FusionConfig, FusionSnapshot,
-                          QualityObservation, solve_capped_fusion)
+                          QualityObservation, solve_capped_fusion, sensitivity_bound)
 from da_rf_predictor import DelayedRidgeForecaster, RidgeConfig
 from da_rf_coordinator import Candidate, CoordinatorConfig, PersistentRecoveryCoordinator
 from da_rf_evidence import persistent_loss, matched_service_change, block_bootstrap_variance
+from da_rf_calibration import PairedRecoverySample, PairedRecoveryCalibrator
 from run_da_rf_demo import gradient_recoverability_demo, logistic_update, permanent_outage_moment_demo
 
 
@@ -49,6 +50,76 @@ def update_candidate(**overrides):
                   gradient_steps=8, delay=2, supported=True, support_count=20)
     values.update(overrides)
     return Candidate(**values)
+
+
+class CalibrationTests(unittest.TestCase):
+    @staticmethod
+    def rows(prefix):
+        rows=[]
+        for i,z in enumerate([-1.0,-0.5,0.5,1.0]):
+            for j,y in enumerate([0.1,0.4,0.7,0.9]):
+                base=2-0.3*y+0.1*z
+                gain=0.5*y+0.2*z*y-0.05
+                origin=f'{prefix}-{i}-{j}'
+                rows.extend([
+                    PairedRecoverySample('no','infer',False,np.array([z]),y,base,base,origin),
+                    PairedRecoverySample('update','infer',True,np.array([z]),y,base,base+gain,origin)])
+        return rows
+
+    def test_independent_affine_model_recovers_slope_and_shared_baseline(self):
+        model=PairedRecoveryCalibrator(1,ridge=1e-9,min_support=3).fit(
+            self.rows('train'),self.rows('held'))
+        c,b,audit=model.local_coefficients('update',[0.4])
+        self.assertAlmostEqual(c,1.99,places=7)
+        self.assertAlmostEqual(b,0.28,places=7)
+        estimate=model.predict('update',[0.4],0.5)
+        reference=model.predict('no',[0.4],0.5)
+        self.assertAlmostEqual(estimate.baseline,1.89,places=7)
+        self.assertAlmostEqual(estimate.gain,0.24,places=7)
+        self.assertEqual(estimate.baseline,reference.baseline)
+        self.assertEqual(reference.gain,0)
+        self.assertFalse(estimate.certificate_valid)
+        self.assertEqual(estimate.calibration_state,'supported')
+
+    def test_counterfactual_calibration_does_not_invent_unknown_candidate(self):
+        model=PairedRecoveryCalibrator(1).fit(self.rows('train'),self.rows('held'))
+        unknown=model.predict('unmeasured',[0],0.5)
+        self.assertIsNone(unknown.gain)
+        self.assertIsNone(unknown.error_allowance)
+        self.assertEqual(unknown.calibration_state,'unsupported')
+        self.assertFalse(unknown.certificate_valid)
+        with self.assertRaises(KeyError):
+            model.local_coefficients('unmeasured',[0])
+
+    def test_same_fork_cannot_leak_across_calibration_and_validation(self):
+        with self.assertRaises(ValueError):
+            PairedRecoveryCalibrator(1).fit(self.rows('same'),self.rows('same'))
+
+    def test_missing_validation_blocks_supported_slope_and_refitting(self):
+        model=PairedRecoveryCalibrator(1).fit(self.rows('train'),[])
+        estimate=model.predict('update',[0],0.5)
+        self.assertNotEqual(estimate.calibration_state,'supported')
+        self.assertIsNone(estimate.error_allowance)
+        with self.assertRaises(ValueError):
+            model.slopes(['no','update'],[0])
+        with self.assertRaises(ValueError):
+            model.fit(self.rows('new'),self.rows('held'))
+
+    def test_mismatched_paired_baseline_and_no_update_gain_rejected(self):
+        rows=self.rows('train')
+        r=rows[1]
+        rows[1]=replace(r,no_update_gross=r.no_update_gross+0.1)
+        with self.assertRaises(ValueError):
+            PairedRecoveryCalibrator(1).fit(rows,self.rows('held'))
+        with self.assertRaises(ValueError):
+            PairedRecoverySample('no','infer',False,np.array([0.0]),0.5,1.0,1.1,'id')
+
+    def test_constant_local_loss_cannot_support_an_identified_response_slope(self):
+        train=[replace(r,loss_state=0.5) for r in self.rows('train')]
+        held=[replace(r,loss_state=0.5) for r in self.rows('held')]
+        model=PairedRecoveryCalibrator(1).fit(train,held)
+        with self.assertRaises(ValueError):
+            model.local_coefficients('update',[0])
 
 
 class PredictorTests(unittest.TestCase):
@@ -138,6 +209,27 @@ class EvidenceTests(unittest.TestCase):
 
 
 class FusionTests(unittest.TestCase):
+    def test_joint_quality_risk_history_perturbations_respect_checked_bound(self):
+        rng=np.random.default_rng(74013)
+        for trial in range(25):
+            n=2+trial%4
+            q=np.exp(rng.normal(0,0.8,n))
+            changed_q=q*np.exp(rng.normal(0,0.05,n))
+            errors=rng.normal(0,0.2,(40,n))
+            matrix=errors.T@errors/len(errors)
+            v=rng.normal(0,1,n)
+            changed_matrix=matrix+0.002*np.outer(v,v)
+            anchor=rng.dirichlet(np.ones(n))
+            changed_anchor=.9*anchor+.1*rng.dirichlet(np.ones(n))
+            config=dict(cap=.7,tau=.2,lam=.7,inertia=.3)
+            first=solve_capped_fusion(q,matrix,anchor,**config)
+            second=solve_capped_fusion(changed_q,changed_matrix,changed_anchor,**config)
+            self.assertTrue(first.converged and second.converged)
+            self.assertLessEqual(max(first.kkt_residual,second.kkt_residual),5e-8)
+            bound=sensitivity_bound(q,changed_q,matrix,changed_matrix,
+                                    anchor,changed_anchor,**config)
+            self.assertLessEqual(np.linalg.norm(first.weights-second.weights),bound+2e-7)
+
     def issue(self, fusion, window, predictions, mask=None, slopes=None):
         mask = [True] * len(predictions) if mask is None else mask
         slopes = [0.0, 1.0] if slopes is None else slopes
