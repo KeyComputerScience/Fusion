@@ -1,0 +1,247 @@
+{
+  "scope": "One preserved exploratory Air seed, five main comparators; full 3-source outage stress compatibility; synthetic mask API corners; analytic Bayesian representation of real archive records.",
+  "study_status": "post-test exploratory; Air formal test results had already been inspected; not independent confirmation",
+  "python_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy_version": "2.3.5",
+  "seed": 99001,
+  "data_sha256": "13277ae5d8581e80b7be09d47c7d3d06fe9b8e957078f2cf6e859f955e62f996",
+  "main_replay": {
+    "decision_full": {
+      "net_return": 2885.6,
+      "reference_net_return": 2885.6,
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "deployments": 4,
+      "solver_failures": 0,
+      "max_kkt": 3.71380710906255e-10
+    },
+    "context_joint": {
+      "net_return": 2962.6,
+      "reference_net_return": 2962.6,
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "deployments": 4,
+      "solver_failures": 0,
+      "max_kkt": 4.756324223365027e-10
+    },
+    "decision_diagonal": {
+      "net_return": 2962.6,
+      "reference_net_return": 2962.6,
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "deployments": 4,
+      "solver_failures": 0,
+      "max_kkt": 4.768083289308223e-10
+    },
+    "quality_only": {
+      "net_return": 2962.6,
+      "reference_net_return": 2962.6,
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "deployments": 4,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "rf_c": {
+      "net_return": 2962.6,
+      "reference_net_return": 2962.6,
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "deployments": 4,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    }
+  },
+  "three_source_stress_compatibility": {
+    "decision_full": {
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "weight_max_l2_difference": 0.0
+    },
+    "context_joint": {
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "weight_max_l2_difference": 0.0
+    },
+    "decision_diagonal": {
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "weight_max_l2_difference": 0.0
+    },
+    "quality_only": {
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "weight_max_l2_difference": 0.0
+    },
+    "rf_c": {
+      "net_abs_difference": 0.0,
+      "actions_identical": true,
+      "weight_max_l2_difference": 0.0
+    }
+  },
+  "original_invariant_source_sha256": "ea74f0c84146bc6f0b5aeb10f670b2f1c2641672d7d95ef736a1d5de35f1a354",
+  "mask_corners": [
+    {
+      "active_sources": 0,
+      "mode": "decision_full",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 0,
+      "mode": "context_joint",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 0,
+      "mode": "decision_diagonal",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 0,
+      "mode": "quality_only",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 0,
+      "mode": "rf_c",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 0,
+      "mode": "periodic",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 1,
+      "mode": "decision_full",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 1,
+      "mode": "context_joint",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 1,
+      "mode": "decision_diagonal",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 1,
+      "mode": "quality_only",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 1,
+      "mode": "rf_c",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 1,
+      "mode": "periodic",
+      "deployments": 2,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 3,
+      "mode": "decision_full",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 3,
+      "mode": "context_joint",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 3,
+      "mode": "decision_diagonal",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 3,
+      "mode": "quality_only",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 3,
+      "mode": "rf_c",
+      "deployments": 0,
+      "solver_failures": 0,
+      "finite_return": true
+    },
+    {
+      "active_sources": 3,
+      "mode": "periodic",
+      "deployments": 2,
+      "solver_failures": 0,
+      "finite_return": true
+    }
+  ],
+  "bayesian_archive_equivalence": [
+    {
+      "origin": 0,
+      "blocks": 1,
+      "mean_max_abs_difference": 0.0,
+      "covariance_max_abs_difference": 2.0816681711721685e-17,
+      "total_concentration": 2.0,
+      "posterior_mean_covariance_trace": 0.0,
+      "law_total_covariance_max_abs_difference": 0.0
+    },
+    {
+      "origin": 80,
+      "blocks": 65,
+      "mean_max_abs_difference": 7.806255641895632e-18,
+      "covariance_max_abs_difference": 3.0531133177191805e-16,
+      "total_concentration": 27.7403511845698,
+      "posterior_mean_covariance_trace": 0.0015009424202843441,
+      "law_total_covariance_max_abs_difference": 1.3118846287074604e-17
+    },
+    {
+      "origin": 186,
+      "blocks": 65,
+      "mean_max_abs_difference": 1.734723475976807e-17,
+      "covariance_max_abs_difference": 1.1102230246251565e-16,
+      "total_concentration": 27.32986185870963,
+      "posterior_mean_covariance_trace": 0.0030536083029786675,
+      "law_total_covariance_max_abs_difference": 2.6020852139652106e-17
+    }
+  ],
+  "elapsed_seconds": 7.063511625005049,
+  "not_established": [
+    "No new independent sensor dataset/trajectory was tested.",
+    "Bayesian block uncertainty has no separately estimated performance gain.",
+    "0/1-source checks validate behavior, not missing-source performance benefit.",
+    "This does not rerun all ten scenarios or establish field deployment costs."
+  ]
+}
