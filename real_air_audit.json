@@ -1,0 +1,620 @@
+{
+  "script_sha256": "2aee31baf3275085f8d755f1a2d8d61d7e6e45574addb3a276788c2cb325928d",
+  "results_sha256": "c5ee7d973ec49d1d017b459145760963e4562ca73e6bad270c879091e60aa92d",
+  "config": {
+    "window": 32,
+    "probe_period": 8,
+    "probe_steps": 16,
+    "train_buffer": 512,
+    "learning_rate": 0.035,
+    "l2": 0.002,
+    "beta": 0.97,
+    "archive": 64,
+    "prior_mass": 2.0,
+    "context_bandwidth": 3.0,
+    "tau": 0.05,
+    "lam": 0.25,
+    "deploy_fee": 12.0,
+    "deploy_drop": 4,
+    "probe_drop": 2,
+    "step_fee": 0.02,
+    "horizon": 4,
+    "cooldown": 2,
+    "budget_per_batch": 8,
+    "delay_low": 2,
+    "delay_high": 5,
+    "threshold": 0.0,
+    "mask_stress": false,
+    "quality_power": 1.0
+  },
+  "metadata": {
+    "raw_rows": 9357,
+    "complete_case_rows": 7344,
+    "excluded_rows": 2013,
+    "co_bins": [
+      1.1,
+      1.6,
+      2.1,
+      2.6,
+      3.5
+    ],
+    "classes": "six CO(GT) prefix quantile bins; not health thresholds",
+    "sensor_columns": [
+      "PT08.S1(CO)",
+      "PT08.S2(NMHC)",
+      "PT08.S3(NOx)",
+      "PT08.S4(NO2)"
+    ],
+    "feature_definition": "current plus preceding 31 raw hours, source-only past forward fill before target filtering",
+    "audit_rule": "SHA256(timestamp) first 8 hex digits modulo10 <3; fixed once",
+    "monthly": {
+      "2004-03": {
+        "n": 492,
+        "audit": 141
+      },
+      "2004-04": {
+        "n": 468,
+        "audit": 157
+      },
+      "2004-05": {
+        "n": 592,
+        "audit": 191
+      },
+      "2004-06": {
+        "n": 607,
+        "audit": 169
+      },
+      "2004-07": {
+        "n": 558,
+        "audit": 155
+      },
+      "2004-08": {
+        "n": 428,
+        "audit": 141
+      },
+      "2004-09": {
+        "n": 555,
+        "audit": 188
+      },
+      "2004-10": {
+        "n": 392,
+        "audit": 126
+      },
+      "2004-11": {
+        "n": 679,
+        "audit": 184
+      },
+      "2004-12": {
+        "n": 561,
+        "audit": 149
+      },
+      "2005-01": {
+        "n": 616,
+        "audit": 180
+      },
+      "2005-02": {
+        "n": 588,
+        "audit": 162
+      },
+      "2005-03": {
+        "n": 723,
+        "audit": 223
+      },
+      "2005-04": {
+        "n": 85,
+        "audit": 32
+      }
+    },
+    "raw_start": "2004-03-10T18:00:00",
+    "raw_end": "2005-04-04T14:00:00",
+    "complete_case_gap_hours": {
+      "mean": 1.2741386354351083,
+      "max": 174.0,
+      "gaps_above_one": 195
+    },
+    "csv_sha256": "13277ae5d8581e80b7be09d47c7d3d06fe9b8e957078f2cf6e859f955e62f996"
+  },
+  "main_summary": {
+    "decision_full": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "context_joint": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "decision_diagonal": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "quality_only": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "rf_c": {
+      "mean_return": 2919.5999999999995,
+      "mean_deployments": 3.9,
+      "mean_accuracy": 0.5167299723756906,
+      "mean_action_disagreements": 1.7,
+      "paired_vs_full": {
+        "mean": 3.2,
+        "ci95": [
+          -7.661064895610678,
+          14.061064895610677
+        ],
+        "positive": 2,
+        "negative": 1,
+        "ties": 7
+      }
+    },
+    "prefix_only_archive": {
+      "mean_return": 2781.2,
+      "mean_deployments": 3.3,
+      "mean_accuracy": 0.4910738950276243,
+      "mean_action_disagreements": 6.3,
+      "paired_vs_full": {
+        "mean": 141.6,
+        "ci95": [
+          86.3508636729144,
+          196.8491363270856
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    },
+    "no_context": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "no_delay_replay": {
+      "mean_return": 2922.4999999999995,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172651933701657,
+      "mean_action_disagreements": 0.2,
+      "paired_vs_full": {
+        "mean": 0.3,
+        "ci95": [
+          -0.288,
+          0.8879999999999999
+        ],
+        "positive": 1,
+        "negative": 0,
+        "ties": 9
+      }
+    },
+    "uncorrected_gain": {
+      "mean_return": 2806.5999999999995,
+      "mean_deployments": 2.0,
+      "mean_accuracy": 0.4928694751381215,
+      "mean_action_disagreements": 6.0,
+      "paired_vs_full": {
+        "mean": 116.2,
+        "ci95": [
+          68.74550762865309,
+          163.65449237134692
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    },
+    "periodic": {
+      "mean_return": 2765.3999999999996,
+      "mean_deployments": 24.0,
+      "mean_accuracy": 0.5385531767955801,
+      "mean_action_disagreements": 27.0,
+      "paired_vs_full": {
+        "mean": 157.4,
+        "ci95": [
+          129.2502024795125,
+          185.54979752048752
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    },
+    "frozen_deploy": {
+      "mean_return": 2218.5999999999995,
+      "mean_deployments": 0.0,
+      "mean_accuracy": 0.3901933701657459,
+      "mean_action_disagreements": 4.0,
+      "paired_vs_full": {
+        "mean": 704.2,
+        "ci95": [
+          672.3406369318044,
+          736.0593630681957
+        ],
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    },
+    "context_joint_prefix_tuned": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "decision_diagonal_prefix_tuned": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "quality_only_prefix_tuned": {
+      "mean_return": 2922.7999999999997,
+      "mean_deployments": 4.0,
+      "mean_accuracy": 0.5172824585635358,
+      "mean_action_disagreements": 0.0,
+      "paired_vs_full": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      }
+    },
+    "rf_c_prefix_tuned": {
+      "mean_return": 2919.5999999999995,
+      "mean_deployments": 3.9,
+      "mean_accuracy": 0.5167299723756906,
+      "mean_action_disagreements": 1.7,
+      "paired_vs_full": {
+        "mean": 3.2,
+        "ci95": [
+          -7.661064895610678,
+          14.061064895610677
+        ],
+        "positive": 2,
+        "negative": 1,
+        "ties": 7
+      }
+    }
+  },
+  "same_state_shadow_summary": {
+    "context_joint": {
+      "crossings": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "local_sum": 0.0
+    },
+    "decision_diagonal": {
+      "crossings": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "local_sum": 0.0
+    },
+    "quality_only": {
+      "crossings": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "local_sum": 0.0
+    },
+    "rf_c": {
+      "crossings": 5,
+      "beneficial": 2,
+      "harmful": 3,
+      "local_sum": -16.0
+    }
+  },
+  "n_seeds": 10,
+  "windows_per_seed": 187,
+  "probe_steps_per_seed": 1920,
+  "probe_fee_per_seed": 38.40000000000001,
+  "solver_failures": 0,
+  "max_kkt": 4.995723557055243e-10,
+  "sensitivity": [
+    {
+      "setting": "beta_90",
+      "change": {
+        "beta": 0.9
+      },
+      "mean_return": 2937.2,
+      "mean_actions": 4.4,
+      "mean_action_changes": 5.2,
+      "paired_vs_joint": {
+        "mean": -3.8,
+        "ci95": [
+          -11.248,
+          3.6479999999999997
+        ],
+        "positive": 0,
+        "negative": 1,
+        "ties": 4
+      }
+    },
+    {
+      "setting": "beta_1",
+      "change": {
+        "beta": 1.0
+      },
+      "mean_return": 2810.2,
+      "mean_actions": 4.4,
+      "mean_action_changes": 6.0,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5
+      }
+    },
+    {
+      "setting": "lambda_0",
+      "change": {
+        "lam": 0.0
+      },
+      "mean_return": 2924.4,
+      "mean_actions": 4.0,
+      "mean_action_changes": 0.0,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5
+      }
+    },
+    {
+      "setting": "lambda_4",
+      "change": {
+        "lam": 4.0
+      },
+      "mean_return": 2947.0,
+      "mean_actions": 3.8,
+      "mean_action_changes": 3.0,
+      "paired_vs_joint": {
+        "mean": 7.4,
+        "ci95": [
+          -3.1294147985536203,
+          17.929414798553623
+        ],
+        "positive": 2,
+        "negative": 1,
+        "ties": 2
+      }
+    },
+    {
+      "setting": "fee_4",
+      "change": {
+        "deploy_fee": 4.0
+      },
+      "mean_return": 3012.2,
+      "mean_actions": 7.6,
+      "mean_action_changes": 10.8,
+      "paired_vs_joint": {
+        "mean": 14.2,
+        "ci95": [
+          -4.78672546807374,
+          33.18672546807374
+        ],
+        "positive": 2,
+        "negative": 0,
+        "ties": 3
+      }
+    },
+    {
+      "setting": "fee_24",
+      "change": {
+        "deploy_fee": 24.0
+      },
+      "mean_return": 2781.6,
+      "mean_actions": 2.0,
+      "mean_action_changes": 6.0,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5
+      }
+    },
+    {
+      "setting": "delay_1",
+      "change": {
+        "delay_low": 1,
+        "delay_high": 1
+      },
+      "mean_return": 2993.6,
+      "mean_actions": 3.0,
+      "mean_action_changes": 3.0,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5
+      }
+    },
+    {
+      "setting": "delay_8",
+      "change": {
+        "delay_low": 8,
+        "delay_high": 8
+      },
+      "mean_return": 2902.6,
+      "mean_actions": 4.0,
+      "mean_action_changes": 6.4,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5
+      }
+    },
+    {
+      "setting": "quality_flat",
+      "change": {
+        "quality_power": 0.0
+      },
+      "mean_return": 2924.4,
+      "mean_actions": 4.0,
+      "mean_action_changes": 0.0,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5
+      }
+    },
+    {
+      "setting": "outage",
+      "change": {
+        "mask_stress": true
+      },
+      "mean_return": 2971.6,
+      "mean_actions": 3.0,
+      "mean_action_changes": 5.4,
+      "paired_vs_joint": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5
+      }
+    }
+  ],
+  "recovery": {
+    "decision_full": {
+      "admissions": 40,
+      "eventual_three_window_improvement": 40,
+      "failures": 0,
+      "median_latency": 2.0
+    },
+    "context_joint": {
+      "admissions": 40,
+      "eventual_three_window_improvement": 40,
+      "failures": 0,
+      "median_latency": 2.0
+    },
+    "prefix_only_archive": {
+      "admissions": 33,
+      "eventual_three_window_improvement": 33,
+      "failures": 0,
+      "median_latency": 1.0
+    },
+    "uncorrected_gain": {
+      "admissions": 20,
+      "eventual_three_window_improvement": 20,
+      "failures": 0,
+      "median_latency": 13.0
+    },
+    "periodic": {
+      "admissions": 240,
+      "eventual_three_window_improvement": 230,
+      "failures": 10,
+      "median_latency": 1.0
+    }
+  },
+  "gas_helper_sha256": "79dfb9907f66a34cba1e50ceca395b4b50839dc6541bad91d5002cf5e08bc316",
+  "stabilization_note": "RF-C capped exponential is evaluated in log space, algebraically the same reliability rule; old actual actions/returns verified for Air on all10seeds.",
+  "scalar_baseline_semantics": "RF-C-V: diagonal centered source-class covariance, hence scalar variance, plus common action-bias correction; not bias-inclusive MSE or untouched Original RF."
+}

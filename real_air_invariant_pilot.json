@@ -1,0 +1,516 @@
+{
+  "dataset": "UCI Air Quality, dataset360",
+  "study_status": "post-test exploratory; Air formal test results had already been inspected; not independent confirmation",
+  "normalization": "construct final full or diagonal raw matrix, then divide by tr(T S T) if >=1e-6; retain entire matrix; raw fallback otherwise",
+  "metadata": {
+    "raw_rows": 9357,
+    "complete_case_rows": 7344,
+    "excluded_rows": 2013,
+    "co_bins": [
+      1.1,
+      1.6,
+      2.1,
+      2.6,
+      3.5
+    ],
+    "classes": "six CO(GT) prefix quantile bins; not health thresholds",
+    "sensor_columns": [
+      "PT08.S1(CO)",
+      "PT08.S2(NMHC)",
+      "PT08.S3(NOx)",
+      "PT08.S4(NO2)"
+    ],
+    "feature_definition": "current plus preceding 31 raw hours, source-only past forward fill before target filtering",
+    "audit_rule": "SHA256(timestamp) first 8 hex digits modulo10 <3; fixed once",
+    "monthly": {
+      "2004-03": {
+        "n": 492,
+        "audit": 141
+      },
+      "2004-04": {
+        "n": 468,
+        "audit": 157
+      },
+      "2004-05": {
+        "n": 592,
+        "audit": 191
+      },
+      "2004-06": {
+        "n": 607,
+        "audit": 169
+      },
+      "2004-07": {
+        "n": 558,
+        "audit": 155
+      },
+      "2004-08": {
+        "n": 428,
+        "audit": 141
+      },
+      "2004-09": {
+        "n": 555,
+        "audit": 188
+      },
+      "2004-10": {
+        "n": 392,
+        "audit": 126
+      },
+      "2004-11": {
+        "n": 679,
+        "audit": 184
+      },
+      "2004-12": {
+        "n": 561,
+        "audit": 149
+      },
+      "2005-01": {
+        "n": 616,
+        "audit": 180
+      },
+      "2005-02": {
+        "n": 588,
+        "audit": 162
+      },
+      "2005-03": {
+        "n": 723,
+        "audit": 223
+      },
+      "2005-04": {
+        "n": 85,
+        "audit": 32
+      }
+    },
+    "raw_start": "2004-03-10T18:00:00",
+    "raw_end": "2005-04-04T14:00:00",
+    "complete_case_gap_hours": {
+      "mean": 1.2741386354351083,
+      "max": 174.0,
+      "gaps_above_one": 195
+    },
+    "csv_sha256": "13277ae5d8581e80b7be09d47c7d3d06fe9b8e957078f2cf6e859f955e62f996"
+  },
+  "config": {
+    "window": 32,
+    "probe_period": 8,
+    "probe_steps": 16,
+    "train_buffer": 512,
+    "learning_rate": 0.035,
+    "l2": 0.002,
+    "beta": 0.97,
+    "archive": 64,
+    "prior_mass": 2.0,
+    "context_bandwidth": 3.0,
+    "tau": 0.05,
+    "lam": 0.25,
+    "deploy_fee": 12.0,
+    "deploy_drop": 4,
+    "probe_drop": 2,
+    "step_fee": 0.02,
+    "horizon": 4,
+    "cooldown": 2,
+    "budget_per_batch": 8,
+    "delay_low": 2,
+    "delay_high": 5,
+    "threshold": 0.0,
+    "mask_stress": false,
+    "quality_power": 1.0
+  },
+  "split": {
+    "train": "2004-03 train hash70%",
+    "prior": "2004-04 audit hash30%",
+    "calibration": "2004-05",
+    "test": [
+      "2004-06",
+      "2004-07",
+      "2004-08",
+      "2004-09",
+      "2004-10",
+      "2004-11",
+      "2004-12",
+      "2005-01",
+      "2005-02",
+      "2005-03",
+      "2005-04"
+    ]
+  },
+  "quality": [
+    1.540423353226968,
+    1.591105062698854,
+    1.5214388292366918,
+    1.5530339600739211
+  ],
+  "quality_definition": "inverse April audit source Brier risk+.05, an outcome reliability prior",
+  "calibration_grid": [
+    {
+      "mode": "decision_full",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_full",
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "context_joint",
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "decision_diagonal",
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "quality_only",
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    {
+      "mode": "rf_c",
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    }
+  ],
+  "calibration_best": {
+    "decision_full": {
+      "mode": "decision_full",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    "context_joint": {
+      "mode": "context_joint",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    "decision_diagonal": {
+      "mode": "decision_diagonal",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    "quality_only": {
+      "mode": "quality_only",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    },
+    "rf_c": {
+      "mode": "rf_c",
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mean_return": 265.2,
+      "mean_actions": 0.0
+    }
+  },
+  "seeds": [
+    99001,
+    99002,
+    99003,
+    99004,
+    99005,
+    99006,
+    99007,
+    99008,
+    99009,
+    99010
+  ],
+  "limitations": [
+    "10 seeds vary artificial feedback delay on one fixed chronological dataset",
+    "complete-case evaluated queue excludes missing target or current source records; no full-hour availability claim",
+    "costs, queue windows, deployment lag and feedback latency are simulated on real covariates/targets",
+    "paired audit counterfactuals reduce marginal product assumption, but context and future transfer remain empirical",
+    "centering/bias correction and adaptive archived contrasts do not imply a martingale certificate"
+  ]
+}

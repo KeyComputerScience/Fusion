@@ -1,0 +1,190 @@
+{
+  "cases": 22,
+  "max_weight_difference": 4.191091917959966e-15,
+  "max_kkt": 2.8538593710436544e-10,
+  "fallback_cases": 8,
+  "rows": [
+    {
+      "n": 3,
+      "common": 0.0,
+      "pure": false,
+      "weight_difference": 0.0,
+      "kkt": 1.2990747366714572e-11,
+      "fallback": false
+    },
+    {
+      "n": 3,
+      "common": 0.0,
+      "pure": true,
+      "weight_difference": 0.0,
+      "kkt": 1.1263120991422682e-10,
+      "fallback": true
+    },
+    {
+      "n": 3,
+      "common": 0.1,
+      "pure": false,
+      "weight_difference": 5.551115123125783e-17,
+      "kkt": 1.3072508353584311e-11,
+      "fallback": false
+    },
+    {
+      "n": 3,
+      "common": 0.1,
+      "pure": true,
+      "weight_difference": 3.3306690738754696e-16,
+      "kkt": 2.7755575615628914e-16,
+      "fallback": true
+    },
+    {
+      "n": 3,
+      "common": 10.0,
+      "pure": false,
+      "weight_difference": 1.6653345369377348e-16,
+      "kkt": 1.1102230246251565e-16,
+      "fallback": false
+    },
+    {
+      "n": 3,
+      "common": 10.0,
+      "pure": true,
+      "weight_difference": 3.3306690738754696e-16,
+      "kkt": 3.552713678800501e-15,
+      "fallback": true
+    },
+    {
+      "n": 3,
+      "common": 100.0,
+      "pure": false,
+      "weight_difference": 2.6645352591003757e-15,
+      "kkt": 3.6841640849161195e-12,
+      "fallback": false
+    },
+    {
+      "n": 3,
+      "common": 100.0,
+      "pure": true,
+      "weight_difference": 4.191091917959966e-15,
+      "kkt": 1.5696244304308493e-10,
+      "fallback": true
+    },
+    {
+      "n": 4,
+      "common": 0.0,
+      "pure": false,
+      "weight_difference": 0.0,
+      "kkt": 7.750883268542452e-13,
+      "fallback": false
+    },
+    {
+      "n": 4,
+      "common": 0.0,
+      "pure": true,
+      "weight_difference": 0.0,
+      "kkt": 6.395545204540554e-11,
+      "fallback": true
+    },
+    {
+      "n": 4,
+      "common": 0.1,
+      "pure": false,
+      "weight_difference": 1.6653345369377348e-16,
+      "kkt": 5.9028198995392245e-12,
+      "fallback": false
+    },
+    {
+      "n": 4,
+      "common": 0.1,
+      "pure": true,
+      "weight_difference": 8.326672684688674e-17,
+      "kkt": 2.220446049250313e-15,
+      "fallback": true
+    },
+    {
+      "n": 4,
+      "common": 10.0,
+      "pure": false,
+      "weight_difference": 1.1102230246251565e-16,
+      "kkt": 1.589561815507068e-13,
+      "fallback": false
+    },
+    {
+      "n": 4,
+      "common": 10.0,
+      "pure": true,
+      "weight_difference": 1.3877787807814457e-16,
+      "kkt": 4.218847493575595e-14,
+      "fallback": true
+    },
+    {
+      "n": 4,
+      "common": 100.0,
+      "pure": false,
+      "weight_difference": 1.4432899320127035e-15,
+      "kkt": 8.881784197001252e-16,
+      "fallback": false
+    },
+    {
+      "n": 4,
+      "common": 100.0,
+      "pure": true,
+      "weight_difference": 2.1371793224034263e-15,
+      "kkt": 2.8538593710436544e-10,
+      "fallback": true
+    },
+    {
+      "n": 3,
+      "common": 100.0,
+      "differential": 0.0,
+      "cap_binding": true,
+      "weight_difference": 0.0,
+      "kkt": 0.0,
+      "fallback": true
+    },
+    {
+      "n": 3,
+      "common": 100.0,
+      "differential": 1e-10,
+      "cap_binding": true,
+      "weight_difference": 0.0,
+      "kkt": 0.0,
+      "fallback": true
+    },
+    {
+      "n": 3,
+      "common": 100.0,
+      "differential": 0.0001,
+      "cap_binding": true,
+      "weight_difference": 0.0,
+      "kkt": 0.0,
+      "fallback": false
+    },
+    {
+      "n": 4,
+      "common": 100.0,
+      "differential": 0.0,
+      "cap_binding": true,
+      "weight_difference": 0.0,
+      "kkt": 0.0,
+      "fallback": true
+    },
+    {
+      "n": 4,
+      "common": 100.0,
+      "differential": 1e-10,
+      "cap_binding": true,
+      "weight_difference": 0.0,
+      "kkt": 3.552713678800501e-15,
+      "fallback": true
+    },
+    {
+      "n": 4,
+      "common": 100.0,
+      "differential": 0.0001,
+      "cap_binding": true,
+      "weight_difference": 0.0,
+      "kkt": 0.0,
+      "fallback": false
+    }
+  ]
+}

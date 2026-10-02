@@ -1,0 +1,442 @@
+{
+  "dataset": "UCI Gas Sensor Array Drift, dataset 224",
+  "data_hashes": {
+    "1": "f346beee8e0c5e31ac5961845b6d96a70dc1ccf799481592fb2f0d96a81952e6",
+    "2": "07f7e94a9bf4377240f9b230d20c750932fc785d4766b6a4b7fc370a035c825a",
+    "3": "a4c7a1a6744df32f0ca139c75c3b4dade7cc99f57a7785d28cb0f62577dd2061",
+    "4": "bd76f86be34ffe89f46a27c6fc2b5b8c6ebfcf984dff4b3e5befc76d98034b7f",
+    "5": "3f95cb6e4a39a94bbacd2f1984f1754c9fb5eb3221812975ad70edbcea7abaec",
+    "6": "83348c504105a5aa5264d1209f2a5d7ba7d9c8bcae60290395f201ac4708ff95",
+    "7": "3168cb56d5c9bc29c36184e2e73c9f3474adb3c4a893b1ce0d88b6c47698cfdb",
+    "8": "296346b932893ea18c513e23ac5b660f35e1c499fde8254d4804a2ce8a1b4ca7",
+    "9": "e019f11f4fa8336ab1f41f7503eb456b3679da0a84eb8032fe6cef90f0547826",
+    "10": "30011067c7c05c2b01038f84c73af0c6f1820b622fa2b0ad89111cb4c649f791"
+  },
+  "split": {
+    "train": [
+      1
+    ],
+    "prior": [
+      2
+    ],
+    "calibrate": [
+      3
+    ],
+    "test": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "config": {
+    "window": 32,
+    "probe_period": 8,
+    "probe_steps": 16,
+    "train_buffer": 512,
+    "learning_rate": 0.035,
+    "l2": 0.002,
+    "beta": 0.97,
+    "archive": 64,
+    "prior_mass": 2.0,
+    "context_bandwidth": 3.0,
+    "tau": 0.05,
+    "lam": 0.25,
+    "deploy_fee": 12.0,
+    "deploy_drop": 4,
+    "probe_drop": 2,
+    "step_fee": 0.02,
+    "horizon": 4,
+    "cooldown": 2,
+    "budget_per_batch": 8,
+    "delay_low": 2,
+    "delay_high": 5,
+    "threshold": 0.0,
+    "mask_stress": false,
+    "quality_power": 1.0
+  },
+  "quality": [
+    3.6147131978893707,
+    3.047053947148673,
+    2.534992455303557,
+    3.449958697318481
+  ],
+  "quality_definition": "inverse B2 labeled prefix source Brier risk plus .05; outcome reliability prior, not physical measurement quality",
+  "effective_delay": "max(1,requested_delay) windows, label unavailable before its forecast",
+  "calibration_grid": [
+    {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 8.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 0.25,
+      "threshold": 24.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 0.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 8.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 1.0,
+      "threshold": 24.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 0.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 8.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    {
+      "lam": 4.0,
+      "threshold": 24.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    }
+  ],
+  "calibration_best": {
+    "decision_full": {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "decision_full",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    "context_joint": {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "context_joint",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    "decision_diagonal": {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "decision_diagonal",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    "quality_only": {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "quality_only",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    },
+    "rf_c": {
+      "lam": 0.25,
+      "threshold": 0.0,
+      "mode": "rf_c",
+      "mean_return": 1226.4666666666665,
+      "mean_actions": 0.0
+    }
+  },
+  "seeds": [
+    97001,
+    97002,
+    97003,
+    97004,
+    97005,
+    97006,
+    97007,
+    97008,
+    97009,
+    97010
+  ],
+  "limitations": [
+    "real sensor values and labels; artificial replay windows, delays, masks, prices and costs",
+    "within-batch permutations are not independent datasets or genuine timestamp order",
+    "all five probe models trained and paid identically; policy controls candidate admission, not retraining",
+    "no HMM increment claimed in this extension",
+    "normal paired intervals conditional on fixed shared dataset and fit"
+  ]
+}
