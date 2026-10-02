@@ -1,0 +1,48 @@
+{
+  "scope": "Final methodology and controlled-simulation evidence, not stable superiority over contextual joint fusion",
+  "native_latex_compile": "success",
+  "release_seed93001_reproduces_formal_actions_parameters_returns": true,
+  "final_file_hashes": {
+    "risk_rf_revision.tex": {
+      "bytes": 49797,
+      "sha256": "5b05eba94b7c5bfadaebbeb1f0532d9ef559a294b31ccead527806bcb2011389"
+    },
+    "bm_fusion_closed_loop.py": {
+      "bytes": 48206,
+      "sha256": "002cc79348524fb9105996e03c67d80e0cc50f59138129feeeec038abeece4b0"
+    },
+    "da_rf_fusion.py": {
+      "bytes": 37920,
+      "sha256": "7e544414dee725239ed56b2d7dd66e347237da6a4eb1a4e6dbb7d9d557772cc7"
+    },
+    "bm_fusion_main_results.json": {
+      "bytes": 17531660,
+      "sha256": "bb364b0abcd4b4eb7f5aadf59f0d5172728e22be1c2e4f4415459a829b33f143"
+    },
+    "bm_fusion_sensitivity_results.json": {
+      "bytes": 9106624,
+      "sha256": "07aaf119785f78780fc0f3025d13f15d93bd46c042dcce2d0ea9148d1abf79a7"
+    },
+    "bm_fusion_no_drift_results.json": {
+      "bytes": 8066681,
+      "sha256": "587dd42e56d62782d213e045581c5a23fad0579fed5995c5fcf9412aa489b7a8"
+    },
+    "bm_fusion_audit.json": {
+      "bytes": 3608,
+      "sha256": "753a63122101a333ce358def6af7dfe41ac5dee7610b4f0dc37b0d75a2eb7112"
+    },
+    "BM_DAF_README.md": {
+      "bytes": 5101,
+      "sha256": "ff7252254563f8d5687003bb540e1fb6c1a5bd3cb7e2ce90fa1980cad12633c4"
+    },
+    "bm_fusion_requirements.txt": {
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    }
+  },
+  "source_hashes_and_realized_cost_matching_verified": true,
+  "main_seeds": 20,
+  "sensitivity_settings": 15,
+  "sensitivity_seeds_per_setting": 10,
+  "no_drift_seeds": 10
+}

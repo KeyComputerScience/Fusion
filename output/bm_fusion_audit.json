@@ -1,0 +1,119 @@
+{
+  "scope": "final executed controlled-simulation artifact consistency audit",
+  "all_checks_passed": true,
+  "script_sha256": "002cc79348524fb9105996e03c67d80e0cc50f59138129feeeec038abeece4b0",
+  "files": {
+    "bayes_closed_loop.py": {
+      "sha256": "002cc79348524fb9105996e03c67d80e0cc50f59138129feeeec038abeece4b0",
+      "bytes": 48206
+    },
+    "bayes_results_main.json": {
+      "sha256": "bb364b0abcd4b4eb7f5aadf59f0d5172728e22be1c2e4f4415459a829b33f143",
+      "bytes": 17531660
+    },
+    "bayes_results_no_drift.json": {
+      "sha256": "587dd42e56d62782d213e045581c5a23fad0579fed5995c5fcf9412aa489b7a8",
+      "bytes": 8066681
+    },
+    "bayes_results_sensitivity.json": {
+      "sha256": "07aaf119785f78780fc0f3025d13f15d93bd46c042dcce2d0ea9148d1abf79a7",
+      "bytes": 9106624
+    },
+    "bayes_experiment_notes.md": {
+      "sha256": "4fac06ae2b551739f2a6f7f780a2bb9a30b1f549e914b4ea66708a0b56f9b409",
+      "bytes": 11930
+    },
+    "bayes_experiment_fragment.tex": {
+      "sha256": "8daaf5c52c225d937434265d880c580f6c5707ed40b3e8718f7f8b689251cbbf",
+      "bytes": 7977
+    }
+  },
+  "formal_seeds": 20,
+  "negative_seeds": 10,
+  "sensitivity_settings": 15,
+  "sensitivity_seeds_per_setting": 10,
+  "same_config_main_and_sensitivity": true,
+  "same_current_calibration_script": true,
+  "actual_count_steps_cost_matching_passed": true,
+  "psd_and_solver_no_fallback_checks_passed": true,
+  "paired_sign_tests": {
+    "context_joint": {
+      "positive": 3,
+      "negative": 0,
+      "ties": 17,
+      "two_sided_exact_sign_p": 0.25,
+      "no_multiple_testing_adjustment": true
+    },
+    "bm_diagonal": {
+      "positive": 6,
+      "negative": 2,
+      "ties": 12,
+      "two_sided_exact_sign_p": 0.2890625,
+      "no_multiple_testing_adjustment": true
+    },
+    "context_diagonal": {
+      "positive": 6,
+      "negative": 2,
+      "ties": 12,
+      "two_sided_exact_sign_p": 0.2890625,
+      "no_multiple_testing_adjustment": true
+    },
+    "bm_context_only_belief": {
+      "positive": 3,
+      "negative": 2,
+      "ties": 15,
+      "two_sided_exact_sign_p": 1.0,
+      "no_multiple_testing_adjustment": true
+    },
+    "original_c": {
+      "positive": 5,
+      "negative": 7,
+      "ties": 8,
+      "two_sided_exact_sign_p": 0.7744140625,
+      "no_multiple_testing_adjustment": true
+    },
+    "observed_loss": {
+      "positive": 18,
+      "negative": 2,
+      "ties": 0,
+      "two_sided_exact_sign_p": 0.0004024505615234375,
+      "no_multiple_testing_adjustment": true
+    },
+    "periodic": {
+      "positive": 13,
+      "negative": 7,
+      "ties": 0,
+      "two_sided_exact_sign_p": 0.26317596435546875,
+      "no_multiple_testing_adjustment": true
+    },
+    "random": {
+      "positive": 13,
+      "negative": 7,
+      "ties": 0,
+      "two_sided_exact_sign_p": 0.26317596435546875,
+      "no_multiple_testing_adjustment": true
+    },
+    "frozen": {
+      "positive": 15,
+      "negative": 5,
+      "ties": 0,
+      "two_sided_exact_sign_p": 0.04138946533203125,
+      "no_multiple_testing_adjustment": true
+    },
+    "periodic_matched": {
+      "positive": 13,
+      "negative": 7,
+      "ties": 0,
+      "two_sided_exact_sign_p": 0.26317596435546875,
+      "no_multiple_testing_adjustment": true
+    },
+    "random_matched": {
+      "positive": 14,
+      "negative": 6,
+      "ties": 0,
+      "two_sided_exact_sign_p": 0.11531829833984375,
+      "no_multiple_testing_adjustment": true
+    }
+  },
+  "proof_limit": "Exact sign tests also do not establish extra decision-weighted or joint-error utility benefit. Results are synthetic; no external validity claim."
+}
