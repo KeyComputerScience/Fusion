@@ -1,0 +1,198 @@
+{
+  "study_status": "post-test exploratory Air invariant method; original negative/neutral comparators retained",
+  "dependency": {
+    "python_observed": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "source_modifications": [
+    "Fixed cap and abstention for zero/one source",
+    "Bounded 64-block archive storage with prior arrival-insertion order semantics retained",
+    "Adjacent solver import for self-contained delivery"
+  ],
+  "audited_seed": 99001,
+  "full_policy_all_ten_replays_rerun": false,
+  "recovery_all_twenty_study_scenarios_reconstructed": true,
+  "primary_interval": "paired Student t, df9; older normal1.96 intervals remain descriptive in original JSON",
+  "items": [
+    {
+      "path": "README.md",
+      "bytes": 12484,
+      "sha256": "fece8426dcb32ccbc576a8a6de67b9b07cbf12635adf1aedc48ce9419f37b0a7",
+      "role": "reproduction documentation or audit result"
+    },
+    {
+      "path": "analysis.json",
+      "bytes": 99649,
+      "sha256": "e0b90009203d103553495a0486c5a633b8f5b6746ccc05dea3c270885d4bfb8c",
+      "role": "reproduction documentation or audit result"
+    },
+    {
+      "path": "audit_real_recovery.py",
+      "bytes": 4927,
+      "sha256": "c9d844a85d947a2d7a5edfd423ecf91ddcd845c1c0863cce54a8847f26736600",
+      "role": "executable implementation or audit"
+    },
+    {
+      "path": "bayesian_block_audit.json",
+      "bytes": 4296,
+      "sha256": "a947ba16fbf4ae809aefde6dd4d1c414ee18e57164f62d1a9dd3f3be7a20a7d3",
+      "role": "reproduction documentation or audit result"
+    },
+    {
+      "path": "block_bayesian_fusion.py",
+      "bytes": 4833,
+      "sha256": "1001227d0e40d8f70c5fe6040562f834863a1eefbf2040caf112e659a91ed2f1",
+      "role": "executable implementation or audit"
+    },
+    {
+      "path": "da_rf_fusion.py",
+      "bytes": 37920,
+      "sha256": "7e544414dee725239ed56b2d7dd66e347237da6a4eb1a4e6dbb7d9d557772cc7",
+      "role": "executable implementation or audit"
+    },
+    {
+      "path": "data/AirQualityUCI.csv",
+      "bytes": 785065,
+      "sha256": "13277ae5d8581e80b7be09d47c7d3d06fe9b8e957078f2cf6e859f955e62f996",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch1.dat",
+      "bytes": 752726,
+      "sha256": "f346beee8e0c5e31ac5961845b6d96a70dc1ccf799481592fb2f0d96a81952e6",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch10.dat",
+      "bytes": 6045679,
+      "sha256": "30011067c7c05c2b01038f84c73af0c6f1820b622fa2b0ad89111cb4c649f791",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch2.dat",
+      "bytes": 2119601,
+      "sha256": "07f7e94a9bf4377240f9b230d20c750932fc785d4766b6a4b7fc370a035c825a",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch3.dat",
+      "bytes": 2706554,
+      "sha256": "a4c7a1a6744df32f0ca139c75c3b4dade7cc99f57a7785d28cb0f62577dd2061",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch4.dat",
+      "bytes": 276473,
+      "sha256": "bd76f86be34ffe89f46a27c6fc2b5b8c6ebfcf984dff4b3e5befc76d98034b7f",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch5.dat",
+      "bytes": 339035,
+      "sha256": "3f95cb6e4a39a94bbacd2f1984f1754c9fb5eb3221812975ad70edbcea7abaec",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch6.dat",
+      "bytes": 3902170,
+      "sha256": "83348c504105a5aa5264d1209f2a5d7ba7d9c8bcae60290395f201ac4708ff95",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch7.dat",
+      "bytes": 6117334,
+      "sha256": "3168cb56d5c9bc29c36184e2e73c9f3474adb3c4a893b1ce0d88b6c47698cfdb",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch8.dat",
+      "bytes": 491904,
+      "sha256": "296346b932893ea18c513e23ac5b660f35e1c499fde8254d4804a2ce8a1b4ca7",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "data/gas_drift/Dataset/batch9.dat",
+      "bytes": 785870,
+      "sha256": "e019f11f4fa8336ab1f41f7503eb456b3679da0a84eb8032fe6cef90f0547826",
+      "role": "original public UCI measurement/label data"
+    },
+    {
+      "path": "projection_gain_audit.json",
+      "bytes": 15120,
+      "sha256": "9705a6b046b5541ae380f0cb66beee1a5d1938a457972356344ebac623d5bda9",
+      "role": "reproduction documentation or audit result"
+    },
+    {
+      "path": "real_action_fusion.py",
+      "bytes": 21859,
+      "sha256": "b2c6460e967c6db717286e1ec969a93f9442874953ce0406bc88e3279c434bbe",
+      "role": "executable implementation or audit"
+    },
+    {
+      "path": "real_air_invariant_fusion.py",
+      "bytes": 20021,
+      "sha256": "67a859d2fc9ddee7ee8d1d6449c95fdf0731425addd4739dccdb42e9aa994b66",
+      "role": "executable implementation or audit"
+    },
+    {
+      "path": "real_air_paired_fusion.py",
+      "bytes": 18798,
+      "sha256": "7350a28abca09cf23d076b65ba99ba218281b4fb7eea80cab1bb2cd82fb1d902",
+      "role": "executable implementation or audit"
+    },
+    {
+      "path": "reproduce_audit.py",
+      "bytes": 6951,
+      "sha256": "f057819c20b94fa4ec94269ef449abd548f850057ddc248c33b21d4bb63b4826",
+      "role": "executable implementation or audit"
+    },
+    {
+      "path": "reproduction_audit.json",
+      "bytes": 6719,
+      "sha256": "ea634468dda542936bea03237a350ac88f2493d38b44f6825ca047dfedfc1aee",
+      "role": "reproduction documentation or audit result"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+      "role": "reproduction documentation or audit result"
+    },
+    {
+      "path": "results/original_real_air_invariant_fusion.py.gz",
+      "bytes": 7245,
+      "sha256": "1c6005b8755b45c88320633cd9f5ceb4c2b932de3c1d3b527018a6eb9afc2b14",
+      "role": "preserved results, source, or independently reconstructed recovery audit"
+    },
+    {
+      "path": "results/real_action_results.json.gz",
+      "bytes": 6866427,
+      "sha256": "75339334880415fafc4c8b6fa7d58358079dfe1572cae4a926afa2cb7531a232",
+      "role": "preserved results, source, or independently reconstructed recovery audit"
+    },
+    {
+      "path": "results/real_air_invariant_results.json.gz",
+      "bytes": 4830922,
+      "sha256": "4b16c66deffa44de317d17e8d9f024e5ef08d75a890661fedbd0b05cfcb11294",
+      "role": "preserved results, source, or independently reconstructed recovery audit"
+    },
+    {
+      "path": "results/real_air_results.json.gz",
+      "bytes": 4351646,
+      "sha256": "8a0a557d9cc9a4f0473a0ce73d71029e41099e34b1ab371472ebd1e9fef22e9d",
+      "role": "preserved results, source, or independently reconstructed recovery audit"
+    },
+    {
+      "path": "results/real_recovery_causal_audit.json",
+      "bytes": 450324,
+      "sha256": "2c23dbb0046808cf7d9901d1ee653c01eff34e28b7b16a1043375e2a68f669da",
+      "role": "preserved results, source, or independently reconstructed recovery audit"
+    },
+    {
+      "path": "results/real_recovery_causal_audit_reproduced.json",
+      "bytes": 450324,
+      "sha256": "2c23dbb0046808cf7d9901d1ee653c01eff34e28b7b16a1043375e2a68f669da",
+      "role": "preserved results, source, or independently reconstructed recovery audit"
+    }
+  ]
+}

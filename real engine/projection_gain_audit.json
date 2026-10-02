@@ -1,0 +1,407 @@
+{
+  "status": "passed",
+  "scope": "Constructed finite-support fusion prediction-risk proof audit; not real-sensor performance or net-return evidence",
+  "bounded_support": "Independent Rademacher X1,X2,X3,Y1,Y2,Y3; enumerate all 64 equally probable outcomes",
+  "theoretical_conditions": {
+    "sources": 3,
+    "classes": 3,
+    "rho": "0<rho<1",
+    "sigma": "0<sigma<1/12 is sufficient, not necessary",
+    "quality_prior": "uniform",
+    "source_cap": "cap>1/3",
+    "regularization": "tau>0, lambda>0"
+  },
+  "proof_summary": [
+    "Each source forecast remains on the probability simplex because class contrasts u,v sum to zero and bounded perturbations are smaller than 1/3.",
+    "Centered unprojected source-class covariance is 2*sigma^2 I, so contextual and action-diagonal influence are uniform.",
+    "Centered consequential covariance is 2*sigma^2 A. Direction (-1,-1,2) has derivative -4*sigma^2*rho/3 at uniform before positive scaling.",
+    "cap>1/3 permits a positive step in this direction; the uniform KL term has zero tangent derivative. The unique full optimum strictly decreases its regularized objective.",
+    "Because KL is minimized at uniform and is nonnegative, the full optimum also strictly decreases raw centered consequential prediction risk.",
+    "Common-error-invariant scale is positive; its tangent trace is 4*sigma^2*(1-rho/3). A below-floor raw fallback preserves the same strict direction."
+  ],
+  "limitations": [
+    "Truth is fixed to class three while candidate and deployed predict classes one and two, so both models have zero true correctness gain on every constructed request.",
+    "Consequently this construction proves neither a useful deployment action nor positive cost-inclusive return.",
+    "It is a mechanism witness for centered action-error risk, not a statistical or empirical generalization guarantee."
+  ],
+  "checks": [
+    {
+      "rho": 0.15,
+      "sigma": 0.05,
+      "tau": 0.003,
+      "lam": 1.0,
+      "cap": 0.8,
+      "finite_support_size": 64,
+      "minimum_probability": 0.2698313732634941,
+      "maximum_probability": 0.39683529340317253,
+      "shape_errors": {
+        "source_class_covariance": 4.336808689942018e-18,
+        "action_covariance": 2.6020852139652106e-18,
+        "directional_identity": 3.2526065174565133e-19,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.0005000000000000004,
+      "expected_raw_directional_value": -0.0005000000000000001,
+      "tangent_trace": 0.009500000000000007,
+      "expected_tangent_trace": 0.009500000000000001,
+      "full_weights": [
+        0.31770933103461746,
+        0.3177093310346175,
+        0.36458133793076497
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.0018333333333333344,
+      "centered_action_risk_full": 0.0018253987786412723,
+      "strict_raw_risk_reduction": 7.934554692062053e-06,
+      "relative_raw_risk_reduction": 0.0043279389229429355,
+      "strict_regularized_objective_reduction": 0.00041111324099900315,
+      "full_kkt_residual": 4.329592240281954e-13
+    },
+    {
+      "rho": 0.15,
+      "sigma": 0.05,
+      "tau": 0.05,
+      "lam": 0.25,
+      "cap": 0.5,
+      "finite_support_size": 64,
+      "minimum_probability": 0.2698313732634941,
+      "maximum_probability": 0.39683529340317253,
+      "shape_errors": {
+        "source_class_covariance": 4.336808689942018e-18,
+        "action_covariance": 2.6020852139652106e-18,
+        "directional_identity": 3.2526065174565133e-19,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.0005000000000000004,
+      "expected_raw_directional_value": -0.0005000000000000001,
+      "tangent_trace": 0.009500000000000007,
+      "expected_tangent_trace": 0.009500000000000001,
+      "full_weights": [
+        0.3256792820124158,
+        0.3256792820124159,
+        0.3486414359751682
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.0018333333333333344,
+      "centered_action_risk_full": 0.0018275246938135492,
+      "strict_raw_risk_reduction": 5.80863951978516e-06,
+      "relative_raw_risk_reduction": 0.0031683488289737218,
+      "strict_regularized_objective_reduction": 5.026142987281379e-05,
+      "full_kkt_residual": 2.7755575615628914e-17
+    },
+    {
+      "rho": 0.15,
+      "sigma": 0.05,
+      "tau": 0.5,
+      "lam": 1.0,
+      "cap": 0.34,
+      "finite_support_size": 64,
+      "minimum_probability": 0.2698313732634941,
+      "maximum_probability": 0.39683529340317253,
+      "shape_errors": {
+        "source_class_covariance": 4.336808689942018e-18,
+        "action_covariance": 2.6020852139652106e-18,
+        "directional_identity": 3.2526065174565133e-19,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.0005000000000000004,
+      "expected_raw_directional_value": -0.0005000000000000001,
+      "tangent_trace": 0.009500000000000007,
+      "expected_tangent_trace": 0.009500000000000001,
+      "full_weights": [
+        0.32999999999999996,
+        0.32999999999999996,
+        0.34
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.0018333333333333344,
+      "centered_action_risk_full": 0.001830350000000001,
+      "strict_raw_risk_reduction": 2.983333333333397e-06,
+      "relative_raw_risk_reduction": 0.001627272727272761,
+      "strict_regularized_objective_reduction": 0.00010718173516456597,
+      "full_kkt_residual": 1.1102230246251565e-16
+    },
+    {
+      "rho": 0.68,
+      "sigma": 0.05,
+      "tau": 0.003,
+      "lam": 1.0,
+      "cap": 0.8,
+      "finite_support_size": 64,
+      "minimum_probability": 0.25452166855649216,
+      "maximum_probability": 0.41214499811017447,
+      "shape_errors": {
+        "source_class_covariance": 3.469446951953614e-18,
+        "action_covariance": 3.469446951953614e-18,
+        "directional_identity": 2.168404344971009e-18,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.002266666666666665,
+      "expected_raw_directional_value": -0.0022666666666666673,
+      "tangent_trace": 0.007733333333333337,
+      "expected_tangent_trace": 0.007733333333333334,
+      "full_weights": [
+        0.2723866786804962,
+        0.2723866786804971,
+        0.45522664263900664
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.002422222222222223,
+      "centered_action_risk_full": 0.0022826241265814584,
+      "strict_raw_risk_reduction": 0.00013959809564076473,
+      "relative_raw_risk_reduction": 0.057632241319581744,
+      "strict_regularized_objective_reduction": 0.008930123920563027,
+      "full_kkt_residual": 8.302913911961696e-12
+    },
+    {
+      "rho": 0.68,
+      "sigma": 0.05,
+      "tau": 0.05,
+      "lam": 0.25,
+      "cap": 0.5,
+      "finite_support_size": 64,
+      "minimum_probability": 0.25452166855649216,
+      "maximum_probability": 0.41214499811017447,
+      "shape_errors": {
+        "source_class_covariance": 3.469446951953614e-18,
+        "action_covariance": 3.469446951953614e-18,
+        "directional_identity": 2.168404344971009e-18,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.002266666666666665,
+      "expected_raw_directional_value": -0.0022666666666666673,
+      "tangent_trace": 0.007733333333333337,
+      "expected_tangent_trace": 0.007733333333333334,
+      "full_weights": [
+        0.29759938817105563,
+        0.29759938817105586,
+        0.40480122365788845
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.002422222222222223,
+      "centered_action_risk_full": 0.002307218803483037,
+      "strict_raw_risk_reduction": 0.00011500341873918636,
+      "relative_raw_risk_reduction": 0.04747847562626958,
+      "strict_regularized_objective_reduction": 0.0013018164359209008,
+      "full_kkt_residual": 3.524958103184872e-15
+    },
+    {
+      "rho": 0.68,
+      "sigma": 0.05,
+      "tau": 0.5,
+      "lam": 1.0,
+      "cap": 0.34,
+      "finite_support_size": 64,
+      "minimum_probability": 0.25452166855649216,
+      "maximum_probability": 0.41214499811017447,
+      "shape_errors": {
+        "source_class_covariance": 3.469446951953614e-18,
+        "action_covariance": 3.469446951953614e-18,
+        "directional_identity": 2.168404344971009e-18,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.002266666666666665,
+      "expected_raw_directional_value": -0.0022666666666666673,
+      "tangent_trace": 0.007733333333333337,
+      "expected_tangent_trace": 0.007733333333333334,
+      "full_weights": [
+        0.32999999999999996,
+        0.32999999999999996,
+        0.34
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.002422222222222223,
+      "centered_action_risk_full": 0.0024075200000000007,
+      "strict_raw_risk_reduction": 1.4702222222222512e-05,
+      "relative_raw_risk_reduction": 0.006069724770642319,
+      "strict_regularized_objective_reduction": 0.0009007389039486224,
+      "full_kkt_residual": 2.220446049250313e-16
+    },
+    {
+      "rho": 0.95,
+      "sigma": 0.05,
+      "tau": 0.003,
+      "lam": 1.0,
+      "cap": 0.8,
+      "finite_support_size": 64,
+      "minimum_probability": 0.262940491955038,
+      "maximum_probability": 0.40372617471162864,
+      "shape_errors": {
+        "source_class_covariance": 2.6020852139652106e-18,
+        "action_covariance": 2.6020852139652106e-18,
+        "directional_identity": 4.336808689942018e-19,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.0031666666666666666,
+      "expected_raw_directional_value": -0.003166666666666667,
+      "tangent_trace": 0.006833333333333337,
+      "expected_tangent_trace": 0.0068333333333333345,
+      "full_weights": [
+        0.2538520371211762,
+        0.25385203712117943,
+        0.4922959257576443
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.002722222222222223,
+      "centered_action_risk_full": 0.0024683730992240325,
+      "strict_raw_risk_reduction": 0.00025384912299819063,
+      "relative_raw_risk_reduction": 0.09325069824423327,
+      "strict_regularized_objective_reduction": 0.018413315560921573,
+      "full_kkt_residual": 2.2190582704695316e-12
+    },
+    {
+      "rho": 0.95,
+      "sigma": 0.05,
+      "tau": 0.05,
+      "lam": 0.25,
+      "cap": 0.5,
+      "finite_support_size": 64,
+      "minimum_probability": 0.262940491955038,
+      "maximum_probability": 0.40372617471162864,
+      "shape_errors": {
+        "source_class_covariance": 2.6020852139652106e-18,
+        "action_covariance": 2.6020852139652106e-18,
+        "directional_identity": 4.336808689942018e-19,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.0031666666666666666,
+      "expected_raw_directional_value": -0.003166666666666667,
+      "tangent_trace": 0.006833333333333337,
+      "expected_tangent_trace": 0.0068333333333333345,
+      "full_weights": [
+        0.2828423850088471,
+        0.2828423850088474,
+        0.43431522998230543
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.002722222222222223,
+      "centered_action_risk_full": 0.002503144982744029,
+      "strict_raw_risk_reduction": 0.00021907723947819403,
+      "relative_raw_risk_reduction": 0.0804773532777039,
+      "strict_regularized_objective_reduction": 0.0029066967082735165,
+      "full_kkt_residual": 5.9396931817445875e-15
+    },
+    {
+      "rho": 0.95,
+      "sigma": 0.05,
+      "tau": 0.5,
+      "lam": 1.0,
+      "cap": 0.34,
+      "finite_support_size": 64,
+      "minimum_probability": 0.262940491955038,
+      "maximum_probability": 0.40372617471162864,
+      "shape_errors": {
+        "source_class_covariance": 2.6020852139652106e-18,
+        "action_covariance": 2.6020852139652106e-18,
+        "directional_identity": 4.336808689942018e-19,
+        "probability_sum": 1.1102230246251565e-16,
+        "expected_action_bias": 3.469446951953614e-18
+      },
+      "raw_directional_value": -0.0031666666666666666,
+      "expected_raw_directional_value": -0.003166666666666667,
+      "tangent_trace": 0.006833333333333337,
+      "expected_tangent_trace": 0.0068333333333333345,
+      "full_weights": [
+        0.32999999999999996,
+        0.32999999999999996,
+        0.34
+      ],
+      "context_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "diagonal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "centered_action_risk_uniform": 0.002722222222222223,
+      "centered_action_risk_full": 0.0027015500000000005,
+      "strict_raw_risk_reduction": 2.067222222222262e-05,
+      "relative_raw_risk_reduction": 0.007593877551020552,
+      "strict_regularized_objective_reduction": 0.00146276581732116,
+      "full_kkt_residual": 1.1102230246251565e-16
+    }
+  ]
+}
