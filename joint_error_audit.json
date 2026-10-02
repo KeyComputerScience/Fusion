@@ -1,0 +1,33 @@
+{
+  "scope": "known-moment synthetic threshold-decision verification",
+  "not_evaluated": [
+    "online moment estimation",
+    "edge queue service",
+    "neural retraining",
+    "DA-RF recovery sentinel"
+  ],
+  "seeds": 20,
+  "samples_per_seed_per_correlation": 100000,
+  "correlations": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "sigma": 0.15,
+  "theta": 0.5,
+  "half_width": 0.25,
+  "tau": 0.001,
+  "lambda": 1.0,
+  "inertia": 0.001,
+  "cap": 0.7,
+  "numpy_version": "2.3.5",
+  "script_sha256": "d34ceba7c96597a3d6549f1d0788def88d45abdfb7bf1936dd10d62eaddbce0a",
+  "sensitivity": {
+    "cases": 100,
+    "largest_observed_change_to_bound_ratio": 0.6341116993554741,
+    "numerical_tolerance": 2e-06,
+    "scope": "fixed mask, cap, and regularization; finite numerical audit"
+  }
+}

@@ -1,0 +1,1168 @@
+% Replace the original Overview/Methodology; merge the added analysis and validation.
+% Copy packages, macros, and theorem declarations from risk_rf_revision.tex.
+% Merge the supplied bibitems into the host bibliography.
+\section{Overview}
+\label{sec:overview}
+
+The fusion problem is to regulate the influence of incomplete operational
+reports before committing resources to adaptation. Workload records describe
+task composition, operating telemetry describes execution conditions, and
+service feedback describes the consequences of a deployed policy. Putting their
+change scores in $[0,1]$ does not give them a common meaning. We therefore retain
+source-specific diagnostics while calibrating each source to a shared,
+subsequently observed service-loss target.
+
+The proposed architecture has three connected stages. First, completed windows
+provide source scores, validity masks, observation support, age, and sampling
+variability. Second, forecasts issued before label arrival are combined using a
+quality reference, their joint residual second moment, and a historical weight
+anchor. Third, a decision layer distinguishes evidence of persistent loss from
+evidence that a particular update can recover it. Candidate value must include
+deployment delay, competing inference resources, and actual update cost.
+Figure~\ref{fig:framework} shows this single, consistent pipeline.
+
+\begin{figure}[htbp]
+\centering
+\small
+\fbox{\begin{minipage}{0.93\linewidth}
+\centering
+\textbf{Completed operational windows}\\
+Workload / operating telemetry / service loss; masks and timestamps\\[3pt]
+$\Downarrow$\\[-1pt]
+\textbf{Separate source diagnostics and common-target forecasts}\\
+$d_{s,k}$; positive quality $q_{s,k}$; stored forecast $p_{s,k}$\\[3pt]
+$\Downarrow$\\[-1pt]
+\textbf{Quality-conditioned joint-risk fusion}\\
+KL quality reference + full residual matrix + inertia + masked cap\\
+$\Gamma_k,\widehat y_{k+1|k},D_k^p,c_k,r_k^{\rm pred}$\\[3pt]
+$\Downarrow$\\[-1pt]
+\textbf{Persistent-loss admission and candidate valuation}\\
+Calibrated recovery / delay / uncertainty exposure / resource feasibility\\[3pt]
+$\Downarrow$\\[-1pt]
+\textbf{Executed inference and budgeted model updates}\\
+Actual gradient steps, active costs, deployment times, and service outcomes\\[3pt]
+$\curvearrowleft$ Stored forecasts receive delayed labels;
+executed interventions calibrate recovery separately.
+\end{minipage}}
+\caption{Consistent DA-RF data flow. Joint prediction risk updates forecast
+combination; executed interventions update a separate recovery model.
+Neither a diagnostic change score nor agreement among sources establishes
+that retraining is useful. All-missing evidence causes abstention.}
+\label{fig:framework}
+\end{figure}
+
+Forecast combination, convex regularization, and dynamic source reliability
+have established foundations~\cite{bates1969,bregman1967,boyd2004,diebold2019,
+qmf2023,pdf2024,huang2025}. We do not claim that a KL projection, a quadratic
+penalty, or correlated-error modeling is a new optimization primitive.
+The methodological contribution is the specified interface between measurement
+quality, delayed common-target risk, constrained influence, and recoverability-
+aware decisions, together with tests that isolate their separate effects.
+
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{Time, execution, and data provenance}
+\label{sec:problem}
+
+Time is divided into slots $t=1,\ldots,T$ and completed windows
+$\mathcal T_k=\{(k-1)W+1,\ldots,kW\}$. An unfinished final window is logged
+but cannot update fusion. Let $\mathcal F_t$ contain observations completed
+before the slot-$t$ decision, plus current arrivals, capacities, and worker
+status. A window-$k$ snapshot first becomes usable in slot $kW+1$.
+All normalizers, thresholds, and initial models are fitted on a disjoint
+historical prefix. Delayed labels update the forecasts originally saved at
+their issuance times, consistent with delayed-feedback
+learning~\cite{joulani2013}; this temporal discipline does not transfer an
+external regret guarantee to our rule.
+
+The coordinator chooses a training profile $i_t$ and an inference profile $j_t$.
+The service policy chooses application actions within that inference allocation.
+Its parameters change only when a completed worker is deployed. Let $s_t$ be
+the completed fraction and $\ell_t$ the expired-or-rejected fraction of requests
+present before service, with rejected arrivals included in both denominators.
+Slots without requests are logged separately. A consistent external reward is
+\begin{equation}
+ r_t^{\rm env}=s_t-\alpha_\ell\ell_t-\alpha_q\bar q_t
+                  -\alpha_C C_t^{\rm active},
+ \label{eq:external-reward}
+\end{equation}
+where $\bar q_t$ is normalized post-service queue length. Lateness among completed
+requests is a separate metric and is not denoted by $\ell_t$.
+$C_t^{\rm active}$ charges each occupied training slot; a per-job total is
+distributed over its occupied slots rather than charged in full at every slot.
+No fusion score or recovery proxy appears in this evaluation reward.
+
+All existing operational results used in this revision are synthetic. Alibaba
+Cluster Trace v2018 is an optional input route, not the source of those tables.
+A trace experiment requires actual file hashes, machine selection, time ranges,
+aggregation rules, and a declaration of still-simulated quantities. A description
+of an importer does not establish execution of a trace experiment.
+
+\subsection{Source-specific evidence and a persistent common target}
+\label{sec:evidence}
+
+Each available source produces a diagnostic $d_{s,k}\in[0,1]$.
+Workload divergence uses adjacent empirical task-regime distributions:
+\begin{equation}
+ d_{1,k}=\frac{\operatorname{JSD}(P_{k-1},P_k)}{\log 2}.
+\end{equation}
+Operating change uses prefix-normalized features:
+\begin{equation}
+ z_{t,l}=\frac{x_{t,l}-\mu_l^{\rm ref}}
+                  {\max(\sigma_l^{\rm ref},\epsilon_\sigma)},
+ \qquad
+ d_{2,k}=\frac1{L_z}\sum_l\min\{1,|\bar z_{k,l}-\bar z_{k-1,l}|\}.
+\end{equation}
+Each mean uses documented valid rows. Service-change evidence compares
+adjacent windows only on sufficiently supported common contexts
+$h=(i,j,\text{deployed version})$. With
+$\eta_{h,k}\propto\min(n_{h,k-1},n_{h,k})$ normalized over common contexts,
+\begin{equation}
+ d_{3,k}=\min\left\{1,
+ \frac{[\bar r_{k-1}^{\rm match}-\bar r_k^{\rm match}]_+}
+      {|\bar r_{k-1}^{\rm match}|+\epsilon_r}\right\}.
+\end{equation}
+The known direct training charge may be removed before this comparison;
+resource-induced service loss is not thereby removed. Missing common support
+makes this diagnostic unavailable, rather than zero.
+
+An adjacent-window change can disappear while a damaged policy remains damaged.
+DA-RF therefore predicts persistent loss rather than relying exclusively on the
+positive adjacent-window difference. Let $J_k$ be cost-adjusted service utility
+in window $k$ and let $J_k^{\rm ref}$ be a reference prediction fixed before
+that window's outcomes arrive. The reference is fitted on the historical prefix
+and conditions on declared workload, capacity, and inference-profile descriptors.
+Define
+\begin{equation}
+ y_k=\clip\left(\frac{J_k^{\rm ref}-J_k}{B_J},0,1\right),\qquad B_J>0.
+ \label{eq:persistent-target}
+\end{equation}
+Reference extrapolation, composition changes, and policy effects can confound
+this target; it is an operational loss indicator, not an identified causal
+drift probability. The reference fit and valid target contexts must be logged.
+If the target cannot be computed, it is unavailable. The previous Risk RF
+results used their original next-window degradation target; changing to
+Eq.~\eqref{eq:persistent-target} requires a new experimental treatment.
+
+Every source issues a forecast of the same subsequent target:
+\begin{equation}
+ p_{s,k}=\clip(\boldsymbol\theta_{s,k}^{\mathsf T}\boldsymbol\phi_{s,k},0,1),
+ \qquad p_{s,k}\ \text{predicts }y_{k+1}.
+ \label{eq:common-forecast}
+\end{equation}
+A minimal declared feature vector is
+$\boldsymbol\phi_{s,k}=(1,d_{s,k},d_{s,k-1},y_k\ind\{y_k\text{ available}\},
+\ind\{y_k\text{ available}\})^{\mathsf T}$; missing lag diagnostics receive
+an explicit mask. The common service history is shared across branches and
+baselines. Ridge-initialized exponentially weighted least squares updates
+$\boldsymbol\theta_{s,k}$ only from earlier stored feature--target pairs whose
+labels have arrived. Other predictors require the same time and feature budget.
+Forecasts are frozen before their labels arrive and are never rescored after
+refitting to those labels.
+
+\subsection{Quality reference, delayed residual risk, and masked fusion}
+\label{sec:reliability}
+
+For available source $s$, observation quality is
+\begin{equation}
+ q_{s,k}=\max\left\{q_{\min},
+ \frac{n_{s,k}}{n_{s,k}+n_0}
+ \exp(-A_{s,k}/\tau_A)\frac1{\nu_{s,k}+\epsilon_\nu}\right\},
+ \qquad q_{\min}>0.
+ \label{eq:quality-only}
+\end{equation}
+Here $n_{s,k}$ is a valid support count, not an asserted independent effective
+sample size; $A_{s,k}$ is the age of the most recent valid observation; and
+$\nu_{s,k}$ is a moving-block-bootstrap variance of the diagnostic. Fewer than
+two valid bootstrap replicates use a declared conservative variance fallback.
+Availability thresholds precede the quality floor: the floor cannot make an
+invalid source available. Measurement quality excludes prediction error.
+
+When a complete stored forecast vector and its common label arrive, define
+$\boldsymbol e_{k-1}=\boldsymbol p_{k-1}-y_k\boldsymbol1$ and update
+\begin{equation}
+ R_k=\beta R_{k-1}+(1-\beta)
+             \boldsymbol e_{k-1}\boldsymbol e_{k-1}^{\mathsf T},
+ \qquad R_0\succeq0,\quad0\le\beta<1.
+ \label{eq:residual-update}
+\end{equation}
+This is an uncentered second moment: both common bias and correlated variation
+contribute. The outer-product update preserves positive semidefiniteness.
+Missing residuals are not replaced by zeros, and separate pairwise deletion is
+not used because it can produce a non-PSD matrix. Incomplete vectors skip the
+update and increment the risk-age counter. This complete-vector estimator can
+be biased toward jointly observed windows; outage-conditioned error and update
+counts must therefore be reported. Queue residual updates may additionally
+require stable logged control contexts; this restriction and its rejection
+rate must be declared. Estimated $R_k$ is not assumed equal to future population
+risk.
+
+Let $\mathcal A_k$ be the valid enabled sources, $N_k=|\mathcal A_k|$, and
+$\bar a_k=\max(a_{\max},1/N_k)$. On this set,
+$\pi_{s,k}=q_{s,k}/\sum_{v\in\mathcal A_k}q_{v,k}$.
+The historical anchor $\boldsymbol a_k$ restricts and renormalizes previous
+weights onto current available sources; if their retained mass is zero, it is
+uniform. An anchor need not satisfy the current cap. The proposed fusion solves
+\begin{align}
+ \boldsymbol w_k&=\argmin_{\boldsymbol w\in\mathcal C_k}
+ \left\{\tau D_{\rm KL}(\boldsymbol w\Vert\boldsymbol\pi_k)
+       +\frac\lambda2\boldsymbol w^{\mathsf T}R_k\boldsymbol w
+       +\frac\kappa2\norm{\boldsymbol w-\boldsymbol a_k}_2^2\right\},
+ \label{eq:main-fusion}\\
+ \mathcal C_k&=\{\boldsymbol w:\boldsymbol1^{\mathsf T}\boldsymbol w=1,
+   0\le w_s\le\bar a_k,\ w_s=0\ (s\notin\mathcal A_k)\},
+ \qquad \tau>0,\ \lambda,\kappa\ge0.
+\end{align}
+The available principal submatrix of $R_k$ remains PSD. With one source the
+weight is one; no concentration protection is then claimed. With no sources
+the module abstains, emits zero coverage and an invalid-forecast flag, and
+launches no new training.
+
+For three sources, an active-set Newton solver can enumerate the upper-cap
+sets and solve the positive free-coordinate problem with an equality constraint.
+For larger source sets, a convex solver returns the primal residual,
+stationarity residual, tolerance, and iteration count. A reproducible setting
+uses $10^{-8}$ primal feasibility and $10^{-7}$ stationarity tolerance, with
+a declared iteration cap. A feasible capped-quality fallback is logged when
+the solver fails; it is not silently treated as the optimizer.
+
+The fusion state retains different interpretations:
+\begin{align}
+ \Gamma_k&=\sum_s w_{s,k}d_{s,k},&
+ \widehat y_{k+1|k}&=\sum_s w_{s,k}p_{s,k},\\
+ D_k^p&=\sum_s w_{s,k}(p_{s,k}-\widehat y_{k+1|k})^2,&
+ c_k&=N_k/S_{\rm enabled},\qquad
+ r_k^{\rm pred}=\boldsymbol w_k^{\mathsf T}R_k\boldsymbol w_k.
+ \label{eq:fusion-state}
+\end{align}
+$\Gamma_k$ is diagnostic only. Disagreement compares forecasts of one target;
+agreement alone does not establish accuracy, because all sources can share an
+error. DA-RF includes joint risk and stale risk information in its exposure index:
+\begin{equation}
+ U_k=\min\{1,\omega_D4D_k^p+\omega_M(1-c_k)
+           +\omega_R r_k^{\rm pred}+\omega_A A_k^{\rm risk}/A_{\max}\}.
+ \label{eq:decision-uncertainty}
+\end{equation}
+The nonnegative coefficients are selected on historical validation data and
+then frozen. This index is a decision feature, not a calibrated failure
+probability or confidence interval. On source loss, forecasts and coverage
+remain distinct; risk-estimator age cannot be reset without a genuine update.
+
+\subsection{Original RF and matched fusion baselines}
+\label{sec:baselines}
+
+\textbf{Original RF is a baseline.} It multiplies measurement quality by
+$q_{s,k}^E=\exp(-E_{s,k}/\tau_E)$, where $E_{s,k}$ is a delayed scalar
+forecast MSE. Its normalized product is projected onto the capped simplex:
+\begin{equation}
+ \alpha_k^{\rm orig}=\argmin_{\boldsymbol\alpha\in\mathcal C_k}
+ D_{\rm KL}(\boldsymbol\alpha\Vert
+      \operatorname{normalize}(\boldsymbol q_k\odot\boldsymbol q_k^E)).
+\end{equation}
+It uses raw diagnostic disagreement, unlike the common-target disagreement
+in Eq.~\eqref{eq:fusion-state}. Original RF has no joint residual matrix or
+inertia term. Its equations and figures are not presented as the proposed rule.
+
+\textbf{Diagonal-risk RF} replaces $R_k$ in Eq.~\eqref{eq:main-fusion} by
+$\diag(R_k)$ while keeping every other input and hyperparameter unchanged.
+This is the primary comparator for cross-source error structure. Removing the
+entire risk penalty tests a different question. Equal and prefix-fixed fusion,
+inverse marginal MSE, and declared online-expert rules receive the same stored
+forecasts and delayed labels. Inverse MSE uses forecast residuals
+$p_{s,k}-y_{k+1}$, not differences between heterogeneous diagnostics and labels.
+An evidential baseline uses a declared mass construction and normalization,
+and is not assigned fictitious linear weights. QMF and PDF require branch
+predictions and are evaluated on compatible classification tasks; a core
+adaptation is not a full reproduction of their original
+systems~\cite{qmf2023,pdf2024}.
+
+The fusion-only ablation holds the gate, target, forecast fitter, available
+features, and recovery estimator fixed. The gate-only ablation holds forecasts
+and weights fixed. This factorial separation prevents a new target or a more
+permissive gate from being credited to the joint-risk matrix.
+
+\subsection{Persistent-loss admission and recovery probes}
+\label{sec:coordination}
+
+At slot $t$, let $k(t)$ denote the latest completed window.
+Define a persistent-loss statistic
+\begin{equation}
+ h_t=\max\{\widehat y_{k(t)+1|k(t)},y_{k(t)}^{\rm obs}\},
+ \label{eq:loss-sentinel}
+\end{equation}
+where each term is included only if valid and within its declared age limit.
+The observed-loss term is not a future label. With neither valid, adaptation
+abstains. A hysteresis flag switches on at $h_t\ge\gamma_{\rm on}$ and off
+at $h_t<\gamma_{\rm off}<\gamma_{\rm on}$. A large $\Gamma_k$ is not required:
+a changed conditional relation can degrade service without changing workloads.
+
+The no-update profile $i_0$ is always admitted when inference is resource feasible.
+For substantial updates, the candidate set requires valid nonfallback evidence,
+declared coverage, worker eligibility, and persistent-loss admission. Uncertainty
+is charged in the candidate objective rather than used as an absolute veto that
+could indefinitely suppress recovery after a loss.
+
+When fresh observed service loss persists but update-value evidence is absent,
+DA-RF may launch a small \emph{probe update}. Its maximum gradient steps,
+cooldown, profile, active cost, and cumulative budget are fixed before evaluation.
+A valid service-loss observation is mandatory; missing observations are not
+interpreted as loss. The probe is an information-gathering exception, not a
+certified beneficial intervention. Its cost enters the service endpoint, and an
+otherwise identical observed-loss sentinel without fusion is an essential
+baseline. Ablating the sentinel tests whether recovery depends on that mechanism
+instead of fusion.
+
+\subsection{Candidate-dependent uncertainty and measured recovery value}
+
+Let $i\in\mathcal I$ index update profiles and $j\in\mathcal J$ inference
+profiles. Residual capacity $B_{m,r,t}$ already excludes queued work and active
+workers. For every node $m$ and resource $r$,
+\begin{equation}
+ D_t^{\rm tr}a^{\rm tr}_{i,m,r}
+ +D_t^{\rm inf}a^{\rm inf}_{j,m,r}\le B_{m,r,t}.
+ \label{eq:resource-feasibility}
+\end{equation}
+The base profile has zero update demand. Empty feasible sets invoke a declared
+service admission/deferral policy rather than return an infeasible action.
+Deployment delay $\delta_i$ and cost $C_t(i)$ represent actual executed or
+explicitly simulated occupancy; wall-clock claims require hardware measurement.
+
+Recovery is calibrated separately from forecast accuracy. From independent
+calibration interventions, fork matched states into an update arm and a no-update
+arm, preserve the same inference schedule and external random inputs, and record
+the difference in gross service utility over the entire horizon, including
+service losses before deployment and queue effects that persist afterward. Fit
+$\widehat G_t(i,j)$ to the current fusion state, worker budget, profile, and
+deployment delay using disjoint training and validation streams. Pending
+deployments and the finite horizon are included. A bounded definition is
+\begin{equation}
+ G_t(i,j)=\E\!\left[
+ \sum_{h=0}^{L_t}\gamma^{h}
+  (u_{t+h}^{(i,j)}-u_{t+h}^{(i_0,j)})\mid\mathcal F_t\right],
+ \label{eq:measured-recovery}
+\end{equation}
+where both rollout arms use the same declared inference protocol and the
+update arm executes its actual resource occupancy. The policy parameters are
+unchanged before deployment, but service can already change through resource
+competition and queue dynamics; these predeployment differences are included.
+The allowance horizon and discount are identical for service and costs.
+In particular, $G_t(i_0,j)=\widehat G_t(i_0,j)=0$.
+This estimand requires simulator forks or valid controlled interventions; it
+cannot be recovered from arbitrary policy logs merely by naming an estimator
+``causal.'' Recovery gains may be negative. Fixed profile constants are not
+substituted for measured neural improvement. The prior finite-horizon recovery
+proxy may be retained as a separate baseline but must be calibrated and audited.
+
+Let $\widehat W_{j,t}$ predict the no-update gross utility over the same
+finite horizon, including current service:
+\begin{equation}
+ W_{j,t}=\E\!\left[\sum_{h=0}^{L_t}\gamma^h
+ u_{t+h}^{(i_0,j)}\mid\mathcal F_t\right].
+\end{equation}
+Let $C_t(i)$ be the discounted direct training charge over that horizon,
+accounting for every active allocation slot. Training-induced completion,
+deadline, and queue losses belong in $G_t(i,j)$, not merely in this direct
+charge. Set $C_t(i_0)=0$. Let
+$\epsilon_t(i,j)$ be a declared error allowance for
+$\widehat W_{j,t}+\widehat G_t(i,j)$. It is not assumed to be a valid uniform
+bound unless independently justified. With candidate intensity $Q_{i,t}$,
+the decision score is
+\begin{align}
+ L_t(i,j)={}&\widehat W_{j,t}+\widehat G_t(i,j)-\epsilon_t(i,j)
+             -\lambda_C C_t(i)\nonumber\\
+            &-\omega_Q Q_{i,t}^2-\lambda_U U_t Q_{i,t},
+ \qquad Q_{i_0,t}=0.
+ \label{eq:candidate-score}
+\end{align}
+Unlike a common subtraction $-\lambda_U U_t$, the last term changes candidate
+comparisons. For two candidates, its contribution is
+$-\lambda_U U_t(Q_{i,t}-Q_{i',t})$; all else equal, greater uncertainty favors
+lower resource exposure. It has no selection effect if every intensity is equal,
+which must be recorded as an inactive test condition.
+
+The no-update upper reference is
+\begin{equation}
+ B_t^0=\max_{j:(i_0,j)\ \rm feasible}
+       \{\widehat W_{j,t}+\epsilon_t(i_0,j)\}.
+\end{equation}
+For exploitation updates, admit only candidates with
+$L_t(i,j)>B_t^0+m_t$, $m_t\ge0$, and maximize Eq.~\eqref{eq:candidate-score}
+over the admitted feasible pairs. The separately budgeted probe exception is
+logged. Otherwise select a feasible no-update inference profile. Exact
+enumeration is inexpensive for five training and six inference profiles and
+is optimal for the declared score only. Larger profile libraries may use
+alternating optimization with a measured enumeration gap; coordinate convergence
+does not establish global optimality.
+
+\begin{proposition}[Conditional net-value certificate]
+\label{prop:recovery-certificate}
+Suppose every candidate's true finite-horizon gross value
+$W_{j,t}+G_t(i,j)$ differs from its prediction by at most
+$\epsilon_t(i,j)$, and costs are correctly measured. Then an exploitation
+candidate satisfying $L_t(i,j)>B_t^0+m_t$ has true net value exceeding that
+of every feasible no-update candidate by more than $m_t$. This statement does
+not apply to exploratory probes or to uncertified empirical error allowances.
+\end{proposition}
+\begin{proof}
+The true net value is at least
+$\widehat W_{j,t}+\widehat G_t(i,j)-\epsilon_t(i,j)-\lambda_C C_t(i)$,
+which is at least $L_t(i,j)$ because the exposure penalties are nonnegative.
+Every no-update true value is at most $B_t^0$. The admission inequality gives
+the result. It concerns the specified finite-horizon comparison and does not
+establish long-run policy regret under changing unmodeled conditions.
+\end{proof}
+
+The certificate identifies what must be verified rather than guaranteeing that
+such a candidate exists. Recoverability requires an actual update profile that
+improves the deployed policy sufficiently to cover delay and cost. Persistent
+loss and probe availability prevent the particular logical failure of demanding
+a new adjacent-window change before investigating a still-damaged policy;
+they do not guarantee optimizer convergence or policy recovery.
+
+\subsection{Execution order and computational audit}
+
+At each slot: (1) ingest current capacities and the last valid fusion snapshot;
+(2) update the persistent-loss flag using completed feedback;
+(3) form resource-feasible no-update, exploitation, and budgeted-probe candidates;
+(4) compute candidate values once and enumerate the admitted pairs;
+(5) execute service, charge active costs, and record worker launch/completion;
+(6) deploy only completed workers; and (7) on a completed window, issue and
+store forecasts, update earlier stored forecasts whose labels have arrived,
+compute quality and joint risk, and solve fusion for the next slot.
+When issuing a forecast and fitting from an older arrived target occur at the
+same boundary, the declared sequence uses only targets already available before
+the new forecast is issued. Forecast identifiers make this order auditable.
+
+The timing report separates source extraction and bootstrap, predictor fitting,
+residual updates, convex fusion, candidate-value estimation, and pair search.
+An outer-product update costs $O(S^2)$ and stores $O(S^2)$ moments. For three
+sources, solving the convex fusion is small, but bootstrap and neural updates
+can dominate total cost. A submillisecond pair-search timing is not reported as
+end-to-end fusion or training latency.
+
+\section{Theoretical analysis}
+\label{sec:theory}
+In the next results, $R$ is a generic PSD input matrix. When interpreting
+$\boldsymbol w^{\mathsf T}R\boldsymbol w$ as population prediction error,
+$R$ must be the true second moment for the relevant test distribution. An
+estimated moving-window matrix needs a separate estimation-error argument.
+The symbol $b$ denotes a fixed cap in the stability analysis, while $b_0$
+denotes the target half-width in the threshold-decision construction.
+
+% Independently checked theory fragment; integrate notation into the main manuscript.
+% These are theoretical statements, not measured experimental results.
+
+\subsection{Stability and the incremental value of joint residual risk}
+\label{sec:joint-risk-theory}
+
+The joint-risk model requires comparable predictions: every available source
+produces a causally calibrated estimate $p_{s,k}$ of the same scalar target
+$z_k$. With $e_{s,k}=p_{s,k}-z_k$, the matrix
+$R_k=\mathbb E[\boldsymbol e_k\boldsymbol e_k^{\mathsf T}]$ is the residual
+second moment, including both bias and covariance. Consequently,
+\begin{equation}
+ \mathbb E\!\left[(\boldsymbol w^{\mathsf T}\boldsymbol p_k-z_k)^2\right]
+ =\boldsymbol w^{\mathsf T}R_k\boldsymbol w.
+ \label{eq:joint-risk-identity}
+\end{equation}
+This identity does not apply to an uncalibrated average of workload divergence,
+resource variation, and service loss. These heterogeneous quantities must first
+be mapped to the shared target using only previously completed outcomes.
+
+Fix an availability mask with $n$ available sources and a cap
+$b\in[1/n,1]$. Let
+\begin{equation}
+ \mathcal C_b=\left\{\boldsymbol w\in\mathbb R^n:
+ \boldsymbol 1^{\mathsf T}\boldsymbol w=1,\quad 0\le w_s\le b\right\},
+ \qquad
+ \pi_s(\boldsymbol q)=\frac{q_s}{\sum_r q_r},\quad q_s>0.
+\end{equation}
+The regularized full-risk fusion rule is
+\begin{equation}
+ \boldsymbol w(\boldsymbol q,R,\boldsymbol a)=
+ \arg\min_{\boldsymbol w\in\mathcal C_b}
+ \left\{
+ \tau D_{\mathrm{KL}}(\boldsymbol w\Vert\boldsymbol\pi(\boldsymbol q))
+ +\frac{\lambda}{2}\boldsymbol w^{\mathsf T}R\boldsymbol w
+ +\frac{\kappa}{2}\|\boldsymbol w-\boldsymbol a\|_2^2
+ \right\},
+ \label{eq:checked-fusion-objective}
+\end{equation}
+where $R\succeq0$, $\tau>0$, and $\lambda,\kappa\ge0$.
+The anchor $\boldsymbol a$ is fixed while solving the current window; it can be
+the previous weights restricted and renormalized to the available sources.
+
+\begin{proposition}[Existence, uniqueness, and sensitivity]
+\label{prop:fusion-sensitivity}
+The solution of Eq.~\eqref{eq:checked-fusion-objective} exists and is unique.
+For two parameter triples with the same mask, cap, and regularization
+coefficients, define
+$\delta_q=\min_{c\in\mathbb R}
+ \|\log\boldsymbol q-\log\widetilde{\boldsymbol q}-c\boldsymbol1\|_2$.
+Their solutions obey
+\begin{equation}
+ \|\boldsymbol w-\widetilde{\boldsymbol w}\|_2
+ \le
+ \frac{
+  \tau\delta_q+
+  \lambda\sqrt b\,\|R-\widetilde R\|_{\mathrm{op}}+
+  \kappa\|\boldsymbol a-\widetilde{\boldsymbol a}\|_2
+ }{\tau/b+\kappa}.
+ \label{eq:three-way-sensitivity}
+\end{equation}
+In particular, replacing $\delta_q$ by
+$\|\log\boldsymbol q-\log\widetilde{\boldsymbol q}\|_2$ and $\sqrt b$ by
+$1$ gives a weaker valid bound. Equation~\eqref{eq:three-way-sensitivity}
+does not compare windows whose availability masks or caps differ.
+\end{proposition}
+
+\begin{proof}
+The objective is continuous on the nonempty compact set $\mathcal C_b$, with
+$0\log0=0$. On its positive coordinates its Hessian is
+\begin{equation}
+ H=\tau\operatorname{diag}(1/w_s)+\lambda R+\kappa I
+ \succeq(\tau/b+\kappa)I.
+\end{equation}
+The same strong-convexity inequality extends to the boundary by continuity,
+proving uniqueness. The optimizer has positive weights: for $b>1/n$, mixing
+a point having a zero coordinate with the uniform vector has an entropy
+directional derivative of $-\infty$, whereas the other terms have finite
+directional derivatives. For $b=1/n$, the feasible set consists only of the
+strictly positive uniform vector.
+
+Write $m=\tau/b+\kappa$ and
+$\boldsymbol\delta=\boldsymbol w-\widetilde{\boldsymbol w}$.
+The two variational inequalities and strong convexity give
+\begin{align}
+ m\|\boldsymbol\delta\|_2^2
+ &\le
+ \left[
+  \tau(\log\boldsymbol\pi-\log\widetilde{\boldsymbol\pi})
+  +\lambda(\widetilde R-R)\widetilde{\boldsymbol w}
+  +\kappa(\boldsymbol a-\widetilde{\boldsymbol a})
+ \right]^{\mathsf T}\boldsymbol\delta.
+\end{align}
+Since $\boldsymbol1^{\mathsf T}\boldsymbol\delta=0$, the log-normalization
+constants and any constant multiple of $\boldsymbol1$ vanish. Moreover,
+$\|\widetilde{\boldsymbol w}\|_2^2\le b\sum_s\widetilde w_s=b$.
+Cauchy--Schwarz completes the proof.
+\end{proof}
+
+The bound separates three perturbations. Quality changes enter through
+relative log-quality; a common multiplicative rescaling of all $q_s$ has no
+effect. Residual estimation error enters through an operator norm and can
+change weights even when all marginal residual variances remain unchanged.
+An anchor perturbation is attenuated by the factor
+$\kappa/(\tau/b+\kappa)$. Increasing $\kappa$ improves temporal stability but
+can slow redistribution after a persistent regime change. If quality is a
+product of support, freshness, and variability factors, their log changes
+add in the quality term; all factors require a strictly positive floor.
+
+When no cap is active, a more informative local expression follows by
+differentiating the first-order conditions. Define
+\begin{equation}
+ Q=H^{-1}-H^{-1}\boldsymbol1
+ (\boldsymbol1^{\mathsf T}H^{-1}\boldsymbol1)^{-1}
+ \boldsymbol1^{\mathsf T}H^{-1}.
+\end{equation}
+Then
+\begin{equation}
+ d\boldsymbol w
+ =Q\left(\tau\,d\log\boldsymbol q
+         -\lambda\,(dR)\boldsymbol w
+         +\kappa\,d\boldsymbol a\right).
+ \label{eq:local-sensitivity}
+\end{equation}
+For a fixed active set, the same expression applies to its free coordinates;
+coordinates held at a bound have zero differential. At an active-set change,
+Eq.~\eqref{eq:three-way-sensitivity} remains applicable, whereas the local
+Jacobian need not be differentiable.
+
+\begin{proposition}[When joint structure changes the fusion rule]
+\label{prop:joint-structure-criterion}
+Let $R_D=\operatorname{diag}(R)$ and $O=R-R_D$. Keep quality, anchor, cap,
+and regularization coefficients fixed, with $\lambda>0$. Suppose that the
+diagonal-risk solution $\boldsymbol w_D$ lies strictly below every cap. Then
+it is also the full-risk solution if and only if
+\begin{equation}
+ \left(I-\frac{\boldsymbol1\boldsymbol1^{\mathsf T}}{n}\right)
+ O\boldsymbol w_D=\boldsymbol0.
+ \label{eq:joint-structure-condition}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+All solution coordinates are positive. The diagonal objective is stationary
+on the simplex at $\boldsymbol w_D$. The full objective differs in gradient
+by $\lambda O\boldsymbol w_D$. Thus, it is stationary at the same point
+exactly when this difference is a constant multiple of $\boldsymbol1$.
+Strict convexity makes stationarity sufficient and the solution unique.
+\end{proof}
+
+This criterion rules out a universal improvement claim: an equicorrelated
+matrix with identical marginal risks, uniform quality, and a uniform anchor
+leaves the uniform weights unchanged.
+The useful case is unequal redundancy, where some sources share errors and
+another provides complementary information. The following construction
+isolates this effect without changing any marginal mean-square error.
+
+\begin{proposition}[Complementarity at matched marginal error]
+\label{prop:matched-marginal-gain}
+Consider three unbiased sources with
+\begin{equation}
+ R(\rho)=\sigma^2
+ \begin{bmatrix}1&\rho&0\\\rho&1&0\\0&0&1\end{bmatrix},
+ \qquad \sigma^2>0,\quad 0<\rho<1,
+ \label{eq:matched-marginal-matrix}
+\end{equation}
+uniform quality and anchor
+$\boldsymbol u=(1/3,1/3,1/3)^{\mathsf T}$, and a cap $b\ge1/2$.
+Every source has marginal mean-square error $\sigma^2$.
+The diagonal-risk rule chooses $\boldsymbol u$.
+Without quality or anchor regularization, the full-risk minimizer is
+\begin{equation}
+ \boldsymbol w^*(\rho)=
+ \frac{(1,1,1+\rho)^{\mathsf T}}{3+\rho},
+ \qquad
+ \mathcal R(\boldsymbol u)-\mathcal R(\boldsymbol w^*)
+ =\frac{2\sigma^2\rho^2}{9(3+\rho)}>0,
+ \label{eq:matched-marginal-gap}
+\end{equation}
+where $\mathcal R(\boldsymbol w)=\boldsymbol w^{\mathsf T}R(\rho)\boldsymbol w$.
+With any finite $\tau>0$, $\kappa\ge0$, and $\lambda>0$, the full-risk
+solution still has strictly smaller true residual risk than the
+diagonal-risk rule.
+\end{proposition}
+
+\begin{proof}
+The matrix is positive definite for $0<\rho<1$. Symmetry gives
+$\boldsymbol w=((1-y)/2,(1-y)/2,y)^{\mathsf T}$, and
+\begin{equation}
+ \mathcal R(y)=\sigma^2\left\{
+ \frac{1+\rho}{2}(1-y)^2+y^2\right\}.
+\end{equation}
+Its minimizer is $y^*=(1+\rho)/(3+\rho)$, yielding
+$\mathcal R(\boldsymbol w^*)=\sigma^2(1+\rho)/(3+\rho)$ and
+$\mathcal R(\boldsymbol u)=\sigma^2(3+2\rho)/9$.
+For the regularized rule, the unique $y_\rho$ solves
+\begin{equation}
+ \frac{\lambda\sigma^2}{2}
+ \big[(3+\rho)y_\rho-(1+\rho)\big]
+ +\tau\log\frac{2y_\rho}{1-y_\rho}
+ +\frac{3\kappa}{2}\left(y_\rho-\frac13\right)=0.
+ \label{eq:regularized-three-source-root}
+\end{equation}
+The left-hand side is strictly increasing, negative at $1/3$, and positive
+at $y^*$. Therefore $1/3<y_\rho<y^*<1/2$; the cap is inactive.
+Risk decreases strictly over this interval. More explicitly, with
+$\delta=y_\rho-1/3$,
+\begin{equation}
+ \mathcal R(\boldsymbol u)-\mathcal R(y_\rho)
+ =\sigma^2\left[
+ \frac{2\rho}{3}\delta-\frac{3+\rho}{2}\delta^2\right]>0.
+ \label{eq:regularized-risk-gain}
+\end{equation}
+\end{proof}
+
+For this construction, define
+\begin{equation}
+ L_\rho=\frac{\lambda\sigma^2}{2}(3+\rho)
+ +\tau\left(\frac1{y_\rho}+\frac1{1-y_\rho}\right)
+ +\frac{3\kappa}{2}>0.
+\end{equation}
+Implicit differentiation gives
+\begin{align}
+ \frac{d y_\rho}{d\rho}
+ &=\frac{\lambda\sigma^2(1-y_\rho)}{2L_\rho}>0,\\
+ \frac{d y_\rho}{d\tau}
+ &=-\frac{\log[2y_\rho/(1-y_\rho)]}{L_\rho}<0,\\
+ \frac{d y_\rho}{d\kappa}
+ &=-\frac{3(y_\rho-1/3)}{2L_\rho}<0.
+ \label{eq:correlation-regularization-sensitivity}
+\end{align}
+Thus, stronger paired-error correlation transfers weight toward the
+independent source, while the quality reference and historical anchor
+attenuate that transfer. Equation~\eqref{eq:matched-marginal-gap} is a
+theoretical construction, not an empirical result.
+
+A quantitative sufficient condition also accounts for matrix estimation.
+Let $h(\boldsymbol w)=\tau D_{\mathrm{KL}}(\boldsymbol w\Vert\boldsymbol u)
++\kappa\|\boldsymbol w-\boldsymbol u\|_2^2/2$ and let $\widehat R\succeq0$
+satisfy $\|\widehat R-R\|_{\mathrm{op}}\le\epsilon_R$.
+For its regularized solution $\widehat{\boldsymbol w}$,
+\begin{equation}
+ \mathcal R(\boldsymbol u)-\mathcal R(\widehat{\boldsymbol w})
+ \ge
+ \frac{2\sigma^2\rho^2}{9(3+\rho)}
+ -\frac{2h(\boldsymbol w^*)}{\lambda}-2b\epsilon_R.
+ \label{eq:estimable-risk-gain}
+\end{equation}
+Indeed, compare the estimated objective at
+$\widehat{\boldsymbol w}$ and $\boldsymbol w^*$, use $h\ge0$, and bound
+each quadratic estimation error by $b\epsilon_R$.
+Here
+\begin{align}
+ D_{\mathrm{KL}}(\boldsymbol w^*\Vert\boldsymbol u)
+ &=\frac{2}{3+\rho}\log\frac{3}{3+\rho}
+ +\frac{1+\rho}{3+\rho}\log\frac{3(1+\rho)}{3+\rho},\\
+ \|\boldsymbol w^*-\boldsymbol u\|_2^2
+ &=\frac{2\rho^2}{3(3+\rho)^2}.
+\end{align}
+The lower bound is informative only when its right-hand side is positive.
+It identifies regularization bias and joint-moment estimation error as
+distinct reasons why the complementary-source advantage may not be observed.
+
+These fusion-level statements do not establish that retraining recovers a
+service policy or that weight changes cross a scheduling threshold. Those
+claims require executed-update experiments with matched training budgets,
+deployment timing, and drift events. Both weight/action sensitivity and
+observed recovery must be reported; unchanged actions in an ablation must
+be retained as a negative result.
+
+\begin{proposition}[An exact fusion-to-decision bridge]
+\label{prop:threshold-decision-bridge}
+Let $z$ be uniform on $[\theta-b_0,\theta+b_0]$ and independent of the
+entire error vector $\boldsymbol e$. Suppose
+$|e_s|\le\sigma<b_0$ almost surely,
+$\theta-b_0-\sigma\ge0$, and $\theta+b_0+\sigma\le1$.
+Each source reports $p_s=z+e_s$.
+Let $\boldsymbol w$ be a simplex weight vector selected independently of
+the test pair $(z,\boldsymbol e)$ before the test batch. Define the executed
+threshold action and utility by
+\begin{equation}
+ a(\boldsymbol w)=\mathbb I\{\boldsymbol w^{\mathsf T}\boldsymbol p\ge\theta\},
+ \qquad J(z,a)=a(z-\theta),
+ \qquad a^*(z)=\mathbb I\{z\ge\theta\}.
+\end{equation}
+With $R=\mathbb E[\boldsymbol e\boldsymbol e^{\mathsf T}]$, the expected
+executed-decision regret satisfies the exact identity
+\begin{equation}
+ \mathbb E[J(z,a^*)-J(z,a(\boldsymbol w))\mid\boldsymbol w]
+ =\frac{\boldsymbol w^{\mathsf T}R\boldsymbol w}{4b_0}.
+ \label{eq:exact-decision-regret}
+\end{equation}
+No zero-mean error assumption is required.
+\end{proposition}
+
+\begin{proof}
+Condition on $\boldsymbol w$ and $\boldsymbol e$, and write
+$x=z-\theta$ and $\eta=\boldsymbol w^{\mathsf T}\boldsymbol e$.
+The simplex constraint gives $|\eta|\le\sigma<b_0$.
+For $\eta>0$, a suboptimal action occurs only for $-\eta\le x<0$, with
+regret $-x$. For $\eta<0$, it occurs only for $0\le x<-\eta$, with regret
+$x$. Thus, in either case,
+\begin{equation}
+ \mathbb E[J(z,a^*)-J(z,a(\boldsymbol w))\mid\boldsymbol w,\boldsymbol e]
+ =\frac{\eta^2}{4b_0}.
+\end{equation}
+The same identity holds for $\eta=0$. Averaging over the independent test
+errors yields Eq.~\eqref{eq:exact-decision-regret}.
+\end{proof}
+
+The matched-marginal matrix in Eq.~\eqref{eq:matched-marginal-matrix} can
+be realized exactly with bounded errors. Let $A$ and $C$ be independent
+symmetric Rademacher variables and let $S$ be independent of them, with
+$\Pr(S=1)=(1+\rho)/2$. Set
+\begin{equation}
+ \boldsymbol e=\sigma(A,AS,C)^{\mathsf T}.
+\end{equation}
+All source marginals are identical, while
+$\mathbb E[e_1e_2]=\sigma^2\rho$ and the other cross moments vanish.
+Consequently, the strict regularized full-risk improvement in
+Proposition~\ref{prop:matched-marginal-gain} translates into strictly
+higher expected utility for this executed threshold decision. In the
+unregularized case the utility gain is
+\begin{equation}
+ \mathbb E[J(z,a(\boldsymbol w^*))-J(z,a(\boldsymbol u))]
+ =\frac{\sigma^2\rho^2}{18b_0(3+\rho)}.
+\end{equation}
+A concrete bounded setting is $\theta=0.5$, $b_0=0.25$, and
+$\sigma=0.15$, for which every source prediction lies in $[0.1,0.9]$.
+This mechanism benchmark uses known moments and an independent test batch.
+It establishes an exact fusion-to-decision link in its stated setting;
+it does not establish policy-update recovery in the queueing service.
+
+
+\subsection{Propagation to admission and executed profile selection}
+\label{sec:downstream-sensitivity}
+
+Consider two parameter settings with identical source forecasts,
+diagnostics, masks, cap, resource-feasible candidates, worker state, and
+regularization coefficients. Let $B_w$ be the right-hand side of
+Eq.~\eqref{eq:three-way-sensitivity}, and write
+$\Delta R=R-\widetilde R$. Since simplex weight differences sum to zero,
+\begin{align}
+ |\Gamma-\widetilde\Gamma|
+ &\le\min_{a\in\R}\norm{\boldsymbol d-a\boldsymbol1}_2 B_w,\\
+ |\widehat y-\widetilde{\widehat y}|
+ &\le\min_{a\in\R}\norm{\boldsymbol p-a\boldsymbol1}_2 B_w,\\
+ |D^p-\widetilde D^p|&\le\tfrac12\norm{\boldsymbol w-
+                      \widetilde{\boldsymbol w}}_1
+                      \le\tfrac{\sqrt n}{2}B_w,\\
+ |r^{\rm pred}-\widetilde r^{\rm pred}|
+ &\le2\sqrt b\norm{R}_{\rm op}B_w+b\norm{\Delta R}_{\rm op}.
+ \label{eq:representation-sensitivity}
+\end{align}
+For the disagreement bound, along the line between two simplex vectors the
+directional derivative is
+$\sum_s\Delta w_s(p_s-\bar p)^2$. The squared terms lie in $[0,1]$ and
+$\sum_s\Delta w_s=0$, giving the half-$\ell_1$ bound after integration.
+The risk bound follows by expanding the two quadratic forms and using
+$\norm{\boldsymbol w}_2,\norm{\widetilde{\boldsymbol w}}_2\le\sqrt b$.
+With coverage and risk age held fixed, clipping is nonexpansive, so
+\begin{equation}
+ |U-\widetilde U|\le
+ 2\omega_D\sqrt n B_w+
+ \omega_R\{2\sqrt b\norm{R}_{\rm op}B_w+b\norm{\Delta R}_{\rm op}\}.
+ \label{eq:uncertainty-sensitivity}
+\end{equation}
+These inequalities hold for fixed forecasts. Refitting predictors introduces
+additional forecast perturbations and must not be silently attributed to a
+weight-only perturbation.
+
+For fixed current inference and cost estimates, candidate-score changes obey
+\begin{equation}
+ \Delta L_t(i,j)=\Delta\widehat G_t(i,j)
+                -\lambda_UQ_{i,t}\Delta U_t-\Delta\epsilon_t(i,j).
+ \label{eq:score-propagation}
+\end{equation}
+Suppose the recovery estimator is Lipschitz on the declared operating domain
+and the resulting absolute score perturbation is at most $B_L$ for every
+candidate. If the winning pair has a score gap greater than $2B_L$, its identity
+cannot change. The same margin argument applies to an exploitation-admission
+comparison with $B_t^0$. A gate or active-set boundary requires explicit
+analysis rather than a differentiable Jacobian argument.
+
+This result explains why a valid component may not change an action in a
+particular experiment. Conversely, a meaningful component test must include
+states where its perturbation changes source influence and where the candidate
+margin is small enough for that influence to affect admission or intensity.
+Both changed and unchanged actions are reported. We do not choose test states
+after observing a favorable service outcome or infer a service gain from a
+weight change alone.
+
+\section{Known-moment mechanism verification}
+\label{sec:known-moment-verification}
+
+The following small experiment was executed for this revision using the supplied
+\texttt{verify\_joint\_error.py}. It verifies the theoretical construction,
+not the DA-RF online adaptation policy. Each of twenty independent seeds
+contains $100{,}000$ target--error pairs per correlation condition. The target
+is uniform on $[0.25,0.75]$; $\theta=0.5$, $b_0=0.25$, and $\sigma=0.15$.
+The bounded Rademacher construction gives exactly the same marginal squared
+error $\sigma^2$ for all three sources on every trial. Test targets are
+independent of the complete error vector.
+
+The diagonal and full rules share uniform quality and anchor, cap $0.7$,
+$\tau=0.001$, $\lambda=1$, and $\kappa=0.001$. These coefficients are declared
+mechanism settings, not selected on queue-service evaluation data. The true
+matrix $R(\rho)$ is supplied to the rules, and the regularized full optimum is
+computed by bisection of Eq.~\eqref{eq:regularized-three-source-root}.
+An unregularized known-moment oracle is saved separately. Every method executes
+its own threshold action on identical test pairs; utility and regret are computed
+from the actual selected action. There is no delayed moment estimation, model
+training, resource queue, or probe intervention in this verification.
+
+Table~\ref{tab:mechanism-verification} reports mean executed-decision regret
+and the paired full-minus-diagonal utility difference. The population identity
+in Eq.~\eqref{eq:exact-decision-regret} uses $4b_0=1$, so population regret
+equals population fused MSE in this particular setting. Zero correlation is
+the negative control: the two rules coincide. Correlation among the first two
+sources produces a conditional decision benefit without changing their marginal
+errors. This does not establish a benefit on arbitrary error distributions.
+
+% The measured table is inserted by the source assembler from the saved CSV.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Newly executed known-moment threshold-decision verification. Entries are mean $\pm$ sample SD across twenty seeds. This is a controlled mechanism example, not an edge-service experiment.}
+\label{tab:mechanism-verification}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrr}
+\toprule
+$\rho$ & Diagonal regret & Full regularized regret & Paired utility gain\\
+\midrule
+0.00 & $0.0074820\pm0.0000795$ & $0.0074820\pm0.0000795$ & $0.0000000\pm0.0000000$\\
+0.25 & $0.0087267\pm0.0000915$ & $0.0086302\pm0.0000941$ & $0.0000965\pm0.0000191$\\
+0.50 & $0.0099751\pm0.0000903$ & $0.0096191\pm0.0000926$ & $0.0003560\pm0.0000293$\\
+0.75 & $0.0112259\pm0.0000832$ & $0.0104809\pm0.0000851$ & $0.0007450\pm0.0000311$\\
+0.90 & $0.0119784\pm0.0000848$ & $0.0109498\pm0.0000872$ & $0.0010286\pm0.0000229$\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+A separate numerical audit solves one hundred paired convex problems with
+perturbed positive quality, PSD residual matrices, and historical anchors while
+holding the mask, cap, and regularization fixed. Every observed weight change
+is below the bound in Eq.~\eqref{eq:three-way-sensitivity}; the largest observed
+change-to-bound ratio is $0.63412$ (rounded upward). The numerical tolerance is
+$2\times10^{-6}$. This finite audit supports implementation consistency and
+does not replace the proof. The saved CSV records the predeclared settings,
+weights, population risks, empirical MSE, executed utility, and regret; the JSON
+records the random seed protocol and script hash.
+
+\section{Existing evidence and validation required for the extension}
+\label{sec:validation}
+
+% Integration fragment: no document class or package declarations.
+% Requires the main document's usual amsmath support.
+% Existing evidence and proposed experiments are intentionally separated.
+% All protocols below are prespecified designs; no new results are reported.
+
+\subsection{Evidence boundaries and prespecified validation}
+\label{sec:validation-boundaries}
+
+\paragraph{Evaluated implementation versus proposed extension.}
+We use \emph{Risk RF} exclusively for the implementation that generated the
+reported predictions, admissions, and executed outcomes. Its weights incorporate
+measurement quality, a residual second-moment penalty, and temporal inertia;
+its admission rule uses common-target forecast disagreement and source coverage.
+Any subsequently introduced decision-aware extension is denoted
+\emph{DA-RF} and is an unevaluated method proposal in the present manuscript.
+Changing an admission rule, candidate-value estimator, reward definition,
+feedback filter, or deployment mechanism creates a different experimental
+treatment. Existing Risk RF results therefore cannot establish the performance
+of DA-RF. The protocols below specify the evidence needed to evaluate that
+extension; they contain no newly executed experiments or numerical outcomes.
+
+\paragraph{What the existing results establish.}
+The observer replay supports specific evidence-level effects. Under operating
+noise, Risk RF admits $10/10$ scheduled event trials compared with $8/10$ for
+Original RF, while both have a zero nominal raw-alarm rate. This gain has a
+boundary: under service-feedback outage, admitted coverage falls from $10/10$
+for Original RF to $8/10$ for Risk RF. Under workload conflict, both admit
+$10/10$ events, but nominal admission increases from $5.96\%$ to $9.47\%$.
+Removing variability weighting increases the noise-induced raw-alarm rate
+from zero to $8.42\%$ for Original RF and $7.02\%$ for Risk RF. These results
+support conditional effects on weighting and admission; they do not establish
+uniform superiority or a downstream service gain.
+
+The joint-shift queue experiment separates allocation from updating. With
+adaptive inference and no retraining, completion is $80.40\%$ for DQN and
+$81.19\%$ for PPO, versus $59.59\%$ and $59.83\%$ with a fixed inference
+profile. The respective gains of $20.81$ and $21.36$ percentage points are
+attributable to the allocation comparison. Risk RF completion is $80.40\%$
+and $81.17\%$, and its returns of $1799.10$ and $1799.14$ remain below the
+adaptive no-retraining returns of $1799.95$ and $1801.46$. These observations
+do not demonstrate an incremental benefit from RF-triggered updating.
+
+The hidden-relation diagnostic provides an additional negative result.
+DQN Risk RF obtains post-shift accuracy $3.43\%$ and final-512 accuracy
+$3.36\%$, matching the no-retraining control. Observed-loss admission obtains
+$55.76\%$ and $93.52\%$, respectively. Thus, $93.52\%$ is an observed-loss
+baseline result, not a recovery result of the proposed fusion trigger.
+PPO Risk RF obtains $0.17\%$ post-shift accuracy and $0.20\%$ final-512
+accuracy, compared with $17.23\%$ and $40.74\%$ under observed-loss admission.
+The diagnostic shows that an updating intervention can help under the specified
+DQN configuration, while the evaluated fusion admission does not deliver that
+recovery. A common maximum budget does not imply equal realized expenditure.
+
+In the independent delayed-label classification adaptation, Risk RF accuracy is
+$(96.26\pm2.08)\%$, compared with $(94.80\pm2.40)\%$ for equal-logit fusion
+and $(94.45\pm2.44)\%$ for PDF. The mean differences of $1.46$ and $1.81$
+percentage points require paired uncertainty estimates before stronger
+comparative claims are made. Risk RF NLL/ECE are $0.5424/0.3669$, worse than
+equal-logit fusion's $0.5267/0.3366$ and PDF's $0.4466/0.2715$. Accuracy gain
+therefore does not establish improved predictive calibration.
+
+\paragraph{Provenance and statistical scope.}
+The reported numerical studies use controlled synthetic inputs. An optional
+trace-import interface, or a description of Alibaba data fields, is not evidence
+that a reported table used trace-derived inputs. A future trace experiment must
+identify the actual files, hashes, machines, time interval, aggregation and
+normalization rules, and the quantities that remain simulated. No current result
+is relabeled as trace-based. Five paired seeds and ten scheduled event trials
+provide a limited descriptive assessment. Resampling those seeds does not add
+independent experimental units. New studies will save per-seed paired
+differences, expose the event denominator, and separate scenario-specific
+effects from pooled averages.
+
+\subsubsection{Isolating the incremental contribution of cross-source error}
+\label{sec:validation-cross-error}
+
+The primary forecast experiment will compare the full residual matrix $R_k$
+against $\operatorname{diag}(R_k)$ with identical source forecasts, delayed
+targets, quality references, caps, inertia, initialization, and historical
+hyperparameter selection. Equal weighting, inverse marginal MSE, and the
+declared online-expert aggregation controls will receive the same observations.
+This comparison isolates cross-error information rather than a change in source
+precision, forecast fitting, or admission thresholds.
+
+A controlled generator will keep each source's marginal squared error identical
+while changing its relationship to another source. Let $y_{k+1}=1/2$ and
+$0<\sigma\leq1/4$, and generate stored forecasts
+\begin{align}
+ p_{1,k}&=y_{k+1}+\sigma z_k,&
+ p_{2,k}&=y_{k+1}+\sigma b_kz_k,&
+ p_{3,k}&=y_{k+1}+\sigma v_k,
+ \label{eq:validation-error-generator}
+\end{align}
+where $z_k$ and $v_k$ are independent equiprobable signs, $b_k$ is independent
+of both, and
+$\Pr(b_k=1)=(1+\rho)/2$. The parameter $\rho$ takes prespecified positive,
+zero, and negative values, including $0.8$, $0$, and $-0.8$.
+Every source has squared error exactly $\sigma^2$ on every trial; no clipping
+is needed. The expected second-moment matrix is
+\begin{equation}
+ R(\rho)=\sigma^2
+ \begin{pmatrix}1&\rho&0\\ \rho&1&0\\0&0&1\end{pmatrix}.
+ \label{eq:validation-error-matrix}
+\end{equation}
+Positive $\rho$ represents redundant failure and negative $\rho$ represents
+error cancellation. The source-quality reference is fixed and uniform in this
+isolation experiment. Targets are withheld until the declared delay expires;
+the fusion implementation receives neither future signs nor generator parameters.
+The generator is not a fitted model of a real operational source.
+
+As an analytical reference, with no entropy or inertia penalty and a nonbinding
+cap, the minimum-risk simplex weights are
+\begin{equation}
+ w_1^*=w_2^*=\frac{1}{3+\rho},\qquad
+ w_3^*=\frac{1+\rho}{3+\rho}.
+ \label{eq:validation-oracle-weights}
+\end{equation}
+Their population MSE is $\sigma^2(1+\rho)/(3+\rho)$; equal weights give
+$\sigma^2(3+2\rho)/9$. These are mathematical reference values, not measured
+Risk RF outcomes. With the actual regularizers and delayed estimated matrix,
+improvement must be measured rather than inferred from this reference.
+
+Prespecified primary outcomes are prequential fused MSE and the paired
+full-matrix-minus-diagonal difference within each $\rho$ condition. Secondary
+outcomes are MAE, weights, cap activity, matrix-estimation error, and the fraction
+of windows in which the methods choose different weights. A stationary segment
+and a segment with a changed error relationship will test estimation delay and
+inertia. A positive claim requires a useful held-out error reduction under
+correlated or cancelling errors; merely updating off-diagonal entries or changing
+weights is insufficient. This forecast test alone does not establish service value.
+
+\subsubsection{Comparing admission at matched false-admission rates}
+\label{sec:validation-gates}
+
+The gate study will compare raw-score disagreement, common-target disagreement,
+and a gate without disagreement on the same replay observations. Forecasts,
+weights, missing-source masks, resource feasibility, worker eligibility, and
+event definitions will be shared when isolating the gate. Thresholds will be
+selected only on a separate historical validation stream to target the
+prespecified nominal admission rates $1\%$ and $5\%$. No test event or test outcome
+will be used to choose a threshold. When a discrete gate cannot attain the target
+rate, its realized rate and the attainable operating points will be reported.
+
+The held-out stream will include randomized event phases relative to window
+boundaries, gradual and abrupt changes, operating-only changes, stale feedback,
+source conflict, partial outages, and simultaneous outages. Admission coverage
+will be reported at the matched nominal rate, together with conditional delay,
+missed-event counts, training eligibility, and nominal admissions. Raw alarms,
+admitted candidates, launched workers, and completed deployments will remain
+separate counters. Complete evidence loss must cause explicit abstention.
+An $8/10$ to $10/10$ comparison at one shared numerical threshold cannot, by
+itself, exclude the possibility that the gain comes from a more permissive gate.
+
+\subsubsection{Testing recoverability and net executed service benefit}
+\label{sec:validation-service}
+
+\paragraph{Recoverability before trigger comparison.}
+For each backbone and drift mechanism, the first experiment will compare a
+frozen policy with an ample-update policy and an oracle-timing update schedule,
+while keeping the initial parameters, inference allocation protocol, observations,
+data availability, optimizer, worker delays, and profile definitions fixed.
+The oracle schedule may use the injected onset times as a declared privileged
+reference; it is not an implementable online comparator. The ample-update
+budget will be selected on calibration runs and specified before evaluation.
+Learning curves will report performance before the change, immediately after
+the change, and after each actual deployment. If updating cannot improve the
+deployed policy under these controls, that condition does not establish a useful
+retraining problem. If it can, later trigger comparisons must explain any failure
+to realize the available recovery.
+
+\paragraph{Allocation, timing, and expenditure controls.}
+The no-retraining control will retain adaptive inference, and the fixed-profile
+control will disable it. Their difference estimates the benefit of inference
+allocation under the tested service model. RF, DA-RF, observed-loss, periodic,
+and randomized-trigger arms will then use the same initial policies, training
+profiles, update counts per worker, optimizer, eligibility rules, deployment
+delays, and external arrivals and capacities. Both a common maximum budget and
+actual costs will be reported. A count- and cost-matched timing experiment will
+hold the number and types of completed updates fixed while varying launch times;
+training compute, memory occupancy, and direct costs will be accounted for over
+the entire active interval. Feasibility and unspent budgets will be reported.
+
+To separate policy recovery from allocation-mediated effects, a complementary
+controlled experiment will use a prespecified inference schedule with capacity
+reserved for every declared training plan. The full closed-loop experiment will
+retain the actual competition between training and inference. These are different
+estimands and will not be pooled. If fusion variables enter the service-policy
+input, all arms in an update-isolation experiment will receive the same observer
+features, or that feature pathway will be included as a separate factorial
+treatment. A change in backbone observations must not be silently attributed
+to a change in retraining timing.
+
+\paragraph{Primary endpoint and claim criterion.}
+The primary service endpoint will be paired environment return relative to
+adaptive no retraining, with its reward definition and training-cost accounting
+fixed before evaluation. Completion, deadline loss, throughput, unsuccessful
+requests, time-to-recovery, deployment count, and resource consumption will be
+reported separately. A net-service-benefit claim for an extension requires a
+positive paired return effect, uncertainty consistent with that claim, and no
+violation of the declared resource or service constraints. Superiority over a
+fixed inference profile, lower training cost alone, or a larger proxy value does
+not meet that criterion. The classification study will likewise report paired
+accuracy differences alongside NLL and ECE, use a declared calibration protocol,
+and retain the distinction between prediction before label arrival and updates
+after label arrival.
+
+\subsubsection{Component activation and mechanism audit}
+\label{sec:validation-mechanisms}
+
+Each component will receive a perturbation designed to activate its mechanism:
+reduced valid support for $q_N$, delayed timestamps for $q_A$, temporally unstable
+telemetry for $q_V$, changed cross-source error relationships for $R_k$, rapid
+quality changes for inertia, a dominant source for the cap, and partial or total
+source loss for coverage. Paired ablations will preserve all other settings.
+For each completed window and decision slot, the saved audit will include raw
+scores, source forecasts, availability, support, age, bootstrap variability,
+quality reference, residual matrix, weights, cap activity, disagreement,
+coverage, gate status and rejection reason, feasible candidates, selected profiles,
+worker launch, actual gradient steps, deployment time, and executed outcomes.
+
+The audit will distinguish four stages: a perturbation activates a component;
+the component changes weights or uncertainty; the change alters an admitted or
+executed action; and the action improves a prespecified outcome after its cost.
+Activation alone proves none of the later stages. Weight changes without action
+changes demonstrate a representation effect; action changes without outcome
+improvement demonstrate a control effect without an established benefit.
+An inactive ablation is reported as inconclusive in that condition rather than
+as proof that the component is either necessary or unnecessary. No new online-adaptation or queue-service numerical result will be added until
+these protocols have been executed and their saved predictions and deployment
+logs have been verified. The known-moment verification reported separately does
+not satisfy that requirement.
+
+
+
+\section{Claim discipline and submission readiness}
+
+The defensible theoretical claim is conditional: at a fixed feasible set, the
+fusion optimizer is stable to declared quality, risk, and anchor perturbations;
+matched-marginal redundant sources can produce a strict joint-risk advantage;
+and that advantage improves an explicitly defined threshold decision.
+Neither these results nor the small mechanism simulation proves general queue
+recovery, better classification calibration, or universal superiority.
+
+A claim of useful service adaptation requires the proposed DA-RF implementation
+to recover a policy in a condition where a matched updating intervention is
+shown to work, and to produce a positive net executed-service effect over
+adaptive no retraining after all active training costs. The inherited hidden-
+relation failure is retained until a newly executed and transparently versioned
+treatment changes that result. Components whose removal changes no action or
+outcome remain negative or inactive findings rather than manufactured
+contributions.
+
+Before submission, replace prospective protocols by measured results only
+where execution artifacts support them, complete the real-data and matched
+budget comparisons, identify source code and data versions, and reconcile all
+figures and notation with Eq.~\eqref{eq:main-fusion}. Information Fusion welcomes
+fusion architectures, algorithms, and applications; editorial suitability
+still depends on demonstrated significance, soundness, and reproducibility.
+No acceptance probability or journal-standard certification follows from this
+revision alone.
+
