@@ -1,0 +1,125 @@
+{
+  "har240": {
+    "mean_only": {
+      "mean_net": 3287.0199999999995,
+      "mean_deployments": 3.6,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 1.4,
+      "mean_accuracy": 0.8232038834951456,
+      "mean_coverage": 0.95625,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "diagonal": {
+      "mean_net": 3287.0199999999995,
+      "mean_deployments": 3.6,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 1.4,
+      "mean_accuracy": 0.8232038834951456,
+      "mean_coverage": 0.95625,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "joint": {
+      "mean_net": 3287.0199999999995,
+      "mean_deployments": 3.6,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 1.4,
+      "mean_accuracy": 0.8232038834951456,
+      "mean_coverage": 0.95625,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "bayes_weights": {
+      "mean_net": 3287.0199999999995,
+      "mean_deployments": 3.6,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 1.4,
+      "mean_accuracy": 0.8232038834951456,
+      "mean_coverage": 0.95625,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "bayes_gate": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_accuracy": 0.8212135922330097,
+      "mean_coverage": 0.95625,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "bayes_both": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_accuracy": 0.8212135922330097,
+      "mean_coverage": 0.95625,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "frequentist_gate": {
+      "mean_net": 3289.8199999999997,
+      "mean_deployments": 0.4,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.4,
+      "mean_accuracy": 0.8200970873786406,
+      "mean_coverage": 0.96875,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "posterior_unused": {
+      "mean_net": 3287.0199999999995,
+      "mean_deployments": 3.6,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 1.4,
+      "mean_accuracy": 0.8232038834951456,
+      "mean_coverage": 0.95625,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "periodic": {
+      "mean_net": 3155.02,
+      "mean_deployments": 32.0,
+      "mean_harmful": 29.4,
+      "mean_beneficial": 2.4,
+      "mean_accuracy": 0.8232038834951456,
+      "mean_coverage": 0.78125,
+      "mean_informative_coverage": 0.7033333333333334,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "frozen": {
+      "mean_net": 3284.0199999999995,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_accuracy": 0.8183009708737863,
+      "mean_coverage": 0.78125,
+      "mean_informative_coverage": 0.7033333333333334,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    },
+    "diagonal_posterior_gate": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_accuracy": 0.8212135922330097,
+      "mean_coverage": 0.95,
+      "mean_informative_coverage": 0.9666666666666668,
+      "solver_failures": 0,
+      "max_kkt": 0.0
+    }
+  }
+}

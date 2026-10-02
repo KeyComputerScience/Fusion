@@ -1,0 +1,124 @@
+{
+  "format_version": 1,
+  "dataset": "har240",
+  "n": 10299,
+  "raw_rows": 10299,
+  "participants": {
+    "1": 347,
+    "2": 302,
+    "3": 341,
+    "4": 317,
+    "5": 302,
+    "6": 325,
+    "7": 308,
+    "8": 281,
+    "9": 288,
+    "10": 294,
+    "11": 316,
+    "12": 320,
+    "13": 327,
+    "14": 323,
+    "15": 328,
+    "16": 366,
+    "17": 368,
+    "18": 364,
+    "19": 360,
+    "20": 354,
+    "21": 408,
+    "22": 321,
+    "23": 372,
+    "24": 381,
+    "25": 409,
+    "26": 392,
+    "27": 376,
+    "28": 382,
+    "29": 344,
+    "30": 383
+  },
+  "consumed_raw_hashes": {
+    "UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt": "41a7fe1da7b529cc6c2c3d7df97c98752bea74d7a142673dd59c7820fad3b5e6",
+    "UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt": "03bd3a80c0c04bf354597ad62920158b4b6605e157d856a1aab9abb357d40c5d",
+    "UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt": "5be3b593f88d49bb8f740c1c41379fc928ea8608d706594ebbba81cd800a5a33",
+    "UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt": "423f6806f09059de3c1f443cf1d04a3c3907dc7ee17b5d296ed775b07aa6cde6",
+    "UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt": "42419d8aaefd1a319561998defb167bfa57f7e51d656b6012d5a59c0b10f5260",
+    "UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt": "05bc629faee918b0f5b99cd2e68f860c785889627ec8efeb85c29282f3963988",
+    "UCI HAR Dataset/train/y_train.txt": "415b3357e2e2d5e70a45c781947c6bdd80e0410a579d862eedcd6bbce3c694ef",
+    "UCI HAR Dataset/train/subject_train.txt": "66e1e2fbe9b396fa5155f531dc3348c803f503be663e2318772d49947db9153a",
+    "UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt": "ea71c339c828561bc1dc6f7301a54aeb7e61e6312cb2387ebaea832ffd04203d",
+    "UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt": "32692c617b40c16e020bf059a316bd6bf3a63d771f030dfc5fa4003f390b6f67",
+    "UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt": "622ddf1d9532fbe340472074ef1edd1a2f58aa332682542bb36a8c03c9ba9e04",
+    "UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt": "fb4f27f13e4e08055043f34ed52f6d8bbe8ebce7dff9475ff92be03b3d3f607c",
+    "UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt": "d2501166b2b1f645b51f722fcf31f3aa1e9a3edae18d49322612f37b4495cb80",
+    "UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt": "90a18ce534be0dfc616cefdac9874e2ea599ae20421cd161361c2a33f40cfa5e",
+    "UCI HAR Dataset/test/y_test.txt": "2a94cb53ca46b956c1b2aebd4a09a72badd8a8e9ea9cdfe9f31b3306a08666bb",
+    "UCI HAR Dataset/test/subject_test.txt": "63b8c577f4a85431c06bd87f6384608c90a9f72f05c7956dd21255dc63515c07"
+  },
+  "cache_sha256": "451131bad99be35035bb433cc0b44b25a9106d6745e48121e08888a4763938ec",
+  "cache_bytes": 1702495,
+  "raw_shape": [
+    10299,
+    24
+  ],
+  "raw_dtype": "float64",
+  "label_dtype": "int64",
+  "origin": "Official UCI raw archive, SHA256 verified; frozen unchanged adapter derivation",
+  "derivation": {
+    "folds": [
+      "train",
+      "test"
+    ],
+    "signal_groups": [
+      [
+        "total_acc_x",
+        "total_acc_y",
+        "total_acc_z"
+      ],
+      [
+        "body_gyro_x",
+        "body_gyro_y",
+        "body_gyro_z"
+      ]
+    ],
+    "features": "mean,standarddeviation,min,max ofeach128measurementsegment for eachchannel (24features)",
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    ],
+    "classes": 6,
+    "target": "originalactivitylabelminus1",
+    "order": "combineofficialtrain/test subjectIDs; participantIDascending thenoriginalacquisitionroworderwithinparticipant",
+    "modalities": "Two sensor modalities, accelerometer andgyroscope; notsixindependentphysicaldevices"
+  },
+  "cache_scope": "Lossless arrays returned by frozen loader BEFORE prefix scaling/lagging/model fitting. Full original sensor logs and HAR acquisition segments are not embedded; prepare_raw_data.py fetches them.",
+  "license": "CC BY 4.0",
+  "doi": "10.24432/C54S4K",
+  "frozen_engine_sha": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+  "frozen_adapter_sha": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f",
+  "reference_cache_sha256": "451131bad99be35035bb433cc0b44b25a9106d6745e48121e08888a4763938ec"
+}

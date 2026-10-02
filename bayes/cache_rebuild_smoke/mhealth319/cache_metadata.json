@@ -1,0 +1,160 @@
+{
+  "format_version": 1,
+  "dataset": "mhealth319",
+  "n": 6868,
+  "raw_rows": 1215745,
+  "participants": {
+    "1": {
+      "raw": 161280,
+      "downsampled": 3226,
+      "labeled": 704
+    },
+    "2": {
+      "raw": 130561,
+      "downsampled": 2612,
+      "labeled": 710
+    },
+    "3": {
+      "raw": 122112,
+      "downsampled": 2443,
+      "labeled": 709
+    },
+    "4": {
+      "raw": 116736,
+      "downsampled": 2335,
+      "labeled": 706
+    },
+    "5": {
+      "raw": 119808,
+      "downsampled": 2397,
+      "labeled": 680
+    },
+    "6": {
+      "raw": 98304,
+      "downsampled": 1967,
+      "labeled": 646
+    },
+    "7": {
+      "raw": 104448,
+      "downsampled": 2089,
+      "labeled": 685
+    },
+    "8": {
+      "raw": 129024,
+      "downsampled": 2581,
+      "labeled": 667
+    },
+    "9": {
+      "raw": 135168,
+      "downsampled": 2704,
+      "labeled": 689
+    },
+    "10": {
+      "raw": 98304,
+      "downsampled": 1967,
+      "labeled": 672
+    }
+  },
+  "consumed_raw_hashes": {
+    "MHEALTHDATASET/mHealth_subject1.log": "da8d1bbf644a206886333f945a1dd7fe5081382b3bb3ee42821f08ad765732e4",
+    "MHEALTHDATASET/mHealth_subject2.log": "20e288750fe9f4f0495686fabf1500bfe655a549f0d2c3a9be5aa6456461b8f1",
+    "MHEALTHDATASET/mHealth_subject3.log": "90ead135c9fa9f1188e3b1f7afc0c95899a0614a15917cf3590f52923d6e03fd",
+    "MHEALTHDATASET/mHealth_subject4.log": "3b66f87a292f4cc457aea18cb7e15a10c18055c803df27f5284c6a1c5751a469",
+    "MHEALTHDATASET/mHealth_subject5.log": "380e526a85bde64baebd1d1a2478c4cfad947a4ab994c8b39b8dcda195f78a30",
+    "MHEALTHDATASET/mHealth_subject6.log": "4b8bc81186229e096937f37f9ae070017ee653005b21f88fcd0504e9195f8926",
+    "MHEALTHDATASET/mHealth_subject7.log": "5e372b2fad64a3ebaadd103ec09cde68d448ef5b707b010d02f438b8b9203b1f",
+    "MHEALTHDATASET/mHealth_subject8.log": "c6ddb8926be4c193890a28cc84cafe35c16a4bc14f23c3e696d504643652a61b",
+    "MHEALTHDATASET/mHealth_subject9.log": "fa68f90a9dfeda47abce41ebc1dec8ce55f66dc56d513ab90a6ae20ad045f2c9",
+    "MHEALTHDATASET/mHealth_subject10.log": "382d3d7b58e1fe24679fb241fd7e48ce1992757f6b1b237a56cd660e8f1fabda"
+  },
+  "cache_sha256": "7f37690fdc95c87996dfd863f76764149281a81bcafb00b7092b53e33db64601",
+  "cache_bytes": 542501,
+  "raw_shape": [
+    6868,
+    21
+  ],
+  "raw_dtype": "float64",
+  "label_dtype": "int64",
+  "origin": "Official UCI raw archive, SHA256 verified; frozen unchanged adapter derivation",
+  "derivation": {
+    "participants": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "downsample": "Every50th raw acquisition row before target filtering; raw50Hz becomes1Hz; retain activitylabels1..12 and mapminus1",
+    "feature_raw_indices": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "groups": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    ],
+    "classes": 12,
+    "group_meaning": [
+      "chestacceleration3",
+      "leftankleaccelerationgyroorientation9",
+      "rightarmaccelerationgyroorientation9"
+    ],
+    "exclude": "RawECGcolumns3,4 excluded",
+    "order": "participantIDascending, raw acquisitionroworderwithinparticipant"
+  },
+  "cache_scope": "Lossless arrays returned by frozen loader BEFORE prefix scaling/lagging/model fitting. Full original sensor logs and HAR acquisition segments are not embedded; prepare_raw_data.py fetches them.",
+  "license": "CC BY 4.0",
+  "doi": "10.24432/C5TW22",
+  "frozen_engine_sha": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+  "frozen_adapter_sha": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f",
+  "reference_cache_sha256": "7f37690fdc95c87996dfd863f76764149281a81bcafb00b7092b53e33db64601"
+}
