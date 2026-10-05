@@ -1,0 +1,1048 @@
+{
+  "kind": "deterministic algebra audit; not performance evidence",
+  "streams": 100,
+  "issued_per_stream": 400,
+  "checked": [
+    "projected regulator identity",
+    "pending violation upper bound",
+    "bounded delay threshold overshoot",
+    "complete return count bound",
+    "weighted excess return bound"
+  ],
+  "max_identity_error": 5.8619775700208265e-12,
+  "all_passed": true,
+  "checks": [
+    {
+      "seed": 0,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 13,
+      "violations": 38,
+      "admissions": 0,
+      "identity_error": 3.950617610826157e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 1,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 178,
+      "admissions": 28,
+      "identity_error": 1.6484591469634324e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 2,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 9,
+      "admissions": 0,
+      "identity_error": 5.7767124417296145e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 3,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 152,
+      "admissions": 22,
+      "identity_error": 1.9326762412674725e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 4,
+      "matured": 388,
+      "pending": 12,
+      "max_pending": 12,
+      "violations": 156,
+      "admissions": 20,
+      "identity_error": 1.7905676941154525e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 5,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 12,
+      "violations": 78,
+      "admissions": 4,
+      "identity_error": 3.439026841078885e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 6,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 43,
+      "admissions": 0,
+      "identity_error": 4.234834705130197e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 7,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 139,
+      "admissions": 17,
+      "identity_error": 1.8758328224066645e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 8,
+      "matured": 390,
+      "pending": 10,
+      "max_pending": 11,
+      "violations": 155,
+      "admissions": 21,
+      "identity_error": 1.7621459846850485e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 9,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 115,
+      "admissions": 8,
+      "identity_error": 2.5295321393059567e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 10,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 89,
+      "admissions": 5,
+      "identity_error": 2.6574298317427747e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 11,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 11,
+      "violations": 110,
+      "admissions": 10,
+      "identity_error": 3.055333763768431e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 12,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 13,
+      "violations": 107,
+      "admissions": 8,
+      "identity_error": 3.240074875066057e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 13,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 12,
+      "violations": 151,
+      "admissions": 20,
+      "identity_error": 1.3073986337985843e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 14,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 179,
+      "admissions": 32,
+      "identity_error": 1.3926637620897964e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 15,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 13,
+      "admissions": 0,
+      "identity_error": 5.243805389909539e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 16,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 13,
+      "violations": 130,
+      "admissions": 15,
+      "identity_error": 2.2453150450019166e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 17,
+      "matured": 390,
+      "pending": 10,
+      "max_pending": 11,
+      "violations": 99,
+      "admissions": 7,
+      "identity_error": 3.055333763768431e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 18,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 165,
+      "admissions": 26,
+      "identity_error": 1.8758328224066645e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 19,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 67,
+      "admissions": 0,
+      "identity_error": 3.353761712787673e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 20,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 22,
+      "admissions": 0,
+      "identity_error": 5.236699962551938e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 21,
+      "matured": 390,
+      "pending": 10,
+      "max_pending": 12,
+      "violations": 171,
+      "admissions": 25,
+      "identity_error": 1.3073986337985843e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 22,
+      "matured": 396,
+      "pending": 4,
+      "max_pending": 13,
+      "violations": 9,
+      "admissions": 0,
+      "identity_error": 5.8619775700208265e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 23,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 12,
+      "violations": 15,
+      "admissions": 0,
+      "identity_error": 5.044853423896711e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 24,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 58,
+      "admissions": 0,
+      "identity_error": 4.057199021190172e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 25,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 128,
+      "admissions": 15,
+      "identity_error": 2.4158453015843406e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 26,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 53,
+      "admissions": 0,
+      "identity_error": 4.192202140984591e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 27,
+      "matured": 390,
+      "pending": 10,
+      "max_pending": 12,
+      "violations": 74,
+      "admissions": 0,
+      "identity_error": 2.8990143619012088e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 28,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 178,
+      "admissions": 31,
+      "identity_error": 1.7337242752546445e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 29,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 93,
+      "admissions": 6,
+      "identity_error": 3.0127011996228248e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 30,
+      "matured": 396,
+      "pending": 4,
+      "max_pending": 11,
+      "violations": 97,
+      "admissions": 7,
+      "identity_error": 2.9842794901924208e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 31,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 203,
+      "admissions": 40,
+      "identity_error": 9.663381206337363e-13,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 32,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 185,
+      "admissions": 34,
+      "identity_error": 8.526512829121202e-13,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 33,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 12,
+      "violations": 89,
+      "admissions": 6,
+      "identity_error": 2.9842794901924208e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 34,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 11,
+      "violations": 98,
+      "admissions": 7,
+      "identity_error": 2.6716406864579767e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 35,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 93,
+      "admissions": 6,
+      "identity_error": 2.7000623958883807e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 36,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 139,
+      "admissions": 16,
+      "identity_error": 1.9326762412674725e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 37,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 12,
+      "violations": 68,
+      "admissions": 0,
+      "identity_error": 4.348521542851813e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 38,
+      "matured": 390,
+      "pending": 10,
+      "max_pending": 11,
+      "violations": 75,
+      "admissions": 2,
+      "identity_error": 3.325340003357269e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 39,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 161,
+      "admissions": 22,
+      "identity_error": 1.5916157281026244e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 40,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 113,
+      "admissions": 9,
+      "identity_error": 2.6005864128819667e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 41,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 124,
+      "admissions": 14,
+      "identity_error": 2.5153212845907547e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 42,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 76,
+      "admissions": 1,
+      "identity_error": 2.5579538487363607e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 43,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 195,
+      "admissions": 37,
+      "identity_error": 1.1084466677857563e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 44,
+      "matured": 396,
+      "pending": 4,
+      "max_pending": 11,
+      "violations": 123,
+      "admissions": 14,
+      "identity_error": 2.7000623958883807e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 45,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 150,
+      "admissions": 19,
+      "identity_error": 1.9610979506978765e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 46,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 26,
+      "admissions": 0,
+      "identity_error": 4.54036808150704e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 47,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 12,
+      "violations": 132,
+      "admissions": 15,
+      "identity_error": 2.4442670110147446e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 48,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 11,
+      "violations": 95,
+      "admissions": 6,
+      "identity_error": 2.9842794901924208e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 49,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 188,
+      "admissions": 35,
+      "identity_error": 9.663381206337363e-13,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 50,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 11,
+      "violations": 105,
+      "admissions": 8,
+      "identity_error": 3.410605131648481e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 51,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 153,
+      "admissions": 19,
+      "identity_error": 1.4779288903810084e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 52,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 5,
+      "admissions": 0,
+      "identity_error": 5.8406612879480235e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 53,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 11,
+      "violations": 81,
+      "admissions": 3,
+      "identity_error": 2.8705926524708048e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 54,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 11,
+      "violations": 17,
+      "admissions": 0,
+      "identity_error": 5.016431714466307e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 55,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 185,
+      "admissions": 35,
+      "identity_error": 1.1368683772161603e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 56,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 10,
+      "admissions": 0,
+      "identity_error": 5.307754236127948e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 57,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 192,
+      "admissions": 38,
+      "identity_error": 9.379164112033322e-13,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 58,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 86,
+      "admissions": 5,
+      "identity_error": 3.552713678800501e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 59,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 161,
+      "admissions": 24,
+      "identity_error": 1.2505552149377763e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 60,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 140,
+      "admissions": 18,
+      "identity_error": 2.2737367544323206e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 61,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 11,
+      "violations": 107,
+      "admissions": 8,
+      "identity_error": 2.1884716261411086e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 62,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 14,
+      "admissions": 0,
+      "identity_error": 5.17985654369113e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 63,
+      "matured": 396,
+      "pending": 4,
+      "max_pending": 11,
+      "violations": 113,
+      "admissions": 9,
+      "identity_error": 2.5295321393059567e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 64,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 106,
+      "admissions": 8,
+      "identity_error": 2.6716406864579767e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 65,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 118,
+      "admissions": 12,
+      "identity_error": 2.9558577807620168e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 66,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 188,
+      "admissions": 33,
+      "identity_error": 1.3358203432289883e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 67,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 190,
+      "admissions": 32,
+      "identity_error": 1.4779288903810084e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 68,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 54,
+      "admissions": 0,
+      "identity_error": 4.376943252282217e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 69,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 65,
+      "admissions": 0,
+      "identity_error": 4.519051799434237e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 70,
+      "matured": 397,
+      "pending": 3,
+      "max_pending": 13,
+      "violations": 22,
+      "admissions": 0,
+      "identity_error": 5.03774799653911e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 71,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 141,
+      "admissions": 17,
+      "identity_error": 2.2168933355715126e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 72,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 187,
+      "admissions": 34,
+      "identity_error": 1.2221335055073723e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 73,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 147,
+      "admissions": 19,
+      "identity_error": 2.4726887204451486e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 74,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 31,
+      "admissions": 0,
+      "identity_error": 4.511946372076636e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 75,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 116,
+      "admissions": 9,
+      "identity_error": 2.2453150450019166e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 76,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 129,
+      "admissions": 15,
+      "identity_error": 2.1032064978498966e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 77,
+      "matured": 390,
+      "pending": 10,
+      "max_pending": 13,
+      "violations": 41,
+      "admissions": 0,
+      "identity_error": 3.801403636316536e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 78,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 11,
+      "violations": 42,
+      "admissions": 0,
+      "identity_error": 3.943512183468556e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 79,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 177,
+      "admissions": 28,
+      "identity_error": 1.4779288903810084e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 80,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 11,
+      "violations": 149,
+      "admissions": 19,
+      "identity_error": 1.9326762412674725e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 81,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 13,
+      "violations": 107,
+      "admissions": 8,
+      "identity_error": 2.7000623958883807e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 82,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 176,
+      "admissions": 27,
+      "identity_error": 1.3926637620897964e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 83,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 102,
+      "admissions": 8,
+      "identity_error": 3.097966327914037e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 84,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 56,
+      "admissions": 0,
+      "identity_error": 4.156675004196586e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 85,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 162,
+      "admissions": 24,
+      "identity_error": 1.9895196601282805e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 86,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 12,
+      "violations": 42,
+      "admissions": 0,
+      "identity_error": 4.064304448547773e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 87,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 176,
+      "admissions": 29,
+      "identity_error": 1.3642420526593924e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 88,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 125,
+      "admissions": 14,
+      "identity_error": 2.1884716261411086e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 89,
+      "matured": 395,
+      "pending": 5,
+      "max_pending": 11,
+      "violations": 188,
+      "admissions": 34,
+      "identity_error": 1.1937117960769683e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 90,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 163,
+      "admissions": 24,
+      "identity_error": 1.5347723092418164e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 91,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 12,
+      "violations": 187,
+      "admissions": 31,
+      "identity_error": 1.3642420526593924e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 92,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 12,
+      "violations": 117,
+      "admissions": 12,
+      "identity_error": 2.5011104298755527e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 93,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 11,
+      "violations": 21,
+      "admissions": 0,
+      "identity_error": 4.575895218295045e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 94,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 95,
+      "admissions": 6,
+      "identity_error": 2.6147972675971687e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 95,
+      "matured": 394,
+      "pending": 6,
+      "max_pending": 13,
+      "violations": 53,
+      "admissions": 0,
+      "identity_error": 3.730349362740526e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 96,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 11,
+      "violations": 130,
+      "admissions": 15,
+      "identity_error": 2.1600499167107046e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 97,
+      "matured": 391,
+      "pending": 9,
+      "max_pending": 11,
+      "violations": 163,
+      "admissions": 23,
+      "identity_error": 1.5631940186722204e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 98,
+      "matured": 393,
+      "pending": 7,
+      "max_pending": 11,
+      "violations": 134,
+      "admissions": 15,
+      "identity_error": 2.2453150450019166e-12,
+      "return_bound_valid": true
+    },
+    {
+      "seed": 99,
+      "matured": 392,
+      "pending": 8,
+      "max_pending": 12,
+      "violations": 121,
+      "admissions": 13,
+      "identity_error": 2.1600499167107046e-12,
+      "return_bound_valid": true
+    }
+  ],
+  "bounded_block_construction_audit": [
+    {
+      "t": 0.05,
+      "min_joint_probability": 0.1125,
+      "predictive_covariance": "I",
+      "between_covariance": "t^2 v v^T",
+      "posterior_covariance": "t^2 v v^T/2",
+      "all_moment_checks_passed": true
+    },
+    {
+      "t": 0.2,
+      "min_joint_probability": 0.075,
+      "predictive_covariance": "I",
+      "between_covariance": "t^2 v v^T",
+      "posterior_covariance": "t^2 v v^T/2",
+      "all_moment_checks_passed": true
+    },
+    {
+      "t": 0.49,
+      "min_joint_probability": 0.0025000000000000022,
+      "predictive_covariance": "I",
+      "between_covariance": "t^2 v v^T",
+      "posterior_covariance": "t^2 v v^T/2",
+      "all_moment_checks_passed": true
+    }
+  ],
+  "conservative_gross_target_audit": {
+    "trials": 1000,
+    "max_complete_identity_error": 5.684341886080802e-14,
+    "all_passed": true,
+    "identity": "actual_net=issued_lower-s*(gross_residual-issued_q)+2-lost_correct_candidate"
+  }
+}
