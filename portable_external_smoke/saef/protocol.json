@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-03T06:26:52.767036+00:00",
+  "tasks": [
+    "occupancy357",
+    "occupancy864",
+    "mhealth319",
+    "har240",
+    "gas224",
+    "dsads256"
+  ],
+  "rule": "SAEF equations7--10, softplus, delta1e-6, epsilon.01",
+  "scales": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "margins": [
+    0.0,
+    4.0,
+    12.0
+  ],
+  "trial_count": 27,
+  "source": "https://proceedings.mlr.press/v306/liu26r.html",
+  "training": "shared classifiers; EDL training not reproduced",
+  "old_test_data_known": true,
+  "formula_checks": {
+    "scale_invariance_max": 5.551115123125783e-17,
+    "uniform_error": 0.0
+  }
+}

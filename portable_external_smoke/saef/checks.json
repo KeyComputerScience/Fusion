@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "trajectories": 5,
+  "max_service_error": 7.105427357601002e-15,
+  "checks": [
+    {
+      "task": "mhealth319",
+      "seed": 72001,
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 7.105427357601002e-15,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 8.881784197001252e-16,
+      "independent_service": {
+        "gross": 1542.0,
+        "fees": 27.759999999999984,
+        "net": 1514.24,
+        "drops": 46,
+        "accuracy": 0.5720524017467249,
+        "potential_correct": 1572,
+        "n": 2748,
+        "deployments": 2,
+        "restorations": 2,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 0.0
+    },
+    {
+      "task": "mhealth319",
+      "seed": 72002,
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 7.105427357601002e-15,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 3.552713678800501e-15,
+      "independent_service": {
+        "gross": 1526.0,
+        "fees": 27.759999999999984,
+        "net": 1498.24,
+        "drops": 46,
+        "accuracy": 0.5662299854439592,
+        "potential_correct": 1556,
+        "n": 2748,
+        "deployments": 2,
+        "restorations": 2,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 0.0
+    },
+    {
+      "task": "mhealth319",
+      "seed": 72003,
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 7.105427357601002e-15,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 3.552713678800501e-15,
+      "independent_service": {
+        "gross": 1529.0,
+        "fees": 27.759999999999984,
+        "net": 1501.24,
+        "drops": 46,
+        "accuracy": 0.5680494905385735,
+        "potential_correct": 1561,
+        "n": 2748,
+        "deployments": 2,
+        "restorations": 2,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 0.0
+    },
+    {
+      "task": "mhealth319",
+      "seed": 72004,
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 7.105427357601002e-15,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 1.7763568394002505e-15,
+      "independent_service": {
+        "gross": 1536.0,
+        "fees": 24.759999999999984,
+        "net": 1511.24,
+        "drops": 44,
+        "accuracy": 0.5695050946142649,
+        "potential_correct": 1565,
+        "n": 2748,
+        "deployments": 1,
+        "restorations": 1,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 0.0
+    },
+    {
+      "task": "mhealth319",
+      "seed": 72005,
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 7.105427357601002e-15,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 3.552713678800501e-15,
+      "independent_service": {
+        "gross": 1554.0,
+        "fees": 24.759999999999984,
+        "net": 1529.24,
+        "drops": 44,
+        "accuracy": 0.576783114992722,
+        "potential_correct": 1585,
+        "n": 2748,
+        "deployments": 1,
+        "restorations": 1,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 0.0
+    }
+  ]
+}

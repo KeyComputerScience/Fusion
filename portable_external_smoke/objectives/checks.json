@@ -1,0 +1,308 @@
+{
+  "passed": true,
+  "trajectories": 10,
+  "forks": 210,
+  "max_service_error": 1.4210854715202004e-14,
+  "checks": [
+    {
+      "dataset": "mhealth319",
+      "seed": 72001,
+      "rule": "pdfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 3.552713678800501e-15,
+      "independent_service": {
+        "gross": 1523.0,
+        "fees": 30.759999999999977,
+        "net": 1492.24,
+        "drops": 48,
+        "accuracy": 0.5651382823871907,
+        "potential_correct": 1553,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72001,
+      "rule": "qmfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 8.881784197001252e-16,
+      "independent_service": {
+        "gross": 1523.0,
+        "fees": 30.759999999999977,
+        "net": 1492.24,
+        "drops": 48,
+        "accuracy": 0.5651382823871907,
+        "potential_correct": 1553,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72002,
+      "rule": "pdfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 7.105427357601002e-15,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 1.7763568394002505e-15,
+      "independent_service": {
+        "gross": 1526.0,
+        "fees": 27.759999999999984,
+        "net": 1498.24,
+        "drops": 46,
+        "accuracy": 0.5662299854439592,
+        "potential_correct": 1556,
+        "n": 2748,
+        "deployments": 2,
+        "restorations": 2,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72002,
+      "rule": "qmfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 7.105427357601002e-15,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 7.105427357601002e-15,
+      "independent_service": {
+        "gross": 1526.0,
+        "fees": 27.759999999999984,
+        "net": 1498.24,
+        "drops": 46,
+        "accuracy": 0.5662299854439592,
+        "potential_correct": 1556,
+        "n": 2748,
+        "deployments": 2,
+        "restorations": 2,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72003,
+      "rule": "pdfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 7.105427357601002e-15,
+      "independent_service": {
+        "gross": 1509.0,
+        "fees": 30.759999999999977,
+        "net": 1478.24,
+        "drops": 48,
+        "accuracy": 0.5600436681222707,
+        "potential_correct": 1539,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72003,
+      "rule": "qmfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 3.552713678800501e-15,
+      "independent_service": {
+        "gross": 1509.0,
+        "fees": 30.759999999999977,
+        "net": 1478.24,
+        "drops": 48,
+        "accuracy": 0.5600436681222707,
+        "potential_correct": 1539,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72004,
+      "rule": "pdfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 3.552713678800501e-15,
+      "independent_service": {
+        "gross": 1510.0,
+        "fees": 30.759999999999977,
+        "net": 1479.24,
+        "drops": 48,
+        "accuracy": 0.5596797671033479,
+        "potential_correct": 1538,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72004,
+      "rule": "qmfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 1.7763568394002505e-15,
+      "independent_service": {
+        "gross": 1510.0,
+        "fees": 30.759999999999977,
+        "net": 1479.24,
+        "drops": 48,
+        "accuracy": 0.5596797671033479,
+        "potential_correct": 1538,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72005,
+      "rule": "pdfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 7.105427357601002e-15,
+      "independent_service": {
+        "gross": 1520.0,
+        "fees": 30.759999999999977,
+        "net": 1489.24,
+        "drops": 48,
+        "accuracy": 0.5640465793304221,
+        "potential_correct": 1550,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mhealth319",
+      "seed": 72005,
+      "rule": "qmfj",
+      "passed": true,
+      "service_errors": {
+        "gross": 0.0,
+        "fees": 1.4210854715202004e-14,
+        "net": 0.0,
+        "drops": 0.0,
+        "accuracy": 0.0,
+        "deployments": 0.0
+      },
+      "fork_error": 0.0,
+      "target_error": 3.552713678800501e-15,
+      "independent_service": {
+        "gross": 1520.0,
+        "fees": 30.759999999999977,
+        "net": 1489.24,
+        "drops": 48,
+        "accuracy": 0.5640465793304221,
+        "potential_correct": 1550,
+        "n": 2748,
+        "deployments": 3,
+        "restorations": 3,
+        "windows": 86
+      },
+      "forks": 21,
+      "q_identity_error": 1.7763568394002505e-15
+    }
+  ]
+}
