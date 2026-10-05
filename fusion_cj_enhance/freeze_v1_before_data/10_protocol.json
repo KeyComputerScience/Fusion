@@ -1,0 +1,15 @@
+{
+  "status": "final_algorithm_selected_before_HARTH_raw_acquisition",
+  "utc": "2026-10-04T06:12:35.718677+00:00",
+  "primary": "conditional_joint",
+  "method": "originalCJ retained joint complete-error pairing and same original mean/uncertainty paid gate",
+  "selection_reason": "Three declared development upgrades did not improve guarded RSS return; no new candidate after fresh physical outcomes. OriginalCJ35.6 versus normalizedCJ2.0,direct-targetCJ1.0,quantileCJ16.8. Legacy factorized44.8 remains stronger on knownRSS overall; all outcomes retained.",
+  "source_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design_final/original.py": "616742bf79657e3e757e6f68f16ebcc5f7e73228ac02fe4b646bbe4be266c5b0"
+  },
+  "development_results": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design/rss348_development_summary.json": "2d1253e02c08a6e3444eaa4fb14bf6392e7b493470c7578736712b22c4fafd44",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design_transport/rss348_development_summary.json": "bbb1bd29f93e67acdf90bb62c453e952ce93d714b4e01a270ae1994bddbe061b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design_quantile/rss348_development_summary.json": "6582b3f62e7644b608fd0a370f8b8a16d1d5a954281c3477c3d25182a81518f0"
+  }
+}

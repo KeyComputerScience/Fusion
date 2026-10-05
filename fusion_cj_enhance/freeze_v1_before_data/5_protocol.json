@@ -1,0 +1,98 @@
+{
+  "title": "Decision-conditioned complete-lease joint-error Bayesian fusion development extension",
+  "evidence_scope": "Known four physical traces are development replays; no new independent evidence claimed.",
+  "created_before_new_calibration_or_test_outputs": true,
+  "calibration_seeds": [
+    71001,
+    71002,
+    71003
+  ],
+  "test_seeds": [
+    72001,
+    72002,
+    72003,
+    72004,
+    72005
+  ],
+  "studies": {
+    "occupancy357": {
+      "folder": "new_bayes_fusion"
+    },
+    "occupancy864": {
+      "folder": "new_bayes_fusion"
+    },
+    "mhealth319": {
+      "folder": "new_bayes_extension"
+    },
+    "har240": {
+      "folder": "new_bayes_extension"
+    },
+    "gas224": {
+      "new_task": true,
+      "calibration_seeds": [
+        77001,
+        77002,
+        77003
+      ],
+      "test_seeds": [
+        78001,
+        78002,
+        78003,
+        78004,
+        78005
+      ]
+    },
+    "dsads256": {
+      "new_task": true,
+      "calibration_seeds": [
+        77001,
+        77002,
+        77003
+      ],
+      "test_seeds": [
+        78001,
+        78002,
+        78003,
+        78004,
+        78005
+      ]
+    }
+  },
+  "extension": {
+    "prior_variance": 0.01,
+    "lease_archive": 48,
+    "norm_kappa": 1.0,
+    "norm_floor": 0.01,
+    "gate_floor": 0.0001
+  },
+  "prior": "Total concentration 2, symmetric residual atoms \u00b10.1 sqrt(m_total) e_s, zero mean and covariance .01 I; weak regularizing prior, not observed outcomes. Current source mask restricts the full prior.",
+  "posterior": "Every mature lease stores immutable source origin probabilities and origin x, and complete-lease x/y/common-serving mask. At CURRENT gate, the CURRENT candidate/reference contrast projects both origin probabilities and complete past lease labels. E_current=origin source forecast under current contrast\u2212actual past common-served gross contrast/current origin N. Full joint blocks retained; no future label used before complete maturity.",
+  "objective": "\u2212w\u1d40(h\u2212mu)+tau KL(w||pi)+lambda/2 w\u1d40(\u03a3/r)w+kappa_weight sqrt(w\u1d40Uraw w+.01\u00b2); full kappa_weight1, others0; diagonal takes diagonal \u03a3,U.",
+  "gate": "f\u22125\u2212q s\u03a3 > margin, f=N[w\u1d40(h\u2212mu)\u2212kappa_forecast sqrt(w\u1d40Uraw w+.01\u00b2)], s\u03a3=N sqrt(w\u1d40\u03a3w+.0001). full and bound-only kappa_forecast1; other arms0. Point gate uses q=0 in action. \u03a3=B because one immutable reprojected residual vector is a complete-lease atom; joint predictive calibrated gate is identical to empirical block calibrated gate.",
+  "grid": {
+    "lambda": [
+      0,
+      0.25,
+      1
+    ],
+    "margin": [
+      0,
+      4,
+      12
+    ],
+    "trials_per_arm": 27
+  },
+  "selection": "fit initial quantile from matured first-half calibration origins; maximize second-half mean actual net, then smaller margin/lambda; no test retuning",
+  "all_outcomes_retained": true,
+  "methodology_history": "A first calibration-only origin-contrast prototype was preserved, then corrected to current-decision re-projection before any enhanced test output.",
+  "algorithm_history": "Two calibration-only prototypes preserved (origincontrast archive, reprojected U gate). Before any enhanced/newtask test execution, current-decision reprojection with predictive\u03a3 gate and explicit posterior robustmean was frozen.",
+  "arms": [
+    "mean_transfer",
+    "diagonal_transfer",
+    "joint_transfer",
+    "full_transfer",
+    "bound_only",
+    "point_transfer"
+  ],
+  "new_task_protocol_sha256": "c4ba922233390544c205a5c669103f547f2f9f35d6b1f392eddb4db7e1c14f5f"
+}

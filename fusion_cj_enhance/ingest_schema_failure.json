@@ -1,0 +1,330 @@
+{
+  "status": "frozen_ingest_blocked_before_fitting",
+  "scope": "official CSV headers only; no outcome evaluation",
+  "expected_header": [
+    "timestamp",
+    "back_x",
+    "back_y",
+    "back_z",
+    "thigh_x",
+    "thigh_y",
+    "thigh_z",
+    "label"
+  ],
+  "headers": [
+    {
+      "member": "harth/S006.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S008.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S009.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S010.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S012.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S013.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S014.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S015.csv",
+      "header_fields": [
+        "timestamp",
+        "index",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": false
+    },
+    {
+      "member": "harth/S016.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S017.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S018.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S019.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S020.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S021.csv",
+      "header_fields": [
+        "timestamp",
+        "index",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": false
+    },
+    {
+      "member": "harth/S022.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S023.csv",
+      "header_fields": [
+        "",
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": false
+    },
+    {
+      "member": "harth/S024.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S025.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S026.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S027.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S028.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S029.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    }
+  ],
+  "cache_metadata_exists": false,
+  "cache_exists": false,
+  "source_unchanged_sha256": "cc89c6eb2fef4c2eaeaa6869551e07fd36b8a47c18fffdbe9a8bfa6b947bc04b"
+}

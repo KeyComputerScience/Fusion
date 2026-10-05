@@ -1,5 +1,5 @@
 {
-  "status": "frozen_before_acquisition",
+  "status": "metadata_only_draft_not_authorized_for_acquisition",
   "dataset": "UCI HARTH779",
   "dataset_doi": "10.24432/C5NC90",
   "official_metadata_url": "https://archive.ics.uci.edu/dataset/779/harth",
@@ -126,15 +126,15 @@
       1.2815515655446004
     ],
     "configurations_per_arm": 9,
-    "q_initial": "higher empirical90th percentile ready fully-matured firsthalf standardized scores",
-    "selection": "maximum pooled guardedB130 secondhalf net; ties largerfloor/largerbandwidth; legacy smallerSD",
+    "q_initial": "pooled higher90th percentile of ready fully-matured first-half scores across all4participants and3delays",
+    "selection": "maximum pooled guardedB130 complete-return increment from second-half origins; ties largerqfloor then largerbandwidth(legacy smallerprior_sd)",
     "common_grid": true,
     "legacy_prior_sd": [
       0.05,
       0.1,
       0.2
     ],
-    "grid_scope": "Each conditional arm3bandwidths\u00d73floors; each legacy3priorSDs\u00d73floors; all nine trials"
+    "grid_scope": "Each conditional arm:3bandwidths\u00d73floors; each legacy arm:3priorSDs\u00d73floors; equal9configuration budgets"
   },
   "test": {
     "participants": "ranks13through22 only",
@@ -153,9 +153,21 @@
       130.0,
       260.0
     ],
-    "fixed_state_primary": "CJ issued state/q/bandwidth; same-gate proposal-only information interventions"
+    "fixed_state_primary": "r_joint issued state/q/bandwidth; forecast-only contrasts, separate from guarded executed-policy return"
   },
-  "method_scope": "Original CJ joint paired complete action-error law/current-disagreement posterior. All seven matched conditional information controls use identical original mean/std uncertainty paid gate, ready mature archive, current information, source models, quality, physical worlds, fees and shared loss guarantee. Legacy factorized/matrix policies retain original gate/model and equal nine calibration trials.",
+  "internal_and_legacy_arms": [
+    "conditional_joint",
+    "r_joint",
+    "r_product",
+    "r_factorized",
+    "r_gaussian",
+    "r_sandwich",
+    "r_joint_diagP",
+    "r_copula",
+    "legacy_factorized",
+    "legacy_sandwich"
+  ],
+  "method_scope": "CJ-T retains mature paired historical forecasts H and complete target U in one masked joint law and directly conditions U on currentH. Raw age/context/contrast weights are unchanged; no ESS normalization. All five t_arms share those observations, masks and nine bandwidth/floor configurations. OriginalCJ and legacy factorized/sandwich use the same worlds/history and fixed130/B130 execution. Legacy nine trials vary prior_sd/floor. Shared augmented state cache is keyed by bandwidth/prior_sd.",
   "service": {
     "window_rows": 32,
     "horizon_windows": 4,
@@ -193,8 +205,8 @@
     },
     "calibration_max_participant_schedule_chains_if_no_timestamp_gaps": 12,
     "test_participant_schedule_chains_if_no_timestamp_gaps": 50,
-    "test_selected_arm_trajectories_if_no_timestamp_gaps": 450,
-    "test_guard_trajectories_if_no_timestamp_gaps": 1800,
+    "test_selected_arm_trajectories_if_no_timestamp_gaps": 500,
+    "test_guard_trajectories_if_no_timestamp_gaps": 2000,
     "estimate": "ingestion several minutes for6.46million timestamped CSV rows; CPU calibration/test likely minutes to tens of minutes, not measured; depends on method integration and actual run count"
   },
   "reporting": "One new collection and ten withheld participants; delay schedules are repeated simulations, not additional independent physical participants. Report abstention, harms, misses and all comparator outcomes; no outcome-based task/model repair or replacement. HARTH is distinct from the previously inspected HAR70+ collection.",
@@ -202,25 +214,18 @@
   "metadata_only_prefreeze_amendment": "PREFREEZE_METADATA_AMENDMENT.json: reset on full raw acquisition timestamp gap>1second only; do not reset on nominal1Hz retained interval jitter",
   "internal_arms": [
     "conditional_joint",
-    "conditional_marginal",
-    "conditional_factorized",
-    "conditional_gaussian",
-    "conditional_sandwich",
-    "conditional_joint_diagP",
-    "conditional_copula",
+    "t_joint",
+    "t_product",
+    "t_gaussian",
+    "t_factorized",
+    "t_diagonal_completion",
     "legacy_factorized",
     "legacy_sandwich"
   ],
-  "primary_arm": "conditional_joint",
-  "internal_method_path": "../design_final/original.py",
-  "target_prior": "Original uniform bounded target working prior U in[-1,1]; paired error mixture retained.",
-  "information_controls": "Exact coordinate-marginal product; factorized correction/completion; exact full mean/cov Gaussian; full-Gaussian sandwich; same paired law diagP; exact-marginal Gaussian copula full dependence. Their information reduction is separate from gate/work/budget.",
-  "mandatory_reporting": "All development and new physical outcomes retained. Failed CJ-R/CJ-T/CJ-Q upgrades remain development-only and are not promoted. No formula/grid amendment based on new held-out outcomes.",
-  "execution_grid": "same fixed130 reserve, primary permanent loss budget130, diagnostics0/110/130/260 per actual history-run chain; aggregate guarantee uses actual run count",
-  "implementation_amendment": "freeze_v1_before_data preserves first freeze; declared diagP method dispatch restored before raw acquisition. All formulas/grids/roles unchanged.",
-  "utc": "2026-10-04T06:18:18.525590+00:00",
-  "adapter_sha256": "1abaf8360a65021bb0d252793e91c97d7357a02058dfb1c6fc46326f6ae38e5e",
-  "runner_sha256": "bd8f4e5a0081a112c1c1d052cb04e8e889537dcb91bb3f04c921e8f6efaecc7f",
-  "method_sha256": "45fefa1e0f6c548963462bd860ef23d8b5343e1dcd1b644185b2de1aab505589",
-  "post_acquisition_decoder_amendment": "SCHEMA_HEADER_AMENDMENT.json: eight scientific columns retained exactly, accept atmostone inert exporter index. Scientific method/grid/splits/costs unchanged; before any model fitting/calibration or held-out outcome evaluation."
+  "primary_arm": "t_joint",
+  "internal_method_path": "../design_transport/transport.py",
+  "target_prior": "Working jointGaussian mixture: zero-location prior atom mass2; prior VarU1/3, H=U1+E covariance with quality-scaled E. This matches a neutral bounded target second moment, not a uniformGaussian target density. Predictions truncate U to[-1,1].",
+  "information_controls": "Exact source-target pair-product divides the product of each H_s,U density by target marginal power m-1; fullGaussian preserves all mean/covariance; factorized retains coordinate marginals; diagonal working-covariance intervention changes both prior-atom covariance and missing-source completion.",
+  "mandatory_reporting": "All outcomes retained including ties/losses and admitted calibration/excess. CJ-R failed development is retained separately and is not the chosen physical method. No scientific repair after new held-out results.",
+  "execution_grid": "same fixed130 reserve, primary permanent loss budget130, diagnostics0/110/130/260 per actual history-run chain; aggregate guarantee uses actual run count"
 }

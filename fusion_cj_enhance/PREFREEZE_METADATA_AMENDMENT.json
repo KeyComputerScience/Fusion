@@ -1,0 +1,8 @@
+{
+  "stage": "metadata_only_before_algorithm_and_physical_freeze",
+  "raw_data_acquired_or_opened": false,
+  "change": "History/service boundary detection uses full acquisition-row timestamp gaps above1second only; participant boundaries always reset. A retained-row interval above1second alone does not reset, because a nominal1Hz interval may include harmless acquisition-clock jitter.",
+  "reason": "Root independent adapter review identified that the redundant retained-row gap rule could split otherwise continuous physical chains at ordinary sampling jitter.",
+  "scientific_formula_parameter_option_seed_changed": false,
+  "aggregate_budget_scope": "A separate loss budgetB applies to each actual participant/history-run chain. Aggregate lower-return protection is−B times actual run count, not a fixed ten-test-participant multiplier when timestamp gaps create additional runs."
+}

@@ -1,5 +1,5 @@
 {
-  "status": "frozen_before_acquisition",
+  "status": "metadata_only_draft_not_authorized_for_acquisition",
   "dataset": "UCI HARTH779",
   "dataset_doi": "10.24432/C5NC90",
   "official_metadata_url": "https://archive.ics.uci.edu/dataset/779/harth",
@@ -126,15 +126,20 @@
       1.2815515655446004
     ],
     "configurations_per_arm": 9,
-    "q_initial": "higher empirical90th percentile ready fully-matured firsthalf standardized scores",
-    "selection": "maximum pooled guardedB130 secondhalf net; ties largerfloor/largerbandwidth; legacy smallerSD",
+    "q_initial": "Q: lower empirical first-half fully matured ready CDF-rank tenth percentile clipped[1e-4,cap]; old CJ: higher standardized90th percentile",
+    "selection": "maximum guardedB130 secondhalf net; Q ties smallerbeta_cap/largerbandwidth; old ties largerfloor/largerbandwidth; legacy smallerSD",
     "common_grid": true,
     "legacy_prior_sd": [
       0.05,
       0.1,
       0.2
     ],
-    "grid_scope": "Each conditional arm3bandwidths\u00d73floors; each legacy3priorSDs\u00d73floors; all nine trials"
+    "grid_scope": "Each of seven Q arms3bandwidths\u00d73beta caps; oldCJ3bandwidths\u00d73floors; each legacy3SDs\u00d73floors; all nine trials",
+    "beta_cap": [
+      0.1,
+      0.25,
+      0.5
+    ]
   },
   "test": {
     "participants": "ranks13through22 only",
@@ -153,9 +158,9 @@
       130.0,
       260.0
     ],
-    "fixed_state_primary": "CJ issued state/q/bandwidth; same-gate proposal-only information interventions"
+    "fixed_state_primary": "issued primary joint law and beta/bandwidth; quantile proposal-only information interventions"
   },
-  "method_scope": "Original CJ joint paired complete action-error law/current-disagreement posterior. All seven matched conditional information controls use identical original mean/std uncertainty paid gate, ready mature archive, current information, source models, quality, physical worlds, fees and shared loss guarantee. Legacy factorized/matrix policies retain original gate/model and equal nine calibration trials.",
+  "method_scope": "CJ-Q preserves original mature paired complete action-error atoms and current-disagreement conditioning. Direct full-posterior quantile is the paid gate; the identical gate is supplied to exact product, factorized, full Gaussian, sandwich, copula and diagP controls. Old CJ/legacy policies keep original calibrated gates. All share current information, costs, permanent loss budget and physical worlds.",
   "service": {
     "window_rows": 32,
     "horizon_windows": 4,
@@ -193,8 +198,8 @@
     },
     "calibration_max_participant_schedule_chains_if_no_timestamp_gaps": 12,
     "test_participant_schedule_chains_if_no_timestamp_gaps": 50,
-    "test_selected_arm_trajectories_if_no_timestamp_gaps": 450,
-    "test_guard_trajectories_if_no_timestamp_gaps": 1800,
+    "test_selected_arm_trajectories_if_no_timestamp_gaps": 500,
+    "test_guard_trajectories_if_no_timestamp_gaps": 2000,
     "estimate": "ingestion several minutes for6.46million timestamped CSV rows; CPU calibration/test likely minutes to tens of minutes, not measured; depends on method integration and actual run count"
   },
   "reporting": "One new collection and ten withheld participants; delay schedules are repeated simulations, not additional independent physical participants. Report abstention, harms, misses and all comparator outcomes; no outcome-based task/model repair or replacement. HARTH is distinct from the previously inspected HAR70+ collection.",
@@ -202,25 +207,20 @@
   "metadata_only_prefreeze_amendment": "PREFREEZE_METADATA_AMENDMENT.json: reset on full raw acquisition timestamp gap>1second only; do not reset on nominal1Hz retained interval jitter",
   "internal_arms": [
     "conditional_joint",
-    "conditional_marginal",
-    "conditional_factorized",
-    "conditional_gaussian",
-    "conditional_sandwich",
-    "conditional_joint_diagP",
-    "conditional_copula",
+    "q_joint",
+    "q_product",
+    "q_factorized",
+    "q_gaussian",
+    "q_sandwich",
+    "q_copula",
+    "q_joint_diagP",
     "legacy_factorized",
     "legacy_sandwich"
   ],
-  "primary_arm": "conditional_joint",
-  "internal_method_path": "../design_final/original.py",
+  "primary_arm": "q_joint",
+  "internal_method_path": "../design_quantile/quantile.py",
   "target_prior": "Original uniform bounded target working prior U in[-1,1]; paired error mixture retained.",
-  "information_controls": "Exact coordinate-marginal product; factorized correction/completion; exact full mean/cov Gaussian; full-Gaussian sandwich; same paired law diagP; exact-marginal Gaussian copula full dependence. Their information reduction is separate from gate/work/budget.",
-  "mandatory_reporting": "All development and new physical outcomes retained. Failed CJ-R/CJ-T/CJ-Q upgrades remain development-only and are not promoted. No formula/grid amendment based on new held-out outcomes.",
-  "execution_grid": "same fixed130 reserve, primary permanent loss budget130, diagnostics0/110/130/260 per actual history-run chain; aggregate guarantee uses actual run count",
-  "implementation_amendment": "freeze_v1_before_data preserves first freeze; declared diagP method dispatch restored before raw acquisition. All formulas/grids/roles unchanged.",
-  "utc": "2026-10-04T06:18:18.525590+00:00",
-  "adapter_sha256": "1abaf8360a65021bb0d252793e91c97d7357a02058dfb1c6fc46326f6ae38e5e",
-  "runner_sha256": "bd8f4e5a0081a112c1c1d052cb04e8e889537dcb91bb3f04c921e8f6efaecc7f",
-  "method_sha256": "45fefa1e0f6c548963462bd860ef23d8b5343e1dcd1b644185b2de1aab505589",
-  "post_acquisition_decoder_amendment": "SCHEMA_HEADER_AMENDMENT.json: eight scientific columns retained exactly, accept atmostone inert exporter index. Scientific method/grid/splits/costs unchanged; before any model fitting/calibration or held-out outcome evaluation."
+  "information_controls": "Exact coordinate marginals, factorized correction state, exact full mean/cov Gaussian, Gaussian sandwich, exact marginals with Gaussian copula/full dependence, diagP paired law; all apply same posterior quantile gate.",
+  "mandatory_reporting": "All positive/tied/negative outcomes retained, including actual admitted calibration and excess. Failed CJ-R/CJ-T development retained separately. Primary selected before raw acquisition, no fresh-outcome algorithm repair.",
+  "execution_grid": "same fixed130 reserve, primary permanent loss budget130, diagnostics0/110/130/260 per actual history-run chain; aggregate guarantee uses actual run count"
 }

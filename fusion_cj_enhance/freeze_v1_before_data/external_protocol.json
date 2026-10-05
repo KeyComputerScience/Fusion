@@ -1,0 +1,82 @@
+{
+  "utc": "2026-10-04T06:13:43.104929+00:00",
+  "source_sha256": "ae22ca00244b4ab5ce13f66a20994c954d0ed605a23119016bb84bb10b0aa666",
+  "input_sha256": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/run_external.py": "ae22ca00244b4ab5ce13f66a20994c954d0ed605a23119016bb84bb10b0aa666",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/run_physical.py": "bd8f4e5a0081a112c1c1d052cb04e8e889537dcb91bb3f04c921e8f6efaecc7f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/adapter.py": "cc89c6eb2fef4c2eaeaa6869551e07fd36b8a47c18fffdbe9a8bfa6b947bc04b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/protocol.json": "b386fa7c795fba6d6943d817fba050231c745ae9d5ee15ef39ff80419a88dca0",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/external/neural_external.py": "37361a28e6f161684adf332519a7398b50dd3b2d86229101df234ed139d5d07c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/external_author/run_trained_external.py": "27dc4c56a1d32ebabadbf0bcfa20c6132f697fbe8949c9c961bacbf4d6f6838d",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/run_recovery_external.py": "638ba60c15998266d1a0f61baf47515c87a8a61670117d27005d103acf2d947f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/external_fusion_validation_20261002/run_external_pdf.py": "50dbfaa37d89ff97975bc61cdd1ec4b6afc9de63cfea199c21ec02068dc3c517"
+  },
+  "task": "harth779",
+  "rules": [
+    "pdf",
+    "qmf"
+  ],
+  "split": "numeric subject ranks1\u20138fit,9\u201312calibration,13\u201322test; no cross-person or gap leases",
+  "source_groups": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "classes": 12,
+  "architecture": "two32-tanh physical-source encoders,33x12 class heads and33-coefficient confidence heads",
+  "learning_rates": [
+    0.02,
+    0.08,
+    0.2
+  ],
+  "paid_margins": [
+    0.0,
+    4.0,
+    12.0
+  ],
+  "configurations_per_rule": 9,
+  "calibration_seeds": [
+    122001,
+    122002,
+    122003
+  ],
+  "test_seeds": [
+    123001,
+    123002,
+    123003,
+    123004,
+    123005
+  ],
+  "initial_steps": 500,
+  "online_steps": 20,
+  "active_objective_strength": {
+    "pdf": 1.0,
+    "qmf": 0.1
+  },
+  "author_commits": {
+    "pdf": "864867426cde076fb3d0529d4df6b440d6963451",
+    "qmf": "fe6c4c6ef7cb23f0a89594ee413d485f1854268b"
+  },
+  "selection": "sum actual Fixed130/B130 guarded second-half calibration increment over chains; average3 shared delays; ties smaller margin then smaller learning rate",
+  "calibration": "immutable external helper pools all first-half complete matured origins, including unready; higher90th percentile; online callbacks likewise use all matured issued origins, as in original helper. This differs from internal ready-only denominator and is disclosed.",
+  "execution": "same current candidate/reference, data, masks, delays, model-work interruptions, lease fees and restoration; same130 reserve and130 permanent loss budget per chain",
+  "budgets": [
+    0.0,
+    110.0,
+    130.0,
+    260.0
+  ],
+  "disclosure": "active published objectives with tabular encoders; original image/text architectures and benchmarks not reproduced; additional encoder work not charged as identical hardware cost",
+  "reporting": "all selections/trials/actions/ties/losses retained; all internal/external selections must lock before test worlds",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.3.5"
+  }
+}

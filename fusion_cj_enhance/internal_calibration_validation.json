@@ -1,0 +1,84 @@
+{
+  "status": "internal_calibration_complete_external_pending_test_not_started",
+  "internal_selection_hashes_pass": true,
+  "source_hashes_unchanged": true,
+  "grid_configurations": 81,
+  "calibration_participants": 4,
+  "calibration_run_chains": 134,
+  "max_service_error": 7.105427357601002e-15,
+  "primary_selected": {
+    "arm": "conditional_joint",
+    "bandwidth": 1.0,
+    "q_floor": 0.0,
+    "q_initial": 0.0,
+    "beta_cap": null,
+    "net": 8.666666666666666,
+    "prior_sd": 0.1
+  },
+  "all_selected_configuration_summary": {
+    "conditional_joint": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 8.666666666666666,
+      "prior_sd": 0.1
+    },
+    "conditional_marginal": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 8.666666666666666,
+      "prior_sd": 0.1
+    },
+    "conditional_factorized": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 7.0,
+      "prior_sd": 0.1
+    },
+    "conditional_gaussian": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 8.666666666666666,
+      "prior_sd": 0.1
+    },
+    "conditional_sandwich": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 8.666666666666666,
+      "prior_sd": 0.1
+    },
+    "conditional_joint_diagP": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 8.666666666666666,
+      "prior_sd": 0.1
+    },
+    "conditional_copula": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 8.666666666666666,
+      "prior_sd": 0.1
+    },
+    "legacy_factorized": {
+      "bandwidth": 1.0,
+      "q_floor": 0.64,
+      "q_initial": 0.64,
+      "net": 8.666666666666666,
+      "prior_sd": 0.2
+    },
+    "legacy_sandwich": {
+      "bandwidth": 1.0,
+      "q_floor": 0.0,
+      "q_initial": 0.0,
+      "net": 35.0,
+      "prior_sd": 0.2
+    }
+  },
+  "aggregate_test_bound_scope": "195 actual heldout history-run chains per delay schedule, each independently B-bounded"
+}

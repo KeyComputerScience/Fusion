@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-04T06:54:03.817418+00:00",
+  "passed": true,
+  "stage": "successful_frozen_ingest_before_model_fitting",
+  "n": 129236,
+  "raw_rows": 6461328,
+  "physical_array_shape": [
+    129236,
+    6
+  ],
+  "sources": [
+    "lower_back_AX3",
+    "right_front_thigh_AX3"
+  ],
+  "roles": {
+    "fit": {
+      "participants": [
+        "S006",
+        "S008",
+        "S009",
+        "S010",
+        "S012",
+        "S013",
+        "S014",
+        "S015"
+      ],
+      "participant_count": 8,
+      "retained_rows": 57407,
+      "history_runs": 253
+    },
+    "calibration": {
+      "participants": [
+        "S016",
+        "S017",
+        "S018",
+        "S019"
+      ],
+      "participant_count": 4,
+      "retained_rows": 26847,
+      "history_runs": 134
+    },
+    "test": {
+      "participants": [
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029"
+      ],
+      "participant_count": 10,
+      "retained_rows": 44982,
+      "history_runs": 195
+    }
+  },
+  "declared_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    13,
+    14,
+    130,
+    140
+  ],
+  "raw_timestamp_gaps_above_one_second": 569,
+  "equal_adjacent_timestamps": 0,
+  "history_runs": 582,
+  "ignored_inert_export_columns": {
+    "S015": [
+      "index"
+    ],
+    "S021": [
+      "index"
+    ],
+    "S023": [
+      ""
+    ]
+  },
+  "retention_exact_raw_row_stride50": true,
+  "simultaneous_source_rows_ticks_and_zero_age_validated": true,
+  "cache_and_adapter_protocol_source_hashes_verified": true,
+  "scientific_sources": 28,
+  "cache_sha256": "4217c2a7c0c7dbcc185e296bd7a0986d0920843349f089db966eedc8d8e7252f",
+  "algorithm_freeze_sha256": "744b21bb3e3a03ef65a9f581667241bb8f170efb2527a898031663425988abe7",
+  "no_model_or_classifier_outcome_evaluated_by_this_validation": true
+}

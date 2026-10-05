@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/run_physical.py", line 349, in <module>
+    {"prepare-protocol":prepare_protocol,"freeze":freeze,"ingest":ingest,"calibrate":calibrate,"locktest":locktest,"test":test}[args.phase]()
+  File "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/run_physical.py", line 151, in ingest
+    meta = ad.process(ROOT/"raw/harth779.zip", ROOT/"data", ROOT/"acquisition_authorization.json")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/adapter.py", line 143, in process
+    kept, audits[subject] = parse_recording(io.TextIOWrapper(handle, encoding="utf-8-sig"), subject)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/adapter.py", line 79, in parse_recording
+    raise ValueError(f"Official HARTH schema differs for {subject}; metadata-only amendment required")
+ValueError: Official HARTH schema differs for S015; metadata-only amendment required
