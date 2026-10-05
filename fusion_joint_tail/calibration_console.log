@@ -1,0 +1,4 @@
+CAL 0.25
+CAL 0.5
+CAL 1.0
+SELECT {'joint': {'arm': 'joint', 'bandwidth': 1.0, 'cap': 0.1, 'alpha_initial': 0.0001, 'fit_count': 0, 'net': 0.0, 'beneficial': 0, 'harmful': 0}, 'marginal': {'arm': 'marginal', 'bandwidth': 1.0, 'cap': 0.1, 'alpha_initial': 0.0001, 'fit_count': 0, 'net': 0.0, 'beneficial': 0, 'harmful': 0}, 'factorized': {'arm': 'factorized', 'bandwidth': 1.0, 'cap': 0.1, 'alpha_initial': 0.0001, 'fit_count': 0, 'net': 0.0, 'beneficial': 0, 'harmful': 0}, 'gaussian': {'arm': 'gaussian', 'bandwidth': 1.0, 'cap': 0.1, 'alpha_initial': 0.0001, 'fit_count': 0, 'net': 0.0, 'beneficial': 0, 'harmful': 0}, 'sandwich': {'arm': 'sandwich', 'bandwidth': 1.0, 'cap': 0.1, 'alpha_initial': 0.0001, 'fit_count': 0, 'net': 0.0, 'beneficial': 0, 'harmful': 0}}
