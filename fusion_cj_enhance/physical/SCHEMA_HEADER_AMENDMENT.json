@@ -1,0 +1,390 @@
+{
+  "utc": "2026-10-04T06:47:40.888271+00:00",
+  "status": "parser_patched_and_synthetic_checks_passed_awaiting_root_hash_rebinding",
+  "authorization": "Explicit parent/root coordination: accept exact eight scientific fields in original order plus at most one inert index or empty-name export column; reject every other or repeated field",
+  "physical_values_labels_retention_split_features_unchanged": true,
+  "algorithm_selectors_unchanged": true,
+  "official_headers": [
+    {
+      "member": "harth/S006.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S008.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S009.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S010.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S012.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S013.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S014.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S015.csv",
+      "header_fields": [
+        "timestamp",
+        "index",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": false
+    },
+    {
+      "member": "harth/S016.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S017.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S018.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S019.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S020.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S021.csv",
+      "header_fields": [
+        "timestamp",
+        "index",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": false
+    },
+    {
+      "member": "harth/S022.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S023.csv",
+      "header_fields": [
+        "",
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": false
+    },
+    {
+      "member": "harth/S024.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S025.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S026.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S027.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S028.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    },
+    {
+      "member": "harth/S029.csv",
+      "header_fields": [
+        "timestamp",
+        "back_x",
+        "back_y",
+        "back_z",
+        "thigh_x",
+        "thigh_y",
+        "thigh_z",
+        "label"
+      ],
+      "matches_frozen_schema": true
+    }
+  ],
+  "expected_scientific_header": [
+    "timestamp",
+    "back_x",
+    "back_y",
+    "back_z",
+    "thigh_x",
+    "thigh_y",
+    "thigh_z",
+    "label"
+  ],
+  "fit_traces_parsed_before_failure": [
+    "S006",
+    "S008",
+    "S009",
+    "S010",
+    "S012",
+    "S013",
+    "S014"
+  ],
+  "fit_trace_count_parsed_before_failure": 7,
+  "model_fitting_started": false,
+  "calibration_started": false,
+  "heldout_outcomes_evaluated": false,
+  "cache_written": false,
+  "adapter_sha256_before": "cc89c6eb2fef4c2eaeaa6869551e07fd36b8a47c18fffdbe9a8bfa6b947bc04b",
+  "preserved_snapshot": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/freeze_v2_before_header_amendment",
+  "preserved_source_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/adapter.py": {
+      "snapshot": "adapter.py",
+      "sha256": "cc89c6eb2fef4c2eaeaa6869551e07fd36b8a47c18fffdbe9a8bfa6b947bc04b"
+    },
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/algorithm_freeze.json": {
+      "snapshot": "algorithm_freeze.json",
+      "sha256": "d2cf405b4f2d0323be199cb050f56d066bcb010a748f09da7e4a19fe6af91a6d"
+    },
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/protocol.json": {
+      "snapshot": "protocol.json",
+      "sha256": "757f9673bedb923f493a6a1c6877f40a18fb130b7270ca109715baf903b0a367"
+    },
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/acquisition_authorization.json": {
+      "snapshot": "acquisition_authorization.json",
+      "sha256": "571c2bf33c616748122bd7a12d71ef6b693e6223f104ff4cf8bdf4dcceb83fc4"
+    },
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/external/protocol.json": {
+      "snapshot": "external_protocol.json",
+      "sha256": "7c0d90770a404d0ce2d2b535257cf912cd241b066949b9d2545ecc4a06e5a1c0"
+    },
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/acquisition_record.json": {
+      "snapshot": "acquisition_record.json",
+      "sha256": "ce7af8906145e260244ac9f4a92dcf68dcae630e861e7dad5626b8e27364a782"
+    },
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/ingest_console.log": {
+      "snapshot": "ingest_console.log",
+      "sha256": "485549514089126ae8cd201fe2665e4f1fcb41bcd338b420f88ee3a4868fbd92"
+    },
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/ingest_schema_failure.json": {
+      "snapshot": "ingest_schema_failure.json",
+      "sha256": "297c105572957b51060eedf23eeb260cc9f3dcbded8bab6256e1fa094614db87"
+    }
+  },
+  "next_required_stage": "Root must rebind operative source/protocol/auth/external/acquisition hashes before any ingest restart",
+  "adapter_sha256_after": "1abaf8360a65021bb0d252793e91c97d7357a02058dfb1c6fc46326f6ae38e5e",
+  "synthetic_validation_report": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/theory/header_amendment_report.json",
+  "header_rule": "exact eight scientific fields in original order; at most one inert index or empty-name export column; all other/repeated fields and inconsistent row widths rejected",
+  "metadata_audit_fields": [
+    "header_fields",
+    "header_field_count",
+    "scientific_header_fields",
+    "ignored_export_columns"
+  ]
+}
