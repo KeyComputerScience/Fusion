@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "source_hashes_unchanged": true,
+  "calibration_evaluations": 27,
+  "test_trajectories": 5,
+  "independent_fork_checks": 210,
+  "max_independent_target_error": 1.0658141036401503e-14,
+  "max_independent_service_error": 7.105427357601002e-15,
+  "budget_trajectories": 80,
+  "max_guard_accounting_error": 0.0,
+  "same_observed_history_masks_weights_and_models": true,
+  "max_predictive_diagonal_error": 0.0,
+  "max_dynamic_issued_q_difference": 0.045000000000000005,
+  "min_factorized_P_diagonal": 0.011022607278022225,
+  "min_factorized_R_diagonal": 0.009404031293812846,
+  "max_kkt": 1.8374627416828382e-08,
+  "state_relation": {
+    "states": 210,
+    "nonzero_mean_differences": 82,
+    "nonzero_precision_differences": 82,
+    "max_mean_difference": 0.07863291227188263,
+    "max_precision_difference": 0.014863967215490973
+  },
+  "file_sha256": {
+    "verify_factorized_results.py": "c2cb25f6b8b1cb0b47c08c3b30746bbd707c47fb8e739d7bc5f34d13bf1f4360",
+    "factorized_control.py": "4cf38ffb2b691dab8fb51d79113e83d26681428088e597db00931e935ff1d884",
+    "calibration.log": "370b05064f3af8bfc435e85738554ddcf79e86577ee384748f9c5892a934d756",
+    "test.log": "270aa3e954fc7f5911dbb93c7b87b41d51bbc83d85486a8eeb19f4b1d1c96a52",
+    "calibration_trials.json.gz": "c00b1ab0e74a5fc660875789d0bda5bf558bf3baf143cb604c08e3fbde026dc5",
+    "budget_trials.json.gz": "f135717c985368255e9452113a48b475823b2a5db82ef696718a82131aab747c",
+    "results.json": "a6fad7ffe55a5cf4c3fe941034d4ec479b3937e478f20528c5c35ad57c2ab163",
+    "README.md": "f4e2ada10ee4e820140043023d6cbe2b830fce08877cf67ed41e2a10a9149652",
+    "RESULTS.md": "d8b62757aaaa873a17361047d883e05b4efc1da54d256d715d466c72ea8ec2b9",
+    "selection_freeze.json": "b42b625875b7326b3589e7cbf5254cc08b4e6828d19c38705acfca958785d516",
+    "fixed_state_all_rows.json.gz": "8500630bfb399898458a6888aa784c8d5f91c1a46985566314c3af95dad6c88a",
+    "selection.json": "cd204476b932a429277cf120041adf4aa0a1d1467b5f00bdaea39c0af36bf24f",
+    "run_factorized.py": "f8cfe5e0118545e7e736797de17f971e1b011bed5fc15f5bb803152740d73f92",
+    "protocol.json": "aadb9b5dc1402669b32866b6988f71321b84aa4ed00dfcb5c85a5da52a44b73a"
+  }
+}

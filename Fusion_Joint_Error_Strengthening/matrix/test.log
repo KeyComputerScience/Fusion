@@ -1,0 +1,6 @@
+TEST_MATRIX 88001 {'gls_exact': (3320.8, 0, 2), 'block_sandwich': (3348.8, 0, 4), 'precision_joint': (3320.8, 0, 2), 'reference': (3311.8, 0, 0)}
+TEST_MATRIX 88002 {'gls_exact': (3335.8, 0, 3), 'block_sandwich': (3335.8, 0, 3), 'precision_joint': (3335.8, 0, 3), 'reference': (3259.8, 0, 0)}
+TEST_MATRIX 88003 {'gls_exact': (3332.8, 0, 2), 'block_sandwich': (3344.8, 0, 4), 'precision_joint': (3332.8, 0, 2), 'reference': (3285.8, 0, 0)}
+TEST_MATRIX 88004 {'gls_exact': (3256.8, 0, 1), 'block_sandwich': (3288.8, 0, 3), 'precision_joint': (3256.8, 0, 1), 'reference': (3247.8, 0, 0)}
+TEST_MATRIX 88005 {'gls_exact': (3273.8, 0, 1), 'block_sandwich': (3291.8, 1, 2), 'precision_joint': (3273.8, 0, 1), 'reference': (3263.8, 0, 0)}
+EXACT_EQUIVALENCE {'decisions': 210, 'action_mismatches': 0, 'max_weight_error': 4.440892098500626e-16, 'max_gain_error': 4.440892098500626e-15, 'max_q_error': 0.0, 'max_scale_error': 3.552713678800501e-15, 'max_mean_error': 1.3877787807814457e-17, 'max_risk_matrix_error': 0.0}

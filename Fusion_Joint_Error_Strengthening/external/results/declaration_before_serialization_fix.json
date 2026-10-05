@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-03T12:09:43.134653+00:00",
+  "runner_sha256": "738c6514f0ed15601b43d800b806e78dd516f43c783d42b035c19531350aadc4",
+  "tasks": [
+    "rss348",
+    "arem366",
+    "gashome362"
+  ],
+  "rss_status": "known physical outcomes, benchmark extension",
+  "new_tasks": "not yet evaluated with these pipelines",
+  "rules": [
+    "PDF nonlinear full-objective",
+    "QMF nonlinear full-objective"
+  ],
+  "hidden": 32,
+  "activation": "tanh",
+  "lr_grid": [
+    0.02,
+    0.08,
+    0.2
+  ],
+  "margin_grid": [
+    0,
+    4,
+    12
+  ],
+  "initial_steps": 500,
+  "online_steps": 20,
+  "author_losses": {
+    "pdf": 1.0,
+    "qmf": 0.1
+  },
+  "grid_trials": 27,
+  "all_results_retained": true,
+  "primary_reserve": "Fixed130",
+  "primary_budget": 130,
+  "nonbinding_budget": 260,
+  "architecture_scope": "nonlinear tabular adaptation; not original BERT/ResNet networks",
+  "prefix_extra_training_outside_scored_interval": true,
+  "ranking_history_buffer_reset": true,
+  "source_commits": {
+    "pdf": "864867426cde076fb3d0529d4df6b440d6963451",
+    "qmf": "fe6c4c6ef7cb23f0a89594ee413d485f1854268b"
+  }
+}

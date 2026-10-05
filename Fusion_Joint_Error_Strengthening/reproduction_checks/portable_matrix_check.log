@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "source_integrity": true,
+  "min_risk_eigenvalue": 9.99999999999097e-07,
+  "max_kkt": 1.9538132972618527e-08,
+  "max_guard_accounting_error": 0.0,
+  "exact_equivalence": {
+    "decisions": 210,
+    "action_mismatches": 0,
+    "max_weight_error": 4.440892098500626e-16,
+    "max_gain_error": 4.440892098500626e-15,
+    "max_q_error": 0.0,
+    "max_scale_error": 3.552713678800501e-15,
+    "max_mean_error": 1.3877787807814457e-17,
+    "max_risk_matrix_error": 0.0
+  }
+}
+{
+  "passed": true,
+  "source_hashes_unchanged": true,
+  "calibration_evaluations": 27,
+  "test_trajectories": 5,
+  "independent_fork_checks": 210,
+  "max_independent_target_error": 1.0658141036401503e-14,
+  "max_independent_service_error": 7.105427357601002e-15,
+  "budget_trajectories": 80,
+  "max_guard_accounting_error": 0.0,
+  "same_observed_history_masks_weights_and_models": true,
+  "max_predictive_diagonal_error": 0.0,
+  "max_dynamic_issued_q_difference": 0.045000000000000005,
+  "min_factorized_P_diagonal": 0.011022607278022225,
+  "min_factorized_R_diagonal": 0.009404031293812846,
+  "max_kkt": 1.8374627416828382e-08,
+  "state_relation": {
+    "states": 210,
+    "nonzero_mean_differences": 82,
+    "nonzero_precision_differences": 82,
+    "max_mean_difference": 0.07863291227188263,
+    "max_precision_difference": 0.014863967215490973
+  }
+}

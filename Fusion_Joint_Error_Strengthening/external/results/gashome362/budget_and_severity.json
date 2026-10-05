@@ -1,0 +1,3925 @@
+{
+  "task": "gashome362",
+  "summary": {
+    "pdf": {
+      "unguarded_mean_net": 5837.24,
+      "unguarded_mean_increment": 52.8,
+      "unguarded_harmful": 0,
+      "unguarded_beneficial": 11,
+      "severity": {
+        "issued": {
+          "covered": 247,
+          "total": 290,
+          "total_scaled_excess": 191.61462644711122,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 9,
+          "total": 23,
+          "total_scaled_excess": 111.15600112897508,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 11,
+          "total_scaled_excess": 95.20385267985382,
+          "max_scaled_excess": 31.397579777839848
+        }
+      },
+      "operating_points": [
+        {
+          "reserve": "fixed130",
+          "budget": 0.0,
+          "mean_net": 5784.4400000000005,
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "negative_loss": 0,
+          "refused": 11,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 0.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 0,
+            "shared_beneficial": 0,
+            "difference": 0.0
+          },
+          "admitted_severity": {
+            "covered": 0,
+            "total": 0,
+            "total_scaled_excess": 0,
+            "max_scaled_excess": 0.0
+          }
+        },
+        {
+          "reserve": "fixed130",
+          "budget": 110.0,
+          "mean_net": 5784.4400000000005,
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "negative_loss": 0,
+          "refused": 11,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 0.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 0,
+            "shared_beneficial": 0,
+            "difference": 0.0
+          },
+          "admitted_severity": {
+            "covered": 0,
+            "total": 0,
+            "total_scaled_excess": 0,
+            "max_scaled_excess": 0.0
+          }
+        },
+        {
+          "reserve": "fixed130",
+          "budget": 130.0,
+          "mean_net": 5837.24,
+          "mean_increment": 52.8,
+          "admissions": 11,
+          "harmful": 0,
+          "beneficial": 11,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 38.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 6,
+            "shared_beneficial": 5,
+            "difference": -38.0
+          },
+          "admitted_severity": {
+            "covered": 1,
+            "total": 11,
+            "total_scaled_excess": 95.20385267985382,
+            "max_scaled_excess": 31.397579777839848
+          }
+        },
+        {
+          "reserve": "fixed130",
+          "budget": 260.0,
+          "mean_net": 5837.24,
+          "mean_increment": 52.8,
+          "admissions": 11,
+          "harmful": 0,
+          "beneficial": 11,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 38.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 6,
+            "shared_beneficial": 5,
+            "difference": -38.0
+          },
+          "admitted_severity": {
+            "covered": 1,
+            "total": 11,
+            "total_scaled_excess": 95.20385267985382,
+            "max_scaled_excess": 31.397579777839848
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 0.0,
+          "mean_net": 5784.4400000000005,
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "negative_loss": 0,
+          "refused": 11,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 0.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 0,
+            "shared_beneficial": 0,
+            "difference": 0.0
+          },
+          "admitted_severity": {
+            "covered": 0,
+            "total": 0,
+            "total_scaled_excess": 0,
+            "max_scaled_excess": 0.0
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 110.0,
+          "mean_net": 5787.64,
+          "mean_increment": 3.2,
+          "admissions": 4,
+          "harmful": 0,
+          "beneficial": 4,
+          "negative_loss": 0,
+          "refused": 7,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 16.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 4,
+            "shared_beneficial": 0,
+            "difference": -16.0
+          },
+          "admitted_severity": {
+            "covered": 1,
+            "total": 4,
+            "total_scaled_excess": 5.7844526548286295,
+            "max_scaled_excess": 3.1873030429215796
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 130.0,
+          "mean_net": 5837.24,
+          "mean_increment": 52.8,
+          "admissions": 11,
+          "harmful": 0,
+          "beneficial": 11,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 38.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 6,
+            "shared_beneficial": 5,
+            "difference": -38.0
+          },
+          "admitted_severity": {
+            "covered": 1,
+            "total": 11,
+            "total_scaled_excess": 95.20385267985382,
+            "max_scaled_excess": 31.397579777839848
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 260.0,
+          "mean_net": 5837.24,
+          "mean_increment": 52.8,
+          "admissions": 11,
+          "harmful": 0,
+          "beneficial": 11,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 38.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 6,
+            "shared_beneficial": 5,
+            "difference": -38.0
+          },
+          "admitted_severity": {
+            "covered": 1,
+            "total": 11,
+            "total_scaled_excess": 95.20385267985382,
+            "max_scaled_excess": 31.397579777839848
+          }
+        }
+      ]
+    },
+    "qmf": {
+      "unguarded_mean_net": 5836.84,
+      "unguarded_mean_increment": 52.4,
+      "unguarded_harmful": 0,
+      "unguarded_beneficial": 10,
+      "severity": {
+        "issued": {
+          "covered": 250,
+          "total": 290,
+          "total_scaled_excess": 168.63611538268907,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 12,
+          "total": 23,
+          "total_scaled_excess": 91.00490351638896,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 2,
+          "total": 10,
+          "total_scaled_excess": 78.1461186504884,
+          "max_scaled_excess": 15.59630294956966
+        }
+      },
+      "operating_points": [
+        {
+          "reserve": "fixed130",
+          "budget": 0.0,
+          "mean_net": 5784.4400000000005,
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "negative_loss": 0,
+          "refused": 10,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 0.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 0,
+            "shared_beneficial": 0,
+            "difference": 0.0
+          },
+          "admitted_severity": {
+            "covered": 0,
+            "total": 0,
+            "total_scaled_excess": 0,
+            "max_scaled_excess": 0.0
+          }
+        },
+        {
+          "reserve": "fixed130",
+          "budget": 110.0,
+          "mean_net": 5784.4400000000005,
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "negative_loss": 0,
+          "refused": 10,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 0.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 0,
+            "shared_beneficial": 0,
+            "difference": 0.0
+          },
+          "admitted_severity": {
+            "covered": 0,
+            "total": 0,
+            "total_scaled_excess": 0,
+            "max_scaled_excess": 0.0
+          }
+        },
+        {
+          "reserve": "fixed130",
+          "budget": 130.0,
+          "mean_net": 5836.84,
+          "mean_increment": 52.4,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 10,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 36.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 5,
+            "shared_beneficial": 5,
+            "difference": -36.0
+          },
+          "admitted_severity": {
+            "covered": 2,
+            "total": 10,
+            "total_scaled_excess": 78.1461186504884,
+            "max_scaled_excess": 15.59630294956966
+          }
+        },
+        {
+          "reserve": "fixed130",
+          "budget": 260.0,
+          "mean_net": 5836.84,
+          "mean_increment": 52.4,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 10,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 36.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 5,
+            "shared_beneficial": 5,
+            "difference": -36.0
+          },
+          "admitted_severity": {
+            "covered": 2,
+            "total": 10,
+            "total_scaled_excess": 78.1461186504884,
+            "max_scaled_excess": 15.59630294956966
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 0.0,
+          "mean_net": 5784.4400000000005,
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "negative_loss": 0,
+          "refused": 10,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 0.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 0,
+            "shared_beneficial": 0,
+            "difference": 0.0
+          },
+          "admitted_severity": {
+            "covered": 0,
+            "total": 0,
+            "total_scaled_excess": 0,
+            "max_scaled_excess": 0.0
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 110.0,
+          "mean_net": 5787.24,
+          "mean_increment": 2.8,
+          "admissions": 3,
+          "harmful": 0,
+          "beneficial": 3,
+          "negative_loss": 0,
+          "refused": 7,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 14.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 3,
+            "shared_beneficial": 0,
+            "difference": -14.0
+          },
+          "admitted_severity": {
+            "covered": 1,
+            "total": 3,
+            "total_scaled_excess": 2.1282730107650067,
+            "max_scaled_excess": 1.1255574543733615
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 130.0,
+          "mean_net": 5836.84,
+          "mean_increment": 52.4,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 10,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 36.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 5,
+            "shared_beneficial": 5,
+            "difference": -36.0
+          },
+          "admitted_severity": {
+            "covered": 2,
+            "total": 10,
+            "total_scaled_excess": 78.1461186504884,
+            "max_scaled_excess": 15.59630294956966
+          }
+        },
+        {
+          "reserve": "decision",
+          "budget": 260.0,
+          "mean_net": 5836.84,
+          "mean_increment": 52.4,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 10,
+          "negative_loss": 0,
+          "refused": 0,
+          "full_minus_control": {
+            "additional_gain": 0.0,
+            "avoided_loss": 0.0,
+            "missed_gain": 36.0,
+            "incurred_loss": 0.0,
+            "changed_actions": 5,
+            "shared_beneficial": 5,
+            "difference": -36.0
+          },
+          "admitted_severity": {
+            "covered": 2,
+            "total": 10,
+            "total_scaled_excess": 78.1461186504884,
+            "max_scaled_excess": 15.59630294956966
+          }
+        }
+      ]
+    }
+  },
+  "trials": [
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5777.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5777.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5777.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5783.04,
+      "increment": 6.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 0,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 3.1873030429215796,
+          "max_scaled_excess": 3.1873030429215796
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 38.18889913490801,
+          "max_scaled_excess": 15.250680325499337
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.542248089051284,
+          "max_scaled_excess": 12.354945046129705
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5777.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5777.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5777.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5783.04,
+      "increment": 6.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 0,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 1.0027155563916454,
+          "max_scaled_excess": 1.0027155563916454
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        }
+      }
+    },
+    {
+      "seed": 92001,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5828.04,
+      "increment": 51.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 6.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -6.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 36.599538824209915,
+          "max_scaled_excess": 14.70854398561654
+        },
+        "informative": {
+          "covered": 2,
+          "total": 4,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 15.258721275841433,
+          "max_scaled_excess": 14.256005719449787
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 16.347770821914732,
+          "max_scaled_excess": 13.674153205804668
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 16.347770821914732,
+          "max_scaled_excess": 13.674153205804668
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 16.347770821914732,
+          "max_scaled_excess": 13.674153205804668
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.5396936151389,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 23.30663460973021,
+          "max_scaled_excess": 13.674153205804668
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 16.347770821914732,
+          "max_scaled_excess": 13.674153205804668
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 2,
+          "total_scaled_excess": 15.59630294956966,
+          "max_scaled_excess": 15.59630294956966
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 2,
+          "total_scaled_excess": 15.59630294956966,
+          "max_scaled_excess": 15.59630294956966
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5783.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 2,
+          "total_scaled_excess": 15.59630294956966,
+          "max_scaled_excess": 15.59630294956966
+        }
+      }
+    },
+    {
+      "seed": 92002,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5843.04,
+      "increment": 60.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 9.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -9.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 29.6214133482627,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 21.47115569205679,
+          "max_scaled_excess": 15.59630294956966
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 2,
+          "total_scaled_excess": 15.59630294956966,
+          "max_scaled_excess": 15.59630294956966
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5716.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5716.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 10.452641397712576,
+          "max_scaled_excess": 8.226311270557384
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 10.452641397712576,
+          "max_scaled_excess": 8.226311270557384
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5716.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5717.04,
+      "increment": 1.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 0,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 2.2263301271551916,
+          "max_scaled_excess": 2.2263301271551916
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 10.452641397712576,
+          "max_scaled_excess": 8.226311270557384
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 35.65359069657613,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "informative": {
+          "covered": 1,
+          "total": 5,
+          "total_scaled_excess": 15.498166480444276,
+          "max_scaled_excess": 8.226311270557384
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 10.452641397712576,
+          "max_scaled_excess": 8.226311270557384
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5716.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5716.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 11.153866841155649,
+          "max_scaled_excess": 10.028309386782288
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 11.153866841155649,
+          "max_scaled_excess": 10.028309386782288
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5716.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5717.04,
+      "increment": 1.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 0,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 1.1255574543733615,
+          "max_scaled_excess": 1.1255574543733615
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 11.153866841155649,
+          "max_scaled_excess": 10.028309386782288
+        }
+      }
+    },
+    {
+      "seed": 92003,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5754.04,
+      "increment": 38.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 1.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -1.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 35.406004779451536,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "informative": {
+          "covered": 2,
+          "total": 5,
+          "total_scaled_excess": 14.978162554834318,
+          "max_scaled_excess": 10.028309386782288
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 11.153866841155649,
+          "max_scaled_excess": 10.028309386782288
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5849.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 3,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5849.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 3,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 40.00708706696389,
+          "max_scaled_excess": 31.397579777839848
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 40.00708706696389,
+          "max_scaled_excess": 31.397579777839848
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5849.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 3,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5856.04,
+      "increment": 7.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 7.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 0,
+        "difference": -7.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 1,
+          "total_scaled_excess": 0.0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 40.00708706696389,
+          "max_scaled_excess": 31.397579777839848
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 53.98094118929965,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 43.95484664553797,
+          "max_scaled_excess": 31.397579777839848
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 40.00708706696389,
+          "max_scaled_excess": 31.397579777839848
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5849.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 3,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5849.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 3,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 21.262514969695744,
+          "max_scaled_excess": 10.690200687757168
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 21.262514969695744,
+          "max_scaled_excess": 10.690200687757168
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5849.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 3,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5856.04,
+      "increment": 7.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 7.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 0,
+        "difference": -7.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 1,
+          "total_scaled_excess": 0.0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 21.262514969695744,
+          "max_scaled_excess": 10.690200687757168
+        }
+      }
+    },
+    {
+      "seed": 92004,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5910.04,
+      "increment": 61.0,
+      "admissions": 3,
+      "harmful": 0,
+      "beneficial": 3,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 20.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 2,
+        "shared_beneficial": 1,
+        "difference": -20.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.288797061797695,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "informative": {
+          "covered": 1,
+          "total": 4,
+          "total_scaled_excess": 24.422151379430503,
+          "max_scaled_excess": 10.690200687757168
+        },
+        "admitted": {
+          "covered": 1,
+          "total": 3,
+          "total_scaled_excess": 21.262514969695744,
+          "max_scaled_excess": 10.690200687757168
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5797.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5797.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5851.04,
+      "increment": 54.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 2.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -2.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5851.04,
+      "increment": 54.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 2.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -2.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5797.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 2,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5799.04,
+      "increment": 2.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 2.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 0,
+        "difference": -2.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 0.3708194847518582,
+          "max_scaled_excess": 0.3708194847518582
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5851.04,
+      "increment": 54.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 2.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -2.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "pdf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5851.04,
+      "increment": 54.0,
+      "admissions": 2,
+      "harmful": 0,
+      "beneficial": 2,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 2.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 1,
+        "shared_beneficial": 1,
+        "difference": -2.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 49,
+          "total": 58,
+          "total_scaled_excess": 30.25150181118851,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "informative": {
+          "covered": 3,
+          "total": 5,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "total_scaled_excess": 12.854105304211341,
+          "max_scaled_excess": 12.483285819459482
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 0.0,
+      "net": 5797.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 110.0,
+      "net": 5797.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 130.0,
+      "net": 5849.04,
+      "increment": 52.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 1,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "fixed130",
+      "budget": 260.0,
+      "net": 5849.04,
+      "increment": 52.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 1,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 0.0,
+      "net": 5797.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 110.0,
+      "net": 5797.04,
+      "increment": 0.0,
+      "admissions": 0,
+      "harmful": 0,
+      "beneficial": 0,
+      "negative_loss": 0,
+      "refused": 1,
+      "minimum_prefix_increment": 0.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 0,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "total_scaled_excess": 0,
+          "max_scaled_excess": 0.0
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 130.0,
+      "net": 5849.04,
+      "increment": 52.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 1,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        }
+      }
+    },
+    {
+      "seed": 92005,
+      "rule": "qmf",
+      "reserve": "decision",
+      "budget": 260.0,
+      "net": 5849.04,
+      "increment": 52.0,
+      "admissions": 1,
+      "harmful": 0,
+      "beneficial": 1,
+      "negative_loss": 0,
+      "refused": 0,
+      "minimum_prefix_increment": -2.0,
+      "full_minus_control": {
+        "additional_gain": 0.0,
+        "avoided_loss": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "changed_actions": 0,
+        "shared_beneficial": 1,
+        "difference": 0.0
+      },
+      "severity": {
+        "issued": {
+          "covered": 50,
+          "total": 58,
+          "total_scaled_excess": 33.720361368967225,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "informative": {
+          "covered": 4,
+          "total": 5,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 1,
+          "total_scaled_excess": 14.874712614225919,
+          "max_scaled_excess": 14.874712614225919
+        }
+      }
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "guarded_trajectories": 80,
+    "max_accounting_error": 0.0,
+    "source_results_unchanged": true
+  }
+}

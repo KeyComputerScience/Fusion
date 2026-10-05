@@ -1,0 +1,6 @@
+TEST_FACTORIZED 88001 3342.8 3 0
+TEST_FACTORIZED 88002 3335.8 4 0
+TEST_FACTORIZED 88003 3332.8 2 0
+TEST_FACTORIZED 88004 3288.8 3 0
+TEST_FACTORIZED 88005 3292.8 2 0
+SUMMARY_FACTORIZED {'mean_net': 3318.6, 'harmful': 0, 'beneficial': 13, 'admissions': 14, 'coverage': {'issued': [199, 210], 'origin': [44, 50], 'proposed': [8, 14], 'admitted': [8, 14]}, 'increments': [31.0, 76.0, 47.0, 41.0, 29.0], 'mean_increment': 44.8, 'severity': {'issued': {'n': 210, 'violations': 11, 'coverage': [199, 210], 'total_scaled_excess': 14.79219077114221, 'max_scaled_excess': 3.4773914579999463}, 'informative': {'n': 50, 'violations': 6, 'coverage': [44, 50], 'total_scaled_excess': 9.79219077114221, 'max_scaled_excess': 3.4773914579999463}, 'proposed': {'n': 14, 'violations': 6, 'coverage': [8, 14], 'total_scaled_excess': 9.79219077114221, 'max_scaled_excess': 3.4773914579999463}, 'admitted': {'n': 14, 'violations': 6, 'coverage': [8, 14], 'total_scaled_excess': 9.79219077114221, 'max_scaled_excess': 3.4773914579999463}}} {'values': [-22.0, 0.0, 0.0, -32.0, -19.0], 'mean': -14.6, 'conditional_t4_ci': [-32.19486517227429, 2.9948651722742934]} STATE_RELATION {'states': 210, 'nonzero_mean_differences': 82, 'nonzero_precision_differences': 82, 'max_mean_difference': 0.07863291227188263, 'max_precision_difference': 0.014863967215490973}

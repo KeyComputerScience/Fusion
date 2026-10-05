@@ -1,0 +1,44 @@
+{
+  "studies": {
+    "arem366": {
+      "new_task": true,
+      "calibration_seeds": [
+        91001,
+        91002,
+        91003
+      ],
+      "test_seeds": [
+        92001,
+        92002,
+        92003,
+        92004,
+        92005
+      ]
+    }
+  },
+  "calibration_seeds": [
+    91001,
+    91002,
+    91003
+  ],
+  "test_seeds": [
+    92001,
+    92002,
+    92003,
+    92004,
+    92005
+  ],
+  "extension": {
+    "prior_variance": 0.01,
+    "lease_archive": 48,
+    "norm_kappa": 1.0,
+    "norm_floor": 0.01,
+    "gate_floor": 0.0001
+  },
+  "utc": "2026-10-03T12:55:18.786716+00:00",
+  "external_data_task": "new physical task with whole-recording disjoint holdout; already frozen neural rule, calibration andprimarybudget",
+  "main_algorithm_freeze_sha256": "811f98531ad3e135ceafbc64152b41ffbf380878cb45a1f7106eb54364157ff0",
+  "provenance_amendment_sha256": "cbd9f960740a93acbc9b792aba755be697da99b097c89653fd37098b151e1f76",
+  "provenance_amendment_utc": "2026-10-03T12:58:20.044798+00:00",
+  "duplicate_quarantine": "Six exact SHA raw-recording duplicates removed from test; fit/cal unchanged; no test outcome evaluated."
+}

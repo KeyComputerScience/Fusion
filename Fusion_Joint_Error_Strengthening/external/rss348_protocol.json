@@ -1,0 +1,41 @@
+{
+  "studies": {
+    "rss348": {
+      "new_task": true,
+      "calibration_seeds": [
+        87001,
+        87002,
+        87003
+      ],
+      "test_seeds": [
+        88001,
+        88002,
+        88003,
+        88004,
+        88005
+      ]
+    }
+  },
+  "calibration_seeds": [
+    87001,
+    87002,
+    87003
+  ],
+  "test_seeds": [
+    88001,
+    88002,
+    88003,
+    88004,
+    88005
+  ],
+  "extension": {
+    "prior_variance": 0.01,
+    "lease_archive": 48,
+    "norm_kappa": 1.0,
+    "norm_floor": 0.01,
+    "gate_floor": 0.0001
+  },
+  "utc": "2026-10-03T09:46:13.051096+00:00",
+  "external_data_task": "new physical independent providedgroup/trajectory test, authors provided scaling disclosed",
+  "main_algorithm_freeze_sha256": "18bee074608e505175885f1be3d771b947ac2de1c9a729e6eb2e00730446537a"
+}

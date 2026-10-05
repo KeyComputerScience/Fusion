@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "exact_decoded_json": {
+    "rss348_selection": true,
+    "rss348_results": true,
+    "rss348_checks": true,
+    "arem366_selection": true,
+    "arem366_results": true,
+    "arem366_checks": true,
+    "gashome362_selection": true,
+    "gashome362_results": true,
+    "gashome362_checks": true
+  },
+  "architecture_scope": "active-objective nonlinear tabular adaptation, not original image/text architectures",
+  "pipelines": 6,
+  "calibration_configuration_scenario_evaluations": 162,
+  "test_policy_trajectories": 30,
+  "dependencies_unchanged": true,
+  "filesystem_bindings_only": true
+}

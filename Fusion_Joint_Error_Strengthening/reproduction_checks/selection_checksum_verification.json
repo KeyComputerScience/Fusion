@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "all_complete_selection_files_byte_identical": true,
+  "selection_files": {
+    "fresh_arem366": {
+      "original_sha256": "097af6e59dd5779fd04a05446869d013904c5d5d257170f5e8e970ef6b21627d",
+      "reproduced_sha256": "097af6e59dd5779fd04a05446869d013904c5d5d257170f5e8e970ef6b21627d",
+      "byte_identical": true
+    },
+    "fresh_gashome362": {
+      "original_sha256": "ae1828089ad652d608a81696016de21abaf53312be5a636f59fd84b4a107befb",
+      "reproduced_sha256": "ae1828089ad652d608a81696016de21abaf53312be5a636f59fd84b4a107befb",
+      "byte_identical": true
+    },
+    "neural_rss348": {
+      "original_sha256": "f5ac336182ff1cd680f3fb12aa2acb2e12a82ffeec486d6d2a2f58ec1e55bd8d",
+      "reproduced_sha256": "f5ac336182ff1cd680f3fb12aa2acb2e12a82ffeec486d6d2a2f58ec1e55bd8d",
+      "byte_identical": true
+    },
+    "neural_arem366": {
+      "original_sha256": "a2f16d09555993d0c11b2bff82a9863facde1b6903648aaee7fbc979bab4bfc0",
+      "reproduced_sha256": "a2f16d09555993d0c11b2bff82a9863facde1b6903648aaee7fbc979bab4bfc0",
+      "byte_identical": true
+    },
+    "neural_gashome362": {
+      "original_sha256": "d666f93fedbab57700054d1004cc144f76b240cad24daaca8681fc8d3cb6a5b9",
+      "reproduced_sha256": "d666f93fedbab57700054d1004cc144f76b240cad24daaca8681fc8d3cb6a5b9",
+      "byte_identical": true
+    }
+  },
+  "maximum_numeric_difference": 0.0,
+  "scope": "All fresh8arm2task calibrationgrids,test policyrows,guardledgers and neural6pipeline3task models,selections,testrows decodedJSON exactlyequal"
+}

@@ -1,0 +1,1710 @@
+{
+  "utc": "2026-10-03T12:15:49.015849+00:00",
+  "passed": true,
+  "protocol_sha256": "50fbfa048d65491fee3f62f5fde3efabb5aca76a71c320f35cfe391722e7a966",
+  "source_integrity": true,
+  "exact_equivalence": {
+    "decisions": 210,
+    "action_mismatches": 0,
+    "max_weight_error": 4.440892098500626e-16,
+    "max_gain_error": 4.440892098500626e-15,
+    "max_q_error": 0.0,
+    "max_scale_error": 3.552713678800501e-15,
+    "max_mean_error": 1.3877787807814457e-17,
+    "max_risk_matrix_error": 0.0
+  },
+  "calibration_evaluations_per_arm": 27,
+  "dynamic_policy_trajectories": 10,
+  "test_matrix_states": 420,
+  "min_risk_eigenvalue": 9.99999999999097e-07,
+  "max_kkt": 1.9538132972618527e-08,
+  "budget_trajectories": 120,
+  "max_guard_accounting_error": 0.0,
+  "dynamic_summary": {
+    "precision_joint": {
+      "mean_net": 3304.0,
+      "harmful": 0,
+      "beneficial": 9,
+      "admissions": 10,
+      "coverage": {
+        "issued": [
+          201,
+          210
+        ],
+        "origin": [
+          46,
+          50
+        ],
+        "proposed": [
+          6,
+          10
+        ],
+        "admitted": [
+          6,
+          10
+        ]
+      },
+      "severity": {
+        "issued": {
+          "n": 210,
+          "violations": 9,
+          "coverage": [
+            201,
+            210
+          ],
+          "total_scaled_excess": 8.718898986899765,
+          "max_scaled_excess": 1.8593817279918792
+        },
+        "informative": {
+          "n": 50,
+          "violations": 4,
+          "coverage": [
+            46,
+            50
+          ],
+          "total_scaled_excess": 3.718898986899765,
+          "max_scaled_excess": 1.8593817279918792
+        },
+        "proposed": {
+          "n": 10,
+          "violations": 4,
+          "coverage": [
+            6,
+            10
+          ],
+          "total_scaled_excess": 3.718898986899765,
+          "max_scaled_excess": 1.8593817279918792
+        },
+        "admitted": {
+          "n": 10,
+          "violations": 4,
+          "coverage": [
+            6,
+            10
+          ],
+          "total_scaled_excess": 3.718898986899765,
+          "max_scaled_excess": 1.8593817279918792
+        }
+      },
+      "full_minus_control": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "conditional_t4_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "increments": [
+        9.0,
+        76.0,
+        47.0,
+        9.0,
+        10.0
+      ],
+      "mean_increment": 30.2
+    },
+    "gls_exact": {
+      "mean_net": 3304.0,
+      "harmful": 0,
+      "beneficial": 9,
+      "admissions": 10,
+      "coverage": {
+        "issued": [
+          201,
+          210
+        ],
+        "origin": [
+          46,
+          50
+        ],
+        "proposed": [
+          6,
+          10
+        ],
+        "admitted": [
+          6,
+          10
+        ]
+      },
+      "severity": {
+        "issued": {
+          "n": 210,
+          "violations": 9,
+          "coverage": [
+            201,
+            210
+          ],
+          "total_scaled_excess": 8.718898986899763,
+          "max_scaled_excess": 1.859381727991881
+        },
+        "informative": {
+          "n": 50,
+          "violations": 4,
+          "coverage": [
+            46,
+            50
+          ],
+          "total_scaled_excess": 3.718898986899764,
+          "max_scaled_excess": 1.859381727991881
+        },
+        "proposed": {
+          "n": 10,
+          "violations": 4,
+          "coverage": [
+            6,
+            10
+          ],
+          "total_scaled_excess": 3.718898986899764,
+          "max_scaled_excess": 1.859381727991881
+        },
+        "admitted": {
+          "n": 10,
+          "violations": 4,
+          "coverage": [
+            6,
+            10
+          ],
+          "total_scaled_excess": 3.718898986899764,
+          "max_scaled_excess": 1.859381727991881
+        }
+      },
+      "full_minus_control": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "conditional_t4_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "increments": [
+        9.0,
+        76.0,
+        47.0,
+        9.0,
+        10.0
+      ],
+      "mean_increment": 30.2
+    },
+    "block_sandwich": {
+      "mean_net": 3322.0,
+      "harmful": 1,
+      "beneficial": 16,
+      "admissions": 19,
+      "coverage": {
+        "issued": [
+          192,
+          210
+        ],
+        "origin": [
+          37,
+          50
+        ],
+        "proposed": [
+          10,
+          19
+        ],
+        "admitted": [
+          10,
+          19
+        ]
+      },
+      "severity": {
+        "issued": {
+          "n": 210,
+          "violations": 18,
+          "coverage": [
+            192,
+            210
+          ],
+          "total_scaled_excess": 61.39320250408761,
+          "max_scaled_excess": 9.696494373807717
+        },
+        "informative": {
+          "n": 50,
+          "violations": 13,
+          "coverage": [
+            37,
+            50
+          ],
+          "total_scaled_excess": 56.39320250408761,
+          "max_scaled_excess": 9.696494373807717
+        },
+        "proposed": {
+          "n": 19,
+          "violations": 9,
+          "coverage": [
+            10,
+            19
+          ],
+          "total_scaled_excess": 47.937026899991665,
+          "max_scaled_excess": 9.696494373807717
+        },
+        "admitted": {
+          "n": 19,
+          "violations": 9,
+          "coverage": [
+            10,
+            19
+          ],
+          "total_scaled_excess": 47.937026899991665,
+          "max_scaled_excess": 9.696494373807717
+        }
+      },
+      "full_minus_control": {
+        "values": [
+          -28.0,
+          0.0,
+          -12.0,
+          -32.0,
+          -18.0
+        ],
+        "mean": -18.0,
+        "conditional_t4_ci": [
+          -33.90105768215981,
+          -2.0989423178401907
+        ]
+      },
+      "increments": [
+        37.0,
+        76.0,
+        59.0,
+        41.0,
+        28.0
+      ],
+      "mean_increment": 48.2
+    }
+  },
+  "budget_summary": {
+    "precision_joint": {
+      "fixed130": {
+        "0": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 10,
+          "total_negative_loss": 0
+        },
+        "110": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 10,
+          "total_negative_loss": 0
+        },
+        "130": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        },
+        "260": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        }
+      },
+      "decision": {
+        "0": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 10,
+          "total_negative_loss": 0
+        },
+        "110": {
+          "increments": [
+            9.0,
+            25.0,
+            9.0,
+            0.0,
+            10.0
+          ],
+          "mean_increment": 10.6,
+          "admissions": 6,
+          "harmful": 0,
+          "beneficial": 5,
+          "budget_refusals": 4,
+          "total_negative_loss": 0.0
+        },
+        "130": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        },
+        "260": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        }
+      }
+    },
+    "gls_exact": {
+      "fixed130": {
+        "0": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 10,
+          "total_negative_loss": 0
+        },
+        "110": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 10,
+          "total_negative_loss": 0
+        },
+        "130": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        },
+        "260": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        }
+      },
+      "decision": {
+        "0": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 10,
+          "total_negative_loss": 0
+        },
+        "110": {
+          "increments": [
+            9.0,
+            25.0,
+            9.0,
+            0.0,
+            10.0
+          ],
+          "mean_increment": 10.6,
+          "admissions": 6,
+          "harmful": 0,
+          "beneficial": 5,
+          "budget_refusals": 4,
+          "total_negative_loss": 0.0
+        },
+        "130": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        },
+        "260": {
+          "increments": [
+            9.0,
+            76.0,
+            47.0,
+            9.0,
+            10.0
+          ],
+          "mean_increment": 30.2,
+          "admissions": 10,
+          "harmful": 0,
+          "beneficial": 9,
+          "budget_refusals": 0,
+          "total_negative_loss": 0.0
+        }
+      }
+    },
+    "block_sandwich": {
+      "fixed130": {
+        "0": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 19,
+          "total_negative_loss": 0
+        },
+        "110": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 19,
+          "total_negative_loss": 0
+        },
+        "130": {
+          "increments": [
+            37.0,
+            76.0,
+            59.0,
+            41.0,
+            9.0
+          ],
+          "mean_increment": 44.4,
+          "admissions": 18,
+          "harmful": 1,
+          "beneficial": 15,
+          "budget_refusals": 1,
+          "total_negative_loss": 1.0
+        },
+        "260": {
+          "increments": [
+            37.0,
+            76.0,
+            59.0,
+            41.0,
+            28.0
+          ],
+          "mean_increment": 48.2,
+          "admissions": 19,
+          "harmful": 1,
+          "beneficial": 16,
+          "budget_refusals": 0,
+          "total_negative_loss": 1.0
+        }
+      },
+      "decision": {
+        "0": {
+          "increments": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_increment": 0.0,
+          "admissions": 0,
+          "harmful": 0,
+          "beneficial": 0,
+          "budget_refusals": 19,
+          "total_negative_loss": 0
+        },
+        "110": {
+          "increments": [
+            37.0,
+            25.0,
+            21.0,
+            32.0,
+            28.0
+          ],
+          "mean_increment": 28.6,
+          "admissions": 15,
+          "harmful": 1,
+          "beneficial": 12,
+          "budget_refusals": 4,
+          "total_negative_loss": 1.0
+        },
+        "130": {
+          "increments": [
+            37.0,
+            76.0,
+            59.0,
+            41.0,
+            28.0
+          ],
+          "mean_increment": 48.2,
+          "admissions": 19,
+          "harmful": 1,
+          "beneficial": 16,
+          "budget_refusals": 0,
+          "total_negative_loss": 1.0
+        },
+        "260": {
+          "increments": [
+            37.0,
+            76.0,
+            59.0,
+            41.0,
+            28.0
+          ],
+          "mean_increment": 48.2,
+          "admissions": 19,
+          "harmful": 1,
+          "beneficial": 16,
+          "budget_refusals": 0,
+          "total_negative_loss": 1.0
+        }
+      }
+    }
+  },
+  "fixed_state_summary": {
+    "rss348": {
+      "gls_exact": {
+        "issued_states": 210,
+        "changed_actions": 0,
+        "full_minus_control_return": 0,
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "missed_gain": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "zero_return": {
+            "count": 0,
+            "absolute_return": 0
+          }
+        },
+        "severity": {
+          "issued": {
+            "n": 210,
+            "violations": 9,
+            "coverage": [
+              201,
+              210
+            ],
+            "total_scaled_excess": 8.718898986899763,
+            "max_scaled_excess": 1.859381727991881
+          },
+          "informative": {
+            "n": 50,
+            "violations": 4,
+            "coverage": [
+              46,
+              50
+            ],
+            "total_scaled_excess": 3.718898986899764,
+            "max_scaled_excess": 1.859381727991881
+          },
+          "proposed": {
+            "n": 10,
+            "violations": 4,
+            "coverage": [
+              6,
+              10
+            ],
+            "total_scaled_excess": 3.718898986899764,
+            "max_scaled_excess": 1.859381727991881
+          },
+          "admitted": {
+            "n": 10,
+            "violations": 4,
+            "coverage": [
+              6,
+              10
+            ],
+            "total_scaled_excess": 3.718898986899764,
+            "max_scaled_excess": 1.859381727991881
+          }
+        }
+      },
+      "block_sandwich": {
+        "issued_states": 210,
+        "changed_actions": 9,
+        "full_minus_control_return": -90.0,
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "missed_gain": {
+            "count": 7,
+            "absolute_return": 91.0
+          },
+          "avoided_loss": {
+            "count": 1,
+            "absolute_return": 1.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "zero_return": {
+            "count": 1,
+            "absolute_return": 0.0
+          }
+        },
+        "severity": {
+          "issued": {
+            "n": 210,
+            "violations": 20,
+            "coverage": [
+              190,
+              210
+            ],
+            "total_scaled_excess": 62.017073210067934,
+            "max_scaled_excess": 9.696494373807717
+          },
+          "informative": {
+            "n": 50,
+            "violations": 14,
+            "coverage": [
+              36,
+              50
+            ],
+            "total_scaled_excess": 56.988324773734014,
+            "max_scaled_excess": 9.696494373807717
+          },
+          "proposed": {
+            "n": 19,
+            "violations": 9,
+            "coverage": [
+              10,
+              19
+            ],
+            "total_scaled_excess": 48.29546977073009,
+            "max_scaled_excess": 9.696494373807717
+          },
+          "admitted": {
+            "n": 19,
+            "violations": 9,
+            "coverage": [
+              10,
+              19
+            ],
+            "total_scaled_excess": 48.29546977073009,
+            "max_scaled_excess": 9.696494373807717
+          }
+        }
+      }
+    },
+    "gas224": {
+      "gls_exact": {
+        "issued_states": 400,
+        "changed_actions": 0,
+        "full_minus_control_return": 0,
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "missed_gain": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "zero_return": {
+            "count": 0,
+            "absolute_return": 0
+          }
+        },
+        "severity": {
+          "issued": {
+            "n": 400,
+            "violations": 16,
+            "coverage": [
+              384,
+              400
+            ],
+            "total_scaled_excess": 267.7102113841514,
+            "max_scaled_excess": 56.79493286944025
+          },
+          "informative": {
+            "n": 117,
+            "violations": 15,
+            "coverage": [
+              102,
+              117
+            ],
+            "total_scaled_excess": 261.9205391248911,
+            "max_scaled_excess": 56.79493286944025
+          },
+          "proposed": {
+            "n": 15,
+            "violations": 3,
+            "coverage": [
+              12,
+              15
+            ],
+            "total_scaled_excess": 132.41056586738125,
+            "max_scaled_excess": 56.79493286944025
+          },
+          "admitted": {
+            "n": 15,
+            "violations": 3,
+            "coverage": [
+              12,
+              15
+            ],
+            "total_scaled_excess": 132.41056586738125,
+            "max_scaled_excess": 56.79493286944025
+          }
+        }
+      },
+      "block_sandwich": {
+        "issued_states": 400,
+        "changed_actions": 11,
+        "full_minus_control_return": -222.0,
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "missed_gain": {
+            "count": 9,
+            "absolute_return": 245.0
+          },
+          "avoided_loss": {
+            "count": 2,
+            "absolute_return": 23.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0
+          },
+          "zero_return": {
+            "count": 0,
+            "absolute_return": 0
+          }
+        },
+        "severity": {
+          "issued": {
+            "n": 400,
+            "violations": 27,
+            "coverage": [
+              373,
+              400
+            ],
+            "total_scaled_excess": 383.99798575474216,
+            "max_scaled_excess": 47.510158928897425
+          },
+          "informative": {
+            "n": 117,
+            "violations": 25,
+            "coverage": [
+              92,
+              117
+            ],
+            "total_scaled_excess": 377.16695752754134,
+            "max_scaled_excess": 47.510158928897425
+          },
+          "proposed": {
+            "n": 26,
+            "violations": 9,
+            "coverage": [
+              17,
+              26
+            ],
+            "total_scaled_excess": 173.6680720816226,
+            "max_scaled_excess": 47.510158928897425
+          },
+          "admitted": {
+            "n": 26,
+            "violations": 9,
+            "coverage": [
+              17,
+              26
+            ],
+            "total_scaled_excess": 173.6680720816226,
+            "max_scaled_excess": 47.510158928897425
+          }
+        }
+      }
+    }
+  },
+  "dynamic_action_decomposition": {
+    "unguarded": {
+      "categories": {
+        "retained_gain": {
+          "count": 0,
+          "absolute_return": 0.0
+        },
+        "missed_gain": {
+          "count": 7,
+          "absolute_return": 91.0
+        },
+        "avoided_loss": {
+          "count": 1,
+          "absolute_return": 1.0
+        },
+        "incurred_loss": {
+          "count": 0,
+          "absolute_return": 0.0
+        },
+        "zero_return": {
+          "count": 1,
+          "absolute_return": 0.0
+        }
+      },
+      "changed_actions": 9,
+      "total_full_minus_control_return": -90.0,
+      "mean_full_minus_control_return": -18.0,
+      "cases": [
+        {
+          "seed": 88001,
+          "k": 84,
+          "category": "missed_gain",
+          "complete_return": 6.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -6.0
+        },
+        {
+          "seed": 88001,
+          "k": 164,
+          "category": "missed_gain",
+          "complete_return": 22.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -22.0
+        },
+        {
+          "seed": 88003,
+          "k": 20,
+          "category": "missed_gain",
+          "complete_return": 6.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -6.0
+        },
+        {
+          "seed": 88003,
+          "k": 84,
+          "category": "missed_gain",
+          "complete_return": 6.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -6.0
+        },
+        {
+          "seed": 88004,
+          "k": 28,
+          "category": "missed_gain",
+          "complete_return": 4.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -4.0
+        },
+        {
+          "seed": 88004,
+          "k": 124,
+          "category": "zero_return",
+          "complete_return": 0.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -0.0
+        },
+        {
+          "seed": 88004,
+          "k": 164,
+          "category": "missed_gain",
+          "complete_return": 28.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -28.0
+        },
+        {
+          "seed": 88005,
+          "k": 124,
+          "category": "avoided_loss",
+          "complete_return": -1.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": 1.0
+        },
+        {
+          "seed": 88005,
+          "k": 164,
+          "category": "missed_gain",
+          "complete_return": 19.0,
+          "full_action": false,
+          "control_action": true,
+          "full_minus_control_return": -19.0
+        }
+      ]
+    },
+    "fixed130": {
+      "0": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 0,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 0,
+        "total_full_minus_control_return": 0.0,
+        "mean_full_minus_control_return": 0.0,
+        "cases": []
+      },
+      "110": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 0,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 0,
+        "total_full_minus_control_return": 0.0,
+        "mean_full_minus_control_return": 0.0,
+        "cases": []
+      },
+      "130": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 6,
+            "absolute_return": 72.0
+          },
+          "avoided_loss": {
+            "count": 1,
+            "absolute_return": 1.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 1,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 8,
+        "total_full_minus_control_return": -71.0,
+        "mean_full_minus_control_return": -14.2,
+        "cases": [
+          {
+            "seed": 88001,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88001,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 22.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -22.0
+          },
+          {
+            "seed": 88003,
+            "k": 20,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88003,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88004,
+            "k": 28,
+            "category": "missed_gain",
+            "complete_return": 4.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -4.0
+          },
+          {
+            "seed": 88004,
+            "k": 124,
+            "category": "zero_return",
+            "complete_return": 0.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -0.0
+          },
+          {
+            "seed": 88004,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 28.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -28.0
+          },
+          {
+            "seed": 88005,
+            "k": 124,
+            "category": "avoided_loss",
+            "complete_return": -1.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": 1.0
+          }
+        ]
+      },
+      "260": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 7,
+            "absolute_return": 91.0
+          },
+          "avoided_loss": {
+            "count": 1,
+            "absolute_return": 1.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 1,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 9,
+        "total_full_minus_control_return": -90.0,
+        "mean_full_minus_control_return": -18.0,
+        "cases": [
+          {
+            "seed": 88001,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88001,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 22.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -22.0
+          },
+          {
+            "seed": 88003,
+            "k": 20,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88003,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88004,
+            "k": 28,
+            "category": "missed_gain",
+            "complete_return": 4.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -4.0
+          },
+          {
+            "seed": 88004,
+            "k": 124,
+            "category": "zero_return",
+            "complete_return": 0.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -0.0
+          },
+          {
+            "seed": 88004,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 28.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -28.0
+          },
+          {
+            "seed": 88005,
+            "k": 124,
+            "category": "avoided_loss",
+            "complete_return": -1.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": 1.0
+          },
+          {
+            "seed": 88005,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 19.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -19.0
+          }
+        ]
+      }
+    },
+    "decision": {
+      "0": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 0,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 0,
+        "total_full_minus_control_return": 0.0,
+        "mean_full_minus_control_return": 0.0,
+        "cases": []
+      },
+      "110": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 7,
+            "absolute_return": 91.0
+          },
+          "avoided_loss": {
+            "count": 1,
+            "absolute_return": 1.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 1,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 9,
+        "total_full_minus_control_return": -90.0,
+        "mean_full_minus_control_return": -18.0,
+        "cases": [
+          {
+            "seed": 88001,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88001,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 22.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -22.0
+          },
+          {
+            "seed": 88003,
+            "k": 20,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88003,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88004,
+            "k": 28,
+            "category": "missed_gain",
+            "complete_return": 4.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -4.0
+          },
+          {
+            "seed": 88004,
+            "k": 124,
+            "category": "zero_return",
+            "complete_return": 0.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -0.0
+          },
+          {
+            "seed": 88004,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 28.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -28.0
+          },
+          {
+            "seed": 88005,
+            "k": 124,
+            "category": "avoided_loss",
+            "complete_return": -1.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": 1.0
+          },
+          {
+            "seed": 88005,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 19.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -19.0
+          }
+        ]
+      },
+      "130": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 7,
+            "absolute_return": 91.0
+          },
+          "avoided_loss": {
+            "count": 1,
+            "absolute_return": 1.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 1,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 9,
+        "total_full_minus_control_return": -90.0,
+        "mean_full_minus_control_return": -18.0,
+        "cases": [
+          {
+            "seed": 88001,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88001,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 22.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -22.0
+          },
+          {
+            "seed": 88003,
+            "k": 20,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88003,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88004,
+            "k": 28,
+            "category": "missed_gain",
+            "complete_return": 4.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -4.0
+          },
+          {
+            "seed": 88004,
+            "k": 124,
+            "category": "zero_return",
+            "complete_return": 0.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -0.0
+          },
+          {
+            "seed": 88004,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 28.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -28.0
+          },
+          {
+            "seed": 88005,
+            "k": 124,
+            "category": "avoided_loss",
+            "complete_return": -1.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": 1.0
+          },
+          {
+            "seed": 88005,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 19.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -19.0
+          }
+        ]
+      },
+      "260": {
+        "categories": {
+          "retained_gain": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "missed_gain": {
+            "count": 7,
+            "absolute_return": 91.0
+          },
+          "avoided_loss": {
+            "count": 1,
+            "absolute_return": 1.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "absolute_return": 0.0
+          },
+          "zero_return": {
+            "count": 1,
+            "absolute_return": 0.0
+          }
+        },
+        "changed_actions": 9,
+        "total_full_minus_control_return": -90.0,
+        "mean_full_minus_control_return": -18.0,
+        "cases": [
+          {
+            "seed": 88001,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88001,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 22.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -22.0
+          },
+          {
+            "seed": 88003,
+            "k": 20,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88003,
+            "k": 84,
+            "category": "missed_gain",
+            "complete_return": 6.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -6.0
+          },
+          {
+            "seed": 88004,
+            "k": 28,
+            "category": "missed_gain",
+            "complete_return": 4.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -4.0
+          },
+          {
+            "seed": 88004,
+            "k": 124,
+            "category": "zero_return",
+            "complete_return": 0.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -0.0
+          },
+          {
+            "seed": 88004,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 28.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -28.0
+          },
+          {
+            "seed": 88005,
+            "k": 124,
+            "category": "avoided_loss",
+            "complete_return": -1.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": 1.0
+          },
+          {
+            "seed": 88005,
+            "k": 164,
+            "category": "missed_gain",
+            "complete_return": 19.0,
+            "full_action": false,
+            "control_action": true,
+            "full_minus_control_return": -19.0
+          }
+        ]
+      }
+    }
+  },
+  "manifest": {
+    "gas224_fixed_state_all_rows.json.gz": "8cd4e74d77b8d282894eb8da191ea9f141a6e5404abb920f9e04cfbd1399344b",
+    "calibration.log": "c69d731b011cee0430f52c0e23d8ba931ea666c82150b672b73f761e0a1a5566",
+    "rss348_calibration_trials.json.gz": "3de960de7208b24a62af24d7420c7ca710a3a8b833381c50ef2a507c8880baf9",
+    "rss348_selection.json": "65e699035fdc48f54564153ba3858c81b00b9bc071fa6a2d72aa84ff8646d779",
+    "fixed_state_interventions.json": "5168f0ac26c11471394e6c23d30f5c76ab607d46bb80bc716aff48a58ac60d3d",
+    "test.log": "8be4c0acb1e871b48cbf2f9ca97d6c9d3089150b99791ab18b3cc80a376e1bb4",
+    "rss348_budget_results.json.gz": "bd6ba9bc8bfc0f5236608f133bdf7d7120af5dc20ecc30533665da3da69dc071",
+    "verify_matrix_results.py": "dc0551c17f7bb639a3dcdb3cdeab260043b6ba25a439695d49983d2c3bedf26c",
+    "README.md": "485869c374bfa19b7aa9e34c551326f720a537880ad2a56bd3b347c96dd6b993",
+    "rss348_results.json": "850b4635d636b9da85e8869120e9673afb67b29e1e596ea0a20a58f424ac14ee",
+    "selection_freeze.json": "1312189f971eacc54b7ed7f1e60bfef9a1d034cfddd9e268581ce8700aa1e615",
+    "interventions.log": "7b6807ee91f5ec69a0f3dde9bfb6ff9ea6f75e116e34591d2b5f946239ce6eef",
+    "protocol.json": "50fbfa048d65491fee3f62f5fde3efabb5aca76a71c320f35cfe391722e7a966",
+    "run_matrix_controls.py": "df24d90dd8706c4516dbb312c660cf0e31f09aae9f80aee5e2371ed7a9067f1b",
+    "verification.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rss348_fixed_state_all_rows.json.gz": "c706fc7ae98a3653a8dbe8b4c44f6ae80359b033a86597110fd497c09ab3d60b"
+  }
+}

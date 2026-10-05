@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "test_duplicate_quarantine_before_test": true,
+  "original_fit_and_calibration_preserved": true,
+  "identical_fields": {
+    "selected": true,
+    "grid": true,
+    "models": true,
+    "training": true
+  },
+  "changed_fields": [
+    "split",
+    "data_hashes"
+  ],
+  "interpretation": "Only held-out duplicate test recordings removed. Recomputed calibration trials and initial models are numerically identical; no additional hyperparameters or test-based selection."
+}
