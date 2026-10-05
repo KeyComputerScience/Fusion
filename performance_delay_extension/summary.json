@@ -1,0 +1,2582 @@
+{
+  "occupancy357": {
+    "controllers": {
+      "joint": {
+        "mean_net": 7965.3,
+        "mean_deployments": 0.0,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9926799610894943,
+        "mean_coverage": 0.940625,
+        "mean_informative_coverage": 1.0,
+        "solver_failures": 0,
+        "max_kkt": 1.275248795451489e-10
+      },
+      "bayes_gate": {
+        "mean_net": 7965.3,
+        "mean_deployments": 0.0,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9926799610894943,
+        "mean_coverage": 0.940625,
+        "mean_informative_coverage": 1.0,
+        "solver_failures": 0,
+        "max_kkt": 1.275248795451489e-10
+      },
+      "bayes_both": {
+        "mean_net": 7965.3,
+        "mean_deployments": 0.0,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9926799610894943,
+        "mean_coverage": 0.940625,
+        "mean_informative_coverage": 1.0,
+        "solver_failures": 0,
+        "max_kkt": 9.996108385479374e-10
+      },
+      "frequentist_gate": {
+        "mean_net": 7965.3,
+        "mean_deployments": 0.0,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9926799610894943,
+        "mean_coverage": 0.940625,
+        "mean_informative_coverage": 1.0,
+        "solver_failures": 0,
+        "max_kkt": 1.275248795451489e-10
+      }
+    },
+    "paired": {
+      "bayes_gate_minus_joint": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": null,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      },
+      "bayes_gate_minus_frequentist_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": null,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      },
+      "bayes_both_minus_joint": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": null,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      },
+      "bayes_both_minus_bayes_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": null,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      },
+      "bayes_both_minus_frequentist_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": null,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      }
+    }
+  },
+  "occupancy864": {
+    "controllers": {
+      "joint": {
+        "mean_net": 3731.16,
+        "mean_deployments": 1.0,
+        "mean_harmful": 1.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9449654491609081,
+        "mean_coverage": 0.967741935483871,
+        "mean_informative_coverage": 0.0,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      },
+      "bayes_gate": {
+        "mean_net": 3767.3599999999997,
+        "mean_deployments": 0.0,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9526653504442251,
+        "mean_coverage": 0.967741935483871,
+        "mean_informative_coverage": 0.0,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      },
+      "bayes_both": {
+        "mean_net": 3767.3599999999997,
+        "mean_deployments": 0.0,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9526653504442251,
+        "mean_coverage": 0.967741935483871,
+        "mean_informative_coverage": 0.0,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      },
+      "frequentist_gate": {
+        "mean_net": 3767.3599999999997,
+        "mean_deployments": 0.0,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.9526653504442251,
+        "mean_coverage": 0.967741935483871,
+        "mean_informative_coverage": 0.0,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      }
+    },
+    "paired": {
+      "bayes_gate_minus_joint": {
+        "net": {
+          "mean": 36.2,
+          "ci95_t4": [
+            34.83982523878039,
+            37.56017476121961
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            35.0,
+            36.0,
+            38.0,
+            36.0,
+            36.0
+          ]
+        },
+        "deployments": {
+          "mean": -1.0,
+          "ci95_t4": [
+            -1.0,
+            -1.0
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        "harmful": {
+          "mean": -1.0,
+          "ci95_t4": [
+            -1.0,
+            -1.0
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 1.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 35.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72007,
+            "net": 36.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72008,
+            "net": 38.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72009,
+            "net": 36.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72010,
+            "net": 36.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          }
+        ]
+      },
+      "bayes_gate_minus_frequentist_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      },
+      "bayes_both_minus_joint": {
+        "net": {
+          "mean": 36.2,
+          "ci95_t4": [
+            34.83982523878039,
+            37.56017476121961
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            35.0,
+            36.0,
+            38.0,
+            36.0,
+            36.0
+          ]
+        },
+        "deployments": {
+          "mean": -1.0,
+          "ci95_t4": [
+            -1.0,
+            -1.0
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        "harmful": {
+          "mean": -1.0,
+          "ci95_t4": [
+            -1.0,
+            -1.0
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 1.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 35.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72007,
+            "net": 36.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72008,
+            "net": 38.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72009,
+            "net": 36.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72010,
+            "net": 36.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          }
+        ]
+      },
+      "bayes_both_minus_bayes_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      },
+      "bayes_both_minus_frequentist_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      }
+    }
+  },
+  "mhealth319": {
+    "controllers": {
+      "joint": {
+        "mean_net": 1463.84,
+        "mean_deployments": 5.4,
+        "mean_harmful": 5.2,
+        "mean_beneficial": 0.2,
+        "mean_accuracy": 0.5588791848617176,
+        "mean_coverage": 0.6857142857142857,
+        "mean_informative_coverage": 0.24333333333333335,
+        "solver_failures": 0,
+        "max_kkt": 9.767990860609643e-10
+      },
+      "bayes_gate": {
+        "mean_net": 1478.84,
+        "mean_deployments": 3.2,
+        "mean_harmful": 3.0,
+        "mean_beneficial": 0.2,
+        "mean_accuracy": 0.5603347889374091,
+        "mean_coverage": 0.6857142857142857,
+        "mean_informative_coverage": 0.24333333333333335,
+        "solver_failures": 0,
+        "max_kkt": 9.767990860609643e-10
+      },
+      "bayes_both": {
+        "mean_net": 1496.44,
+        "mean_deployments": 2.4,
+        "mean_harmful": 2.2,
+        "mean_beneficial": 0.2,
+        "mean_accuracy": 0.5658660844250365,
+        "mean_coverage": 0.6857142857142857,
+        "mean_informative_coverage": 0.24333333333333335,
+        "solver_failures": 0,
+        "max_kkt": 8.103766546696534e-10
+      },
+      "frequentist_gate": {
+        "mean_net": 1496.44,
+        "mean_deployments": 1.0,
+        "mean_harmful": 1.0,
+        "mean_beneficial": 0.0,
+        "mean_accuracy": 0.5636826783114992,
+        "mean_coverage": 0.8,
+        "mean_informative_coverage": 0.31666666666666665,
+        "solver_failures": 0,
+        "max_kkt": 9.767990860609643e-10
+      }
+    },
+    "paired": {
+      "bayes_gate_minus_joint": {
+        "net": {
+          "mean": 15.0,
+          "ci95_t4": [
+            6.220109669774649,
+            23.77989033022535
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            10.0,
+            18.0,
+            24.0,
+            17.0,
+            6.0
+          ]
+        },
+        "deployments": {
+          "mean": -2.2,
+          "ci95_t4": [
+            -3.2388506336095606,
+            -1.16114936639044
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -2.0,
+            -2.0,
+            -3.0,
+            -3.0,
+            -1.0
+          ]
+        },
+        "harmful": {
+          "mean": -2.2,
+          "ci95_t4": [
+            -3.2388506336095606,
+            -1.16114936639044
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -2.0,
+            -2.0,
+            -3.0,
+            -3.0,
+            -1.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 2.2,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 10.0,
+            "deployments": -2,
+            "harmful": -2,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 2
+          },
+          {
+            "seed": 72007,
+            "net": 18.0,
+            "deployments": -2,
+            "harmful": -2,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 2
+          },
+          {
+            "seed": 72008,
+            "net": 24.0,
+            "deployments": -3,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72009,
+            "net": 17.0,
+            "deployments": -3,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72010,
+            "net": 6.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          }
+        ]
+      },
+      "bayes_gate_minus_frequentist_gate": {
+        "net": {
+          "mean": -17.6,
+          "ci95_t4": [
+            -29.067760243552293,
+            -6.132239756447708
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -6.0,
+            -13.0,
+            -18.0,
+            -20.0,
+            -31.0
+          ]
+        },
+        "deployments": {
+          "mean": 2.2,
+          "ci95_t4": [
+            1.16114936639044,
+            3.2388506336095606
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            3.0,
+            2.0,
+            1.0,
+            2.0,
+            3.0
+          ]
+        },
+        "harmful": {
+          "mean": 2.0,
+          "ci95_t4": [
+            1.122010966977465,
+            2.8779890330225353
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            2.0,
+            2.0,
+            1.0,
+            2.0,
+            3.0
+          ]
+        },
+        "coverage": {
+          "mean": -0.1142857142857143,
+          "ci95_t4": [
+            -0.14667082764808606,
+            -0.08190060092334253
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -0.1428571428571429,
+            -0.09523809523809523,
+            -0.09523809523809523,
+            -0.09523809523809523,
+            -0.1428571428571429
+          ]
+        },
+        "mean_informative_coverage_difference": -0.07333333333333333,
+        "mean_action_disagreements": 2.2,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": -6.0,
+            "deployments": 3,
+            "harmful": 2,
+            "coverage": -0.1428571428571429,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72007,
+            "net": -13.0,
+            "deployments": 2,
+            "harmful": 2,
+            "coverage": -0.09523809523809523,
+            "informative_coverage": -0.2,
+            "action_disagreements": 2
+          },
+          {
+            "seed": 72008,
+            "net": -18.0,
+            "deployments": 1,
+            "harmful": 1,
+            "coverage": -0.09523809523809523,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72009,
+            "net": -20.0,
+            "deployments": 2,
+            "harmful": 2,
+            "coverage": -0.09523809523809523,
+            "informative_coverage": -0.16666666666666666,
+            "action_disagreements": 2
+          },
+          {
+            "seed": 72010,
+            "net": -31.0,
+            "deployments": 3,
+            "harmful": 3,
+            "coverage": -0.1428571428571429,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          }
+        ]
+      },
+      "bayes_both_minus_joint": {
+        "net": {
+          "mean": 32.6,
+          "ci95_t4": [
+            24.01544006104506,
+            41.18455993895495
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            32.0,
+            40.0,
+            24.0,
+            39.0,
+            28.0
+          ]
+        },
+        "deployments": {
+          "mean": -3.0,
+          "ci95_t4": [
+            -3.8779890330225353,
+            -2.1220109669774647
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -3.0,
+            -3.0,
+            -3.0,
+            -4.0,
+            -2.0
+          ]
+        },
+        "harmful": {
+          "mean": -3.0,
+          "ci95_t4": [
+            -3.8779890330225353,
+            -2.1220109669774647
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -3.0,
+            -3.0,
+            -3.0,
+            -4.0,
+            -2.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 3.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 32.0,
+            "deployments": -3,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72007,
+            "net": 40.0,
+            "deployments": -3,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72008,
+            "net": 24.0,
+            "deployments": -3,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72009,
+            "net": 39.0,
+            "deployments": -4,
+            "harmful": -4,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 4
+          },
+          {
+            "seed": 72010,
+            "net": 28.0,
+            "deployments": -2,
+            "harmful": -2,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 2
+          }
+        ]
+      },
+      "bayes_both_minus_bayes_gate": {
+        "net": {
+          "mean": 17.6,
+          "ci95_t4": [
+            5.383641538000001,
+            29.816358462000004
+          ],
+          "positive": 4,
+          "negative": 0,
+          "ties": 1,
+          "values": [
+            22.0,
+            22.0,
+            0.0,
+            22.0,
+            22.0
+          ]
+        },
+        "deployments": {
+          "mean": -0.8,
+          "ci95_t4": [
+            -1.355289021,
+            -0.24471097900000016
+          ],
+          "positive": 0,
+          "negative": 4,
+          "ties": 1,
+          "values": [
+            -1.0,
+            -1.0,
+            0.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        "harmful": {
+          "mean": -0.8,
+          "ci95_t4": [
+            -1.355289021,
+            -0.24471097900000016
+          ],
+          "positive": 0,
+          "negative": 4,
+          "ties": 1,
+          "values": [
+            -1.0,
+            -1.0,
+            0.0,
+            -1.0,
+            -1.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.8,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 22.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72007,
+            "net": 22.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 22.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72010,
+            "net": 22.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          }
+        ]
+      },
+      "bayes_both_minus_frequentist_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            -16.956784742580965,
+            16.956784742580965
+          ],
+          "positive": 3,
+          "negative": 2,
+          "ties": 0,
+          "values": [
+            16.0,
+            9.0,
+            -18.0,
+            2.0,
+            -9.0
+          ]
+        },
+        "deployments": {
+          "mean": 1.4,
+          "ci95_t4": [
+            0.7199126193901936,
+            2.080087380609806
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "harmful": {
+          "mean": 1.2,
+          "ci95_t4": [
+            0.6447109790000001,
+            1.7552890209999998
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "coverage": {
+          "mean": -0.1142857142857143,
+          "ci95_t4": [
+            -0.14667082764808606,
+            -0.08190060092334253
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -0.1428571428571429,
+            -0.09523809523809523,
+            -0.09523809523809523,
+            -0.09523809523809523,
+            -0.1428571428571429
+          ]
+        },
+        "mean_informative_coverage_difference": -0.07333333333333333,
+        "mean_action_disagreements": 3.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 16.0,
+            "deployments": 2,
+            "harmful": 1,
+            "coverage": -0.1428571428571429,
+            "informative_coverage": 0.0,
+            "action_disagreements": 4
+          },
+          {
+            "seed": 72007,
+            "net": 9.0,
+            "deployments": 1,
+            "harmful": 1,
+            "coverage": -0.09523809523809523,
+            "informative_coverage": -0.2,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72008,
+            "net": -18.0,
+            "deployments": 1,
+            "harmful": 1,
+            "coverage": -0.09523809523809523,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72009,
+            "net": 2.0,
+            "deployments": 1,
+            "harmful": 1,
+            "coverage": -0.09523809523809523,
+            "informative_coverage": -0.16666666666666666,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72010,
+            "net": -9.0,
+            "deployments": 2,
+            "harmful": 2,
+            "coverage": -0.1428571428571429,
+            "informative_coverage": 0.0,
+            "action_disagreements": 4
+          }
+        ]
+      }
+    }
+  },
+  "har240": {
+    "controllers": {
+      "joint": {
+        "mean_net": 3295.0199999999995,
+        "mean_deployments": 3.4,
+        "mean_harmful": 2.2,
+        "mean_beneficial": 1.2,
+        "mean_accuracy": 0.8248058252427185,
+        "mean_coverage": 0.9375,
+        "mean_informative_coverage": 0.9666666666666666,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      },
+      "bayes_gate": {
+        "mean_net": 3300.0199999999995,
+        "mean_deployments": 0.6,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.6,
+        "mean_accuracy": 0.8227669902912622,
+        "mean_coverage": 0.9375,
+        "mean_informative_coverage": 0.9666666666666666,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      },
+      "bayes_both": {
+        "mean_net": 3300.0199999999995,
+        "mean_deployments": 0.6,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.6,
+        "mean_accuracy": 0.8227669902912622,
+        "mean_coverage": 0.9375,
+        "mean_informative_coverage": 0.9666666666666666,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      },
+      "frequentist_gate": {
+        "mean_net": 3293.22,
+        "mean_deployments": 0.2,
+        "mean_harmful": 0.0,
+        "mean_beneficial": 0.2,
+        "mean_accuracy": 0.820631067961165,
+        "mean_coverage": 0.95,
+        "mean_informative_coverage": 0.9666666666666666,
+        "solver_failures": 0,
+        "max_kkt": 0.0
+      }
+    },
+    "paired": {
+      "bayes_gate_minus_joint": {
+        "net": {
+          "mean": 5.0,
+          "ci95_t4": [
+            2.0880398074172946,
+            7.911960192582706
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            8.0,
+            7.0,
+            3.0,
+            4.0,
+            3.0
+          ]
+        },
+        "deployments": {
+          "mean": -2.8,
+          "ci95_t4": [
+            -4.41893178459337,
+            -1.1810682154066288
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -4.0,
+            -2.0,
+            -3.0,
+            -1.0,
+            -4.0
+          ]
+        },
+        "harmful": {
+          "mean": -2.2,
+          "ci95_t4": [
+            -3.2388506336095606,
+            -1.16114936639044
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -3.0,
+            -2.0,
+            -2.0,
+            -1.0,
+            -3.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 2.8,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 8.0,
+            "deployments": -4,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 4
+          },
+          {
+            "seed": 72007,
+            "net": 7.0,
+            "deployments": -2,
+            "harmful": -2,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 2
+          },
+          {
+            "seed": 72008,
+            "net": 3.0,
+            "deployments": -3,
+            "harmful": -2,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72009,
+            "net": 4.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72010,
+            "net": 3.0,
+            "deployments": -4,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 4
+          }
+        ]
+      },
+      "bayes_gate_minus_frequentist_gate": {
+        "net": {
+          "mean": 6.8,
+          "ci95_t4": [
+            -4.761485470366707,
+            18.361485470366706
+          ],
+          "positive": 2,
+          "negative": 0,
+          "ties": 3,
+          "values": [
+            0.0,
+            17.0,
+            0.0,
+            0.0,
+            17.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.4,
+          "ci95_t4": [
+            -0.2800873806098064,
+            1.0800873806098066
+          ],
+          "positive": 2,
+          "negative": 0,
+          "ties": 3,
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": -0.0125,
+          "ci95_t4": [
+            -0.033752730644056456,
+            0.00875273064405645
+          ],
+          "positive": 0,
+          "negative": 2,
+          "ties": 3,
+          "values": [
+            -0.03125,
+            0.0,
+            0.0,
+            -0.03125,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.4,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": -0.03125,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 17.0,
+            "deployments": 1,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": -0.03125,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 17.0,
+            "deployments": 1,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          }
+        ]
+      },
+      "bayes_both_minus_joint": {
+        "net": {
+          "mean": 5.0,
+          "ci95_t4": [
+            2.0880398074172946,
+            7.911960192582706
+          ],
+          "positive": 5,
+          "negative": 0,
+          "ties": 0,
+          "values": [
+            8.0,
+            7.0,
+            3.0,
+            4.0,
+            3.0
+          ]
+        },
+        "deployments": {
+          "mean": -2.8,
+          "ci95_t4": [
+            -4.41893178459337,
+            -1.1810682154066288
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -4.0,
+            -2.0,
+            -3.0,
+            -1.0,
+            -4.0
+          ]
+        },
+        "harmful": {
+          "mean": -2.2,
+          "ci95_t4": [
+            -3.2388506336095606,
+            -1.16114936639044
+          ],
+          "positive": 0,
+          "negative": 5,
+          "ties": 0,
+          "values": [
+            -3.0,
+            -2.0,
+            -2.0,
+            -1.0,
+            -3.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 2.8,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 8.0,
+            "deployments": -4,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 4
+          },
+          {
+            "seed": 72007,
+            "net": 7.0,
+            "deployments": -2,
+            "harmful": -2,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 2
+          },
+          {
+            "seed": 72008,
+            "net": 3.0,
+            "deployments": -3,
+            "harmful": -2,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 3
+          },
+          {
+            "seed": 72009,
+            "net": 4.0,
+            "deployments": -1,
+            "harmful": -1,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72010,
+            "net": 3.0,
+            "deployments": -4,
+            "harmful": -3,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 4
+          }
+        ]
+      },
+      "bayes_both_minus_bayes_gate": {
+        "net": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.0,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          }
+        ]
+      },
+      "bayes_both_minus_frequentist_gate": {
+        "net": {
+          "mean": 6.8,
+          "ci95_t4": [
+            -4.761485470366707,
+            18.361485470366706
+          ],
+          "positive": 2,
+          "negative": 0,
+          "ties": 3,
+          "values": [
+            0.0,
+            17.0,
+            0.0,
+            0.0,
+            17.0
+          ]
+        },
+        "deployments": {
+          "mean": 0.4,
+          "ci95_t4": [
+            -0.2800873806098064,
+            1.0800873806098066
+          ],
+          "positive": 2,
+          "negative": 0,
+          "ties": 3,
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "harmful": {
+          "mean": 0.0,
+          "ci95_t4": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "ties": 5,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "coverage": {
+          "mean": -0.0125,
+          "ci95_t4": [
+            -0.033752730644056456,
+            0.00875273064405645
+          ],
+          "positive": 0,
+          "negative": 2,
+          "ties": 3,
+          "values": [
+            -0.03125,
+            0.0,
+            0.0,
+            -0.03125,
+            0.0
+          ]
+        },
+        "mean_informative_coverage_difference": 0.0,
+        "mean_action_disagreements": 0.4,
+        "rows": [
+          {
+            "seed": 72006,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": -0.03125,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72007,
+            "net": 17.0,
+            "deployments": 1,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          },
+          {
+            "seed": 72008,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72009,
+            "net": 0.0,
+            "deployments": 0,
+            "harmful": 0,
+            "coverage": -0.03125,
+            "informative_coverage": 0.0,
+            "action_disagreements": 0
+          },
+          {
+            "seed": 72010,
+            "net": 17.0,
+            "deployments": 1,
+            "harmful": 0,
+            "coverage": 0.0,
+            "informative_coverage": 0.0,
+            "action_disagreements": 1
+          }
+        ]
+      }
+    }
+  }
+}
