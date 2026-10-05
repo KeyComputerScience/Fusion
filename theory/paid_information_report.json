@@ -1,0 +1,475 @@
+{
+  "scope": "Constructed mechanism and read-only API checks; no physical data read.",
+  "normalization": {
+    "passed": true,
+    "cases": [
+      {
+        "count": 48,
+        "raw_mass": 0.48000000000000004,
+        "raw_square_mass": 0.0048000000000000004,
+        "n_eff": 48.00000000000001,
+        "multiplier": 100.0,
+        "old_empirical_prior_share": 0.19354838709677422,
+        "new_empirical_prior_share": 0.96
+      },
+      {
+        "count": 32,
+        "raw_mass": 3.2e-09,
+        "raw_square_mass": 3.2000000000000003e-19,
+        "n_eff": 32.0,
+        "multiplier": 10000000000.0,
+        "old_empirical_prior_share": 1.5999999974400001e-09,
+        "new_empirical_prior_share": 0.9411764705882353
+      },
+      {
+        "count": 3,
+        "raw_mass": 1.6,
+        "raw_square_mass": 1.26,
+        "n_eff": 2.031746031746032,
+        "multiplier": 1.26984126984127,
+        "old_empirical_prior_share": 0.4444444444444445,
+        "new_empirical_prior_share": 0.5039370078740159
+      },
+      {
+        "count": 4,
+        "raw_mass": 1.10010001,
+        "raw_square_mass": 1.01000001,
+        "n_eff": 1.198237643583786,
+        "multiplier": 1.0892079199088325,
+        "old_empirical_prior_share": 0.354859522741655,
+        "new_empirical_prior_share": 0.37465560008889787
+      },
+      {
+        "count": 1,
+        "raw_mass": 1.0,
+        "raw_square_mass": 1.0,
+        "n_eff": 1.0,
+        "multiplier": 1.0,
+        "old_empirical_prior_share": 0.3333333333333333,
+        "new_empirical_prior_share": 0.3333333333333333
+      },
+      {
+        "count": 2,
+        "raw_mass": 5.270946008517737e-05,
+        "raw_square_mass": 2.41281372608257e-09,
+        "n_eff": 1.1514718904478864,
+        "multiplier": 21845.640015798537,
+        "old_empirical_prior_share": 2.6354035489097838e-05,
+        "new_empirical_prior_share": 0.3653759038555916
+      },
+      {
+        "count": 5,
+        "raw_mass": 0.012861221796968705,
+        "raw_square_mass": 0.00010644080742180257,
+        "n_eff": 1.5540188966749733,
+        "multiplier": 120.82980304726911,
+        "old_empirical_prior_share": 0.00638952236631939,
+        "new_empirical_prior_share": 0.4372567906515252
+      },
+      {
+        "count": 17,
+        "raw_mass": 0.044496649040358965,
+        "raw_square_mass": 0.001395863144410628,
+        "n_eff": 1.418442620072807,
+        "multiplier": 31.877515513275252,
+        "old_empirical_prior_share": 0.021764109548061475,
+        "new_empirical_prior_share": 0.41493825631117265
+      },
+      {
+        "count": 48,
+        "raw_mass": 1.1481280026518081,
+        "raw_square_mass": 0.4603972315489519,
+        "n_eff": 2.8631751455983125,
+        "multiplier": 2.493776947331042,
+        "old_empirical_prior_share": 0.3647018169797063,
+        "new_empirical_prior_share": 0.5887460475672542
+      }
+    ],
+    "common_scale_relative_error": 2.3478309189494184e-16,
+    "absolute_cutoff_counterexample": {
+      "before_count": 1,
+      "after_count": 2
+    },
+    "dependent_block_counterexample": {
+      "n_eff": 2.0,
+      "iid_variance": 0.5,
+      "true_weighted_variance": 0.95
+    }
+  },
+  "paid_policy": {
+    "passed": true,
+    "exact_policy_checks": [
+      {
+        "feasibility": "all",
+        "states": 1032,
+        "retained_oracle_value": 13.720930232558139,
+        "reduced_oracle_value": 13.581395348837209,
+        "exact_information_gap": "6/43",
+        "policies": [
+          {
+            "bias": 0.0,
+            "penalty": 0.0,
+            "paid_value": 13.720930232558139,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 0.0
+          },
+          {
+            "bias": 0.0,
+            "penalty": 0.5,
+            "paid_value": 13.720930232558139,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 0.5
+          },
+          {
+            "bias": 0.0,
+            "penalty": 5.0,
+            "paid_value": 13.604651162790697,
+            "exact_regret": 0.11627906976744186,
+            "error_plus_penalty_bound": 5.0
+          },
+          {
+            "bias": 0.0,
+            "penalty": 20.0,
+            "paid_value": 12.093023255813954,
+            "exact_regret": 1.627906976744186,
+            "error_plus_penalty_bound": 20.0
+          },
+          {
+            "bias": -20.0,
+            "penalty": 0.0,
+            "paid_value": 12.093023255813954,
+            "exact_regret": 1.627906976744186,
+            "error_plus_penalty_bound": 20.0
+          },
+          {
+            "bias": -20.0,
+            "penalty": 0.5,
+            "paid_value": 12.093023255813954,
+            "exact_regret": 1.627906976744186,
+            "error_plus_penalty_bound": 20.5
+          },
+          {
+            "bias": -20.0,
+            "penalty": 5.0,
+            "paid_value": 11.2015503875969,
+            "exact_regret": 2.5193798449612403,
+            "error_plus_penalty_bound": 25.0
+          },
+          {
+            "bias": -20.0,
+            "penalty": 20.0,
+            "paid_value": 7.364341085271318,
+            "exact_regret": 6.3565891472868215,
+            "error_plus_penalty_bound": 40.0
+          },
+          {
+            "bias": 20.0,
+            "penalty": 0.0,
+            "paid_value": 12.248062015503876,
+            "exact_regret": 1.4728682170542635,
+            "error_plus_penalty_bound": 20.0
+          },
+          {
+            "bias": 20.0,
+            "penalty": 0.5,
+            "paid_value": 12.248062015503876,
+            "exact_regret": 1.4728682170542635,
+            "error_plus_penalty_bound": 20.5
+          },
+          {
+            "bias": 20.0,
+            "penalty": 5.0,
+            "paid_value": 12.906976744186046,
+            "exact_regret": 0.813953488372093,
+            "error_plus_penalty_bound": 25.0
+          },
+          {
+            "bias": 20.0,
+            "penalty": 20.0,
+            "paid_value": 13.720930232558139,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 40.0
+          },
+          {
+            "bias": 0.5,
+            "penalty": 0.0,
+            "paid_value": 13.720930232558139,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 0.5
+          },
+          {
+            "bias": 0.5,
+            "penalty": 0.5,
+            "paid_value": 13.720930232558139,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 1.0
+          },
+          {
+            "bias": 0.5,
+            "penalty": 5.0,
+            "paid_value": 13.643410852713178,
+            "exact_regret": 0.07751937984496124,
+            "error_plus_penalty_bound": 5.5
+          },
+          {
+            "bias": 0.5,
+            "penalty": 20.0,
+            "paid_value": 12.248062015503876,
+            "exact_regret": 1.4728682170542635,
+            "error_plus_penalty_bound": 20.5
+          }
+        ]
+      },
+      {
+        "feasibility": "nontrivial_fixed_reduced_feasibility",
+        "states": 1032,
+        "retained_oracle_value": 10.930232558139535,
+        "reduced_oracle_value": 10.819767441860465,
+        "exact_information_gap": "19/172",
+        "policies": [
+          {
+            "bias": 0.0,
+            "penalty": 0.0,
+            "paid_value": 10.930232558139535,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 0.0
+          },
+          {
+            "bias": 0.0,
+            "penalty": 0.5,
+            "paid_value": 10.930232558139535,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 0.3992248062015504
+          },
+          {
+            "bias": 0.0,
+            "penalty": 5.0,
+            "paid_value": 10.833333333333334,
+            "exact_regret": 0.09689922480620156,
+            "error_plus_penalty_bound": 3.992248062015504
+          },
+          {
+            "bias": 0.0,
+            "penalty": 20.0,
+            "paid_value": 9.612403100775193,
+            "exact_regret": 1.317829457364341,
+            "error_plus_penalty_bound": 15.968992248062015
+          },
+          {
+            "bias": -20.0,
+            "penalty": 0.0,
+            "paid_value": 9.612403100775193,
+            "exact_regret": 1.317829457364341,
+            "error_plus_penalty_bound": 15.968992248062015
+          },
+          {
+            "bias": -20.0,
+            "penalty": 0.5,
+            "paid_value": 9.612403100775193,
+            "exact_regret": 1.317829457364341,
+            "error_plus_penalty_bound": 16.368217054263567
+          },
+          {
+            "bias": -20.0,
+            "penalty": 5.0,
+            "paid_value": 8.895348837209303,
+            "exact_regret": 2.0348837209302326,
+            "error_plus_penalty_bound": 19.96124031007752
+          },
+          {
+            "bias": -20.0,
+            "penalty": 20.0,
+            "paid_value": 5.813953488372093,
+            "exact_regret": 5.116279069767442,
+            "error_plus_penalty_bound": 31.93798449612403
+          },
+          {
+            "bias": 20.0,
+            "penalty": 0.0,
+            "paid_value": 9.767441860465116,
+            "exact_regret": 1.1627906976744187,
+            "error_plus_penalty_bound": 15.968992248062015
+          },
+          {
+            "bias": 20.0,
+            "penalty": 0.5,
+            "paid_value": 9.767441860465116,
+            "exact_regret": 1.1627906976744187,
+            "error_plus_penalty_bound": 16.368217054263567
+          },
+          {
+            "bias": 20.0,
+            "penalty": 5.0,
+            "paid_value": 10.290697674418604,
+            "exact_regret": 0.6395348837209303,
+            "error_plus_penalty_bound": 19.96124031007752
+          },
+          {
+            "bias": 20.0,
+            "penalty": 20.0,
+            "paid_value": 10.930232558139535,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 31.93798449612403
+          },
+          {
+            "bias": 0.5,
+            "penalty": 0.0,
+            "paid_value": 10.930232558139535,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 0.3992248062015504
+          },
+          {
+            "bias": 0.5,
+            "penalty": 0.5,
+            "paid_value": 10.930232558139535,
+            "exact_regret": 0.0,
+            "error_plus_penalty_bound": 0.7984496124031008
+          },
+          {
+            "bias": 0.5,
+            "penalty": 5.0,
+            "paid_value": 10.872093023255815,
+            "exact_regret": 0.05813953488372093,
+            "error_plus_penalty_bound": 4.391472868217054
+          },
+          {
+            "bias": 0.5,
+            "penalty": 20.0,
+            "paid_value": 9.767441860465116,
+            "exact_regret": 1.1627906976744187,
+            "error_plus_penalty_bound": 16.368217054263567
+          }
+        ]
+      }
+    ],
+    "oracle_acceptance_counterexamples": [
+      {
+        "means": [
+          1,
+          -100
+        ],
+        "probabilities": [
+          0.99,
+          0.01
+        ],
+        "retained_acceptance": 0.99,
+        "reduced_acceptance": 0.0,
+        "value_gain": 0.99
+      },
+      {
+        "means": [
+          100,
+          -1
+        ],
+        "probabilities": [
+          0.01,
+          0.99
+        ],
+        "retained_acceptance": 0.01,
+        "reduced_acceptance": 1.0,
+        "value_gain": 0.99
+      }
+    ],
+    "fixed_state_relaxation_counterexamples": [
+      {
+        "true_mean": 4.0,
+        "estimate": 3.0,
+        "old_penalty": 5.0,
+        "new_penalty": 1.0,
+        "newly_admitted": true,
+        "actual_value_gain": 4.0
+      },
+      {
+        "true_mean": -4.0,
+        "estimate": 3.0,
+        "old_penalty": 5.0,
+        "new_penalty": 1.0,
+        "newly_admitted": true,
+        "actual_value_gain": -4.0
+      }
+    ]
+  },
+  "current_cj_api": {
+    "passed": true,
+    "random_joint_laws": 36,
+    "dimensions": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "actual_cj_vs_independent_quadrature_max_error": 1.5265566588595902e-16,
+    "actual_exact_marginal_vs_independent_quadrature_max_error": 2.220446049250313e-16,
+    "current_truth_poison_issuance_error": 0.0,
+    "truth_only_changes_offline_callback_score": true,
+    "no_eligible_history_retains_reference": true,
+    "simplex_invariance_error": 3.3306690738754696e-16,
+    "current_api_source": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_conditional_20261004/run_conditional.py",
+    "source_sha256": "9b75cf9e812d3058962cedbda073d15196e84f965f97a18533cb8080057538b5"
+  },
+  "bounded_support": {
+    "passed": true,
+    "target_prior": "independent uniform[-1,1]",
+    "error_law": "equal-mass +/-3/32",
+    "exact_physical_forecast_overflow": "3/64",
+    "overflow_probability": 0.046875,
+    "finite_grid_probability": 0.046875,
+    "inference": "Nondegenerate independent error with full-bound uniform target is not an exact bounded-forecast physical model."
+  },
+  "normalized_cj_api": {
+    "passed": true,
+    "source": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design/reliability_normalized.py",
+    "source_sha256": "1ad25957dad054568526147579c36391cf2a7b4ec83a2965993e903879cedd4e",
+    "complete_blocks": 4,
+    "partial_blocks": 5,
+    "active_source_ids": [
+      0,
+      2
+    ],
+    "whole_block_normalization": {
+      "raw_mass": 0.206,
+      "raw_square_mass": 0.007736,
+      "n_eff": 5.485522233712512,
+      "multiplier": 26.628748707342297
+    },
+    "independent_R_P_mu_atom_checks": {
+      "R": 5.204170427930421e-18,
+      "P": 8.673617379884035e-19,
+      "mu": 5.204170427930421e-17,
+      "atom_mass": 1.7763568394002505e-15,
+      "atom_alpha": 8.326672684688674e-17
+    },
+    "common_scale_pipeline_checks": [
+      {
+        "raw_weight_scale": 0.01,
+        "max_state_or_posterior_error": 2.7755575615628914e-17
+      },
+      {
+        "raw_weight_scale": 0.1,
+        "max_state_or_posterior_error": 4.163336342344337e-17
+      },
+      {
+        "raw_weight_scale": 2.0,
+        "max_state_or_posterior_error": 1.6653345369377348e-16
+      }
+    ],
+    "normalized_truth_poison_issuance_error": 0.0,
+    "all_seven_matched_controls_use_normalization": true,
+    "zero_coordinate_blocks_excluded_from_effective_mass": true,
+    "zero_coordinate_only_history_retains_reference": true,
+    "far_context_changed_regime_counterexample": {
+      "raw_mass": 1.1999999999999996e-07,
+      "normalized_mass": 11.999999999999998,
+      "old_score": -12.78971368640755,
+      "new_score": 13.991728689234733,
+      "new_admission": true,
+      "declared_changed_regime_complete_paid_return": -18.0,
+      "interpretation": "Remote negative residual history becomes large positive fitted target; a changed physical regime can make the additional action harmful."
+    },
+    "historical_masks_preserved": true
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.3.5"
+  }
+}

@@ -1,0 +1,98 @@
+\paragraph{When retained information survives the fitted paid gate.}
+Fix one candidate/reference lease with integrable complete return $D$ and
+reduced and retained information $\mathcal R\subseteq\mathcal I$.
+Both contain the same current forecasts, model versions and prefix execution
+state.  Require common readiness and the same settled loss $C_t$, unresolved
+reserve $Q_t$ and proposed reserve $M_k$.  Thus the common indicator
+\begin{equation}
+ G=\mathbf1\{\text{ready}\}\mathbf1\{C_t+Q_t+M_k\leq B\}
+ \label{eq:final-paid-common-feasibility}
+\end{equation}
+is $\mathcal R$-measurable.  All expectations below concern the true physical
+joint law, or an explicitly self-consistent generative construction, at this
+common state.  For $\mathcal H\in\{\mathcal R,\mathcal I\}$, put
+$m_{\mathcal H}=\mathbb E[D\mid\mathcal H]$ and
+$V(\mathcal H)=\mathbb E[G(m_{\mathcal H})_+]$.
+The binary-action information gap is
+\begin{equation}
+ \Delta=V(\mathcal I)-V(\mathcal R)
+ =\mathbb E\!\left[G\min\!\left\{
+ \mathbb E[(m_{\mathcal I})_+\mid\mathcal R],
+ \mathbb E[(-m_{\mathcal I})_+\mid\mathcal R]\right\}\right]\geq0.
+ \label{eq:final-paid-information-gap}
+\end{equation}
+Consequently, a positive gap requires feasible reduced states in which the
+retained conditional paid mean falls on both sides of zero with positive
+conditional probability.  A change in a fitted covariance or posterior
+alone does not establish such a gap.
+
+\begin{proposition}[Fitted paid-action regret and sufficient benefit]
+\label{prop:final-fitted-paid-benefit}
+Let $F_{\mathcal H},S_{\mathcal H},q_{\mathcal H}$ be issuance-time
+$\mathcal H$-measurable quantities, with
+$r_{\mathcal H}=q_{\mathcal H}S_{\mathcal H}\geq0$ and
+$\widehat m_{\mathcal H}=F_{\mathcal H}-5$.  Suppose the quantities below
+are integrable and issue the same paid gate as the executable controller:
+\begin{equation}
+ L_{\mathcal H}=\widehat m_{\mathcal H}-r_{\mathcal H},\qquad
+ A_{\mathcal H}=G\mathbf1\{L_{\mathcal H}>0\}.
+ \label{eq:final-fitted-paid-gate}
+\end{equation}
+Its exact regret and bound are
+\begin{align}
+ \operatorname{Reg}_{\mathcal H}
+ &:=V(\mathcal H)-\mathbb E[A_{\mathcal H}D]\nonumber\\
+ &=\mathbb E\!\left[G|m_{\mathcal H}|\mathbf1\left\{
+ \mathbf1\{L_{\mathcal H}>0\}\ne\mathbf1\{m_{\mathcal H}>0\}
+ \right\}\right]\nonumber\\
+ &\leq\underbrace{\mathbb E[G|\widehat m_{\mathcal H}-m_{\mathcal H}|]}
+                 _{\varepsilon_{\mathcal H}}
+       +\underbrace{\mathbb E[Gr_{\mathcal H}]}_{\rho_{\mathcal H}}.
+ \label{eq:final-fitted-paid-regret}
+\end{align}
+Against every $\mathcal R$-measurable admission probability
+$0\leq A_{\mathcal R}\leq G$, the fitted retained gate satisfies
+\begin{equation}
+ \mathbb E[(A_{\mathcal I}-A_{\mathcal R})D]
+ \geq\Delta-\varepsilon_{\mathcal I}-\rho_{\mathcal I}.
+ \label{eq:final-fitted-paid-improvement}
+\end{equation}
+In particular, $\Delta>\varepsilon_{\mathcal I}+\rho_{\mathcal I}$ is
+sufficient for strictly greater expected complete paid return.
+\end{proposition}
+\begin{proof}
+Condition on $\mathcal H$.  The oracle admits exactly when
+$m_{\mathcal H}>0$; subtracting the fitted admission gives the exact
+regret identity.  A harmful admission has
+$m_{\mathcal H}\leq0<\widehat m_{\mathcal H}-r_{\mathcal H}$, hence
+$|m_{\mathcal H}|\leq|\widehat m_{\mathcal H}-m_{\mathcal H}|$.
+A missed benefit has
+$m_{\mathcal H}>0\geq\widehat m_{\mathcal H}-r_{\mathcal H}$, hence
+$m_{\mathcal H}\leq|\widehat m_{\mathcal H}-m_{\mathcal H}|+r_{\mathcal H}$.
+Integrate, and use $\mathbb E[A_{\mathcal R}D]\leq V(\mathcal R)$.
+\end{proof}
+
+For CJ, $F=N\widehat\mu$ and
+$S=N\sqrt{\widehat v+\nu^2}$ are moments of the fitted bounded working
+posterior.  With $D=NU-5+\delta$, the paid-mean error explicitly includes
+the service slack:
+\begin{equation}
+ \varepsilon_{\mathcal I}
+ \leq\mathbb E\!\left[GN
+     |\widehat\mu-\mathbb E[U\mid\mathcal I]|\right]
+     +\mathbb E[G\delta],\qquad \delta=2-\ell\geq0.
+ \label{eq:final-paid-target-error}
+\end{equation}
+Thus retained pairing supplies possible oracle value; physical estimation
+error and the issued $qS$ penalty can consume it.  Distances between fitted
+information controls do not bound $\varepsilon_{\mathcal I}$ without a
+separate physical estimation guarantee.  The result promises neither
+larger admission counts nor conditional coverage for accepted leases.
+
+The common-state restriction is essential.  Different earlier actions can
+change $C_t,Q_t$, later feasibility and the delayed $q$ states.  One cannot
+sum these single-origin gaps across separately evolving ledgers.  A
+sequential comparison requires the full continuation value of feasible
+policies, or explicit coupling that keeps the compared execution state
+identical.  The shared pathwise loss-budget theorem remains independent of
+this expected information benefit.

@@ -1,0 +1,114 @@
+\paragraph{Direct joint conditioning of the complete target.}
+For each completely matured block, reproject its issued source probabilities
+and complete outcomes through the current fixed candidate/reference versions.
+Record the forecast coordinates that were actually observed and the complete
+normalized target $U_j=g_j/N_j$.  The target is an observed coordinate even
+when historical source forecasts are missing.  CJ-T models the joint vector
+$X=(H_1,\ldots,H_m,U)$ directly; it requires no independence of $U$ and the
+residual $H-U\mathbf1$.
+
+Missing historical forecast coordinates are integrated with a declared
+Gaussian Schur law.  If $E_j$ selects the observed coordinates, including $U$,
+the completed working moments are
+\begin{equation}
+ \widetilde x_j=\lambda+
+ C E_j^{\mathsf T}(E_j C E_j^{\mathsf T})^{-1}(x_{j,O}-E_j\lambda),\qquad
+ V_j=C-C E_j^{\mathsf T}(E_j C E_j^{\mathsf T})^{-1}E_j C.
+ \label{cjt_masked_joint_completion}
+\end{equation}
+The observed forecasts and target are unchanged.  The missing-coordinate
+means and uncertainty are working moments, not additional observations.
+Retain the original relative and absolute relevance weights.  A common prior
+atom and positive definite smoothing give a joint Gaussian mixture
+\begin{equation}
+ f(h,u)=\sum_{j=0}^{J}\alpha_j
+ \phi_{m+1}((h,u);\lambda_j,\Sigma_j),\qquad
+ \alpha_j>0,\quad\sum_j\alpha_j=1,\quad\Sigma_j\succ0.
+ \label{cjt_joint_target_mixture}
+\end{equation}
+This is a working density on $\mathbb R^m\times\mathbb R$.
+The source likelihood is evaluated at the physical $h\in[-1,1]^m$; its
+Gaussian tails outside that source domain are an approximation.
+Only the complete target is restricted to $[-1,1]$:
+\begin{equation}
+ p(u\mid h)=\frac{\mathbf1_{[-1,1]}(u)f(h,u)}
+ {\int_{-1}^{1}f(h,v)\,dv}.
+ \label{cjt_bounded_direct_target_posterior}
+\end{equation}
+The target prior is the fitted marginal of $f$, rather than a separately
+imposed uniform prior.  This construction does not establish physical
+conditional calibration under drift or a correct missing-coordinate law.
+
+\begin{proposition}[Analytic direct-target mixture conditioning]
+\label{cjt_analytic_target_conditioning}
+Partition each component mean and covariance by $(H,U)$.  Put
+\begin{align}
+ \eta_j(h)&=\lambda_{j,U}+\Sigma_{j,UH}\Sigma_{j,HH}^{-1}
+                 (h-\lambda_{j,H}),\nonumber\\
+ v_j&=\Sigma_{j,UU}-\Sigma_{j,UH}\Sigma_{j,HH}^{-1}\Sigma_{j,HU}>0,\nonumber\\
+ Z_j(h)&=\Phi((1-\eta_j(h))/\sqrt{v_j})
+          -\Phi((-1-\eta_j(h))/\sqrt{v_j}).
+ \label{cjt_conditional_component_parameters}
+\end{align}
+The bounded posterior is a mixture of
+$\mathcal N(\eta_j(h),v_j)$ restricted to $[-1,1]$, with weights
+\begin{equation}
+ \rho_j(h)=\frac{\alpha_j\phi_m(h;\lambda_{j,H},\Sigma_{j,HH})Z_j(h)}
+ {\sum_\ell\alpha_\ell\phi_m(h;\lambda_{\ell,H},\Sigma_{\ell,HH})Z_\ell(h)}.
+ \label{cjt_conditional_component_weights}
+\end{equation}
+\end{proposition}
+\begin{proof}
+Gaussian conditioning factors each component joint density into its forecast
+marginal density and its scalar conditional target density.  Integration over
+the target bounds supplies $Z_j$, and normalization gives $\rho_j$.
+\end{proof}
+The component forecast evidence and target truncation mass both matter.
+Uniformly averaging conditional components would generally change the law.
+The issued mean and scale are $F=N\mathbb E[U\mid h]$ and
+$S=N\sqrt{\operatorname{Var}(U\mid h)+\nu^2}$ under the same paid gate.
+
+\paragraph{An exact source--target marginal information control.}
+Let $f_U$ be the raw joint target marginal and $f_{sU}$ its source--target
+bivariate marginals.  Positive Gaussian smoothing ensures $f_U(u)>0$.
+Define
+\begin{equation}
+ f_{\mathrm P}(h,u)=f_U(u)\prod_{s=1}^m f(H_s=h_s\mid U=u)
+ =\frac{\prod_{s=1}^m f_{sU}(h_s,u)}{f_U(u)^{m-1}}.
+ \label{cjt_exact_bivariate_product_control}
+\end{equation}
+\begin{proposition}[Preserved target and source--target information]
+\label{cjt_product_preserves_bivariate_information}
+The density $f_{\mathrm P}$ integrates to one and has exactly the same $f_U$
+and every $f_{sU}$ as $f$.  Common target restriction to $[-1,1]$ preserves
+this equality, and either law has the same target normalizing constant.
+For one active source the joint and product target posteriors coincide.
+\end{proposition}
+\begin{proof}
+Each $f(H_s\mid U=u)$ integrates to one.  Integrating all forecast coordinates
+gives $f_U$, and integrating all but coordinate $s$ gives $f_{sU}$.
+If $C=\int_{-1}^{1}f_U(u)\,du$, restricted bivariate marginals are
+$\mathbf1_{[-1,1]}(u)f_{sU}/C$, and the restricted target marginal is
+$\mathbf1_{[-1,1]}(u)f_U/C$.  On $[-1,1]$, their quotient in
+Eq.~\eqref{cjt_exact_bivariate_product_control} is
+$f_{\mathrm P}/C$, extended by zero outside the target bounds;
+the repeated target-prior factors cancel.
+The singleton case is the original bivariate density itself.
+\end{proof}
+The control keeps each source's nonlinear association with the complete target
+and removes only dependence among forecast coordinates conditional on that
+target.  Multiplying the bivariate densities without the denominator would
+count the target prior $m$ times and would not be this control.
+Its bounded target moments use scalar quadrature with refinement checks.
+
+The full-Gaussian control instead uses the exact raw mixture mean and covariance
+$\bar\lambda=\sum_j\alpha_j\lambda_j$ and
+$\bar\Sigma=\sum_j\alpha_j[\Sigma_j+
+(\lambda_j-\bar\lambda)(\lambda_j-\bar\lambda)^{\mathsf T}]$,
+then performs the same direct-target conditioning and target restriction.
+For a genuinely Gaussian working joint law it coincides with CJ-T.
+Any extra paid action supplied by retained joint shape must be evaluated under
+the same model versions, complete service accounting and execution ledger.
+The fixed-state oracle information gap and fitted paid-policy regret bound
+apply to this model as before; neither density retention nor numerical accuracy
+proves a bound on the unknown physical conditional mean error.

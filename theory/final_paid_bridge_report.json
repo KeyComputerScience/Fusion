@@ -1,0 +1,400 @@
+{
+  "passed": true,
+  "finite_outcomes": 1032,
+  "fitted_cases": 50,
+  "reduced_policies_per_case": 4,
+  "sufficient_benefit_checks": 32,
+  "feasibility_reports": [
+    {
+      "common_feasibility": "all",
+      "exact_gap": "6/43",
+      "cases": [
+        {
+          "bias": "0",
+          "penalty": "0",
+          "exact_regret": "0",
+          "error_plus_penalty": "0",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "0",
+          "penalty": "1/1000",
+          "exact_regret": "0",
+          "error_plus_penalty": "1/1000",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "0",
+          "penalty": "1/2",
+          "exact_regret": "0",
+          "error_plus_penalty": "1/2",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "0",
+          "penalty": "5",
+          "exact_regret": "5/43",
+          "error_plus_penalty": "5",
+          "retained_minus_reduced_oracle": "1/43"
+        },
+        {
+          "bias": "0",
+          "penalty": "20",
+          "exact_regret": "70/43",
+          "error_plus_penalty": "20",
+          "retained_minus_reduced_oracle": "-64/43"
+        },
+        {
+          "bias": "-20",
+          "penalty": "0",
+          "exact_regret": "70/43",
+          "error_plus_penalty": "20",
+          "retained_minus_reduced_oracle": "-64/43"
+        },
+        {
+          "bias": "-20",
+          "penalty": "1/1000",
+          "exact_regret": "70/43",
+          "error_plus_penalty": "20001/1000",
+          "retained_minus_reduced_oracle": "-64/43"
+        },
+        {
+          "bias": "-20",
+          "penalty": "1/2",
+          "exact_regret": "70/43",
+          "error_plus_penalty": "41/2",
+          "retained_minus_reduced_oracle": "-64/43"
+        },
+        {
+          "bias": "-20",
+          "penalty": "5",
+          "exact_regret": "325/129",
+          "error_plus_penalty": "25",
+          "retained_minus_reduced_oracle": "-307/129"
+        },
+        {
+          "bias": "-20",
+          "penalty": "20",
+          "exact_regret": "820/129",
+          "error_plus_penalty": "40",
+          "retained_minus_reduced_oracle": "-802/129"
+        },
+        {
+          "bias": "20",
+          "penalty": "0",
+          "exact_regret": "190/129",
+          "error_plus_penalty": "20",
+          "retained_minus_reduced_oracle": "-4/3"
+        },
+        {
+          "bias": "20",
+          "penalty": "1/1000",
+          "exact_regret": "190/129",
+          "error_plus_penalty": "20001/1000",
+          "retained_minus_reduced_oracle": "-4/3"
+        },
+        {
+          "bias": "20",
+          "penalty": "1/2",
+          "exact_regret": "190/129",
+          "error_plus_penalty": "41/2",
+          "retained_minus_reduced_oracle": "-4/3"
+        },
+        {
+          "bias": "20",
+          "penalty": "5",
+          "exact_regret": "35/43",
+          "error_plus_penalty": "25",
+          "retained_minus_reduced_oracle": "-29/43"
+        },
+        {
+          "bias": "20",
+          "penalty": "20",
+          "exact_regret": "0",
+          "error_plus_penalty": "40",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "0",
+          "exact_regret": "0",
+          "error_plus_penalty": "1/1000",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "1/1000",
+          "exact_regret": "0",
+          "error_plus_penalty": "1/500",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "1/2",
+          "exact_regret": "0",
+          "error_plus_penalty": "501/1000",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "5",
+          "exact_regret": "10/129",
+          "error_plus_penalty": "5001/1000",
+          "retained_minus_reduced_oracle": "8/129"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "20",
+          "exact_regret": "190/129",
+          "error_plus_penalty": "20001/1000",
+          "retained_minus_reduced_oracle": "-4/3"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "0",
+          "exact_regret": "0",
+          "error_plus_penalty": "1/2",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "1/1000",
+          "exact_regret": "0",
+          "error_plus_penalty": "501/1000",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "1/2",
+          "exact_regret": "0",
+          "error_plus_penalty": "1",
+          "retained_minus_reduced_oracle": "6/43"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "5",
+          "exact_regret": "10/129",
+          "error_plus_penalty": "11/2",
+          "retained_minus_reduced_oracle": "8/129"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "20",
+          "exact_regret": "190/129",
+          "error_plus_penalty": "41/2",
+          "retained_minus_reduced_oracle": "-4/3"
+        }
+      ]
+    },
+    {
+      "common_feasibility": "fixed_reduced_mask",
+      "exact_gap": "19/172",
+      "cases": [
+        {
+          "bias": "0",
+          "penalty": "0",
+          "exact_regret": "0",
+          "error_plus_penalty": "0",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "0",
+          "penalty": "1/1000",
+          "exact_regret": "0",
+          "error_plus_penalty": "103/129000",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "0",
+          "penalty": "1/2",
+          "exact_regret": "0",
+          "error_plus_penalty": "103/258",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "0",
+          "penalty": "5",
+          "exact_regret": "25/258",
+          "error_plus_penalty": "515/129",
+          "retained_minus_reduced_oracle": "7/516"
+        },
+        {
+          "bias": "0",
+          "penalty": "20",
+          "exact_regret": "170/129",
+          "error_plus_penalty": "2060/129",
+          "retained_minus_reduced_oracle": "-623/516"
+        },
+        {
+          "bias": "-20",
+          "penalty": "0",
+          "exact_regret": "170/129",
+          "error_plus_penalty": "2060/129",
+          "retained_minus_reduced_oracle": "-623/516"
+        },
+        {
+          "bias": "-20",
+          "penalty": "1/1000",
+          "exact_regret": "170/129",
+          "error_plus_penalty": "686701/43000",
+          "retained_minus_reduced_oracle": "-623/516"
+        },
+        {
+          "bias": "-20",
+          "penalty": "1/2",
+          "exact_regret": "170/129",
+          "error_plus_penalty": "4223/258",
+          "retained_minus_reduced_oracle": "-623/516"
+        },
+        {
+          "bias": "-20",
+          "penalty": "5",
+          "exact_regret": "175/86",
+          "error_plus_penalty": "2575/129",
+          "retained_minus_reduced_oracle": "-331/172"
+        },
+        {
+          "bias": "-20",
+          "penalty": "20",
+          "exact_regret": "220/43",
+          "error_plus_penalty": "4120/129",
+          "retained_minus_reduced_oracle": "-861/172"
+        },
+        {
+          "bias": "20",
+          "penalty": "0",
+          "exact_regret": "50/43",
+          "error_plus_penalty": "2060/129",
+          "retained_minus_reduced_oracle": "-181/172"
+        },
+        {
+          "bias": "20",
+          "penalty": "1/1000",
+          "exact_regret": "50/43",
+          "error_plus_penalty": "686701/43000",
+          "retained_minus_reduced_oracle": "-181/172"
+        },
+        {
+          "bias": "20",
+          "penalty": "1/2",
+          "exact_regret": "50/43",
+          "error_plus_penalty": "4223/258",
+          "retained_minus_reduced_oracle": "-181/172"
+        },
+        {
+          "bias": "20",
+          "penalty": "5",
+          "exact_regret": "55/86",
+          "error_plus_penalty": "2575/129",
+          "retained_minus_reduced_oracle": "-91/172"
+        },
+        {
+          "bias": "20",
+          "penalty": "20",
+          "exact_regret": "0",
+          "error_plus_penalty": "4120/129",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "0",
+          "exact_regret": "0",
+          "error_plus_penalty": "103/129000",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "1/1000",
+          "exact_regret": "0",
+          "error_plus_penalty": "103/64500",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "1/2",
+          "exact_regret": "0",
+          "error_plus_penalty": "17201/43000",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "5",
+          "exact_regret": "5/86",
+          "error_plus_penalty": "171701/43000",
+          "retained_minus_reduced_oracle": "9/172"
+        },
+        {
+          "bias": "1/1000",
+          "penalty": "20",
+          "exact_regret": "50/43",
+          "error_plus_penalty": "686701/43000",
+          "retained_minus_reduced_oracle": "-181/172"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "0",
+          "exact_regret": "0",
+          "error_plus_penalty": "103/258",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "1/1000",
+          "exact_regret": "0",
+          "error_plus_penalty": "17201/43000",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "1/2",
+          "exact_regret": "0",
+          "error_plus_penalty": "103/129",
+          "retained_minus_reduced_oracle": "19/172"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "5",
+          "exact_regret": "5/86",
+          "error_plus_penalty": "1133/258",
+          "retained_minus_reduced_oracle": "9/172"
+        },
+        {
+          "bias": "1/2",
+          "penalty": "20",
+          "exact_regret": "50/43",
+          "error_plus_penalty": "4223/258",
+          "retained_minus_reduced_oracle": "-181/172"
+        }
+      ]
+    }
+  ],
+  "acceptance_can_increase_or_decrease": [
+    {
+      "means": [
+        1,
+        -100
+      ],
+      "probabilities": [
+        "99/100",
+        "1/100"
+      ],
+      "retained_admission": "99/100",
+      "reduced_admission": 0,
+      "exact_value_gap": "99/100"
+    },
+    {
+      "means": [
+        100,
+        -1
+      ],
+      "probabilities": [
+        "1/100",
+        "99/100"
+      ],
+      "retained_admission": "1/100",
+      "reduced_admission": 1,
+      "exact_value_gap": "99/100"
+    }
+  ],
+  "scope": "exact rational enumeration under a coherent finite paired-error generative construction; no empirical physical estimation-error guarantee"
+}

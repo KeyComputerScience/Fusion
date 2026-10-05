@@ -1,0 +1,36 @@
+{
+  "scope": "Synthetic metadata-only checks; no HARTH archive/cache opened.",
+  "adapter": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/adapter.py",
+  "adapter_sha256": "cc89c6eb2fef4c2eaeaa6869551e07fd36b8a47c18fffdbe9a8bfa6b947bc04b",
+  "parser_and_lag": {
+    "passed": true,
+    "retained_original_rows": [
+      0,
+      50,
+      100,
+      150
+    ],
+    "raw_gap_resets_history": true,
+    "label_poison_does_not_change_selection_or_provenance": true,
+    "current_plus_previous_two_retained_rows": true,
+    "lag_reset_max_error": 0.0,
+    "future_covariate_poison_leaves_first_issued_feature_unchanged": true
+  },
+  "prefix": {
+    "passed": true,
+    "synthetic_participants": 22,
+    "fit_rows": 560,
+    "audit_rows": 240,
+    "fit_source_model_count": 2,
+    "feature_counts_including_intercept": [
+      10,
+      10,
+      19
+    ],
+    "calibration_and_test_covariate_label_poison_changes_no_prefix_inputs": true,
+    "prefix_prior_blocks_by_fit_participant": 8,
+    "calibration_chains": 4,
+    "test_chains": 10,
+    "physical_data_read": false
+  }
+}

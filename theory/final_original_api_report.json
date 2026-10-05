@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "scope": "metadata/source imports and constructed states only; no physical data or outcomes opened",
+  "algorithm_freeze_sha256": "d2cf405b4f2d0323be199cb050f56d066bcb010a748f09da7e4a19fe6af91a6d",
+  "method_sha256": "45fefa1e0f6c548963462bd860ef23d8b5343e1dcd1b644185b2de1aab505589",
+  "primary": "conditional_joint",
+  "arms": [
+    "conditional_joint",
+    "conditional_marginal",
+    "conditional_factorized",
+    "conditional_gaussian",
+    "conditional_sandwich",
+    "conditional_joint_diagP",
+    "conditional_copula",
+    "legacy_factorized",
+    "legacy_sandwich"
+  ],
+  "frozen_source_count": 28,
+  "all_frozen_hashes_and_acquisition_authorization_verified": true,
+  "external_source_hashes_verified": true,
+  "external_rules": [
+    "pdf",
+    "qmf"
+  ],
+  "api": {
+    "passed": true,
+    "constructed_states": 9,
+    "active_dimensions": [
+      1,
+      2,
+      3
+    ],
+    "archive_cases": [
+      "empty",
+      "complete",
+      "mixed"
+    ],
+    "checked_arm_calls": 81,
+    "all_seven_matched_keys_present": true,
+    "all_nine_arm_forecasts_callable": true,
+    "old_diagP_formula_error": 0.0,
+    "exact_marginal_variance_error": 0.0,
+    "future_truth_F_S_poison_error": 0.0,
+    "all_ready_flags_match_mature_eligibility": true
+  },
+  "imported_local_python_count": 23,
+  "uncovered_imported_local_sources": [],
+  "uncovered_scope": "old load_dataset/make_prefix adapter imported by generic helpers; final HARTH runner uses its separately frozen physical adapter, so old adapter is inactive for data preparation",
+  "scientific_limit": "source consistency and finite API checks do not imply posterior calibration or superior physical return"
+}
