@@ -1,0 +1,37 @@
+{
+  "cache_sha256": "911fd4b34a3f568984b9baaaabd7c55397676a857bd8cf9017103057b1c7e5ec",
+  "math_sha256": "cc383c73aecf80df6c385f7790db4828a61b9723d2ccbb27ef69161c1987805c",
+  "verifier_sha256": "c4385be44d1e9fd5c2d70c19ecc1601793ffa7026c1aa45e0e579a78bdc48e2d",
+  "original_frozen_RSS_sha256": "0ae839aa79fa4aa711b9bd22638253f654735e036983d60967bb228eb732836e",
+  "predictions_sha256": "602ec62526320af1169b614c6cd24cd938125c51617a31fff2dddb75c9cf0d59",
+  "summary_sha256": "8ce0e5d2baf4e8c0b13040b03e6193edd1188d7f0c5744aa039f991f556209b4",
+  "state_count": 210,
+  "source_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_rss_evidence_20261004/bridge_math.py": "cc383c73aecf80df6c385f7790db4828a61b9723d2ccbb27ef69161c1987805c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_rss_evidence_20261004/verify_cached.py": "c4385be44d1e9fd5c2d70c19ecc1601793ffa7026c1aa45e0e579a78bdc48e2d",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_conditional_20261004/run_conditional.py": "9b75cf9e812d3058962cedbda073d15196e84f965f97a18533cb8080057538b5",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_conditional_20261004/run_development.py": "bad4b1934f23275199342dbe58de091a8f595b66ee6490b846f7ef0abc45ada4",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_conditional_20261004/tie_v2_protocol.json": "87056c14d271b5df743859936a81aa59c815e4069992a94b9862d4dad0fab595",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_conditional_20261004/rss348_tie_v2_results.json.gz": "0ae839aa79fa4aa711b9bd22638253f654735e036983d60967bb228eb732836e",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_increment_20261003/cumulant/run_cumulant.py": "3d8f3280770d93d4efa1d2fbef9d4941deb69ecb594ab21b17c6fa330e67f5c2",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/matrix/factorized/factorized_control.py": "4cf38ffb2b691dab8fb51d79113e83d26681428088e597db00931e935ff1d884",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/matrix/run_matrix_controls.py": "df24d90dd8706c4516dbb312c660cf0e31f09aae9f80aee5e2371ed7a9067f1b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_temporal_20261003/temporal_fusion.py": "811f98531ad3e135ceafbc64152b41ffbf380878cb45a1f7106eb54364157ff0",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/fresh/new_data_adapter.py": "15c32d48e7af7e49309b10a424665f64a47c33314ea286fb0275786042a91a7c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_temporal_20261003/physical/data/rss348/cache_metadata.json": "3e625263856d18afe0b84b09607fca727018b15ab6c8c7092fa3b5a37b813b28"
+  },
+  "scope": "lossless frozen-state numerical/guard replay; physical service provenance remains in unchanged dependency archive",
+  "verification": {
+    "passed": true,
+    "max_endpoint_moment_error": 2.636779683484747e-16,
+    "max_service_error": 0.0,
+    "max_quadrature_error": 8.881784197001252e-16,
+    "max_quadrature_nodes": 512,
+    "max_coordinate_marginal_variance_error": 6.938893903907228e-18,
+    "max_gaussian_bridge_mean_covariance_error": 5.551115123125783e-17,
+    "max_mixture_moment_identity_error": 1.1102230246251565e-16,
+    "posterior_inputs": "h and frozen error-law parameters only; current truths used only after prediction for offline callback/accounting",
+    "future_truth_poison_input_checks": 210,
+    "all_maturity_checks": true
+  }
+}

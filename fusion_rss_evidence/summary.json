@@ -1,0 +1,992 @@
+{
+  "summaries": [
+    {
+      "family": "product_to_joint",
+      "tau": 0.0,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint",
+      "tau": 0.25,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint",
+      "tau": 0.5,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint",
+      "tau": 0.75,
+      "unguarded_mean_increment": 34.4,
+      "guarded_mean_increment": 34.4,
+      "unguarded_increments": [
+        31.0,
+        76.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "guarded_increments": [
+        31.0,
+        76.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 15,
+        "beneficial": 12,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 172.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          11,
+          15
+        ]
+      },
+      "guarded": {
+        "admissions": 15,
+        "beneficial": 12,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 172.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          11,
+          15
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 88.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 3,
+        "difference": 88.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 88.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 3,
+        "difference": 88.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint",
+      "tau": 1.0,
+      "unguarded_mean_increment": 39.4,
+      "guarded_mean_increment": 35.6,
+      "unguarded_increments": [
+        37.0,
+        76.0,
+        15.0,
+        41.0,
+        28.0
+      ],
+      "guarded_increments": [
+        37.0,
+        76.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 17,
+        "beneficial": 14,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 197.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          12,
+          17
+        ]
+      },
+      "guarded": {
+        "admissions": 16,
+        "beneficial": 13,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 178.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          11,
+          16
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 113.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 5,
+        "difference": 113.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 94.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 4,
+        "difference": 94.0
+      },
+      "refused": 1
+    },
+    {
+      "family": "product_to_joint_diagP",
+      "tau": 0.0,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint_diagP",
+      "tau": 0.25,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint_diagP",
+      "tau": 0.5,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint_diagP",
+      "tau": 0.75,
+      "unguarded_mean_increment": 28.8,
+      "guarded_mean_increment": 28.8,
+      "unguarded_increments": [
+        31.0,
+        76.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        31.0,
+        76.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 14,
+        "beneficial": 11,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 144.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          10,
+          14
+        ]
+      },
+      "guarded": {
+        "admissions": 14,
+        "beneficial": 11,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 144.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          10,
+          14
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 60.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 2,
+        "difference": 60.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 60.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 2,
+        "difference": 60.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "product_to_joint_diagP",
+      "tau": 1.0,
+      "unguarded_mean_increment": 39.4,
+      "guarded_mean_increment": 35.6,
+      "unguarded_increments": [
+        37.0,
+        76.0,
+        15.0,
+        41.0,
+        28.0
+      ],
+      "guarded_increments": [
+        37.0,
+        76.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 17,
+        "beneficial": 14,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 197.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          12,
+          17
+        ]
+      },
+      "guarded": {
+        "admissions": 16,
+        "beneficial": 13,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 178.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          11,
+          16
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 113.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 5,
+        "difference": 113.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 94.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 4,
+        "difference": 94.0
+      },
+      "refused": 1
+    },
+    {
+      "family": "gaussian_to_joint",
+      "tau": 0.0,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          5,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          5,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "gaussian_to_joint",
+      "tau": 0.25,
+      "unguarded_mean_increment": 16.8,
+      "guarded_mean_increment": 16.8,
+      "unguarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          5,
+          12
+        ]
+      },
+      "guarded": {
+        "admissions": 12,
+        "beneficial": 9,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 84.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          5,
+          12
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 0.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 0,
+        "difference": 0.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "gaussian_to_joint",
+      "tau": 0.5,
+      "unguarded_mean_increment": 24.4,
+      "guarded_mean_increment": 24.4,
+      "unguarded_increments": [
+        9.0,
+        76.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        9.0,
+        76.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 13,
+        "beneficial": 10,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 122.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          13
+        ]
+      },
+      "guarded": {
+        "admissions": 13,
+        "beneficial": 10,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 122.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          8,
+          13
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 38.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 1,
+        "difference": 38.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 38.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 1,
+        "difference": 38.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "gaussian_to_joint",
+      "tau": 0.75,
+      "unguarded_mean_increment": 28.8,
+      "guarded_mean_increment": 28.8,
+      "unguarded_increments": [
+        31.0,
+        76.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "guarded_increments": [
+        31.0,
+        76.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 14,
+        "beneficial": 11,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 144.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          9,
+          14
+        ]
+      },
+      "guarded": {
+        "admissions": 14,
+        "beneficial": 11,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 144.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          9,
+          14
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 60.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 2,
+        "difference": 60.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 60.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 2,
+        "difference": 60.0
+      },
+      "refused": 0
+    },
+    {
+      "family": "gaussian_to_joint",
+      "tau": 1.0,
+      "unguarded_mean_increment": 39.4,
+      "guarded_mean_increment": 35.6,
+      "unguarded_increments": [
+        37.0,
+        76.0,
+        15.0,
+        41.0,
+        28.0
+      ],
+      "guarded_increments": [
+        37.0,
+        76.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "unguarded": {
+        "admissions": 17,
+        "beneficial": 14,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 197.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          12,
+          17
+        ]
+      },
+      "guarded": {
+        "admissions": 16,
+        "beneficial": 13,
+        "harmful": 1,
+        "zero": 2,
+        "return_sum": 178.0,
+        "negative_loss": 1.0,
+        "admitted_coverage": [
+          11,
+          16
+        ]
+      },
+      "fixed_four_terms_vs_tau0": {
+        "kept_gain": 113.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 5,
+        "difference": 113.0
+      },
+      "guarded_four_terms_vs_tau0": {
+        "kept_gain": 94.0,
+        "missed_gain": 0.0,
+        "incurred_loss": 0.0,
+        "avoided_loss": 0.0,
+        "retained_beneficial": 9,
+        "baseline_beneficial": 9,
+        "changed": 4,
+        "difference": 94.0
+      },
+      "refused": 1
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "max_endpoint_moment_error": 2.636779683484747e-16,
+    "max_service_error": 0.0,
+    "max_quadrature_error": 8.881784197001252e-16,
+    "max_quadrature_nodes": 512,
+    "max_coordinate_marginal_variance_error": 6.938893903907228e-18,
+    "max_gaussian_bridge_mean_covariance_error": 5.551115123125783e-17,
+    "max_mixture_moment_identity_error": 1.1102230246251565e-16,
+    "posterior_inputs": "h and frozen error-law parameters only; current truths used only after prediction for offline callback/accounting",
+    "future_truth_poison_input_checks": 210,
+    "all_maturity_checks": true
+  }
+}

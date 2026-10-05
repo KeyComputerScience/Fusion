@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "states": 210,
+  "posterior_scores": 3150,
+  "max_prediction_error": 0.0,
+  "max_guard_increment_error": 0.0,
+  "max_quadrature_error": 8.881784197001252e-16,
+  "provenance_scope": "cached frozen-state numeric/schedule replay; original archive carries full physical service checks",
+  "isolated_directory_files": [
+    "bridge_math.py",
+    "verify_cached.py",
+    "cached_states.json.gz",
+    "cached_manifest.json",
+    "predictions.csv",
+    "summary.json"
+  ],
+  "no_parent_engine_or_physical_data_copied": true,
+  "cached_input_sha256": "911fd4b34a3f568984b9baaaabd7c55397676a857bd8cf9017103057b1c7e5ec"
+}

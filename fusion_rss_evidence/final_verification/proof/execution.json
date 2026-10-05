@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "scope": "Synthetic posterior-bridge identities and perturbation bounds; not physical outcomes",
+  "unchanged_check_source_sha256": "981d29c416afef64c9dd64297be690f30605ca22e43bf1898fecb843d9cc1b62",
+  "summary": {
+    "max_absolute_identity_errors": {
+      "posterior_density": 1.4210854715202004e-14,
+      "conditional_mean": 4.163336342344337e-17,
+      "conditional_variance": 5.204170427930421e-18,
+      "paid_score": 7.105427357601002e-15,
+      "score_derivative": 3.8807306879107273e-07,
+      "source_marginal": 1.7763568394002505e-15,
+      "source_mean": 0.0,
+      "source_covariance": 1.734723475976807e-18,
+      "posterior_TV_scaling": 4.440892098500626e-16
+    },
+    "finite_probability_checks": {
+      "case_count": 12101,
+      "max_mean_bound_ratio": 1.0000000000000004,
+      "max_variance_bound_ratio": 1.0,
+      "max_score_bound_ratio": 1.0000000000000004,
+      "smallest_variance_bound_slack": 0.0,
+      "smallest_score_bound_slack": -7.105427357601002e-15
+    },
+    "gate_changes_in_synthetic_cases": 6
+  }
+}
