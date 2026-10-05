@@ -1,0 +1,22 @@
+{
+  "source_sha256": "054880aec6d6002ef3d98992cbd3d247126d7e98658d04419fa1cb3689cc99a6",
+  "bib_sha256": "f7892c460bd037b671b2a78a8d464c4d61bef137950e922546ae5912d3bb868b",
+  "sections": [
+    "Introduction",
+    "Related Work",
+    "Methodology",
+    "Performance"
+  ],
+  "citations": 41,
+  "tables": 9,
+  "figures": 3,
+  "undefined_references": [],
+  "compile": "native desktop compiler success on saved final source",
+  "fresh_reproduction": {
+    "selected_parameters": "exact",
+    "issued_scores_and_callbacks": "exact",
+    "guarded_actions_and_service": "exact",
+    "all_budget_paths": "exact",
+    "scope": "same source/data closure; fresh output, calibration and test processes; no new efficacy observations"
+  }
+}
