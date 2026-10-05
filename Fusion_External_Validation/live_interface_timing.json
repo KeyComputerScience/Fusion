@@ -1,0 +1,87 @@
+{
+  "kind": "local admission-interface timing",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cpu": "arm",
+  "machine": "arm64",
+  "platform": "darwin",
+  "numerical_thread_environment": {
+    "OPENBLAS_NUM_THREADS": null,
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "timed_operations": [
+    "input validation",
+    "frozen solver",
+    "issued-score gate"
+  ],
+  "excluded_operations": [
+    "source inference",
+    "source training",
+    "archive moment construction"
+  ],
+  "warmup_passes": 3,
+  "timed_passes": 25,
+  "datasets": [
+    {
+      "dataset": "occupancy357",
+      "source_dimensions": [
+        3,
+        4
+      ],
+      "distinct_records": 8,
+      "timed_calls": 200,
+      "median_ms": 0.8479165,
+      "p95_ms": 2.99657115,
+      "maximum_ms": 3.692917,
+      "minimum_ms": 0.141875,
+      "actions_match_frozen_trial": true,
+      "repetitions_are_not_utility_trials": true
+    },
+    {
+      "dataset": "occupancy864",
+      "source_dimensions": [
+        4,
+        5
+      ],
+      "distinct_records": 8,
+      "timed_calls": 200,
+      "median_ms": 0.09575,
+      "p95_ms": 0.10720829999999996,
+      "maximum_ms": 0.213959,
+      "minimum_ms": 0.088125,
+      "actions_match_frozen_trial": true,
+      "repetitions_are_not_utility_trials": true
+    },
+    {
+      "dataset": "mhealth319",
+      "source_dimensions": [
+        2,
+        3
+      ],
+      "distinct_records": 8,
+      "timed_calls": 200,
+      "median_ms": 0.2340625,
+      "p95_ms": 1.15689965,
+      "maximum_ms": 1.25075,
+      "minimum_ms": 0.137167,
+      "actions_match_frozen_trial": true,
+      "repetitions_are_not_utility_trials": true
+    },
+    {
+      "dataset": "har240",
+      "source_dimensions": [
+        1,
+        2
+      ],
+      "distinct_records": 8,
+      "timed_calls": 200,
+      "median_ms": 0.0920005,
+      "p95_ms": 0.10063094999999998,
+      "maximum_ms": 0.127333,
+      "minimum_ms": 0.074958,
+      "actions_match_frozen_trial": true,
+      "repetitions_are_not_utility_trials": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "tolerance": 1e-08,
+  "comparisons": [
+    {
+      "dataset": "occupancy357",
+      "trials": 5,
+      "arms": 10
+    },
+    {
+      "dataset": "occupancy864",
+      "trials": 5,
+      "arms": 10
+    },
+    {
+      "dataset": "mhealth319",
+      "trials": 5,
+      "arms": 11
+    },
+    {
+      "dataset": "har240",
+      "trials": 5,
+      "arms": 11
+    }
+  ],
+  "errors": [],
+  "differences": 0,
+  "ignored_fields": "timestamps, timing, output-location and serialization hash metadata only"
+}

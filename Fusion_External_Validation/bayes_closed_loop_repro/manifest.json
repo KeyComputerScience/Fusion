@@ -1,0 +1,341 @@
+{
+  "source_tex": {
+    "name": "risk_rf_revision.tex",
+    "bytes": 52686,
+    "sha256": "0e4fc1dd30a771292b1437bf8690d3469042161c21d9cc77585bb062cdf50f51"
+  },
+  "files": [
+    {
+      "path": "CACHED_DATA.md",
+      "bytes": 3192,
+      "sha256": "e5721ec73e98128c7007dc8c44750505661d4bc20744f9313a842dcfd7f7c3a2"
+    },
+    {
+      "path": "CACHE_REBUILD.md",
+      "bytes": 1855,
+      "sha256": "58e87b5871e29a46e47dd6909359322135b162c3000fad565573803ea662b570"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8751,
+      "sha256": "6f399f7154608e175af3f0ae3852317a761d22e8c59c7f8020a5ac2075e23bf3"
+    },
+    {
+      "path": "analysis/analysis.json",
+      "bytes": 751777,
+      "sha256": "8dc74baef66706462192fe0e97d565a07aec3b7dadb2ea99a0b49276130d951a"
+    },
+    {
+      "path": "analyze_posterior_trials.py",
+      "bytes": 6506,
+      "sha256": "32e374497ff91df4dd49a0108b1683ff38477d2e364513916ed5de3097e2058f"
+    },
+    {
+      "path": "audit_all_four_bayes.py",
+      "bytes": 5507,
+      "sha256": "b6b8cb1bce5c1be9f9894184d1eb42594eaa1cdb0b30c09ea45898dfeb1b0ada"
+    },
+    {
+      "path": "audit_canary_execution.py",
+      "bytes": 8370,
+      "sha256": "5f6c6ec9448913d923066afac07f69b4e3ba5518c81c7e918484aa5bb8561b49"
+    },
+    {
+      "path": "audit_production_bayes_guard.py",
+      "bytes": 3355,
+      "sha256": "a2c448d3d07a10334ef0eb46ccbdc64982e8dc690b79824bfb066e6046f9c125"
+    },
+    {
+      "path": "cache_rebuild_verification.json",
+      "bytes": 1339,
+      "sha256": "975d614425bb5f1537a4cd8c478f239c6d630433fb99febdcffc1d1af46ed947"
+    },
+    {
+      "path": "cache_verification.json",
+      "bytes": 963,
+      "sha256": "0a480eefa831f0ca2f212f1263005e8cfe15984e2e7b2879e0c62cdcd145d9c4"
+    },
+    {
+      "path": "cached_runner.py",
+      "bytes": 3458,
+      "sha256": "53443799ca051f7c24b60c8d1346ecbed8d5df9c48bfb5f84e17de5378788208"
+    },
+    {
+      "path": "cached_service_audit.json",
+      "bytes": 64452,
+      "sha256": "4eb60b7e37f4e601490fd9e4b723fdc5986888926296cf7a092ecfbdc20c7f37"
+    },
+    {
+      "path": "diagnose_extension_matrices.py",
+      "bytes": 1871,
+      "sha256": "17b3ebf9254f38b9a7ff1639c7c4382039069666a1b96f3a0d071fd5260e88f6"
+    },
+    {
+      "path": "diagnostic_bayes_sensitivity.py",
+      "bytes": 5700,
+      "sha256": "685742f47debdcb3b5f57723687fac6f59acab94ee75f3a920e6dbb09dae8acb"
+    },
+    {
+      "path": "final_execution_safety_notes.md",
+      "bytes": 3398,
+      "sha256": "228eedfaf12ebb064a296fe8b2d6ab9abe68db7d7c6e65305d60aa4713a8e0cf"
+    },
+    {
+      "path": "independent_bayes_extension.py",
+      "bytes": 10762,
+      "sha256": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f"
+    },
+    {
+      "path": "independent_bayes_fusion.py",
+      "bytes": 24294,
+      "sha256": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57"
+    },
+    {
+      "path": "independent_data/har240/cache_metadata.json",
+      "bytes": 4396,
+      "sha256": "c21dc44a23c2aa98932231a03e188f5fa74add918767c99f23fe395f8e644372"
+    },
+    {
+      "path": "independent_data/har240/cached_dataset.npz",
+      "bytes": 1702495,
+      "sha256": "451131bad99be35035bb433cc0b44b25a9106d6745e48121e08888a4763938ec"
+    },
+    {
+      "path": "independent_data/mhealth319/cache_metadata.json",
+      "bytes": 3991,
+      "sha256": "ba4fcb53db91aa0a8f841481ea60b582428c342e860056c5ac3b47a03dab2b44"
+    },
+    {
+      "path": "independent_data/mhealth319/cached_dataset.npz",
+      "bytes": 542501,
+      "sha256": "7f37690fdc95c87996dfd863f76764149281a81bcafb00b7092b53e33db64601"
+    },
+    {
+      "path": "independent_data/occupancy357/datatest.txt",
+      "bytes": 200766,
+      "sha256": "1b92c7c1b2838963464fa891a610cf3c5db4becb7189189b29b330107a584c7f"
+    },
+    {
+      "path": "independent_data/occupancy357/datatest2.txt",
+      "bytes": 699664,
+      "sha256": "d026d1bd5aeccd4aff4f3b3710d48e40613bd5fc370db7e61bbdcaa50d985095"
+    },
+    {
+      "path": "independent_data/occupancy357/datatraining.txt",
+      "bytes": 596674,
+      "sha256": "b2c4d0ce2b9e4e453c476f7125ef31aeec2d1f5c7f5572d0e80de3df6521ab56"
+    },
+    {
+      "path": "independent_data/occupancy864/Occupancy_Estimation.csv",
+      "bytes": 931630,
+      "sha256": "c090ee5c94b61762bfec9d22767864490b51030f98cca030f02822468db25d9c"
+    },
+    {
+      "path": "new_bayes_extension/README.md",
+      "bytes": 5405,
+      "sha256": "517cee69b5d67e800fa4e06635c63fff2afd4086bf27424d23490182246101fc"
+    },
+    {
+      "path": "new_bayes_extension/algebra_audit.json",
+      "bytes": 442,
+      "sha256": "24ea1d077b4f3c2c282f7adca55337c90b5f71359e789ab17173cf78660a66b6"
+    },
+    {
+      "path": "new_bayes_extension/all_four_integrity_audit.json",
+      "bytes": 71937,
+      "sha256": "486eee7d21c21aebdc63fa1e9aeef02269007f46cd2cb975ea6db0a17b75a868"
+    },
+    {
+      "path": "new_bayes_extension/canary_execution_audit.json",
+      "bytes": 64452,
+      "sha256": "4eb60b7e37f4e601490fd9e4b723fdc5986888926296cf7a092ecfbdc20c7f37"
+    },
+    {
+      "path": "new_bayes_extension/har240_prefix_selection.json",
+      "bytes": 74516,
+      "sha256": "14d702197b2591f76ab86d9ba44bdd362105eb925dfc46300e9d1d1109966166"
+    },
+    {
+      "path": "new_bayes_extension/har240_results.json",
+      "bytes": 2743272,
+      "sha256": "8b5a2b538a6f3948e75d8beb7fe6531bb03f22c9d74f707fb8ea3cb9095360c6"
+    },
+    {
+      "path": "new_bayes_extension/matrix_diagnostics.json",
+      "bytes": 265291,
+      "sha256": "94c8d6e437af4c71c14908d2419e32b4771b2dee13c905d5352f346391fdb864"
+    },
+    {
+      "path": "new_bayes_extension/mhealth319_prefix_selection.json",
+      "bytes": 58851,
+      "sha256": "4b695ff8cb08ca78bb5f95c130a7818b8d00f3ba8a27823c165f4f335ecd46c2"
+    },
+    {
+      "path": "new_bayes_extension/mhealth319_results.json",
+      "bytes": 1888337,
+      "sha256": "37b009b4200e1455f886d5a52e5cb1f1b48bd5134203361946f4acb78ed12660"
+    },
+    {
+      "path": "new_bayes_extension/pretest_freeze.json",
+      "bytes": 323,
+      "sha256": "8d17b377d40c4b5f4eeddae2df21347b2aa6eb702d2bd8cb2cd0cc21ad4f1b40"
+    },
+    {
+      "path": "new_bayes_extension/protocol.json",
+      "bytes": 3891,
+      "sha256": "98d0362f355f814e7207e36943f3e3b7ce724f9fd043b3e43153ed4b2ee0ec9c"
+    },
+    {
+      "path": "new_bayes_extension/results.json",
+      "bytes": 4920159,
+      "sha256": "434d09b59c4a4cf29b12b29fab9cd3c481d61d4ff900b96f9e66d654ee17f2cc"
+    },
+    {
+      "path": "new_bayes_extension/summary.json",
+      "bytes": 7483,
+      "sha256": "f71c13b246775da79c76887baae4e890c46c9ad50cb8a2de46a1922a4a3c2e00"
+    },
+    {
+      "path": "new_bayes_fusion/README.md",
+      "bytes": 4932,
+      "sha256": "f075037efb82a0e24cc2b1945cf9cbf0ffeb135405475932e417d248bd46e3ae"
+    },
+    {
+      "path": "new_bayes_fusion/algebra_audit.json",
+      "bytes": 442,
+      "sha256": "24ea1d077b4f3c2c282f7adca55337c90b5f71359e789ab17173cf78660a66b6"
+    },
+    {
+      "path": "new_bayes_fusion/canary_execution_audit.json",
+      "bytes": 57979,
+      "sha256": "ce07e705529bc0c86bda4060b175783f372e0c704b85376fb7427c71bcde63ae"
+    },
+    {
+      "path": "new_bayes_fusion/occupancy357_prefix_selection.json",
+      "bytes": 109800,
+      "sha256": "8c924a23dad0c1a5b2a7db789f7e273e8b7170f541d7026c8cd1572446bd575d"
+    },
+    {
+      "path": "new_bayes_fusion/occupancy357_results.json",
+      "bytes": 4555170,
+      "sha256": "77dddb4b85d6ca872bfe1be68786530dfafd55e44482252b323b61080842c7f6"
+    },
+    {
+      "path": "new_bayes_fusion/occupancy864_prefix_selection.json",
+      "bytes": 66453,
+      "sha256": "a499af6741f39c330d68cf3cbe17efc2f0d32aa61b1d9734f7aabf765087e0ba"
+    },
+    {
+      "path": "new_bayes_fusion/occupancy864_results.json",
+      "bytes": 2376052,
+      "sha256": "c7c1804675fdfeb7183ef3da5f0084b217b42725126f7b58d1bb0d7b2fa25822"
+    },
+    {
+      "path": "new_bayes_fusion/pretest_freeze.json",
+      "bytes": 238,
+      "sha256": "cd4c55926399dd0392867672f03759ce31f379bee659661fa318efe8e0f5ad6a"
+    },
+    {
+      "path": "new_bayes_fusion/protocol.json",
+      "bytes": 4365,
+      "sha256": "921eb4540ec9b6b9c159edd6b027c4620a6d5b04f13c5699a14089b64d35ac8d"
+    },
+    {
+      "path": "new_bayes_fusion/protocol_v1.json",
+      "bytes": 4318,
+      "sha256": "16e243b00357b964f75cb8b7f9014e5294cde5c4a724360a6aef1bb29548ba85"
+    },
+    {
+      "path": "new_bayes_fusion/protocol_v2.json",
+      "bytes": 4314,
+      "sha256": "3faf1f32f55c8a5862c263c523a4a3f82d24aa377f9cc7c8bfa27e6e9e7d2cb5"
+    },
+    {
+      "path": "new_bayes_fusion/result_integrity_audit.json",
+      "bytes": 30064,
+      "sha256": "89807abeb567051f2d889b19a51c9808ae8b511868ff292d146f99046e856a20"
+    },
+    {
+      "path": "new_bayes_fusion/results.json",
+      "bytes": 7382916,
+      "sha256": "b73e9bea7ec83b7da8b99c8b11ea88a25f45ea60a42c361e9020606cf394f961"
+    },
+    {
+      "path": "new_bayes_fusion/summary.json",
+      "bytes": 6400,
+      "sha256": "572b279e1e8d06760f53ba9bec4362b74ce349bfed09ba236c4043e8b40fe6ac"
+    },
+    {
+      "path": "new_bayes_sensitivity/har240_sensitivity.json",
+      "bytes": 100105,
+      "sha256": "5f50be3024530c5dd3de2ba2eb91c12c69eb9c4b06262abf60e7e2b9964fc451"
+    },
+    {
+      "path": "new_bayes_sensitivity/mhealth319_sensitivity.json",
+      "bytes": 91552,
+      "sha256": "93258c4b7696cab4b6fe3df4e82c00b36985ed8d34ed93d9362ad8aea5760148"
+    },
+    {
+      "path": "new_bayes_sensitivity/occupancy357_sensitivity.json",
+      "bytes": 128046,
+      "sha256": "ef90942645f24fb79706eff81263333ca737eeb8fe327b6f05f3c4c844ec02da"
+    },
+    {
+      "path": "new_bayes_sensitivity/occupancy864_sensitivity.json",
+      "bytes": 99195,
+      "sha256": "25d3ff17d13fdb055bd517b70a8fb0603f883f6d0dc55da7f8809de3f7ae7fbf"
+    },
+    {
+      "path": "new_bayes_sensitivity/reproduction_audit.json",
+      "bytes": 182,
+      "sha256": "879715f8eeb3cf4b98d8d4eb8b7eb54490f7c41feb36a22a301ae98635a62a37"
+    },
+    {
+      "path": "new_bayes_sensitivity/results.json",
+      "bytes": 452804,
+      "sha256": "a4375b4014e5863f685cb388f6b15e9fc81fad24201e02725880e391488a8682"
+    },
+    {
+      "path": "new_bayes_sensitivity/summary.json",
+      "bytes": 19945,
+      "sha256": "9e71bcfc08423c55db5e1849b0b56b3a525f492038c1ef126e9f523be1a4185c"
+    },
+    {
+      "path": "portable_full_run_audit.json",
+      "bytes": 299,
+      "sha256": "262c0de949dc7fe2b46c5be4d3cc452d50d76e7f31d1bbb72b7034bda750bfa8"
+    },
+    {
+      "path": "posterior_gate_theory_audit.json",
+      "bytes": 24059,
+      "sha256": "46f0a286af6850cf75b973ecc7ce67e8e3c280c1d8696ab2f5015f682b61c4d3"
+    },
+    {
+      "path": "prepare_raw_data.py",
+      "bytes": 4899,
+      "sha256": "f0d080445d9c4dd97a58432fd50346927ef59c4a664f6a94497d228331d8425d"
+    },
+    {
+      "path": "production_bayes_guard.py",
+      "bytes": 4686,
+      "sha256": "b7feaadafde215f6e8cc6eb5c6e67f4d9427f7e4d93811e6102cc339a5e2bf91"
+    },
+    {
+      "path": "production_guard_audit.json",
+      "bytes": 3998,
+      "sha256": "d69f404de80e0f2d513e9115cc16825443958eadf3cdf31de3df6dedbcf798fb"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    {
+      "path": "verify_cache_from_raw.py",
+      "bytes": 4455,
+      "sha256": "773a91b0739ba376e0d7c2406561f0edbe9a4f805a41c3037a7d4e9e5241e865"
+    }
+  ],
+  "file_count": 66,
+  "scope": "Frozen base plus extension, lossless inputs, complete outcomes and independent audits; main LaTeX is standalone"
+}

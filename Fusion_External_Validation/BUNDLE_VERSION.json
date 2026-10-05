@@ -1,0 +1,29 @@
+{
+  "bundle": "Fusion External Validation Reproduction",
+  "bundle_version": "1.0",
+  "schema_version": 1,
+  "created_date": "2026-10-02",
+  "layout": {
+    "bayes_closed_loop_repro": "Unchanged frozen four-task package; retain all byte hashes",
+    "performance_gain_evidence": "Unchanged supplementary runner, protocol and complete five-seed results",
+    "supplementary_auxiliary": "Additional original crossing script/results; runtime path injection only",
+    "external": "Separate frozen PDF-P and QMF-E probability/energy-rule adaptations, with full prefix grids and test logs"
+  },
+  "reference_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "packaging_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "source_hashes": {
+    "independent_bayes_fusion.py": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+    "independent_bayes_extension.py": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f",
+    "pdf_runner": "50dbfaa37d89ff97975bc61cdd1ec4b6afc9de63cfea199c21ec02068dc3c517",
+    "qmf_runner": "a0484d795adcbc0626c744a72d6b097b1713677c74aa076f3c2e2225c3812ba4"
+  },
+  "input_directories_untouched": true,
+  "finalized_date": "2026-10-03"
+}

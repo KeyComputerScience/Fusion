@@ -1,0 +1,50 @@
+{
+  "kind": "Offline relocated-entry verification",
+  "relocated_bundle": "/private/tmp/fusion_portable_validation_20261002",
+  "all_commands_passed": true,
+  "commands": [
+    "verify",
+    "audit-primary",
+    "audit-supp",
+    "analyze",
+    "rerun-primary",
+    "rerun-supp",
+    "crossings",
+    "sensitivity",
+    "benchmark",
+    "external-pdf",
+    "external",
+    "analyze-external"
+  ],
+  "primary_trajectories": 210,
+  "supplementary_trajectories": 80,
+  "primary_all_grid_and_policy_fields_match": true,
+  "supplementary_all_policy_fields_match": true,
+  "max_primary_service_error": 2.2737367544323206e-13,
+  "max_supplementary_service_error": 3.552713678800501e-14,
+  "performance_endpoint_analysis_reran": true,
+  "reference_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "untested_in_this_pass": [
+    "hardware/field deployment and persistent restart recovery"
+  ],
+  "note": "No original model/adapter/protocol/result bytes changed. Initial relocation copied before the delivery manifest was written; manifest was then copied and verification passed. This packaging-order correction affected no experimental source or result.",
+  "sensitivity_baseline_error": 0.0,
+  "timing_action_equivalence": true,
+  "external_pdf_full_prefix_and_policy_execution_fields_match": true,
+  "external_pdf_stage_trajectory_checks": 120,
+  "new_pdf_policy_replays": 40,
+  "external_pdf_internal_reference_reconstruction_checks": 80,
+  "external_qmf_full_prefix_and_policy_execution_fields_match": true,
+  "external_qmf_stage_trajectory_checks": 120,
+  "new_qmf_policy_replays": 40,
+  "external_qmf_internal_reference_reconstruction_checks": 80,
+  "all_original_and_external_stage_checks": 530,
+  "new_external_policy_replays_total": 80,
+  "original_and_both_external_analysis_passed": true,
+  "unified_external_fresh_output": "/private/tmp/fusion_external_all_unified_20261003",
+  "all_retained_analysis_output": "/private/tmp/fusion_all_analysis_unified_20261003",
+  "stage_count_interpretation": "290 original logs + PDF 120 + QMF 120 stage checks. Each external stage includes 40 new policy replays and 80 reconstructions of existing controls; these are repeated interventions on four fixed traces, not 530 independent experiments."
+}

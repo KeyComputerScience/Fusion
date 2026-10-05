@@ -1,0 +1,2563 @@
+{
+  "passed": true,
+  "base_code_sha": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+  "adapter_sha": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f",
+  "policy_trajectories": 210,
+  "policy_fork_checks": 7665,
+  "unique_scenario_forks": 740,
+  "max_independent_service_error": 2.2737367544323206e-13,
+  "max_calibration_identity_error": 6.483702463810914e-14,
+  "max_kkt": 9.871019834850614e-10,
+  "results": {
+    "occupancy357": {
+      "split": {
+        "prefix_rows": 6168,
+        "training_rows": 4285,
+        "audit_rows": 1883,
+        "calibration_rows": 6168,
+        "test_rows": 8224,
+        "train_start": "2015-02-02T14:19:00",
+        "prefix_end": "2015-02-07T04:13:00",
+        "calibration_end": "2015-02-12T16:14:59",
+        "test_start": "2015-02-12T16:15:59",
+        "test_end": "2015-02-18T09:19:00"
+      },
+      "checks": [
+        {
+          "seed": 72001,
+          "mode": "mean_only",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "diagonal",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "joint",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_weights",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "posterior_unused",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "periodic",
+          "service_error": 2.2737367544323206e-13,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "mean_only",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "diagonal",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "joint",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_weights",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "posterior_unused",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "periodic",
+          "service_error": 2.2737367544323206e-13,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "mean_only",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "diagonal",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "joint",
+          "service_error": 0.0,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_weights",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "posterior_unused",
+          "service_error": 0.0,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "periodic",
+          "service_error": 2.2737367544323206e-13,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "mean_only",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "diagonal",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "joint",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_weights",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "posterior_unused",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "periodic",
+          "service_error": 2.2737367544323206e-13,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 64,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "mean_only",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "diagonal",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "joint",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_weights",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "posterior_unused",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "periodic",
+          "service_error": 2.2737367544323206e-13,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 64,
+          "q_callbacks": 63,
+          "causal_maturities_passed": true
+        }
+      ],
+      "paired_vs_full": {
+        "mean_only": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "diagonal": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "joint": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "bayes_weights": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "bayes_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "bayes_both": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "frequentist_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "posterior_unused": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "periodic": {
+          "delta": [
+            315.0,
+            316.0,
+            306.0,
+            311.0,
+            314.0
+          ],
+          "mean": 312.4,
+          "t4_interval": [
+            307.3869978459713,
+            317.4130021540287
+          ]
+        },
+        "frozen": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "occupancy864": {
+      "split": {
+        "prefix_rows": 3038,
+        "training_rows": 2105,
+        "audit_rows": 933,
+        "calibration_rows": 3039,
+        "test_rows": 4052,
+        "train_start": "2017-12-22T10:49:41",
+        "prefix_end": "2017-12-23T13:34:57",
+        "calibration_end": "2017-12-25T15:51:29",
+        "test_start": "2017-12-25T15:51:59",
+        "test_end": "2018-01-11T09:00:09"
+      },
+      "checks": [
+        {
+          "seed": 72001,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "periodic",
+          "service_error": 4.263256414560601e-14,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "periodic",
+          "service_error": 4.263256414560601e-14,
+          "calibration_identity_error": 0.0,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "periodic",
+          "service_error": 4.263256414560601e-14,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "periodic",
+          "service_error": 4.263256414560601e-14,
+          "calibration_identity_error": 2.220446049250313e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 2.220446049250313e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "periodic",
+          "service_error": 4.263256414560601e-14,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 4.440892098500626e-16,
+          "leases": 31,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        }
+      ],
+      "paired_vs_full": {
+        "mean_only": {
+          "delta": [
+            16.0,
+            38.0,
+            37.0,
+            19.0,
+            38.0
+          ],
+          "mean": 29.6,
+          "t4_interval": [
+            15.812496765879608,
+            43.387503234120395
+          ]
+        },
+        "diagonal": {
+          "delta": [
+            16.0,
+            38.0,
+            37.0,
+            19.0,
+            38.0
+          ],
+          "mean": 29.6,
+          "t4_interval": [
+            15.812496765879608,
+            43.387503234120395
+          ]
+        },
+        "joint": {
+          "delta": [
+            16.0,
+            38.0,
+            37.0,
+            19.0,
+            38.0
+          ],
+          "mean": 29.6,
+          "t4_interval": [
+            15.812496765879608,
+            43.387503234120395
+          ]
+        },
+        "bayes_weights": {
+          "delta": [
+            16.0,
+            38.0,
+            37.0,
+            19.0,
+            38.0
+          ],
+          "mean": 29.6,
+          "t4_interval": [
+            15.812496765879608,
+            43.387503234120395
+          ]
+        },
+        "bayes_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "bayes_both": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "frequentist_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "posterior_unused": {
+          "delta": [
+            16.0,
+            38.0,
+            37.0,
+            19.0,
+            38.0
+          ],
+          "mean": 29.6,
+          "t4_interval": [
+            15.812496765879608,
+            43.387503234120395
+          ]
+        },
+        "periodic": {
+          "delta": [
+            166.0,
+            186.0,
+            185.0,
+            169.0,
+            186.0
+          ],
+          "mean": 178.4,
+          "t4_interval": [
+            165.9647490057954,
+            190.8352509942046
+          ]
+        },
+        "frozen": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "har240": {
+      "split": {
+        "prefix_rows": 3089,
+        "training_rows": 2134,
+        "audit_rows": 955,
+        "calibration_rows": 3090,
+        "test_rows": 4120,
+        "train_start": "HAR:subject01:train:segment000000",
+        "prefix_end": "HAR:subject10:test:segment001184",
+        "calibration_end": "HAR:subject20:test:segment002213",
+        "test_start": "HAR:subject20:test:segment002214",
+        "test_end": "HAR:subject30:train:segment007351"
+      },
+      "checks": [
+        {
+          "seed": 72001,
+          "mode": "mean_only",
+          "service_error": 2.1316282072803006e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "diagonal",
+          "service_error": 2.1316282072803006e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "joint",
+          "service_error": 2.1316282072803006e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_weights",
+          "service_error": 2.1316282072803006e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_both",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frequentist_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "posterior_unused",
+          "service_error": 2.1316282072803006e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "periodic",
+          "service_error": 5.684341886080802e-14,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "mean_only",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -5.551115123125783e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "diagonal",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -5.551115123125783e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "joint",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -5.551115123125783e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_weights",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -5.551115123125783e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -5.551115123125783e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": -5.551115123125783e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "posterior_unused",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -5.551115123125783e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "periodic",
+          "service_error": 5.684341886080802e-14,
+          "calibration_identity_error": 0.0,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -5.1514348342607263e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "mean_only",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "diagonal",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "joint",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_weights",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_gate",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_both",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 2.6645352591003757e-15,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "posterior_unused",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "periodic",
+          "service_error": 5.684341886080802e-14,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "mean_only",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "diagonal",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "joint",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_weights",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_both",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frequentist_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "posterior_unused",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "periodic",
+          "service_error": 5.684341886080802e-14,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 0.0,
+          "calibration_identity_error": -6.261657858885883e-14,
+          "leases": 32,
+          "q_callbacks": 31,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "mean_only",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "diagonal",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "joint",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_weights",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_both",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frequentist_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "posterior_unused",
+          "service_error": 2.842170943040401e-14,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "periodic",
+          "service_error": 5.684341886080802e-14,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -6.483702463810914e-14,
+          "leases": 32,
+          "q_callbacks": 32,
+          "causal_maturities_passed": true
+        }
+      ],
+      "paired_vs_full": {
+        "mean_only": {
+          "delta": [
+            7.0,
+            14.0,
+            10.0,
+            -2.0,
+            3.0
+          ],
+          "mean": 6.4,
+          "t4_interval": [
+            -1.2842852142456556,
+            14.084285214245657
+          ]
+        },
+        "diagonal": {
+          "delta": [
+            7.0,
+            14.0,
+            10.0,
+            -2.0,
+            3.0
+          ],
+          "mean": 6.4,
+          "t4_interval": [
+            -1.2842852142456556,
+            14.084285214245657
+          ]
+        },
+        "joint": {
+          "delta": [
+            7.0,
+            14.0,
+            10.0,
+            -2.0,
+            3.0
+          ],
+          "mean": 6.4,
+          "t4_interval": [
+            -1.2842852142456556,
+            14.084285214245657
+          ]
+        },
+        "bayes_weights": {
+          "delta": [
+            7.0,
+            14.0,
+            10.0,
+            -2.0,
+            3.0
+          ],
+          "mean": 6.4,
+          "t4_interval": [
+            -1.2842852142456556,
+            14.084285214245657
+          ]
+        },
+        "bayes_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "bayes_both": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "frequentist_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            18.0,
+            0.0,
+            0.0
+          ],
+          "mean": 3.6,
+          "t4_interval": [
+            -6.395202378712074,
+            13.595202378712074
+          ]
+        },
+        "posterior_unused": {
+          "delta": [
+            7.0,
+            14.0,
+            10.0,
+            -2.0,
+            3.0
+          ],
+          "mean": 6.4,
+          "t4_interval": [
+            -1.2842852142456556,
+            14.084285214245657
+          ]
+        },
+        "periodic": {
+          "delta": [
+            146.0,
+            155.0,
+            131.0,
+            115.0,
+            145.0
+          ],
+          "mean": 138.4,
+          "t4_interval": [
+            118.97281858349552,
+            157.8271814165045
+          ]
+        },
+        "frozen": {
+          "delta": [
+            15.0,
+            0.0,
+            18.0,
+            0.0,
+            14.0
+          ],
+          "mean": 9.4,
+          "t4_interval": [
+            -1.4103235344831617,
+            20.210323534483162
+          ]
+        },
+        "diagonal_posterior_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "mhealth319": {
+      "split": {
+        "prefix_rows": 2060,
+        "training_rows": 1412,
+        "audit_rows": 648,
+        "calibration_rows": 2060,
+        "test_rows": 2748,
+        "train_start": "MHEALTH:subject01:raw000006700",
+        "prefix_end": "MHEALTH:subject03:raw000086900",
+        "calibration_end": "MHEALTH:subject06:raw000090400",
+        "test_start": "MHEALTH:subject06:raw000090450",
+        "test_end": "MHEALTH:subject10:raw000096200"
+      },
+      "checks": [
+        {
+          "seed": 72001,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -2.1316282072803006e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.687538997430238e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "bayes_both",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frequentist_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": 2.6645352591003757e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "periodic",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72001,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -1.7763568394002505e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.2434497875801753e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.2434497875801753e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -8.881784197001252e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.2434497875801753e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -8.881784197001252e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "bayes_both",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -1.2434497875801753e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frequentist_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": 1.7763568394002505e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -8.881784197001252e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "periodic",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72002,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -1.4210854715202004e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.865174681370263e-14,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.4210854715202004e-14,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -4.440892098500626e-15,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -4.440892098500626e-15,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_gate",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -4.440892098500626e-15,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "bayes_both",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -4.440892098500626e-15,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frequentist_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": 2.6645352591003757e-15,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -4.440892098500626e-15,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "periodic",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 8.881784197001252e-16,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72003,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.0658141036401503e-14,
+          "leases": 21,
+          "q_callbacks": 20,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.7763568394002505e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.7763568394002505e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "bayes_both",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frequentist_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": 3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "periodic",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72004,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 1.0658141036401503e-14,
+          "calibration_identity_error": -1.4210854715202004e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "mean_only",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.7763568394002505e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "diagonal",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.7763568394002505e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "joint",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_weights",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "bayes_both",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frequentist_gate",
+          "service_error": 7.105427357601002e-15,
+          "calibration_identity_error": 2.6645352591003757e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "posterior_unused",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -3.552713678800501e-15,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "periodic",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "frozen",
+          "service_error": 0.0,
+          "calibration_identity_error": 0.0,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        },
+        {
+          "seed": 72005,
+          "mode": "diagonal_posterior_gate",
+          "service_error": 1.4210854715202004e-14,
+          "calibration_identity_error": -1.7763568394002505e-14,
+          "leases": 21,
+          "q_callbacks": 21,
+          "causal_maturities_passed": true
+        }
+      ],
+      "paired_vs_full": {
+        "mean_only": {
+          "delta": [
+            10.0,
+            19.0,
+            22.0,
+            15.0,
+            32.0
+          ],
+          "mean": 19.6,
+          "t4_interval": [
+            9.338415142535961,
+            29.86158485746404
+          ]
+        },
+        "diagonal": {
+          "delta": [
+            10.0,
+            24.0,
+            31.0,
+            27.0,
+            48.0
+          ],
+          "mean": 28.0,
+          "t4_interval": [
+            10.997815483543576,
+            45.002184516456424
+          ]
+        },
+        "joint": {
+          "delta": [
+            10.0,
+            24.0,
+            31.0,
+            27.0,
+            48.0
+          ],
+          "mean": 28.0,
+          "t4_interval": [
+            10.997815483543576,
+            45.002184516456424
+          ]
+        },
+        "bayes_weights": {
+          "delta": [
+            10.0,
+            24.0,
+            31.0,
+            27.0,
+            48.0
+          ],
+          "mean": 28.0,
+          "t4_interval": [
+            10.997815483543576,
+            45.002184516456424
+          ]
+        },
+        "bayes_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            22.0,
+            0.0,
+            22.0
+          ],
+          "mean": 8.8,
+          "t4_interval": [
+            -6.161922374481653,
+            23.761922374481657
+          ]
+        },
+        "bayes_both": {
+          "delta": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "t4_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "frequentist_gate": {
+          "delta": [
+            -17.0,
+            -10.0,
+            -5.0,
+            -5.0,
+            4.0
+          ],
+          "mean": -6.6,
+          "t4_interval": [
+            -16.161619027498272,
+            2.9616190274982728
+          ]
+        },
+        "posterior_unused": {
+          "delta": [
+            10.0,
+            24.0,
+            31.0,
+            27.0,
+            48.0
+          ],
+          "mean": 28.0,
+          "t4_interval": [
+            10.997815483543576,
+            45.002184516456424
+          ]
+        },
+        "periodic": {
+          "delta": [
+            74.0,
+            108.0,
+            79.0,
+            86.0,
+            117.0
+          ],
+          "mean": 92.8,
+          "t4_interval": [
+            69.51424771075847,
+            116.08575228924153
+          ]
+        },
+        "frozen": {
+          "delta": [
+            -39.0,
+            -5.0,
+            -27.0,
+            -27.0,
+            -18.0
+          ],
+          "mean": -23.2,
+          "t4_interval": [
+            -38.86663122442441,
+            -7.533368775575591
+          ]
+        },
+        "diagonal_posterior_gate": {
+          "delta": [
+            0.0,
+            0.0,
+            22.0,
+            10.0,
+            32.0
+          ],
+          "mean": 12.8,
+          "t4_interval": [
+            -4.636428944329559,
+            30.23642894432956
+          ]
+        }
+      }
+    }
+  }
+}

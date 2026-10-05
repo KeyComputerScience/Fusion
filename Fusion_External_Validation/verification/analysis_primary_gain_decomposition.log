@@ -1,0 +1,298 @@
+{
+  "aggregate": {
+    "joint": {
+      "number_tasks": 4,
+      "number_task_seed_replays": 20,
+      "eligible_origin_seed_leases": 740,
+      "full_counts": {
+        "admissions": 15,
+        "harmful": 11,
+        "beneficial": 4,
+        "neutral": 0,
+        "net_lease_sum": -69.0,
+        "admitted_harmful_fraction": 0.7333333333333333,
+        "admitted_beneficial_fraction": 0.26666666666666666
+      },
+      "control_counts": {
+        "admissions": 51,
+        "harmful": 43,
+        "beneficial": 8,
+        "neutral": 0,
+        "net_lease_sum": -389.0,
+        "admitted_harmful_fraction": 0.8431372549019608,
+        "admitted_beneficial_fraction": 0.1568627450980392
+      },
+      "harmful_reduction_fraction": {
+        "numerator": 32,
+        "denominator": 43,
+        "ratio": 0.7441860465116279
+      },
+      "beneficial_retention": {
+        "numerator": 4,
+        "denominator": 8,
+        "ratio": 0.5
+      },
+      "baseline_harmful_avoided": {
+        "numerator": 32,
+        "denominator": 43,
+        "ratio": 0.7441860465116279
+      },
+      "event_counts": {
+        "avoided_harmful": 32,
+        "missed_beneficial": 4,
+        "new_harmful": 0,
+        "new_beneficial": 0,
+        "changed_neutral": 0
+      },
+      "paired_gain_decomposition_total": {
+        "avoided_harmful": 344.0,
+        "missed_beneficial": -24.0,
+        "new_harmful": 0,
+        "new_beneficial": 0,
+        "changed_neutral": 0
+      },
+      "sum_paired_net_gain_bookkeeping_only": 320.0,
+      "task_seed_signs": {
+        "positive_seeds": 14,
+        "tie_seeds": 5,
+        "negative_seeds": 1
+      }
+    },
+    "bayes_gate": {
+      "number_tasks": 4,
+      "number_task_seed_replays": 20,
+      "eligible_origin_seed_leases": 740,
+      "full_counts": {
+        "admissions": 15,
+        "harmful": 11,
+        "beneficial": 4,
+        "neutral": 0,
+        "net_lease_sum": -69.0,
+        "admitted_harmful_fraction": 0.7333333333333333,
+        "admitted_beneficial_fraction": 0.26666666666666666
+      },
+      "control_counts": {
+        "admissions": 17,
+        "harmful": 13,
+        "beneficial": 4,
+        "neutral": 0,
+        "net_lease_sum": -113.0,
+        "admitted_harmful_fraction": 0.7647058823529411,
+        "admitted_beneficial_fraction": 0.23529411764705882
+      },
+      "harmful_reduction_fraction": {
+        "numerator": 2,
+        "denominator": 13,
+        "ratio": 0.15384615384615385
+      },
+      "beneficial_retention": {
+        "numerator": 4,
+        "denominator": 4,
+        "ratio": 1.0
+      },
+      "baseline_harmful_avoided": {
+        "numerator": 2,
+        "denominator": 13,
+        "ratio": 0.15384615384615385
+      },
+      "event_counts": {
+        "avoided_harmful": 2,
+        "missed_beneficial": 0,
+        "new_harmful": 0,
+        "new_beneficial": 0,
+        "changed_neutral": 0
+      },
+      "paired_gain_decomposition_total": {
+        "avoided_harmful": 44.0,
+        "missed_beneficial": 0,
+        "new_harmful": 0,
+        "new_beneficial": 0,
+        "changed_neutral": 0
+      },
+      "sum_paired_net_gain_bookkeeping_only": 44.0,
+      "task_seed_signs": {
+        "positive_seeds": 2,
+        "tie_seeds": 18,
+        "negative_seeds": 0
+      }
+    },
+    "frequentist_gate": {
+      "number_tasks": 4,
+      "number_task_seed_replays": 20,
+      "eligible_origin_seed_leases": 740,
+      "full_counts": {
+        "admissions": 15,
+        "harmful": 11,
+        "beneficial": 4,
+        "neutral": 0,
+        "net_lease_sum": -69.0,
+        "admitted_harmful_fraction": 0.7333333333333333,
+        "admitted_beneficial_fraction": 0.26666666666666666
+      },
+      "control_counts": {
+        "admissions": 7,
+        "harmful": 4,
+        "beneficial": 3,
+        "neutral": 0,
+        "net_lease_sum": -54.0,
+        "admitted_harmful_fraction": 0.5714285714285714,
+        "admitted_beneficial_fraction": 0.42857142857142855
+      },
+      "harmful_reduction_fraction": {
+        "numerator": -7,
+        "denominator": 4,
+        "ratio": -1.75
+      },
+      "beneficial_retention": {
+        "numerator": 3,
+        "denominator": 3,
+        "ratio": 1.0
+      },
+      "baseline_harmful_avoided": {
+        "numerator": 2,
+        "denominator": 4,
+        "ratio": 0.5
+      },
+      "event_counts": {
+        "avoided_harmful": 2,
+        "missed_beneficial": 0,
+        "new_harmful": 9,
+        "new_beneficial": 1,
+        "changed_neutral": 0
+      },
+      "paired_gain_decomposition_total": {
+        "avoided_harmful": 44.0,
+        "missed_beneficial": 0,
+        "new_harmful": -77.0,
+        "new_beneficial": 18.0,
+        "changed_neutral": 0
+      },
+      "sum_paired_net_gain_bookkeeping_only": -15.0,
+      "task_seed_signs": {
+        "positive_seeds": 2,
+        "tie_seeds": 14,
+        "negative_seeds": 4
+      }
+    },
+    "periodic": {
+      "number_tasks": 4,
+      "number_task_seed_replays": 20,
+      "eligible_origin_seed_leases": 740,
+      "full_counts": {
+        "admissions": 15,
+        "harmful": 11,
+        "beneficial": 4,
+        "neutral": 0,
+        "net_lease_sum": -69.0,
+        "admitted_harmful_fraction": 0.7333333333333333,
+        "admitted_beneficial_fraction": 0.26666666666666666
+      },
+      "control_counts": {
+        "admissions": 740,
+        "harmful": 720,
+        "beneficial": 19,
+        "neutral": 1,
+        "net_lease_sum": -3679.0,
+        "admitted_harmful_fraction": 0.972972972972973,
+        "admitted_beneficial_fraction": 0.025675675675675677
+      },
+      "harmful_reduction_fraction": {
+        "numerator": 709,
+        "denominator": 720,
+        "ratio": 0.9847222222222223
+      },
+      "beneficial_retention": {
+        "numerator": 4,
+        "denominator": 19,
+        "ratio": 0.21052631578947367
+      },
+      "baseline_harmful_avoided": {
+        "numerator": 709,
+        "denominator": 720,
+        "ratio": 0.9847222222222223
+      },
+      "event_counts": {
+        "avoided_harmful": 709,
+        "missed_beneficial": 15,
+        "new_harmful": 0,
+        "new_beneficial": 0,
+        "changed_neutral": 1
+      },
+      "paired_gain_decomposition_total": {
+        "avoided_harmful": 3686.0,
+        "missed_beneficial": -76.0,
+        "new_harmful": 0,
+        "new_beneficial": 0,
+        "changed_neutral": 0.0
+      },
+      "sum_paired_net_gain_bookkeeping_only": 3610.0,
+      "task_seed_signs": {
+        "positive_seeds": 20,
+        "tie_seeds": 0,
+        "negative_seeds": 0
+      }
+    },
+    "frozen": {
+      "number_tasks": 4,
+      "number_task_seed_replays": 20,
+      "eligible_origin_seed_leases": 740,
+      "full_counts": {
+        "admissions": 15,
+        "harmful": 11,
+        "beneficial": 4,
+        "neutral": 0,
+        "net_lease_sum": -69.0,
+        "admitted_harmful_fraction": 0.7333333333333333,
+        "admitted_beneficial_fraction": 0.26666666666666666
+      },
+      "control_counts": {
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "neutral": 0,
+        "net_lease_sum": 0.0,
+        "admitted_harmful_fraction": null,
+        "admitted_beneficial_fraction": null
+      },
+      "harmful_reduction_fraction": {
+        "numerator": -11,
+        "denominator": 0,
+        "ratio": null
+      },
+      "beneficial_retention": {
+        "numerator": 0,
+        "denominator": 0,
+        "ratio": null
+      },
+      "baseline_harmful_avoided": {
+        "numerator": 0,
+        "denominator": 0,
+        "ratio": null
+      },
+      "event_counts": {
+        "avoided_harmful": 0,
+        "missed_beneficial": 0,
+        "new_harmful": 11,
+        "new_beneficial": 4,
+        "changed_neutral": 0
+      },
+      "paired_gain_decomposition_total": {
+        "avoided_harmful": 0,
+        "missed_beneficial": 0,
+        "new_harmful": -121.0,
+        "new_beneficial": 52.0,
+        "changed_neutral": 0
+      },
+      "sum_paired_net_gain_bookkeeping_only": -69.0,
+      "task_seed_signs": {
+        "positive_seeds": 3,
+        "tie_seeds": 12,
+        "negative_seeds": 5
+      }
+    }
+  },
+  "output_files": [
+    "/private/tmp/fusion_offline_check_analysis_20261002/gain_analysis/performance_gain_analysis.json",
+    "/private/tmp/fusion_offline_check_analysis_20261002/gain_analysis/performance_gain_review.md"
+  ]
+}

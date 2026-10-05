@@ -1,0 +1,11 @@
+EXECUTION_AUDIT occupancy357 72001 arms 10 failures 0
+EXECUTION_AUDIT occupancy357 72002 arms 10 failures 0
+EXECUTION_AUDIT occupancy357 72003 arms 10 failures 0
+EXECUTION_AUDIT occupancy357 72004 arms 10 failures 0
+EXECUTION_AUDIT occupancy357 72005 arms 10 failures 0
+EXECUTION_AUDIT occupancy864 72001 arms 10 failures 0
+EXECUTION_AUDIT occupancy864 72002 arms 10 failures 0
+EXECUTION_AUDIT occupancy864 72003 arms 10 failures 0
+EXECUTION_AUDIT occupancy864 72004 arms 10 failures 0
+EXECUTION_AUDIT occupancy864 72005 arms 10 failures 0
+{"kind": "independent request-level service reconstruction; no precomputed local net used", "engine_sha": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57", "script_sha": "5f6c6ec9448913d923066afac07f69b4e3ba5518c81c7e918484aa5bb8561b49", "datasets": {"occupancy357": {"seeds": 5, "arms": 10, "checks": 50}, "occupancy864": {"seeds": 5, "arms": 10, "checks": 50}}, "all_passed": true, "service_comparisons": 100, "total_forks": 4750, "covered_forks": 4446, "max_service_error": 2.2737367544323206e-13, "max_fork_error": 0.0, "max_target_error": 3.552713678800501e-15}

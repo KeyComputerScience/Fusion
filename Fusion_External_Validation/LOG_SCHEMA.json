@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "scope": "current_trial_fields/current_issued_row_fields below describe the original internal schema. The frozen replay combines issued values and later oracle outcome diagnostics in one retained row. Outcome fields are never live admission inputs. External raw trials require the explicitly checked metadata shim described below.",
+  "external_schema": {
+    "raw_trial_metadata": "PDF/QMF raw trials may omit baseline/windows. Read-only analysis adds baseline from the same trial frozen arm and windows from the corresponding original trial, checking ceil(test_rows/32) and every explicit-service reconstruction. Raw logs remain unchanged.",
+    "scalar_gate_weights": "External gate weights=[1] represent one immutable external fused forecast, not physical-source influence.",
+    "pdf_physical_source_weights": "PDF request-level physical-source weights are in pdf_weights with active_sources; simplex is checked separately, and no internal .8 source cap is imposed.",
+    "other_external_physical_weights": "Use the method-specific README and actual logged energy/confidence coefficients. They must not be assumed to be simplex weights or subject to the internal cap.",
+    "point_coverage": "The external point gate does not use its adaptive q tracker. Its q-based coverage is a diagnostic, not executed calibrated protection.",
+    "optimizer_placeholder": "External closed-form-rule kkt=0 is an interface placeholder, not an optimization certificate."
+  },
+  "current_trial_fields": {
+    "seed": "Imposed feedback-delay seed on a fixed input trace",
+    "baseline": "Shared reference gross/fees/drops/net",
+    "results.MODE": "Policy result with admissions, service gross, fees, net, drops and potential accuracy"
+  },
+  "current_issued_row_fields": {
+    "k": "Eligible lease origin window; joins the deterministic replay state",
+    "action": "Actual admission boolean",
+    "weights": "Influence on current available forecast sources in replay source order",
+    "gain": "Issued estimated gross candidate-minus-reference advantage",
+    "posterior_or_block_sd": "Issued directional scale; a feature pending execution calibration",
+    "q_issued": "Nonnegative threshold saved at origin",
+    "penalty": "q_issued times scale for calibrated gates",
+    "gate_score": "gain minus conservative cost 5, uncertainty penalty and margin",
+    "blocks": "Qualified completed joint block count",
+    "mass": "Specified Dirichlet concentration",
+    "scale": "Shared predictive tangent-trace scale used in weight optimization",
+    "solver_converged": "False denotes the frozen solver's capped-prior fallback",
+    "kkt": "Recorded numerical optimality residual"
+  },
+  "current_later_outcome_fields": {
+    "maturity": "Earliest window at which all four lease-window labels are available",
+    "truegross": "Complete candidate-minus-reference gross contrast on common serving positions",
+    "local_net": "Actual cost-inclusive fixed-lease increment including extra interruption loss and fees",
+    "standardized_score": "(gain minus truegross)/issued scale; consumed by calibration only at maturity",
+    "lower_covered": "standardized_score <= q_issued; outcome-based coverage indicator",
+    "future_accuracy_gain": "Offline per-window potential accuracy contrasts",
+    "pessimistic_net_target": "Wearable adapter diagnostic: truegross minus 5",
+    "opportunity_slack": "Wearable adapter diagnostic: local_net minus pessimistic_net_target, in [0,2]",
+    "candidate_extra_correct": "Wearable adapter diagnostic: correctly predicted positions lost to additional interruption"
+  },
+  "current_callback_fields": {
+    "issued_index": "Lease origin",
+    "maturity": "Complete feedback maturity",
+    "update_index": "Boundary consuming the callback; must be >= maturity",
+    "issued_q": "Threshold frozen at forecast origin",
+    "issued_std": "Scale frozen at forecast origin",
+    "standardized_score": "Matured fork residual on that scale",
+    "violation": "standardized_score > issued_q",
+    "q_before": "Current calibration threshold before feedback update",
+    "q_after": "max(0, q_before + .05*(violation-.1))",
+    "regulator": "Nonnegative projection correction"
+  },
+  "live_application_state_required_but_reconstructed_by_current_replay": [
+    "Globally unique origin/episode identifier and label deduplication identifiers",
+    "Source IDs and immutable issued forecast probabilities with availability mask",
+    "Current candidate/reference model version identifiers and restorable checkpoints",
+    "Joint block origin/maturity/mask and saved forecast evidence",
+    "Moment snapshot or an exactly reproducible archive/kernel state",
+    "Actual service interruption positions, admission/restoration events and fees",
+    "Deterministic pending callback queue and completed-label completeness state"
+  ],
+  "live_boundary_guards": [
+    "Empty forecast mask: retain reference before posterior access",
+    "Singleton mask: unit source influence",
+    "Invalid shape/finite/PSD/mask inputs: explicit validation error; application retains reference and logs reason",
+    "Incomplete or overlapping lease: infeasible; no admission",
+    "Calibrator: use issued_q for violation, not current q; consume only mature callbacks"
+  ],
+  "interpretation": "Request-level verification checks recorded implementation behavior and identities. It is not a persistent queue, restart-recovery test, hardware benchmark, physical sensor-loss experiment or universal future coverage guarantee."
+}
