@@ -1,0 +1,110 @@
+% Focused information theorem for the ORIGINAL capped paid-value objective.
+% Mechanism construction only; numerical values are not empirical RSS outcomes.
+\begin{proposition}[Joint pairings can determine a paid action beyond identical marginals]
+\label{prop:joint-pairing-paid-action}
+Consider two observed sources, equal quality, $P_0=0.01I_2$, zero correction
+mean, the same source masks and total full-block weight four. Let the paired
+historical error patterns have zero mean and raw second moment
+$0.01\bigl[\begin{smallmatrix}1&\pm0.9\\\pm0.9&1\end{smallmatrix}\bigr]$.
+Every source has the same marginal sample distribution in the two histories.
+With the covariance prior $a_0=2$, $\sigma_0^2=0.01$, their working states are
+\begin{equation}
+ R_\pm=0.01
+ \begin{pmatrix}1&\pm0.6\\\pm0.6&1\end{pmatrix},\qquad
+ P_\pm=\frac{0.01}{25-0.6^2}
+ \begin{pmatrix}5-0.6^2&\pm4(0.6)\\\pm4(0.6)&5-0.6^2\end{pmatrix}.
+ \label{eq:paired-history-working-states}
+\end{equation}
+Fix $h=0.112\mathbf1$, $N=128$, $q=1$, $\kappa=1$, $\nu=0.01$,
+$\tau=0.01$ and cap $0.8$ in Eq.~\eqref{eq:joint-paid-value}.
+The unique optimizer is $w=(1/2,1/2)$ for both histories and both controls.
+Their optimized paid scores are
+\begin{equation}
+ L_- =0.45605814,\qquad L_+=-7.18840948,\qquad
+ L_{\rm diagonal}=-3.93599601,\qquad
+ L_{\rm factorized}=-4.05030812.
+ \label{eq:paired-history-paid-scores}
+\end{equation}
+Here the diagonal-penalty control retains the joint mean and diagonalizes
+only $R,P$; the fully factorized-state control sets the working $R$ diagonal
+before conditioning, obtaining $R_{\rm factorized}=0.01I$,
+$P_{\rm factorized}=0.002I$. Both reductions are identical across the two
+histories. They cannot reproduce the full controller's paid-action map using
+only these reduced states.
+\end{proposition}
+\begin{proof}
+Realize the raw error patterns by
+$z=0.1(\xi,r\xi+\sqrt{1-r^2}\eta)^{\mathsf T}$,
+$\xi,\eta\in\{-1,1\}$ and $r=\pm0.9$, giving each of the four patterns
+total weight one. Reversing $r$ preserves both source marginal multisets
+and changes only their pairing. Pattern repetition with balanced total
+weights preserves this construction; repeated records are not counted as
+independent evidence. Zero weighted mean gives $\mu=0$.
+The covariance prior changes the raw correlation to
+$\pm0.9(4/(2+4))=\pm0.6$, and
+$P_\pm=(P_0^{-1}+4R_\pm^{-1})^{-1}$ gives
+Eq.~\eqref{eq:paired-history-working-states}.
+
+For every matrix $A=\bigl[\begin{smallmatrix}d&c\\c&d\end{smallmatrix}\bigr]
+\succ0$, writing $w=(x,1-x)$ yields
+$w^{\mathsf T}Aw=(d+c)/2+2(d-c)(x-1/2)^2$.
+Both uncertainty deductions are minimized at $x=1/2$; the linear term is
+constant and the entropy deduction is uniquely minimized there. This proves
+the claimed unique optimizer, which is feasible under the cap. Direct
+substitution gives
+\begin{align*}
+ F_-&=11.32175503,& S_-&=5.86569689,\\
+ F_+&=9.33159052,& S_+&=11.52,\\
+ F_{\rm diagonal}&=10.20503238,&S_{\rm diagonal}&=9.14102839,\\
+ F_{\rm factorized}&=10.09072027,&S_{\rm factorized}&=9.14102839.
+\end{align*}
+Subtracting $S+5$ proves Eq.~\eqref{eq:paired-history-paid-scores}.
+Identical reduced inputs force an identical reduced action, whereas the
+two full scores have opposite signs.
+\end{proof}
+
+The construction is realizable with binary probability forecasts: on
+origin requests where the models disagree, use source probabilities
+$((1+z_s)/2,(1-z_s)/2)$. Future labels and any agreement positions can be
+chosen to give zero historical complete contrast and integer test contrast.
+All probability coordinates remain valid. Historical current-model
+projections, quality, masks and maturity are shared. This is an
+information-identification example, not a new physical experiment.
+
+\begin{corollary}[Conditional paid necessity under the specified reduction]
+\label{cor:conditional-pairing-necessity}
+Let $T$ be the reduced state containing the current $h$, correction mean,
+sourcewise marginal summaries, quality, masks, history mass, issued threshold
+and execution eligibility, but not the observed cross-source pairing.
+In the construction above suppose both states have feasible common execution
+budgets. A completed target $g_-=10$ gives covered positive return
+$D_-\in[5,7]$, and $g_+=0$ gives $D_+\in[-5,-3]$.
+If these two cases occur conditionally on $T$ with probabilities $p$ and
+$1-p$, $0<p<1$, every $T$-measurable randomized admission rule has
+conditional regret at least
+\begin{equation}
+ \min\{5p,3(1-p)\}>0
+ \label{eq:pairing-necessity-regret}
+\end{equation}
+relative to choosing the positive paid action in each case. The full
+paid-score rule chooses correctly in this construction.
+\end{corollary}
+\begin{proof}
+For the negative-correlation state,
+$T_-=(F_--10)/S_-=0.22533640\le1$ and $L_->0$.
+Thus Eq.~\eqref{eq:complete-lease-return} gives
+$D_-=10-5+\delta\in[5,7]$, with the coverage implication
+$D_-\ge L_->0$. For the positive-correlation state, $L_+<0$ and
+$D_+=-5+\delta\in[-5,-3]$, so rejection is the correct cost action.
+A reduced rule has the same launch probability $u$ in both cases.
+Its regret is at least $5p(1-u)+3(1-p)u$; minimizing this linear function
+over $u\in[0,1]$ gives Eq.~\eqref{eq:pairing-necessity-regret}.
+\end{proof}
+
+This is conditional necessity for the stated information reduction, not
+universal necessity of a Bayesian method or off-diagonal penalty. A
+non-Bayesian controller retaining the joint pairing can match the state.
+Other outcomes can reverse the usefulness of a crossing, and aggregate
+calibration does not imply admitted-action coverage. The original RSS
+$+38$ fixed-state crossing and every retained/missed/loss outcome remain
+separate measured evidence; these numerical constructions do not alter them.
