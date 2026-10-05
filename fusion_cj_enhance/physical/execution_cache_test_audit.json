@@ -1,0 +1,90 @@
+{
+  "before": {
+    "wrapper_sha256": "043f16f54cb256d3184aa5cd05e2d51c24c6404e54b87a7d5df0cc754501b6db",
+    "runner_sha256": "ae22ca00244b4ab5ce13f66a20994c954d0ed605a23119016bb84bb10b0aa666",
+    "algorithm_freeze_sha256": "744b21bb3e3a03ef65a9f581667241bb8f170efb2527a898031663425988abe7",
+    "phase": "test",
+    "numerical_method_changed": false,
+    "optimization_only": true
+  },
+  "status": "completed",
+  "cache": {
+    "cache_kind": "pure serial in-process execution optimization",
+    "eligible": "frozen list/dict/ndarray and scalar types, supplied distinct model arrays, steps==20, len(y)>frozen train_buffer",
+    "train_buffer": 512,
+    "max_entries": 4096,
+    "calls": 4820,
+    "hits": 1948,
+    "misses": 2,
+    "bypasses": 2870,
+    "evictions": 0,
+    "retained_entries": 2,
+    "hash_seconds": 9.026951780899253,
+    "train_seconds": 1.6494227910006884,
+    "fingerprint": "a438923268397947baf72ce724ae1f8b351140f7f95ec1f0f37c8e2db78151e6",
+    "functions": {
+      "train": {
+        "source_sha256": "40e91cd0cf2702c283aaa4aab0be9f68f2012c58f63eb8c794c66dcf2d2c6c91",
+        "code_sha256": "ed0ca98954c4c11ee7a9072e3119ccb2e43b460c30712e489fc1e3a8d05f9d77",
+        "defaults": "(None,)"
+      },
+      "loss_grad": {
+        "source_sha256": "7db2cd9437f4b7ec844c750e7926c92d909ea5cecc27934db717631cc1e65001",
+        "code_sha256": "0cb6d1a6f2ebd4202b5565ac89b6c06b34fd18e625f3a4a8ec1836a34ca03ace",
+        "defaults": "(0.003,)"
+      },
+      "forward": {
+        "source_sha256": "00f7deb4cdbed0ce5232a64b3aac7ec0953d3ecf9a9861daf8665b4acf9290b9",
+        "code_sha256": "73ac8544c3dd3bad008bb65e30db6aa809388b34ece9302697034789618f4330",
+        "defaults": "None"
+      },
+      "sigmoid": {
+        "source_sha256": "99dced69356d8423be8633cd9b92ff83161ff0705d83ee49e9afada1acf55377",
+        "code_sha256": "9b1fd099546b4563094e735dac23c7eb50dd1148db67c71688f8a86a134f8652",
+        "defaults": "None"
+      },
+      "sm": {
+        "source_sha256": "0ddb1bac87d6a00c4088b2b9a8a8b38ca3e9d1bc2999de27d04dd5feafc288fa",
+        "code_sha256": "f664af8f0c421faf8cd5030b69048b9807a905364c2540bcb513ca1e3562db85",
+        "defaults": "None"
+      },
+      "ce": {
+        "source_sha256": "cb26e3b984b8a7a8b162a11c7f4566e356abe0a8b0dbc3b5ec5294caad0b69d8",
+        "code_sha256": "fc8de96f693ef660288cca4487dea71e2e4020ef6802341da3589d2831aa4f92",
+        "defaults": "None"
+      },
+      "lse": {
+        "source_sha256": "cabf14014baa04ace34b2583b5ba099ef8dc91570f79b30336a4c727272b76a0",
+        "code_sha256": "11bec572ddc8a97d7ec3056f9f3bfb7b6ffb32416d4b23a9b8c1d3d95e0a6d0d",
+        "defaults": "None"
+      },
+      "pdf_weights": {
+        "source_sha256": "76a1b391d05aa5d415097b8b807badc30f90f3dbe78c66f1f9fa4343e603cc69",
+        "code_sha256": "d6be84dd9090103ab6811f6c5e06a07243860281ed3d8d4574f477c758dd6d7e",
+        "defaults": "None"
+      }
+    },
+    "source_hashes": {
+      "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/external/neural_external.py": "37361a28e6f161684adf332519a7398b50dd3b2d86229101df234ed139d5d07c",
+      "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/external_author/run_trained_external.py": "27dc4c56a1d32ebabadbf0bcfa20c6132f697fbe8949c9c961bacbf4d6f6838d"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+      "platform": "macOS-26.5.2-arm64-arm-64bit",
+      "numpy_build_config": "{\n  \"Compilers\": {\n    \"c\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"15.0.0\",\n      \"commands\": \"cc\"\n    },\n    \"cython\": {\n      \"name\": \"cython\",\n      \"linker\": \"cython\",\n      \"version\": \"3.2.1\",\n      \"commands\": \"cython\"\n    },\n    \"c++\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"15.0.0\",\n      \"commands\": \"c++\"\n    }\n  },\n  \"Machine Information\": {\n    \"host\": {\n      \"cpu\": \"aarch64\",\n      \"family\": \"aarch64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    },\n    \"build\": {\n      \"cpu\": \"aarch64\",\n      \"family\": \"aarch64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    }\n  },\n  \"Build Dependencies\": {\n    \"blas\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    },\n    \"lapack\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    }\n  },\n  \"Python Information\": {\n    \"path\": \"/private/var/folders/8s/1jkm89h96qjdtjr7q3bll2vh0000gn/T/build-env-zbmksv9_/bin/python\",\n    \"version\": \"3.12\"\n  },\n  \"SIMD Extensions\": {\n    \"baseline\": [\n      \"NEON\",\n      \"NEON_FP16\",\n      \"NEON_VFPV4\",\n      \"ASIMD\"\n    ],\n    \"found\": [\n      \"ASIMDHP\"\n    ],\n    \"not found\": [\n      \"ASIMDFHM\"\n    ]\n  }\n}\n",
+      "blas_thread_environment": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": null,
+        "VECLIB_MAXIMUM_THREADS": null,
+        "OMP_NUM_THREADS": "1",
+        "BLIS_NUM_THREADS": null
+      }
+    },
+    "key": "SHA256 of full input bytes, dtype/shape/layout, ordered initial parameters, scalar arguments and frozen dependencies",
+    "output": "deepcopy on insertion and every cache return; work fields unmodified",
+    "scientific_sources_modified": false,
+    "cache_persistent": false,
+    "limitation": "same numerical runtime; serial inputs; SHA256 collision resistance assumed; numerical failures remain original failures"
+  }
+}

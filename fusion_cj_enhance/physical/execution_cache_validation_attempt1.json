@@ -1,0 +1,9 @@
+{
+  "status": "report_serialization_failure_after_numerical_checks",
+  "scope": "fit-prefix-only cache validation; no scientific calibration or test phase",
+  "failure": "Original work dictionary clips is numpy.int64; strict json.dumps without a numpy scalar serializer raised TypeError when saving the report.",
+  "numerical_checks_reached": "PDF/QMF cold/miss/hit bitwise comparisons, mutation isolation, input preservation, RNG checks, key perturbations, bypass checks, and frozen-source hashes passed before the save attempt.",
+  "resolution": "Add report-only numpy scalar serialization; tighten optional cache type/runtime guards; rerun the entire prefix-only validation and preserve this attempt record.",
+  "scientific_sources_changed": false,
+  "test_data_or_outcomes_read": false
+}
