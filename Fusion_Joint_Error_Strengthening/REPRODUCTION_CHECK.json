@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "own_source_sha256": "32ff0e5a0ad6f8aacf22b6dbfe45ceb311518f64b67c69affdec77a54d33ef51",
+  "commands_executed": [
+    "verify",
+    "fresh --phase all --output outside_package",
+    "neural --phase check --output outside_package",
+    "neural --phase all --output outside_package",
+    "audit-matrix --output outside_package"
+  ],
+  "fresh_complete_grid_and_returns_exact": true,
+  "neural_complete_grid_models_actions_and_returns_exact": true,
+  "numerical_matrix_audits_pass": true,
+  "scientific_functions_transformed": false,
+  "manuscript_sha256": "e4d6378210eb7b6b3235acbb4f8fcc54f8e78da4c750b63c927693f79029f3ae",
+  "complete_selection_files_byte_identical": true,
+  "maximum_numeric_difference": 0.0
+}
