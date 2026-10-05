@@ -1,0 +1,946 @@
+{
+  "occupancy357": {
+    "baseline": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_0p5": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_2": {
+      "mean_net": 7966.1,
+      "mean_deployments": 0.2,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.2,
+      "mean_accuracy": 0.9928988326848248,
+      "net_delta_vs_baseline": {
+        "mean": 0.2,
+        "ci95_t4": [
+          -0.3552890210000001,
+          0.7552890210000001
+        ],
+        "positive": 1,
+        "negative": 0,
+        "ties": 4,
+        "values": [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_0p5": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_2": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_0": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_8": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_0p90": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_1": {
+      "mean_net": 7965.9,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9927529182879378,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    }
+  },
+  "occupancy864": {
+    "baseline": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_0p5": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_2": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_0p5": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_2": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_0": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_8": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_0p90": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_1": {
+      "mean_net": 3782.56,
+      "mean_deployments": 0.0,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.0,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.9566140177690029,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    }
+  },
+  "mhealth319": {
+    "baseline": {
+      "mean_net": 1498.04,
+      "mean_deployments": 2.4,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.5667394468704512,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_0p5": {
+      "mean_net": 1498.04,
+      "mean_deployments": 2.4,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.5667394468704512,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_2": {
+      "mean_net": 1498.04,
+      "mean_deployments": 2.4,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.5667394468704512,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_0p5": {
+      "mean_net": 1489.24,
+      "mean_deployments": 2.8,
+      "mean_harmful": 2.6,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.4,
+      "mean_accuracy": 0.5639737991266376,
+      "net_delta_vs_baseline": {
+        "mean": -8.8,
+        "ci95_t4": [
+          -23.76192237341574,
+          6.161922373415738
+        ],
+        "positive": 0,
+        "negative": 2,
+        "ties": 3,
+        "values": [
+          0.0,
+          0.0,
+          -22.0,
+          0.0,
+          -22.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_2": {
+      "mean_net": 1499.84,
+      "mean_deployments": 2.2,
+      "mean_harmful": 2.0,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.2,
+      "mean_accuracy": 0.5671761280931586,
+      "net_delta_vs_baseline": {
+        "mean": 1.8,
+        "ci95_t4": [
+          -3.197601189000001,
+          6.797601189000001
+        ],
+        "positive": 1,
+        "negative": 0,
+        "ties": 4,
+        "values": [
+          0.0,
+          0.0,
+          9.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_0": {
+      "mean_net": 1489.24,
+      "mean_deployments": 2.8,
+      "mean_harmful": 2.6,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.4,
+      "mean_accuracy": 0.5639737991266376,
+      "net_delta_vs_baseline": {
+        "mean": -8.8,
+        "ci95_t4": [
+          -23.76192237341574,
+          6.161922373415738
+        ],
+        "positive": 0,
+        "negative": 2,
+        "ties": 3,
+        "values": [
+          0.0,
+          0.0,
+          -22.0,
+          0.0,
+          -22.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_8": {
+      "mean_net": 1498.04,
+      "mean_deployments": 2.4,
+      "mean_harmful": 2.2,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.5667394468704512,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_0p90": {
+      "mean_net": 1496.04,
+      "mean_deployments": 2.6,
+      "mean_harmful": 2.4,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 1.0,
+      "mean_accuracy": 0.5661572052401748,
+      "net_delta_vs_baseline": {
+        "mean": -2.0,
+        "ci95_t4": [
+          -7.55289021,
+          3.55289021
+        ],
+        "positive": 1,
+        "negative": 3,
+        "ties": 1,
+        "values": [
+          -5.0,
+          0.0,
+          5.0,
+          -5.0,
+          -5.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_1": {
+      "mean_net": 1500.84,
+      "mean_deployments": 2.0,
+      "mean_harmful": 1.8,
+      "mean_beneficial": 0.2,
+      "mean_action_changes": 0.4,
+      "mean_accuracy": 0.5671761280931586,
+      "net_delta_vs_baseline": {
+        "mean": 2.8,
+        "ci95_t4": [
+          -4.974046294000001,
+          10.574046294
+        ],
+        "positive": 1,
+        "negative": 0,
+        "ties": 4,
+        "values": [
+          0.0,
+          0.0,
+          14.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    }
+  },
+  "har240": {
+    "baseline": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_0p5": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "quality_power_2": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_0p5": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "risk_lambda_2": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_0": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "posterior_eta_8": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_0p90": {
+      "mean_net": 3289.8199999999997,
+      "mean_deployments": 0.4,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.4,
+      "mean_action_changes": 0.2,
+      "mean_accuracy": 0.8200970873786406,
+      "net_delta_vs_baseline": {
+        "mean": -3.6,
+        "ci95_t4": [
+          -13.595202378000002,
+          6.395202378000002
+        ],
+        "positive": 0,
+        "negative": 1,
+        "ties": 4,
+        "values": [
+          0.0,
+          0.0,
+          -18.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    },
+    "history_beta_1": {
+      "mean_net": 3293.4199999999996,
+      "mean_deployments": 0.6,
+      "mean_harmful": 0.0,
+      "mean_beneficial": 0.6,
+      "mean_action_changes": 0.0,
+      "mean_accuracy": 0.8212135922330097,
+      "net_delta_vs_baseline": {
+        "mean": 0.0,
+        "ci95_t4": [
+          0.0,
+          0.0
+        ],
+        "positive": 0,
+        "negative": 0,
+        "ties": 5,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "solver_failures": 0
+    }
+  }
+}

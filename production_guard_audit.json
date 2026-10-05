@@ -1,0 +1,187 @@
+{
+  "kind": "production guard and future-information isolation audit; not performance evidence",
+  "all_passed": true,
+  "checks": [
+    {
+      "kind": "empty_mask",
+      "mode": "mean_only",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "diagonal",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "joint",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "bayes_weights",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "bayes_gate",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "bayes_both",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "frequentist_gate",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "posterior_unused",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "periodic",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "frozen",
+      "passed": true
+    },
+    {
+      "kind": "empty_mask",
+      "mode": "diagonal_posterior_gate",
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 1,
+      "generation": 0,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 1,
+      "generation": 1,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 1,
+      "generation": 2,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 1,
+      "generation": 3,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 2,
+      "generation": 0,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 2,
+      "generation": 1,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 2,
+      "generation": 2,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 2,
+      "generation": 3,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 3,
+      "generation": 0,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 3,
+      "generation": 1,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 3,
+      "generation": 2,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 3,
+      "generation": 3,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 4,
+      "generation": 0,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 4,
+      "generation": 1,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 4,
+      "generation": 2,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 4,
+      "generation": 3,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 5,
+      "generation": 0,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 5,
+      "generation": 1,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 5,
+      "generation": 2,
+      "passed": true
+    },
+    {
+      "kind": "mask_size_and_future_isolation",
+      "sources": 5,
+      "generation": 3,
+      "passed": true
+    }
+  ],
+  "nonempty_comparisons": 220,
+  "max_frozen_nonempty_difference": 0.0,
+  "malformed_masks_rejected": 4,
+  "engine_sha": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+  "wrapper_sha": "b7feaadafde215f6e8cc6eb5c6e67f4d9427f7e4d93811e6102cc339a5e2bf91",
+  "audit_sha": "a2c448d3d07a10334ef0eb46ccbdc64982e8dc690b79824bfb066e6046f9c125"
+}
