@@ -1,0 +1,1060 @@
+{
+  "occupancy357": {
+    "n": 20560,
+    "split": {
+      "prefix_rows": 6168,
+      "training_rows": 4285,
+      "audit_rows": 1883,
+      "calibration_rows": 6168,
+      "test_rows": 8224,
+      "train_start": "2015-02-02T14:19:00",
+      "prefix_end": "2015-02-07T04:13:00",
+      "calibration_end": "2015-02-12T16:14:59",
+      "test_start": "2015-02-12T16:15:59",
+      "test_end": "2015-02-18T09:19:00"
+    },
+    "bayes_minus_joint": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean": 0.0,
+    "t4_ci": [
+      0.0,
+      0.0
+    ],
+    "checks": [
+      {
+        "seed": 72001,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 1.8874735108198593e-11
+      },
+      {
+        "seed": 72001,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 1.0779599435295495e-10
+      },
+      {
+        "seed": 72001,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 7.20118853436702e-10
+      },
+      {
+        "seed": 72001,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 1.0779599435295495e-10
+      },
+      {
+        "seed": 72001,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 7.20118853436702e-10
+      },
+      {
+        "seed": 72001,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 1.0779599435295495e-10
+      },
+      {
+        "seed": 72001,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 1.0779599435295495e-10
+      },
+      {
+        "seed": 72001,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 1.8325810313690738e-10
+      },
+      {
+        "seed": 72002,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 4.85269741057337e-10
+      },
+      {
+        "seed": 72002,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 3.495925771090924e-10
+      },
+      {
+        "seed": 72002,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 4.85269741057337e-10
+      },
+      {
+        "seed": 72002,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 3.495925771090924e-10
+      },
+      {
+        "seed": 72002,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 4.85269741057337e-10
+      },
+      {
+        "seed": 72002,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 4.85269741057337e-10
+      },
+      {
+        "seed": 72002,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 63,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 1.832583390593001e-10
+      },
+      {
+        "seed": 72003,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 1.2755130285313498e-10
+      },
+      {
+        "seed": 72003,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 9.597833638963493e-11
+      },
+      {
+        "seed": 72003,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 1.2755130285313498e-10
+      },
+      {
+        "seed": 72003,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 9.597833638963493e-11
+      },
+      {
+        "seed": 72003,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 1.2755130285313498e-10
+      },
+      {
+        "seed": 72003,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0.0,
+        "max_kkt": 1.2755130285313498e-10
+      },
+      {
+        "seed": 72003,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 3,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 1.8874735108198593e-11
+      },
+      {
+        "seed": 72004,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 2.5337815179327094e-10
+      },
+      {
+        "seed": 72004,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 9.871019834850614e-10
+      },
+      {
+        "seed": 72004,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 2.5337815179327094e-10
+      },
+      {
+        "seed": 72004,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 9.871019834850614e-10
+      },
+      {
+        "seed": 72004,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 2.5337815179327094e-10
+      },
+      {
+        "seed": 72004,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 8.881784197001252e-16,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0.0,
+        "max_kkt": 2.5337815179327094e-10
+      },
+      {
+        "seed": 72004,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 64,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 6.958665865752778e-10
+      },
+      {
+        "seed": 72005,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 1.2755041467471528e-10
+      },
+      {
+        "seed": 72005,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 6.196288482307466e-10
+      },
+      {
+        "seed": 72005,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 1.2755041467471528e-10
+      },
+      {
+        "seed": 72005,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 6.196288482307466e-10
+      },
+      {
+        "seed": 72005,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 1.2755041467471528e-10
+      },
+      {
+        "seed": 72005,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0.0,
+        "max_kkt": 1.2755041467471528e-10
+      },
+      {
+        "seed": 72005,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.3322676295501878e-15,
+        "q_update_count": 63,
+        "q_complete_violations": 4,
+        "min_q": 0,
+        "max_kkt": 0.0
+      }
+    ]
+  },
+  "occupancy864": {
+    "n": 10129,
+    "split": {
+      "prefix_rows": 3038,
+      "training_rows": 2105,
+      "audit_rows": 933,
+      "calibration_rows": 3039,
+      "test_rows": 4052,
+      "train_start": "2017-12-22T10:49:41",
+      "prefix_end": "2017-12-23T13:34:57",
+      "calibration_end": "2017-12-25T15:51:29",
+      "test_start": "2017-12-25T15:51:59",
+      "test_end": "2018-01-11T09:00:09"
+    },
+    "bayes_minus_joint": [
+      16.0,
+      38.0,
+      37.0,
+      19.0,
+      38.0
+    ],
+    "mean": 29.6,
+    "t4_ci": [
+      15.812496765879608,
+      43.387503234120395
+    ],
+    "checks": [
+      {
+        "seed": 72001,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 0.44220214248940926,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 3,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72001,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 3,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 0.44220214248940926,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 0.0,
+        "q_update_count": 31,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72002,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 0.0,
+        "q_update_count": 31,
+        "q_complete_violations": 5,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 0.44220214248940926,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 4,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72003,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 4,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 0.44220214248940926,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 2,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72004,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 2,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "mean_only",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "diagonal",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "joint",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "bayes_weights",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "bayes_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "bayes_both",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "frequentist_gate",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 1.7763568394002505e-15,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 0.44220214248940926,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "posterior_unused",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": -6.261657858885883e-14,
+        "q_update_count": 31,
+        "q_complete_violations": 1,
+        "min_q": 1.4862394342316192,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "periodic",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 3,
+        "min_q": 0,
+        "max_kkt": 0.0
+      },
+      {
+        "seed": 72005,
+        "mode": "frozen",
+        "closed_loop_error": 0.0,
+        "calibration_identity_error": 4.440892098500626e-16,
+        "q_update_count": 31,
+        "q_complete_violations": 3,
+        "min_q": 0,
+        "max_kkt": 0.0
+      }
+    ]
+  }
+}

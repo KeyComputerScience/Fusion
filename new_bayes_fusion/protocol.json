@@ -1,0 +1,22 @@
+{
+  "study": "Frozen prospective held-out chronological multisensor Bayesian convex canary controller",
+  "protocol_version": 3,
+  "datasets": {
+    "occupancy357": {"files": ["datatraining.txt", "datatest.txt", "datatest2.txt"], "features": ["Temperature", "Humidity", "Light", "CO2"], "groups": [[0], [1], [2], [3]], "classes": 2, "target": "Occupancy"},
+    "occupancy864": {"files": ["Occupancy_Estimation.csv"], "features": ["S1_Temp", "S2_Temp", "S3_Temp", "S4_Temp", "S1_Light", "S2_Light", "S3_Light", "S4_Light", "S1_Sound", "S2_Sound", "S3_Sound", "S4_Sound", "S5_CO2", "S5_CO2_Slope", "S6_PIR", "S7_PIR"], "groups": [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11], [12, 13], [14, 15]], "classes": 4, "target": "Room_Occupancy_Count"}
+  },
+  "order": "Combine official files, sort timestamps, remove exact duplicate timestamps if covariates and labels agree; conflicting duplicates stop the study.",
+  "split": "Chronological first30% prefixfit with fixed timestampSHAaudit30%; next30% calibration, splitfirsthalf initialq estimation/secondhalf9config selection; last40% heldouttest.",
+  "feature_transformation": "Training nonauditsamples only mean/SD; current+2preceding covariate rows per physicalchannel, clip8SD; test labels excluded from all preprocessing and selection.",
+  "common_model_work": "softmax linear models, one per physical sourcegroup plusfullcandidate; initial500gradientsteps; common20steps per4windows on512arrived nonaudittraining records; window32; initialtrain-only models andbuffer reset at each calibration/test run.",
+  "canary": "Decision at k modulo4 =0, immediate installation after2droppedservicepositions; candidateholds4windows; sharedreference restored at nextboundary; admissionfee2+prechargedrestorefee1. Sharedshadowreference refreshed independently at k modulo8=0 for k>0, fromcurrentcandidate, fee2+drop2charged identically allarms. All actionfirms use identicalreference/candidates/sources/feedback.",
+  "bayesian_moments": "Dirichlet positiveblock masses: prefixmass2 distributed acrossprefixauditblocks; eligible48archivedauditblocks agebeta.97 times Gaussiancontextkernelbandwidth3. Immutable originalforecasts; currentcandidate/reference actioncontrast recomputed onarchives. PredictiveΣ, betweenblockB, posteriorU=B/(A+1). Common scale r=tr(TSigmaT), T=I-11prime/m, if >=1e-6, else rawfallbackr=1; retain full matrices.",
+  "convex_objective": "tau.05 KL(w||qualitypi)+(lambda/2)w'(Sigma_scaled+eta U_scaled)w; eta4 inposteriorweightsarms and0otherwise; diagonalarm onlydiagSigma, meanonlylambda0; capmax(.8,1/m).",
+  "gate": "gain=Hn w'(h-mu); plugin gate gain>3+2+margin; posteriorgate gain-q Hn sqrt(w'U_raw w+1e-4)>3+2+margin. MatchednonBayesgate replacesU withB_raw. Admissioncostupperbounddrop2+fee3; actualnet includesexactopportunityloss.",
+  "adaptive_calibration": "initialq is max(0,90thpercentile(gain-truegross)/std) fromcompletedfirsthalfcalibrationcanaryforks; projectedupdateq=max(0,q+.05*(I{issuedscore>issuedq}-.1)) afterall4forkwindowlabelsarrive. Storeissuedq,score,maturity,regulator. Predictionsandqlearningallarms reflectsamecausalfeedbackavailability. q initializes separately permodeandconfig, no testfit.",
+  "modes": ["mean_only", "diagonal", "joint", "bayes_weights", "bayes_gate", "bayes_both", "frequentist_gate", "posterior_unused", "periodic", "frozen"],
+  "equal_selection_grid": {"lambda": [0.0, 0.25, 1.0], "margin": [0.0, 4.0, 12.0], "budget": "Each primaryarm9configevaluations on same secondcalibrationhalf andsame3delayseeds. Posteriorunusedcopiesjoint exactly; periodic/frozenfixed."},
+  "randomness": {"calibration_seeds": [71001, 71002, 71003], "test_seeds": [72001, 72002, 72003, 72004, 72005], "delay": "iid integer1..4windowlabelarrivals", "dropout": "first2ofevery13windows hideoneforecastsource rotatinggroup; physicalcandidate inputsremainpresent", "audit": "first8hexSHA256(timestamp)modulo10<3"},
+  "other_constants": {"commonprobe_drop": 1, "step_fee": 0.001, "learning_rate": 0.08, "l2": 0.003, "target_miscoverage": 0.1, "calibration_step": 0.05, "eta": 4.0, "gate_variance_floor": 0.0001, "solver_tolerance": 1e-7},
+  "reporting": "Preserveeverydataset,seed,arm,negativeoutcome,actionfork,calibrationcoverage,clipregulator,solvercertificate. Two realtasks; five artificialdelayscale seeds are not five independentdatasets. No testdrivenmechanismchanges."
+}
