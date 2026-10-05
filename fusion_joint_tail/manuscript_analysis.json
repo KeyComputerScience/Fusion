@@ -1,0 +1,294 @@
+{
+  "status": "descriptive analysis of all stored locked outcomes; no tuning",
+  "selected": {
+    "marginal": {
+      "added_gain": 85.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 1.0,
+      "changed": 10,
+      "added_beneficial": 8,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 1,
+      "changed_zero": 1,
+      "pooled_increment": 84.0,
+      "five_delay_mean": 16.8
+    },
+    "factorized": {
+      "added_gain": 66.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 1.0,
+      "changed": 9,
+      "added_beneficial": 6,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 1,
+      "changed_zero": 2,
+      "pooled_increment": 65.0,
+      "five_delay_mean": 13.0
+    },
+    "gaussian": {
+      "added_gain": 28.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 0.0,
+      "changed": 1,
+      "added_beneficial": 1,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 0,
+      "changed_zero": 0,
+      "pooled_increment": 28.0,
+      "five_delay_mean": 5.6
+    },
+    "sandwich": {
+      "added_gain": 28.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 0.0,
+      "changed": 1,
+      "added_beneficial": 1,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 0,
+      "changed_zero": 0,
+      "pooled_increment": 28.0,
+      "five_delay_mean": 5.6
+    }
+  },
+  "fixed_information": {
+    "marginal": {
+      "added_gain": 32.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 0.0,
+      "changed": 2,
+      "added_beneficial": 2,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 0,
+      "changed_zero": 0,
+      "pooled_increment": 32.0,
+      "five_delay_mean": 6.4
+    },
+    "factorized": {
+      "added_gain": 28.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 0.0,
+      "changed": 1,
+      "added_beneficial": 1,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 0,
+      "changed_zero": 0,
+      "pooled_increment": 28.0,
+      "five_delay_mean": 5.6
+    },
+    "gaussian": {
+      "added_gain": 28.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 0.0,
+      "changed": 1,
+      "added_beneficial": 1,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 0,
+      "changed_zero": 0,
+      "pooled_increment": 28.0,
+      "five_delay_mean": 5.6
+    },
+    "sandwich": {
+      "added_gain": 28.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 0.0,
+      "incurred_loss": 0.0,
+      "changed": 1,
+      "added_beneficial": 1,
+      "avoided_harmful": 0,
+      "missed_beneficial": 0,
+      "incurred_harmful": 0,
+      "changed_zero": 0,
+      "pooled_increment": 28.0,
+      "five_delay_mean": 5.6
+    }
+  },
+  "coverage": {
+    "joint": {
+      "issued": [
+        202,
+        210
+      ],
+      "ready": [
+        77,
+        85
+      ],
+      "informative": [
+        42,
+        50
+      ],
+      "admitted": [
+        9,
+        13
+      ],
+      "admitted_excess_sum": 38.472144660883146,
+      "admitted_excess_max": 11.614810328611124,
+      "realized_negative_loss": 1.0
+    },
+    "marginal": {
+      "issued": [
+        209,
+        210
+      ],
+      "ready": [
+        84,
+        85
+      ],
+      "informative": [
+        49,
+        50
+      ],
+      "admitted": [
+        2,
+        3
+      ],
+      "admitted_excess_sum": 0.3531091253529226,
+      "admitted_excess_max": 0.3531091253529226,
+      "realized_negative_loss": 0.0
+    },
+    "factorized": {
+      "issued": [
+        210,
+        210
+      ],
+      "ready": [
+        85,
+        85
+      ],
+      "informative": [
+        50,
+        50
+      ],
+      "admitted": [
+        4,
+        4
+      ],
+      "admitted_excess_sum": 0.0,
+      "admitted_excess_max": 0.0,
+      "realized_negative_loss": 0.0
+    },
+    "gaussian": {
+      "issued": [
+        190,
+        210
+      ],
+      "ready": [
+        70,
+        85
+      ],
+      "informative": [
+        38,
+        50
+      ],
+      "admitted": [
+        5,
+        12
+      ],
+      "admitted_excess_sum": 38.549396641982995,
+      "admitted_excess_max": 10.355736603245273,
+      "realized_negative_loss": 1.0
+    },
+    "sandwich": {
+      "issued": [
+        190,
+        210
+      ],
+      "ready": [
+        70,
+        85
+      ],
+      "informative": [
+        38,
+        50
+      ],
+      "admitted": [
+        5,
+        12
+      ],
+      "admitted_excess_sum": 42.18296035286396,
+      "admitted_excess_max": 10.718331045678221,
+      "realized_negative_loss": 1.0
+    }
+  },
+  "counterfactual_opportunities": {
+    "positive": 45,
+    "negative": 161,
+    "zero": 4
+  },
+  "source_hashes": {
+    "rss_development/results.json.gz": "d5e95f371e2f99b132986240f282e9625da6188d93d19e648ee6c1c2274cc472",
+    "fixed_information/results.json": "85bb4fd0bfcd37c59ce521f5c782aa9d01ab21101bf037942d837f7d8aa1f9f8",
+    "work/fusion_strengthening_20261003/matrix/factorized/results.json": "a6fad7ffe55a5cf4c3fe941034d4ec479b3937e478f20528c5c35ad57c2ab163",
+    "work/fusion_strengthening_20261003/matrix/factorized/budget_trials.json.gz": "f135717c985368255e9452113a48b475823b2a5db82ef696718a82131aab747c",
+    "work/fusion_strengthening_20261003/matrix/rss348_results.json": "850b4635d636b9da85e8869120e9673afb67b29e1e596ea0a20a58f424ac14ee",
+    "work/fusion_strengthening_20261003/matrix/rss348_budget_results.json.gz": "bd6ba9bc8bfc0f5236608f133bdf7d7120af5dc20ecc30533665da3da69dc071"
+  },
+  "scope": "Five delays share the RSS development trace; counts are not independent sites.",
+  "working_score_stability": {
+    "min_absolute_ready_score": 0.2772173536838176,
+    "origin": 68,
+    "seed": 88001,
+    "signed_score": -0.2772173536838176,
+    "ready_count": 85,
+    "uniform_offsets": {
+      "-0.25": {
+        "changed_ready_proposals": 0,
+        "scope": "fixed issued alpha, forecasts, readiness and returns"
+      },
+      "0.25": {
+        "changed_ready_proposals": 0,
+        "scope": "fixed issued alpha, forecasts, readiness and returns"
+      }
+    },
+    "interpretation": "Numerical decision margin only; not a physical distribution-error bound."
+  },
+  "archived_full_policy_comparisons": {
+    "factorized_information": {
+      "added_gain": 6.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 117.0,
+      "incurred_loss": 1.0,
+      "changed": 7,
+      "added_beneficial": 1,
+      "avoided_harmful": 0,
+      "missed_beneficial": 4,
+      "incurred_harmful": 1,
+      "changed_zero": 1,
+      "pooled_increment": -112.0,
+      "five_delay_mean": -22.4,
+      "common_target_count": 210,
+      "max_target_error": 0.0,
+      "scope": "Saved native-tuning policies on identical payoffs; not a newly aligned tuning experiment."
+    },
+    "block_sandwich": {
+      "added_gain": 0.0,
+      "avoided_loss": 0.0,
+      "missed_gain": 110.0,
+      "incurred_loss": 0.0,
+      "changed": 5,
+      "added_beneficial": 0,
+      "avoided_harmful": 0,
+      "missed_beneficial": 5,
+      "incurred_harmful": 0,
+      "changed_zero": 0,
+      "pooled_increment": -110.0,
+      "five_delay_mean": -22.0,
+      "common_target_count": 210,
+      "max_target_error": 0.0,
+      "scope": "Saved native-tuning policies on identical payoffs; not a newly aligned tuning experiment."
+    }
+  }
+}
