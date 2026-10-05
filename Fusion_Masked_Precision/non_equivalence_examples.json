@@ -1,0 +1,147 @@
+{
+  "kind": "MATHEMATICAL_COUNTEREXAMPLES_NOT_PHYSICAL_RESULTS",
+  "scalar_non_equivalence": {
+    "R": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "P_a": [
+      [
+        0.1,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "P_b": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.1
+      ]
+    ],
+    "full_a": {
+      "weights": [
+        0.770848509891217,
+        0.229151490108783
+      ],
+      "cost": 0.3810451990820071,
+      "derivative": 1.8041124150158794e-16,
+      "posterior_variance": 0.08567594522968881
+    },
+    "full_b": {
+      "weights": [
+        0.22915149010878305,
+        0.770848509891217
+      ],
+      "cost": 0.3810451990820071,
+      "derivative": -4.163336342344337e-17,
+      "posterior_variance": 0.08567594522968883
+    },
+    "scalar_any_c_weight": [
+      0.5,
+      0.5
+    ],
+    "total_mass_each": 10
+  },
+  "diagonal_non_equivalence": {
+    "R": [
+      [
+        1.0,
+        0.8
+      ],
+      [
+        0.8,
+        1.0
+      ]
+    ],
+    "P": [
+      [
+        0.4047619047619047,
+        0.2380952380952381
+      ],
+      [
+        0.2380952380952381,
+        0.40476190476190477
+      ]
+    ],
+    "full": {
+      "weights": [
+        0.6205521319396128,
+        0.3794478680603872
+      ],
+      "cost": 0.6058824625274755,
+      "derivative": 6.678685382510707e-17,
+      "posterior_variance": 0.3262728436003
+    },
+    "diagonal": {
+      "weights": [
+        0.5491841113832066,
+        0.45081588861679345
+      ],
+      "cost": 0.49239806141510073,
+      "derivative": 7.28583859910259e-17,
+      "posterior_variance": 0.20433925265778313
+    },
+    "common_mean_shift_for_gate_crossing": 0.5491402619712881,
+    "robust_value_gap": 0.11348440111237473
+  },
+  "prior_sd_point_one_scalar_example": {
+    "full_a": {
+      "weights": [
+        0.6440137042737586,
+        0.3559862957262414
+      ],
+      "cost": 0.04341766417207274,
+      "derivative": -1.5612511283791264e-17,
+      "posterior_variance": 0.0010483848650168633
+    },
+    "full_b": {
+      "weights": [
+        0.3559862957262414,
+        0.6440137042737586
+      ],
+      "cost": 0.04341766417207274,
+      "derivative": 1.5612511283791264e-17,
+      "posterior_variance": 0.0010483848650168633
+    },
+    "scalar_any_c_weight": [
+      0.5,
+      0.5
+    ]
+  },
+  "prior_sd_point_one_diagonal_example": {
+    "full": {
+      "weights": [
+        0.5381041215182243,
+        0.4618958784817757
+      ],
+      "cost": 0.061918579390085715,
+      "derivative": -1.791644090032296e-17,
+      "posterior_variance": 0.0032191254612079665
+    },
+    "diagonal": {
+      "weights": [
+        0.5263292566581252,
+        0.47367074334187476
+      ],
+      "cost": 0.05049256179747989,
+      "derivative": 1.929879867024198e-17,
+      "posterior_variance": 0.0020294213837404192
+    },
+    "common_mean_shift_for_paid_gate_crossing": 0.09526807059378281,
+    "net_gate_full": -0.7312651259267726,
+    "net_gate_diagonal": 0.7312651259267726
+  }
+}

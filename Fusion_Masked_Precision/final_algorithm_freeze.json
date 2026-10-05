@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-03T08:31:49.235245+00:00",
+  "algorithm_sha256": {
+    "temporal_fusion.py": "811f98531ad3e135ceafbc64152b41ffbf380878cb45a1f7106eb54364157ff0",
+    "verify_convex_solver.py": "80084abe960c0829a081882b547617446e7998419ca9cc3cb013a08fa671803b"
+  },
+  "fresh_task_list_closed": [
+    "pamap231",
+    "rss348"
+  ],
+  "fresh_test_metrics_known": false,
+  "grid": {
+    "prior_sd": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "q_floor": [
+      0,
+      0.64,
+      1.2815515655446004
+    ],
+    "margin": 0,
+    "calibration_seeds": 3,
+    "trials_per_arm": 27
+  },
+  "tie_rule": "larger calibration net, then higher q_floor, then smaller prior_sd",
+  "known_development_tasks": [
+    "occupancy357",
+    "occupancy864",
+    "mhealth319",
+    "har240",
+    "gas224",
+    "dsads256",
+    "har780"
+  ],
+  "all_outcomes_retained": true,
+  "uncertain_objective": "real gains measured; no universal superiority assumed"
+}

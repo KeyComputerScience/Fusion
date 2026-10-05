@@ -1,0 +1,68 @@
+{
+  "utc": "2026-10-03T09:46:11.952848+00:00",
+  "code_sha256": "811f98531ad3e135ceafbc64152b41ffbf380878cb45a1f7106eb54364157ff0",
+  "tasks": [
+    "rss348"
+  ],
+  "arms": [
+    "precision_joint",
+    "precision_diagonal",
+    "scalar_mass",
+    "no_posterior",
+    "complete_only"
+  ],
+  "prior_sd": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "q_floor": [
+    0.0,
+    0.64,
+    1.2815515655446004
+  ],
+  "margin": 0.0,
+  "evidence_scope": "all seven previous physical tasks are development; new PAMAP/RSS protocols are separate frozen validation",
+  "cfg": {
+    "window": 32,
+    "train_fraction": 0.3,
+    "audit_fraction": 0.3,
+    "lr": 0.08,
+    "l2": 0.003,
+    "initial_steps": 500,
+    "probe_steps": 20,
+    "probe_period": 4,
+    "train_buffer": 512,
+    "archive": 48,
+    "beta": 0.97,
+    "prior_mass": 2.0,
+    "kernel_bandwidth": 3.0,
+    "tau": 0.01,
+    "lam": 1.0,
+    "eta": 4.0,
+    "kappa": 0.0,
+    "threshold": 0.0,
+    "horizon": 4,
+    "deploy_fee": 2.0,
+    "deploy_drop": 2,
+    "probe_drop": 1,
+    "step_fee": 0.001,
+    "cooldown": 2,
+    "budget": 8,
+    "delay_low": 1,
+    "delay_high": 4,
+    "cap": 0.8,
+    "target_coverage": 0.9,
+    "source_dropout_period": 13,
+    "source_dropout_length": 2,
+    "quality_power": 1.0,
+    "uncertainty_floor": 1e-12,
+    "prior_variance": 0.01,
+    "lease_archive": 48,
+    "norm_kappa": 1.0,
+    "norm_floor": 0.01,
+    "gate_floor": 0.0001,
+    "prior_sd": 0.1,
+    "q_floor": 1.2815515655446004
+  }
+}

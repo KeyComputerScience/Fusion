@@ -1,0 +1,1603 @@
+{
+  "scope": "fixed issued state/q one-step mechanism interventions, not adaptive-policy trajectory comparisons",
+  "summaries": {
+    "gas224": {
+      "P_diagonal_only": {
+        "changed_actions": 0,
+        "one_step_gain": 0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      },
+      "scalar_mass": {
+        "changed_actions": 7,
+        "one_step_gain": -29.0,
+        "positive_changes": 2,
+        "negative_changes": 5
+      },
+      "complete_only": {
+        "changed_actions": 2,
+        "one_step_gain": 242.0,
+        "positive_changes": 2,
+        "negative_changes": 0
+      },
+      "no_posterior": {
+        "changed_actions": 24,
+        "one_step_gain": -528.0,
+        "positive_changes": 5,
+        "negative_changes": 19
+      },
+      "decoupled": {
+        "changed_actions": 0,
+        "one_step_gain": 0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      }
+    },
+    "rss348": {
+      "P_diagonal_only": {
+        "changed_actions": 1,
+        "one_step_gain": 0.0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      },
+      "scalar_mass": {
+        "changed_actions": 4,
+        "one_step_gain": 10.0,
+        "positive_changes": 1,
+        "negative_changes": 2
+      },
+      "complete_only": {
+        "changed_actions": 1,
+        "one_step_gain": 0.0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      },
+      "no_posterior": {
+        "changed_actions": 19,
+        "one_step_gain": -130.0,
+        "positive_changes": 5,
+        "negative_changes": 12
+      },
+      "decoupled": {
+        "changed_actions": 0,
+        "one_step_gain": 0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      }
+    }
+  },
+  "verified_cases": [
+    {
+      "task": "gas224",
+      "seed": 78001,
+      "origin": 20,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -14.286112528850483,
+      "variant_score": 0.5922048312459918,
+      "actual_lease_increment": -24.0,
+      "one_step_full_gain": 24.0,
+      "full_weights": [
+        0.5321952085706934,
+        0.004331543275635244,
+        0.45870221646959014,
+        0.004771031684081124
+      ],
+      "variant_weights": [
+        0.6212755995495501,
+        8.089819168505732e-08,
+        0.3787242346256572,
+        8.492660102149526e-08
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.14868264398914993
+    },
+    {
+      "task": "gas224",
+      "seed": 78001,
+      "origin": 140,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -6.4051014550355205,
+      "variant_score": 7.233312820004727,
+      "actual_lease_increment": 21.0,
+      "one_step_full_gain": -21.0,
+      "full_weights": [
+        3.760294961527618e-15,
+        0.1852649561414028,
+        0.01473504385859341,
+        0.8
+      ],
+      "variant_weights": [
+        2.033586857655808e-16,
+        0.19886004401159876,
+        0.0011399559884010225,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.12509882564792968
+    },
+    {
+      "task": "gas224",
+      "seed": 78001,
+      "origin": 140,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -6.4051014550355205,
+      "variant_score": 13.333813224740027,
+      "actual_lease_increment": 21.0,
+      "one_step_full_gain": -21.0,
+      "full_weights": [
+        3.760294961527618e-15,
+        0.1852649561414028,
+        0.01473504385859341,
+        0.8
+      ],
+      "variant_weights": [
+        5.432679961609502e-17,
+        0.1996912975270833,
+        0.000308702472916597,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.12509882564792968
+    },
+    {
+      "task": "gas224",
+      "seed": 78001,
+      "origin": 148,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -12.611563790534158,
+      "variant_score": 1.3013363568426826,
+      "actual_lease_increment": 37.0,
+      "one_step_full_gain": -37.0,
+      "full_weights": [
+        0.18741694439559364,
+        0.7075608484778648,
+        0.09236728554549682,
+        0.01265492158104467
+      ],
+      "variant_weights": [
+        0.15424134423101138,
+        0.8,
+        0.04193142871579514,
+        0.0038272270531934977
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.2945318310126861
+    },
+    {
+      "task": "gas224",
+      "seed": 78001,
+      "origin": 172,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -7.560193023855518,
+      "variant_score": 4.569955602450639,
+      "actual_lease_increment": 38.0,
+      "one_step_full_gain": -38.0,
+      "full_weights": [
+        0.00012375226426964827,
+        0.22893411385361442,
+        0.4140285556226825,
+        0.3569135782594336
+      ],
+      "variant_weights": [
+        2.1498763538504063e-06,
+        0.09443168925630567,
+        0.46207421933048576,
+        0.4434919415368547
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.3300378089460975
+    },
+    {
+      "task": "gas224",
+      "seed": 78001,
+      "origin": 188,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -11.413943648433424,
+      "variant_score": 3.9396384935339217,
+      "actual_lease_increment": -2.0,
+      "one_step_full_gain": 2.0,
+      "full_weights": [
+        2.072197153003029e-09,
+        0.199996004534785,
+        3.993393017990442e-06,
+        0.8
+      ],
+      "variant_weights": [
+        1.3684714535107653e-11,
+        0.19999994412127786,
+        5.5865037325661655e-08,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.3770670970168267
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 20,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -8.981743544897737,
+      "variant_score": 2.4325674173188103,
+      "actual_lease_increment": -21.0,
+      "one_step_full_gain": 21.0,
+      "full_weights": [
+        0.35849457546948515,
+        6.7277201742318495e-06,
+        0.6414986967532189,
+        5.7121688617605885e-11
+      ],
+      "variant_weights": [
+        0.2166964883132316,
+        7.942585658270118e-10,
+        0.7833035108925028,
+        6.7383542066589575e-15
+      ],
+      "issued_q": 0.685,
+      "non_scalar": 0.14728006487257922
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 20,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -8.981743544897737,
+      "variant_score": 8.569443308688124,
+      "actual_lease_increment": -21.0,
+      "one_step_full_gain": 21.0,
+      "full_weights": [
+        0.35849457546948515,
+        6.7277201742318495e-06,
+        0.6414986967532189,
+        5.7121688617605885e-11
+      ],
+      "variant_weights": [
+        0.1999999998581984,
+        1.4180032003411445e-10,
+        0.8,
+        1.203009863908098e-15
+      ],
+      "issued_q": 0.685,
+      "non_scalar": 0.14728006487257922
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 116,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -11.036457054287098,
+      "variant_score": 3.802541675380171,
+      "actual_lease_increment": 66.0,
+      "one_step_full_gain": -66.0,
+      "full_weights": [
+        0.1126760703093535,
+        0.03103708413213276,
+        0.3106528428249169,
+        0.5456340027335969
+      ],
+      "variant_weights": [
+        0.005389539800260484,
+        0.0008838066572172731,
+        0.19372665354252208,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.4627027186554511
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 172,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -8.755397679937916,
+      "variant_score": 1.5102800635541564,
+      "actual_lease_increment": 38.0,
+      "one_step_full_gain": -38.0,
+      "full_weights": [
+        0.007806859188780711,
+        0.2558963240958659,
+        0.47418989510278925,
+        0.2621069216125642
+      ],
+      "variant_weights": [
+        1.2849804327178676e-05,
+        0.14527698225762103,
+        0.6041767392637584,
+        0.25053342867429346
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.11043199420876669
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 188,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -5.8627557366316925,
+      "variant_score": 1.9790486049499139,
+      "actual_lease_increment": 8.0,
+      "one_step_full_gain": -8.0,
+      "full_weights": [
+        1.2594461774279618e-11,
+        0.2504222004737209,
+        3.915625198589105e-09,
+        0.7495777955980594
+      ],
+      "variant_weights": [
+        3.5908764878163485e-13,
+        0.1999999998809474,
+        1.1869345756963142e-10,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.1593537875743473
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 188,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -5.8627557366316925,
+      "variant_score": 8.343441921513058,
+      "actual_lease_increment": 8.0,
+      "one_step_full_gain": -8.0,
+      "full_weights": [
+        1.2594461774279618e-11,
+        0.2504222004737209,
+        3.915625198589105e-09,
+        0.7495777955980594
+      ],
+      "variant_weights": [
+        1.060828130314608e-13,
+        0.19999999996460638,
+        3.528748903995529e-11,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.1593537875743473
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 316,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -1.9247035253680949,
+      "variant_score": 3.747385654641244,
+      "actual_lease_increment": 16.0,
+      "one_step_full_gain": -16.0,
+      "full_weights": [
+        0.26003628946571,
+        0.329856202189475,
+        0.02031119018880162,
+        0.38979631815601334
+      ],
+      "variant_weights": [
+        0.18718125318253143,
+        0.3342517827205989,
+        0.000513222975383339,
+        0.47805374112148624
+      ],
+      "issued_q": 0.685,
+      "non_scalar": 0.13571791492001442
+    },
+    {
+      "task": "gas224",
+      "seed": 78002,
+      "origin": 316,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -1.9247035253680949,
+      "variant_score": 8.680424872573699,
+      "actual_lease_increment": 16.0,
+      "one_step_full_gain": -16.0,
+      "full_weights": [
+        0.26003628946571,
+        0.329856202189475,
+        0.02031119018880162,
+        0.38979631815601334
+      ],
+      "variant_weights": [
+        0.1097295301532997,
+        0.3201431005167075,
+        3.97359272506449e-05,
+        0.5700876334027422
+      ],
+      "issued_q": 0.685,
+      "non_scalar": 0.13571791492001442
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 4,
+      "variant": "complete_only",
+      "full_action": true,
+      "variant_action": false,
+      "full_score": 177.79493286944026,
+      "variant_score": -10.382493069832833,
+      "actual_lease_increment": 121.0,
+      "one_step_full_gain": 121.0,
+      "full_weights": [
+        1.4235000667149538e-43,
+        0.237531485661316,
+        0.00046946125045345643,
+        0.7619990530882307
+      ],
+      "variant_weights": [
+        2.180002332079701e-11,
+        0.21738284091749804,
+        0.2066401138956351,
+        0.5759770451650669
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.5348207572311159
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 76,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -11.983604038205943,
+      "variant_score": 0.6395140681461129,
+      "actual_lease_increment": 20.0,
+      "one_step_full_gain": -20.0,
+      "full_weights": [
+        0.4232735444892149,
+        0.05861628474468869,
+        0.3432030065549269,
+        0.1749071642111695
+      ],
+      "variant_weights": [
+        0.6244863602930933,
+        0.003420398266668657,
+        0.3448812321354791,
+        0.02721200930475874
+      ],
+      "issued_q": 0.65,
+      "non_scalar": 0.42228344344082663
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 140,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.007969043552798,
+      "variant_score": 4.4456470972183055,
+      "actual_lease_increment": 22.0,
+      "one_step_full_gain": -22.0,
+      "full_weights": [
+        6.607312725511034e-15,
+        0.18401371426909133,
+        0.01598628573090203,
+        0.8
+      ],
+      "variant_weights": [
+        3.7810422728361397e-16,
+        0.19865358111571704,
+        0.0013464188842825407,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.12256013111991675
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 140,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.007969043552798,
+      "variant_score": 10.537424527240576,
+      "actual_lease_increment": 22.0,
+      "one_step_full_gain": -22.0,
+      "full_weights": [
+        6.607312725511034e-15,
+        0.18401371426909133,
+        0.01598628573090203,
+        0.8
+      ],
+      "variant_weights": [
+        1.0153640486804003e-16,
+        0.1996322137517249,
+        0.0003677862482749055,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.12256013111991675
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 148,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -12.772247655613345,
+      "variant_score": 1.4643113696856425,
+      "actual_lease_increment": 48.0,
+      "one_step_full_gain": -48.0,
+      "full_weights": [
+        0.17670868982418725,
+        0.8,
+        0.020581595556868688,
+        0.0027097146189440898
+      ],
+      "variant_weights": [
+        0.19170236023437276,
+        0.8,
+        0.007283176820238285,
+        0.0010144629453889907
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.33409109947951504
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 164,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.180326200873166,
+      "variant_score": 1.4436604937407385,
+      "actual_lease_increment": 36.0,
+      "one_step_full_gain": -36.0,
+      "full_weights": [
+        7.140149002484563e-07,
+        0.009558267615823535,
+        0.31918027778443475,
+        0.6712607405848415
+      ],
+      "variant_weights": [
+        2.2004276373015357e-09,
+        4.3712511851216276e-05,
+        0.19995628528772122,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.14029602487468462
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 164,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.180326200873166,
+      "variant_score": 7.648216043946514,
+      "actual_lease_increment": 36.0,
+      "one_step_full_gain": -36.0,
+      "full_weights": [
+        7.140149002484563e-07,
+        0.009558267615823535,
+        0.31918027778443475,
+        0.6712607405848415
+      ],
+      "variant_weights": [
+        7.066061688514145e-10,
+        1.2766062409694625e-05,
+        0.19998723323098408,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.14029602487468462
+    },
+    {
+      "task": "gas224",
+      "seed": 78003,
+      "origin": 188,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -11.391680178947174,
+      "variant_score": 4.307163465999244,
+      "actual_lease_increment": 2.0,
+      "one_step_full_gain": -2.0,
+      "full_weights": [
+        6.207074448384481e-09,
+        0.19999360126268356,
+        6.392530241955496e-06,
+        0.8
+      ],
+      "variant_weights": [
+        3.542566075024133e-11,
+        0.19999991729568023,
+        8.26688940742433e-08,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.40342968924805406
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 4,
+      "variant": "complete_only",
+      "full_action": true,
+      "variant_action": false,
+      "full_score": 177.79493286944026,
+      "variant_score": -10.382493069832837,
+      "actual_lease_increment": 121.0,
+      "one_step_full_gain": 121.0,
+      "full_weights": [
+        1.4235000667149261e-43,
+        0.23753148566131582,
+        0.00046946125045345356,
+        0.7619990530882308
+      ],
+      "variant_weights": [
+        2.1800023320796156e-11,
+        0.21738284091749768,
+        0.20664011389563514,
+        0.5759770451650673
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.5348207572311159
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 116,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -7.722776568821315,
+      "variant_score": 6.698318805758889,
+      "actual_lease_increment": 61.0,
+      "one_step_full_gain": -61.0,
+      "full_weights": [
+        0.17571552244593835,
+        0.024621243631061558,
+        0.2997329738228699,
+        0.4999302601001301
+      ],
+      "variant_weights": [
+        0.022257728935991813,
+        0.00061895361975206,
+        0.17712331744425616,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.46682875023778964
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 140,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -19.516069563585514,
+      "variant_score": 0.7421860354788805,
+      "actual_lease_increment": 9.0,
+      "one_step_full_gain": -9.0,
+      "full_weights": [
+        4.661331219901399e-09,
+        0.15349941042846674,
+        0.046500584910201974,
+        0.8
+      ],
+      "variant_weights": [
+        1.5390066492541317e-10,
+        0.1949899820035344,
+        0.005010017842564952,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.13974474726957348
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 148,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -10.534422443594991,
+      "variant_score": 3.2111089144089853,
+      "actual_lease_increment": 47.0,
+      "one_step_full_gain": -47.0,
+      "full_weights": [
+        0.13102003169058177,
+        0.7577808151639099,
+        0.1066547626163196,
+        0.004544390529188623
+      ],
+      "variant_weights": [
+        0.1138893824657127,
+        0.8,
+        0.08412542090725982,
+        0.001985196627027407
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.305177485238528
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 164,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -11.121357658902314,
+      "variant_score": 5.373600522707099,
+      "actual_lease_increment": 40.0,
+      "one_step_full_gain": -40.0,
+      "full_weights": [
+        9.700970295899224e-07,
+        0.009744480401938548,
+        0.292829212557064,
+        0.6974253369439677
+      ],
+      "variant_weights": [
+        2.6683376436349908e-09,
+        4.205192294649875e-05,
+        0.19995794540871598,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.16869212579987206
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 172,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -7.003489298018134,
+      "variant_score": 3.112812204400198,
+      "actual_lease_increment": 39.0,
+      "one_step_full_gain": -39.0,
+      "full_weights": [
+        0.001182364223338928,
+        0.24409261601137752,
+        0.45562374336881173,
+        0.2991012763964719
+      ],
+      "variant_weights": [
+        1.7456922265088157e-06,
+        0.12246465870286807,
+        0.5595148065136004,
+        0.31801878909130504
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.10002063060662733
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 212,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -2.8731866417819134,
+      "variant_score": 1.5250083248408313,
+      "actual_lease_increment": -53.0,
+      "one_step_full_gain": 53.0,
+      "full_weights": [
+        2.947571168800665e-06,
+        0.32979231374664075,
+        0.06895215823824849,
+        0.601252580443942
+      ],
+      "variant_weights": [
+        1.0415633209366678e-07,
+        0.28653308976064273,
+        0.009862500578100793,
+        0.7036043055049244
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.2040586221281545
+    },
+    {
+      "task": "gas224",
+      "seed": 78004,
+      "origin": 212,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -2.8731866417819134,
+      "variant_score": 6.946805604067281,
+      "actual_lease_increment": -53.0,
+      "one_step_full_gain": 53.0,
+      "full_weights": [
+        2.947571168800665e-06,
+        0.32979231374664075,
+        0.06895215823824849,
+        0.601252580443942
+      ],
+      "variant_weights": [
+        7.919258136323608e-09,
+        0.19913378393500367,
+        0.0008662081457381217,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.2040586221281545
+    },
+    {
+      "task": "gas224",
+      "seed": 78005,
+      "origin": 20,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -14.602239169424228,
+      "variant_score": 0.28706519383454143,
+      "actual_lease_increment": -24.0,
+      "one_step_full_gain": 24.0,
+      "full_weights": [
+        0.5343338552162546,
+        0.0043135402995748496,
+        0.4561162589434617,
+        0.005236345540708859
+      ],
+      "variant_weights": [
+        0.6243598286275125,
+        8.021384069605453e-08,
+        0.375639996732199,
+        9.442644796836974e-08
+      ],
+      "issued_q": 0.685,
+      "non_scalar": 0.14868264398914993
+    },
+    {
+      "task": "gas224",
+      "seed": 78005,
+      "origin": 116,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -8.310420624555052,
+      "variant_score": 5.792155187479091,
+      "actual_lease_increment": 67.0,
+      "one_step_full_gain": -67.0,
+      "full_weights": [
+        0.15865304506402214,
+        0.05138246331925701,
+        0.33044598583745116,
+        0.4595185057792696
+      ],
+      "variant_weights": [
+        0.007954273833717954,
+        0.0008948923061209073,
+        0.19115083386016107,
+        0.8
+      ],
+      "issued_q": 0.64,
+      "non_scalar": 0.47150032122750146
+    },
+    {
+      "task": "gas224",
+      "seed": 78005,
+      "origin": 172,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -10.637033133375278,
+      "variant_score": 0.5395782115107943,
+      "actual_lease_increment": 37.0,
+      "one_step_full_gain": -37.0,
+      "full_weights": [
+        0.04337754733687659,
+        0.25120831021529855,
+        0.49871674390241333,
+        0.20669739854541158
+      ],
+      "variant_weights": [
+        2.9784870822180667e-05,
+        0.1524757803071264,
+        0.6201484433616293,
+        0.22734599146042211
+      ],
+      "issued_q": 0.655,
+      "non_scalar": 0.2162827133814822
+    },
+    {
+      "task": "rss348",
+      "seed": 88001,
+      "origin": 28,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -7.973852348246131,
+      "variant_score": 3.1043047178445295,
+      "actual_lease_increment": -4.0,
+      "one_step_full_gain": 4.0,
+      "full_weights": [
+        0.2574565385436342,
+        0.25222768232302417,
+        0.24453320253783767,
+        0.24578257659550395
+      ],
+      "variant_weights": [
+        0.19107549888141856,
+        0.5204692769405752,
+        0.13120178341862904,
+        0.1572534407593773
+      ],
+      "issued_q": 0.02,
+      "non_scalar": 0.20989306502162883
+    },
+    {
+      "task": "rss348",
+      "seed": 88001,
+      "origin": 68,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.79852895936723,
+      "variant_score": 1.1221191113891669,
+      "actual_lease_increment": 4.0,
+      "one_step_full_gain": -4.0,
+      "full_weights": [
+        0.26053537835261575,
+        0.2213855023646268,
+        0.2666231723711221,
+        0.2514559469116355
+      ],
+      "variant_weights": [
+        0.32024930176389843,
+        0.19138348879888228,
+        0.26853733101323113,
+        0.21982987842398816
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.30691919721461064
+    },
+    {
+      "task": "rss348",
+      "seed": 88001,
+      "origin": 84,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -7.234391886815193,
+      "variant_score": 3.8165628205343776,
+      "actual_lease_increment": 6.0,
+      "one_step_full_gain": -6.0,
+      "full_weights": [
+        0.3006371737686885,
+        0.35973051470451084,
+        0.16226955702035342,
+        0.1773627545064473
+      ],
+      "variant_weights": [
+        0.20664170901977758,
+        0.7808480164958668,
+        0.0036877490062338036,
+        0.008822525478121778
+      ],
+      "issued_q": 0.045000000000000005,
+      "non_scalar": 0.0656142431223471
+    },
+    {
+      "task": "rss348",
+      "seed": 88001,
+      "origin": 116,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -8.934672558842161,
+      "variant_score": 0.9187697168151105,
+      "actual_lease_increment": 12.0,
+      "one_step_full_gain": -12.0,
+      "full_weights": [
+        0.18413228262803955,
+        0.2928957408249155,
+        0.211049420762317,
+        0.3119225557847281
+      ],
+      "variant_weights": [
+        0.057882799801092455,
+        0.26805305832851734,
+        0.08057098615305623,
+        0.5934931557173341
+      ],
+      "issued_q": 0.0049999999999999975,
+      "non_scalar": 0.2503338585921835
+    },
+    {
+      "task": "rss348",
+      "seed": 88001,
+      "origin": 164,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -4.046877700223614,
+      "variant_score": 1.1256158466759318,
+      "actual_lease_increment": 22.0,
+      "one_step_full_gain": -22.0,
+      "full_weights": [
+        0.0005423726573963033,
+        0.2961071451359298,
+        0.11071301861013055,
+        0.5926374635965435
+      ],
+      "variant_weights": [
+        9.48681991062589e-06,
+        0.18824393921140917,
+        0.011746573968680223,
+        0.8
+      ],
+      "issued_q": 0.0049999999999999975,
+      "non_scalar": 0.3981303091731938
+    },
+    {
+      "task": "rss348",
+      "seed": 88001,
+      "origin": 164,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -4.046877700223614,
+      "variant_score": 10.548986486065115,
+      "actual_lease_increment": 22.0,
+      "one_step_full_gain": -22.0,
+      "full_weights": [
+        0.0005423726573963033,
+        0.2961071451359298,
+        0.11071301861013055,
+        0.5926374635965435
+      ],
+      "variant_weights": [
+        4.812039489618338e-06,
+        0.19373725307551679,
+        0.00625793488499367,
+        0.8
+      ],
+      "issued_q": 0.0049999999999999975,
+      "non_scalar": 0.3981303091731938
+    },
+    {
+      "task": "rss348",
+      "seed": 88002,
+      "origin": 28,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -7.833241494929293,
+      "variant_score": 3.364720957679957,
+      "actual_lease_increment": -4.0,
+      "one_step_full_gain": 4.0,
+      "full_weights": [
+        0.2558201665118628,
+        0.255086913918619,
+        0.2442940289420171,
+        0.24479889062750118
+      ],
+      "variant_weights": [
+        0.16481950558302844,
+        0.569952477893876,
+        0.12346771614655386,
+        0.1417603003765417
+      ],
+      "issued_q": 0.02,
+      "non_scalar": 0.22727008395785098
+    },
+    {
+      "task": "rss348",
+      "seed": 88002,
+      "origin": 68,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.263308983429983,
+      "variant_score": 2.3478575400368973,
+      "actual_lease_increment": 9.0,
+      "one_step_full_gain": -9.0,
+      "full_weights": [
+        0.3932025859813003,
+        0.2272650433266941,
+        0.09822937239610313,
+        0.2813029982959025
+      ],
+      "variant_weights": [
+        0.8,
+        0.0599702304818696,
+        0.005659808399438486,
+        0.13436996111869187
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.2917223114753153
+    },
+    {
+      "task": "rss348",
+      "seed": 88002,
+      "origin": 116,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.720938948910977,
+      "variant_score": 0.19383519489965462,
+      "actual_lease_increment": 15.0,
+      "one_step_full_gain": -15.0,
+      "full_weights": [
+        0.20746275348206175,
+        0.32190495067649433,
+        0.18966497320515294,
+        0.2809673226362911
+      ],
+      "variant_weights": [
+        0.12714343166170128,
+        0.422755059985789,
+        0.07531493902014592,
+        0.3747865693323638
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.26889690764403584
+    },
+    {
+      "task": "rss348",
+      "seed": 88002,
+      "origin": 124,
+      "variant": "complete_only",
+      "full_action": true,
+      "variant_action": false,
+      "full_score": 0.1476735262258,
+      "variant_score": -0.4606352196368251,
+      "actual_lease_increment": 0.0,
+      "one_step_full_gain": 0.0,
+      "full_weights": [
+        0.00239288339040796,
+        0.5166579813923303,
+        0.2715599558926005,
+        0.2093891793246612
+      ],
+      "variant_weights": [
+        0.0031065826974562,
+        0.5031571426923284,
+        0.2732471420208761,
+        0.22048913258933958
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.2872437847555709
+    },
+    {
+      "task": "rss348",
+      "seed": 88003,
+      "origin": 20,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -9.888304202681246,
+      "variant_score": 2.0105280474503244,
+      "actual_lease_increment": 6.0,
+      "one_step_full_gain": -6.0,
+      "full_weights": [
+        0.30325615651994636,
+        0.2605287073590754,
+        0.20661895112988735,
+        0.22959618499109094
+      ],
+      "variant_weights": [
+        0.8,
+        0.13554983481192598,
+        0.018770491965048857,
+        0.04567967322302523
+      ],
+      "issued_q": 0.025,
+      "non_scalar": 0.03181499169997709
+    },
+    {
+      "task": "rss348",
+      "seed": 88003,
+      "origin": 28,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -8.672194036004349,
+      "variant_score": 2.4290498210582907,
+      "actual_lease_increment": -4.0,
+      "one_step_full_gain": 4.0,
+      "full_weights": [
+        0.2534563515186443,
+        0.2610532638907531,
+        0.2421237611836167,
+        0.24336662340698587
+      ],
+      "variant_weights": [
+        0.16450069785054788,
+        0.5735483206293084,
+        0.12063023395705313,
+        0.14132074756309057
+      ],
+      "issued_q": 0.02,
+      "non_scalar": 0.14776012378391704
+    },
+    {
+      "task": "rss348",
+      "seed": 88003,
+      "origin": 84,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -5.228514501397382,
+      "variant_score": 1.0805398792921377,
+      "actual_lease_increment": 6.0,
+      "one_step_full_gain": -6.0,
+      "full_weights": [
+        0.35167536667344196,
+        0.3643312556567647,
+        0.09268471688179057,
+        0.1913086607880029
+      ],
+      "variant_weights": [
+        0.42922402197214277,
+        0.46350227532837723,
+        0.006236025936596899,
+        0.1010376767628832
+      ],
+      "issued_q": 0.045000000000000005,
+      "non_scalar": 0.05722874842171422
+    },
+    {
+      "task": "rss348",
+      "seed": 88003,
+      "origin": 84,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -5.228514501397382,
+      "variant_score": 6.054596600369095,
+      "actual_lease_increment": 6.0,
+      "one_step_full_gain": -6.0,
+      "full_weights": [
+        0.35167536667344196,
+        0.3643312556567647,
+        0.09268471688179057,
+        0.1913086607880029
+      ],
+      "variant_weights": [
+        0.4336332365441494,
+        0.5571991234474464,
+        0.00024678214663803686,
+        0.008920857861766291
+      ],
+      "issued_q": 0.045000000000000005,
+      "non_scalar": 0.05722874842171422
+    },
+    {
+      "task": "rss348",
+      "seed": 88003,
+      "origin": 164,
+      "variant": "scalar_mass",
+      "full_action": true,
+      "variant_action": false,
+      "full_score": 3.7825273235537225,
+      "variant_score": -1.6883863427068846,
+      "actual_lease_increment": 38.0,
+      "one_step_full_gain": 38.0,
+      "full_weights": [
+        2.0440235149903983e-09,
+        0.19916340118869194,
+        0.0008365967672845496,
+        0.8
+      ],
+      "variant_weights": [
+        5.529839582214852e-10,
+        0.19965665565007185,
+        0.00034334379694405813,
+        0.8
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.30931314959875905
+    },
+    {
+      "task": "rss348",
+      "seed": 88004,
+      "origin": 28,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -4.895885809964675,
+      "variant_score": 6.021114775470668,
+      "actual_lease_increment": 4.0,
+      "one_step_full_gain": -4.0,
+      "full_weights": [
+        0.28538898886809094,
+        0.18178896642374964,
+        0.2687499470415734,
+        0.26407209766658596
+      ],
+      "variant_weights": [
+        0.23307328369749902,
+        0.27273448842919057,
+        0.21253147827255756,
+        0.2816607496007529
+      ],
+      "issued_q": 0.02,
+      "non_scalar": 0.3736974875786181
+    },
+    {
+      "task": "rss348",
+      "seed": 88004,
+      "origin": 84,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -10.640518805757608,
+      "variant_score": 0.11201990145919805,
+      "actual_lease_increment": 0.0,
+      "one_step_full_gain": -0.0,
+      "full_weights": [
+        0.26882435308403163,
+        0.30855864159924307,
+        0.21916068140282846,
+        0.20345632391389695
+      ],
+      "variant_weights": [
+        0.19617679791340947,
+        0.7299411153025288,
+        0.03896184136341791,
+        0.03492024542064377
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.044471357813313885
+    },
+    {
+      "task": "rss348",
+      "seed": 88004,
+      "origin": 124,
+      "variant": "scalar_mass",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -1.1565516269461837,
+      "variant_score": 2.475354880878305,
+      "actual_lease_increment": 0.0,
+      "one_step_full_gain": -0.0,
+      "full_weights": [
+        0.005148183975474516,
+        0.517574782883292,
+        0.19955829346055892,
+        0.2777187396806747
+      ],
+      "variant_weights": [
+        0.0001542989865392048,
+        0.6928599548575334,
+        0.06571840556361176,
+        0.24126734059231578
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.3061832257780671
+    },
+    {
+      "task": "rss348",
+      "seed": 88004,
+      "origin": 124,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -1.1565516269461837,
+      "variant_score": 9.944718678529798,
+      "actual_lease_increment": 0.0,
+      "one_step_full_gain": -0.0,
+      "full_weights": [
+        0.005148183975474516,
+        0.517574782883292,
+        0.19955829346055892,
+        0.2777187396806747
+      ],
+      "variant_weights": [
+        0.0002004306734524549,
+        0.8,
+        0.056057621749280626,
+        0.14374194757726685
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.3061832257780671
+    },
+    {
+      "task": "rss348",
+      "seed": 88004,
+      "origin": 124,
+      "variant": "P_diagonal_only",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -1.1565516269461837,
+      "variant_score": 0.6480598874308532,
+      "actual_lease_increment": 0.0,
+      "one_step_full_gain": -0.0,
+      "full_weights": [
+        0.005148183975474516,
+        0.517574782883292,
+        0.19955829346055892,
+        0.2777187396806747
+      ],
+      "variant_weights": [
+        0.03701250461608255,
+        0.4438454632044216,
+        0.23125252523817177,
+        0.28788950694132415
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.3061832257780671
+    },
+    {
+      "task": "rss348",
+      "seed": 88004,
+      "origin": 164,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -3.752839852080351,
+      "variant_score": 10.459402192779034,
+      "actual_lease_increment": 28.0,
+      "one_step_full_gain": -28.0,
+      "full_weights": [
+        0.0002758143352956534,
+        0.32270153705982907,
+        0.08193827004706557,
+        0.5950843785578097
+      ],
+      "variant_weights": [
+        3.3100141703174324e-06,
+        0.19624911894682123,
+        0.0037475710390083975,
+        0.8
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.39023816107671455
+    },
+    {
+      "task": "rss348",
+      "seed": 88005,
+      "origin": 28,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -7.649747494815831,
+      "variant_score": 3.723651083670088,
+      "actual_lease_increment": -2.0,
+      "one_step_full_gain": 2.0,
+      "full_weights": [
+        0.24917750907481556,
+        0.2594905182816691,
+        0.2418781822520887,
+        0.2494537903914267
+      ],
+      "variant_weights": [
+        0.09033634071941214,
+        0.7062373227617056,
+        0.07498841953744564,
+        0.1284379169814367
+      ],
+      "issued_q": 0.02,
+      "non_scalar": 0.25067454566769043
+    },
+    {
+      "task": "rss348",
+      "seed": 88005,
+      "origin": 92,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -13.271639966294483,
+      "variant_score": 0.09326648683871408,
+      "actual_lease_increment": 14.0,
+      "one_step_full_gain": -14.0,
+      "full_weights": [
+        0.33181961655067105,
+        0.3427468569277085,
+        0.32543352652162044
+      ],
+      "variant_weights": [
+        0.09148600686851968,
+        0.12467934847044386,
+        0.7838346446610364
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.4374669925776601
+    },
+    {
+      "task": "rss348",
+      "seed": 88005,
+      "origin": 124,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -4.547424736894809,
+      "variant_score": 6.138521356545649,
+      "actual_lease_increment": -1.0,
+      "one_step_full_gain": 1.0,
+      "full_weights": [
+        0.015454304706119675,
+        0.45188327011215096,
+        0.1839403031432707,
+        0.3487221220384588
+      ],
+      "variant_weights": [
+        0.00040933607611655837,
+        0.7529175066539627,
+        0.030242299194508552,
+        0.21643085807541237
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.3126171582263046
+    },
+    {
+      "task": "rss348",
+      "seed": 88005,
+      "origin": 164,
+      "variant": "no_posterior",
+      "full_action": false,
+      "variant_action": true,
+      "full_score": -5.221740569353983,
+      "variant_score": 8.821068442881352,
+      "actual_lease_increment": 19.0,
+      "one_step_full_gain": -19.0,
+      "full_weights": [
+        0.003525346811263999,
+        0.2882966682216496,
+        0.19364880363548895,
+        0.5145291813315974
+      ],
+      "variant_weights": [
+        1.9758584640564205e-05,
+        0.1726734971322055,
+        0.027306744283153904,
+        0.8
+      ],
+      "issued_q": 0.0,
+      "non_scalar": 0.3948500033362623
+    }
+  ],
+  "selected": {
+    "task": "rss348",
+    "seed": 88003,
+    "origin": 164,
+    "variant": "scalar_mass",
+    "full_action": true,
+    "variant_action": false,
+    "full_score": 3.7825273235537225,
+    "variant_score": -1.6883863427068846,
+    "actual_lease_increment": 38.0,
+    "one_step_full_gain": 38.0,
+    "full_weights": [
+      2.0440235149903983e-09,
+      0.19916340118869194,
+      0.0008365967672845496,
+      0.8
+    ],
+    "variant_weights": [
+      5.529839582214852e-10,
+      0.19965665565007185,
+      0.00034334379694405813,
+      0.8
+    ],
+    "issued_q": 0.0,
+    "non_scalar": 0.30931314959875905
+  }
+}

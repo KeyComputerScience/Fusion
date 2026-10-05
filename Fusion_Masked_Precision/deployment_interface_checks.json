@@ -1,0 +1,221 @@
+{
+  "core_sha256": "811f98531ad3e135ceafbc64152b41ffbf380878cb45a1f7106eb54364157ff0",
+  "interface_sha256": "0b04e823e41554a331c2eaa574edaf1b9df88fca80279685bc28a99ac8d48eb8",
+  "validation_sha256": "76b99439cc597623f9bd5ef1bb3349190ee7726e2fa315ca4449ff0830b5d669",
+  "nonempty_saved_comparisons": 610,
+  "future_truth_checks": 610,
+  "malformed_checks": [
+    {
+      "name": "empty_forecast_mask",
+      "reason": "empty_source_mask"
+    },
+    {
+      "name": "nonfinite_h",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "forecast_dimension",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "duplicate_source_id",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "invalid_source_id",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "indefinite_R",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "nonsymmetric_P",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "nonfinite_P",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "model_dimension",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "nonfinite_model",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "future_maturity",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "invalid_N",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "invalid_probabilities",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "zero_quality",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "negative_threshold",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "nonfinite_threshold",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "service_infeasible",
+      "reason": "service_infeasible"
+    },
+    {
+      "name": "reserve_exceeds_capacity",
+      "reason": "loss_budget_insufficient"
+    },
+    {
+      "name": "invalid_ledger",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "uncertified_small_reserve",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "nonfinite_contract_dimension",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "revised_fee_contract",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "invalid_entropy_coefficient",
+      "reason": "invalid_input_or_numerical_failure"
+    },
+    {
+      "name": "injected_solver_failure",
+      "reason": "uncertified_solver"
+    }
+  ],
+  "maximum_forecast_difference": 0.0,
+  "scope": "separate fail-closed deployment adapter; frozen primary algorithm is unchanged",
+  "package_sources_rebound_only": false,
+  "singleton": {
+    "action": false,
+    "reason": "paid_value_retention",
+    "weights": [
+      1.0
+    ],
+    "gain": 0.0,
+    "predictive_scale": 12.86384079503474,
+    "score": -13.232858108822233,
+    "certificate": {
+      "kkt": 0.0,
+      "primal": 0.0,
+      "iterations": 1,
+      "converged": true
+    },
+    "information_ready": false
+  },
+  "fixed_state_scope": "fixed issued state/q one-step mechanism interventions, not adaptive-policy trajectory comparisons",
+  "all_fixed_state_summaries": {
+    "gas224": {
+      "P_diagonal_only": {
+        "changed_actions": 0,
+        "one_step_gain": 0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      },
+      "scalar_mass": {
+        "changed_actions": 7,
+        "one_step_gain": -29.0,
+        "positive_changes": 2,
+        "negative_changes": 5
+      },
+      "complete_only": {
+        "changed_actions": 2,
+        "one_step_gain": 242.0,
+        "positive_changes": 2,
+        "negative_changes": 0
+      },
+      "no_posterior": {
+        "changed_actions": 24,
+        "one_step_gain": -528.0,
+        "positive_changes": 5,
+        "negative_changes": 19
+      },
+      "decoupled": {
+        "changed_actions": 0,
+        "one_step_gain": 0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      }
+    },
+    "rss348": {
+      "P_diagonal_only": {
+        "changed_actions": 1,
+        "one_step_gain": 0.0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      },
+      "scalar_mass": {
+        "changed_actions": 4,
+        "one_step_gain": 10.0,
+        "positive_changes": 1,
+        "negative_changes": 2
+      },
+      "complete_only": {
+        "changed_actions": 1,
+        "one_step_gain": 0.0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      },
+      "no_posterior": {
+        "changed_actions": 19,
+        "one_step_gain": -130.0,
+        "positive_changes": 5,
+        "negative_changes": 12
+      },
+      "decoupled": {
+        "changed_actions": 0,
+        "one_step_gain": 0,
+        "positive_changes": 0,
+        "negative_changes": 0
+      }
+    }
+  },
+  "fixed_state_cases_verified": 58,
+  "selected_real_case": {
+    "task": "rss348",
+    "seed": 88003,
+    "origin": 164,
+    "variant": "scalar_mass",
+    "full_action": true,
+    "variant_action": false,
+    "full_score": 3.7825273235537225,
+    "variant_score": -1.6883863427068846,
+    "actual_lease_increment": 38.0,
+    "one_step_full_gain": 38.0,
+    "full_weights": [
+      2.0440235149903983e-09,
+      0.19916340118869194,
+      0.0008365967672845496,
+      0.8
+    ],
+    "variant_weights": [
+      5.529839582214852e-10,
+      0.19965665565007185,
+      0.00034334379694405813,
+      0.8
+    ],
+    "issued_q": 0.0,
+    "non_scalar": 0.30931314959875905
+  },
+  "frozen_core_unchanged": true,
+  "passed": true
+}

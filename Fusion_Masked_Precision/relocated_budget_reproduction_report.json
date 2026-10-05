@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "exact_budget_summary_match": true,
+  "verification": {
+    "service_trajectories": 1600,
+    "input_service_checks": 200,
+    "reference_checks": 40,
+    "fork_checks": 10325,
+    "future_truth_checks": 4800,
+    "causal_checks_with_unresolved_admissions": 121,
+    "max_service_error": 9.094947017729282e-13,
+    "max_fork_error": 2.842170943040401e-14,
+    "max_reference_error": 0.0,
+    "min_ledger_capacity": 0.0,
+    "max_loss_violation": 0.0,
+    "max_prefix_violation": 0.0,
+    "max_partial_lease_reserve_violation": 0.0,
+    "maximum_pending_leases": 1,
+    "maximum_test_end_pending_leases": 1,
+    "tasks": {
+      "mhealth319": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      },
+      "gas224": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      },
+      "dsads256": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      },
+      "occupancy357": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      },
+      "occupancy864": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      },
+      "har240": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      },
+      "har780": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      },
+      "rss348": {
+        "guarded_trajectories": 200,
+        "seeds": 5
+      }
+    },
+    "scientific_sources_unchanged": true,
+    "input_results_unchanged": true,
+    "compact_jsonl_lines": 1600,
+    "uncompressed_jsonl_sha256": "50c21a50dcc0f97b41e06da8f9ca2dcae53c4e31112eb7d8bca239fcaeb0a512",
+    "compressed_jsonl_sha256": "3269a1cc953404febe8a0f044dc329fe39d0fe1b4cc06506afdadc03f6056fcf",
+    "passed": true
+  },
+  "dependency_binding": {
+    "top_level_rebindings": 2,
+    "function_ast_sha256": {
+      "sha": "f43200c2ab9413b67d32fb0f879a9b25c7d90b843e57a584062f8efed5e604e9",
+      "dump": "44a4cd41f9e8ee9bd039cbc301da6fbd78f357f09dfca0d39ca46b8ab073ee51",
+      "now": "b99c66735a3e9c6a78ff6f0985160e715909dcc5dfa52c1a5ac6a107ddb1977a",
+      "empirical_uncertainty": "813dd81ae40f19c1b0b29821ff60a6d4d4048cd0283ff30a07cb87efb256eb77",
+      "uncertainty": "d72c06216e2d5e7054ddb9ea847e108834efb7f0ac96af0a4f07d4c803581781",
+      "forecast": "2dae52b2d0338d2758a2a55d4f2b3b5ce60b90890bf97544377c6c3a6f0d2964",
+      "run": "a3751085967368e3aa81657ccda67ec82cc754a63aeab6fba937b76e2104631f",
+      "q_initial": "3f63c60eccb66fdbaefc924b07ab74edf8ddca98e0ece8a82b3d0a56f8d65127",
+      "setup": "65af0c051e6338b2eca5367779cf5522c0cb9112ab6b9761e88738319b039ee3",
+      "control_summary": "01143ed1e167fcb6618ba602baf2cd0f4114862578ac0865df9cc5e69bf606a6",
+      "main": "959e4802a2be6c08d55cb78614b58aa668403dc59713e1e1f9f1e8756fbcb3f3"
+    }
+  },
+  "budget_binding": {
+    "top_level_rebindings": 1,
+    "function_ast_sha256": {
+      "sha": "f43200c2ab9413b67d32fb0f879a9b25c7d90b843e57a584062f8efed5e604e9",
+      "canonical": "1f5f331cb81d3eb64607ce0cd29890c70f8a7fbffa7f7d656178052c41141f94",
+      "dump": "44a4cd41f9e8ee9bd039cbc301da6fbd78f357f09dfca0d39ca46b8ab073ee51",
+      "relative": "bbb36a6db864f39f1d43dbac5abb9ce21906fea01737cdd305b88f016f792d42",
+      "adapt_study": "4e1d7beb9162b51dc6e4e781c4880394ebccbc0f581d2e62978b9d2ce0e5b512",
+      "summarize": "d2ec785bc944f443b44bfe6706e2a4fa63bcdd48cf68a336f97d963a983bdb2d",
+      "main": "f9f94f04143b9416a3c364a85f895bc2a79b3a81f62f975bf6268f609cb0d232"
+    }
+  },
+  "evidence_scope": "Known frozen-proposal guard reproduction",
+  "exact_all_guarded_trajectories_match": true,
+  "exact_uncompressed_rows_and_ledgers_match": true
+}

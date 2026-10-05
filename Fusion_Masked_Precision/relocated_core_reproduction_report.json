@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "exact_full_calibration_grid_and_selected_parameters": true,
+    "exact_trial_rows_actions_scores_callbacks_net": true,
+    "independent_execution_checks_passed": true
+  },
+  "top_level_path_binding": {
+    "top_level_rebindings": 2,
+    "function_ast_sha256": {
+      "sha": "f43200c2ab9413b67d32fb0f879a9b25c7d90b843e57a584062f8efed5e604e9",
+      "dump": "44a4cd41f9e8ee9bd039cbc301da6fbd78f357f09dfca0d39ca46b8ab073ee51",
+      "now": "b99c66735a3e9c6a78ff6f0985160e715909dcc5dfa52c1a5ac6a107ddb1977a",
+      "empirical_uncertainty": "813dd81ae40f19c1b0b29821ff60a6d4d4048cd0283ff30a07cb87efb256eb77",
+      "uncertainty": "d72c06216e2d5e7054ddb9ea847e108834efb7f0ac96af0a4f07d4c803581781",
+      "forecast": "2dae52b2d0338d2758a2a55d4f2b3b5ce60b90890bf97544377c6c3a6f0d2964",
+      "run": "a3751085967368e3aa81657ccda67ec82cc754a63aeab6fba937b76e2104631f",
+      "q_initial": "3f63c60eccb66fdbaefc924b07ab74edf8ddca98e0ece8a82b3d0a56f8d65127",
+      "setup": "65af0c051e6338b2eca5367779cf5522c0cb9112ab6b9761e88738319b039ee3",
+      "control_summary": "01143ed1e167fcb6618ba602baf2cd0f4114862578ac0865df9cc5e69bf606a6",
+      "main": "959e4802a2be6c08d55cb78614b58aa668403dc59713e1e1f9f1e8756fbcb3f3"
+    }
+  },
+  "source_sha256": "811f98531ad3e135ceafbc64152b41ffbf380878cb45a1f7106eb54364157ff0",
+  "calibration_trials_per_arm": 27,
+  "arms": 5,
+  "test_scenarios": 5,
+  "scope": "Actual relocated known-result reproduction, not additional physical evidence"
+}
