@@ -1,0 +1,849 @@
+{
+  "summary": {
+    "joint": {
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "mean_increment": 22.4,
+      "admissions": 13,
+      "beneficial": 10,
+      "harmful": 1,
+      "zero": 2,
+      "negative_loss": 1.0,
+      "coverage": {
+        "issued": [
+          202,
+          210
+        ],
+        "ready": [
+          77,
+          85
+        ],
+        "informative": [
+          42,
+          50
+        ],
+        "admitted": [
+          9,
+          13
+        ]
+      },
+      "admitted_max_excess": 11.614810328611124,
+      "admitted_total_excess": 38.472144660883146,
+      "refused": 0
+    },
+    "legacy_factorized": {
+      "seed_increments": [
+        31.0,
+        76.0,
+        47.0,
+        41.0,
+        29.0
+      ],
+      "mean_increment": 44.8,
+      "admissions": 14,
+      "beneficial": 13,
+      "harmful": 0,
+      "zero": 1,
+      "negative_loss": 0.0,
+      "coverage": {
+        "issued": [
+          199,
+          210
+        ],
+        "ready": [
+          79,
+          85
+        ],
+        "informative": [
+          44,
+          50
+        ],
+        "admitted": [
+          8,
+          14
+        ]
+      },
+      "admitted_max_excess": 3.4773914579999463,
+      "admitted_total_excess": 9.79219077114221,
+      "refused": 0
+    },
+    "legacy_sandwich": {
+      "seed_increments": [
+        37.0,
+        76.0,
+        59.0,
+        41.0,
+        9.0
+      ],
+      "mean_increment": 44.4,
+      "admissions": 18,
+      "beneficial": 15,
+      "harmful": 1,
+      "zero": 2,
+      "negative_loss": 1.0,
+      "coverage": {
+        "issued": [
+          192,
+          210
+        ],
+        "ready": [
+          72,
+          85
+        ],
+        "informative": [
+          37,
+          50
+        ],
+        "admitted": [
+          9,
+          18
+        ]
+      },
+      "admitted_max_excess": 9.696494373807717,
+      "admitted_total_excess": 47.937026899991665,
+      "refused": 1
+    }
+  },
+  "budget_summary": {
+    "0.0": {
+      "joint": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            202,
+            210
+          ],
+          "ready": [
+            77,
+            85
+          ],
+          "informative": [
+            42,
+            50
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 13
+      },
+      "legacy_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            199,
+            210
+          ],
+          "ready": [
+            79,
+            85
+          ],
+          "informative": [
+            44,
+            50
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 14
+      },
+      "legacy_sandwich": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            72,
+            85
+          ],
+          "informative": [
+            37,
+            50
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 19
+      }
+    },
+    "110.0": {
+      "joint": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            202,
+            210
+          ],
+          "ready": [
+            77,
+            85
+          ],
+          "informative": [
+            42,
+            50
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 13
+      },
+      "legacy_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            199,
+            210
+          ],
+          "ready": [
+            79,
+            85
+          ],
+          "informative": [
+            44,
+            50
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 14
+      },
+      "legacy_sandwich": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            72,
+            85
+          ],
+          "informative": [
+            37,
+            50
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 19
+      }
+    },
+    "130.0": {
+      "joint": {
+        "seed_increments": [
+          9.0,
+          38.0,
+          15.0,
+          41.0,
+          9.0
+        ],
+        "mean_increment": 22.4,
+        "admissions": 13,
+        "beneficial": 10,
+        "harmful": 1,
+        "zero": 2,
+        "negative_loss": 1.0,
+        "coverage": {
+          "issued": [
+            202,
+            210
+          ],
+          "ready": [
+            77,
+            85
+          ],
+          "informative": [
+            42,
+            50
+          ],
+          "admitted": [
+            9,
+            13
+          ]
+        },
+        "admitted_max_excess": 11.614810328611124,
+        "admitted_total_excess": 38.472144660883146,
+        "refused": 0
+      },
+      "legacy_factorized": {
+        "seed_increments": [
+          31.0,
+          76.0,
+          47.0,
+          41.0,
+          29.0
+        ],
+        "mean_increment": 44.8,
+        "admissions": 14,
+        "beneficial": 13,
+        "harmful": 0,
+        "zero": 1,
+        "negative_loss": 0.0,
+        "coverage": {
+          "issued": [
+            199,
+            210
+          ],
+          "ready": [
+            79,
+            85
+          ],
+          "informative": [
+            44,
+            50
+          ],
+          "admitted": [
+            8,
+            14
+          ]
+        },
+        "admitted_max_excess": 3.4773914579999463,
+        "admitted_total_excess": 9.79219077114221,
+        "refused": 0
+      },
+      "legacy_sandwich": {
+        "seed_increments": [
+          37.0,
+          76.0,
+          59.0,
+          41.0,
+          9.0
+        ],
+        "mean_increment": 44.4,
+        "admissions": 18,
+        "beneficial": 15,
+        "harmful": 1,
+        "zero": 2,
+        "negative_loss": 1.0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            72,
+            85
+          ],
+          "informative": [
+            37,
+            50
+          ],
+          "admitted": [
+            9,
+            18
+          ]
+        },
+        "admitted_max_excess": 9.696494373807717,
+        "admitted_total_excess": 47.937026899991665,
+        "refused": 1
+      }
+    },
+    "260.0": {
+      "joint": {
+        "seed_increments": [
+          9.0,
+          38.0,
+          15.0,
+          41.0,
+          9.0
+        ],
+        "mean_increment": 22.4,
+        "admissions": 13,
+        "beneficial": 10,
+        "harmful": 1,
+        "zero": 2,
+        "negative_loss": 1.0,
+        "coverage": {
+          "issued": [
+            202,
+            210
+          ],
+          "ready": [
+            77,
+            85
+          ],
+          "informative": [
+            42,
+            50
+          ],
+          "admitted": [
+            9,
+            13
+          ]
+        },
+        "admitted_max_excess": 11.614810328611124,
+        "admitted_total_excess": 38.472144660883146,
+        "refused": 0
+      },
+      "legacy_factorized": {
+        "seed_increments": [
+          31.0,
+          76.0,
+          47.0,
+          41.0,
+          29.0
+        ],
+        "mean_increment": 44.8,
+        "admissions": 14,
+        "beneficial": 13,
+        "harmful": 0,
+        "zero": 1,
+        "negative_loss": 0.0,
+        "coverage": {
+          "issued": [
+            199,
+            210
+          ],
+          "ready": [
+            79,
+            85
+          ],
+          "informative": [
+            44,
+            50
+          ],
+          "admitted": [
+            8,
+            14
+          ]
+        },
+        "admitted_max_excess": 3.4773914579999463,
+        "admitted_total_excess": 9.79219077114221,
+        "refused": 0
+      },
+      "legacy_sandwich": {
+        "seed_increments": [
+          37.0,
+          76.0,
+          59.0,
+          41.0,
+          28.0
+        ],
+        "mean_increment": 48.2,
+        "admissions": 19,
+        "beneficial": 16,
+        "harmful": 1,
+        "zero": 2,
+        "negative_loss": 1.0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            72,
+            85
+          ],
+          "informative": [
+            37,
+            50
+          ],
+          "admitted": [
+            10,
+            19
+          ]
+        },
+        "admitted_max_excess": 9.696494373807717,
+        "admitted_total_excess": 47.937026899991665,
+        "refused": 0
+      }
+    }
+  },
+  "decomposition": {
+    "legacy_factorized": {
+      "terms": {
+        "added_gain": {
+          "count": 1,
+          "value": 6.0
+        },
+        "avoided_loss": {
+          "count": 0,
+          "value": 0.0
+        },
+        "missed_gain": {
+          "count": 4,
+          "value": 117.0
+        },
+        "incurred_loss": {
+          "count": 1,
+          "value": 1.0
+        }
+      },
+      "zero_changes": 1,
+      "total_difference": -112.0,
+      "mean_difference": -22.4,
+      "changed_actions": [
+        {
+          "seed": 88001,
+          "k": 164,
+          "joint": false,
+          "control": true,
+          "actual_net": 22.0,
+          "joint_score": -2.222303965240274,
+          "control_score": 2.3410370786012935
+        },
+        {
+          "seed": 88002,
+          "k": 164,
+          "joint": false,
+          "control": true,
+          "actual_net": 38.0,
+          "joint_score": -10.586281460228632,
+          "control_score": 13.317467329234091
+        },
+        {
+          "seed": 88003,
+          "k": 84,
+          "joint": true,
+          "control": false,
+          "actual_net": 6.0,
+          "joint_score": 0.8248547118778173,
+          "control_score": -4.805543079211631
+        },
+        {
+          "seed": 88003,
+          "k": 164,
+          "joint": false,
+          "control": true,
+          "actual_net": 38.0,
+          "joint_score": -15.413001834714866,
+          "control_score": 10.748940819361385
+        },
+        {
+          "seed": 88004,
+          "k": 124,
+          "joint": true,
+          "control": false,
+          "actual_net": 0.0,
+          "joint_score": 9.859287974867126,
+          "control_score": -2.3632603287097638
+        },
+        {
+          "seed": 88005,
+          "k": 124,
+          "joint": true,
+          "control": false,
+          "actual_net": -1.0,
+          "joint_score": 6.16319125529299,
+          "control_score": -5.67832024401577
+        },
+        {
+          "seed": 88005,
+          "k": 164,
+          "joint": false,
+          "control": true,
+          "actual_net": 19.0,
+          "joint_score": -1.130809307649137,
+          "control_score": 1.145188619889617
+        }
+      ]
+    },
+    "legacy_sandwich": {
+      "terms": {
+        "added_gain": {
+          "count": 0,
+          "value": 0.0
+        },
+        "avoided_loss": {
+          "count": 0,
+          "value": 0.0
+        },
+        "missed_gain": {
+          "count": 5,
+          "value": 110.0
+        },
+        "incurred_loss": {
+          "count": 0,
+          "value": 0.0
+        }
+      },
+      "zero_changes": 0,
+      "total_difference": -110.0,
+      "mean_difference": -22.0,
+      "changed_actions": [
+        {
+          "seed": 88001,
+          "k": 84,
+          "joint": false,
+          "control": true,
+          "actual_net": 6.0,
+          "joint_score": -0.6809731523462146,
+          "control_score": 1.6422565457306595
+        },
+        {
+          "seed": 88001,
+          "k": 164,
+          "joint": false,
+          "control": true,
+          "actual_net": 22.0,
+          "joint_score": -2.222303965240274,
+          "control_score": 5.527543752822519
+        },
+        {
+          "seed": 88002,
+          "k": 164,
+          "joint": false,
+          "control": true,
+          "actual_net": 38.0,
+          "joint_score": -10.586281460228632,
+          "control_score": 15.625110759088855
+        },
+        {
+          "seed": 88003,
+          "k": 20,
+          "joint": false,
+          "control": true,
+          "actual_net": 6.0,
+          "joint_score": -0.9762860141724232,
+          "control_score": 0.5317864717271252
+        },
+        {
+          "seed": 88003,
+          "k": 164,
+          "joint": false,
+          "control": true,
+          "actual_net": 38.0,
+          "joint_score": -15.413001834714866,
+          "control_score": 14.276828635226515
+        }
+      ]
+    }
+  },
+  "selected": {
+    "joint": {
+      "arm": "joint",
+      "bandwidth": 0.25,
+      "cap": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": null,
+      "initial": 0.9500199301513814,
+      "fit_count": 23,
+      "net": 77.66666666666667
+    },
+    "legacy_factorized": {
+      "arm": "legacy_factorized",
+      "bandwidth": 1.0,
+      "cap": null,
+      "prior_sd": 0.2,
+      "q_floor": 0.0,
+      "initial": 0.0,
+      "fit_count": 23,
+      "net": 99.33333333333333
+    },
+    "legacy_sandwich": {
+      "arm": "legacy_sandwich",
+      "bandwidth": 1.0,
+      "cap": null,
+      "prior_sd": 0.2,
+      "q_floor": 0.0,
+      "initial": 0.0,
+      "fit_count": 23,
+      "net": 86.0
+    }
+  },
+  "max_service_error": 0.0,
+  "target_checks": [
+    {
+      "arm": "joint",
+      "seed": 88001,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88001,
+      "forks": 42,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88001,
+      "forks": 42,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "joint",
+      "seed": 88002,
+      "forks": 42,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88002,
+      "forks": 42,
+      "maximum_error": 1.0658141036401503e-14
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88002,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "joint",
+      "seed": 88003,
+      "forks": 42,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88003,
+      "forks": 42,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88003,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "joint",
+      "seed": 88004,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88004,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88004,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "joint",
+      "seed": 88005,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88005,
+      "forks": 42,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88005,
+      "forks": 42,
+      "maximum_error": 7.105427357601002e-15
+    }
+  ],
+  "cache": {
+    "hits": 20,
+    "misses": 5,
+    "bypasses": 1025,
+    "retained": 5,
+    "train_seconds": 0.006484124009148218,
+    "hash_seconds": 0.0018107089854311198,
+    "first_hit_bitwise_recomputed": true,
+    "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+  }
+}

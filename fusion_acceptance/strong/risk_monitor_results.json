@@ -1,0 +1,489 @@
+{
+  "source_sha256": "d18b63935ab4eadde0d07da5ef924e1e7cb455036c629a8492069439e46b38a6",
+  "family_delta": 0.05,
+  "path_endpoint_delta": 0.0011111111111111111,
+  "allocation": "15 separate replay paths x3 bounded endpoints; simultaneous45monitor family",
+  "scope": "Delayed replays are not pooled as independent labels; latent conditional-average reporting only. Bounded-tail law guarantees uncapped excess support for CJRT; native legacy excess is a saved-data check, not a general support assertion.",
+  "paths": [
+    {
+      "arm": "joint",
+      "seed": 88001,
+      "now": 171,
+      "observed_origins": [
+        76,
+        124
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 2,
+        "mean": 0.5,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 2,
+        "mean": 0.0,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 2,
+        "mean": 0.022685176423068602,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88001,
+      "now": 171,
+      "observed_origins": [
+        76,
+        124,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 3,
+        "mean": 0.6666666666666666,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 3,
+        "mean": 0.0,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 3,
+        "mean": 0.004723570084617265,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88001,
+      "now": 171,
+      "observed_origins": [
+        76,
+        84,
+        124,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 4,
+        "mean": 0.5,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 4,
+        "mean": 0.0,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 4,
+        "mean": 0.013795224580123696,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "joint",
+      "seed": 88002,
+      "now": 170,
+      "observed_origins": [
+        76,
+        84,
+        124
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 3,
+        "mean": 0.3333333333333333,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 3,
+        "mean": 0.0,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 3,
+        "mean": 0.012805800914208208,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88002,
+      "now": 170,
+      "observed_origins": [
+        76,
+        84,
+        124,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 4,
+        "mean": 0.5,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 4,
+        "mean": 0.0,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 4,
+        "mean": 0.0005032537659863901,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88002,
+      "now": 170,
+      "observed_origins": [
+        76,
+        84,
+        124,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 4,
+        "mean": 0.5,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 4,
+        "mean": 0.0,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 4,
+        "mean": 0.011351345067694084,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "joint",
+      "seed": 88003,
+      "now": 170,
+      "observed_origins": [
+        76,
+        84
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 2,
+        "mean": 0.0,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 2,
+        "mean": 0.0,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 2,
+        "mean": 0.0,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88003,
+      "now": 170,
+      "observed_origins": [
+        76,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 2,
+        "mean": 0.5,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 2,
+        "mean": 0.0,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 2,
+        "mean": 0.006791780191406145,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88003,
+      "now": 170,
+      "observed_origins": [
+        20,
+        76,
+        84,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 4,
+        "mean": 0.25,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 4,
+        "mean": 0.0,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 4,
+        "mean": 0.004698065950445633,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "joint",
+      "seed": 88004,
+      "now": 170,
+      "observed_origins": [
+        28,
+        76,
+        124,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 4,
+        "mean": 0.25,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 4,
+        "mean": 0.0,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 4,
+        "mean": 0.009628210912956178,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88004,
+      "now": 170,
+      "observed_origins": [
+        28,
+        76,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 3,
+        "mean": 0.0,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 3,
+        "mean": 0.0,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 3,
+        "mean": 0.0,
+        "width": 1.2581282157191078,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88004,
+      "now": 170,
+      "observed_origins": [
+        28,
+        76,
+        124,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 4,
+        "mean": 0.5,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 4,
+        "mean": 0.0,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 4,
+        "mean": 0.00895678015407201,
+        "width": 1.1220897796096152,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "joint",
+      "seed": 88005,
+      "now": 170,
+      "observed_origins": [
+        76,
+        124
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 2,
+        "mean": 0.5,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 2,
+        "mean": 0.5,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 2,
+        "mean": 0.01399060792049412,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_factorized",
+      "seed": 88005,
+      "now": 170,
+      "observed_origins": [
+        76,
+        164
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 2,
+        "mean": 0.5,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 2,
+        "mean": 0.0,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 2,
+        "mean": 0.004241729749582306,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    },
+    {
+      "arm": "legacy_sandwich",
+      "seed": 88005,
+      "now": 170,
+      "observed_origins": [
+        76,
+        124
+      ],
+      "pending_or_blocked": 0,
+      "violation": {
+        "count": 2,
+        "mean": 1.0,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "harmful": {
+        "count": 2,
+        "mean": 0.5,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      },
+      "normalized_excess": {
+        "count": 2,
+        "mean": 0.016024174159375383,
+        "width": 1.473634064728668,
+        "upper": 1.0,
+        "delta": 0.0011111111111111111
+      }
+    }
+  ]
+}
