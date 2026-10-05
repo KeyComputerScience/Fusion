@@ -1,0 +1,9 @@
+{
+  "authorized_stage": "DRAFT_NOT_AUTHORIZED_DO_NOT_ACQUIRE",
+  "adapter_sha256": "cc89c6eb2fef4c2eaeaa6869551e07fd36b8a47c18fffdbe9a8bfa6b947bc04b",
+  "physical_protocol_draft_sha256": "256cde4e3f728e52f3fc87ba1aada11b98f214fdc7dfa57ef56a8c2af3ad65c6",
+  "algorithm_design_protocol_sha256": "8352a5834ec9c1ecbbabf155ac02cf1412597c46dca3333bbc2ff21a93d58ad1",
+  "algorithm_freeze_path": "algorithm_freeze.json",
+  "algorithm_freeze_sha256": null,
+  "required_action": "Root reviews final external/main physical runner and freezes all sources before creating operative authorization; no raw transfer allowed under this draft."
+}

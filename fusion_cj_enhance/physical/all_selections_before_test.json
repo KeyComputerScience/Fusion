@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-04T23:33:52.789573+00:00",
+  "stage": "all_physical_controller_selections_locked_before_test",
+  "inputs": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/algorithm_freeze.json": "744b21bb3e3a03ef65a9f581667241bb8f170efb2527a898031663425988abe7",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/protocol.json": "7961afb43d6c19e7752fc6cce4c8ffeef072b801a91c9c3cb23fa32b7b1f1af7",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/selection.json": "8eea8cacc8c0a822555640bd3c8696ed3911447f4da6c26d0b87620d0e55b0eb",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/before_test.json": "91d65aaa9723d74e3ddba435c1c87b08c8eec727970410c5c9301a338d5b5a3f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/external/protocol.json": "4150bfa1b418ae12aa6ba17c5e36aaa9911ccc7ff189316962c1e6a23f9b58b8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/external/selection.json": "cbf2040ce462a5456ab6908656a046526d5b61f2e40195539e04e489b7dde1ef",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/external/selection_freeze.json": "888862a1055e62eb60536ca84fe212b0ce56b08a14cdad1ef414f02266d8fada",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/data/cache_metadata.json": "705b5f9ee100cd10d5efbf99132fabdb812bd8bcd49e7e516e3c3dd7d254b55e"
+  },
+  "cache_sha256": "4217c2a7c0c7dbcc185e296bd7a0986d0920843349f089db966eedc8d8e7252f",
+  "arms": [
+    "conditional_joint",
+    "conditional_marginal",
+    "conditional_factorized",
+    "conditional_gaussian",
+    "conditional_sandwich",
+    "conditional_joint_diagP",
+    "conditional_copula",
+    "legacy_factorized",
+    "legacy_sandwich"
+  ],
+  "declared_scope": "all9internal/matched/legacy arms and both external protocol-declared arms"
+}

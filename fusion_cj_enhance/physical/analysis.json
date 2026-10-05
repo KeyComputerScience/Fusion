@@ -1,0 +1,3056 @@
+{
+  "primary": "conditional_joint",
+  "collection": "HARTH779",
+  "metadata": {
+    "name": "harth779",
+    "collection": "UCI HARTH779",
+    "n": 129236,
+    "raw_rows": 6461328,
+    "archive_sha256": "2ab54d6b11467ddbe998dfb60355f9f1ae181b0af7a89e7c78bb7af2cf16b64a",
+    "cache_sha256": "4217c2a7c0c7dbcc185e296bd7a0986d0920843349f089db966eedc8d8e7252f",
+    "consumed_raw_hashes": {
+      "harth/S006.csv": "2067e59303bc35c62e8bc405a0720812c01985f96bfaca58eaa273362d3e556a",
+      "harth/S008.csv": "a33ac9e8b17c3f0c2b9c2f6f0214a0154ade35381521c3795d806e9078ae8f22",
+      "harth/S009.csv": "968f541af70717a7f56feb218143d9aa6478aa495e52b15fd2d266e996287231",
+      "harth/S010.csv": "a72a33117aebe677a811935179693aa5be46c9dc2bcad02b057cf19e0943dfbc",
+      "harth/S012.csv": "e57fb399caf333b6caefd6e935f697275c6f1e326ecc1399d15b0304bf7a064d",
+      "harth/S013.csv": "e6cf5dbfab4e089f5aec33964ab347c8549cbaab5f0b6339c9c77605a0a497e2",
+      "harth/S014.csv": "b83e887c148374e78b87e373e11b34f382a3cf6613f9d978694286dd5dcb640b",
+      "harth/S015.csv": "0b2e57b1482262adc5403b0cdd377b394fcccd8cfdf056333a8bb2a75846abd1",
+      "harth/S016.csv": "cf48352094832e0562b02a1f163e85686142511bf46cd364e33376551d0e638e",
+      "harth/S017.csv": "aed74ec218f345f262cb576c71e5c5298b72171163af27d98c09fc88b8abaae1",
+      "harth/S018.csv": "9900d00c95e8690e600de83696e31564bd8e969d2fba340cccc9f5b78fb9e755",
+      "harth/S019.csv": "bf204f96474c645a8ebe60541146d6a6f74aa1cc1e93a0bb666faee111f1560c",
+      "harth/S020.csv": "fed2cd7f1f56eb238d93b773a50e8e6749acf1ca6b759809ba89ce06e0d1ebee",
+      "harth/S021.csv": "7011049528799ae3898c9d9ccd1472fb930efddb2b145fc43c76e16b48f92856",
+      "harth/S022.csv": "248bf3737a364f7b799a7ec7dfdd909d44d5ca8404f442aaee894b3b6c163f59",
+      "harth/S023.csv": "8d1cc08da80c84cfd4d177259914475b46effd47788b36bed31f6486c93fab65",
+      "harth/S024.csv": "a1788db2dc0b74b180575ea529fe6a78b704fbbea4a021cd3aea1fb22df30056",
+      "harth/S025.csv": "1768410a124abc54df63971050463eca773fee4b36cc429c05aeed8f7867d5d6",
+      "harth/S026.csv": "f777c7594c717692a218ea5f01169552b2ee894ffc3ff6da09cca22407955877",
+      "harth/S027.csv": "8a741a8502a3bed0250c54db0e36abc9cef8a145ca5b831b328b016c19b08251",
+      "harth/S028.csv": "067cb39466eb6618aedf97cfb0aa39b1ee270af43700cb26872751ed124283ef",
+      "harth/S029.csv": "afa39704f41067d95eeb7e1f396d6d25dde068aa56a62d9f5e2479f6b8421a16"
+    },
+    "acquisition_freeze_sha256": "c860fbb4c49c6d4155f5df1b8b0081acdf8d7aa070bf203b7243f410f7321564",
+    "algorithm_freeze_sha256": "744b21bb3e3a03ef65a9f581667241bb8f170efb2527a898031663425988abe7",
+    "physical_protocol_sha256": "7961afb43d6c19e7752fc6cce4c8ffeef072b801a91c9c3cb23fa32b7b1f1af7",
+    "adapter_sha256": "1abaf8360a65021bb0d252793e91c97d7357a02058dfb1c6fc46326f6ae38e5e",
+    "participants": [
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S023",
+      "S024",
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S029"
+    ],
+    "fit_participants": [
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S012",
+      "S013",
+      "S014",
+      "S015"
+    ],
+    "calibration_participants": [
+      "S016",
+      "S017",
+      "S018",
+      "S019"
+    ],
+    "test_participants": [
+      "S020",
+      "S021",
+      "S022",
+      "S023",
+      "S024",
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S029"
+    ],
+    "subject_id_map": {
+      "6": "S006",
+      "8": "S008",
+      "9": "S009",
+      "10": "S010",
+      "12": "S012",
+      "13": "S013",
+      "14": "S014",
+      "15": "S015",
+      "16": "S016",
+      "17": "S017",
+      "18": "S018",
+      "19": "S019",
+      "20": "S020",
+      "21": "S021",
+      "22": "S022",
+      "23": "S023",
+      "24": "S024",
+      "25": "S025",
+      "26": "S026",
+      "27": "S027",
+      "28": "S028",
+      "29": "S029"
+    },
+    "class_codes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      130,
+      140
+    ],
+    "class_names": [
+      "walking",
+      "running",
+      "shuffling",
+      "stairs_ascending",
+      "stairs_descending",
+      "standing",
+      "sitting",
+      "lying",
+      "cycling_sit",
+      "cycling_stand",
+      "cycling_sit_inactive",
+      "cycling_stand_inactive"
+    ],
+    "derivation": {
+      "classes": 12,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "sources": [
+        "lower_back_AX3",
+        "right_front_thigh_AX3"
+      ],
+      "raw_sample_rate_hz": 50,
+      "acquisition_row_stride": 50,
+      "first_retained_acquisition_row": 0,
+      "features": "source-major back_xyz,thigh_xyz in g; direct simultaneous physical observations",
+      "source_timestamp_relation": "all six source coordinates are from the same retained acquisition row",
+      "lag": "current and previous two retained rows; repeat first available history row",
+      "history_reset": "participant or raw timestamp gap above1second",
+      "split": "numeric filename subject-ID ranks1:8fit,9:12calibration,13:22test",
+      "fit_audit": "each fit participant chronological first70percent fit,last30percent prior audit"
+    },
+    "split_boundaries": {
+      "ntrain": 57407,
+      "ncal": 84254
+    },
+    "recordings": {
+      "S006": {
+        "raw_rows": 408709,
+        "retained_rows": 8175,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 31,
+        "history_runs": 30,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 408700,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 01:09:32.840"
+      },
+      "S008": {
+        "raw_rows": 418989,
+        "retained_rows": 8380,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 35,
+        "history_runs": 36,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 418950,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 02:23:35.960"
+      },
+      "S009": {
+        "raw_rows": 154464,
+        "retained_rows": 3090,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 3,
+        "history_runs": 4,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 154450,
+        "first_timestamp": "2000-01-01 00:00:00.000",
+        "last_timestamp": "2000-01-01 00:51:41.560"
+      },
+      "S010": {
+        "raw_rows": 351649,
+        "retained_rows": 7033,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 13,
+        "history_runs": 14,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 351600,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 02:02:48.600"
+      },
+      "S012": {
+        "raw_rows": 382414,
+        "retained_rows": 7649,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 30,
+        "history_runs": 30,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 382400,
+        "first_timestamp": "2000-01-01 00:00:00.000",
+        "last_timestamp": "2000-01-01 02:08:44.400"
+      },
+      "S013": {
+        "raw_rows": 369077,
+        "retained_rows": 7382,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 45,
+        "history_runs": 44,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 369050,
+        "first_timestamp": "2000-01-01 00:00:00.000",
+        "last_timestamp": "2000-01-01 02:08:57.000"
+      },
+      "S014": {
+        "raw_rows": 366487,
+        "retained_rows": 7330,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 66,
+        "history_runs": 66,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 366450,
+        "first_timestamp": "2000-01-01 00:00:00.000",
+        "last_timestamp": "2000-01-01 02:09:26.240"
+      },
+      "S015": {
+        "raw_rows": 418392,
+        "retained_rows": 8368,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 28,
+        "history_runs": 29,
+        "header_fields": [
+          "timestamp",
+          "index",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 9,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [
+          "index"
+        ],
+        "first_raw_row": 0,
+        "last_raw_row": 418350,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 02:21:22.640"
+      },
+      "S016": {
+        "raw_rows": 355418,
+        "retained_rows": 7109,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 29,
+        "history_runs": 30,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 355400,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 02:02:11.600"
+      },
+      "S017": {
+        "raw_rows": 366609,
+        "retained_rows": 7333,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 33,
+        "history_runs": 34,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 366600,
+        "first_timestamp": "2000-01-01 00:00:00.000",
+        "last_timestamp": "2000-01-01 02:04:25.560"
+      },
+      "S018": {
+        "raw_rows": 322271,
+        "retained_rows": 6446,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 43,
+        "history_runs": 43,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 322250,
+        "first_timestamp": "2000-01-01 00:00:00.000",
+        "last_timestamp": "2000-01-01 01:55:19.120"
+      },
+      "S019": {
+        "raw_rows": 297945,
+        "retained_rows": 5959,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 27,
+        "history_runs": 27,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 297900,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 01:41:24.020"
+      },
+      "S020": {
+        "raw_rows": 371496,
+        "retained_rows": 7430,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 30,
+        "history_runs": 31,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 371450,
+        "first_timestamp": "2016-12-05 13:17:56.548657565",
+        "last_timestamp": "2016-12-05 15:23:13.826778245"
+      },
+      "S021": {
+        "raw_rows": 302247,
+        "retained_rows": 6045,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 37,
+        "history_runs": 38,
+        "header_fields": [
+          "timestamp",
+          "index",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 9,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [
+          "index"
+        ],
+        "first_raw_row": 0,
+        "last_raw_row": 302200,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 01:43:35.100"
+      },
+      "S022": {
+        "raw_rows": 337602,
+        "retained_rows": 6753,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 54,
+        "history_runs": 55,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 337600,
+        "first_timestamp": "2000-01-01 00:00:00.000",
+        "last_timestamp": "2000-01-01 01:55:40.280"
+      },
+      "S023": {
+        "raw_rows": 137646,
+        "retained_rows": 2753,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 4,
+        "history_runs": 5,
+        "header_fields": [
+          "",
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 9,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [
+          ""
+        ],
+        "first_raw_row": 0,
+        "last_raw_row": 137600,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 00:46:01.880"
+      },
+      "S024": {
+        "raw_rows": 170534,
+        "retained_rows": 3411,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 9,
+        "history_runs": 10,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 170500,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 00:57:18.320"
+      },
+      "S025": {
+        "raw_rows": 231729,
+        "retained_rows": 4635,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 19,
+        "history_runs": 19,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 231700,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 01:18:31.760"
+      },
+      "S026": {
+        "raw_rows": 195172,
+        "retained_rows": 3904,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 6,
+        "history_runs": 7,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 195150,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 01:05:22.160"
+      },
+      "S027": {
+        "raw_rows": 158584,
+        "retained_rows": 3172,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 12,
+        "history_runs": 13,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 158550,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 00:54:33.040"
+      },
+      "S028": {
+        "raw_rows": 165178,
+        "retained_rows": 3304,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 8,
+        "history_runs": 9,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 165150,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 00:55:45.320"
+      },
+      "S029": {
+        "raw_rows": 178716,
+        "retained_rows": 3575,
+        "equal_adjacent_timestamps": 0,
+        "raw_timestamp_gaps_above_one_second": 7,
+        "history_runs": 8,
+        "header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "header_field_count": 8,
+        "scientific_header_fields": [
+          "timestamp",
+          "back_x",
+          "back_y",
+          "back_z",
+          "thigh_x",
+          "thigh_y",
+          "thigh_z",
+          "label"
+        ],
+        "ignored_export_columns": [],
+        "first_raw_row": 0,
+        "last_raw_row": 178700,
+        "first_timestamp": "2019-01-12 00:00:00.000",
+        "last_timestamp": "2019-01-12 00:59:56.720"
+      }
+    },
+    "ordering": "numeric original subject-ID, then unchanged acquisition-row order",
+    "interpretation": "one previously untouched physical collection; ten held-out participants, separate causal chains"
+  },
+  "arms": {
+    "conditional_copula": {
+      "mean_total_increment": 48.2,
+      "seed_total": [
+        49.0,
+        13.0,
+        111.0,
+        27.0,
+        41.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 12.2,
+        "S025": 0.0,
+        "S026": 16.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -0.8068478501116623,
+        10.446847850111663
+      ],
+      "admissions": 12,
+      "beneficial": 10,
+      "harmful": 1,
+      "zero": 1,
+      "total_negative_loss": 11.0,
+      "admitted_coverage": [
+        9,
+        12
+      ],
+      "admitted_excess": {
+        "total": 15.923412592629143,
+        "mean": 1.326951049385762,
+        "maximum": 11.102295762051789
+      },
+      "issued_coverage": [
+        1417,
+        1560
+      ],
+      "informative_coverage": [
+        215,
+        289
+      ],
+      "ready_coverage": [
+        227,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 4.3002208712413434
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S026": {
+          "admissions": 3,
+          "beneficial": 1,
+          "harmful": 1,
+          "coverage": [
+            1,
+            3
+          ],
+          "excess": 11.6231917213878
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "conditional_factorized": {
+      "mean_total_increment": 116.2,
+      "seed_total": [
+        136.0,
+        98.0,
+        106.0,
+        114.0,
+        127.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 12.2,
+        "S025": -1.0,
+        "S026": 85.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -7.469467290794039,
+        30.70946729079404
+      ],
+      "admissions": 17,
+      "beneficial": 14,
+      "harmful": 2,
+      "zero": 1,
+      "total_negative_loss": 16.0,
+      "admitted_coverage": [
+        13,
+        17
+      ],
+      "admitted_excess": {
+        "total": 21.86734956785379,
+        "mean": 1.2863146804619876,
+        "maximum": 11.102525071610042
+      },
+      "issued_coverage": [
+        1417,
+        1560
+      ],
+      "informative_coverage": [
+        215,
+        289
+      ],
+      "ready_coverage": [
+        227,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 4.2997340839460705
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 1,
+          "beneficial": 0,
+          "harmful": 1,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 5.942971368691751
+        },
+        "S026": {
+          "admissions": 7,
+          "beneficial": 5,
+          "harmful": 1,
+          "coverage": [
+            5,
+            7
+          ],
+          "excess": 11.624644115215968
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "conditional_gaussian": {
+      "mean_total_increment": 48.2,
+      "seed_total": [
+        49.0,
+        13.0,
+        111.0,
+        27.0,
+        41.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 12.2,
+        "S025": 0.0,
+        "S026": 16.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -0.8068478501116623,
+        10.446847850111663
+      ],
+      "admissions": 12,
+      "beneficial": 10,
+      "harmful": 1,
+      "zero": 1,
+      "total_negative_loss": 11.0,
+      "admitted_coverage": [
+        9,
+        12
+      ],
+      "admitted_excess": {
+        "total": 15.922884068117096,
+        "mean": 1.3269070056764247,
+        "maximum": 11.123196182743998
+      },
+      "issued_coverage": [
+        1418,
+        1560
+      ],
+      "informative_coverage": [
+        215,
+        289
+      ],
+      "ready_coverage": [
+        228,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 4.29868760350468
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S026": {
+          "admissions": 3,
+          "beneficial": 1,
+          "harmful": 1,
+          "coverage": [
+            1,
+            3
+          ],
+          "excess": 11.624196464612416
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "conditional_joint": {
+      "mean_total_increment": 48.2,
+      "seed_total": [
+        49.0,
+        13.0,
+        111.0,
+        27.0,
+        41.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 12.2,
+        "S025": 0.0,
+        "S026": 16.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -0.8068478501116623,
+        10.446847850111663
+      ],
+      "admissions": 12,
+      "beneficial": 10,
+      "harmful": 1,
+      "zero": 1,
+      "total_negative_loss": 11.0,
+      "admitted_coverage": [
+        9,
+        12
+      ],
+      "admitted_excess": {
+        "total": 15.915168067100424,
+        "mean": 1.326264005591702,
+        "maximum": 11.101802031154774
+      },
+      "issued_coverage": [
+        1418,
+        1560
+      ],
+      "informative_coverage": [
+        215,
+        289
+      ],
+      "ready_coverage": [
+        228,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 4.3016867869083235
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S026": {
+          "admissions": 3,
+          "beneficial": 1,
+          "harmful": 1,
+          "coverage": [
+            1,
+            3
+          ],
+          "excess": 11.6134812801921
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "conditional_joint_diagP": {
+      "mean_total_increment": 48.2,
+      "seed_total": [
+        49.0,
+        13.0,
+        111.0,
+        27.0,
+        41.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 12.2,
+        "S025": 0.0,
+        "S026": 16.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -0.8068478501116623,
+        10.446847850111663
+      ],
+      "admissions": 12,
+      "beneficial": 10,
+      "harmful": 1,
+      "zero": 1,
+      "total_negative_loss": 11.0,
+      "admitted_coverage": [
+        9,
+        12
+      ],
+      "admitted_excess": {
+        "total": 15.915193556790209,
+        "mean": 1.3262661297325173,
+        "maximum": 11.101807549153014
+      },
+      "issued_coverage": [
+        1418,
+        1560
+      ],
+      "informative_coverage": [
+        215,
+        289
+      ],
+      "ready_coverage": [
+        228,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 4.30167852355499
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S026": {
+          "admissions": 3,
+          "beneficial": 1,
+          "harmful": 1,
+          "coverage": [
+            1,
+            3
+          ],
+          "excess": 11.613515033235219
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "conditional_marginal": {
+      "mean_total_increment": 117.2,
+      "seed_total": [
+        136.0,
+        98.0,
+        111.0,
+        114.0,
+        127.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 12.2,
+        "S025": 0.0,
+        "S026": 85.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -7.333183492743462,
+        30.773183492743467
+      ],
+      "admissions": 16,
+      "beneficial": 14,
+      "harmful": 1,
+      "zero": 1,
+      "total_negative_loss": 11.0,
+      "admitted_coverage": [
+        13,
+        16
+      ],
+      "admitted_excess": {
+        "total": 15.92397456499904,
+        "mean": 0.99524841031244,
+        "maximum": 11.102515159241927
+      },
+      "issued_coverage": [
+        1417,
+        1560
+      ],
+      "informative_coverage": [
+        215,
+        289
+      ],
+      "ready_coverage": [
+        227,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 4.299686249467257
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S026": {
+          "admissions": 7,
+          "beneficial": 5,
+          "harmful": 1,
+          "coverage": [
+            5,
+            7
+          ],
+          "excess": 11.624288315531784
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "conditional_sandwich": {
+      "mean_total_increment": 43.2,
+      "seed_total": [
+        49.0,
+        3.0,
+        111.0,
+        27.0,
+        26.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 9.2,
+        "S025": 0.0,
+        "S026": 14.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -0.89516499758557,
+        9.535164997585571
+      ],
+      "admissions": 12,
+      "beneficial": 9,
+      "harmful": 2,
+      "zero": 1,
+      "total_negative_loss": 21.0,
+      "admitted_coverage": [
+        8,
+        12
+      ],
+      "admitted_excess": {
+        "total": 26.089519109720303,
+        "mean": 2.174126592476692,
+        "maximum": 11.246181858925821
+      },
+      "issued_coverage": [
+        1416,
+        1560
+      ],
+      "informative_coverage": [
+        215,
+        289
+      ],
+      "ready_coverage": [
+        226,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 4.036559109551991
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 3,
+          "beneficial": 3,
+          "harmful": 0,
+          "coverage": [
+            3,
+            3
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S026": {
+          "admissions": 4,
+          "beneficial": 1,
+          "harmful": 2,
+          "coverage": [
+            1,
+            4
+          ],
+          "excess": 22.052960000168312
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            4
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "legacy_factorized": {
+      "mean_total_increment": 93.6,
+      "seed_total": [
+        119.0,
+        85.0,
+        91.0,
+        87.0,
+        86.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 0.0,
+        "S025": 0.0,
+        "S026": 87.2,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 6.4
+      },
+      "participant_mean_interval": [
+        -10.257979696000133,
+        28.977979696000133
+      ],
+      "admissions": 6,
+      "beneficial": 6,
+      "harmful": 0,
+      "zero": 0,
+      "total_negative_loss": 0.0,
+      "admitted_coverage": [
+        6,
+        6
+      ],
+      "admitted_excess": {
+        "total": 0.0,
+        "mean": 0.0,
+        "maximum": 0.0
+      },
+      "issued_coverage": [
+        1546,
+        1560
+      ],
+      "informative_coverage": [
+        275,
+        289
+      ],
+      "ready_coverage": [
+        324,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S025": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S026": {
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "coverage": [
+            5,
+            5
+          ],
+          "excess": 0.0
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 1,
+          "beneficial": 1,
+          "harmful": 0,
+          "coverage": [
+            1,
+            1
+          ],
+          "excess": 0.0
+        }
+      },
+      "budget_refused": 0
+    },
+    "legacy_sandwich": {
+      "mean_total_increment": 119.4,
+      "seed_total": [
+        135.0,
+        97.0,
+        117.0,
+        121.0,
+        127.0
+      ],
+      "participant_mean": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 14.0,
+        "S025": -1.0,
+        "S026": 86.8,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 19.6
+      },
+      "participant_mean_interval": [
+        -7.563246868054094,
+        31.443246868054096
+      ],
+      "admissions": 21,
+      "beneficial": 15,
+      "harmful": 4,
+      "zero": 2,
+      "total_negative_loss": 9.0,
+      "admitted_coverage": [
+        14,
+        21
+      ],
+      "admitted_excess": {
+        "total": 33.03337591336881,
+        "mean": 1.5730179006366098,
+        "maximum": 11.249571339652206
+      },
+      "issued_coverage": [
+        1459,
+        1560
+      ],
+      "informative_coverage": [
+        220,
+        289
+      ],
+      "ready_coverage": [
+        269,
+        325
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S021": {
+          "admissions": 2,
+          "beneficial": 1,
+          "harmful": 1,
+          "coverage": [
+            0,
+            2
+          ],
+          "excess": 15.481620055130971
+        },
+        "S022": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S023": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S024": {
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "coverage": [
+            5,
+            5
+          ],
+          "excess": 0.0
+        },
+        "S025": {
+          "admissions": 1,
+          "beneficial": 0,
+          "harmful": 1,
+          "coverage": [
+            0,
+            1
+          ],
+          "excess": 7.619819322515687
+        },
+        "S026": {
+          "admissions": 8,
+          "beneficial": 5,
+          "harmful": 2,
+          "coverage": [
+            5,
+            8
+          ],
+          "excess": 9.31135743814796
+        },
+        "S027": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S028": {
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "excess": 0
+        },
+        "S029": {
+          "admissions": 5,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            4,
+            5
+          ],
+          "excess": 0.6205790975741943
+        }
+      },
+      "budget_refused": 0
+    },
+    "pdf_MLP": {
+      "mean_total_increment": 876.0,
+      "seed_total": [
+        750.0,
+        952.0,
+        955.0,
+        971.0,
+        752.0
+      ],
+      "participant_mean": {
+        "S020": 20.6,
+        "S021": 29.4,
+        "S022": 55.8,
+        "S023": 198.4,
+        "S024": 4.2,
+        "S025": 234.2,
+        "S026": 168.2,
+        "S027": 30.0,
+        "S028": 64.8,
+        "S029": 70.4
+      },
+      "participant_mean_interval": [
+        29.07414730193628,
+        146.1258526980637
+      ],
+      "admissions": 111,
+      "beneficial": 96,
+      "harmful": 13,
+      "zero": 2,
+      "total_negative_loss": 72.0,
+      "admitted_coverage": [
+        59,
+        111
+      ],
+      "admitted_excess": {
+        "total": 768.1859593801724,
+        "mean": 6.920594228650202,
+        "maximum": 35.09718571052657
+      },
+      "issued_coverage": [
+        1336,
+        1560
+      ],
+      "informative_coverage": [
+        136,
+        289
+      ],
+      "ready_coverage": [
+        1336,
+        1560
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 13,
+          "beneficial": 10,
+          "harmful": 3,
+          "coverage": [
+            0,
+            13
+          ],
+          "excess": 256.78449824807865
+        },
+        "S021": {
+          "admissions": 7,
+          "beneficial": 6,
+          "harmful": 1,
+          "coverage": [
+            5,
+            7
+          ],
+          "excess": 29.97603740397757
+        },
+        "S022": {
+          "admissions": 10,
+          "beneficial": 10,
+          "harmful": 0,
+          "coverage": [
+            5,
+            10
+          ],
+          "excess": 158.42058463809965
+        },
+        "S023": {
+          "admissions": 14,
+          "beneficial": 13,
+          "harmful": 1,
+          "coverage": [
+            13,
+            14
+          ],
+          "excess": 18.584582302459314
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            0,
+            4
+          ],
+          "excess": 17.74469989917605
+        },
+        "S025": {
+          "admissions": 23,
+          "beneficial": 20,
+          "harmful": 3,
+          "coverage": [
+            18,
+            23
+          ],
+          "excess": 42.982947566205745
+        },
+        "S026": {
+          "admissions": 21,
+          "beneficial": 18,
+          "harmful": 2,
+          "coverage": [
+            8,
+            21
+          ],
+          "excess": 189.89585116200607
+        },
+        "S027": {
+          "admissions": 3,
+          "beneficial": 3,
+          "harmful": 0,
+          "coverage": [
+            3,
+            3
+          ],
+          "excess": 0.0
+        },
+        "S028": {
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "coverage": [
+            5,
+            5
+          ],
+          "excess": 0.0
+        },
+        "S029": {
+          "admissions": 11,
+          "beneficial": 7,
+          "harmful": 3,
+          "coverage": [
+            2,
+            11
+          ],
+          "excess": 53.79675816016942
+        }
+      },
+      "budget_refused": 3
+    },
+    "qmf_MLP": {
+      "mean_total_increment": 883.4,
+      "seed_total": [
+        750.0,
+        949.0,
+        955.0,
+        983.0,
+        780.0
+      ],
+      "participant_mean": {
+        "S020": 20.6,
+        "S021": 29.4,
+        "S022": 55.8,
+        "S023": 200.8,
+        "S024": 4.2,
+        "S025": 234.2,
+        "S026": 168.2,
+        "S027": 30.0,
+        "S028": 64.8,
+        "S029": 75.4
+      },
+      "participant_mean_interval": [
+        29.627365991276577,
+        147.05263400872343
+      ],
+      "admissions": 109,
+      "beneficial": 96,
+      "harmful": 11,
+      "zero": 2,
+      "total_negative_loss": 58.0,
+      "admitted_coverage": [
+        48,
+        109
+      ],
+      "admitted_excess": {
+        "total": 992.9443705756493,
+        "mean": 9.109581381427976,
+        "maximum": 62.32393642581272
+      },
+      "issued_coverage": [
+        1329,
+        1560
+      ],
+      "informative_coverage": [
+        127,
+        289
+      ],
+      "ready_coverage": [
+        1329,
+        1560
+      ],
+      "coverage_ready_definition": "information_ready for internal methods; all issued origins for external helper",
+      "counterfactual_beneficial": 142,
+      "counterfactual_positive_return": 4897.0,
+      "participant_actions": {
+        "S020": {
+          "admissions": 13,
+          "beneficial": 10,
+          "harmful": 3,
+          "coverage": [
+            0,
+            13
+          ],
+          "excess": 299.3657537882861
+        },
+        "S021": {
+          "admissions": 7,
+          "beneficial": 6,
+          "harmful": 1,
+          "coverage": [
+            5,
+            7
+          ],
+          "excess": 29.41248980603565
+        },
+        "S022": {
+          "admissions": 10,
+          "beneficial": 10,
+          "harmful": 0,
+          "coverage": [
+            5,
+            10
+          ],
+          "excess": 279.84869358922464
+        },
+        "S023": {
+          "admissions": 13,
+          "beneficial": 13,
+          "harmful": 0,
+          "coverage": [
+            10,
+            13
+          ],
+          "excess": 6.484866159083339
+        },
+        "S024": {
+          "admissions": 4,
+          "beneficial": 4,
+          "harmful": 0,
+          "coverage": [
+            0,
+            4
+          ],
+          "excess": 21.326246170261598
+        },
+        "S025": {
+          "admissions": 23,
+          "beneficial": 20,
+          "harmful": 3,
+          "coverage": [
+            18,
+            23
+          ],
+          "excess": 41.76315287911297
+        },
+        "S026": {
+          "admissions": 21,
+          "beneficial": 18,
+          "harmful": 2,
+          "coverage": [
+            7,
+            21
+          ],
+          "excess": 234.9892912357074
+        },
+        "S027": {
+          "admissions": 3,
+          "beneficial": 3,
+          "harmful": 0,
+          "coverage": [
+            3,
+            3
+          ],
+          "excess": 0.0
+        },
+        "S028": {
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "coverage": [
+            0,
+            5
+          ],
+          "excess": 4.834350069916297
+        },
+        "S029": {
+          "admissions": 10,
+          "beneficial": 7,
+          "harmful": 2,
+          "coverage": [
+            0,
+            10
+          ],
+          "excess": 74.91952687802127
+        }
+      },
+      "budget_refused": 3
+    }
+  },
+  "comparisons": {
+    "conditional_copula": {
+      "mean_total_difference": 0.0,
+      "paired_delay_interval": [
+        0.0,
+        0.0
+      ],
+      "participant_mean_difference": 0.0,
+      "participant_difference_interval": [
+        0.0,
+        0.0
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 0.0,
+        "S025": 0.0,
+        "S026": 0.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 0.0
+      },
+      "positive_participants": 0,
+      "tied_participants": 10,
+      "negative_participants": 0,
+      "additional_beneficial": 0,
+      "missed_beneficial": 0,
+      "retained_extra_return": 0.0,
+      "missed_return": 0.0,
+      "avoided_loss": 0.0,
+      "incurred_extra_loss": 0.0,
+      "exact_pooled_action_gain": 0.0
+    },
+    "conditional_factorized": {
+      "mean_total_difference": -68.0,
+      "paired_delay_interval": [
+        -118.68058129800153,
+        -17.319418701998465
+      ],
+      "participant_mean_difference": -6.8,
+      "participant_difference_interval": [
+        -22.435635824569477,
+        8.83563582456948
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 0.0,
+        "S025": 1.0,
+        "S026": -69.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 0.0
+      },
+      "positive_participants": 1,
+      "tied_participants": 8,
+      "negative_participants": 1,
+      "additional_beneficial": 0,
+      "missed_beneficial": 4,
+      "retained_extra_return": 0.0,
+      "missed_return": 345.0,
+      "avoided_loss": 5.0,
+      "incurred_extra_loss": 0.0,
+      "exact_pooled_action_gain": -340.0
+    },
+    "conditional_gaussian": {
+      "mean_total_difference": 0.0,
+      "paired_delay_interval": [
+        0.0,
+        0.0
+      ],
+      "participant_mean_difference": 0.0,
+      "participant_difference_interval": [
+        0.0,
+        0.0
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 0.0,
+        "S025": 0.0,
+        "S026": 0.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 0.0
+      },
+      "positive_participants": 0,
+      "tied_participants": 10,
+      "negative_participants": 0,
+      "additional_beneficial": 0,
+      "missed_beneficial": 0,
+      "retained_extra_return": 0.0,
+      "missed_return": 0.0,
+      "avoided_loss": 0.0,
+      "incurred_extra_loss": 0.0,
+      "exact_pooled_action_gain": 0.0
+    },
+    "conditional_joint_diagP": {
+      "mean_total_difference": 0.0,
+      "paired_delay_interval": [
+        0.0,
+        0.0
+      ],
+      "participant_mean_difference": 0.0,
+      "participant_difference_interval": [
+        0.0,
+        0.0
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 0.0,
+        "S025": 0.0,
+        "S026": 0.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 0.0
+      },
+      "positive_participants": 0,
+      "tied_participants": 10,
+      "negative_participants": 0,
+      "additional_beneficial": 0,
+      "missed_beneficial": 0,
+      "retained_extra_return": 0.0,
+      "missed_return": 0.0,
+      "avoided_loss": 0.0,
+      "incurred_extra_loss": 0.0,
+      "exact_pooled_action_gain": 0.0
+    },
+    "conditional_marginal": {
+      "mean_total_difference": -69.0,
+      "paired_delay_interval": [
+        -116.90474232531741,
+        -21.095257674682593
+      ],
+      "participant_mean_difference": -6.9,
+      "participant_difference_interval": [
+        -22.5088844247,
+        8.708884424699997
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 0.0,
+        "S025": 0.0,
+        "S026": -69.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 0.0
+      },
+      "positive_participants": 0,
+      "tied_participants": 9,
+      "negative_participants": 1,
+      "additional_beneficial": 0,
+      "missed_beneficial": 4,
+      "retained_extra_return": 0.0,
+      "missed_return": 345.0,
+      "avoided_loss": 0.0,
+      "incurred_extra_loss": 0.0,
+      "exact_pooled_action_gain": -345.0
+    },
+    "conditional_sandwich": {
+      "mean_total_difference": 5.0,
+      "paired_delay_interval": [
+        -3.779890330225351,
+        13.779890330225351
+      ],
+      "participant_mean_difference": 0.5,
+      "participant_difference_interval": [
+        -0.27267376913746144,
+        1.2726737691374614
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.0,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 3.0,
+        "S025": 0.0,
+        "S026": 2.0,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 0.0
+      },
+      "positive_participants": 2,
+      "tied_participants": 8,
+      "negative_participants": 0,
+      "additional_beneficial": 1,
+      "missed_beneficial": 0,
+      "retained_extra_return": 15.0,
+      "missed_return": 0.0,
+      "avoided_loss": 10.0,
+      "incurred_extra_loss": 0.0,
+      "exact_pooled_action_gain": 25.0
+    },
+    "legacy_factorized": {
+      "mean_total_difference": -45.4,
+      "paired_delay_interval": [
+        -92.69419769591325,
+        1.894197695913249
+      ],
+      "participant_mean_difference": -4.540000000000001,
+      "participant_difference_interval": [
+        -21.71281099567922,
+        12.632810995679217
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": 12.2,
+        "S025": 0.0,
+        "S026": -71.2,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 13.2
+      },
+      "positive_participants": 3,
+      "tied_participants": 6,
+      "negative_participants": 1,
+      "additional_beneficial": 8,
+      "missed_beneficial": 4,
+      "retained_extra_return": 129.0,
+      "missed_return": 345.0,
+      "avoided_loss": 0.0,
+      "incurred_extra_loss": 11.0,
+      "exact_pooled_action_gain": -227.0
+    },
+    "legacy_sandwich": {
+      "mean_total_difference": -71.2,
+      "paired_delay_interval": [
+        -116.70660439099491,
+        -25.693395609005094
+      ],
+      "participant_mean_difference": -7.119999999999999,
+      "participant_difference_interval": [
+        -23.133800455263213,
+        8.893800455263213
+      ],
+      "participant_differences": {
+        "S020": 0.0,
+        "S021": 0.4,
+        "S022": 0.0,
+        "S023": 0.0,
+        "S024": -1.8,
+        "S025": 1.0,
+        "S026": -70.8,
+        "S027": 0.0,
+        "S028": 0.0,
+        "S029": 0.0
+      },
+      "positive_participants": 2,
+      "tied_participants": 6,
+      "negative_participants": 2,
+      "additional_beneficial": 0,
+      "missed_beneficial": 5,
+      "retained_extra_return": 0.0,
+      "missed_return": 354.0,
+      "avoided_loss": 9.0,
+      "incurred_extra_loss": 11.0,
+      "exact_pooled_action_gain": -356.0
+    },
+    "pdf_MLP": {
+      "mean_total_difference": -827.8,
+      "paired_delay_interval": [
+        -974.5198223460567,
+        -681.0801776539432
+      ],
+      "participant_mean_difference": -82.78,
+      "participant_difference_interval": [
+        -141.66103229515284,
+        -23.89896770484716
+      ],
+      "participant_differences": {
+        "S020": -20.6,
+        "S021": -29.0,
+        "S022": -55.8,
+        "S023": -198.4,
+        "S024": 8.0,
+        "S025": -234.2,
+        "S026": -152.2,
+        "S027": -30.0,
+        "S028": -64.8,
+        "S029": -50.8
+      },
+      "positive_participants": 1,
+      "tied_participants": 0,
+      "negative_participants": 9,
+      "additional_beneficial": 7,
+      "missed_beneficial": 93,
+      "retained_extra_return": 132.0,
+      "missed_return": 4332.0,
+      "avoided_loss": 72.0,
+      "incurred_extra_loss": 11.0,
+      "exact_pooled_action_gain": -4139.0
+    },
+    "qmf_MLP": {
+      "mean_total_difference": -835.2,
+      "paired_delay_interval": [
+        -976.9004667726255,
+        -693.4995332273746
+      ],
+      "participant_mean_difference": -83.52,
+      "participant_difference_interval": [
+        -142.52665716340806,
+        -24.513342836591924
+      ],
+      "participant_differences": {
+        "S020": -20.6,
+        "S021": -29.0,
+        "S022": -55.8,
+        "S023": -200.8,
+        "S024": 8.0,
+        "S025": -234.2,
+        "S026": -152.2,
+        "S027": -30.0,
+        "S028": -64.8,
+        "S029": -55.8
+      },
+      "positive_participants": 1,
+      "tied_participants": 0,
+      "negative_participants": 9,
+      "additional_beneficial": 6,
+      "missed_beneficial": 92,
+      "retained_extra_return": 106.0,
+      "missed_return": 4329.0,
+      "avoided_loss": 58.0,
+      "incurred_extra_loss": 11.0,
+      "exact_pooled_action_gain": -4176.0
+    }
+  },
+  "budget": {
+    "0.0": {
+      "total_negative_loss": 0,
+      "refused": 12,
+      "binding_chains": 11,
+      "admissions": 0,
+      "min_prefix": 0.0,
+      "max_single_chain_negative_loss": 0,
+      "mean_total_increment": 0.0,
+      "beneficial": 0,
+      "harmful": 0
+    },
+    "110.0": {
+      "total_negative_loss": 0,
+      "refused": 12,
+      "binding_chains": 11,
+      "admissions": 0,
+      "min_prefix": 0.0,
+      "max_single_chain_negative_loss": 0,
+      "mean_total_increment": 0.0,
+      "beneficial": 0,
+      "harmful": 0
+    },
+    "130.0": {
+      "total_negative_loss": 11.0,
+      "refused": 0,
+      "binding_chains": 0,
+      "admissions": 12,
+      "min_prefix": -10.0,
+      "max_single_chain_negative_loss": 11.0,
+      "mean_total_increment": 48.2,
+      "beneficial": 10,
+      "harmful": 1
+    },
+    "260.0": {
+      "total_negative_loss": 11.0,
+      "refused": 0,
+      "binding_chains": 0,
+      "admissions": 12,
+      "min_prefix": -10.0,
+      "max_single_chain_negative_loss": 11.0,
+      "mean_total_increment": 48.2,
+      "beneficial": 10,
+      "harmful": 1
+    }
+  },
+  "provenance": {
+    "algorithm_sha256": "744b21bb3e3a03ef65a9f581667241bb8f170efb2527a898031663425988abe7",
+    "protocol_sha256": "7961afb43d6c19e7752fc6cce4c8ffeef072b801a91c9c3cb23fa32b7b1f1af7",
+    "all_selections_before_test_sha256": "3b8840f72ff5ac400bcc200f8fc750b41ed76eb1c9fd6f3c7a8cde7b2e69d0ed",
+    "analysis_source_sha256": "e7e2df4ee742e7e07fe356554110dc6e4b1c801613afe5db9200e6ec1e2aa8c6",
+    "guarantee_scope": "per actual participant/history chain, all controllers same execution guarantee",
+    "inference_scope": "ten held-out physical participants, one collection; five schedules reuse their observations"
+  },
+  "accounting": {
+    "max_target_identity_error": 2.842170943040401e-14,
+    "minimum_return_bound_slack": -7.105427357601002e-15,
+    "checked_budget_trajectories": 42900
+  }
+}

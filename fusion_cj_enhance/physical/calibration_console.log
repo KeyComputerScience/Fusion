@@ -1,0 +1,10 @@
+CAL conditional_joint
+CAL conditional_marginal
+CAL conditional_factorized
+CAL conditional_gaussian
+CAL conditional_sandwich
+CAL conditional_joint_diagP
+CAL conditional_copula
+CAL legacy_factorized
+CAL legacy_sandwich
+SELECT {'conditional_joint': (1.0, 0.0, 0.0, 8.666666666666666), 'conditional_marginal': (1.0, 0.0, 0.0, 8.666666666666666), 'conditional_factorized': (1.0, 0.0, 0.0, 7.0), 'conditional_gaussian': (1.0, 0.0, 0.0, 8.666666666666666), 'conditional_sandwich': (1.0, 0.0, 0.0, 8.666666666666666), 'conditional_joint_diagP': (1.0, 0.0, 0.0, 8.666666666666666), 'conditional_copula': (1.0, 0.0, 0.0, 8.666666666666666), 'legacy_factorized': (1.0, 0.64, 0.64, 8.666666666666666), 'legacy_sandwich': (1.0, 0.0, 0.0, 35.0)}
