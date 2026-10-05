@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "scope": "constructed realizable joint-error experiment; not a physical test",
+  "capacity": 128,
+  "alpha": 0.1,
+  "conditional_paid_mean": [
+    8.0,
+    8.0
+  ],
+  "conditional_paid_variance": [
+    36.0,
+    36.0
+  ],
+  "exact_lower_tail": [
+    5.0,
+    -4.0
+  ],
+  "reduced_pooled_lower_tail": -4.0,
+  "smoothed_scores": [
+    {
+      "score": 4.987829801877469,
+      "lower_tail": 0.07802992032716773,
+      "alpha": 0.1,
+      "radius": 0.0,
+      "mean": 8.000000000838188,
+      "variance": 36.00005462087708
+    },
+    {
+      "score": -4.005896433484783,
+      "lower_tail": 0.00776643411340013,
+      "alpha": 0.1,
+      "radius": 0.0,
+      "mean": 7.9999999996900435,
+      "variance": 36.00005461612298
+    }
+  ],
+  "conditional_moment_gaussian_score": {
+    "score": -2.5298999159492097,
+    "lower_tail": 0.0192976569066468,
+    "alpha": 0.1,
+    "radius": 0.0,
+    "mean": 8.0,
+    "variance": 36.0
+  },
+  "unconditional_matrix_score": {
+    "score": 1.9205456148979154,
+    "lower_tail": 0.054066762616389964,
+    "alpha": 0.1,
+    "radius": 0.0,
+    "mean": 8.0,
+    "variance": 12.000054613333333
+  },
+  "old_mean_sd_score": 0.3106906067323978,
+  "conditional_expected_paid_gain": 4.0,
+  "expected_positive_tail_certificate": 2.5,
+  "joint_actions": [
+    true,
+    false
+  ],
+  "matrix_actions": [
+    false,
+    false
+  ],
+  "full_error_moment_error": 0.0,
+  "smoothing_sd": 0.0001,
+  "mean_difference": 1.148144690432673e-09,
+  "variance_difference": 4.754099336423678e-09
+}

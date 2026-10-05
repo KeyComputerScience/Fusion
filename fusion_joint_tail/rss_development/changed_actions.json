@@ -1,0 +1,210 @@
+{
+  "marginal": {
+    "terms": {
+      "added_gain": 85.0,
+      "avoided_loss": 0,
+      "missed_gain": 0,
+      "incurred_loss": 1.0
+    },
+    "changed": [
+      {
+        "seed": 88001,
+        "k": 76,
+        "D": 6.0,
+        "full_action": true,
+        "score_full": 4.245625684948758,
+        "score_control": -3.8946686580793055
+      },
+      {
+        "seed": 88002,
+        "k": 76,
+        "D": 13.0,
+        "full_action": true,
+        "score_full": 5.704541035720997,
+        "score_control": -3.6473612887504676
+      },
+      {
+        "seed": 88002,
+        "k": 124,
+        "D": 0.0,
+        "full_action": true,
+        "score_full": 9.834855102111904,
+        "score_control": -0.24870338741960651
+      },
+      {
+        "seed": 88003,
+        "k": 76,
+        "D": 9.0,
+        "full_action": true,
+        "score_full": 7.473845243277504,
+        "score_control": -1.8318745267668084
+      },
+      {
+        "seed": 88003,
+        "k": 84,
+        "D": 6.0,
+        "full_action": true,
+        "score_full": 0.8248547118778173,
+        "score_control": -6.900532401328066
+      },
+      {
+        "seed": 88004,
+        "k": 28,
+        "D": 4.0,
+        "full_action": true,
+        "score_full": 1.2917180481393915,
+        "score_control": -9.116783670074089
+      },
+      {
+        "seed": 88004,
+        "k": 76,
+        "D": 9.0,
+        "full_action": true,
+        "score_full": 4.5056337479672255,
+        "score_control": -3.76230215337442
+      },
+      {
+        "seed": 88004,
+        "k": 164,
+        "D": 28.0,
+        "full_action": true,
+        "score_full": 0.3153358189087774,
+        "score_control": -15.495958702028917
+      },
+      {
+        "seed": 88005,
+        "k": 76,
+        "D": 10.0,
+        "full_action": true,
+        "score_full": 7.443691537599335,
+        "score_control": -1.8381490034965524
+      },
+      {
+        "seed": 88005,
+        "k": 124,
+        "D": -1.0,
+        "full_action": true,
+        "score_full": 6.16319125529299,
+        "score_control": -2.6377355274947285
+      }
+    ]
+  },
+  "factorized": {
+    "terms": {
+      "added_gain": 66.0,
+      "avoided_loss": 0,
+      "missed_gain": 0,
+      "incurred_loss": 1.0
+    },
+    "changed": [
+      {
+        "seed": 88001,
+        "k": 76,
+        "D": 6.0,
+        "full_action": true,
+        "score_full": 4.245625684948758,
+        "score_control": -2.8661255810739745
+      },
+      {
+        "seed": 88002,
+        "k": 76,
+        "D": 13.0,
+        "full_action": true,
+        "score_full": 5.704541035720997,
+        "score_control": -1.2722667825020482
+      },
+      {
+        "seed": 88002,
+        "k": 124,
+        "D": 0.0,
+        "full_action": true,
+        "score_full": 9.834855102111904,
+        "score_control": -1.107899064881595
+      },
+      {
+        "seed": 88003,
+        "k": 84,
+        "D": 6.0,
+        "full_action": true,
+        "score_full": 0.8248547118778173,
+        "score_control": -6.78522146339408
+      },
+      {
+        "seed": 88004,
+        "k": 28,
+        "D": 4.0,
+        "full_action": true,
+        "score_full": 1.2917180481393915,
+        "score_control": -6.8896414866497935
+      },
+      {
+        "seed": 88004,
+        "k": 76,
+        "D": 9.0,
+        "full_action": true,
+        "score_full": 4.5056337479672255,
+        "score_control": -3.199959782331999
+      },
+      {
+        "seed": 88004,
+        "k": 124,
+        "D": 0.0,
+        "full_action": true,
+        "score_full": 9.859287974867126,
+        "score_control": -1.1210715971431222
+      },
+      {
+        "seed": 88004,
+        "k": 164,
+        "D": 28.0,
+        "full_action": true,
+        "score_full": 0.3153358189087774,
+        "score_control": -12.524328253858174
+      },
+      {
+        "seed": 88005,
+        "k": 124,
+        "D": -1.0,
+        "full_action": true,
+        "score_full": 6.16319125529299,
+        "score_control": -4.057186046644426
+      }
+    ]
+  },
+  "gaussian": {
+    "terms": {
+      "added_gain": 28.0,
+      "avoided_loss": 0,
+      "missed_gain": 0,
+      "incurred_loss": 0
+    },
+    "changed": [
+      {
+        "seed": 88004,
+        "k": 164,
+        "D": 28.0,
+        "full_action": true,
+        "score_full": 0.3153358189087774,
+        "score_control": -2.8229071204718927
+      }
+    ]
+  },
+  "sandwich": {
+    "terms": {
+      "added_gain": 28.0,
+      "avoided_loss": 0,
+      "missed_gain": 0,
+      "incurred_loss": 0
+    },
+    "changed": [
+      {
+        "seed": 88004,
+        "k": 164,
+        "D": 28.0,
+        "full_action": true,
+        "score_full": 0.3153358189087774,
+        "score_control": -3.365856255581953
+      }
+    ]
+  }
+}

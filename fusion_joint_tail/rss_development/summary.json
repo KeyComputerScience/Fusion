@@ -1,0 +1,173 @@
+{
+  "summary": {
+    "joint": {
+      "mean_increment": 22.4,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "admissions": 13,
+      "beneficial": 10,
+      "harmful": 1,
+      "zero": 2,
+      "negative_loss": 1.0,
+      "coverage": [
+        9,
+        13
+      ],
+      "excess": 38.472144660883146,
+      "refused": 0
+    },
+    "marginal": {
+      "mean_increment": 5.6,
+      "seed_increments": [
+        3.0,
+        25.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "admissions": 3,
+      "beneficial": 2,
+      "harmful": 0,
+      "zero": 1,
+      "negative_loss": 0.0,
+      "coverage": [
+        2,
+        3
+      ],
+      "excess": 0.3531091253529226,
+      "refused": 0
+    },
+    "factorized": {
+      "mean_increment": 9.4,
+      "seed_increments": [
+        3.0,
+        25.0,
+        9.0,
+        0.0,
+        10.0
+      ],
+      "admissions": 4,
+      "beneficial": 4,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "coverage": [
+        4,
+        4
+      ],
+      "excess": 0.0,
+      "refused": 0
+    },
+    "gaussian": {
+      "mean_increment": 16.8,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 12,
+      "beneficial": 9,
+      "harmful": 1,
+      "zero": 2,
+      "negative_loss": 1.0,
+      "coverage": [
+        5,
+        12
+      ],
+      "excess": 38.549396641982995,
+      "refused": 0
+    },
+    "sandwich": {
+      "mean_increment": 16.8,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 12,
+      "beneficial": 9,
+      "harmful": 1,
+      "zero": 2,
+      "negative_loss": 1.0,
+      "coverage": [
+        5,
+        12
+      ],
+      "excess": 42.18296035286396,
+      "refused": 0
+    }
+  },
+  "selected": {
+    "joint": {
+      "arm": "joint",
+      "bandwidth": 0.25,
+      "cap": 1.0,
+      "alpha_initial": 0.9500199301513814,
+      "fit_count": 23,
+      "net": 77.66666666666667,
+      "beneficial": 6,
+      "harmful": 2
+    },
+    "marginal": {
+      "arm": "marginal",
+      "bandwidth": 1.0,
+      "cap": 0.5,
+      "alpha_initial": 0.49999999998545097,
+      "fit_count": 23,
+      "net": 53.333333333333336,
+      "beneficial": 3,
+      "harmful": 0
+    },
+    "factorized": {
+      "arm": "factorized",
+      "bandwidth": 1.0,
+      "cap": 0.5,
+      "alpha_initial": 0.49999999998545097,
+      "fit_count": 23,
+      "net": 53.333333333333336,
+      "beneficial": 3,
+      "harmful": 0
+    },
+    "gaussian": {
+      "arm": "gaussian",
+      "bandwidth": 0.5,
+      "cap": 1.0,
+      "alpha_initial": 0.9979532670469546,
+      "fit_count": 23,
+      "net": 58.0,
+      "beneficial": 4,
+      "harmful": 3
+    },
+    "sandwich": {
+      "arm": "sandwich",
+      "bandwidth": 0.5,
+      "cap": 1.0,
+      "alpha_initial": 0.9971796396611461,
+      "fit_count": 23,
+      "net": 58.0,
+      "beneficial": 4,
+      "harmful": 3
+    }
+  },
+  "max_service_error": 0.0,
+  "max_identity_error": 1.7763568394002505e-15,
+  "cache": {
+    "hits": 20,
+    "misses": 5,
+    "bypasses": 1025,
+    "retained": 5,
+    "train_seconds": 0.006497541005956009,
+    "hash_seconds": 0.0018761680112220347,
+    "first_hit_bitwise_recomputed": true,
+    "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+  }
+}
