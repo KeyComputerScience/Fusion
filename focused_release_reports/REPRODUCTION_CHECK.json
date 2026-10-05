@@ -1,0 +1,36 @@
+{
+  "phase": "reports",
+  "result": {
+    "passed": true,
+    "tasks": 7,
+    "source": "stored complete outcomes, no retuning"
+  },
+  "before": {
+    "passed": true,
+    "release_files": 227,
+    "dependencies": {
+      "Fusion_Recovery_Repro": {
+        "manifest_sha256": "752e235bb23ef597325838a3b863d3cdbed4c9e594392d3514d0afeca0bed070",
+        "checked_files": 235
+      },
+      "Fusion_Loss_Budget_Extension_Repro": {
+        "manifest_sha256": "d751039ff208823169fec0789c7c93cd547c20a2f44052dc0b6226bb8d153918",
+        "checked_files": 82
+      }
+    }
+  },
+  "after": {
+    "passed": true,
+    "release_files": 227,
+    "dependencies": {
+      "Fusion_Recovery_Repro": {
+        "manifest_sha256": "752e235bb23ef597325838a3b863d3cdbed4c9e594392d3514d0afeca0bed070",
+        "checked_files": 235
+      },
+      "Fusion_Loss_Budget_Extension_Repro": {
+        "manifest_sha256": "d751039ff208823169fec0789c7c93cd547c20a2f44052dc0b6226bb8d153918",
+        "checked_files": 82
+      }
+    }
+  }
+}
