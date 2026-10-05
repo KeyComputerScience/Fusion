@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-05T09:18:31.671181+00:00",
+  "mode": "geometry",
+  "method": "decision-aligned conditional joint return-tail fusion",
+  "prior_sd": 0.1,
+  "tail_cap": 1.0,
+  "grid": {
+    "b_parallel": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "b_perp": [
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "configs": 9,
+  "choice_basis": "Final coherent dual-direction kernel design fixed after known-RSS development and before any UCI308 raw acquisition; geometry preserves originalRSS paid22.4 while reducing admittedexceedance. No UCI308 outcomes read.",
+  "development_summary_sha256": "fd947437992f6eafda4c1f9091b66801ae98051547add0f3efaf057abc8df275",
+  "scoring": "same paired complete-error location/completion state, quality-whitened target/transverse covariance smoothing, one line-conditioned law, one paidtail score; no addedpolicycombination"
+}
