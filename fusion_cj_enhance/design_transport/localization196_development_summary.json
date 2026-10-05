@@ -1,0 +1,640 @@
+{
+  "task": "localization196",
+  "selected": {
+    "conditional_joint": {
+      "arm": "conditional_joint",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_joint": {
+      "arm": "t_joint",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_product": {
+      "arm": "t_product",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_gaussian": {
+      "arm": "t_gaussian",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_factorized": {
+      "arm": "t_factorized",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_diagonal_completion": {
+      "arm": "t_diagonal_completion",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "legacy_factorized": {
+      "arm": "legacy_factorized",
+      "bandwidth": 1.0,
+      "prior_sd": 0.05,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "legacy_sandwich": {
+      "arm": "legacy_sandwich",
+      "bandwidth": 1.0,
+      "prior_sd": 0.05,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    }
+  },
+  "arms": {
+    "conditional_joint": {
+      "mean_total_increment": 0.0,
+      "seed_increments": {
+        "113001": 0.0,
+        "113002": 0.0,
+        "113003": 0.0,
+        "113004": 0.0,
+        "113005": 0.0
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "loss": 0,
+      "coverage": [
+        0,
+        0
+      ],
+      "optimistic_excess": 0,
+      "refused": 0
+    },
+    "t_joint": {
+      "mean_total_increment": -6.2,
+      "seed_increments": {
+        "113001": -11.0,
+        "113002": -6.0,
+        "113003": -6.0,
+        "113004": 0.0,
+        "113005": -8.0
+      },
+      "admissions": 4,
+      "beneficial": 0,
+      "harmful": 4,
+      "zero": 0,
+      "loss": 31.0,
+      "coverage": [
+        0,
+        4
+      ],
+      "optimistic_excess": 34.151402691068895,
+      "refused": 0
+    },
+    "t_product": {
+      "mean_total_increment": -8.6,
+      "seed_increments": {
+        "113001": -11.0,
+        "113002": -6.0,
+        "113003": -6.0,
+        "113004": -7.0,
+        "113005": -13.0
+      },
+      "admissions": 6,
+      "beneficial": 0,
+      "harmful": 6,
+      "zero": 0,
+      "loss": 43.0,
+      "coverage": [
+        0,
+        6
+      ],
+      "optimistic_excess": 114.24013244598,
+      "refused": 0
+    },
+    "t_gaussian": {
+      "mean_total_increment": 0.0,
+      "seed_increments": {
+        "113001": 0.0,
+        "113002": 0.0,
+        "113003": 0.0,
+        "113004": 0.0,
+        "113005": 0.0
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "loss": 0,
+      "coverage": [
+        0,
+        0
+      ],
+      "optimistic_excess": 0,
+      "refused": 0
+    },
+    "t_factorized": {
+      "mean_total_increment": 0.0,
+      "seed_increments": {
+        "113001": 0.0,
+        "113002": 0.0,
+        "113003": 0.0,
+        "113004": 0.0,
+        "113005": 0.0
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "loss": 0,
+      "coverage": [
+        0,
+        0
+      ],
+      "optimistic_excess": 0,
+      "refused": 0
+    },
+    "t_diagonal_completion": {
+      "mean_total_increment": -11.6,
+      "seed_increments": {
+        "113001": -16.0,
+        "113002": -12.0,
+        "113003": -6.0,
+        "113004": -7.0,
+        "113005": -17.0
+      },
+      "admissions": 9,
+      "beneficial": 0,
+      "harmful": 9,
+      "zero": 0,
+      "loss": 58.0,
+      "coverage": [
+        0,
+        9
+      ],
+      "optimistic_excess": 155.3481524532736,
+      "refused": 0
+    },
+    "legacy_factorized": {
+      "mean_total_increment": 0.0,
+      "seed_increments": {
+        "113001": 0.0,
+        "113002": 0.0,
+        "113003": 0.0,
+        "113004": 0.0,
+        "113005": 0.0
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "loss": 0,
+      "coverage": [
+        0,
+        0
+      ],
+      "optimistic_excess": 0,
+      "refused": 0
+    },
+    "legacy_sandwich": {
+      "mean_total_increment": 0.0,
+      "seed_increments": {
+        "113001": 0.0,
+        "113002": 0.0,
+        "113003": 0.0,
+        "113004": 0.0,
+        "113005": 0.0
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "loss": 0,
+      "coverage": [
+        0,
+        0
+      ],
+      "optimistic_excess": 0,
+      "refused": 0
+    }
+  },
+  "persons": {
+    "D": {
+      "conditional_joint": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "t_joint": {
+        "mean_total_increment": -6.2,
+        "seed_increments": {
+          "113001": -11.0,
+          "113002": -6.0,
+          "113003": -6.0,
+          "113004": 0.0,
+          "113005": -8.0
+        },
+        "admissions": 4,
+        "beneficial": 0,
+        "harmful": 4,
+        "zero": 0,
+        "loss": 31.0,
+        "coverage": [
+          0,
+          4
+        ],
+        "optimistic_excess": 34.151402691068895,
+        "refused": 0
+      },
+      "t_product": {
+        "mean_total_increment": -7.6,
+        "seed_increments": {
+          "113001": -11.0,
+          "113002": -6.0,
+          "113003": -6.0,
+          "113004": -7.0,
+          "113005": -8.0
+        },
+        "admissions": 5,
+        "beneficial": 0,
+        "harmful": 5,
+        "zero": 0,
+        "loss": 38.0,
+        "coverage": [
+          0,
+          5
+        ],
+        "optimistic_excess": 108.40691177202552,
+        "refused": 0
+      },
+      "t_gaussian": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "t_factorized": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "t_diagonal_completion": {
+        "mean_total_increment": -7.6,
+        "seed_increments": {
+          "113001": -11.0,
+          "113002": -6.0,
+          "113003": -6.0,
+          "113004": -7.0,
+          "113005": -8.0
+        },
+        "admissions": 5,
+        "beneficial": 0,
+        "harmful": 5,
+        "zero": 0,
+        "loss": 38.0,
+        "coverage": [
+          0,
+          5
+        ],
+        "optimistic_excess": 117.80115218544607,
+        "refused": 0
+      },
+      "legacy_factorized": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "legacy_sandwich": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      }
+    },
+    "E": {
+      "conditional_joint": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "t_joint": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "t_product": {
+        "mean_total_increment": -1.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": -5.0
+        },
+        "admissions": 1,
+        "beneficial": 0,
+        "harmful": 1,
+        "zero": 0,
+        "loss": 5.0,
+        "coverage": [
+          0,
+          1
+        ],
+        "optimistic_excess": 5.833220673954465,
+        "refused": 0
+      },
+      "t_gaussian": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "t_factorized": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "t_diagonal_completion": {
+        "mean_total_increment": -4.0,
+        "seed_increments": {
+          "113001": -5.0,
+          "113002": -6.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": -9.0
+        },
+        "admissions": 4,
+        "beneficial": 0,
+        "harmful": 4,
+        "zero": 0,
+        "loss": 20.0,
+        "coverage": [
+          0,
+          4
+        ],
+        "optimistic_excess": 37.547000267827514,
+        "refused": 0
+      },
+      "legacy_factorized": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      },
+      "legacy_sandwich": {
+        "mean_total_increment": 0.0,
+        "seed_increments": {
+          "113001": 0.0,
+          "113002": 0.0,
+          "113003": 0.0,
+          "113004": 0.0,
+          "113005": 0.0
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "loss": 0,
+        "coverage": [
+          0,
+          0
+        ],
+        "optimistic_excess": 0,
+        "refused": 0
+      }
+    }
+  },
+  "fixed_state": {
+    "t_product": {
+      "changed": 2,
+      "joint_only": 0,
+      "utility_difference": 12.0
+    },
+    "t_gaussian": {
+      "changed": 4,
+      "joint_only": 4,
+      "utility_difference": -31.0
+    },
+    "t_factorized": {
+      "changed": 4,
+      "joint_only": 4,
+      "utility_difference": -31.0
+    },
+    "t_diagonal_completion": {
+      "changed": 5,
+      "joint_only": 0,
+      "utility_difference": 27.0
+    }
+  },
+  "max_service_error": 0.0,
+  "current_truth_poison_checks": 2120,
+  "max_quadrature_refinement": 9.641883220654068e-10,
+  "development_only": true,
+  "scope": "delay seeds reuse the same physical recordings; UCI totals sum10 separately reset chains per seed"
+}
