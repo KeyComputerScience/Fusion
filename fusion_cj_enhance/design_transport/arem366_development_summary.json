@@ -1,0 +1,427 @@
+{
+  "task": "arem366",
+  "selected": {
+    "conditional_joint": {
+      "arm": "conditional_joint",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        -0.1442813830311854,
+        0.004050889414890486,
+        0.1236571423153619,
+        -0.35537022425300263,
+        -0.29014343935659426,
+        -0.2604567742155203,
+        -0.3753006409888412,
+        -0.10011310424848172,
+        -0.5608295962141019,
+        -0.21311780655073986,
+        0.06762889677321642,
+        0.31003601586680124,
+        -0.7836311309996293,
+        -0.9780582196455464,
+        -0.4852336026208878
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_joint": {
+      "arm": "t_joint",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        0.5307845848232937,
+        0.03752449963559477,
+        0.2834171895395546,
+        -0.17808835730823205,
+        -0.6180567530547265,
+        0.15731184292383438,
+        -0.11948867243748827,
+        -0.03448700733285257,
+        -0.41121943674089473,
+        -0.4252163655731046,
+        0.5704600262424041,
+        0.7626364599729876,
+        -0.7314843742989632,
+        -0.8568535136734672,
+        -0.6510988799281856
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_product": {
+      "arm": "t_product",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        0.6426737042205919,
+        0.03392523348512672,
+        0.26794070886685845,
+        -0.22070609510350345,
+        -0.6247890015615323,
+        0.07615774851793065,
+        -0.15507584211361153,
+        -0.05059570138358443,
+        -0.46348255891270584,
+        -0.38276242613796907,
+        0.4920010299939037,
+        0.7390474419338812,
+        -0.7500612405120344,
+        -0.9187161576617966,
+        -0.7158243704455246
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_gaussian": {
+      "arm": "t_gaussian",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        -0.004434906609526254,
+        0.002045098161078033,
+        0.10558826373712583,
+        -0.4704920732015301,
+        -0.4242113739622049,
+        -0.38711586160108896,
+        -0.49637068231146936,
+        -0.15898857961915472,
+        -0.7119767396117584,
+        -0.299944509224649,
+        -0.02657407247528762,
+        0.3222850045565653,
+        -0.963847268575989,
+        -1.198394437044396,
+        -0.6477204239000004
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_factorized": {
+      "arm": "t_factorized",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        0.03355932934861784,
+        0.0004663023287652995,
+        0.020585880820425662,
+        -0.04713115283090553,
+        -0.15430561395046086,
+        -0.06521824340332982,
+        -0.060629614583121945,
+        -0.03129119949742028,
+        -0.08346319010095479,
+        -0.10118625088581464,
+        0.006352404925186699,
+        0.04299647908189536,
+        -0.14865516611522833,
+        -0.11944873387600141,
+        -0.23472308877747627
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "t_diagonal_completion": {
+      "arm": "t_diagonal_completion",
+      "bandwidth": 1.0,
+      "prior_sd": 0.1,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        0.6322572943771317,
+        0.033293538325241075,
+        0.2757241888365925,
+        0.18842945642478245,
+        -0.5784789872379312,
+        0.5182656917372166,
+        0.13879070665959,
+        0.14908576324983666,
+        0.040684373124829074,
+        -0.4067128270898959,
+        0.689219164732436,
+        0.45565484553418106,
+        -0.06678340903430238,
+        -0.14393212888538512,
+        -0.4288071622070552
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "legacy_factorized": {
+      "arm": "legacy_factorized",
+      "bandwidth": 1.0,
+      "prior_sd": 0.05,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        -0.663976645813667,
+        -0.5210220215548096,
+        -0.38639969987299877,
+        -1.2384416488253909,
+        -0.9895076718362874,
+        -1.2798079158829239,
+        -1.235735446949162,
+        -0.7658873323775669,
+        -1.5666343713348836,
+        -0.8118671385343716,
+        -0.6594744236946327,
+        -0.07484708383428766,
+        -1.759325860334402,
+        -2.0243123007912773,
+        -1.4318559410356633
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    },
+    "legacy_sandwich": {
+      "arm": "legacy_sandwich",
+      "bandwidth": 1.0,
+      "prior_sd": 0.05,
+      "q_floor": 1.2815515655446004,
+      "q_initial": 1.2815515655446004,
+      "guarded_net": 0.0,
+      "unguarded_net": 0.0,
+      "fit_scores": [
+        -0.4103089787103865,
+        -0.17046208864392556,
+        -0.03967835308260405,
+        -0.8583887511650888,
+        -0.5145031549099837,
+        -0.9552941840618254,
+        -0.8696506439827625,
+        -0.4104283585094059,
+        -1.1448631711676343,
+        -0.3822198767758831,
+        -0.33245843892520766,
+        0.27408421816815987,
+        -1.105634601365106,
+        -1.5010502083658865,
+        -0.8553033609370113
+      ],
+      "guarded_beneficial": 0,
+      "guarded_harmful": 0
+    }
+  },
+  "arms": {
+    "conditional_joint": {
+      "mean_total_increment": -30.0,
+      "seed_increments": {
+        "92001": -30.0,
+        "92002": -30.0,
+        "92003": -30.0,
+        "92004": -31.0,
+        "92005": -29.0
+      },
+      "admissions": 5,
+      "beneficial": 0,
+      "harmful": 5,
+      "zero": 0,
+      "loss": 150.0,
+      "coverage": [
+        0,
+        5
+      ],
+      "optimistic_excess": 178.345102784609,
+      "refused": 0
+    },
+    "t_joint": {
+      "mean_total_increment": -30.0,
+      "seed_increments": {
+        "92001": -30.0,
+        "92002": -30.0,
+        "92003": -30.0,
+        "92004": -31.0,
+        "92005": -29.0
+      },
+      "admissions": 5,
+      "beneficial": 0,
+      "harmful": 5,
+      "zero": 0,
+      "loss": 150.0,
+      "coverage": [
+        0,
+        5
+      ],
+      "optimistic_excess": 185.22942209808835,
+      "refused": 0
+    },
+    "t_product": {
+      "mean_total_increment": -30.0,
+      "seed_increments": {
+        "92001": -30.0,
+        "92002": -30.0,
+        "92003": -30.0,
+        "92004": -31.0,
+        "92005": -29.0
+      },
+      "admissions": 5,
+      "beneficial": 0,
+      "harmful": 5,
+      "zero": 0,
+      "loss": 150.0,
+      "coverage": [
+        0,
+        5
+      ],
+      "optimistic_excess": 191.29506886948656,
+      "refused": 0
+    },
+    "t_gaussian": {
+      "mean_total_increment": -30.0,
+      "seed_increments": {
+        "92001": -30.0,
+        "92002": -30.0,
+        "92003": -30.0,
+        "92004": -31.0,
+        "92005": -29.0
+      },
+      "admissions": 5,
+      "beneficial": 0,
+      "harmful": 5,
+      "zero": 0,
+      "loss": 150.0,
+      "coverage": [
+        0,
+        5
+      ],
+      "optimistic_excess": 186.52414478746766,
+      "refused": 0
+    },
+    "t_factorized": {
+      "mean_total_increment": 0.0,
+      "seed_increments": {
+        "92001": 0.0,
+        "92002": 0.0,
+        "92003": 0.0,
+        "92004": 0.0,
+        "92005": 0.0
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "loss": 0,
+      "coverage": [
+        0,
+        0
+      ],
+      "optimistic_excess": 0,
+      "refused": 0
+    },
+    "t_diagonal_completion": {
+      "mean_total_increment": 0.0,
+      "seed_increments": {
+        "92001": 0.0,
+        "92002": 0.0,
+        "92003": 0.0,
+        "92004": 0.0,
+        "92005": 0.0
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "loss": 0,
+      "coverage": [
+        0,
+        0
+      ],
+      "optimistic_excess": 0,
+      "refused": 0
+    },
+    "legacy_factorized": {
+      "mean_total_increment": -30.0,
+      "seed_increments": {
+        "92001": -30.0,
+        "92002": -30.0,
+        "92003": -30.0,
+        "92004": -31.0,
+        "92005": -29.0
+      },
+      "admissions": 5,
+      "beneficial": 0,
+      "harmful": 5,
+      "zero": 0,
+      "loss": 150.0,
+      "coverage": [
+        0,
+        5
+      ],
+      "optimistic_excess": 196.71994125421222,
+      "refused": 0
+    },
+    "legacy_sandwich": {
+      "mean_total_increment": -30.0,
+      "seed_increments": {
+        "92001": -30.0,
+        "92002": -30.0,
+        "92003": -30.0,
+        "92004": -31.0,
+        "92005": -29.0
+      },
+      "admissions": 5,
+      "beneficial": 0,
+      "harmful": 5,
+      "zero": 0,
+      "loss": 150.0,
+      "coverage": [
+        0,
+        5
+      ],
+      "optimistic_excess": 208.7134478110747,
+      "refused": 0
+    }
+  },
+  "persons": {},
+  "fixed_state": {
+    "t_product": {
+      "changed": 0,
+      "joint_only": 0,
+      "utility_difference": 0
+    },
+    "t_gaussian": {
+      "changed": 0,
+      "joint_only": 0,
+      "utility_difference": 0
+    },
+    "t_factorized": {
+      "changed": 5,
+      "joint_only": 5,
+      "utility_difference": -150.0
+    },
+    "t_diagonal_completion": {
+      "changed": 5,
+      "joint_only": 5,
+      "utility_difference": -150.0
+    }
+  },
+  "max_service_error": 0.0,
+  "current_truth_poison_checks": 800,
+  "max_quadrature_refinement": 9.77491320525159e-10,
+  "development_only": true,
+  "scope": "delay seeds reuse the same physical recordings; UCI totals sum10 separately reset chains per seed"
+}
