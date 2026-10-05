@@ -1,0 +1,175 @@
+{
+  "quality_power": {
+    "0.0": {
+      "mean_weight_l2_change": 0.03436772854914607,
+      "changed_action_slots": 6,
+      "net_return_mean": 8735.23,
+      "gain_mean": -2.270000000000073,
+      "gain95": [
+        -10.059095238857987,
+        5.51909523885784
+      ],
+      "sign_recovery_mean": 46.62
+    },
+    "0.5": {
+      "mean_weight_l2_change": 0.017099670095308113,
+      "changed_action_slots": 2,
+      "net_return_mean": 8733.899999999998,
+      "gain_mean": -3.6,
+      "gain95": [
+        -10.656,
+        3.456
+      ],
+      "sign_recovery_mean": 46.66
+    },
+    "1.0": {
+      "mean_weight_l2_change": 0.0,
+      "changed_action_slots": 0,
+      "net_return_mean": 8737.499999999998,
+      "gain_mean": 0.0,
+      "gain95": [
+        0.0,
+        0.0
+      ],
+      "sign_recovery_mean": 46.64
+    },
+    "2.0": {
+      "mean_weight_l2_change": 0.033379959520519614,
+      "changed_action_slots": 16,
+      "net_return_mean": 8741.539999999999,
+      "gain_mean": 4.040000000000146,
+      "gain95": [
+        -13.159381882433241,
+        21.23938188243353
+      ],
+      "sign_recovery_mean": 46.739999999999995
+    }
+  },
+  "risk_scale": {
+    "0.0": {
+      "mean_weight_l2_change": 0.16644787905723898,
+      "changed_action_slots": 38,
+      "net_return_mean": 8746.71,
+      "gain_mean": 9.209999999999946,
+      "gain95": [
+        -26.354702133560444,
+        44.77470213356033
+      ],
+      "sign_recovery_mean": 46.6
+    },
+    "0.5": {
+      "mean_weight_l2_change": 0.02667609543369743,
+      "changed_action_slots": 10,
+      "net_return_mean": 8733.399999999998,
+      "gain_mean": -4.099999999999909,
+      "gain95": [
+        -9.71897053441857,
+        1.5189705344187514
+      ],
+      "sign_recovery_mean": 46.8
+    },
+    "1.0": {
+      "mean_weight_l2_change": 0.0,
+      "changed_action_slots": 0,
+      "net_return_mean": 8737.499999999998,
+      "gain_mean": 0.0,
+      "gain95": [
+        0.0,
+        0.0
+      ],
+      "sign_recovery_mean": 46.64
+    },
+    "2.0": {
+      "mean_weight_l2_change": 0.019003502303266112,
+      "changed_action_slots": 2,
+      "net_return_mean": 8733.899999999998,
+      "gain_mean": -3.6,
+      "gain95": [
+        -10.656,
+        3.456
+      ],
+      "sign_recovery_mean": 46.66
+    }
+  },
+  "history_weight": {
+    "0.0": {
+      "mean_weight_l2_change": 0.0,
+      "changed_action_slots": 0,
+      "net_return_mean": 8737.499999999998,
+      "gain_mean": 0.0,
+      "gain95": [
+        0.0,
+        0.0
+      ],
+      "sign_recovery_mean": 46.64
+    },
+    "0.01": {
+      "mean_weight_l2_change": 0.027370289816254202,
+      "changed_action_slots": 12,
+      "net_return_mean": 8745.17,
+      "gain_mean": 7.670000000000163,
+      "gain95": [
+        -10.662026911513161,
+        26.00202691151349
+      ],
+      "sign_recovery_mean": 46.57999999999999
+    },
+    "0.05": {
+      "mean_weight_l2_change": 0.09111317277228363,
+      "changed_action_slots": 24,
+      "net_return_mean": 8737.01,
+      "gain_mean": -0.4899999999995998,
+      "gain95": [
+        -39.561774516821224,
+        38.58177451682203
+      ],
+      "sign_recovery_mean": 46.75999999999999
+    }
+  },
+  "beta": {
+    "0.9": {
+      "mean_weight_l2_change": 0.07558393880755322,
+      "changed_action_slots": 32,
+      "net_return_mean": 8748.97,
+      "gain_mean": 11.470000000000073,
+      "gain95": [
+        -21.618879856397346,
+        44.558879856397496
+      ],
+      "sign_recovery_mean": 46.7
+    },
+    "0.97": {
+      "mean_weight_l2_change": 0.029840141814902695,
+      "changed_action_slots": 14,
+      "net_return_mean": 8744.789999999997,
+      "gain_mean": 7.290000000000054,
+      "gain95": [
+        -21.18352967980362,
+        35.763529679803725
+      ],
+      "sign_recovery_mean": 46.72
+    },
+    "0.985": {
+      "mean_weight_l2_change": 0.0,
+      "changed_action_slots": 0,
+      "net_return_mean": 8737.499999999998,
+      "gain_mean": 0.0,
+      "gain95": [
+        0.0,
+        0.0
+      ],
+      "sign_recovery_mean": 46.64
+    },
+    "1.0": {
+      "mean_weight_l2_change": 0.03946821606196699,
+      "changed_action_slots": 2,
+      "net_return_mean": 8733.899999999998,
+      "gain_mean": -3.6,
+      "gain95": [
+        -10.656,
+        3.456
+      ],
+      "sign_recovery_mean": 46.66
+    }
+  }
+}

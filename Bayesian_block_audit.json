@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "scope": "Synthetic algebra and API audit, not real-sensor performance",
+  "construction": "Dirichlet source probabilities, random features and six-class labels; current candidate/deployed remapping; finite archive and joint missing-source exclusion",
+  "seeds": {
+    "fixture": 114007,
+    "dirichlet_audit": 114008
+  },
+  "posterior_draws": 200000,
+  "archived_windows": 5,
+  "retained_archive_limit": 3,
+  "completed_eligible_blocks_including_prior": 3,
+  "active_sources": [
+    0,
+    2,
+    3
+  ],
+  "concentrations": [
+    2.0,
+    0.37564569981818674,
+    0.44620742296297106
+  ],
+  "analytic_moments": {
+    "total_concentration": 2.821853122781158,
+    "mean_block_mass": [
+      0.7087541105005646,
+      0.1331202169190005,
+      0.15812567258043486
+    ],
+    "predictive_mean": [
+      0.1953123227054619,
+      0.26493764170183703,
+      0.21734416911497945
+    ],
+    "predictive_raw_second": [
+      [
+        1.868919508230993,
+        1.8370712280097856,
+        2.215423256292852
+      ],
+      [
+        1.8370712280097856,
+        2.2152110993024694,
+        2.396562082026001
+      ],
+      [
+        2.215423256292852,
+        2.396562082026001,
+        3.0895922806941436
+      ]
+    ],
+    "predictive_covariance": [
+      [
+        1.8307726048303905,
+        1.7853256418368924,
+        2.1729732617965167
+      ],
+      [
+        1.7853256418368924,
+        2.1450191453119385,
+        2.338979430423033
+      ],
+      [
+        2.1729732617965167,
+        2.338979430423033,
+        3.0423537928458626
+      ]
+    ],
+    "within_block_covariance": [
+      [
+        1.694415700144024,
+        1.6204767295948521,
+        1.9978919683752807
+      ],
+      [
+        1.6204767295948521,
+        1.9430737570462862,
+        2.1235342453192487
+      ],
+      [
+        1.9978919683752807,
+        2.1235342453192487,
+        2.812159857137463
+      ]
+    ],
+    "between_block_covariance": [
+      [
+        0.13635690468636683,
+        0.16484891224204012,
+        0.1750812934212363
+      ],
+      [
+        0.16484891224204012,
+        0.20194538826565223,
+        0.2154451851037847
+      ],
+      [
+        0.1750812934212363,
+        0.2154451851037847,
+        0.23019393570840002
+      ]
+    ],
+    "posterior_mean_covariance": [
+      [
+        0.03567821690309754,
+        0.04313324111264637,
+        0.045810576125392764
+      ],
+      [
+        0.04313324111264637,
+        0.05283965180710472,
+        0.056371916497671544
+      ],
+      [
+        0.045810576125392764,
+        0.056371916497671544,
+        0.06023097390537294
+      ]
+    ],
+    "expected_conditional_covariance": [
+      [
+        1.795094387927293,
+        1.742192400724246,
+        2.127162685671124
+      ],
+      [
+        1.742192400724246,
+        2.0921794935048337,
+        2.2826075139253614
+      ],
+      [
+        2.127162685671124,
+        2.2826075139253614,
+        2.9821228189404896
+      ]
+    ]
+  },
+  "minimum_eigenvalues": {
+    "predictive_covariance": 0.1795762001326638,
+    "within_block_covariance": 0.17748158708280395,
+    "between_block_covariance": -3.843553076468802e-17,
+    "posterior_mean_covariance": 7.472377088389571e-18,
+    "expected_conditional_covariance": 0.17902901994990755
+  },
+  "deterministic_errors": {
+    "paired_mean_max_abs": 5.551115123125783e-17,
+    "paired_covariance_max_abs": 3.9968028886505635e-15,
+    "within_plus_between_max_abs": 4.996003610813204e-16,
+    "total_covariance_max_abs": 0.0,
+    "incorrect_predictive_over_concentration_error": 0.7358105523142284
+  },
+  "monte_carlo_errors": {
+    "mean_max_abs": 0.00030017292549128216,
+    "raw_second_max_abs": 0.0012113326766556298,
+    "posterior_mean_covariance_max_abs": 0.0001062216979288294,
+    "expected_conditional_covariance_max_abs": 0.0011871628081396857
+  },
+  "single_block_single_source": {
+    "posterior_mean_covariance": [
+      [
+        0.0
+      ]
+    ]
+  },
+  "invalid_inputs_rejected": {
+    "zero_concentration": true,
+    "indefinite_block_covariance": true
+  },
+  "interpretation": "Posterior predictive mean/covariance equal existing paired_moments to roundoff. Covariance of posterior mean uses between-block means, not all per-request predictive variation. Monte Carlo is audit-only and does not change the gate."
+}
