@@ -1,0 +1,1406 @@
+{
+  "tasks": {
+    "rss348": {
+      "arms": {
+        "conditional_joint": {
+          "mean_total_increment": 35.6,
+          "seed_increments": {
+            "88001": 37.0,
+            "88002": 76.0,
+            "88003": 15.0,
+            "88004": 41.0,
+            "88005": 9.0
+          },
+          "admissions": 16,
+          "beneficial": 13,
+          "harmful": 1,
+          "zero": 2,
+          "loss": 1.0,
+          "coverage": [
+            11,
+            16
+          ],
+          "optimistic_excess": 41.767938655415534,
+          "refused": 1
+        },
+        "r_joint": {
+          "mean_total_increment": 2.0,
+          "seed_increments": {
+            "88001": -4.0,
+            "88002": -4.0,
+            "88003": 2.0,
+            "88004": 13.0,
+            "88005": 3.0
+          },
+          "admissions": 10,
+          "beneficial": 4,
+          "harmful": 4,
+          "zero": 2,
+          "loss": 14.0,
+          "coverage": [
+            3,
+            10
+          ],
+          "optimistic_excess": 36.083718490848604,
+          "refused": 10
+        },
+        "r_product": {
+          "mean_total_increment": 2.0,
+          "seed_increments": {
+            "88001": -4.0,
+            "88002": -4.0,
+            "88003": 2.0,
+            "88004": 13.0,
+            "88005": 3.0
+          },
+          "admissions": 10,
+          "beneficial": 4,
+          "harmful": 4,
+          "zero": 2,
+          "loss": 14.0,
+          "coverage": [
+            2,
+            10
+          ],
+          "optimistic_excess": 39.62334347551441,
+          "refused": 11
+        },
+        "r_factorized": {
+          "mean_total_increment": 3.4,
+          "seed_increments": {
+            "88001": 0.0,
+            "88002": -4.0,
+            "88003": 2.0,
+            "88004": 16.0,
+            "88005": 3.0
+          },
+          "admissions": 12,
+          "beneficial": 6,
+          "harmful": 4,
+          "zero": 2,
+          "loss": 14.0,
+          "coverage": [
+            3,
+            12
+          ],
+          "optimistic_excess": 65.78720653682748,
+          "refused": 21
+        },
+        "r_gaussian": {
+          "mean_total_increment": 12.6,
+          "seed_increments": {
+            "88001": -4.0,
+            "88002": 38.0,
+            "88003": 2.0,
+            "88004": 13.0,
+            "88005": 14.0
+          },
+          "admissions": 13,
+          "beneficial": 7,
+          "harmful": 3,
+          "zero": 3,
+          "loss": 9.0,
+          "coverage": [
+            5,
+            13
+          ],
+          "optimistic_excess": 38.85756661892493,
+          "refused": 5
+        },
+        "r_sandwich": {
+          "mean_total_increment": 12.6,
+          "seed_increments": {
+            "88001": -4.0,
+            "88002": 38.0,
+            "88003": 2.0,
+            "88004": 13.0,
+            "88005": 14.0
+          },
+          "admissions": 13,
+          "beneficial": 7,
+          "harmful": 3,
+          "zero": 3,
+          "loss": 9.0,
+          "coverage": [
+            5,
+            13
+          ],
+          "optimistic_excess": 37.58211470212361,
+          "refused": 5
+        },
+        "r_joint_diagP": {
+          "mean_total_increment": 2.0,
+          "seed_increments": {
+            "88001": -4.0,
+            "88002": -4.0,
+            "88003": 2.0,
+            "88004": 13.0,
+            "88005": 3.0
+          },
+          "admissions": 10,
+          "beneficial": 4,
+          "harmful": 4,
+          "zero": 2,
+          "loss": 14.0,
+          "coverage": [
+            3,
+            10
+          ],
+          "optimistic_excess": 36.05311993867895,
+          "refused": 10
+        },
+        "r_copula": {
+          "mean_total_increment": 8.2,
+          "seed_increments": {
+            "88001": 15.0,
+            "88002": 15.0,
+            "88003": 6.0,
+            "88004": 0.0,
+            "88005": 5.0
+          },
+          "admissions": 9,
+          "beneficial": 6,
+          "harmful": 1,
+          "zero": 2,
+          "loss": 1.0,
+          "coverage": [
+            4,
+            9
+          ],
+          "optimistic_excess": 60.68192309225784,
+          "refused": 0
+        },
+        "legacy_factorized": {
+          "mean_total_increment": 44.8,
+          "seed_increments": {
+            "88001": 31.0,
+            "88002": 76.0,
+            "88003": 47.0,
+            "88004": 41.0,
+            "88005": 29.0
+          },
+          "admissions": 14,
+          "beneficial": 13,
+          "harmful": 0,
+          "zero": 1,
+          "loss": 0.0,
+          "coverage": [
+            8,
+            14
+          ],
+          "optimistic_excess": 9.79219077114221,
+          "refused": 0
+        },
+        "legacy_sandwich": {
+          "mean_total_increment": 44.4,
+          "seed_increments": {
+            "88001": 37.0,
+            "88002": 76.0,
+            "88003": 59.0,
+            "88004": 41.0,
+            "88005": 9.0
+          },
+          "admissions": 18,
+          "beneficial": 15,
+          "harmful": 1,
+          "zero": 2,
+          "loss": 1.0,
+          "coverage": [
+            9,
+            18
+          ],
+          "optimistic_excess": 47.937026899991665,
+          "refused": 1
+        }
+      },
+      "comparisons": {
+        "conditional_joint": {
+          "kept_gain": 11.0,
+          "missed_gain": 166.0,
+          "incurred_loss": 14.0,
+          "avoided_loss": 1.0,
+          "changed": 20,
+          "increment_difference": -168.0,
+          "mean_chain_difference": -33.6
+        },
+        "legacy_factorized": {
+          "kept_gain": 11.0,
+          "missed_gain": 211.0,
+          "incurred_loss": 14.0,
+          "avoided_loss": 0.0,
+          "changed": 20,
+          "increment_difference": -214.0,
+          "mean_chain_difference": -42.8
+        },
+        "legacy_sandwich": {
+          "kept_gain": 5.0,
+          "missed_gain": 204.0,
+          "incurred_loss": 14.0,
+          "avoided_loss": 1.0,
+          "changed": 20,
+          "increment_difference": -212.0,
+          "mean_chain_difference": -42.4
+        },
+        "r_product": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_gaussian": {
+          "kept_gain": 0.0,
+          "missed_gain": 48.0,
+          "incurred_loss": 6.0,
+          "avoided_loss": 1.0,
+          "changed": 7,
+          "increment_difference": -53.0,
+          "mean_chain_difference": -10.6
+        },
+        "r_copula": {
+          "kept_gain": 13.0,
+          "missed_gain": 31.0,
+          "incurred_loss": 14.0,
+          "avoided_loss": 1.0,
+          "changed": 13,
+          "increment_difference": -31.0,
+          "mean_chain_difference": -6.2
+        }
+      },
+      "reliability": {
+        "ready_states": 85,
+        "raw_mass_min": 0.0015162522021828092,
+        "raw_mass_max": 0.9931598959143438,
+        "effective_mass_max": 14.070056670726311,
+        "multiplier_max": 2202.266328350431,
+        "tiny_overlap_states": 9
+      },
+      "fixed_state": {
+        "r_product": {
+          "changed": 1,
+          "joint_only": 0,
+          "utility_difference": -19.0
+        },
+        "r_factorized": {
+          "changed": 14,
+          "joint_only": 0,
+          "utility_difference": -164.0
+        },
+        "r_gaussian": {
+          "changed": 4,
+          "joint_only": 4,
+          "utility_difference": -14.0
+        },
+        "r_sandwich": {
+          "changed": 4,
+          "joint_only": 4,
+          "utility_difference": -14.0
+        },
+        "r_joint_diagP": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_copula": {
+          "changed": 7,
+          "joint_only": 0,
+          "utility_difference": -57.0
+        }
+      },
+      "max_service_error": 0.0,
+      "development_only": true
+    },
+    "arem366": {
+      "arms": {
+        "conditional_joint": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 178.345102784609,
+          "refused": 0
+        },
+        "r_joint": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 201.55914573278582,
+          "refused": 0
+        },
+        "r_product": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 220.70897848727907,
+          "refused": 0
+        },
+        "r_factorized": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 230.10100137095114,
+          "refused": 0
+        },
+        "r_gaussian": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 197.3106698821209,
+          "refused": 0
+        },
+        "r_sandwich": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 200.82769566983876,
+          "refused": 0
+        },
+        "r_joint_diagP": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 203.44846101251483,
+          "refused": 0
+        },
+        "r_copula": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 202.8576529820935,
+          "refused": 0
+        },
+        "legacy_factorized": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 196.71994125421222,
+          "refused": 0
+        },
+        "legacy_sandwich": {
+          "mean_total_increment": -30.0,
+          "seed_increments": {
+            "92001": -30.0,
+            "92002": -30.0,
+            "92003": -30.0,
+            "92004": -31.0,
+            "92005": -29.0
+          },
+          "admissions": 5,
+          "beneficial": 0,
+          "harmful": 5,
+          "zero": 0,
+          "loss": 150.0,
+          "coverage": [
+            0,
+            5
+          ],
+          "optimistic_excess": 208.7134478110747,
+          "refused": 0
+        }
+      },
+      "comparisons": {
+        "conditional_joint": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "legacy_factorized": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "legacy_sandwich": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_product": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_gaussian": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_copula": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        }
+      },
+      "reliability": {
+        "ready_states": 46,
+        "raw_mass_min": 0.06266997119554382,
+        "raw_mass_max": 1.7619862908716684,
+        "effective_mass_max": 10.457913425070371,
+        "multiplier_max": 146.71755223607443,
+        "tiny_overlap_states": 0
+      },
+      "fixed_state": {
+        "r_product": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_factorized": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_gaussian": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_sandwich": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_joint_diagP": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_copula": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        }
+      },
+      "max_service_error": 0.0,
+      "development_only": true
+    },
+    "gashome362": {
+      "arms": {
+        "conditional_joint": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        },
+        "r_joint": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            4,
+            5
+          ],
+          "optimistic_excess": 0.6397101471616877,
+          "refused": 0
+        },
+        "r_product": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        },
+        "r_factorized": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        },
+        "r_gaussian": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        },
+        "r_sandwich": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        },
+        "r_joint_diagP": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        },
+        "r_copula": {
+          "mean_total_increment": 32.4,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": -13.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 4,
+          "harmful": 1,
+          "zero": 0,
+          "loss": 13.0,
+          "coverage": [
+            4,
+            5
+          ],
+          "optimistic_excess": 25.822855638341714,
+          "refused": 1
+        },
+        "legacy_factorized": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        },
+        "legacy_sandwich": {
+          "mean_total_increment": 45.2,
+          "seed_increments": {
+            "92001": 45.0,
+            "92002": 51.0,
+            "92003": 37.0,
+            "92004": 41.0,
+            "92005": 52.0
+          },
+          "admissions": 5,
+          "beneficial": 5,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0.0,
+          "coverage": [
+            5,
+            5
+          ],
+          "optimistic_excess": 0.0,
+          "refused": 0
+        }
+      },
+      "comparisons": {
+        "conditional_joint": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "legacy_factorized": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "legacy_sandwich": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_product": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_gaussian": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_copula": {
+          "kept_gain": 51.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 13.0,
+          "changed": 2,
+          "increment_difference": 64.0,
+          "mean_chain_difference": 12.8
+        }
+      },
+      "reliability": {
+        "ready_states": 139,
+        "raw_mass_min": 0.0016059047645450768,
+        "raw_mass_max": 0.7030759425679822,
+        "effective_mass_max": 12.893283717140577,
+        "multiplier_max": 2119.57598352862,
+        "tiny_overlap_states": 28
+      },
+      "fixed_state": {
+        "r_product": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_factorized": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_gaussian": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_sandwich": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_joint_diagP": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_copula": {
+          "changed": 1,
+          "joint_only": 0,
+          "utility_difference": 13.0
+        }
+      },
+      "max_service_error": 0.0,
+      "development_only": true
+    },
+    "localization196": {
+      "arms": {
+        "conditional_joint": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "r_joint": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "r_product": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "r_factorized": {
+          "mean_total_increment": -2.6,
+          "seed_increments": {
+            "113001": -13.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 1,
+          "beneficial": 0,
+          "harmful": 1,
+          "zero": 0,
+          "loss": 13.0,
+          "coverage": [
+            0,
+            1
+          ],
+          "optimistic_excess": 15.449373581221305,
+          "refused": 0
+        },
+        "r_gaussian": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "r_sandwich": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "r_joint_diagP": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "r_copula": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "legacy_factorized": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        },
+        "legacy_sandwich": {
+          "mean_total_increment": 0.0,
+          "seed_increments": {
+            "113001": 0.0,
+            "113002": 0.0,
+            "113003": 0.0,
+            "113004": 0.0,
+            "113005": 0.0
+          },
+          "admissions": 0,
+          "beneficial": 0,
+          "harmful": 0,
+          "zero": 0,
+          "loss": 0,
+          "coverage": [
+            0,
+            0
+          ],
+          "optimistic_excess": 0,
+          "refused": 0
+        }
+      },
+      "comparisons": {
+        "conditional_joint": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "legacy_factorized": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "legacy_sandwich": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_product": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_gaussian": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        },
+        "r_copula": {
+          "kept_gain": 0.0,
+          "missed_gain": 0.0,
+          "incurred_loss": 0.0,
+          "avoided_loss": 0.0,
+          "changed": 0,
+          "increment_difference": 0.0,
+          "mean_chain_difference": 0.0
+        }
+      },
+      "reliability": {
+        "ready_states": 70,
+        "raw_mass_min": 0.0211575975632629,
+        "raw_mass_max": 0.4997262069376195,
+        "effective_mass_max": 5.36878038516971,
+        "multiplier_max": 93.24564032577813,
+        "tiny_overlap_states": 0
+      },
+      "fixed_state": {
+        "r_product": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_factorized": {
+          "changed": 1,
+          "joint_only": 0,
+          "utility_difference": 13.0
+        },
+        "r_gaussian": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_sandwich": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_joint_diagP": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        },
+        "r_copula": {
+          "changed": 0,
+          "joint_only": 0,
+          "utility_difference": 0
+        }
+      },
+      "max_service_error": 0.0,
+      "development_only": true
+    }
+  },
+  "harmful_CJR_admissions": [
+    {
+      "task": "rss348",
+      "chain": "rss348",
+      "seed": 88001,
+      "k": 28,
+      "D": -4.0,
+      "score": 2.401154430164544,
+      "q": 0.1661220135102672,
+      "covered": false,
+      "old_CJ_action": false,
+      "old_CJ_score": -0.4000495647220772,
+      "raw_mass": 0.17264794913563902,
+      "effective_mass": 1.3155862199773938,
+      "multiplier": 7.6200512462723635,
+      "blocks": 3
+    },
+    {
+      "task": "rss348",
+      "chain": "rss348",
+      "seed": 88002,
+      "k": 28,
+      "D": -4.0,
+      "score": 2.2954061110829125,
+      "q": 0.1661220135102672,
+      "covered": false,
+      "old_CJ_action": false,
+      "old_CJ_score": -0.3286662701144536,
+      "raw_mass": 0.17545735179833805,
+      "effective_mass": 1.259979019696643,
+      "multiplier": 7.181112713617154,
+      "blocks": 3
+    },
+    {
+      "task": "rss348",
+      "chain": "rss348",
+      "seed": 88003,
+      "k": 28,
+      "D": -4.0,
+      "score": 1.9592264981153082,
+      "q": 0.1661220135102672,
+      "covered": false,
+      "old_CJ_action": false,
+      "old_CJ_score": -0.8287241746836598,
+      "raw_mass": 0.14814176965278705,
+      "effective_mass": 1.2557058521384075,
+      "multiplier": 8.476379451126554,
+      "blocks": 3
+    },
+    {
+      "task": "rss348",
+      "chain": "rss348",
+      "seed": 88005,
+      "k": 28,
+      "D": -2.0,
+      "score": 1.5640790455905407,
+      "q": 0.1661220135102672,
+      "covered": false,
+      "old_CJ_action": false,
+      "old_CJ_score": -0.6320325988928852,
+      "raw_mass": 0.20296238961682586,
+      "effective_mass": 1.353562810796199,
+      "multiplier": 6.669032688034467,
+      "blocks": 4
+    },
+    {
+      "task": "arem366",
+      "chain": "arem366",
+      "seed": 92001,
+      "k": 12,
+      "D": -30.0,
+      "score": 10.718083452092955,
+      "q": 1.2815515655446004,
+      "covered": false,
+      "old_CJ_action": true,
+      "old_CJ_score": 4.817585568780647,
+      "raw_mass": 0.12574466362235387,
+      "effective_mass": 1.7657740916153324,
+      "multiplier": 14.042537001160083,
+      "blocks": 2
+    },
+    {
+      "task": "arem366",
+      "chain": "arem366",
+      "seed": 92002,
+      "k": 12,
+      "D": -30.0,
+      "score": 10.81894489445202,
+      "q": 1.2815515655446004,
+      "covered": false,
+      "old_CJ_action": true,
+      "old_CJ_score": 4.761974042841505,
+      "raw_mass": 0.10931276453172589,
+      "effective_mass": 1.755593237733375,
+      "multiplier": 16.060276631498496,
+      "blocks": 2
+    },
+    {
+      "task": "arem366",
+      "chain": "arem366",
+      "seed": 92003,
+      "k": 12,
+      "D": -30.0,
+      "score": 5.70057918570641,
+      "q": 1.2815515655446004,
+      "covered": false,
+      "old_CJ_action": true,
+      "old_CJ_score": 1.0132598568854334,
+      "raw_mass": 0.1307555045076417,
+      "effective_mass": 1.6306565862625482,
+      "multiplier": 12.47103586501208,
+      "blocks": 2
+    },
+    {
+      "task": "arem366",
+      "chain": "arem366",
+      "seed": 92004,
+      "k": 12,
+      "D": -31.0,
+      "score": 9.008645491994379,
+      "q": 1.2815515655446004,
+      "covered": false,
+      "old_CJ_action": true,
+      "old_CJ_score": 4.1707917147591616,
+      "raw_mass": 0.10896292042303475,
+      "effective_mass": 1.6306565862625484,
+      "multiplier": 14.965243038014496,
+      "blocks": 2
+    },
+    {
+      "task": "arem366",
+      "chain": "arem366",
+      "seed": 92005,
+      "k": 12,
+      "D": -29.0,
+      "score": 5.312892708540062,
+      "q": 1.2815515655446004,
+      "covered": false,
+      "old_CJ_action": true,
+      "old_CJ_score": 3.581491601342268,
+      "raw_mass": 0.14969282404091358,
+      "effective_mass": 1.594783810663479,
+      "multiplier": 10.653709159950097,
+      "blocks": 2
+    }
+  ],
+  "source_outputs": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design/rss348_development_results.json.gz": "b4391abf2a41e5215b0dff6a3ee43f3f59322408d7e6afc6b7fcedb89121cb86",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design/arem366_development_results.json.gz": "3d80c6fed7979d00c0acfea091e317c01b8874409293d5b96ca68cc035aef6bb",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design/gashome362_development_results.json.gz": "6fce8f15a649bf23128f1280c3b3a5faf4c703787f53fc7b6118ea4e87b6b2db",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design/localization196_development_results.json.gz": "b77385bb458d982bd89b09779eff6f4ffbf6f20ed7539bfb0eecb4ffecc054eb"
+  },
+  "conclusion": "CJ-R is mathematically coherent but is not a demonstrated improvement; RSS primary falls from35.6 to2.0 and prior UCI196 coldstart remains inactive",
+  "invariants": "original CJ and legacy RSS guarded seed outputs reproduce the unchanged archives exactly"
+}
