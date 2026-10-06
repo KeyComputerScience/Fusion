@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-05T13:51:29.298080+00:00",
+  "status": "Metadata/adapter only; root review required before successful local acquisition",
+  "dataset": "mobile755",
+  "raw_url": "https://archive.ics.uci.edu/static/public/755/accelerometer%2Bgyro%2Bmobile%2Bphone%2Bdataset.zip",
+  "raw_path": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/raw/mobile755.zip",
+  "dataset_source": "https://archive.ics.uci.edu/dataset/755/accelerometer+gyro+mobile+",
+  "failed_endpoint_resolution": {
+    "tool": "web.run.click",
+    "purpose": "Resolve canonical UCI Download endpoint from metadata page",
+    "result": "HTTP400 Unicode decoding error; archive endpoint identified",
+    "sensor_rows_or_classes_returned": false,
+    "local_raw_payload": false,
+    "scope": "Attempted archive request before source freeze; no assertion that no request touched archive endpoint"
+  },
+  "native_sensor_groups": {
+    "accelerometer": [
+      "accX",
+      "accY",
+      "accZ"
+    ],
+    "gyroscope": [
+      "gyroX",
+      "gyroY",
+      "gyroZ"
+    ]
+  },
+  "native_rows": "All original CSV rows; no filtering, relabeling, resampling or sorting",
+  "splits": {
+    "fit": [
+      0,
+      0.3
+    ],
+    "state_fit": [
+      0.3,
+      0.4
+    ],
+    "score_cal": [
+      0.4,
+      0.5
+    ],
+    "selection": [
+      0.5,
+      0.6
+    ],
+    "test": [
+      0.6,
+      1
+    ]
+  },
+  "rounding": "floor(n*f) boundaries; final boundary n, allrows retained",
+  "label_schema": "Exactly2 native integer codes, sorted semantic encoding; no class removal or metadata unsupported numeric interpretation",
+  "clock": "Categorical original timestamp stored only as provenance; ordinal rowclock for replay,partition-only lag reset; no physicalseconds or participant/site independence",
+  "same_frozen_scientific_method": true,
+  "all_nine_pipelines": true,
+  "calibration_configurations_per_arm": 9,
+  "canonical_prior_once": true,
+  "no_outcome_chosen_replacement": true,
+  "all_ties_losses_and_calibration_failures_retained": true,
+  "local_raw_exists": false,
+  "local_cache_exists": false,
+  "sensor_or_class_observed": false
+}

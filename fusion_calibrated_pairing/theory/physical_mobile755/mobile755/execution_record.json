@@ -1,0 +1,1128 @@
+{
+  "utc": "2026-10-05T14:16:17.002156+00:00",
+  "scope": "Frozen mobile755 outcome-complete report; no method revision or test reselection",
+  "freeze_sha256": "3e4a2b8d2605cff65272036bf4277072de51f59ae7fe28fcf1b31455bdbc6f74",
+  "source_count": 58,
+  "source_closure_verified": true,
+  "declaration_closure_verified": true,
+  "selection_sha256": "123e59217bcb0521172d671c4a87a631e074ae990359300ba0474498ddee35a3",
+  "selection_lock": {
+    "utc": "2026-10-05T14:07:00.726395+00:00",
+    "selection_sha256": "123e59217bcb0521172d671c4a87a631e074ae990359300ba0474498ddee35a3",
+    "freeze_sha256": "3e4a2b8d2605cff65272036bf4277072de51f59ae7fe28fcf1b31455bdbc6f74",
+    "test_exists": false,
+    "cache": {
+      "hits": 12,
+      "misses": 3,
+      "bypasses": 363,
+      "retained": 3,
+      "train_seconds": 0.011918832999072038,
+      "hash_seconds": 0.012901253052405082,
+      "first_hit_bitwise_recomputed": true,
+      "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+    }
+  },
+  "policy_trajectories": 45,
+  "budget_paths": 180,
+  "method_specific_forks": 4500,
+  "maximum_fork_error": 8.881784197001252e-16,
+  "conservative_reported_fork_error_bound": 8.89e-16,
+  "maximum_service_error": 0.0,
+  "maximum_action_decomposition_error": 0.0,
+  "callback_poison_trajectories": 135,
+  "callback_poison_unchanged_issues": 5445,
+  "callback_poison_checks": [
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 0,
+      "unchanged_issues": 1
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 76,
+      "unchanged_issues": 20
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "poison_after": 396,
+      "unchanged_issues": 100
+    }
+  ],
+  "actual_service_net_by_seed": {
+    "paired": [
+      11824.0,
+      11826.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "pair_factorized": [
+      11824.0,
+      11826.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "full_gaussian": [
+      11824.0,
+      11826.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "joint_diagonal_kernel": [
+      11824.0,
+      11826.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "unconditional": [
+      11824.0,
+      11826.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "conditional_moment": [
+      11824.0,
+      11826.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "pdf": [
+      11815.0,
+      11820.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "qmf": [
+      11815.0,
+      11820.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ],
+    "dbf": [
+      11815.0,
+      11820.0,
+      11824.0,
+      11825.0,
+      11825.0
+    ]
+  },
+  "state_fit_library_count": 0,
+  "score_prior_count": {
+    "paired": 0,
+    "pair_factorized": 0,
+    "full_gaussian": 0,
+    "joint_diagonal_kernel": 0,
+    "unconditional": 0,
+    "conditional_moment": 0,
+    "pdf": 24,
+    "qmf": 24,
+    "dbf": 24
+  },
+  "primary_seed_count": 5,
+  "primary_eligible_origins_per_seed": 100,
+  "complete_issued_score_origins_per_arm": 500,
+  "common_potential_opportunities": {
+    "total": 500,
+    "beneficial": 6,
+    "harmful": 493,
+    "zero": 1,
+    "potential_beneficial_gain": 77.0,
+    "potential_negative_loss": 2488.0,
+    "minimum": -15.0,
+    "maximum": 16.0,
+    "beneficial_origins": [
+      {
+        "seed": 172001,
+        "origin": 108,
+        "D": 16.0,
+        "current_disagreement": 0.0,
+        "information_ready": true,
+        "calibrated_score": -5.7252817790208645,
+        "empty_stratum": false
+      },
+      {
+        "seed": 172002,
+        "origin": 68,
+        "D": 1.0,
+        "current_disagreement": 0.15625,
+        "information_ready": false,
+        "calibrated_score": -133.0,
+        "empty_stratum": true
+      },
+      {
+        "seed": 172002,
+        "origin": 108,
+        "D": 14.0,
+        "current_disagreement": 0.0,
+        "information_ready": true,
+        "calibrated_score": -5.647668821120192,
+        "empty_stratum": false
+      },
+      {
+        "seed": 172003,
+        "origin": 108,
+        "D": 16.0,
+        "current_disagreement": 0.0,
+        "information_ready": true,
+        "calibrated_score": -5.393955313646764,
+        "empty_stratum": false
+      },
+      {
+        "seed": 172004,
+        "origin": 108,
+        "D": 15.0,
+        "current_disagreement": 0.0,
+        "information_ready": true,
+        "calibrated_score": -5.300238985698652,
+        "empty_stratum": false
+      },
+      {
+        "seed": 172005,
+        "origin": 108,
+        "D": 15.0,
+        "current_disagreement": 0.0,
+        "information_ready": true,
+        "calibrated_score": -5.483756062409324,
+        "empty_stratum": false
+      }
+    ]
+  },
+  "all_outcomes_retained": true
+}

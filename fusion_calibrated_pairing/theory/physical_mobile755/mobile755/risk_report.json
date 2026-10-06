@@ -1,0 +1,4284 @@
+{
+  "complete_nine_pipelines": true,
+  "pipeline_count": 9,
+  "reported_replay_chains": 5,
+  "physical_recordings": 1,
+  "physical_environment_scope": "Recorded sessions and repeated delays are reported separately; session/participant dependence is retained. No independent-site count inferred.",
+  "aggregate": {
+    "conditional_moment": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "dbf": {
+      "mean_increment": -3.0,
+      "seed_increments": {
+        "172001": -9.0,
+        "172002": -6.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "informative": {
+          "covered": 10,
+          "total": 19,
+          "rate": 0.5263157894736842
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "rate": 0.0
+        }
+      },
+      "admissions": 2,
+      "beneficial": 0,
+      "harmful": 2,
+      "zero": 0,
+      "negative_loss": 15.0,
+      "max_chain_negative_loss": 9.0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "excess_max": 11.60321430920402,
+      "excess_sum": 19.95937961964396,
+      "excess_mean": 9.97968980982198,
+      "empty_stratum_issued": 5,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "full_gaussian": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 488,
+          "total": 500,
+          "rate": 0.976
+        },
+        "ready": {
+          "covered": 268,
+          "total": 280,
+          "rate": 0.9571428571428572
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "joint_diagonal_kernel": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "pair_factorized": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "paired": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "pdf": {
+      "mean_increment": -3.0,
+      "seed_increments": {
+        "172001": -9.0,
+        "172002": -6.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "informative": {
+          "covered": 10,
+          "total": 19,
+          "rate": 0.5263157894736842
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "rate": 0.0
+        }
+      },
+      "admissions": 2,
+      "beneficial": 0,
+      "harmful": 2,
+      "zero": 0,
+      "negative_loss": 15.0,
+      "max_chain_negative_loss": 9.0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "excess_max": 14.527165698287627,
+      "excess_sum": 24.780590848228883,
+      "excess_mean": 12.390295424114441,
+      "empty_stratum_issued": 5,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "qmf": {
+      "mean_increment": -3.0,
+      "seed_increments": {
+        "172001": -9.0,
+        "172002": -6.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "informative": {
+          "covered": 10,
+          "total": 19,
+          "rate": 0.5263157894736842
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "rate": 0.0
+        }
+      },
+      "admissions": 2,
+      "beneficial": 0,
+      "harmful": 2,
+      "zero": 0,
+      "negative_loss": 15.0,
+      "max_chain_negative_loss": 9.0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "excess_max": 13.033590725433237,
+      "excess_sum": 22.843976271542353,
+      "excess_mean": 11.421988135771176,
+      "empty_stratum_issued": 5,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "unconditional": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 488,
+          "total": 500,
+          "rate": 0.976
+        },
+        "ready": {
+          "covered": 268,
+          "total": 280,
+          "rate": 0.9571428571428572
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    }
+  },
+  "chain_reports": [
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 54,
+            "total": 56,
+            "rate": 0.9642857142857143
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 54,
+            "total": 56,
+            "rate": 0.9642857142857143
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 1,
+            "rate": 0.0
+          }
+        },
+        "admissions": 1,
+        "beneficial": 0,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 9.0,
+        "net_increment": -9.0,
+        "excess_max": 14.527165698287627,
+        "excess_sum": 14.527165698287627,
+        "excess_mean": 14.527165698287627,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 130.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": 1.0,
+        "calibration_effective_count_max": 1.0,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 1,
+        "complete_origin_prefix": 1,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 0.05674674100893604,
+          "normalized_negative_loss": 0.06923076923076923
+        },
+        "average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 1,
+            "rate": 0.0
+          }
+        },
+        "admissions": 1,
+        "beneficial": 0,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 9.0,
+        "net_increment": -9.0,
+        "excess_max": 13.033590725433237,
+        "excess_sum": 13.033590725433237,
+        "excess_mean": 13.033590725433237,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 130.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": 1.0,
+        "calibration_effective_count_max": 1.0,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 1,
+        "complete_origin_prefix": 1,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 0.05091246377122358,
+          "normalized_negative_loss": 0.06923076923076923
+        },
+        "average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172001,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 1,
+            "rate": 0.0
+          }
+        },
+        "admissions": 1,
+        "beneficial": 0,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 9.0,
+        "net_increment": -9.0,
+        "excess_max": 11.60321430920402,
+        "excess_sum": 11.60321430920402,
+        "excess_mean": 11.60321430920402,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 130.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": 1.0,
+        "calibration_effective_count_max": 1.0,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 1,
+        "complete_origin_prefix": 1,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 0.0453250558953282,
+          "normalized_negative_loss": 0.06923076923076923
+        },
+        "average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 55,
+            "total": 56,
+            "rate": 0.9821428571428571
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 1,
+            "rate": 0.0
+          }
+        },
+        "admissions": 1,
+        "beneficial": 0,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 6.0,
+        "net_increment": -6.0,
+        "excess_max": 10.253425149941258,
+        "excess_sum": 10.253425149941258,
+        "excess_mean": 10.253425149941258,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 130.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": 1.0,
+        "calibration_effective_count_max": 1.0,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 1,
+        "complete_origin_prefix": 1,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 0.04005244199195804,
+          "normalized_negative_loss": 0.046153846153846156
+        },
+        "average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 1,
+            "rate": 0.0
+          }
+        },
+        "admissions": 1,
+        "beneficial": 0,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 6.0,
+        "net_increment": -6.0,
+        "excess_max": 9.810385546109114,
+        "excess_sum": 9.810385546109114,
+        "excess_mean": 9.810385546109114,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 130.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": 1.0,
+        "calibration_effective_count_max": 1.0,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 1,
+        "complete_origin_prefix": 1,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 0.038321818539488725,
+          "normalized_negative_loss": 0.046153846153846156
+        },
+        "average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172002,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 1,
+            "rate": 0.0
+          }
+        },
+        "admissions": 1,
+        "beneficial": 0,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 6.0,
+        "net_increment": -6.0,
+        "excess_max": 8.356165310439941,
+        "excess_sum": 8.356165310439941,
+        "excess_mean": 8.356165310439941,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 130.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": 1.0,
+        "calibration_effective_count_max": 1.0,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 1,
+        "complete_origin_prefix": 1,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 0.03264127074390602,
+          "normalized_negative_loss": 0.046153846153846156
+        },
+        "average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": 1.0,
+          "harmful": 1.0,
+          "normalized_excess": 1.0,
+          "normalized_negative_loss": 1.0
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 22,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 22,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 22,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 22,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 22,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 22,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172003,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "ready": {
+            "covered": 99,
+            "total": 100,
+            "rate": 0.99
+          },
+          "informative": {
+            "covered": 2,
+            "total": 3,
+            "rate": 0.6666666666666666
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172004,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "paired",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "unconditional",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 97,
+            "total": 100,
+            "rate": 0.97
+          },
+          "ready": {
+            "covered": 53,
+            "total": 56,
+            "rate": 0.9464285714285714
+          },
+          "informative": {
+            "covered": 3,
+            "total": 4,
+            "rate": 0.75
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 21,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "pdf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "qmf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    },
+    {
+      "arm": "dbf",
+      "recording": "mobile755-test",
+      "seed": 172005,
+      "empirical": {
+        "coverage": {
+          "issued": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "ready": {
+            "covered": 98,
+            "total": 100,
+            "rate": 0.98
+          },
+          "informative": {
+            "covered": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "admitted": {
+            "covered": 0,
+            "total": 0,
+            "rate": null
+          }
+        },
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "net_increment": 0,
+        "excess_max": 0.0,
+        "excess_sum": 0,
+        "excess_mean": null,
+        "guard_refusals": 0,
+        "max_spent_plus_pending": 0.0,
+        "ledger_supplied": true,
+        "calibration_effective_count_min": null,
+        "calibration_effective_count_max": null,
+        "empty_stratum_issued": 1,
+        "empty_stratum_positive_raw_refusals": 0,
+        "empty_stratum_beneficial_opportunities": 0,
+        "empty_stratum_harmful_opportunities": 0,
+        "empty_stratum_missed_potential_gain": 0
+      },
+      "risk_envelope": {
+        "admitted_origins": 0,
+        "complete_origin_prefix": 0,
+        "pending_after_prefix": 0,
+        "totals": {
+          "violation": 0.0,
+          "harmful": 0.0,
+          "normalized_excess": 0.0,
+          "normalized_negative_loss": 0.0
+        },
+        "average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "issued_prefix_average_conditional_risk_upper": {
+          "violation": null,
+          "harmful": null,
+          "normalized_excess": null,
+          "normalized_negative_loss": null
+        },
+        "global_error": 0.05,
+        "policies": 9,
+        "reported_replay_chains": 5,
+        "error_per_endpoint": 0.0002777777777777778,
+        "lambda_grid": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "nominal10percent_supported": false,
+        "scope": "Average conditional endpoint risk of observed predictable admission prefixes. No next-environment or individual conditional-coverage claim. Delay repeats do not add independent physical sites."
+      }
+    }
+  ],
+  "scope": "Actual empirical admission calibration and audited chain budgets. Time-uniform bounds concern mean conditional risk of complete observed prefixes only, not an arbitrary next environment.",
+  "input_sha256": "f3121e01f770a8136d1da4168ced1811ae31d28ac1ce46b446dd60c42840e24d",
+  "analysis_source_sha256": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/risk/final_risk_report.py": "476824cb0acd767598c3188f2294af6541482570751df7fda947ad9cc56a15e3",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/risk/admission_risk_report.py": "820a5451cb1aa29b2975b6e1862a5e30e5c06feee6b78b0e1d19e619c02cc86c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/risk/immutable_conditional_calibration_v2.py": "74f0dc248453be53aaf740dbf8d2e9d4883c3a37a09acb30532cb614df896161"
+  }
+}

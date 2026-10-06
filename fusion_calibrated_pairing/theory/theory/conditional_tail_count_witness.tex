@@ -1,0 +1,75 @@
+\subsection{Tail-feasible action information beyond conditional moments}
+\label{app:conditional-count-tail-information}
+The next exact witness concerns complete integer request contrasts at one
+fixed current source configuration. It isolates conditional-tail information
+lost even after conditional mean and variance have been obtained.
+
+\begin{proposition}[Equal conditional moments, different feasible paid tails]
+\label{prop:conditional-count-tail-information}
+For $N=128$, consider two complete gross-return laws
+\begin{equation}
+ \begin{aligned}
+ P(G=0)&=P(G=16)=1/2,\\
+ Q(G=-24)&=1/17,\qquad Q(G=10)=16/17.
+ \end{aligned}
+ \label{eq:conditional-count-tail-laws}
+\end{equation}
+Both have $\mathbb E[G]=8$ and $\operatorname{Var}(G)=64$;
+equivalently $U=G/128$ has mean $1/16$ and variance $1/256$.
+For common conservative cost five, zero score correction and a common
+feasible ledger, the prescribed lower-half paid scores differ:
+\begin{equation}
+ \begin{aligned}
+ \operatorname{LT}_{1/2}(P_G)&=0,&
+ \operatorname{LT}_{1/2}(Q_G)&=6,\\
+ 128\operatorname{LT}_{1/2}(P_U)-5&=-5,&
+ 128\operatorname{LT}_{1/2}(Q_U)-5&=1.
+ \end{aligned}
+ \label{eq:conditional-count-tail-actions}
+\end{equation}
+No policy given only the identical context and conditional moments can
+implement both prescribed positive-tail actions. If such a policy must
+satisfy nonnegative true paid lower tail for \emph{every} compatible law,
+it must reject under both laws. The full-law criterion admits under $Q$,
+retaining conditional expected paid return three. This advantage is
+relative to the stated robust tail-feasibility constraint: an unconstrained
+policy admitting under both laws also has mean paid return three and is
+not excluded by expected-return maximization alone.
+\end{proposition}
+\begin{proof}
+For $P$, the gross mean is $16/2=8$ and the second moment is
+$16^2/2=128$. For $Q$, they are respectively
+$(-24+16\cdot10)/17=8$ and
+$(24^2+16\cdot10^2)/17=128$. Subtracting $8^2$ gives variance64.
+The lowest half of $P$ is at zero. The lowest half of $Q$ contains all
+mass $1/17$ at $-24$ and mass $1/2-1/17$ at ten, so
+\begin{equation}
+ \operatorname{LT}_{1/2}(Q_G)
+ =2\left\{-\frac{24}{17}+10\left(\frac12-\frac1{17}\right)\right\}
+ =6.
+\end{equation}
+Translation gives the paid scores $-5$ and $1$, while the mean paid
+return in either law is $8-5=3$. Identical moment inputs force a
+moment-only policy to use the same action or admission probability.
+Since $P$ is compatible and its true paid lower tail is negative, a
+positive admission probability violates the law-by-law feasibility
+requirement. The robust summary policy must therefore reject the
+tail-feasible action under $Q$ as well.
+
+The gross atoms are realizable as unit correctness contrasts. Reserve
+two shared-reference-served positions at which the candidate is correct
+and the reference is incorrect; make these the two additionally dropped
+candidate requests. For $G=0$, use two candidate-incorrect/reference-correct
+positions; for $G=-24$, use 26 such positions. For $G=10$ and $16$,
+use respectively eight and fourteen further
+candidate-correct/reference-incorrect positions. All remaining positions
+have zero contrast. These constructions use at most 28 of the at most127
+reference-served positions. The interruption loses two candidate-correct
+requests, giving $D=G-3-2=G-5=X$ and zero interruption slack.
+The common130 reservation is feasible from an empty ledger with $B\geq130$.
+\end{proof}
+This is an exact information-and-feasibility witness, not a physical
+performance measurement or a conditional calibration guarantee. It
+demonstrates the tail information a conditional-moment reduction omits;
+the independent physical tests assess the accuracy and service value of
+the fitted complete-law decisions.

@@ -1,0 +1,116 @@
+\subsection{Frozen mobile-phone collection validation}
+\label{sec:mobile755-frozen}
+UCI755 is a separately collected two-modality mobile-phone dataset with 
+three accelerometer and three gyroscope coordinates. The official archive 
+was acquired only after the numerical source closure and physical protocol 
+were reviewed and separately authorized. A previous metadata Download 
+endpoint request returned an HTTP400 decoding error and exposed no sensor 
+or class values; this failed request is retained in the provenance record. 
+The successful transfer contains 31,991 native records. Original ordinal 
+order and both native target codes are retained. The CSV has no participant, 
+site or device identifiers, and its categorical timestamp does not establish 
+a validated physical clock. The evaluation therefore concerns one new 
+collection with an ordinal holdout. The two modalities are on a phone; 
+they are not asserted to be independent physical devices.
+\begin{table}[t]\centering\small
+\caption{Frozen mobile755 contiguous partitions. Native activity codes are encoded in sorted order; no class or row is removed.}
+\label{tab:mobile755-partitions}
+\begin{tabular}{lrrr}\toprule
+Partition & Records & Native code 0 & Native code 1\\\midrule
+fit & 9,597 & 0 & 9,597 \\
+state fit & 3,199 & 0 & 3,199 \\
+score cal & 3,199 & 0 & 3,199 \\
+selection & 3,199 & 0 & 3,199 \\
+test & 12,797 & 571 & 12,226 \\
+\bottomrule\end{tabular}\end{table}
+All nine pipelines receive the same nine calibration configurations and 
+three selection-delay schedules. Every selection configuration has zero 
+paid increment, so the declared tie rule selects bandwidth 1 and residual 
+probability 0.95 for every arm. All eight control co-winners are retained; 
+the predeclared arm order names the return--source factorization as the 
+locked primary control. The early partitions contain only native code 1 
+and no candidate/reference disagreement sufficient to form a persistent 
+paired library. Its count is zero. The six information-law arms have no 
+eligible score prior, whereas each native fusion adapter has 24 completed 
+quiet prior scores. These facts are outcomes of the fixed partition rather 
+than criteria for replacing the task or changing the split.
+\begin{table}[t]\centering\small
+\caption{All nine locked mobile755 pipelines under budget 130. Returns are mean complete paid increments over five delay schedules; action and coverage counts pool those schedules descriptively. The last column is maximum optimistic excess on actual admissions.}
+\label{tab:mobile755-complete}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrrrrrr}\toprule
+Pipeline & Mean $\Delta J$ & Beneficial & Harmful & Issued coverage & Informative coverage & Admitted coverage & Max. excess\\\midrule
+Complete paired law & 0.0 & 0 & 0 & 489/500 & 14/19 & -- & 0.000 \\
+Return--source factorization & 0.0 & 0 & 0 & 489/500 & 14/19 & -- & 0.000 \\
+Full Gaussian moments & 0.0 & 0 & 0 & 488/500 & 14/19 & -- & 0.000 \\
+Joint KDE / diagonal kernel & 0.0 & 0 & 0 & 489/500 & 14/19 & -- & 0.000 \\
+Unconditional joint residual & 0.0 & 0 & 0 & 488/500 & 14/19 & -- & 0.000 \\
+Conditional mean/variance & 0.0 & 0 & 0 & 489/500 & 14/19 & -- & 0.000 \\
+Native-objective PDF adapter & -3.0 & 0 & 2 & 489/500 & 10/19 & 0/2 & 14.527 \\
+Native-objective QMF adapter & -3.0 & 0 & 2 & 489/500 & 10/19 & 0/2 & 13.034 \\
+Published DBF operator adapter & -3.0 & 0 & 2 & 489/500 & 10/19 & 0/2 & 11.603 \\
+\bottomrule\end{tabular}}\end{table}
+The paired controller makes no admission and matches every information-law 
+control. It avoids two losses made by each external adapter: $-9$ at origin 
+76 under seed 172001 and $-6$ at the same origin under seed 172002. Its 
+mean improvement over each adapter is three paid units. The paired score 
+at these origins is the physical-support fallback $-133$, while the PDF, 
+QMF and DBF scores are positive. This comparison records avoidance from 
+the complete frozen pipeline; because the factorized and moment controls 
+make the same decisions, it does not isolate an additional higher-order 
+joint-information gain. No beneficial deployment is observed in this 
+collection.
+The common complete potential outcomes contain six beneficial, 493 harmful 
+and one zero-return lease across 500 unique origin--delay pairs. Their 
+total potential positive gain is 77 units. Five positive leases occur at 
+origin 108 with gains 16, 14, 16, 15 and 15; their current-window 
+candidate/reference disagreement is zero although their full future 
+lease has positive return. The remaining positive lease is a one-unit 
+gain at origin 68 under seed 172002, before the paired information state 
+is ready. These measured opportunities are distinct from actual 
+admissions and from the restricted empty-stratum subset with a positive 
+ready raw score. That restricted subset contains zero events. No 
+information-law or external pipeline retains a positive lease here.
+\begin{table}[t]\centering\small
+\caption{Complete paired-minus-control action decomposition on mobile755. Each entry gives count/value across five delays; all eight controls are included. The mean difference divides the signed sum by five.}
+\label{tab:mobile755-actions}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrrrr}\toprule
+Control & Added gains & Avoided losses & Missed gains & Incurred losses & Mean difference\\\midrule
+Return--source factorization & 0/0 & 0/0 & 0/0 & 0/0 & 0.0 \\
+Full Gaussian moments & 0/0 & 0/0 & 0/0 & 0/0 & 0.0 \\
+Joint KDE / diagonal kernel & 0/0 & 0/0 & 0/0 & 0/0 & 0.0 \\
+Unconditional joint residual & 0/0 & 0/0 & 0/0 & 0/0 & 0.0 \\
+Conditional mean/variance & 0/0 & 0/0 & 0/0 & 0/0 & 0.0 \\
+Native-objective PDF adapter & 0/0 & 2/15 & 0/0 & 0/0 & 3.0 \\
+Native-objective QMF adapter & 0/0 & 2/15 & 0/0 & 0/0 & 3.0 \\
+Published DBF operator adapter & 0/0 & 2/15 & 0/0 & 0/0 & 3.0 \\
+\bottomrule\end{tabular}}\end{table}
+There are 500 eligible score origins per arm and 19 informative origins 
+across the five schedules. Paired issued coverage is 489/500, ready-score 
+coverage is 269/280, and informative coverage is 14/19. Actual-admission 
+coverage is undefined because there is no admission. All three external 
+adapters have 10/19 informative and 0/2 admitted coverage. The maximum 
+admitted optimistic excess is 14.527 for PDF, 13.034 for QMF and 11.603 
+for DBF. Their admitted effective calibration counts are one. These 
+denominators prevent interpreting aggregate coverage or abstention as 
+evidence of calibrated profitable admission.
+Under budget 130, every information-law arm has zero accumulated loss, 
+zero reserve and zero ledger refusal. Each external adapter incurs 15 
+loss units across the five separately budgeted chains, with maximum 
+spent-plus-pending liability 130 in a chain. At budgets zero and 110 its 
+two proposals are refused and its return and loss become zero; at budget 
+260 its original two admissions and losses remain. Thus the common 
+reservation guarantee is exercised by the external proposals, while it 
+is inactive for the paired policy.
+All 45 primary trajectories, 180 budget paths and 4,500 method-specific 
+complete-fork checks pass independent request-level reconstruction. 
+Maximum service and four-term action-identity discrepancies are zero. 
+Complete fork discrepancies are bounded by $8.89\times10^{-16}$. 
+Replaying stored immutable scores reproduces every issued score 
+and proposal exactly. In 135 future-complete-target poison replays, 
+5,445 issuance comparisons before the poisoned maturity cutoff remain 
+unchanged. This audit holds forecasts fixed: source and service models 
+may consume individually arrived labels, whereas aggregate conditional 
+state and calibration callbacks require the whole target to mature. 
+The freeze, selection lock, original archive and complete result logs 
+are retained. The observed control ties and sparse admitted evidence 
+remain part of the reported collection.

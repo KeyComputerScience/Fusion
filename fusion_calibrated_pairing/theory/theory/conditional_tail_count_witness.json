@@ -1,0 +1,74 @@
+{
+  "role": "Exact integer-count analytical conditional-return witness; no physical measurements or frozen algorithm changes",
+  "N": 128,
+  "conservative_cost": 5,
+  "alpha": "1/2",
+  "common_score_correction": "0",
+  "actual_interruption_slack": "0",
+  "common_reserve": 130,
+  "ledger_initial_loss": 0,
+  "ledger_initial_pending": 0,
+  "required_common_budget": "at least130",
+  "P": {
+    "atoms": [
+      {
+        "G": 0,
+        "U": "0",
+        "probability": "1/2",
+        "paid_return": -5
+      },
+      {
+        "G": 16,
+        "U": "1/8",
+        "probability": "1/2",
+        "paid_return": 11
+      }
+    ],
+    "gross_mean": "8",
+    "gross_second_moment": "128",
+    "gross_variance": "64",
+    "U_mean": "1/16",
+    "U_variance": "1/256",
+    "gross_lower_tail": "0",
+    "U_lower_tail": "0",
+    "paid_lower_tail_score": "-5",
+    "expected_paid_return": "3",
+    "raw_tail_feasible": false,
+    "positive_tail_admission": false
+  },
+  "Q": {
+    "atoms": [
+      {
+        "G": -24,
+        "U": "-3/16",
+        "probability": "1/17",
+        "paid_return": -29
+      },
+      {
+        "G": 10,
+        "U": "5/64",
+        "probability": "16/17",
+        "paid_return": 5
+      }
+    ],
+    "gross_mean": "8",
+    "gross_second_moment": "128",
+    "gross_variance": "64",
+    "U_mean": "1/16",
+    "U_variance": "1/256",
+    "gross_lower_tail": "6",
+    "U_lower_tail": "3/64",
+    "paid_lower_tail_score": "1",
+    "expected_paid_return": "3",
+    "raw_tail_feasible": true,
+    "positive_tail_admission": true
+  },
+  "equal_conditional_mean_variance": true,
+  "opposite_prescribed_tail_actions": true,
+  "request_contrast_realisability": "At most127 shared-reference-served positions. For every atom, reserve two candidate-correct/reference-incorrect positions for the admission interruption; use2 candidate-incorrect/reference-correct positions for G0,26 for G-24, and additional candidate-correct/reference-incorrect positions for G10 orG16. Remaining positions have zero contrast. Thus I=2 and D=G-5 exactly.",
+  "summary_feasibility_scope": "A moment-only decision receives identical current context and conditional mean/variance. Requiring nonnegative true lower-tail paid score for every compatible law excludes admission because P is compatible and its score is-5.",
+  "missed_Q_expected_return": "3",
+  "no_unconstrained_mean_return_dominance": true,
+  "scope": "An exact conditional-tail feasibility witness, not an empirical performance total or calibration certificate. Under unrestricted expected-return maximization, admission in both laws has the same mean paid return3.",
+  "source_sha256": "95d3338bca887654c105d07b457c53e9acf5bb1b3922b6ceec244a641b00e251"
+}

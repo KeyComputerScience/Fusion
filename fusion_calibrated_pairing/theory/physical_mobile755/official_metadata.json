@@ -1,0 +1,55 @@
+{
+  "utc": "2026-10-05T13:51:29.298080+00:00",
+  "source_urls": [
+    "https://archive.ics.uci.edu/dataset/755/accelerometer+gyro+mobile+",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9460854/"
+  ],
+  "uci_id": 755,
+  "title": "Accelerometer Gyro Mobile Phone",
+  "donated": "2022-11-24",
+  "collected": 2022,
+  "location": "King Saud University, Riyadh per UCI description",
+  "advertised_rows": 31991,
+  "native_file": "accelerometer_gyro_mobile_phone_dataset.csv",
+  "archive_size": "2 MB per UCI metadata",
+  "native_columns": [
+    "accX",
+    "accY",
+    "accZ",
+    "gyroX",
+    "gyroY",
+    "gyroZ",
+    "timestamp",
+    "Activity"
+  ],
+  "physical_groups": {
+    "accelerometer": [
+      "accX",
+      "accY",
+      "accZ"
+    ],
+    "gyroscope": [
+      "gyroX",
+      "gyroY",
+      "gyroZ"
+    ]
+  },
+  "native_task": "Standing(stop) versus walking",
+  "Activity_role": "Integer column declared as the native activity target",
+  "Activity_code_values": "Numeric code values not specified in official metadata; exactly two sorted native code values will provide deterministic schema encoding, without row filtering",
+  "timestamp_role": "Categorical; units missing from UCI column metadata",
+  "subject_site_device_id_columns": [],
+  "paper_scope": "The referenced broader study reports a10Hz collection and phone-uptime examples, but those descriptions do not certify participant/site mapping or a validated physical clock for this particular CSV",
+  "clock_decision": "Original ordinal record order; no timestamp parsing, physical duration, participant-disjoint or site-disjoint claim",
+  "license": "CC BY4.0",
+  "failed_endpoint_resolution": {
+    "tool": "web.run.click",
+    "purpose": "Resolve canonical UCI Download endpoint from metadata page",
+    "result": "HTTP400 Unicode decoding error; archive endpoint identified",
+    "sensor_rows_or_classes_returned": false,
+    "local_raw_payload": false,
+    "scope": "Attempted archive request before source freeze; no assertion that no request touched archive endpoint"
+  },
+  "sensor_or_class_observed": false,
+  "successful_local_raw_transfer": false
+}

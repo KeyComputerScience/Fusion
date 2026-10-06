@@ -1,0 +1,4559 @@
+{
+  "selected": {
+    "paired": {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 68.0
+    },
+    "pair_factorized": {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 58.666666666666664
+    },
+    "full_gaussian": {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 15.0
+    },
+    "joint_diagonal_kernel": {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 46.0
+    },
+    "unconditional": {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 54.333333333333336
+    },
+    "conditional_moment": {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 68.0
+    },
+    "pdf": {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "qmf": {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 78.0
+    },
+    "dbf": {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    }
+  },
+  "grid": [
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 14.666666666666666
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 68.0
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": 5.333333333333333
+    },
+    {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 12.666666666666666
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 12.666666666666666
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 12.666666666666666
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 12.666666666666666
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 5.333333333333333
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 58.666666666666664
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": 5.333333333333333
+    },
+    {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 15.0
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 15.0
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 15.0
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 10.0
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 15.0
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 7.666666666666667
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 10.0
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": -1.6666666666666667
+    },
+    {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": -1.6666666666666667
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 46.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 8.333333333333334
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 8.333333333333334
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 9.333333333333334
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 13.666666666666666
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 8.333333333333334
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 8.333333333333334
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 54.333333333333336
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": -1.0
+    },
+    {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": -1.0
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 22.0
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 14.666666666666666
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 68.0
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": 5.333333333333333
+    },
+    {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 26.0
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 19.333333333333332
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 9.0
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 18.666666666666668
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 9.0
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "pdf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 26.0
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 26.666666666666668
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 26.666666666666668
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 31.333333333333332
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 26.666666666666668
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 7.333333333333333
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 78.0
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": 7.333333333333333
+    },
+    {
+      "arm": "qmf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      "net": 19.333333333333332
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      "net": 19.333333333333332
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      "net": 9.0
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      "net": 19.333333333333332
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      "net": 0.0
+    },
+    {
+      "arm": "dbf",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      },
+      "net": 0.0
+    }
+  ],
+  "strongest_control": "qmf",
+  "score_pools": {
+    "paired": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.11181134598431244,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -19.311852285991993,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.17472669216120934,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -28.365016596634796,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1266647106221922,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -21.2130829596406,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.14527195660986122,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -22.594810446062237,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.17848361243597913,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -27.84590239180533,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.1529781244942255,
+          0.15625,
+          1.0
+        ],
+        "residual": 0.014431131577096662,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 4.847184841868373,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.21707250145758233,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -32.78528018657054,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.6290379996225064,
+          1.0,
+          1.0
+        ],
+        "residual": 1.415351980534695,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 49.16505350844096,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.3032876047428267,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -43.820813407081815,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.008005353206689683,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.2559434104029551,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -35.76075653157825,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.033801622597712466,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -9.326607692507196,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.10991214734471327,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -19.0687548601233,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.03468409024622443,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -29.560436448483273,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.29959753366508773,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -43.34848430913123,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.20672957281088694,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -31.46138531979353,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.19746186006156782,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -30.27511808788068,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.1879944508024831,
+          0.25,
+          1.0
+        ],
+        "residual": 0.06246478868648753,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 0.9954929518704034,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.20370840671888377,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -31.074676060017122,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.07008931845627889,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -13.971432762403698,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.3097630199279677,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -44.64966655077986,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.031240884225962676,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -8.998833180923222,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "pair_factorized": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.11181125444360634,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -19.311840568781612,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.18707878247685988,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -29.946084157038065,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1340271145335672,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -22.1554706602966,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.17839214879954057,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -26.834195046341193,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1738516429947019,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -27.253010303321844,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.1529781244942255,
+          0.15625,
+          1.0
+        ],
+        "residual": 0.05603690152699235,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 10.172723395455021,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.22913608980357575,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -34.329419494857696,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.6290379996225064,
+          1.0,
+          1.0
+        ],
+        "residual": 1.388146150963634,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 45.68270732334514,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.24787315486686984,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -36.72776382295934,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.008005353206689683,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.29270678748358686,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -40.46646879789912,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.054333308267623365,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -11.95466345825579,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.1099116698175494,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -19.068693736646324,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.02669149786505659,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -30.583488273272756,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.23094097934209057,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -34.56044535578759,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.16014637261140596,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -25.498735694259963,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.20501205484108667,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -31.241543019659094,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.1879944508024831,
+          0.25,
+          1.0
+        ],
+        "residual": 0.08260587388299284,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 3.5735518570230838,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.20634016088827978,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -31.41154059369981,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.189513498223024,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -29.25772777254707,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2902258760273783,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -42.148912131504424,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.051013950260655916,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -11.529785633363957,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "full_gaussian": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.019232869890762977,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -7.461807346017661,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2479291234853297,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -37.7349278061222,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.10286465371469058,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -18.166675675480395,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.07620322090078555,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -13.75401227530055,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.22555110482891255,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -33.87054141810081,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.1529781244942255,
+          0.15625,
+          1.0
+        ],
+        "residual": 0.025111659746828163,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 6.214292447594005,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1886485073301456,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -29.147008938258637,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.6290379996225064,
+          1.0,
+          1.0
+        ],
+        "residual": 1.366888872812051,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 42.96177571994251,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.4161734634874614,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -58.27020332639506,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.008005353206689683,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.32252322716722304,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -44.28297307740455,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.06352282204527626,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -13.130921221795361,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.004561963791821805,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -4.416068634646809,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.020065563624070526,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -36.56839214388103,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.34567453836183326,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -49.24634091031466,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.27282650827453836,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -39.92179305914091,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.17960550763442978,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -27.989504977207012,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.1879944508024831,
+          0.25,
+          1.0
+        ],
+        "residual": 0.01648384777257142,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": -4.890067485110858,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1773441574318114,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -27.70005215127186,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1273615182109371,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -21.30227433099995,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.38846725572470026,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -54.72380873276163,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.08629043508152759,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": 6.045175690435531,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "joint_diagonal_kernel": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.2515147699684411,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -37.19389055596046,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.25262651481550785,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -38.336193896385005,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.27694406292246915,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -40.44884005407605,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2812639751017305,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -40.001788813021506,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2709515314426064,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -39.68179602465362,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.1529781244942255,
+          0.15625,
+          1.0
+        ],
+        "residual": -0.12055996980413841,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": -12.431676134929717,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.24953964511191484,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -36.9410745743251,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.6290379996225064,
+          1.0,
+          1.0
+        ],
+        "residual": 1.4285840731255541,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 50.85876136007093,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2527880028254335,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -37.35686436165549,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.008005353206689683,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.33257064674149384,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -45.56904278291121,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.279380814189046,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -40.760744216197885,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.24122493956353808,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -35.876792264132874,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.033585901529015305,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -38.29899539571396,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2515449518972934,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -37.19775384285356,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.24534679001571902,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -36.404389122012034,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2641400926028426,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -38.80993185316385,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.1879944508024831,
+          0.25,
+          1.0
+        ],
+        "residual": -0.16656023292194874,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": -28.31970981400944,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.29833660267287093,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -43.18708514212748,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2786277608386997,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -40.664353387353565,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.28061058382523363,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -40.918154729629904,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.3338156283977851,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -47.728400434916495,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "unconditional": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.04672439105441466,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -10.980722054965076,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.23344380787443125,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -35.8808074079272,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.09674033508849339,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -17.382762891327154,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.14490915953674285,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -22.548372420703085,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.15238501751490302,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -24.505282241907587,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.1529781244942255,
+          0.15625,
+          1.0
+        ],
+        "residual": 0.0006062789470529933,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 3.077603705222783,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1547230383418769,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -24.804548907760243,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.6290379996225064,
+          1.0,
+          1.0
+        ],
+        "residual": 1.2023326218582744,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 21.898575597859136,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.22210338257815226,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -33.42923297000349,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.008005353206689683,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.12714386419616575,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -19.274414617109215,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.10882179789557861,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -18.929190130634062,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.04060700763506446,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -10.19769697728825,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.022582383037673015,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -31.109454971177854,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.15166521668216387,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -24.413147735316976,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2105395733324777,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -31.949065386557145,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.15915050581394188,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -25.37126474418456,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.1879944508024831,
+          0.25,
+          1.0
+        ],
+        "residual": 0.06921683877583898,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 1.8597553633073893,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.08628421565659194,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -16.04437960404377,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1742893189967261,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -27.30903283158094,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.12765901615145694,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -21.34035406738649,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.083028272042611,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -15.627618821454208,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "conditional_moment": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.11340802804367045,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -19.516227589589818,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.17495811014422805,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -28.39463809846119,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.12667944278132925,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -21.214968676010145,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1442375967205033,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -22.46241238022442,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1785469055499125,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -27.8540039103888,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.1529781244942255,
+          0.15625,
+          1.0
+        ],
+        "residual": 0.014578008557171493,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 4.865985095317951,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.21726925454555224,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -32.810464581830686,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.6290379996225064,
+          1.0,
+          1.0
+        ],
+        "residual": 1.4146285159060998,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 49.07245003598078,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.30375200982836525,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -43.88025725803075,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.008005353206689683,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.25599009212628193,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -35.76673179216409,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.033817771059264895,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -9.328674695585907,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": -0.1106784000247405,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -19.166835203166784,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.03466214765553369,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -29.563245100091688,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.29960716770967033,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -43.3497174668378,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.2070405935453668,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -31.50119597380695,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.1975252595219391,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -30.283233218808206,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.1879944508024831,
+          0.25,
+          1.0
+        ],
+        "residual": 0.06225994208833922,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 0.9692725873074197,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.20370026932288982,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -31.073634473329896,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.07009482114880089,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -13.972137107046514,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.3097717776294123,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -44.65078753656478,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.03160199034285335,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -9.04505476388523,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "pdf": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0078125,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.0078125,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.1529781244942255,
+          0.15625,
+          1.0
+        ],
+        "residual": 0.09047812449422549,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 14.581199935260862,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.6290379996225064,
+          1.0,
+          1.0
+        ],
+        "residual": 1.6212254996225064,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 75.51686395168082,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.008005353206689683,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.0076196467933103175,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -3.9753147895437206,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.2265625,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.1879944508024831,
+          0.25,
+          1.0
+        ],
+        "residual": 0.2036194508024831,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 19.063289702717835,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "qmf": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0078125,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.0078125,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.15567458520485852,
+          0.15625,
+          1.0
+        ],
+        "residual": 0.09317458520485852,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 14.926346906221891,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.9096452107522393,
+          1.0,
+          1.0
+        ],
+        "residual": 1.9018327107522393,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 111.43458697628662,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.010977159111179451,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.004647840888820549,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -3.5949236337690302,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.2265625,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.21464420858351835,
+          0.25,
+          1.0
+        ],
+        "residual": 0.23026920858351835,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 22.47445869869035,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ],
+    "dbf": [
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0078125,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": -0.0078125,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.03547092545117748,
+          0.15625,
+          1.0
+        ],
+        "residual": -0.027029074548822522,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": -0.45972154224928286,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.2500770759598119,
+          1.0,
+          1.0
+        ],
+        "residual": 1.2422645759598119,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": 27.00986572285592,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.002709813269902699,
+          0.03125,
+          1.0
+        ],
+        "residual": -0.012915186730097304,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -4.653143901452455,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 40,
+        "maturity": 46,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p047",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 47
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "residual": 0.0,
+        "origin": 0,
+        "maturity": 7,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.2265625,
+        "origin": 4,
+        "maturity": 8,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 8,
+        "maturity": 13,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 12,
+        "maturity": 19,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 16,
+        "maturity": 23,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.06463657450877391,
+          0.25,
+          1.0
+        ],
+        "residual": 0.08026157450877391,
+        "origin": 20,
+        "maturity": 27,
+        "raw_score": 3.273481537123061,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 24,
+        "maturity": 29,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 28,
+        "maturity": 34,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 32,
+        "maturity": 37,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      },
+      {
+        "context": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "residual": 0.0,
+        "origin": 36,
+        "maturity": 40,
+        "raw_score": -5.0,
+        "N": 128,
+        "partition": "completed_calibration_fit",
+        "source_stage": "score_fit",
+        "stream_id": "p048",
+        "provenance": {
+          "stage": "score_fit",
+          "canonical_seed": 151001,
+          "person": 48
+        }
+      }
+    ]
+  },
+  "partitions": {
+    "statefit": [
+      42,
+      43,
+      44,
+      46
+    ],
+    "scorefit": [
+      47,
+      48
+    ],
+    "selection": [
+      49,
+      50
+    ],
+    "development": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  "unchanged_raw_inputs_sha256": "a67df2f16e5cf2bb368a75bdd248ba850a67d26ec1bd5351850a888a6071e0ca"
+}

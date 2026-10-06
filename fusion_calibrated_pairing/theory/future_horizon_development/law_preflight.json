@@ -1,0 +1,30 @@
+{
+  "status": "synthetic horizon-law preflight, not physical results",
+  "persistent_json_roundtrip": true,
+  "conditional_multivariate_block_quadratic": true,
+  "target_maturity_integrity": true,
+  "physical_support_all_arms": true,
+  "factor_blocks_per_physical_source": true,
+  "raw_scores": {
+    "paired": [
+      -3.126802521105345,
+      -26.79977136722512
+    ],
+    "pair_factorized": [
+      -3.0443254927274497,
+      -26.84830574886465
+    ],
+    "full_gaussian": [
+      -11.439388976123892,
+      -24.807747542563888
+    ],
+    "joint_diagonal_kernel": [
+      -4.492692790662499,
+      -26.8866904184349
+    ],
+    "unconditional": [
+      -3.523715722375486,
+      -26.71311598310648
+    ]
+  }
+}

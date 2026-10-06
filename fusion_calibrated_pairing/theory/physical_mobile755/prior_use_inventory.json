@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-05T13:51:29.298080+00:00",
+  "roots": [
+    "/Users/key/Documents/Codex",
+    "/Users/key/Downloads"
+  ],
+  "commands": [
+    "rg -il 'accelerometer gyro mobile|accelerometer.*gyro.*phone.*755|uci755|mobile755|Riyadh' work outputs --glob '*.py' --glob '*.md' --glob '*.json' --glob '*.tex' --glob '*.bib' --max-filesize 2M",
+    "rg --files -uu /Users/key/Documents/Codex /Users/key/Downloads | rg -i 'mobile.?755|uci.?755|acc.*gyro.*phone|accelerometer.*gyro'"
+  ],
+  "initial_matching_files_before_current_adapter": [],
+  "mobile755_raw_cache_results_found": false,
+  "candidate_basis": "Official metadata and absence of prior collection files; no observed calibration/test outcome was used for collection choice",
+  "rejected_candidate": {
+    "name": "PAMAP2 UCI231",
+    "reason": "Previous raw acquisition; cannot claim wholly unused collection",
+    "earlier_inventory": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical/prior_use_inventory.json",
+    "earlier_inventory_sha256": "9680ca960234b24788315c4e0c4d981a7c2b00f7bdbf5e351c58b42a8f9deb8c",
+    "earlier_transfer_status": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_temporal_20261003/physical/PAMAP_ACQUISITION_STATUS.json",
+    "earlier_status_sha256": "57c46084dc625242ad31c385cc209042b7f47fcd54226903f7550e5f49454074",
+    "raw_filename_metadata": [
+      {
+        "path": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/fresh/data/pamap231/pamap231.zip",
+        "exists": true,
+        "bytes": 21934080
+      },
+      {
+        "path": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/fresh/data/pamap231/protocol_only.zip",
+        "exists": true,
+        "bytes": 251327411
+      },
+      {
+        "path": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_temporal_20261003/physical/data/pamap231/protocol_only.zip",
+        "exists": true,
+        "bytes": 251327411
+      }
+    ],
+    "raw_sensor_payloads_opened": false
+  },
+  "endpoint_attempt_disclosed": {
+    "tool": "web.run.click",
+    "purpose": "Resolve canonical UCI Download endpoint from metadata page",
+    "result": "HTTP400 Unicode decoding error; archive endpoint identified",
+    "sensor_rows_or_classes_returned": false,
+    "local_raw_payload": false,
+    "scope": "Attempted archive request before source freeze; no assertion that no request touched archive endpoint"
+  }
+}

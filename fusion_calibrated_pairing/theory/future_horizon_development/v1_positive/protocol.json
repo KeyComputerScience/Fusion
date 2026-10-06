@@ -1,0 +1,387 @@
+{
+  "utc": "2026-10-05T15:18:01.252469+00:00",
+  "status": "Known-selfBACK development v1 designed after retainedV0 outcomes; not new physical confirmation; no OPP access",
+  "source_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/v1_positive/run_v1.py": "1f010a8459236fa75fe669cbdc095bd09c37205b89c54b226ad9cd64b23c4df7",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/v1_positive/positive_calibration.py": "315a6de727ef97ae321f7983575e9911a2ee1fd98f812b4693a0dee43a1c1e61"
+  },
+  "input_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/protocol.json": "a1cb68de7b4a289a516dd2669c96f840414d4e3c0ca6aa8c929a28e616d23b6e",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/pre_run_freeze.json": "a28c437ce77d7a0c5171738b8405ea4720d4f08b507e8425b7f524912496fa96",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/selection.json": "7485d09e849fa5a0ddee371c5fa26e67fb041a5d4c435b199237e546cae4ef00",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/selection_lock.json": "d33daa617e68383b243fdbb8c6f5a59d7c0f2a28e8f989b72115e572f4c7b1c9",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/calibration_trials.json.gz": "12eccf58ab612a3d859f3cb585a080940759a5518a757f6afd345192b8a48efc",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/development_results.json.gz": "a67df2f16e5cf2bb368a75bdd248ba850a67d26ec1bd5351850a888a6071e0ca",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/future_horizon_development/development_summary.json": "4837a36e65e4ccc05282e9c207ae03165ed5a63e13e0ff47e4211ac99ff3686a"
+  },
+  "unchanged": "same V0 immutable rawscores/fullmultivariatephysicalsourcepath/state/forecasters/modelwork/pools/readiness; no density/backbone retraining",
+  "only_change": "one calibratedscore withqplus=max(0,empirical signedquantile); no extra predicate/guard; physicalsupportclip andshared130ledger unchanged",
+  "arms": [
+    "paired",
+    "pair_factorized",
+    "full_gaussian",
+    "joint_diagonal_kernel",
+    "unconditional",
+    "conditional_moment",
+    "pdf",
+    "qmf",
+    "dbf"
+  ],
+  "configurations": {
+    "paired": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "pair_factorized": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "full_gaussian": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "joint_diagonal_kernel": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "unconditional": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "conditional_moment": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "pdf": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "qmf": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "dbf": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ]
+  },
+  "trials_per_arm": 9,
+  "selection": "all same3oldcal delays andwholelast2selectionpeople; maximizeguardedpaidreturn, tieshigherp then largerband; strongestcontrol CAL-only declaredV0order",
+  "development": "all13knownformerheldoutpeople x5delays x9arms, all outcomes retained",
+  "stop_rule": "After this one refinement stop and report all V0/V1 outcomes; no guaranteedpositive search",
+  "risk_scope": "Monotonicity relative raw ES andsigned correction does not guarantee positive return or calibrated accepted risk",
+  "budgets": [
+    0.0,
+    110.0,
+    130.0,
+    260.0
+  ],
+  "primary_budget": 130.0,
+  "reserve": 130.0
+}

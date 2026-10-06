@@ -1,0 +1,58 @@
+{
+  "role": "Exact analytical conditional-return scoring witness; no physical measurements or frozen algorithm changes",
+  "support": [
+    -1,
+    1
+  ],
+  "N": 128,
+  "conservative_cost": 5,
+  "alpha": "1/2",
+  "common_score_correction": "0",
+  "P": {
+    "atoms": [
+      {
+        "U": "0",
+        "probability": "1/2"
+      },
+      {
+        "U": "1/5",
+        "probability": "1/2"
+      }
+    ],
+    "mean": "1/10",
+    "second_moment": "1/50",
+    "variance": "1/100",
+    "lower_tail": "0",
+    "paid_lower_tail_score": "-5",
+    "expected_paid_return": "39/5",
+    "raw_tail_feasible": false,
+    "positive_tail_admission": false
+  },
+  "Q": {
+    "atoms": [
+      {
+        "U": "-1/5",
+        "probability": "1/10"
+      },
+      {
+        "U": "2/15",
+        "probability": "9/10"
+      }
+    ],
+    "mean": "1/10",
+    "second_moment": "1/50",
+    "variance": "1/100",
+    "lower_tail": "1/15",
+    "paid_lower_tail_score": "53/15",
+    "expected_paid_return": "39/5",
+    "raw_tail_feasible": true,
+    "positive_tail_admission": true
+  },
+  "equal_conditional_mean_variance": true,
+  "opposite_prescribed_tail_actions": true,
+  "summary_feasibility_scope": "A moment-only decision receives identical current context and conditional mean/variance. Requiring nonnegative true lower-tail paid score for every compatible law excludes admission because P is compatible and its score is -5.",
+  "missed_Q_expected_return": "39/5",
+  "no_unconstrained_mean_return_dominance": true,
+  "scope": "Atoms give fractional gross returns at N128. This is a bounded-law/scoring functional witness, not an integer-correctness-count construction, physical performance evidence, or empirical calibration claim.",
+  "source_sha256": "9ddea910f519f7fec9272172dcab47f0e31e357e786bd775452bf5b1ba38908e"
+}

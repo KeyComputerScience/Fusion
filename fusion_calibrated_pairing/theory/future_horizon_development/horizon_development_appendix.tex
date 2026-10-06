@@ -1,0 +1,315 @@
+\section{Retained horizon-state development and score-monotonicity refinement}
+\label{app:horizon-development}
+This is used-data development, separate from frozen CJRT-P and the new
+physical-collection protocol. No OPPORTUNITY observation enters this work.
+The old selfBACK participants and former held-out outcomes had already been
+inspected. One horizon-state candidate H-v0 was declared before its new
+calibration/evaluation runs; one H-v1 score refinement was subsequently
+recorded before its replay. Both versions, every nine-arm selection and all
+outcomes remain retained. No further variant was searched after H-v1.
+
+\subsection{One physical-source path state}
+For original issue window $k$, let $p^C_{k,i},p^R_{k,i}$ be the available
+candidate/reference probabilities, and define
+\begin{equation}
+ t_k=n_k^{-1}\sum_i\tfrac12\|p^C_{k,i}-p^R_{k,i}\|_1,\quad
+ a_k^{\rm soft}=n_k^{-1}\sum_i p^{\rm PDF}_{k,i}\cdot(p^C_{k,i}-p^R_{k,i}),\quad
+ \nu_{k,s}=n_k^{-1}\sum_i p_{k,s,i}\cdot(p^C_{k,i}-p^R_{k,i})-a_k^{\rm soft}.
+ \label{eq:h-development-soft-evidence}
+\end{equation}
+Let $m_{k,s}$ be the mean top-two probability margin of physical source $s$.
+Its single six-coordinate block is
+$\Phi_{j,s}=((\nu_{j,s},m_{j,s}),
+(\nu_{j-1,s},m_{j-1,s}),(\nu_{j-2,s},m_{j-2,s}))$.
+These are current and preceding ordinal issuance windows; they are not
+invented independent sources or asserted contiguous clock-duration segments.
+A new recording resets the path. Startup and unavailable source/lag
+coordinates remain explicitly unobserved. Stored snapshots keep their
+original issued model versions, not future-model historical reprojections.
+The shared eight-coordinate $W_j$ contains the hard and soft PDF anchors,
+current C/R probability margins, hard disagreement, $t_j$, active fraction
+and startup-history fraction. The target remains original full-lease hard
+correctness return: $E_j=U_j-A_j$. Thus the predictor and full-lease outcome
+have distinct temporal supports.
+
+One working joint mixture models $(E,W,\Phi_1,\ldots,\Phi_m)$ and conditions
+on the present observed configuration. The history weight is
+$\exp(-\|W_j-W_i\|^2)\rho_i$, with
+$\rho_i=\max(r_i,t_i)$ and discount $0.97^{(k_j-k_i)_+}$ for local records.
+This keeps soft-informative quiet origins. A canonical state-fit library,
+48 matured local tuples, the shared prefix quality and Gaussian missing-block
+completion remain fixed. The prior mass is two; covariance scales are 0.01
+for residual/common coordinates and $0.01\bar q/q_s$ for all six coordinates
+of each physical-source block. Scott smoothing and lower tail mass $1/2$
+are fixed. The common-only control uses $P(E\mid W)$, so it is a strong
+predictable-context control, not a context-free unconditional baseline.
+The factorized control preserves each complete multivariate
+$(E,\Phi_s)\mid W$ margin:
+\begin{equation}
+ f_{\rm factor}(e\mid W,\Phi)\propto
+ \frac{\prod_s f(e,\Phi_s\mid W)}{f(e\mid W)^{\bar m-1}},
+ \label{eq:h-development-physical-factor}
+\end{equation}
+where $\bar m$ counts physical-source blocks with observed path coordinates.
+Full Gaussian, full joint diagonal-kernel KDE and postconditional
+maximum-entropy controls receive the same complete descriptor and library.
+The latter receives mean/variance after full paired conditioning.
+
+The state/score/selection participants are respectively
+$\{42,43,44,46\}$, $\{47,48\}$ and $\{49,50\}$; all 13 already-used
+participants 51--63 form development evaluation. Canonical delay 151001
+supplies state/score origins once. Selection uses delays 151001--151003;
+evaluation uses 152001--152005. All nine pipelines receive exactly nine
+$(b,p)$ choices, $b\in\{.25,.5,1\}$ and $p\in\{.8,.9,.95\}$, with the
+same signed immutable-score calibration in H-v0. Equal primary budget and
+reservation are 130. PDF/QMF retain their active-objective tabular source
+models; DBF remains the disclosed operator adaptation. Source learning rate
+0.2 is a fixed known-data design choice, not a new backbone search.
+QMF is the strongest complete controller selected from calibration in both
+versions. Five delay arrangements reuse the same physical recordings.
+
+\begin{table}[t]
+\centering\small
+\caption{All complete development pipelines. Net increments sum the 13 participants and average five delays; action/loss counts pool their 65 reset chains. Losses are not compared with a single 130-unit budget.}
+\label{tab:h-development-full}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Version/controller & Mean net & Benef. & Harm. & Loss & Admitted cover & Max excess & Refused \\
+\midrule
+v0 / Paired H & 5.4 & 5 & 15 & 71.0 & 1/20 & 30.134 & 0 \\
+v0 / Physical-block factor & -0.4 & 4 & 17 & 80.0 & 2/21 & 35.474 & 0 \\
+v0 / Full Gaussian & -2.4 & 0 & 3 & 12.0 & 0/3 & 17.804 & 0 \\
+v0 / Full joint KDE & -36.0 & 4 & 2 & 254.0 & 4/6 & 188.839 & 0 \\
+v0 / Common-only law & 17.8 & 4 & 1 & 3.0 & 4/5 & 6.600 & 0 \\
+v0 / Postconditional moments & 5.4 & 5 & 15 & 71.0 & 1/20 & 30.190 & 0 \\
+v0 / PDF & -66.0 & 14 & 8 & 683.0 & 7/22 & 180.226 & 0 \\
+v0 / QMF & -59.8 & 17 & 8 & 683.0 & 8/25 & 176.438 & 0 \\
+v0 / DBF & -56.6 & 9 & 8 & 506.0 & 6/17 & 135.812 & 0 \\
+v1 / Paired H & -21.2 & 7 & 15 & 249.0 & 3/22 & 135.250 & 2 \\
+v1 / Physical-block factor & -24.2 & 6 & 14 & 244.0 & 4/20 & 144.600 & 1 \\
+v1 / Full Gaussian & 8.2 & 4 & 8 & 37.0 & 1/12 & 17.804 & 0 \\
+v1 / Full joint KDE & -44.2 & 1 & 2 & 254.0 & 1/3 & 173.407 & 0 \\
+v1 / Common-only law & 24.2 & 6 & 0 & 0.0 & 6/6 & 0.000 & 0 \\
+v1 / Postconditional moments & -21.2 & 7 & 15 & 249.0 & 3/22 & 135.297 & 2 \\
+v1 / PDF & -66.0 & 14 & 8 & 683.0 & 7/22 & 180.226 & 0 \\
+v1 / QMF & -59.8 & 17 & 8 & 683.0 & 8/25 & 176.438 & 0 \\
+v1 / DBF & -56.6 & 9 & 8 & 506.0 & 6/17 & 135.812 & 0 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[t]
+\centering\small
+\caption{Actual calibration strata and excess. Every controller has 710 issued and 210 hard-informative forks. Ready coverage equals issued coverage in these runs. Promotion counts are actual admissions whose raw score was nonpositive.}
+\label{tab:h-development-calibration}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Version/controller & Issued cover & Informative cover & Sum excess & Admitted effective count & Raw-negative promotions \\
+\midrule
+v0 / Paired H & 633/710 & 180/210 & 225.205 & 2.837--9.170 & 5 \\
+v0 / Physical-block factor & 614/710 & 181/210 & 244.018 & 2.837--15.737 & 5 \\
+v0 / Full Gaussian & 652/710 & 187/210 & 40.246 & 3.141--9.608 & 0 \\
+v0 / Full joint KDE & 554/710 & 165/210 & 341.243 & 4.397--6.355 & 3 \\
+v0 / Common-only law & 646/710 & 191/210 & 6.600 & 2.934--5.854 & 1 \\
+v0 / Postconditional moments & 633/710 & 180/210 & 224.752 & 2.837--9.170 & 5 \\
+v0 / PDF & 609/710 & 160/210 & 1054.398 & 4.323--6.410 & 0 \\
+v0 / QMF & 603/710 & 154/210 & 1110.033 & 3.935--6.389 & 0 \\
+v0 / DBF & 592/710 & 143/210 & 640.491 & 4.409--6.179 & 0 \\
+v1 / Paired H & 640/710 & 175/210 & 381.038 & 3.797--11.697 & 0 \\
+v1 / Physical-block factor & 643/710 & 177/210 & 381.487 & 3.797--11.697 & 0 \\
+v1 / Full Gaussian & 638/710 & 179/210 & 80.128 & 2.837--8.479 & 0 \\
+v1 / Full joint KDE & 671/710 & 185/210 & 325.812 & 5.336--6.355 & 0 \\
+v1 / Common-only law & 664/710 & 187/210 & 0.000 & 3.890--6.421 & 0 \\
+v1 / Postconditional moments & 640/710 & 175/210 & 380.302 & 3.797--11.697 & 0 \\
+v1 / PDF & 609/710 & 160/210 & 1054.398 & 4.323--6.410 & 0 \\
+v1 / QMF & 603/710 & 154/210 & 1110.033 & 3.935--6.389 & 0 \\
+v1 / DBF & 592/710 & 143/210 & 640.491 & 4.409--6.179 & 0 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[t]
+\centering\small
+\caption{All changed-action value partitions: pooled paid units (action count). The mean difference is the four-term pooled result divided by five. No changed loss or missed benefit is omitted.}
+\label{tab:h-development-action-partitions}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Comparison & Added gain & Avoided loss & Missed gain & Incurred loss & Mean difference \\
+\midrule
+v0 minus Physical-block factor & 20 (1) & 22 (5) & 0 (0) & 13 (3) & 5.8 \\
+v0 minus Full Gaussian & 98 (5) & 2 (1) & 0 (0) & 61 (13) & 7.8 \\
+v0 minus Full joint KDE & 57 (2) & 254 (2) & 33 (1) & 71 (15) & 41.4 \\
+v0 minus Common-only law & 41 (3) & 0 (0) & 35 (2) & 68 (14) & -12.4 \\
+v0 minus Postconditional moments & 0 (0) & 0 (0) & 0 (0) & 0 (0) & 0.0 \\
+v0 minus PDF & 98 (5) & 683 (8) & 353 (14) & 71 (15) & 71.4 \\
+v0 minus QMF & 98 (5) & 683 (8) & 384 (17) & 71 (15) & 65.2 \\
+v0 minus DBF & 98 (5) & 506 (8) & 223 (9) & 71 (15) & 62.0 \\
+v1 minus Physical-block factor & 20 (1) & 0 (0) & 0 (0) & 5 (1) & 3.0 \\
+v1 minus Full Gaussian & 65 (3) & 27 (6) & 0 (0) & 239 (13) & -29.4 \\
+v1 minus Full joint KDE & 110 (6) & 124 (1) & 0 (0) & 119 (14) & 23.0 \\
+v1 minus Common-only law & 74 (4) & 0 (0) & 52 (3) & 249 (15) & -45.4 \\
+v1 minus Postconditional moments & 0 (0) & 0 (0) & 0 (0) & 0 (0) & 0.0 \\
+v1 minus PDF & 98 (5) & 494 (6) & 308 (12) & 60 (13) & 44.8 \\
+v1 minus QMF & 98 (5) & 494 (6) & 339 (15) & 60 (13) & 38.6 \\
+v1 minus DBF & 98 (5) & 317 (6) & 178 (7) & 60 (13) & 35.4 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[t]
+\centering\small
+\caption{Complete H-v1 minus H-v0 changes after each version independently performs the same calibration search. This includes hyperparameter reselection, not only pointwise score clipping.}
+\label{tab:h-development-version-changes}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Controller & Added gain & Avoided loss & Missed gain & Incurred loss & Mean difference \\
+\midrule
+Paired H & 45 & 28 & 0 & 206 & -26.6 \\
+Physical-block factor & 45 & 25 & 0 & 189 & -23.8 \\
+Full Gaussian & 78 & 0 & 0 & 25 & 10.6 \\
+Full joint KDE & 0 & 0 & 41 & 0 & -8.2 \\
+Common-only law & 29 & 3 & 0 & 0 & 6.4 \\
+Postconditional moments & 45 & 28 & 0 & 206 & -26.6 \\
+PDF & 0 & 0 & 0 & 0 & 0.0 \\
+QMF & 0 & 0 & 0 & 0 & 0.0 \\
+DBF & 0 & 0 & 0 & 0 & 0.0 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+H-v0 increases mean utility over the physical-block factor by 5.8 and over
+calibration-selected QMF by 65.2. It adds one factor-rejected beneficial
+20-unit lease at person 51, delay 152001, origin 12. Both selected
+$b=.25,p=.95$. Raw paired/factor scores are 11.01739186/10.52031223;
+issued scores are 3.02189891/$-0.05323963$. Applying the factor's same
+issued correction to both still gives paired $+0.44384000$ and factor
+$-0.05323963$, isolating a raw-law crossing at that fixed state.
+The request reconstruction gives $23-0-3=20$. The overall factor comparison
+also includes five avoided losses totaling 22 and three incurred losses
+totaling 13, giving $20+22-13=29$ pooled units.
+Postconditional moments have exactly the paired actions in both versions.
+Common-only performs better than paired in both versions. Thus the case
+shows value beyond this physical-block factorization, not necessity of
+full tail shape or superiority to every information-preserving method.
+
+Across the 710 retained origin-delay forks, 500 are hard-quiet; 180 of those
+have nonzero soft disagreement. All six quiet potential-beneficial forks
+retain soft information. H-v0 nevertheless admits 13 quiet leases, all
+harmful, so profitable quiet-window recovery is not demonstrated. Its
+aggregate issued coverage does not establish actual admission
+coverage: H-v0 covers 1/20 and H-v1 covers 3/22 actual admissions.
+
+The earlier paired signed-calibration version and H-v0 have exactly the
+same 710 potential gross/paid outcomes, 65 reference service totals,
+anchors and common calibration contexts. Their maximum discrepancies are
+zero. Pooled losses fall from 574 to 71, and mean increment rises from
+$-58.2$ to$+5.4$. This is a complete-version comparison; the descriptor,
+state population and selected calibration parameters change together,
+so the reduction is not attributed to the soft descriptor alone.
+
+\subsection{One monotone score and its exact boundary}
+H-v1 changes only $q^+=\max(0,\widehat q)$ in the same paid score. The raw
+laws, immutable callbacks and counterfactual feedback population are
+unchanged. \begin{proposition}[Monotone preservation of the raw paid tail]
+\label{prop:h-development-monotone}
+For a fixed configuration and counterfactual history with raw score inside
+physical support,
+\begin{equation}
+ L^+=\operatorname{clip}(S-Nq^+)\leq
+ L^{\rm signed}=\operatorname{clip}(S-N\widehat q),\qquad L^+\leq S.
+ \label{eq:h-development-monotone-score}
+\end{equation}
+If, for the complete pre-admission filtration $\mathcal F_j$,
+$\Pr(X_j<L_j^{\rm signed}\mid\mathcal F_j)\leq\alpha_j$, then
+$\Pr(X_j<L_j^+\mid\mathcal F_j)\leq\alpha_j$.
+\end{proposition}
+\begin{proof}
+The support clip is nondecreasing, $q^+\geq\widehat q$, and the raw score
+is inside the physical support. Hence a positive H-v1 proposal requires a
+positive raw tail score. This is one score functional, not another guard.
+If the original signed correction satisfies the complete-filtration
+conditional violation condition, $\{X_j<L_j^+\}\subseteq\{X_j<L_j^{\rm signed}\}$,
+so conditional probability monotonicity proves the claim.
+Empirical quantiles do not automatically satisfy the premise.
+\end{proof}
+The proposition is pointwise: changing the selected configuration or
+saving budget for later actions does not imply global action nesting or
+positive net return.
+
+H-v1 recalibration selects $b=1,p=.8$ for paired instead of H-v0's
+$b=.25,p=.95$. It removes all raw-negative promotions, but its complete
+paired mean is $-21.2$, versus $+5.4$ in H-v0. The version change adds 45,
+avoids 28 and incurs 206 pooled units, giving $-133$ or$-26.6$ mean.
+Common-only reaches$+24.2$ with six covered beneficial admissions and no
+harmful one in this used sample. All variants remain retained; neither is
+relabelled as the frozen CJRT-P or independent physical confirmation.
+
+\begin{table}[t]
+\centering\small
+\caption{Budget sensitivity under unchanged selected scores. Entries at 130/260 are mean net / pooled negative loss / refused proposals. Budgets 0 and 110 admit no leases; their refusal counts agree. Every separate chain respects its own spent-plus-pending budget.}
+\label{tab:h-development-budgets}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Version/controller & Refused at 0/110 & B130 & B260 \\
+\midrule
+v0 / Paired H & 20 & 5.4/71/0 & 5.4/71/0 \\
+v0 / Physical-block factor & 21 & -0.4/80/0 & -0.4/80/0 \\
+v0 / Full Gaussian & 3 & -2.4/12/0 & -2.4/12/0 \\
+v0 / Full joint KDE & 6 & -36.0/254/0 & -36.0/254/0 \\
+v0 / Common-only law & 5 & 17.8/3/0 & 17.8/3/0 \\
+v0 / Postconditional moments & 20 & 5.4/71/0 & 5.4/71/0 \\
+v0 / PDF & 22 & -66.0/683/0 & -66.0/683/0 \\
+v0 / QMF & 25 & -59.8/683/0 & -59.8/683/0 \\
+v0 / DBF & 17 & -56.6/506/0 & -56.6/506/0 \\
+v1 / Paired H & 24 & -21.2/249/2 & -47.4/380/0 \\
+v1 / Physical-block factor & 21 & -24.2/244/1 & -49.0/368/0 \\
+v1 / Full Gaussian & 12 & 8.2/37/0 & 8.2/37/0 \\
+v1 / Full joint KDE & 3 & -44.2/254/0 & -44.2/254/0 \\
+v1 / Common-only law & 6 & 24.2/0/0 & 24.2/0/0 \\
+v1 / Postconditional moments & 24 & -21.2/249/2 & -47.4/380/0 \\
+v1 / PDF & 22 & -66.0/683/0 & -66.0/683/0 \\
+v1 / QMF & 25 & -59.8/683/0 & -59.8/683/0 \\
+v1 / DBF & 17 & -56.6/506/0 & -56.6/506/0 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\subsection{Freeze records and independent execution reconstruction}
+Each version evaluates 585 policy trajectories and 2340 budget paths;
+6390 method-specific full-fork checks per version reconstruct all outcomes.
+Maximum request service discrepancy is $1.14\times10^{-13}$, fork discrepancy
+$1.43\times10^{-14}$ and complete four-term action discrepancy
+$3.42\times10^{-13}$. H-v0 protocol SHA-256 begins
+\texttt{a1cb68de7b4a289a}; H-v1 begins \texttt{c31bef4dac1ddb7a}.
+The new source is confined to
+\texttt{future\_horizon\_development}; frozen CJRT-P/Mobile/OPPORTUNITY files
+are not changed. The original old-source verification remains invoked.
+Full source hashes, raw-input hashes, selections, all calibration trials,
+issued scores, callbacks, ledgers, changed-action records and scripts are
+retained. Commands from \texttt{work/fusion\_calibrated\_pairing\_20261005} are
+\begin{verbatim}
+python future_horizon_development/run_development.py freeze
+python future_horizon_development/run_development.py calibrate
+python future_horizon_development/run_development.py evaluate
+python future_horizon_development/v1_positive/run_v1.py freeze
+python future_horizon_development/v1_positive/run_v1.py calibrate
+python future_horizon_development/v1_positive/run_v1.py evaluate
+\end{verbatim}
+These write-once runners require a clean verified mirrored workspace for
+recomputation; existing result directories must not be overwritten.
+The complete analysis keeps every per-delay and per-person outcome.
+
+\paragraph{Mechanism audit boundary.}
+Previsible information survival passes: soft differences remain on 180
+hard-quiet forks. Actual profitable quiet recovery does not pass: no H-v0
+quiet admission is beneficial. Physical-block dependence has a local action
+and complete gain witness, including the shared-correction check and all
+four value totals. Tail-shape necessity does not pass: postconditional
+moments have identical actions. Comparison with the calibration-selected
+QMF pipeline has a positive mean in H-v0; comprehensive superiority does
+not pass because common-only is stronger. Nonnegative calibration proves
+pointwise score monotonicity; its independently reselected complete pipeline
+does not preserve H-v0 value. The common budget audit passes, including
+H-v1's actual refusals. No result establishes new-collection confirmation.

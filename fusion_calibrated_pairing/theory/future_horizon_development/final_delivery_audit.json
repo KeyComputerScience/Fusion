@@ -1,0 +1,68 @@
+{
+  "status": "Post-run delivery verification; no numerical replay or scientific edit",
+  "checks": [
+    {
+      "version": 0,
+      "manuscript_all9_utility_and_calibration_rows": true,
+      "four_term_all8_rows": true,
+      "inventory": [
+        585,
+        2340,
+        6390
+      ],
+      "result_sha256": "a67df2f16e5cf2bb368a75bdd248ba850a67d26ec1bd5351850a888a6071e0ca",
+      "protocol_sha256": "a1cb68de7b4a289a516dd2669c96f840414d4e3c0ca6aa8c929a28e616d23b6e"
+    },
+    {
+      "version": 1,
+      "manuscript_all9_utility_and_calibration_rows": true,
+      "four_term_all8_rows": true,
+      "inventory": [
+        585,
+        2340,
+        6390
+      ],
+      "result_sha256": "10fb5889f31f21a1628b2cb3377fd1514729383c996cc48586766b3eb5eba2a9",
+      "protocol_sha256": "c31bef4dac1ddb7a57de447cc8ad2a46d22ea4f42e732564713bfbd8587b5fe3"
+    }
+  ],
+  "source_union67_hashes_match": true,
+  "shared_correction_extra20": {
+    "recording": "p051",
+    "seed": 152001,
+    "origin": 12,
+    "complete_return": 20.0,
+    "category": "added_benefit",
+    "joint_action": true,
+    "control_action": false,
+    "joint_proposal": true,
+    "control_proposal": false,
+    "raw_joint": 11.017391857437964,
+    "raw_control": 10.520312226766102,
+    "issued_joint": 3.0218989055675607,
+    "issued_control": -0.053239630256982196,
+    "correction_joint": 0.06246478868648753,
+    "correction_control": 0.08260587388299284,
+    "joint_raw_using_control_correction": 0.44384000041488036,
+    "hard_disagreement": 0.1875,
+    "soft_support": 0.20045492296889833
+  },
+  "oldP_newH_common_targets": {
+    "status": "Complete VERSION comparison, not isolated descriptor intervention",
+    "unique_origin_delay_forks": 710,
+    "physical_delay_chains": 65,
+    "same_keys": true,
+    "maximum_complete_return_difference": 0.0,
+    "maximum_gross_target_difference": 0.0,
+    "maximum_common_forecast_anchor_difference": 0.0,
+    "maximum_common_cal_context_difference": 0.0,
+    "maximum_reference_service_difference": 0.0,
+    "old_result_sha256": "b7b9dcc401c6bba2d60a44617162da4448f07fe3698b5adf029e6a3f6d07e600",
+    "new_result_sha256": "a67df2f16e5cf2bb368a75bdd248ba850a67d26ec1bd5351850a888a6071e0ca"
+  },
+  "balanced_latex_environments": true,
+  "scientific_iteration_stopped_after_v1": true,
+  "max_service_error": 1.1368683772161603e-13,
+  "max_fork_error": 1.4210854715202004e-14,
+  "max_action_identity_error": 3.410605131648481e-13
+}

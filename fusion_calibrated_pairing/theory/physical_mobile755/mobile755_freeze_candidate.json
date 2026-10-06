@@ -1,0 +1,571 @@
+{
+  "version": 1,
+  "dataset": "mobile755",
+  "utc": "2026-10-05T13:51:57.572481+00:00",
+  "raw_access_authorized": false,
+  "status": "Source and protocol candidate freeze before sensor/class observation and before successful local raw transfer; root review required",
+  "failed_endpoint_resolution": {
+    "tool": "web.run.click",
+    "purpose": "Resolve canonical UCI Download endpoint from metadata page",
+    "result": "HTTP400 Unicode decoding error; archive endpoint identified",
+    "sensor_rows_or_classes_returned": false,
+    "local_raw_payload": false,
+    "scope": "Attempted archive request before source freeze; no assertion that no request touched archive endpoint"
+  },
+  "raw_archive": "https://archive.ics.uci.edu/static/public/755/accelerometer%2Bgyro%2Bmobile%2Bphone%2Bdataset.zip",
+  "raw_path": "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/raw/mobile755.zip",
+  "algorithm_source_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Loss_Budget_Extension_Repro/guard/run_loss_budget_guard.py": "0ae3ac3b2d4b30483590bf8ecf45a1454b6ed69b5ea2f08a26e8778389be2476",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/audit_canary_execution.py": "5f6c6ec9448913d923066afac07f69b4e3ba5518c81c7e918484aa5bb8561b49",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/cached_runner.py": "53443799ca051f7c24b60c8d1346ecbed8d5df9c48bfb5f84e17de5378788208",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/independent_bayes_extension.py": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/independent_bayes_fusion.py": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/new_data_adapter.py": "15c32d48e7af7e49309b10a424665f64a47c33314ea286fb0275786042a91a7c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/protocol.json": "7d73e531a10ce2d19902fa47f919490ad4d48224b85e5abd3b9acec7f5f8c43d",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/run_recovery_external.py": "638ba60c15998266d1a0f61baf47515c87a8a61670117d27005d103acf2d947f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/run_recovery_fusion.py": "81cdadbe726909573e63e1cf78670e6f1abfb75ec21559ad9ada5a5ca13ff3c0",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/external_fusion_validation_20261002/run_external_pdf.py": "50dbfaa37d89ff97975bc61cdd1ec4b6afc9de63cfea199c21ec02068dc3c517",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_acceptance_20261005/geometry_joint/run_geometry.py": "a34305d3ae1db0eef8fe92a4cb5a28b0075dfb9f73d2e9d18e9f1a40077ff016",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_acceptance_20261005/strong/run_aligned.py": "f5530bcfedb442c257d123ed8716d4dd1df1342d0c07572e01a08f6fa06f2dfc",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/conditional_moment_control.py": "ee47c4ac9efc1c67829a79f5e435122038e5f42dca5992e5a53086a05af44e28",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/conditional_pairing.py": "ea649144b6f832397c13fc45e282648b127d49d294fe8e6b20d3daae79c81bd8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical/opportunity_adapter.py": "6adac40f73d06e0febd506d613c54089869377c5dbe60313dc0b0b6cc834503e",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical/physical_views.py": "0c367de8e876a359fa1e37964752d69a9d796d5fa57a8da277b9f39598ec4b97",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical/run_opportunity.py": "137542712022027fe64fce97ebc02093237d2c164ea1cc5f2f10fd16a246d1dd",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/analyze_mobile755.py": "2dd29d592d6142e74e3b456e0e9f05e4dee40c0096e3eb6fa1182b5279182db6",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/mobile755_adapter.py": "ac5260d056beef3f6355036aea5eaf493a8af0b1214c59d2523c45d12f270514",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/run_mobile755.py": "876f080fe1d762fa705a2345db310c40b22189acfbbe067226ea35a91b154470",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/verify_mobile755.py": "06a88983634e8dcd954786d9f110435eadc3f3aa0f527cafbfc963c2d2915ad8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/risk/immutable_conditional_calibration_v2.py": "74f0dc248453be53aaf740dbf8d2e9d4883c3a37a09acb30532cb614df896161",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design_final/original.py": "45fefa1e0f6c548963462bd860ef23d8b5343e1dcd1b644185b2de1aab505589",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/design_final/protocol.json": "ebc735f8fd4bd8816111a5ba4344900add9ea7cd175054ba38dd27840da5031b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/acquire.py": "3be252da883f94068057a6429a42a477598631088c0c5059f3bb37001b0a0479",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/adapter.py": "1abaf8360a65021bb0d252793e91c97d7357a02058dfb1c6fc46326f6ae38e5e",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/external/protocol.json": "4150bfa1b418ae12aa6ba17c5e36aaa9911ccc7ff189316962c1e6a23f9b58b8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/protocol.json": "7961afb43d6c19e7752fc6cce4c8ffeef072b801a91c9c3cb23fa32b7b1f1af7",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/run_external.py": "ae22ca00244b4ab5ce13f66a20994c954d0ed605a23119016bb84bb10b0aa666",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_cj_next_20261004/physical/run_physical.py": "bd8f4e5a0081a112c1c1d052cb04e8e889537dcb91bb3f04c921e8f6efaecc7f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_conditional_20261004/copula_control.py": "f9d4c7c931914409c13440a423de9f0460a0796ba71208fd1c35d5e83319657c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_conditional_20261004/run_conditional.py": "9b75cf9e812d3058962cedbda073d15196e84f965f97a18533cb8080057538b5",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_coupling_focus_20261005/dbf/dbf_operator.py": "059070750e1610885ffb9b47660e71a4c17c0d0247029ac3a43579d8256cb05f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_coupling_focus_20261005/dbf/run_dbf.py": "9ab7941ceed0ac3ecd6d1a9c8d26458c359338eb16425241bffb22aed21c88de",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/controls/run_strong_controls.py": "7e375eb9d4bbb7eacbe492cc0191cbb3af06a95c00f8f730a1737d3136b7bec8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/external_author/run_trained_external.py": "27dc4c56a1d32ebabadbf0bcfa20c6132f697fbe8949c9c961bacbf4d6f6838d",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_increment_20261003/cumulant/run_cumulant.py": "3d8f3280770d93d4efa1d2fbef9d4941deb69ecb594ab21b17c6fa330e67f5c2",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_return_20261005/ratio/prospective_v2.py": "eeeeb3668e5fdd46a018d56f5bd82c8236611fbba4065a8cef246d0aa4a132d8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_return_20261005/ratio/run_ratio.py": "8e7b1a2287a7902a74d6afab813bb27b9cb1797810266976c37fcd7ff2167bb0",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/physical_adapter.py": "09bd97f0028582fb394c8794a4b3162959a09d1f817ed2847607cda225c8d3bd",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/run_replay.py": "da316e06203a14a1b51c4e8e7ca99224e4f14eda35fa52bb1661f0c82eada03b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/tail_fusion.py": "73d3425667b9bdfa6ffdff2256aa2efc62d31b8e823df7e1425582be776b75b9",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/verify_tail.py": "65231f3ea83489947fac371540494b18787819101abd6831e91dbe6e0a72f983",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/joint_competitors/conditional_laws.py": "2480a4f73c8369cf0bd171209fd946b2e37e93f2a183a2839b354628b7cbbdb3",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/joint_competitors/run_competitors.py": "3e93e9ac3009dc0633210f3b0dba3ff57993d7b92ce6b7816c07c5e1bffaa016",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/adapter.py": "622220d156bf782006ec91d2b0db5a7d98877e48749d704af796ecb84a70ed53",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/algorithm_choice.json": "ddd4f69c271e9ff3627643d46e46d874953c43d9e281230be6b2f5a9e79b9df2",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/run_physical.py": "19492b0fd438e3438a4daf16d7d23d693217a716667f827ee65962c671d13109",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/sml274/adapter.py": "c9aab33fb3587f217f7b9e3b90f0a4a0509877eb658fc2194f8e803f2473cf60",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/sml274/algorithm_choice.json": "70c465c8fac0edfe217ded5ed5a654c09d281065eea55a34fb9c73df0b824f02",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/sml274/run_physical.py": "542745a0bd8e1c7c97a22c04c9f77c1b429981f133f917a78dc5487cd0d5ddbf",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/sml274/verify_reductions.py": "5e22350144dd1ce1ad14541c2ff652fefc0c3e652bf79283c1bf07d991bcf02e",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/new_physical/verify_reductions.py": "5e22350144dd1ce1ad14541c2ff652fefc0c3e652bf79283c1bf07d991bcf02e",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/external/neural_external.py": "37361a28e6f161684adf332519a7398b50dd3b2d86229101df234ed139d5d07c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/fresh/new_data_adapter.py": "15c32d48e7af7e49309b10a424665f64a47c33314ea286fb0275786042a91a7c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/matrix/factorized/factorized_control.py": "4cf38ffb2b691dab8fb51d79113e83d26681428088e597db00931e935ff1d884",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_strengthening_20261003/matrix/run_matrix_controls.py": "df24d90dd8706c4516dbb312c660cf0e31f09aae9f80aee5e2371ed7a9067f1b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_temporal_20261003/temporal_fusion.py": "811f98531ad3e135ceafbc64152b41ffbf380878cb45a1f7106eb54364157ff0"
+  },
+  "source_count": 58,
+  "declaration_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/mobile755_protocol_proposal.json": "81eb045f0b5e77c59bb8ffdb81c3cc7ec422555b157c0804b3daf0a26599ecd4",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/prior_use_inventory.json": "b07ec008cd96b6da152622523f513f0933d05330ae16ed186cbacd41a082a7eb",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/official_metadata.json": "4b22b99e09313c22c822af669ecb4db771afd494c47d120f0f7d5bf7e6939489",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/physical_mobile755/synthetic_integration_checks.json": "6e1006fcfe0723bf06585220c406244c919b79a4d38b48ced544663015477f9b"
+  },
+  "upstream_closure_sha256": "a389aa006ba503d304c0a1957e4d9300fdf88d7ce0858a6f7132745e8661e431",
+  "arms": [
+    "paired",
+    "pair_factorized",
+    "full_gaussian",
+    "joint_diagonal_kernel",
+    "unconditional",
+    "conditional_moment",
+    "pdf",
+    "qmf",
+    "dbf"
+  ],
+  "native_task": "Standing(stop) versus walking; all native CSV rows, sorted native two-code target vocabulary is schema encoding only",
+  "physical_groups": {
+    "accelerometer": [
+      "accX",
+      "accY",
+      "accZ"
+    ],
+    "gyroscope": [
+      "gyroX",
+      "gyroY",
+      "gyroZ"
+    ]
+  },
+  "context_scope": "One separately collected mobile-phone collection; no participant/site/device ID column. Original ordinal record order, not independently validated calendar/sessions. timestamp is categorical metadata only; no physical lease seconds stated",
+  "partitions": {
+    "fit": [
+      0.0,
+      0.3
+    ],
+    "state_fit": [
+      0.3,
+      0.4
+    ],
+    "score_cal": [
+      0.4,
+      0.5
+    ],
+    "selection": [
+      0.5,
+      0.6
+    ],
+    "test": [
+      0.6,
+      1.0
+    ]
+  },
+  "preprocessing": "No row filtering/resampling/reordering. Fit-only median/missing indicators, scale floor.05, clip8, three causal lags reset at ordinal partition boundaries only; no label-triggered resets or inference of clock units",
+  "numerical_cfg": {
+    "window": 32,
+    "train_fraction": 0.3,
+    "audit_fraction": 0.3,
+    "lr": 0.08,
+    "l2": 0.003,
+    "initial_steps": 500,
+    "probe_steps": 20,
+    "probe_period": 4,
+    "train_buffer": 512,
+    "archive": 48,
+    "beta": 0.97,
+    "prior_mass": 2.0,
+    "kernel_bandwidth": 3.0,
+    "tau": 0.01,
+    "lam": 1.0,
+    "eta": 4.0,
+    "kappa": 0.0,
+    "threshold": 0.0,
+    "horizon": 4,
+    "deploy_fee": 2.0,
+    "deploy_drop": 2,
+    "probe_drop": 1,
+    "step_fee": 0.001,
+    "cooldown": 2,
+    "budget": 8,
+    "delay_low": 1,
+    "delay_high": 4,
+    "cap": 0.8,
+    "target_coverage": 0.9,
+    "source_dropout_period": 13,
+    "source_dropout_length": 2,
+    "quality_power": 1.0,
+    "uncertainty_floor": 1e-12,
+    "prior_variance": 0.01,
+    "lease_archive": 48,
+    "norm_kappa": 1.0,
+    "norm_floor": 0.01,
+    "gate_floor": 0.0001,
+    "prior_sd": 0.1,
+    "q_floor": 1.2815515655446004
+  },
+  "classes": 2,
+  "feature_count": 37,
+  "source_feature_counts": [
+    19,
+    19
+  ],
+  "common_models": "Exact final OPPORTUNITY pipeline source: linear service models; PDF/QMF32tanh tabular physical encoders, fixed known-development rate.2,500 initialsteps and20steps every4windows. DBF uses common PDF probabilities",
+  "model_cost": "Fixed protocol work/interruption units identical to OPPORTUNITY; prefix nonlinear preparation outside scored interval separately reported; no identical-FLOP-price claim",
+  "quality": "Exact strong_prefix_quality on permanently model-excluded hashed FIT error rows of common nonlinear PDF; identical quality across internal controls/DBF; old linear quality retained separately",
+  "legacy_prior": "Held-out FIT chunks populate only original common-precompute descriptive fields. New paired law uses explicit STATE-FIT library and fully matured online tuples",
+  "persistent_state": "STATE-FIT ordinal30\u201340% under canonical171001 once per physical origin; complete maturity by block end required; exact immutable complete lease E=U\u2212anchor and descriptor D=h\u2212anchor",
+  "score_cal": "Dedicated ordinal40\u201350% canonical171001; all nine exact raw pipelines. Immutable mature counterfactual score errors, original final V2 stratification/global48/callback-rank age/conditional prior mass2, emptystratum physical-min fallback",
+  "selection": "Dedicated ordinal50\u201360%, three delays, whole block guarded paid return; same9configs perarm; ties higher probability then largerbandwidth. Strongest calibration-selected non-proposed completepipeline locked beforetest; all co-winners retained",
+  "grids": {
+    "paired": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "pair_factorized": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "full_gaussian": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "joint_diagonal_kernel": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "unconditional": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "conditional_moment": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "pdf": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "qmf": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "dbf": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ]
+  },
+  "configurations_per_pipeline": 9,
+  "scenario_trials_per_pipeline": 27,
+  "calibration_seeds": [
+    171001,
+    171002,
+    171003
+  ],
+  "test_seeds": [
+    172001,
+    172002,
+    172003,
+    172004,
+    172005
+  ],
+  "canonical_prior_seed": 171001,
+  "scientific_method": "Unchanged conditional_pairing.py and conditional_moment_control.py plus immutable_conditional_calibration_v2.py; all full/factor/Gaussian/completeKDE/unconditional/postconditional moment controls retained",
+  "external_scope": "Native active-objective PDF/QMF adapters, DBF2025 fixed published conflict operator; source objectives/operators exactly shared with OPP. Tabular sensor architecture disclosure retained",
+  "service": {
+    "window_records": 32,
+    "horizon_windows": 4,
+    "lease_requests_max": 128,
+    "install_fee": 2,
+    "restore_fee": 1,
+    "extra_interruptions": 2,
+    "conservative_cost": 5,
+    "reserve": 130,
+    "primary_budget": 130
+  },
+  "budgets": [
+    0.0,
+    110.0,
+    130.0,
+    260.0
+  ],
+  "ledger_unit": "Per ordinal physical block and delay chain; no pooled-loss comparison against a single130unit cap",
+  "physical_missing": "Unchanged source mask wrapper: all raw coordinates absent on every current-window row hides that modality; other native missing values receive fit-only imputation/masks; empty forecasts retain reference",
+  "no_test_reselection": true,
+  "all_outcomes_retained": true,
+  "outputs": "Every nine-pipeline trial/tie/loss; actual action-return decomposition, request/fork reconstruction, admitted coverage/excess/negative return, ledger binding, emptystratum suppressed/missed beneficial opportunities, raw/source freeze provenance"
+}

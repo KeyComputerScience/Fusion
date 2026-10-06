@@ -1,0 +1,973 @@
+{
+  "scope": "Strict45-pipeline/5-delay-chain and180-budget-path post-analysis. One ordinal physical collection; no additional independent participant/site claim.",
+  "planned_inventory_verified": true,
+  "freeze_and_selected_sources_unchanged": true,
+  "analysis_hashes_verified": true,
+  "scientific_score_sha256": "74f0dc248453be53aaf740dbf8d2e9d4883c3a37a09acb30532cb614df896161",
+  "freeze_sha256": "3e4a2b8d2605cff65272036bf4277072de51f59ae7fe28fcf1b31455bdbc6f74",
+  "result_sha256": "f3121e01f770a8136d1da4168ced1811ae31d28ac1ce46b446dd60c42840e24d",
+  "risk_report_sha256": "39860a9c24c2af56aaf775f68c622862a13ea1d46a1ae238afb9670a0ceb833a",
+  "analysis_source_sha256": "29090dfacba8757a162187a531b66da2c7c44e9adcfea11140d2778a738a6140",
+  "pipeline_count": 9,
+  "chain_count": 5,
+  "primary_risk_error_per_endpoint": 0.0002777777777777778,
+  "primary": {
+    "conditional_moment": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "dbf": {
+      "mean_increment": -3.0,
+      "seed_increments": {
+        "172001": -9.0,
+        "172002": -6.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "informative": {
+          "covered": 10,
+          "total": 19,
+          "rate": 0.5263157894736842
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "rate": 0.0
+        }
+      },
+      "admissions": 2,
+      "beneficial": 0,
+      "harmful": 2,
+      "zero": 0,
+      "negative_loss": 15.0,
+      "max_chain_negative_loss": 9.0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "excess_max": 11.60321430920402,
+      "excess_sum": 19.95937961964396,
+      "excess_mean": 9.97968980982198,
+      "empty_stratum_issued": 5,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "full_gaussian": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 488,
+          "total": 500,
+          "rate": 0.976
+        },
+        "ready": {
+          "covered": 268,
+          "total": 280,
+          "rate": 0.9571428571428572
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "joint_diagonal_kernel": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "pair_factorized": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "paired": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 269,
+          "total": 280,
+          "rate": 0.9607142857142857
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "pdf": {
+      "mean_increment": -3.0,
+      "seed_increments": {
+        "172001": -9.0,
+        "172002": -6.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "informative": {
+          "covered": 10,
+          "total": 19,
+          "rate": 0.5263157894736842
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "rate": 0.0
+        }
+      },
+      "admissions": 2,
+      "beneficial": 0,
+      "harmful": 2,
+      "zero": 0,
+      "negative_loss": 15.0,
+      "max_chain_negative_loss": 9.0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "excess_max": 14.527165698287627,
+      "excess_sum": 24.780590848228883,
+      "excess_mean": 12.390295424114441,
+      "empty_stratum_issued": 5,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "qmf": {
+      "mean_increment": -3.0,
+      "seed_increments": {
+        "172001": -9.0,
+        "172002": -6.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "ready": {
+          "covered": 489,
+          "total": 500,
+          "rate": 0.978
+        },
+        "informative": {
+          "covered": 10,
+          "total": 19,
+          "rate": 0.5263157894736842
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 2,
+          "rate": 0.0
+        }
+      },
+      "admissions": 2,
+      "beneficial": 0,
+      "harmful": 2,
+      "zero": 0,
+      "negative_loss": 15.0,
+      "max_chain_negative_loss": 9.0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "excess_max": 13.033590725433237,
+      "excess_sum": 22.843976271542353,
+      "excess_mean": 11.421988135771176,
+      "empty_stratum_issued": 5,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    },
+    "unconditional": {
+      "mean_increment": 0.0,
+      "seed_increments": {
+        "172001": 0.0,
+        "172002": 0.0,
+        "172003": 0.0,
+        "172004": 0.0,
+        "172005": 0.0
+      },
+      "coverage": {
+        "issued": {
+          "covered": 488,
+          "total": 500,
+          "rate": 0.976
+        },
+        "ready": {
+          "covered": 268,
+          "total": 280,
+          "rate": 0.9571428571428572
+        },
+        "informative": {
+          "covered": 14,
+          "total": 19,
+          "rate": 0.7368421052631579
+        },
+        "admitted": {
+          "covered": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "max_chain_negative_loss": 0,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 0.0,
+      "excess_max": 0.0,
+      "excess_sum": 0,
+      "excess_mean": null,
+      "empty_stratum_issued": 106,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "descriptive_only": true
+    }
+  },
+  "budget": {
+    "0.0": {
+      "paired": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pair_factorized": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "full_gaussian": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "joint_diagonal_kernel": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "unconditional": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "conditional_moment": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pdf": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 2,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "qmf": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 2,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "dbf": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 2,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      }
+    },
+    "110.0": {
+      "paired": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pair_factorized": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "full_gaussian": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "joint_diagonal_kernel": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "unconditional": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "conditional_moment": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pdf": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 2,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "qmf": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 2,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "dbf": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 2,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      }
+    },
+    "130.0": {
+      "paired": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pair_factorized": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "full_gaussian": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "joint_diagonal_kernel": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "unconditional": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "conditional_moment": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pdf": {
+        "mean_increment": -3.0,
+        "admissions": 2,
+        "harmful": 2,
+        "beneficial": 0,
+        "negative_loss": 15.0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 9.0,
+        "max_spent_plus_pending": 130.0
+      },
+      "qmf": {
+        "mean_increment": -3.0,
+        "admissions": 2,
+        "harmful": 2,
+        "beneficial": 0,
+        "negative_loss": 15.0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 9.0,
+        "max_spent_plus_pending": 130.0
+      },
+      "dbf": {
+        "mean_increment": -3.0,
+        "admissions": 2,
+        "harmful": 2,
+        "beneficial": 0,
+        "negative_loss": 15.0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 9.0,
+        "max_spent_plus_pending": 130.0
+      }
+    },
+    "260.0": {
+      "paired": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pair_factorized": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "full_gaussian": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "joint_diagonal_kernel": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "unconditional": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "conditional_moment": {
+        "mean_increment": 0.0,
+        "admissions": 0,
+        "harmful": 0,
+        "beneficial": 0,
+        "negative_loss": 0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 0,
+        "max_spent_plus_pending": 0.0
+      },
+      "pdf": {
+        "mean_increment": -3.0,
+        "admissions": 2,
+        "harmful": 2,
+        "beneficial": 0,
+        "negative_loss": 15.0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 9.0,
+        "max_spent_plus_pending": 130.0
+      },
+      "qmf": {
+        "mean_increment": -3.0,
+        "admissions": 2,
+        "harmful": 2,
+        "beneficial": 0,
+        "negative_loss": 15.0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 9.0,
+        "max_spent_plus_pending": 130.0
+      },
+      "dbf": {
+        "mean_increment": -3.0,
+        "admissions": 2,
+        "harmful": 2,
+        "beneficial": 0,
+        "negative_loss": 15.0,
+        "guard_refusals": 0,
+        "max_chain_negative_loss": 9.0,
+        "max_spent_plus_pending": 130.0
+      }
+    }
+  },
+  "initial_evidence_and_readiness": {
+    "paired": {
+      "state_fit_library_count": 0,
+      "score_fit_pool_count": 0,
+      "first_issue_ready": 0,
+      "first_issue_empty_stratum": 5,
+      "all_chain_initial_pool_counts": [
+        0
+      ],
+      "first_ready_origins": {
+        "172001": 76,
+        "172002": 76,
+        "172003": 76,
+        "172004": 76,
+        "172005": 76
+      }
+    },
+    "pair_factorized": {
+      "state_fit_library_count": 0,
+      "score_fit_pool_count": 0,
+      "first_issue_ready": 0,
+      "first_issue_empty_stratum": 5,
+      "all_chain_initial_pool_counts": [
+        0
+      ],
+      "first_ready_origins": {
+        "172001": 76,
+        "172002": 76,
+        "172003": 76,
+        "172004": 76,
+        "172005": 76
+      }
+    },
+    "full_gaussian": {
+      "state_fit_library_count": 0,
+      "score_fit_pool_count": 0,
+      "first_issue_ready": 0,
+      "first_issue_empty_stratum": 5,
+      "all_chain_initial_pool_counts": [
+        0
+      ],
+      "first_ready_origins": {
+        "172001": 76,
+        "172002": 76,
+        "172003": 76,
+        "172004": 76,
+        "172005": 76
+      }
+    },
+    "joint_diagonal_kernel": {
+      "state_fit_library_count": 0,
+      "score_fit_pool_count": 0,
+      "first_issue_ready": 0,
+      "first_issue_empty_stratum": 5,
+      "all_chain_initial_pool_counts": [
+        0
+      ],
+      "first_ready_origins": {
+        "172001": 76,
+        "172002": 76,
+        "172003": 76,
+        "172004": 76,
+        "172005": 76
+      }
+    },
+    "unconditional": {
+      "state_fit_library_count": 0,
+      "score_fit_pool_count": 0,
+      "first_issue_ready": 0,
+      "first_issue_empty_stratum": 5,
+      "all_chain_initial_pool_counts": [
+        0
+      ],
+      "first_ready_origins": {
+        "172001": 76,
+        "172002": 76,
+        "172003": 76,
+        "172004": 76,
+        "172005": 76
+      }
+    },
+    "conditional_moment": {
+      "state_fit_library_count": 0,
+      "score_fit_pool_count": 0,
+      "first_issue_ready": 0,
+      "first_issue_empty_stratum": 5,
+      "all_chain_initial_pool_counts": [
+        0
+      ],
+      "first_ready_origins": {
+        "172001": 76,
+        "172002": 76,
+        "172003": 76,
+        "172004": 76,
+        "172005": 76
+      }
+    },
+    "pdf": {
+      "state_fit_library_count": null,
+      "score_fit_pool_count": 24,
+      "first_issue_ready": 5,
+      "first_issue_empty_stratum": 0,
+      "all_chain_initial_pool_counts": [
+        24
+      ],
+      "first_ready_origins": {
+        "172001": 0,
+        "172002": 0,
+        "172003": 0,
+        "172004": 0,
+        "172005": 0
+      }
+    },
+    "qmf": {
+      "state_fit_library_count": null,
+      "score_fit_pool_count": 24,
+      "first_issue_ready": 5,
+      "first_issue_empty_stratum": 0,
+      "all_chain_initial_pool_counts": [
+        24
+      ],
+      "first_ready_origins": {
+        "172001": 0,
+        "172002": 0,
+        "172003": 0,
+        "172004": 0,
+        "172005": 0
+      }
+    },
+    "dbf": {
+      "state_fit_library_count": null,
+      "score_fit_pool_count": 24,
+      "first_issue_ready": 5,
+      "first_issue_empty_stratum": 0,
+      "all_chain_initial_pool_counts": [
+        24
+      ],
+      "first_ready_origins": {
+        "172001": 0,
+        "172002": 0,
+        "172003": 0,
+        "172004": 0,
+        "172005": 0
+      }
+    }
+  }
+}
