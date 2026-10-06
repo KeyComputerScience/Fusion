@@ -1,0 +1,622 @@
+{
+  "rss": {
+    "joint_ready": {
+      "mean_increment": 22.4,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "admissions": 13,
+      "beneficial": 10,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        9,
+        13
+      ],
+      "max_excess": 11.114895855688292,
+      "sum_excess": 37.980065757195646,
+      "binomial_reference_upper": 0.5726193394082125,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "joint_admitted": {
+      "mean_increment": 22.4,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        41.0,
+        9.0
+      ],
+      "admissions": 13,
+      "beneficial": 10,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        9,
+        13
+      ],
+      "max_excess": 11.197298089577016,
+      "sum_excess": 38.22727245886182,
+      "binomial_reference_upper": 0.5726193394082125,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "marginal_ready": {
+      "mean_increment": 16.0,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        9.0,
+        9.0
+      ],
+      "admissions": 11,
+      "beneficial": 8,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        7,
+        11
+      ],
+      "max_excess": 9.796631686845544,
+      "sum_excess": 35.35374483447509,
+      "binomial_reference_upper": 0.6501884654280827,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "marginal_admitted": {
+      "mean_increment": 16.0,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        9.0,
+        9.0
+      ],
+      "admissions": 11,
+      "beneficial": 8,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        7,
+        11
+      ],
+      "max_excess": 9.796631686845544,
+      "sum_excess": 35.50160974538151,
+      "binomial_reference_upper": 0.6501884654280827,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "factorized_ready": {
+      "mean_increment": 16.8,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 12,
+      "beneficial": 9,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        8,
+        12
+      ],
+      "max_excess": 8.564573323543197,
+      "sum_excess": 31.091118739724486,
+      "binomial_reference_upper": 0.6091376982290369,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "factorized_admitted": {
+      "mean_increment": 16.8,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 12,
+      "beneficial": 9,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        8,
+        12
+      ],
+      "max_excess": 8.614334453528187,
+      "sum_excess": 31.240402129679453,
+      "binomial_reference_upper": 0.6091376982290369,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "gaussian_ready": {
+      "mean_increment": 16.8,
+      "seed_increments": [
+        9.0,
+        38.0,
+        15.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 12,
+      "beneficial": 9,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        5,
+        12
+      ],
+      "max_excess": 10.355736068878683,
+      "sum_excess": 38.35071353672578,
+      "binomial_reference_upper": 0.8189752427576791,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "gaussian_admitted": {
+      "mean_increment": 15.6,
+      "seed_increments": [
+        9.0,
+        38.0,
+        9.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 11,
+      "beneficial": 8,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        4,
+        11
+      ],
+      "max_excess": 10.355736068878683,
+      "sum_excess": 37.715049941379746,
+      "binomial_reference_upper": 0.8649245270803588,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "sandwich_ready": {
+      "mean_increment": 15.6,
+      "seed_increments": [
+        9.0,
+        38.0,
+        9.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 11,
+      "beneficial": 8,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        5,
+        11
+      ],
+      "max_excess": 9.742479042101738,
+      "sum_excess": 35.41549406293788,
+      "binomial_reference_upper": 0.8004238501161633,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "sandwich_admitted": {
+      "mean_increment": 15.6,
+      "seed_increments": [
+        9.0,
+        38.0,
+        9.0,
+        13.0,
+        9.0
+      ],
+      "admissions": 11,
+      "beneficial": 8,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        5,
+        11
+      ],
+      "max_excess": 9.78290877331988,
+      "sum_excess": 35.97676576403348,
+      "binomial_reference_upper": 0.8004238501161633,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_factorized_ready": {
+      "mean_increment": 44.8,
+      "seed_increments": [
+        31.0,
+        76.0,
+        47.0,
+        41.0,
+        29.0
+      ],
+      "admissions": 14,
+      "beneficial": 13,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        8,
+        14
+      ],
+      "max_excess": 3.4773914579999463,
+      "sum_excess": 9.79219077114221,
+      "binomial_reference_upper": 0.674971518396225,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_factorized_admitted": {
+      "mean_increment": 44.8,
+      "seed_increments": [
+        31.0,
+        76.0,
+        47.0,
+        41.0,
+        29.0
+      ],
+      "admissions": 14,
+      "beneficial": 13,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        8,
+        14
+      ],
+      "max_excess": 3.4773914579999463,
+      "sum_excess": 9.79219077114221,
+      "binomial_reference_upper": 0.674971518396225,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_sandwich_ready": {
+      "mean_increment": 43.2,
+      "seed_increments": [
+        31.0,
+        76.0,
+        59.0,
+        41.0,
+        9.0
+      ],
+      "admissions": 17,
+      "beneficial": 14,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        8,
+        17
+      ],
+      "max_excess": 7.638061878100814,
+      "sum_excess": 42.00439935535246,
+      "binomial_reference_upper": 0.7398855796198106,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_sandwich_admitted": {
+      "mean_increment": 44.4,
+      "seed_increments": [
+        37.0,
+        76.0,
+        59.0,
+        41.0,
+        9.0
+      ],
+      "admissions": 18,
+      "beneficial": 15,
+      "harmful": 1,
+      "negative_loss": 1.0,
+      "admitted_coverage": [
+        9,
+        18
+      ],
+      "max_excess": 9.696494373807717,
+      "sum_excess": 47.937026899991665,
+      "binomial_reference_upper": 0.7087989244732057,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    }
+  },
+  "gas": {
+    "joint_ready": {
+      "mean_increment": 783.6,
+      "seed_increments": [
+        922.0,
+        928.0,
+        951.0,
+        301.0,
+        816.0
+      ],
+      "admissions": 47,
+      "beneficial": 38,
+      "harmful": 9,
+      "negative_loss": 45.0,
+      "admitted_coverage": [
+        38,
+        47
+      ],
+      "max_excess": 12.755385156647185,
+      "sum_excess": 82.13658257976911,
+      "binomial_reference_upper": 0.310371529689293,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "joint_admitted": {
+      "mean_increment": 783.6,
+      "seed_increments": [
+        922.0,
+        928.0,
+        951.0,
+        301.0,
+        816.0
+      ],
+      "admissions": 47,
+      "beneficial": 38,
+      "harmful": 9,
+      "negative_loss": 45.0,
+      "admitted_coverage": [
+        38,
+        47
+      ],
+      "max_excess": 12.755385156647185,
+      "sum_excess": 82.13658257976911,
+      "binomial_reference_upper": 0.310371529689293,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "marginal_ready": {
+      "mean_increment": 783.6,
+      "seed_increments": [
+        922.0,
+        928.0,
+        951.0,
+        301.0,
+        816.0
+      ],
+      "admissions": 47,
+      "beneficial": 38,
+      "harmful": 9,
+      "negative_loss": 45.0,
+      "admitted_coverage": [
+        38,
+        47
+      ],
+      "max_excess": 12.756205649136733,
+      "sum_excess": 82.14393512217852,
+      "binomial_reference_upper": 0.310371529689293,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "marginal_admitted": {
+      "mean_increment": 783.6,
+      "seed_increments": [
+        922.0,
+        928.0,
+        951.0,
+        301.0,
+        816.0
+      ],
+      "admissions": 47,
+      "beneficial": 38,
+      "harmful": 9,
+      "negative_loss": 45.0,
+      "admitted_coverage": [
+        38,
+        47
+      ],
+      "max_excess": 12.756205649136733,
+      "sum_excess": 82.14393512217852,
+      "binomial_reference_upper": 0.310371529689293,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "factorized_ready": {
+      "mean_increment": 783.6,
+      "seed_increments": [
+        922.0,
+        928.0,
+        951.0,
+        301.0,
+        816.0
+      ],
+      "admissions": 47,
+      "beneficial": 38,
+      "harmful": 9,
+      "negative_loss": 45.0,
+      "admitted_coverage": [
+        38,
+        47
+      ],
+      "max_excess": 12.756205649136739,
+      "sum_excess": 82.14393512217856,
+      "binomial_reference_upper": 0.310371529689293,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "factorized_admitted": {
+      "mean_increment": 783.6,
+      "seed_increments": [
+        922.0,
+        928.0,
+        951.0,
+        301.0,
+        816.0
+      ],
+      "admissions": 47,
+      "beneficial": 38,
+      "harmful": 9,
+      "negative_loss": 45.0,
+      "admitted_coverage": [
+        38,
+        47
+      ],
+      "max_excess": 12.756205649136739,
+      "sum_excess": 82.14393512217856,
+      "binomial_reference_upper": 0.310371529689293,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "gaussian_ready": {
+      "mean_increment": 841.4,
+      "seed_increments": [
+        1054.0,
+        938.0,
+        961.0,
+        301.0,
+        953.0
+      ],
+      "admissions": 40,
+      "beneficial": 40,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        38,
+        40
+      ],
+      "max_excess": 0.6452488309683027,
+      "sum_excess": 0.8993727818620165,
+      "binomial_reference_upper": 0.149151961273213,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "gaussian_admitted": {
+      "mean_increment": 841.4,
+      "seed_increments": [
+        1054.0,
+        938.0,
+        961.0,
+        301.0,
+        953.0
+      ],
+      "admissions": 40,
+      "beneficial": 40,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        38,
+        40
+      ],
+      "max_excess": 0.6452488309683027,
+      "sum_excess": 0.8993727818620165,
+      "binomial_reference_upper": 0.149151961273213,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "sandwich_ready": {
+      "mean_increment": 841.4,
+      "seed_increments": [
+        1054.0,
+        938.0,
+        961.0,
+        301.0,
+        953.0
+      ],
+      "admissions": 40,
+      "beneficial": 40,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        38,
+        40
+      ],
+      "max_excess": 0.9536000942233294,
+      "sum_excess": 1.4810131431066118,
+      "binomial_reference_upper": 0.149151961273213,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "sandwich_admitted": {
+      "mean_increment": 841.4,
+      "seed_increments": [
+        1054.0,
+        938.0,
+        961.0,
+        301.0,
+        953.0
+      ],
+      "admissions": 40,
+      "beneficial": 40,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        38,
+        40
+      ],
+      "max_excess": 0.9536000942233294,
+      "sum_excess": 1.4810131431066118,
+      "binomial_reference_upper": 0.149151961273213,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_factorized_ready": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "max_excess": 14.503862896300582,
+      "sum_excess": 29.206483305810444,
+      "binomial_reference_upper": 0.16338838109952256,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_factorized_admitted": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "max_excess": 14.503862896300582,
+      "sum_excess": 29.206483305810444,
+      "binomial_reference_upper": 0.16338838109952256,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_sandwich_ready": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "max_excess": 19.25921623784351,
+      "sum_excess": 41.26258923187158,
+      "binomial_reference_upper": 0.16338838109952256,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    },
+    "legacy_sandwich_admitted": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "max_excess": 19.25921623784351,
+      "sum_excess": 41.26258923187158,
+      "binomial_reference_upper": 0.16338838109952256,
+      "reference_scope": "numerical IID binomial feasibility only; repeated physical records and adaptive scores do not satisfy its assumptions"
+    }
+  }
+}

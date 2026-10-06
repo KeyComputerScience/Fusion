@@ -1,0 +1,43 @@
+{
+  "zero_failure_fixed": 30,
+  "zero_failure_nine": 52,
+  "delayed_prefix_gap": {
+    "issued": 2,
+    "completed_origin_prefix": 2,
+    "pending_origins": 0,
+    "totals": {
+      "violation": 0.0,
+      "harmful": 0.0,
+      "excess": 0.0,
+      "negative_loss": 0.0
+    },
+    "completed_prefix_average_conditional_risk_upper": {
+      "violation": 1.0,
+      "harmful": 1.0,
+      "excess": 1.0,
+      "negative_loss": 1.0
+    },
+    "issued_prefix_average_conditional_risk_upper": {
+      "violation": 1.0,
+      "harmful": 1.0,
+      "excess": 1.0,
+      "negative_loss": 1.0
+    }
+  },
+  "10": {
+    "1": 0.2996737567013355,
+    "9": 0.5194699478428407
+  },
+  "30": {
+    "1": 0.09989125223377851,
+    "9": 0.17315664928094693
+  },
+  "52": {
+    "1": 0.05762956859641068,
+    "9": 0.09989806689285399
+  },
+  "100": {
+    "1": 0.029967375670133554,
+    "9": 0.05194699478428408
+  }
+}

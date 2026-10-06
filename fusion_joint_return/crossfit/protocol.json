@@ -1,0 +1,229 @@
+{
+  "utc": "2026-10-05T11:24:10.514234+00:00",
+  "status": "KNOWN RSS/UCI308 DEVELOPMENT: target-dependent permanent-heldout current-contrast law; not independent physical confirmation",
+  "source_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/audit_canary_execution.py": "5f6c6ec9448913d923066afac07f69b4e3ba5518c81c7e918484aa5bb8561b49",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/cached_runner.py": "53443799ca051f7c24b60c8d1346ecbed8d5df9c48bfb5f84e17de5378788208",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/independent_bayes_extension.py": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/independent_bayes_fusion.py": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/new_data_adapter.py": "15c32d48e7af7e49309b10a424665f64a47c33314ea286fb0275786042a91a7c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/run_recovery_external.py": "638ba60c15998266d1a0f61baf47515c87a8a61670117d27005d103acf2d947f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/run_recovery_fusion.py": "81cdadbe726909573e63e1cf78670e6f1abfb75ec21559ad9ada5a5ca13ff3c0",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/external_fusion_validation_20261002/run_external_pdf.py": "50dbfaa37d89ff97975bc61cdd1ec4b6afc9de63cfea199c21ec02068dc3c517",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/controls/run_strong_controls.py": "7e375eb9d4bbb7eacbe492cc0191cbb3af06a95c00f8f730a1737d3136b7bec8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_return_20261005/crossfit/joint_return.py": "e6cbc0a115aecd9ee9720b4be9268cca32ef5a9d72977c994b0409cca5c65089",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_return_20261005/crossfit/run_return.py": "1b0e451ab0a4480c38382306f4ee6a4d545bb20e5e31298d34c8bbd23be659c7",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/physical_adapter.py": "09bd97f0028582fb394c8794a4b3162959a09d1f817ed2847607cda225c8d3bd",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/run_replay.py": "da316e06203a14a1b51c4e8e7ca99224e4f14eda35fa52bb1661f0c82eada03b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/tail_fusion.py": "73d3425667b9bdfa6ffdff2256aa2efc62d31b8e823df7e1425582be776b75b9"
+  },
+  "data_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_temporal_20261003/physical/data/rss348/cache_metadata.json": "3e625263856d18afe0b84b09607fca727018b15ab6c8c7092fa3b5a37b813b28",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_temporal_20261003/physical/data/rss348/cached_dataset.npz": "533050d96200e8b93d85a391207096b48df8a57b0d9102ef724a2f730090af8b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_acceptance_20261005/physical/data/cached_dataset.npz": "5fb84c92bbbad91eb48a16752b6ad1c0dbe941249f7709c47c89ea9db8d5740c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_acceptance_20261005/physical/data/cache_metadata.json": "b284c24ae9dd1ebb2d429f76612a332ab0dbd8c1e00d24d2aac7f4fe81bed4fe"
+  },
+  "arms": [
+    "return_joint",
+    "return_factorized",
+    "return_gaussian"
+  ],
+  "grids": {
+    "return_joint": [
+      {
+        "b_return": 0.25,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.25,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.25,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      }
+    ],
+    "return_factorized": [
+      {
+        "b_return": 0.25,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.25,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.25,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      }
+    ],
+    "return_gaussian": [
+      {
+        "b_return": 0.25,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.25,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.25,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 0.5,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 0.25,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 0.5,
+        "cap": 1.0
+      },
+      {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      }
+    ]
+  },
+  "configurations_per_arm": 9,
+  "calibration_seeds": {
+    "rss": [
+      87001,
+      87002,
+      87003
+    ],
+    "gas": [
+      142001,
+      142002,
+      142003
+    ]
+  },
+  "development_seeds": {
+    "rss": [
+      88001,
+      88002,
+      88003,
+      88004,
+      88005
+    ],
+    "gas": [
+      143001,
+      143002,
+      143003,
+      143004,
+      143005
+    ]
+  },
+  "shared": "same current issued h, active source masks, complete lease permanent-heldout current-contrast h/U, physical context, prefix quality, age weights, archive48, model versions/work, delayed complete targets, Fixed130/B130 ledger",
+  "law": "p(U,H) as Gaussian-smoothed paired immutable complete-lease observations; condition H=h; U truncated[-1,1]; N*LT_alpha(U|h)-5",
+  "labels": "current-model complete-horizon U and immutable source forecasts projected only on permanent hash audit rows; every candidate update excludes these rows; target estimate is normalized by observed audit positions and requires representativeness; calibration uses exact actual full-lease targets",
+  "missing": "all U matured, only present forecast H observed; Gaussian Schur completion over [U,H_observed] with explicit uncertainty, complete-block covariance ridge",
+  "prior": "one zero Gaussian atom mass2, U variance.01, H variance.01*meanquality/quality; Gaussian working prior, not true physical law",
+  "kernel": "Scott neff^(-2/(m+5))*D(moment+prior)D; Ddiag(b_return,b_source,..); all3arms identical joint moments/atoms",
+  "reductions": "factorization exact f(U,H_s) and f_U marginals combined prod_s f(U,H_s)/f_U(U)^(m-1); matrix single full Gaussian matching all [U,H] moments",
+  "calibration": "same original empirical firsthalf mature ready <=10% violation alpha fit,35 bisections; same ready-only alpha update .02; not conditional coverage certificate",
+  "selection": "guarded complete actual secondhalf net/3 original calibration schedules; ties larger source then return bandwidth",
+  "budgets": [
+    0.0,
+    110.0,
+    130.0,
+    260.0
+  ],
+  "primary_budget": 130.0,
+  "reserve": 130.0,
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.3.5"
+  },
+  "limitations": [
+    "all underlying traces known development data",
+    "Gaussian smoothing and missing completion are working models",
+    "no universal profit or actual-admission coverage assumed"
+  ]
+}
