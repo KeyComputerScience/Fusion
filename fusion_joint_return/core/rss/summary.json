@@ -1,0 +1,773 @@
+{
+  "summary": {
+    "return_joint": {
+      "seed_increments": [
+        0.0,
+        25.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_increment": 5.0,
+      "per_admission_actual_net": 25.0,
+      "admissions": 1,
+      "beneficial": 1,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "coverage": {
+        "issued": [
+          191,
+          210
+        ],
+        "ready": [
+          156,
+          175
+        ],
+        "admitted": [
+          1,
+          1
+        ]
+      },
+      "admitted_max_excess": 0.0,
+      "admitted_total_excess": 0.0,
+      "refused": 0,
+      "positive_outcome_certificate": 0.17838612590063557
+    },
+    "return_factorized": {
+      "seed_increments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_increment": 0.0,
+      "per_admission_actual_net": null,
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "coverage": {
+        "issued": [
+          192,
+          210
+        ],
+        "ready": [
+          157,
+          175
+        ],
+        "admitted": [
+          0,
+          0
+        ]
+      },
+      "admitted_max_excess": 0.0,
+      "admitted_total_excess": 0,
+      "refused": 0,
+      "positive_outcome_certificate": 0.0
+    },
+    "return_gaussian": {
+      "seed_increments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_increment": 0.0,
+      "per_admission_actual_net": null,
+      "admissions": 0,
+      "beneficial": 0,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0,
+      "coverage": {
+        "issued": [
+          192,
+          210
+        ],
+        "ready": [
+          157,
+          175
+        ],
+        "admitted": [
+          0,
+          0
+        ]
+      },
+      "admitted_max_excess": 0.0,
+      "admitted_total_excess": 0,
+      "refused": 0,
+      "positive_outcome_certificate": 0.0
+    }
+  },
+  "budget_summary": {
+    "0.0": {
+      "return_joint": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            191,
+            210
+          ],
+          "ready": [
+            156,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 1,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      }
+    },
+    "110.0": {
+      "return_joint": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            191,
+            210
+          ],
+          "ready": [
+            156,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 1,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      }
+    },
+    "130.0": {
+      "return_joint": {
+        "seed_increments": [
+          0.0,
+          25.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 5.0,
+        "per_admission_actual_net": 25.0,
+        "admissions": 1,
+        "beneficial": 1,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0.0,
+        "coverage": {
+          "issued": [
+            191,
+            210
+          ],
+          "ready": [
+            156,
+            175
+          ],
+          "admitted": [
+            1,
+            1
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0.0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.17838612590063557
+      },
+      "return_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      }
+    },
+    "260.0": {
+      "return_joint": {
+        "seed_increments": [
+          0.0,
+          25.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 5.0,
+        "per_admission_actual_net": 25.0,
+        "admissions": 1,
+        "beneficial": 1,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0.0,
+        "coverage": {
+          "issued": [
+            191,
+            210
+          ],
+          "ready": [
+            156,
+            175
+          ],
+          "admitted": [
+            1,
+            1
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0.0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.17838612590063557
+      },
+      "return_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            192,
+            210
+          ],
+          "ready": [
+            157,
+            175
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 0,
+        "positive_outcome_certificate": 0.0
+      }
+    }
+  },
+  "decomposition": {
+    "return_factorized": {
+      "terms": {
+        "added_gain": {
+          "count": 1,
+          "value": 25.0
+        },
+        "avoided_loss": {
+          "count": 0,
+          "value": 0.0
+        },
+        "missed_gain": {
+          "count": 0,
+          "value": 0.0
+        },
+        "incurred_loss": {
+          "count": 0,
+          "value": 0.0
+        }
+      },
+      "zero_changes": 0,
+      "changed_actions": [
+        {
+          "recording": "rss348",
+          "seed": 88002,
+          "k": 84,
+          "actual_net": 25.0,
+          "joint_action": true,
+          "competitor_action": false,
+          "joint_score": 0.8919306295031779,
+          "competitor_score": -0.9012548267977678
+        }
+      ],
+      "pooled_difference": 25.0,
+      "mean_difference": 5.0
+    },
+    "return_gaussian": {
+      "terms": {
+        "added_gain": {
+          "count": 1,
+          "value": 25.0
+        },
+        "avoided_loss": {
+          "count": 0,
+          "value": 0.0
+        },
+        "missed_gain": {
+          "count": 0,
+          "value": 0.0
+        },
+        "incurred_loss": {
+          "count": 0,
+          "value": 0.0
+        }
+      },
+      "zero_changes": 0,
+      "changed_actions": [
+        {
+          "recording": "rss348",
+          "seed": 88002,
+          "k": 84,
+          "actual_net": 25.0,
+          "joint_action": true,
+          "competitor_action": false,
+          "joint_score": 0.8919306295031779,
+          "competitor_score": -1.5637564068233245
+        }
+      ],
+      "pooled_difference": 25.0,
+      "mean_difference": 5.0
+    }
+  },
+  "selected": {
+    "return_joint": {
+      "arm": "return_joint",
+      "config": {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      "alpha_initial": 0.9735164580883489,
+      "fit_count": 51,
+      "fit_violations": 5,
+      "net": 0.0
+    },
+    "return_factorized": {
+      "arm": "return_factorized",
+      "config": {
+        "b_return": 0.5,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      "alpha_initial": 0.9620001258337694,
+      "fit_count": 51,
+      "fit_violations": 5,
+      "net": 0.0
+    },
+    "return_gaussian": {
+      "arm": "return_gaussian",
+      "config": {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      "alpha_initial": 0.9782206141356178,
+      "fit_count": 51,
+      "fit_violations": 5,
+      "net": -4.0
+    }
+  },
+  "max_service_error": 0.0,
+  "target_checks": [
+    {
+      "arm": "return_joint",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88001,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88001,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88001,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_joint",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88002,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88002,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88002,
+      "forks": 42,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "return_joint",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88003,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88003,
+      "forks": 42,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88003,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_joint",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88004,
+      "forks": 42,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88004,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88004,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_joint",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88005,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88005,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "rss348",
+      "batch": "known-rss3",
+      "seed": 88005,
+      "forks": 42,
+      "maximum_error": 8.881784197001252e-16
+    }
+  ],
+  "max_calibration_identity": 1.7763568394002505e-15,
+  "numerical": {
+    "max_quadrature_error": 9.95003499856817e-07,
+    "max_nodes": 16384,
+    "nonconverged": 0
+  },
+  "cache": {
+    "hits": 20,
+    "misses": 5,
+    "bypasses": 1025,
+    "retained": 5,
+    "train_seconds": 0.006420000980142504,
+    "hash_seconds": 0.0017785840173019096,
+    "first_hit_bitwise_recomputed": true,
+    "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+  }
+}

@@ -1,0 +1,6 @@
+TEST rss rss348 88001
+TEST rss rss348 88002
+TEST rss rss348 88003
+TEST rss rss348 88004
+TEST rss rss348 88005
+SUMMARY rss {'return_joint': {'seed_increments': [0.0, 25.0, 0.0, 0.0, 0.0], 'mean_increment': 5.0, 'per_admission_actual_net': 25.0, 'admissions': 1, 'beneficial': 1, 'harmful': 0, 'zero': 0, 'negative_loss': 0.0, 'coverage': {'issued': [191, 210], 'ready': [156, 175], 'admitted': [1, 1]}, 'admitted_max_excess': 0.0, 'admitted_total_excess': 0.0, 'refused': 0, 'positive_outcome_certificate': 0.17838612590063557}, 'return_factorized': {'seed_increments': [0.0, 0.0, 0.0, 0.0, 0.0], 'mean_increment': 0.0, 'per_admission_actual_net': None, 'admissions': 0, 'beneficial': 0, 'harmful': 0, 'zero': 0, 'negative_loss': 0, 'coverage': {'issued': [192, 210], 'ready': [157, 175], 'admitted': [0, 0]}, 'admitted_max_excess': 0.0, 'admitted_total_excess': 0, 'refused': 0, 'positive_outcome_certificate': 0.0}, 'return_gaussian': {'seed_increments': [0.0, 0.0, 0.0, 0.0, 0.0], 'mean_increment': 0.0, 'per_admission_actual_net': None, 'admissions': 0, 'beneficial': 0, 'harmful': 0, 'zero': 0, 'negative_loss': 0, 'coverage': {'issued': [192, 210], 'ready': [157, 175], 'admitted': [0, 0]}, 'admitted_max_excess': 0.0, 'admitted_total_excess': 0, 'refused': 0, 'positive_outcome_certificate': 0.0}}

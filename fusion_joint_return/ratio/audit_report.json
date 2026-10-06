@@ -1,0 +1,260 @@
+{
+  "audit": {
+    "rss": {
+      "policy_trajectories": 25,
+      "new_ratio_forks": 840,
+      "max_target_error": 3.552713678800501e-15,
+      "max_service_error": 0.0,
+      "selected_all_zero": true,
+      "summary": {
+        "paired": {
+          "mean_increment": 44.8,
+          "seed_increments": [
+            31.0,
+            76.0,
+            47.0,
+            41.0,
+            29.0
+          ],
+          "admissions": 14,
+          "beneficial": 13,
+          "harmful": 0,
+          "zero": 1,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            8,
+            14
+          ],
+          "admitted_max_excess": 3.4773914579999463,
+          "admitted_total_excess": 9.792190771142185
+        },
+        "marginal": {
+          "mean_increment": 44.8,
+          "seed_increments": [
+            31.0,
+            76.0,
+            47.0,
+            41.0,
+            29.0
+          ],
+          "admissions": 14,
+          "beneficial": 13,
+          "harmful": 0,
+          "zero": 1,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            8,
+            14
+          ],
+          "admitted_max_excess": 3.4773914579999463,
+          "admitted_total_excess": 9.792190771142185
+        },
+        "factorized": {
+          "mean_increment": 44.8,
+          "seed_increments": [
+            31.0,
+            76.0,
+            47.0,
+            41.0,
+            29.0
+          ],
+          "admissions": 14,
+          "beneficial": 13,
+          "harmful": 0,
+          "zero": 1,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            8,
+            14
+          ],
+          "admitted_max_excess": 3.4773914579999463,
+          "admitted_total_excess": 9.792190771142185
+        },
+        "zero_increment": {
+          "mean_increment": 44.8,
+          "seed_increments": [
+            31.0,
+            76.0,
+            47.0,
+            41.0,
+            29.0
+          ],
+          "admissions": 14,
+          "beneficial": 13,
+          "harmful": 0,
+          "zero": 1,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            8,
+            14
+          ],
+          "admitted_max_excess": 3.4773914579999463,
+          "admitted_total_excess": 9.792190771142185
+        },
+        "native_original": {
+          "mean_increment": 44.8,
+          "seed_increments": [
+            31.0,
+            76.0,
+            47.0,
+            41.0,
+            29.0
+          ],
+          "admissions": 14,
+          "beneficial": 13,
+          "harmful": 0,
+          "zero": 1,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            8,
+            14
+          ],
+          "admitted_max_excess": 3.4773914579999463,
+          "admitted_total_excess": 9.79219077114221
+        }
+      }
+    },
+    "gas": {
+      "policy_trajectories": 475,
+      "new_ratio_forks": 4180,
+      "max_target_error": 2.842170943040401e-14,
+      "max_service_error": 0.0,
+      "selected_all_zero": true,
+      "summary": {
+        "paired": {
+          "mean_increment": 904.2,
+          "seed_increments": [
+            1054.0,
+            1060.0,
+            1083.0,
+            371.0,
+            953.0
+          ],
+          "admissions": 45,
+          "beneficial": 45,
+          "harmful": 0,
+          "zero": 0,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            42,
+            45
+          ],
+          "admitted_max_excess": 14.504199102664053,
+          "admitted_total_excess": 29.196874642909087
+        },
+        "marginal": {
+          "mean_increment": 904.2,
+          "seed_increments": [
+            1054.0,
+            1060.0,
+            1083.0,
+            371.0,
+            953.0
+          ],
+          "admissions": 45,
+          "beneficial": 45,
+          "harmful": 0,
+          "zero": 0,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            42,
+            45
+          ],
+          "admitted_max_excess": 14.504199102664053,
+          "admitted_total_excess": 29.196874642909087
+        },
+        "factorized": {
+          "mean_increment": 904.2,
+          "seed_increments": [
+            1054.0,
+            1060.0,
+            1083.0,
+            371.0,
+            953.0
+          ],
+          "admissions": 45,
+          "beneficial": 45,
+          "harmful": 0,
+          "zero": 0,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            42,
+            45
+          ],
+          "admitted_max_excess": 14.504199102664053,
+          "admitted_total_excess": 29.196874642909087
+        },
+        "zero_increment": {
+          "mean_increment": 904.2,
+          "seed_increments": [
+            1054.0,
+            1060.0,
+            1083.0,
+            371.0,
+            953.0
+          ],
+          "admissions": 45,
+          "beneficial": 45,
+          "harmful": 0,
+          "zero": 0,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            42,
+            45
+          ],
+          "admitted_max_excess": 14.504199102664053,
+          "admitted_total_excess": 29.196874642909087
+        },
+        "native_original": {
+          "mean_increment": 904.2,
+          "seed_increments": [
+            1054.0,
+            1060.0,
+            1083.0,
+            371.0,
+            953.0
+          ],
+          "admissions": 45,
+          "beneficial": 45,
+          "harmful": 0,
+          "zero": 0,
+          "negative_loss": 0.0,
+          "admitted_coverage": [
+            42,
+            45
+          ],
+          "admitted_max_excess": 14.503862896300582,
+          "admitted_total_excess": 29.206483305810444
+        }
+      }
+    }
+  },
+  "hashes": {
+    "grid_diagnostic_protocol.json": "6ad0a657fd8a143a7218bb1454fb0531ee349e488958bcc45a74ef7af26aede0",
+    "verify_identity.py": "fa62dee55c3283efaf57bb39ae1078869594a22c393155fe18a01b8e1102172e",
+    "theory.tex": "70edef755bad44878273e8fbc14518996db654ae3c7b32a45922213333c950a7",
+    "README.md": "e58630993e5a33ae0355e1e037f88a9f25164e476ee2e4340fa9052e0e61be39",
+    "run_grid_diagnostic.py": "58b017de0a9d6652ecdb92ec3b0ac5064e12f631b9e3c412b0ffc1562e71ef89",
+    "identity_checks.json": "18849b6b769cadc7f49877ccec8e2352ad4ffab636f1eb36a3913763c2c39f4c",
+    "protocol.json": "83a3593c7c0e071feb037b454a78619cef6b76b9024b284abce961ed975dd77c",
+    "pre_run_freeze.json": "c2b494b809489e941c57e7c6b983a148877dc8192424b07cff4604d195f4ce8e",
+    "pre_run_freeze_v0_no_experiment.json": "55d7c2bd47a161f7c7392b17d7dad11464cd188928479fc6cbf0d30119f248fd",
+    "run_ratio.py": "8e7b1a2287a7902a74d6afab813bb27b9cb1797810266976c37fcd7ff2167bb0",
+    "protocol_v0_no_experiment.json": "b5bccd2ad0a1776d3c6870337e2ba7a4d0d8aefa6aead66a205a14de1552c425",
+    "gas/summary.json": "82a50eebeaea1fe3a5568bff44a23670f99ce8884996b06a1978b511969196f8",
+    "gas/grid_diagnostic_trajectories.json.gz": "c1b57cfb3b24eed2d8df22d360c20fd9589d222dde3439af230ef0ab56bc701f",
+    "gas/calibration_trials.json.gz": "30af4ed57f98b985d338983c67f0a985431e2f1f7ba486b45a9d749a3d142ba7",
+    "gas/results.json.gz": "a0dbddf369b1fbb43a54c3ee1cef3ab0df1e829986b4a67fbb94bb1982b21a50",
+    "gas/selection_lock.json": "56eee89605d9ba381f5eae4659ccb8a10da042688ed52b861c736180ec89cdf0",
+    "gas/selection.json": "37b48c26f1a1be89d0d828b5d344de44dd74bfee401aab8f9839f6e20c5ad1d9",
+    "gas/grid_diagnostic.json": "1b139ae32548020cf511150cb5de51c4bed93a69894af265ce97e0161779411f",
+    "rss/summary.json": "c6bbfa69085f05b194ab63de6e686cb3f828e4636aa0e33a263230b7a6e7e664",
+    "rss/grid_diagnostic_trajectories.json.gz": "e06502865641010de81b213831a925ebe9f638ab89bd47b243137a8f2af58537",
+    "rss/calibration_trials.json.gz": "0fc881e2d01fcc9fb1c4a08ef2a8f8fc52817cef4543d2dd4628771150c91bae",
+    "rss/results.json.gz": "92e8c113a6fd62974f144f7e66246953459e4986d97182b2f215ea3a4e81bd5c",
+    "rss/selection_lock.json": "b3bd52d8bad8af92870a8cd7ba7fb597d85578b99f74afc07a0c38d18f174467",
+    "rss/selection.json": "b953af3f600b90ab9c83f457f5074f2971da543f35ddc19f2ed6602960e777a3",
+    "rss/grid_diagnostic.json": "53d3738189986ca35ba245e7f68d062d7a0f4350b669022d4d40dd3113d48539",
+    "__pycache__/run_ratio.cpython-312.pyc": "2f18bd115b21e37b174334b85d4192ce1190c4375b8beaccbc9971387631d057"
+  }
+}

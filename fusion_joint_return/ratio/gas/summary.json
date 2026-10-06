@@ -1,0 +1,2816 @@
+{
+  "summary": {
+    "paired": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "admitted_max_excess": 14.504199102664053,
+      "admitted_total_excess": 29.196874642909087
+    },
+    "marginal": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "admitted_max_excess": 14.504199102664053,
+      "admitted_total_excess": 29.196874642909087
+    },
+    "factorized": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "admitted_max_excess": 14.504199102664053,
+      "admitted_total_excess": 29.196874642909087
+    },
+    "zero_increment": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "admitted_max_excess": 14.504199102664053,
+      "admitted_total_excess": 29.196874642909087
+    },
+    "native_original": {
+      "mean_increment": 904.2,
+      "seed_increments": [
+        1054.0,
+        1060.0,
+        1083.0,
+        371.0,
+        953.0
+      ],
+      "admissions": 45,
+      "beneficial": 45,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "admitted_coverage": [
+        42,
+        45
+      ],
+      "admitted_max_excess": 14.503862896300582,
+      "admitted_total_excess": 29.206483305810444
+    }
+  },
+  "selected": {
+    "paired": {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 1.0,
+        "zeta": 0.0
+      },
+      "net": 0.0
+    },
+    "marginal": {
+      "arm": "marginal",
+      "config": {
+        "bandwidth": 1.0,
+        "zeta": 0.0
+      },
+      "net": 0.0
+    },
+    "factorized": {
+      "arm": "factorized",
+      "config": {
+        "bandwidth": 1.0,
+        "zeta": 0.0
+      },
+      "net": 0.0
+    },
+    "zero_increment": {
+      "arm": "zero_increment",
+      "config": {
+        "bandwidth": 1.0,
+        "zeta": 0.0
+      },
+      "net": 0.0
+    }
+  },
+  "max_service_error": 0.0,
+  "target_checks": [
+    {
+      "arm": "paired",
+      "recording": "flow308/exp153",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp153",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp153",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp153",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp153",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp154",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp154",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp154",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp154",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp154",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp155",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp155",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp155",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp155",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp155",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp156",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp156",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp156",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp156",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp156",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp157",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp157",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp157",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp157",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp157",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp158",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp158",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp158",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp158",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp158",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp159",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp159",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp159",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp159",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp159",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp160",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp160",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp160",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp160",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp160",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp162",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp162",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp162",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp162",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp162",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp163",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp163",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp163",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp163",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp163",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp164",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp164",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp164",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp164",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp164",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp167",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp167",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp167",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp167",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp167",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp168",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp168",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp168",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp168",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp168",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp169",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp169",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp169",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp169",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp169",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp171",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp171",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp171",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp171",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp171",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp172",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp172",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp172",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp172",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp172",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 2.842170943040401e-14
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp178",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp178",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp178",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp178",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp178",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp179",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp179",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp179",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp179",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp179",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp181",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp181",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp181",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp181",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "flow308/exp181",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp153",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp153",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp153",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp153",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp153",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp154",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp154",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp154",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp154",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp154",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp155",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp155",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp155",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp155",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp155",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp156",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp156",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp156",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp156",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp156",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp157",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp157",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp157",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp157",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp157",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp158",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp158",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp158",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp158",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp158",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp159",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp159",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp159",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp159",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp159",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp160",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp160",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp160",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp160",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp160",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp162",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp162",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp162",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp162",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp162",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp163",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp163",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp163",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp163",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp163",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp164",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp164",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp164",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp164",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp164",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp167",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp167",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp167",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp167",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp167",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp168",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp168",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp168",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp168",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp168",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp169",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp169",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp169",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp169",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp169",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp171",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp171",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp171",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp171",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp171",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp172",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp172",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp172",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp172",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp172",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 2.842170943040401e-14
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp178",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp178",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp178",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp178",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp178",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp179",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp179",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp179",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp179",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp179",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp181",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp181",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp181",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp181",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "marginal",
+      "recording": "flow308/exp181",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp153",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp153",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp153",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp153",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp153",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp154",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp154",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp154",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp154",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp154",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp155",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp155",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp155",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp155",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp155",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp156",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp156",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp156",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp156",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp156",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp157",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp157",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp157",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp157",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp157",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp158",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp158",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp158",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp158",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp158",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp159",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp159",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp159",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp159",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp159",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp160",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp160",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp160",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp160",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp160",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp162",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp162",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp162",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp162",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp162",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp163",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp163",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp163",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp163",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp163",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp164",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp164",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp164",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp164",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp164",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp167",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp167",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp167",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp167",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp167",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp168",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp168",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp168",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp168",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp168",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp169",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp169",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp169",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp169",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp169",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp171",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp171",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp171",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp171",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp171",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp172",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp172",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp172",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp172",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp172",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 2.842170943040401e-14
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp178",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp178",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp178",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp178",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp178",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp179",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp179",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp179",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp179",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp179",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp181",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp181",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp181",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp181",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "factorized",
+      "recording": "flow308/exp181",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp153",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp153",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp153",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp153",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp153",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp154",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp154",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp154",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp154",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp154",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp155",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp155",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp155",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp155",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp155",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp156",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp156",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp156",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp156",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp156",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp157",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp157",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp157",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp157",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp157",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp158",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp158",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp158",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp158",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp158",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp159",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp159",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp159",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp159",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp159",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp160",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp160",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp160",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp160",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp160",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp162",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp162",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp162",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp162",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp162",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp163",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp163",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp163",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp163",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp163",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp164",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp164",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp164",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp164",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp164",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp167",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp167",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp167",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp167",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp167",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp168",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp168",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp168",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp168",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp168",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp169",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp169",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp169",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp169",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp169",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp171",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp171",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp171",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp171",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp171",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp172",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp172",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp172",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp172",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp172",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 2.842170943040401e-14
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp178",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp178",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp178",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp178",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp178",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp179",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp179",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp179",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp179",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp179",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp181",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp181",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp181",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp181",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "zero_increment",
+      "recording": "flow308/exp181",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    }
+  ],
+  "cache": {
+    "hits": 470,
+    "misses": 5,
+    "bypasses": 5230,
+    "retained": 5,
+    "train_seconds": 0.11178841498622205,
+    "hash_seconds": 1.4620483378676,
+    "first_hit_bitwise_recomputed": true,
+    "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+  }
+}

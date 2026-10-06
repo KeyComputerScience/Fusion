@@ -1,0 +1,31 @@
+{
+  "status": "Exact analytical law witness, NOT measured physical experiment",
+  "sources": 3,
+  "capacity": 128,
+  "conservative_cost": 5,
+  "laws": "H iid\u00b1.1; modelA U=.125prod(signH); modelB U=\u2212.125prod(signH)",
+  "identical_target_source_pair_marginals": {
+    "0,1": true,
+    "0,2": true,
+    "0,3": true,
+    "1,2": true,
+    "1,3": true,
+    "2,3": true
+  },
+  "identical_source_error_pair_marginals": true,
+  "full_joint_mean_covariance_error": 0.0,
+  "query": [
+    0.1,
+    0.1,
+    0.1
+  ],
+  "conditional_U_A": 0.125,
+  "conditional_U_B": -0.125,
+  "joint_score_A": 11.0,
+  "joint_score_B": -21.0,
+  "factorized_score_alpha_point1": -21.0,
+  "factorized_score_alpha1": -5,
+  "true_joint_policy_expected_paid_return": 5.5,
+  "reduced_tail_policy_expected_paid_return": 0,
+  "proof_scope": "Exact joint information vs allbivariate marginals and allfulljointmoments under correct laws; no assertion allnonBayesianfulljoint methods fail; Gaussianconditionaldensity andKDE estimation are mature tools"
+}

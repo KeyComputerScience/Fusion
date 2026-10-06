@@ -1,0 +1,200 @@
+{
+  "rss": {
+    "operating_point": {
+      "bandwidth": 1.0,
+      "zeta": 1.0
+    },
+    "status": "Post-primary known-data diagnostic, not selected/frozen primary policy",
+    "comparisons": {
+      "marginal": {
+        "terms": {
+          "added_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "value": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "value": 0.0
+          }
+        },
+        "changes": [],
+        "pooled_difference": 0.0,
+        "mean_difference": 0.0
+      },
+      "factorized": {
+        "terms": {
+          "added_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "value": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "value": 0.0
+          }
+        },
+        "changes": [],
+        "pooled_difference": 0.0,
+        "mean_difference": 0.0
+      },
+      "zero_increment": {
+        "terms": {
+          "added_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "value": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "value": 0.0
+          }
+        },
+        "changes": [],
+        "pooled_difference": 0.0,
+        "mean_difference": 0.0
+      }
+    }
+  },
+  "gas": {
+    "operating_point": {
+      "bandwidth": 1.0,
+      "zeta": 1.0
+    },
+    "status": "Post-primary known-data diagnostic, not selected/frozen primary policy",
+    "comparisons": {
+      "marginal": {
+        "terms": {
+          "added_gain": {
+            "count": 2,
+            "value": 244.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "value": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "value": 0.0
+          }
+        },
+        "changes": [
+          {
+            "recording": "flow308/exp156",
+            "seed": 143002,
+            "k": 12,
+            "actual_net": 122.0,
+            "paired_action": true,
+            "control_action": false,
+            "paired_score": 10.558228866237897,
+            "control_score": -0.08585566836976977
+          },
+          {
+            "recording": "flow308/exp156",
+            "seed": 143003,
+            "k": 12,
+            "actual_net": 122.0,
+            "paired_action": true,
+            "control_action": false,
+            "paired_score": 4.6965037870499895,
+            "control_score": -1.5553964395655573
+          }
+        ],
+        "pooled_difference": 244.0,
+        "mean_difference": 48.8
+      },
+      "factorized": {
+        "terms": {
+          "added_gain": {
+            "count": 2,
+            "value": 244.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "value": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "value": 0.0
+          }
+        },
+        "changes": [
+          {
+            "recording": "flow308/exp156",
+            "seed": 143002,
+            "k": 12,
+            "actual_net": 122.0,
+            "paired_action": true,
+            "control_action": false,
+            "paired_score": 10.558228866237897,
+            "control_score": -0.08585566836977065
+          },
+          {
+            "recording": "flow308/exp156",
+            "seed": 143003,
+            "k": 12,
+            "actual_net": 122.0,
+            "paired_action": true,
+            "control_action": false,
+            "paired_score": 4.6965037870499895,
+            "control_score": -1.5553964395655573
+          }
+        ],
+        "pooled_difference": 244.0,
+        "mean_difference": 48.8
+      },
+      "zero_increment": {
+        "terms": {
+          "added_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "avoided_loss": {
+            "count": 0,
+            "value": 0.0
+          },
+          "missed_gain": {
+            "count": 0,
+            "value": 0.0
+          },
+          "incurred_loss": {
+            "count": 0,
+            "value": 0.0
+          }
+        },
+        "changes": [],
+        "pooled_difference": 0.0,
+        "mean_difference": 0.0
+      }
+    }
+  }
+}

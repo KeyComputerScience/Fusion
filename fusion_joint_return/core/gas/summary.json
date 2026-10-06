@@ -1,0 +1,2993 @@
+{
+  "summary": {
+    "return_joint": {
+      "seed_increments": [
+        87.0,
+        106.0,
+        122.0,
+        122.0,
+        92.0
+      ],
+      "mean_increment": 105.8,
+      "per_admission_actual_net": 88.16666666666667,
+      "admissions": 6,
+      "beneficial": 6,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "coverage": {
+        "issued": [
+          994,
+          1045
+        ],
+        "ready": [
+          618,
+          644
+        ],
+        "admitted": [
+          6,
+          6
+        ]
+      },
+      "admitted_max_excess": 0.0,
+      "admitted_total_excess": 0.0,
+      "refused": 1,
+      "positive_outcome_certificate": 40.93806381821276
+    },
+    "return_factorized": {
+      "seed_increments": [
+        87.0,
+        106.0,
+        191.0,
+        122.0,
+        89.0
+      ],
+      "mean_increment": 119.0,
+      "per_admission_actual_net": 74.375,
+      "admissions": 8,
+      "beneficial": 7,
+      "harmful": 1,
+      "zero": 0,
+      "negative_loss": 3.0,
+      "coverage": {
+        "issued": [
+          961,
+          1045
+        ],
+        "ready": [
+          585,
+          644
+        ],
+        "admitted": [
+          6,
+          8
+        ]
+      },
+      "admitted_max_excess": 5.510325154684727,
+      "admitted_total_excess": 7.297641038104101,
+      "refused": 2,
+      "positive_outcome_certificate": 51.40041302706139
+    },
+    "return_gaussian": {
+      "seed_increments": [
+        167.0,
+        174.0,
+        199.0,
+        122.0,
+        68.0
+      ],
+      "mean_increment": 146.0,
+      "per_admission_actual_net": 91.25,
+      "admissions": 8,
+      "beneficial": 8,
+      "harmful": 0,
+      "zero": 0,
+      "negative_loss": 0.0,
+      "coverage": {
+        "issued": [
+          992,
+          1045
+        ],
+        "ready": [
+          616,
+          644
+        ],
+        "admitted": [
+          8,
+          8
+        ]
+      },
+      "admitted_max_excess": 0.0,
+      "admitted_total_excess": 0.0,
+      "refused": 0,
+      "positive_outcome_certificate": 38.559395394609844
+    }
+  },
+  "budget_summary": {
+    "0.0": {
+      "return_joint": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            994,
+            1045
+          ],
+          "ready": [
+            618,
+            644
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 7,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            961,
+            1045
+          ],
+          "ready": [
+            585,
+            644
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 10,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            992,
+            1045
+          ],
+          "ready": [
+            616,
+            644
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 8,
+        "positive_outcome_certificate": 0.0
+      }
+    },
+    "110.0": {
+      "return_joint": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            994,
+            1045
+          ],
+          "ready": [
+            618,
+            644
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 7,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_factorized": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            961,
+            1045
+          ],
+          "ready": [
+            585,
+            644
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 10,
+        "positive_outcome_certificate": 0.0
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_increment": 0.0,
+        "per_admission_actual_net": null,
+        "admissions": 0,
+        "beneficial": 0,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0,
+        "coverage": {
+          "issued": [
+            992,
+            1045
+          ],
+          "ready": [
+            616,
+            644
+          ],
+          "admitted": [
+            0,
+            0
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0,
+        "refused": 8,
+        "positive_outcome_certificate": 0.0
+      }
+    },
+    "130.0": {
+      "return_joint": {
+        "seed_increments": [
+          87.0,
+          106.0,
+          122.0,
+          122.0,
+          92.0
+        ],
+        "mean_increment": 105.8,
+        "per_admission_actual_net": 88.16666666666667,
+        "admissions": 6,
+        "beneficial": 6,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0.0,
+        "coverage": {
+          "issued": [
+            994,
+            1045
+          ],
+          "ready": [
+            618,
+            644
+          ],
+          "admitted": [
+            6,
+            6
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0.0,
+        "refused": 1,
+        "positive_outcome_certificate": 40.93806381821276
+      },
+      "return_factorized": {
+        "seed_increments": [
+          87.0,
+          106.0,
+          191.0,
+          122.0,
+          89.0
+        ],
+        "mean_increment": 119.0,
+        "per_admission_actual_net": 74.375,
+        "admissions": 8,
+        "beneficial": 7,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 3.0,
+        "coverage": {
+          "issued": [
+            961,
+            1045
+          ],
+          "ready": [
+            585,
+            644
+          ],
+          "admitted": [
+            6,
+            8
+          ]
+        },
+        "admitted_max_excess": 5.510325154684727,
+        "admitted_total_excess": 7.297641038104101,
+        "refused": 2,
+        "positive_outcome_certificate": 51.40041302706139
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          167.0,
+          174.0,
+          199.0,
+          122.0,
+          68.0
+        ],
+        "mean_increment": 146.0,
+        "per_admission_actual_net": 91.25,
+        "admissions": 8,
+        "beneficial": 8,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0.0,
+        "coverage": {
+          "issued": [
+            992,
+            1045
+          ],
+          "ready": [
+            616,
+            644
+          ],
+          "admitted": [
+            8,
+            8
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0.0,
+        "refused": 0,
+        "positive_outcome_certificate": 38.559395394609844
+      }
+    },
+    "260.0": {
+      "return_joint": {
+        "seed_increments": [
+          87.0,
+          106.0,
+          122.0,
+          122.0,
+          87.0
+        ],
+        "mean_increment": 104.8,
+        "per_admission_actual_net": 74.85714285714286,
+        "admissions": 7,
+        "beneficial": 6,
+        "harmful": 1,
+        "zero": 0,
+        "negative_loss": 5.0,
+        "coverage": {
+          "issued": [
+            994,
+            1045
+          ],
+          "ready": [
+            618,
+            644
+          ],
+          "admitted": [
+            6,
+            7
+          ]
+        },
+        "admitted_max_excess": 8.2838464869416,
+        "admitted_total_excess": 8.2838464869416,
+        "refused": 0,
+        "positive_outcome_certificate": 39.93806381821276
+      },
+      "return_factorized": {
+        "seed_increments": [
+          87.0,
+          106.0,
+          191.0,
+          122.0,
+          81.0
+        ],
+        "mean_increment": 117.4,
+        "per_admission_actual_net": 58.7,
+        "admissions": 10,
+        "beneficial": 7,
+        "harmful": 3,
+        "zero": 0,
+        "negative_loss": 11.0,
+        "coverage": {
+          "issued": [
+            961,
+            1045
+          ],
+          "ready": [
+            585,
+            644
+          ],
+          "admitted": [
+            6,
+            10
+          ]
+        },
+        "admitted_max_excess": 10.166510948503696,
+        "admitted_total_excess": 22.509982064293794,
+        "refused": 0,
+        "positive_outcome_certificate": 49.40041302706138
+      },
+      "return_gaussian": {
+        "seed_increments": [
+          167.0,
+          174.0,
+          199.0,
+          122.0,
+          68.0
+        ],
+        "mean_increment": 146.0,
+        "per_admission_actual_net": 91.25,
+        "admissions": 8,
+        "beneficial": 8,
+        "harmful": 0,
+        "zero": 0,
+        "negative_loss": 0.0,
+        "coverage": {
+          "issued": [
+            992,
+            1045
+          ],
+          "ready": [
+            616,
+            644
+          ],
+          "admitted": [
+            8,
+            8
+          ]
+        },
+        "admitted_max_excess": 0.0,
+        "admitted_total_excess": 0.0,
+        "refused": 0,
+        "positive_outcome_certificate": 38.559395394609844
+      }
+    }
+  },
+  "decomposition": {
+    "return_factorized": {
+      "terms": {
+        "added_gain": {
+          "count": 0,
+          "value": 0.0
+        },
+        "avoided_loss": {
+          "count": 1,
+          "value": 3.0
+        },
+        "missed_gain": {
+          "count": 1,
+          "value": 69.0
+        },
+        "incurred_loss": {
+          "count": 0,
+          "value": 0.0
+        }
+      },
+      "zero_changes": 0,
+      "changed_actions": [
+        {
+          "recording": "flow308/exp157",
+          "seed": 143003,
+          "k": 20,
+          "actual_net": 69.0,
+          "joint_action": false,
+          "competitor_action": true,
+          "joint_score": -1.2595417499717105,
+          "competitor_score": 0.07679318793369383
+        },
+        {
+          "recording": "flow308/exp171",
+          "seed": 143005,
+          "k": 12,
+          "actual_net": -3.0,
+          "joint_action": false,
+          "competitor_action": true,
+          "joint_score": -7.509880801034255,
+          "competitor_score": 0.5103251546847272
+        }
+      ],
+      "pooled_difference": -66.0,
+      "mean_difference": -13.2
+    },
+    "return_gaussian": {
+      "terms": {
+        "added_gain": {
+          "count": 2,
+          "value": 92.0
+        },
+        "avoided_loss": {
+          "count": 0,
+          "value": 0.0
+        },
+        "missed_gain": {
+          "count": 4,
+          "value": 293.0
+        },
+        "incurred_loss": {
+          "count": 0,
+          "value": 0.0
+        }
+      },
+      "zero_changes": 0,
+      "changed_actions": [
+        {
+          "recording": "flow308/exp157",
+          "seed": 143005,
+          "k": 12,
+          "actual_net": 1.0,
+          "joint_action": true,
+          "competitor_action": false,
+          "joint_score": 0.7310269942534813,
+          "competitor_score": -4.546141944942606
+        },
+        {
+          "recording": "flow308/exp157",
+          "seed": 143005,
+          "k": 20,
+          "actual_net": 91.0,
+          "joint_action": true,
+          "competitor_action": false,
+          "joint_score": 1.7844688600145941,
+          "competitor_score": -2.8777413666158984
+        },
+        {
+          "recording": "flow308/exp162",
+          "seed": 143001,
+          "k": 12,
+          "actual_net": 80.0,
+          "joint_action": false,
+          "competitor_action": true,
+          "joint_score": -2.0254633438989114,
+          "competitor_score": 1.3192330090477684
+        },
+        {
+          "recording": "flow308/exp162",
+          "seed": 143002,
+          "k": 12,
+          "actual_net": 68.0,
+          "joint_action": false,
+          "competitor_action": true,
+          "joint_score": -1.9072305389437552,
+          "competitor_score": 1.5476654415993227
+        },
+        {
+          "recording": "flow308/exp162",
+          "seed": 143003,
+          "k": 12,
+          "actual_net": 77.0,
+          "joint_action": false,
+          "competitor_action": true,
+          "joint_score": -2.4768236226199623,
+          "competitor_score": 0.5251609704284972
+        },
+        {
+          "recording": "flow308/exp162",
+          "seed": 143005,
+          "k": 12,
+          "actual_net": 68.0,
+          "joint_action": false,
+          "competitor_action": true,
+          "joint_score": -1.9925836148449374,
+          "competitor_score": 1.4491726389900323
+        }
+      ],
+      "pooled_difference": -201.0,
+      "mean_difference": -40.2
+    }
+  },
+  "selected": {
+    "return_joint": {
+      "arm": "return_joint",
+      "config": {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      "alpha_initial": 0.9444938069471622,
+      "fit_count": 49,
+      "fit_violations": 3,
+      "net": 0.0
+    },
+    "return_factorized": {
+      "arm": "return_factorized",
+      "config": {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      "alpha_initial": 0.9689865449349571,
+      "fit_count": 49,
+      "fit_violations": 4,
+      "net": 0.0
+    },
+    "return_gaussian": {
+      "arm": "return_gaussian",
+      "config": {
+        "b_return": 1.0,
+        "b_source": 1.0,
+        "cap": 1.0
+      },
+      "alpha_initial": 0.9125061767278617,
+      "fit_count": 49,
+      "fit_violations": 3,
+      "net": 0.0
+    }
+  },
+  "max_service_error": 0.0,
+  "target_checks": [
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp153",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp154",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp155",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp156",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp157",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp158",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp159",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp160",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp162",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp163",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp164",
+      "batch": "day-3-morning",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 8.881784197001252e-16
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp167",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp168",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.7763568394002505e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp169",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp171",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp172",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp178",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp179",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_joint",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_factorized",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "return_gaussian",
+      "recording": "flow308/exp181",
+      "batch": "day-4-afternoon",
+      "seed": 143005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    }
+  ],
+  "max_calibration_identity": 5.329070518200751e-15,
+  "numerical": {
+    "max_quadrature_error": 1.2790188930189572e-06,
+    "max_nodes": 16384,
+    "nonconverged": 2
+  },
+  "cache": {
+    "hits": 470,
+    "misses": 5,
+    "bypasses": 5230,
+    "retained": 5,
+    "train_seconds": 0.10415012401062995,
+    "hash_seconds": 1.4945180320501095,
+    "first_hit_bitwise_recomputed": true,
+    "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+  }
+}
