@@ -1,0 +1,13 @@
+{
+  "role": "Synthetic final-report schema and accounting checks only; no physical gain validation",
+  "nine_policy_error_allocation": true,
+  "actual_shared_guard_schema": true,
+  "checks": {
+    "missing_saved_loss_rejected": true,
+    "inconsistent_saved_loss_rejected": true,
+    "inconsistent_refusal_count_rejected": true,
+    "missing_ledger_field_rejected": true,
+    "missing_pipeline_rejected": true,
+    "duplicate_pipeline_rejected": true
+  }
+}

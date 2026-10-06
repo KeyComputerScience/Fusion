@@ -1,0 +1,98 @@
+\subsection{Prequential paired conditional return}
+Let $a_j$ be the immutable complete-lease contrast predicted from a common
+strong probabilistic forecaster, $h_j$ its physical-source contrasts,
+and $U_j=g_j/N_j$ the originally issued complete-lease target. The reusable
+observation is
+\begin{equation}
+ E_j=U_j-a_j,\qquad Z_j=h_j-a_j\mathbf1.
+ \label{eq:prequential-paired-residual}
+\end{equation}
+The complete tuple enters state only after all lease labels mature. It
+is never reprojected using a later model trained on those observations.
+A dedicated state-fit library supplies persistent paired evidence across
+physical-chain restarts; arrived local tuples supply subsequent adaptation.
+Every information control uses the same strong source probabilities,
+model-excluded prefix quality, immutable target population and execution
+contract.
+
+For locally weighted tuple atoms $(e_i,z_i)$, missing-coordinate uncertainty
+$V_i$, and a common covariance kernel $K$, define
+\begin{equation}
+ \widehat f(e,z)=\sum_iw_i\varphi_{m+1}
+ \bigl((e,z);\ell_i,V_i+K\bigr),\qquad
+ \widehat p(u\mid h,a)\propto
+ \mathbf1_{[-1,1]}(u)\widehat f(u-a,h-a\mathbf1).
+ \label{eq:prequential-conditional-return}
+\end{equation}
+One paid score is
+$S=N\operatorname{LT}_{1/2}(\widehat p)-5$.
+The fixed tail mass and density bandwidth are shared by all controls.
+The strong pair-factorized control uses
+$f_F(e,z)=f_E(e)\prod_s f_{Z_s\mid E}(z_s\mid e)$, which preserves the
+same residual marginal and every residual/source pair marginal before
+current support restriction. The full Gaussian control preserves the
+complete mean and covariance. A diagonal-kernel joint-density competitor
+retains all tuple locations and is allowed to retain higher-order information.
+
+\begin{proposition}[Prequential target integrity and affine return score]
+Suppose every issued tuple is immutable and inserted only at its complete
+maturity. Conditional on the common issued forecaster and model versions,
+an issued fusion score at time $t$ is unchanged by modifications to complete
+target fields whose maturity exceeds $t$. The common forecaster itself uses
+only individually arrived labels. Thus its general causality statement
+concerns labels not yet arrived, rather than every label of an unfinished
+lease. If $U=a+E$, then
+\begin{equation}
+ \operatorname{LT}_\alpha(U\mid h,a)
+ =a+\operatorname{LT}_\alpha(E\mid h-a\mathbf1,a),
+ \label{eq:prequential-tail-shift}
+\end{equation}
+with residual support $[-1-a,1-a]$.
+\end{proposition}
+\begin{proof}
+At issuance, the anchor and descriptor are fixed by the common issued
+forecaster and model versions. The conditioning state depends only on the
+permanent training/error prefix, the earlier completed library, and local
+tuples with complete maturity at most the issuance time. Altering a later
+complete-target field cannot change these arguments. Separately, an
+unarrived individual label is absent from every model-update input.
+For the second claim,
+translation by $a$ preserves quantile order. The quantile integral defining
+lower expected shortfall translates by the same constant; restricting the
+residual to $[-1-a,1-a]$ maps exactly to physical return support $[-1,1]$.
+\end{proof}
+
+\paragraph{Calibration and the return connection.}
+A disjoint score-calibration population stores immutable normalized errors
+$r_i=(S_i-X_i)/N_i$, where $X_i=g_i-5$ is the conservative complete target.
+A signed conditional empirical quantile $q(z)$ produces the single score
+$L=\operatorname{clip}_{[-N-5,N-5]}\{S-Nq(z)\}$.
+Let $b_j\in\{0,1\}$ denote actual admission after the common execution
+guard, keeping $a_j$ for the probabilistic prediction anchor.
+If $q(z)$ is a valid conditional probability-$p$ quantile of the future
+normalized score error, then
+$\Pr(X\geq L\mid z)\geq p$. Local empirical weighting alone does not
+establish this assumption. For an admitted score $L>0$ and actual return
+$D\geq X$, regardless of whether the conditional-risk model is valid,
+\begin{equation}
+ \mathbf1_{\{D<0\}}\leq\mathbf1_{\{X<L\}},\qquad
+ (-D)_+\leq(L-X)_+,\qquad
+ \sum_{j:b_j=1}D_j\geq
+ \sum_{j:b_j=1}L_j-\sum_{j:b_j=1}(L_j-X_j)_+.
+ \label{eq:prequential-calibration-return}
+\end{equation}
+These inequalities connect actual admission calibration and excess magnitude
+to paid return. They neither certify the fitted quantile nor imply universal
+positive gain. A shared reservation ledger supplies its separate deterministic
+cumulative-loss guarantee for every controller.
+
+\paragraph{Innovation boundary.}
+Full temporal target/source pairing can encode decisions not determined by
+individual target/source margins or complete second-order summaries.
+The independent empirical claim is an additional paid action under the same
+execution guarantee, established by all changed-action returns and complete
+pipeline comparisons. Gaussian smoothing, Schur completion and expected
+shortfall are established tools. Full non-Bayesian conditional-density
+methods and tuple-aware adaptive matrices can retain the same information;
+they must be evaluated as direct competitors rather than excluded by an
+information restriction they do not satisfy.

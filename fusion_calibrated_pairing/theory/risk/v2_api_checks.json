@@ -1,0 +1,69 @@
+{
+  "role": "V2 synthetic hard-stratum/API verification only; no physical superiority evidence",
+  "scientific_source_sha256": "74f0dc248453be53aaf740dbf8d2e9d4883c3a37a09acb30532cb614df896161",
+  "v1_preserved_sha256": "f6095b0c75bbe008b89ff6865723bc3a0ae2d79fa5ef530fd2f038b4fab097c7",
+  "shared_guard_sha256": "0ae3ac3b2d4b30483590bf8ecf45a1454b6ed69b5ea2f08a26e8778389be2476",
+  "quiet_residual_value_cannot_affect_informative_quantile": true,
+  "empty_stratum_support_fallback": true,
+  "future_truth_poisoning_cutoffs": [
+    0,
+    4,
+    8,
+    12
+  ],
+  "out_of_order_complete_callbacks": true,
+  "whole_dedicated_selection_session": true,
+  "explicit_legacy_boundary": true,
+  "persistent_full_score_fit_pool": 60,
+  "actual_original_guard_report": {
+    "coverage": {
+      "issued": {
+        "covered": 4,
+        "total": 4,
+        "rate": 1.0
+      },
+      "ready": {
+        "covered": 4,
+        "total": 4,
+        "rate": 1.0
+      },
+      "informative": {
+        "covered": 4,
+        "total": 4,
+        "rate": 1.0
+      },
+      "admitted": {
+        "covered": 1,
+        "total": 1,
+        "rate": 1.0
+      }
+    },
+    "admissions": 1,
+    "beneficial": 1,
+    "harmful": 0,
+    "zero": 0,
+    "negative_loss": 0.0,
+    "net_increment": 4.0,
+    "excess_max": 0.0,
+    "excess_sum": 0.0,
+    "excess_mean": 0.0,
+    "guard_refusals": 1,
+    "max_spent_plus_pending": 130.0,
+    "ledger_supplied": true,
+    "calibration_effective_count_min": 1.0,
+    "calibration_effective_count_max": 1.0,
+    "empty_stratum_issued": 2,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0
+  },
+  "malformed_input_rejections": {
+    "bad_context": true,
+    "nan_context": true,
+    "invalid_config": true,
+    "future_initial_pool": true,
+    "fractional_maturity": true,
+    "duplicate_origin": true
+  }
+}

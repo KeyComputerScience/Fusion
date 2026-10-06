@@ -1,0 +1,151 @@
+\subsection{Immutable conditional score calibration: implementation and scope}
+\label{app:conditional-immutable-calibration}
+Let $\mathcal I_0$ be the completed score-fitting records from a
+physical partition disjoint from state fitting, configuration selection
+and test. Each physical origin enters once using a canonical delay seed.
+Keep this complete library across participant/session restarts; its base
+mass is $2/|\mathcal I_0|$ per record. Let $\mathcal I_j$ contain the
+latest 48 online records whose complete feedback has matured by the
+current issuance. For $K_b(z,z_i)=\exp\{-\|z-z_i\|^2/(2b^2)\}$,
+the weights are
+\begin{equation}
+ w_{ji}=K_b(z_j,z_i)
+ \begin{cases}
+ 2/|\mathcal I_0|,&i\in\mathcal I_0,\\
+ 0.97^{\operatorname{arrival\ age}(i)},&i\in\mathcal I_j.
+ \end{cases}
+ \label{eq:conditional-calibration-weights}
+\end{equation}
+Persistent fitting records are not assigned an artificial participant-local
+age. The conditional empirical quantile is the first sorted residual
+whose cumulative weight reaches $p\sum_iw_{ji}$, for
+$b\in\{0.25,0.5,1\}$ and $p\in\{0.8,0.9,0.95\}$.
+An empty archive gives correction zero and remains uncertified.
+The effective weighted count is $(\sum_iw_{ji})^2/\sum_iw_{ji}^2$;
+it measures weight concentration, not a number of independent subjects.
+
+The live interface stores immutable $(S_j,N_j,z_j,k_j,m_j)$, checks
+integer origin/maturity timestamps and complete-lease support, rejects
+duplicate or premature callbacks, and reads $X_j$ only when $m_j$ has
+arrived. Simultaneous callbacks are ordered by maturity and origin.
+Out-of-order completed feedback is usable for future score calibration,
+but a statistical admission-prefix report waits for the longest fully
+completed origin prefix. The replay attaches offline coverage and return
+fields only after causal scores and proposals are fixed. Whole, dedicated
+selection sessions are evaluated in full; a within-session half split
+requires an explicit, separately declared boundary. It cannot silently
+replace the dedicated score-fitting partition.
+
+\begin{proposition}[Conditional score validity under a valid error quantile]
+\label{prop:conditional-error-quantile}
+Let $\mathcal F_j$ contain the complete pre-admission information,
+including the fitted law, history, calibration state and service reserve.
+Suppose $S_j,N_j,q_j$ are $\mathcal F_j$ measurable, $N_j>0$,
+$X_j\in[-N_j-5,N_j-5]$, and
+\begin{equation}
+ \Pr\{(S_j-X_j)/N_j>q_j\mid\mathcal F_j\}\leq\tau.
+ \label{eq:valid-conditional-residual-quantile}
+\end{equation}
+Then the clipped score in Eq.~\eqref{eq:conditional-immutable-score}
+has lower-target violation probability at most $\tau$ conditional on
+$\mathcal F_j$. Any predictable readiness/reserve thinning preserves
+that inequality for actually admitted leases. If $D_j\geq X_j$ and
+$L_j>0$ is required for admission, harmful-return probability is also
+at most $\tau$ on this same conditional event.
+\end{proposition}
+\begin{proof}
+Before clipping, $X_j<S_j-N_jq_j$ is equivalent to
+$(S_j-X_j)/N_j>q_j$. Clipping an overlarge score at the upper physical
+support lowers it; clipping a score below the lower support cannot create
+a violation because $X_j$ lies above that support. A predictable admission
+event is measurable in $\mathcal F_j$, so multiplying the conditional
+violation indicator by that event preserves the bound. Finally,
+$D_j<0$ implies $X_j<0<L_j$, and hence a lower-target violation.
+\end{proof}
+
+This proposition is a sufficient condition. A locally weighted adaptive
+quantile is not proved to satisfy it by its construction. In particular,
+exchangeability of all-issued residuals alone does not give coverage after
+selecting $L_j>0$, and a nominal $p=0.9$ is not empirical 90\% admission
+coverage. Participant dependence, changing model versions and missing
+feedback can change the relevant error law. The experiment therefore
+reports actual admission coverage, exceedance, negative returns and the
+shared budget separately, with no automatic future-risk certificate.
+
+\paragraph{One finite-sample route to a stronger claim.}
+A valid, stricter certificate requires additional sampling assumptions
+and adequate support. Freeze the finite scoring family before the
+calibration sample is observed, and predeclare $G$ strata. Suppose that
+within each stratum the fixed-number score-fitting errors are IID from a
+continuous CDF $F_g$, and the future error conditional on all additional
+pre-admission inputs and past history has this same CDF. This last
+sufficiency/stability condition is stronger than marginal exchangeability.
+It must be justified by the intended environment; it is not asserted for
+the participant-shift experiment. For $K$ candidate scorers, choose an
+order $k$ in a stratum with $m$ observations such that
+\begin{equation}
+ \Pr\{\operatorname{Bin}(m,p)\geq k\}
+ \leq\delta/(KG),\qquad q_g=e_{(k)}.
+ \label{eq:conditional-tolerance-order}
+\end{equation}
+With probability at least $1-\delta$, every scorer/stratum then satisfies
+$F_g(q_g)\geq p$, so Proposition~\ref{prop:conditional-error-quantile}
+applies with $\tau=1-p$ after finite trial selection and a predictable
+budget guard. To see this, $F_g(e_{(k)})<p$ implies at least $k$
+calibration errors below the population $p$ quantile, whose count is
+binomial. A union bound covers the declared family and strata.
+The sample size is fixed before inspecting outcomes; the usual fixed-$n$
+binomial calculation is not transferred to a budget-stopped, random
+admission count. With zero calibration exceedances and $q_g$ equal to
+the sample maximum, $p=0.9$, $\delta=0.05$ require at least 29 observations
+for one scorer/stratum, and 50 for nine scorers/one stratum. More strata
+require more independent evidence. The executed weighted, adaptive
+procedure is not this IID tolerance certificate.
+
+\paragraph{Anytime report for executed, dependent admissions.}
+For a predeclared finite family of $K$ causal policies and a declared
+bounded endpoint $Y_i\in[0,1]$, let
+$r_i=\mathbb E[Y_i\mid\mathcal F_i^-]$, with the enlarged filtration
+containing previous physically completed lease targets and current inputs.
+For predeclared positive $\lambda_1,\ldots,\lambda_J$, Ville's inequality
+gives, simultaneously over methods and actual admission prefixes,
+\begin{equation}
+ \frac1n\sum_{i=1}^n r_i\leq
+ \min\left\{1,\min_{j\leq J}
+ \frac{\lambda_j\sum_{i=1}^nY_i+\log(KJ/\delta)}
+ {(1-e^{-\lambda_j})n}\right\}
+ \label{eq:conditional-score-admission-envelope}
+\end{equation}
+with probability at least $1-\delta$. Its proof uses
+$e^{-\lambda y}\leq1-(1-e^{-\lambda})y$ to construct
+$\exp\{(1-e^{-\lambda})\sum r_i-\lambda\sum Y_i\}$,
+a nonnegative supermartingale, followed by Ville and finite-family
+allocation. Release the bound on the longest completely matured origin
+prefix; later admitted endpoints contribute at most one each.
+Allocate error also across every reported physical history chain and
+endpoint. This reports the average conditional risk of executed prefixes;
+it does not forecast the next new environment. Several delayed replays
+of one participant/session are not independent physical environments.
+
+For $N_j\leq128$ the endpoints are target violation, harmful return,
+exceedance $(L_j-X_j)_+/256$, and negative loss $(-D_j)_+/130$.
+They are bounded by the stated paid service contract. Empty admission
+sets have no coverage rate. Small nonempty sets can give an upper envelope
+of one even with no observed failures, and remain uncertified.
+
+\paragraph{Connection to cost-inclusive service.}
+For the actual admissions, $D_i\geq X_i$ and $L_i>0$ imply
+\begin{equation}
+ \mathbf1_{\{D_i<0\}}\leq\mathbf1_{\{X_i<L_i\}},\qquad
+ (-D_i)_+\leq(L_i-X_i)_+,\qquad
+ \sum_iD_i\geq\sum_iL_i-\sum_i(L_i-X_i)_+.
+ \label{eq:conditional-calibration-paid-link}
+\end{equation}
+The proof is pointwise: a negative $D_i$ forces $X_i<0<L_i$;
+$-D_i\leq-X_i<L_i-X_i$ on a negative-return event, and
+$D_i\geq X_i\geq L_i-(L_i-X_i)_+$ otherwise and as well.
+This connects the same calibrated score to actual negative-return risk
+and realized paid return. The common loss ledger additionally bounds
+each chain's cumulative negative return pathwise. None of these statements
+forces strictly positive net return or superiority over every full-law
+competitor without additional decision-value evidence.

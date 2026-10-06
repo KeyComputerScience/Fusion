@@ -1,0 +1,25 @@
+{
+  "analytical_information_witness": [
+    {
+      "paired": 0.0638801131022542,
+      "pair_factorized": -0.37709346465348315,
+      "full_gaussian": -0.32714074504475177,
+      "joint_diagonal_kernel": 0.0638801131022542,
+      "unconditional": -0.3770934990403415
+    },
+    {
+      "paired": -0.5651549201689448,
+      "pair_factorized": -0.37709346465348315,
+      "full_gaussian": -0.32714074504475177,
+      "joint_diagonal_kernel": -0.5651549201689448,
+      "unconditional": -0.3770934990403415
+    }
+  ],
+  "affine_tail_error": 4.0939474033052647e-16,
+  "causality": {
+    "early_scores_unchanged": true,
+    "first_callback_origin": 0,
+    "first_callback_maturity": 3
+  },
+  "status": "Numerical algebra checks; not measured physical deployment results"
+}
