@@ -1,0 +1,1844 @@
+{
+  "status": "Known-data development only; not independent confirmation",
+  "controls": {
+    "paired": {
+      "coverage": {
+        "issued": {
+          "covered": 560,
+          "total": 710,
+          "rate": 0.7887323943661971
+        },
+        "ready": {
+          "covered": 560,
+          "total": 710,
+          "rate": 0.7887323943661971
+        },
+        "informative": {
+          "covered": 163,
+          "total": 210,
+          "rate": 0.7761904761904762
+        },
+        "admitted": {
+          "covered": 6,
+          "total": 23,
+          "rate": 0.2608695652173913
+        }
+      },
+      "admissions": 23,
+      "beneficial": 15,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 574.0,
+      "net_increment": -291.0,
+      "excess_max": 236.3910746161131,
+      "excess_sum": 1000.8528267883711,
+      "excess_mean": 43.51534029514657,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -58.19999999999993,
+      "seed_increments": [
+        -41.999999999999886,
+        -90.99999999999989,
+        -39.0,
+        -93.99999999999989,
+        -25.0
+      ]
+    },
+    "pair_factorized": {
+      "coverage": {
+        "issued": {
+          "covered": 591,
+          "total": 710,
+          "rate": 0.8323943661971831
+        },
+        "ready": {
+          "covered": 591,
+          "total": 710,
+          "rate": 0.8323943661971831
+        },
+        "informative": {
+          "covered": 167,
+          "total": 210,
+          "rate": 0.7952380952380952
+        },
+        "admitted": {
+          "covered": 5,
+          "total": 22,
+          "rate": 0.22727272727272727
+        }
+      },
+      "admissions": 22,
+      "beneficial": 15,
+      "harmful": 7,
+      "zero": 0,
+      "negative_loss": 515.0,
+      "net_increment": -232.0,
+      "excess_max": 230.99083999980004,
+      "excess_sum": 947.122863802039,
+      "excess_mean": 43.051039263729045,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -46.399999999999935,
+      "seed_increments": [
+        -41.999999999999886,
+        -90.99999999999989,
+        20.0,
+        -93.99999999999989,
+        -25.0
+      ]
+    },
+    "full_gaussian": {
+      "coverage": {
+        "issued": {
+          "covered": 564,
+          "total": 710,
+          "rate": 0.7943661971830986
+        },
+        "ready": {
+          "covered": 564,
+          "total": 710,
+          "rate": 0.7943661971830986
+        },
+        "informative": {
+          "covered": 168,
+          "total": 210,
+          "rate": 0.8
+        },
+        "admitted": {
+          "covered": 6,
+          "total": 25,
+          "rate": 0.24
+        }
+      },
+      "admissions": 25,
+      "beneficial": 17,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 574.0,
+      "net_increment": -265.0,
+      "excess_max": 228.6119580238469,
+      "excess_sum": 1068.0388976373645,
+      "excess_mean": 42.721555905494576,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -52.99999999999993,
+      "seed_increments": [
+        -41.999999999999886,
+        -77.99999999999989,
+        -39.0,
+        -93.99999999999989,
+        -12.0
+      ]
+    },
+    "joint_diagonal_kernel": {
+      "coverage": {
+        "issued": {
+          "covered": 554,
+          "total": 710,
+          "rate": 0.780281690140845
+        },
+        "ready": {
+          "covered": 554,
+          "total": 710,
+          "rate": 0.780281690140845
+        },
+        "informative": {
+          "covered": 158,
+          "total": 210,
+          "rate": 0.7523809523809524
+        },
+        "admitted": {
+          "covered": 6,
+          "total": 18,
+          "rate": 0.3333333333333333
+        }
+      },
+      "admissions": 18,
+      "beneficial": 12,
+      "harmful": 6,
+      "zero": 0,
+      "negative_loss": 494.0,
+      "net_increment": -294.0,
+      "excess_max": 206.140515639134,
+      "excess_sum": 823.3308555890924,
+      "excess_mean": 45.74060308828291,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.409859993616694,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -58.79999999999993,
+      "seed_increments": [
+        -72.99999999999989,
+        -90.99999999999989,
+        26.0,
+        -93.99999999999989,
+        -62.0
+      ]
+    },
+    "unconditional": {
+      "coverage": {
+        "issued": {
+          "covered": 516,
+          "total": 710,
+          "rate": 0.7267605633802817
+        },
+        "ready": {
+          "covered": 516,
+          "total": 710,
+          "rate": 0.7267605633802817
+        },
+        "informative": {
+          "covered": 152,
+          "total": 210,
+          "rate": 0.7238095238095238
+        },
+        "admitted": {
+          "covered": 5,
+          "total": 19,
+          "rate": 0.2631578947368421
+        }
+      },
+      "admissions": 19,
+      "beneficial": 11,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 683.0,
+      "net_increment": -495.0,
+      "excess_max": 174.11278481888422,
+      "excess_sum": 939.4955603887136,
+      "excess_mean": 49.44713475730072,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.409859993616694,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -98.99999999999993,
+      "seed_increments": [
+        -72.99999999999989,
+        -90.99999999999989,
+        -45.0,
+        -223.9999999999999,
+        -62.0
+      ]
+    },
+    "conditional_moment": {
+      "coverage": {
+        "issued": {
+          "covered": 559,
+          "total": 710,
+          "rate": 0.7873239436619718
+        },
+        "ready": {
+          "covered": 559,
+          "total": 710,
+          "rate": 0.7873239436619718
+        },
+        "informative": {
+          "covered": 162,
+          "total": 210,
+          "rate": 0.7714285714285715
+        },
+        "admitted": {
+          "covered": 5,
+          "total": 23,
+          "rate": 0.21739130434782608
+        }
+      },
+      "admissions": 23,
+      "beneficial": 15,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 574.0,
+      "net_increment": -291.0,
+      "excess_max": 236.96326999580728,
+      "excess_sum": 1005.1745249165251,
+      "excess_mean": 43.70324021376196,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -58.19999999999993,
+      "seed_increments": [
+        -41.999999999999886,
+        -90.99999999999989,
+        -39.0,
+        -93.99999999999989,
+        -25.0
+      ]
+    }
+  },
+  "selections": {
+    "paired": {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "pair_factorized": {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "full_gaussian": {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 46.0
+    },
+    "joint_diagonal_kernel": {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "unconditional": {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "conditional_moment": {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    }
+  },
+  "complete_action_decomposition": {
+    "pair_factorized": {
+      "changed_actions": 1,
+      "counts": {
+        "added_benefits": 0,
+        "added_losses": 1,
+        "missed_benefits": 0,
+        "avoided_losses": 0
+      },
+      "pooled_parts": {
+        "added_benefits": 0.0,
+        "added_losses": -59.0,
+        "missed_benefits": 0.0,
+        "avoided_losses": 0.0,
+        "added_zero": 0,
+        "omitted_zero": 0
+      },
+      "pooled_net": -59.0,
+      "mean_net_over_five_delays": -11.8,
+      "accounting_error": 0.0
+    },
+    "full_gaussian": {
+      "changed_actions": 2,
+      "counts": {
+        "added_benefits": 0,
+        "added_losses": 0,
+        "missed_benefits": 2,
+        "avoided_losses": 0
+      },
+      "pooled_parts": {
+        "added_benefits": 0.0,
+        "added_losses": 0.0,
+        "missed_benefits": -26.0,
+        "avoided_losses": 0.0,
+        "added_zero": 0,
+        "omitted_zero": 0
+      },
+      "pooled_net": -26.0,
+      "mean_net_over_five_delays": -5.2,
+      "accounting_error": 0.0
+    },
+    "joint_diagonal_kernel": {
+      "changed_actions": 5,
+      "counts": {
+        "added_benefits": 3,
+        "added_losses": 2,
+        "missed_benefits": 0,
+        "avoided_losses": 0
+      },
+      "pooled_parts": {
+        "added_benefits": 83.0,
+        "added_losses": -80.0,
+        "missed_benefits": 0.0,
+        "avoided_losses": 0.0,
+        "added_zero": 0,
+        "omitted_zero": 0
+      },
+      "pooled_net": 3.0,
+      "mean_net_over_five_delays": 0.6,
+      "accounting_error": 0.0
+    },
+    "unconditional": {
+      "changed_actions": 6,
+      "counts": {
+        "added_benefits": 4,
+        "added_losses": 1,
+        "missed_benefits": 0,
+        "avoided_losses": 1
+      },
+      "pooled_parts": {
+        "added_benefits": 95.0,
+        "added_losses": -21.0,
+        "missed_benefits": 0.0,
+        "avoided_losses": 130.0,
+        "added_zero": 0,
+        "omitted_zero": 0
+      },
+      "pooled_net": 204.0,
+      "mean_net_over_five_delays": 40.8,
+      "accounting_error": 0.0
+    },
+    "conditional_moment": {
+      "changed_actions": 0,
+      "counts": {
+        "added_benefits": 0,
+        "added_losses": 0,
+        "missed_benefits": 0,
+        "avoided_losses": 0
+      },
+      "pooled_parts": {
+        "added_benefits": 0.0,
+        "added_losses": 0.0,
+        "missed_benefits": 0.0,
+        "avoided_losses": 0.0,
+        "added_zero": 0,
+        "omitted_zero": 0
+      },
+      "pooled_net": 0,
+      "mean_net_over_five_delays": 0.0,
+      "accounting_error": 0.0
+    }
+  },
+  "changed_actions": [
+    {
+      "control": "pair_factorized",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "origin": 36,
+      "category": "added_losses",
+      "local_net": -59.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 7.032779623758213,
+      "control_score": -22.629318242272696,
+      "paired_raw_score": -2.1499734687271257,
+      "control_raw_score": -25.06843083374362,
+      "paired_calibration": -0.0717402585350417,
+      "control_calibration": -0.01905556712086659,
+      "gain": -59.0
+    },
+    {
+      "control": "full_gaussian",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152002,
+      "origin": 20,
+      "category": "missed_benefits",
+      "local_net": 13.0,
+      "paired_admit": false,
+      "control_admit": true,
+      "paired_score": -3.7139699614267307,
+      "control_score": 0.20877431777240218,
+      "paired_raw_score": -12.89672305391207,
+      "control_raw_score": -11.44063793816628,
+      "paired_calibration": -0.0717402585350417,
+      "control_calibration": -0.09101103324952095,
+      "gain": -13.0
+    },
+    {
+      "control": "full_gaussian",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152005,
+      "origin": 20,
+      "category": "missed_benefits",
+      "local_net": 13.0,
+      "paired_admit": false,
+      "control_admit": true,
+      "paired_score": -3.722196863701246,
+      "control_score": 0.25621516236389397,
+      "paired_raw_score": -12.904949956186584,
+      "control_raw_score": -11.393197093574788,
+      "paired_calibration": -0.0717402585350417,
+      "control_calibration": -0.09101103324952095,
+      "gain": -13.0
+    },
+    {
+      "control": "joint_diagonal_kernel",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "origin": 36,
+      "category": "added_benefits",
+      "local_net": 31.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 6.702843889890239,
+      "control_score": -3.021347182827327,
+      "paired_raw_score": -7.770495666984992,
+      "control_raw_score": -19.874797533859685,
+      "paired_calibration": -0.11307296528808775,
+      "control_calibration": -0.1316675808674403,
+      "gain": 31.0
+    },
+    {
+      "control": "joint_diagonal_kernel",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "origin": 20,
+      "category": "added_benefits",
+      "local_net": 15.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 0.9719129753085305,
+      "control_score": -2.760872983421745,
+      "paired_raw_score": -8.210840117176808,
+      "control_raw_score": -18.724620825870176,
+      "paired_calibration": -0.0717402585350417,
+      "control_calibration": -0.12471678001912836,
+      "gain": 15.0
+    },
+    {
+      "control": "joint_diagonal_kernel",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "origin": 36,
+      "category": "added_losses",
+      "local_net": -59.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 7.032779623758213,
+      "control_score": -8.129218387437387,
+      "paired_raw_score": -2.1499734687271257,
+      "control_raw_score": -24.092966229885818,
+      "paired_calibration": -0.0717402585350417,
+      "control_calibration": -0.12471678001912836,
+      "gain": -59.0
+    },
+    {
+      "control": "joint_diagonal_kernel",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "origin": 28,
+      "category": "added_losses",
+      "local_net": -21.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 3.3850807531355507,
+      "control_score": -13.139367613915038,
+      "paired_raw_score": 20.35646038646412,
+      "control_raw_score": 9.312044537918105,
+      "paired_calibration": 0.13258890338537946,
+      "control_calibration": 0.17540165743619643,
+      "gain": -21.0
+    },
+    {
+      "control": "joint_diagonal_kernel",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "origin": 28,
+      "category": "added_benefits",
+      "local_net": 37.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 1.989972146388041,
+      "control_score": -5.692292138337017,
+      "paired_raw_score": -2.060137063375251,
+      "control_raw_score": -6.072953345625827,
+      "paired_calibration": -0.03164147820127572,
+      "control_calibration": -0.0029739156819438284,
+      "gain": 37.0
+    },
+    {
+      "control": "unconditional",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "origin": 36,
+      "category": "added_benefits",
+      "local_net": 31.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 6.702843889890239,
+      "control_score": -4.789268970843729,
+      "paired_raw_score": -7.770495666984992,
+      "control_raw_score": -31.810159361715307,
+      "paired_calibration": -0.11307296528808775,
+      "control_calibration": -0.2111007061786842,
+      "gain": 31.0
+    },
+    {
+      "control": "unconditional",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "origin": 20,
+      "category": "added_benefits",
+      "local_net": 15.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 0.9719129753085305,
+      "control_score": -3.8012729211895504,
+      "paired_raw_score": -8.210840117176808,
+      "control_raw_score": -31.127811411401012,
+      "paired_calibration": -0.0717402585350417,
+      "control_calibration": -0.21348858195477705,
+      "gain": 15.0
+    },
+    {
+      "control": "unconditional",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "origin": 28,
+      "category": "added_losses",
+      "local_net": -21.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 3.3850807531355507,
+      "control_score": -22.85834775919915,
+      "paired_raw_score": 20.35646038646412,
+      "control_raw_score": -11.519872569335533,
+      "paired_calibration": 0.13258890338537946,
+      "control_calibration": 0.08858183742080952,
+      "gain": -21.0
+    },
+    {
+      "control": "unconditional",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "origin": 28,
+      "category": "added_benefits",
+      "local_net": 37.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 1.989972146388041,
+      "control_score": -14.130771934414604,
+      "paired_raw_score": -2.060137063375251,
+      "control_raw_score": -17.66873002839062,
+      "paired_calibration": -0.03164147820127572,
+      "control_calibration": -0.027640297609187625,
+      "gain": 37.0
+    },
+    {
+      "control": "unconditional",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152004,
+      "origin": 36,
+      "category": "avoided_losses",
+      "local_net": -130.0,
+      "paired_admit": false,
+      "control_admit": true,
+      "paired_score": -67.35467152689196,
+      "control_score": 13.063347412473078,
+      "paired_raw_score": -29.78734576950214,
+      "control_raw_score": 29.505330735063353,
+      "paired_calibration": 0.293494732479608,
+      "control_calibration": 0.12845299470773652,
+      "gain": 130.0
+    },
+    {
+      "control": "unconditional",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152003,
+      "origin": 28,
+      "category": "added_benefits",
+      "local_net": 12.0,
+      "paired_admit": true,
+      "control_admit": false,
+      "paired_score": 3.7678959815430204,
+      "control_score": -6.556231655068991,
+      "paired_raw_score": 1.3591696316166235,
+      "control_raw_score": -18.310081135929657,
+      "paired_calibration": -0.018818174608799976,
+      "control_calibration": -0.09182694906922395,
+      "gain": 12.0
+    }
+  ],
+  "physical_unit_results": [
+    {
+      "person": 51,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 16.4,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 2,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 51,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 16.4,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 2,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 51,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 16.4,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 2,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 51,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 10.2,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 1,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 51,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 10.2,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 1,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 51,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 16.4,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 2,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 52,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": -23.0,
+      "beneficial": 1,
+      "harmful": 1,
+      "admissions": 2,
+      "admitted_covered": 1,
+      "admitted_excess_max": 236.3910746161131
+    },
+    {
+      "person": 52,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": -23.0,
+      "beneficial": 1,
+      "harmful": 1,
+      "admissions": 2,
+      "admitted_covered": 1,
+      "admitted_excess_max": 230.99083999980004
+    },
+    {
+      "person": 52,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": -17.8,
+      "beneficial": 3,
+      "harmful": 1,
+      "admissions": 4,
+      "admitted_covered": 3,
+      "admitted_excess_max": 228.6119580238469
+    },
+    {
+      "person": 52,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": -26.0,
+      "beneficial": 0,
+      "harmful": 1,
+      "admissions": 1,
+      "admitted_covered": 0,
+      "admitted_excess_max": 206.140515639134
+    },
+    {
+      "person": 52,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": -26.0,
+      "beneficial": 0,
+      "harmful": 1,
+      "admissions": 1,
+      "admitted_covered": 0,
+      "admitted_excess_max": 174.11278481888422
+    },
+    {
+      "person": 52,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": -23.0,
+      "beneficial": 1,
+      "harmful": 1,
+      "admissions": 2,
+      "admitted_covered": 1,
+      "admitted_excess_max": 236.96326999580728
+    },
+    {
+      "person": 53,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": -9.4,
+      "beneficial": 1,
+      "harmful": 1,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 68.03277962375822
+    },
+    {
+      "person": 53,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 2.4,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 0,
+      "admitted_excess_max": 18.089961249185528
+    },
+    {
+      "person": 53,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": -9.4,
+      "beneficial": 1,
+      "harmful": 1,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 79.93800177870688
+    },
+    {
+      "person": 53,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 2.4,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 0,
+      "admitted_excess_max": 27.992705855660773
+    },
+    {
+      "person": 53,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": -9.4,
+      "beneficial": 1,
+      "harmful": 1,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 92.62615696392825
+    },
+    {
+      "person": 53,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": -9.4,
+      "beneficial": 1,
+      "harmful": 1,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 68.08662543438342
+    },
+    {
+      "person": 54,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 5.2,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 22.255483517450692
+    },
+    {
+      "person": 54,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 5.2,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 22.76059005780386
+    },
+    {
+      "person": 54,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 5.2,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 21.89139735223543
+    },
+    {
+      "person": 54,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 5.2,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 18.702847417304945
+    },
+    {
+      "person": 54,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 5.2,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 11.02547823402314
+    },
+    {
+      "person": 54,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 5.2,
+      "beneficial": 2,
+      "harmful": 0,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 22.125843217201556
+    },
+    {
+      "person": 55,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": -12.2,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 48.72911716214847
+    },
+    {
+      "person": 55,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": -12.2,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 48.692702277026484
+    },
+    {
+      "person": 55,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": -12.2,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 53.22429498562042
+    },
+    {
+      "person": 55,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": -8.0,
+      "beneficial": 0,
+      "harmful": 2,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 44.69298175944816
+    },
+    {
+      "person": 55,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": -8.0,
+      "beneficial": 0,
+      "harmful": 2,
+      "admissions": 2,
+      "admitted_covered": 0,
+      "admitted_excess_max": 36.68961113799519
+    },
+    {
+      "person": 55,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": -12.2,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 49.15627606323662
+    },
+    {
+      "person": 56,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 56,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 56,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 56,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 56,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 56,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 57,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 7.4,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 1,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 57,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 7.4,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 1,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 57,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 7.4,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 1,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 57,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 57,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 57,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 7.4,
+      "beneficial": 1,
+      "harmful": 0,
+      "admissions": 1,
+      "admitted_covered": 1,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 58,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 58,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 58,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 58,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 58,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 58,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 59,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 59,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 59,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 59,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 59,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 59,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 60,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 12.0,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 1,
+      "admitted_excess_max": 30.94223195591725
+    },
+    {
+      "person": 60,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 12.0,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 0,
+      "admitted_excess_max": 28.016038433565946
+    },
+    {
+      "person": 60,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 12.0,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 0,
+      "admitted_excess_max": 24.673546162288446
+    },
+    {
+      "person": 60,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 12.0,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 3,
+      "admitted_excess_max": 26.97082700962784
+    },
+    {
+      "person": 60,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 12.0,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 3,
+      "admitted_excess_max": 13.836566225524336
+    },
+    {
+      "person": 60,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 12.0,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 0,
+      "admitted_excess_max": 30.871666585003325
+    },
+    {
+      "person": 61,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 61,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 61,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 61,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 61,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": -26.0,
+      "beneficial": 0,
+      "harmful": 1,
+      "admissions": 1,
+      "admitted_covered": 0,
+      "admitted_excess_max": 145.0633474124731
+    },
+    {
+      "person": 61,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "admissions": 0,
+      "admitted_covered": 0,
+      "admitted_excess_max": 0.0
+    },
+    {
+      "person": 62,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": 10.2,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 1,
+      "admitted_excess_max": 33.553867066936064
+    },
+    {
+      "person": 62,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": 10.2,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 1,
+      "admitted_excess_max": 37.98226133969952
+    },
+    {
+      "person": 62,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": 10.2,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 0,
+      "admitted_excess_max": 41.222381440182524
+    },
+    {
+      "person": 62,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": 10.2,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 2,
+      "admitted_excess_max": 31.29143481417381
+    },
+    {
+      "person": 62,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": 7.8,
+      "beneficial": 3,
+      "harmful": 0,
+      "admissions": 3,
+      "admitted_covered": 1,
+      "admitted_excess_max": 24.058593214445303
+    },
+    {
+      "person": 62,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": 10.2,
+      "beneficial": 4,
+      "harmful": 0,
+      "admissions": 4,
+      "admitted_covered": 1,
+      "admitted_excess_max": 33.995890948933535
+    },
+    {
+      "person": 63,
+      "arm": "paired",
+      "chains": 5,
+      "mean_net": -64.79999999999993,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 167.14342243361352
+    },
+    {
+      "person": 63,
+      "arm": "pair_factorized",
+      "chains": 5,
+      "mean_net": -64.79999999999993,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 170.85891576391538
+    },
+    {
+      "person": 63,
+      "arm": "full_gaussian",
+      "chains": 5,
+      "mean_net": -64.79999999999993,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 171.915408866443
+    },
+    {
+      "person": 63,
+      "arm": "joint_diagonal_kernel",
+      "chains": 5,
+      "mean_net": -64.79999999999993,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 162.35618193700878
+    },
+    {
+      "person": 63,
+      "arm": "unconditional",
+      "chains": 5,
+      "mean_net": -64.79999999999993,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 153.10783654221837
+    },
+    {
+      "person": 63,
+      "arm": "conditional_moment",
+      "chains": 5,
+      "mean_net": -64.79999999999993,
+      "beneficial": 0,
+      "harmful": 3,
+      "admissions": 3,
+      "admitted_covered": 0,
+      "admitted_excess_max": 167.3998983277791
+    }
+  ],
+  "execution_budget_sensitivity": [
+    {
+      "arm": "paired",
+      "budget": 0.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 23,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "budget": 110.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 23,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "budget": 130.0,
+      "mean_net": -58.19999999999993,
+      "beneficial": 15,
+      "harmful": 8,
+      "negative_loss": 574.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "paired",
+      "budget": 260.0,
+      "mean_net": -58.19999999999993,
+      "beneficial": 15,
+      "harmful": 8,
+      "negative_loss": 574.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "pair_factorized",
+      "budget": 0.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 22,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "budget": 110.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 22,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "budget": 130.0,
+      "mean_net": -46.399999999999935,
+      "beneficial": 15,
+      "harmful": 7,
+      "negative_loss": 515.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "pair_factorized",
+      "budget": 260.0,
+      "mean_net": -46.399999999999935,
+      "beneficial": 15,
+      "harmful": 7,
+      "negative_loss": 515.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "full_gaussian",
+      "budget": 0.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 25,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "budget": 110.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 25,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "budget": 130.0,
+      "mean_net": -52.99999999999993,
+      "beneficial": 17,
+      "harmful": 8,
+      "negative_loss": 574.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "full_gaussian",
+      "budget": 260.0,
+      "mean_net": -52.99999999999993,
+      "beneficial": 17,
+      "harmful": 8,
+      "negative_loss": 574.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "budget": 0.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 18,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "budget": 110.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 18,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "budget": 130.0,
+      "mean_net": -58.79999999999993,
+      "beneficial": 12,
+      "harmful": 6,
+      "negative_loss": 494.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "budget": 260.0,
+      "mean_net": -58.79999999999993,
+      "beneficial": 12,
+      "harmful": 6,
+      "negative_loss": 494.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "unconditional",
+      "budget": 0.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 19,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "budget": 110.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 19,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "budget": 130.0,
+      "mean_net": -98.99999999999993,
+      "beneficial": 11,
+      "harmful": 8,
+      "negative_loss": 683.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "unconditional",
+      "budget": 260.0,
+      "mean_net": -98.99999999999993,
+      "beneficial": 11,
+      "harmful": 8,
+      "negative_loss": 683.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "conditional_moment",
+      "budget": 0.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 23,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "budget": 110.0,
+      "mean_net": 0.0,
+      "beneficial": 0,
+      "harmful": 0,
+      "negative_loss": 0,
+      "guard_refusals": 23,
+      "max_per_chain_loss": 0,
+      "max_service_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "budget": 130.0,
+      "mean_net": -58.19999999999993,
+      "beneficial": 15,
+      "harmful": 8,
+      "negative_loss": 574.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    },
+    {
+      "arm": "conditional_moment",
+      "budget": 260.0,
+      "mean_net": -58.19999999999993,
+      "beneficial": 15,
+      "harmful": 8,
+      "negative_loss": 574.0,
+      "guard_refusals": 0,
+      "max_per_chain_loss": 130.0,
+      "max_service_error": 1.1368683772161603e-13
+    }
+  ],
+  "max_service_error": 1.1368683772161603e-13
+}

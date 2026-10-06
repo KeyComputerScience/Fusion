@@ -1,0 +1,3493 @@
+{
+  "summary": {
+    "paired": {
+      "coverage": {
+        "issued": {
+          "covered": 560,
+          "total": 710,
+          "rate": 0.7887323943661971
+        },
+        "ready": {
+          "covered": 560,
+          "total": 710,
+          "rate": 0.7887323943661971
+        },
+        "informative": {
+          "covered": 163,
+          "total": 210,
+          "rate": 0.7761904761904762
+        },
+        "admitted": {
+          "covered": 6,
+          "total": 23,
+          "rate": 0.2608695652173913
+        }
+      },
+      "admissions": 23,
+      "beneficial": 15,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 574.0,
+      "net_increment": -291.0,
+      "excess_max": 236.3910746161131,
+      "excess_sum": 1000.8528267883711,
+      "excess_mean": 43.51534029514657,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -58.19999999999993,
+      "seed_increments": [
+        -41.999999999999886,
+        -90.99999999999989,
+        -39.0,
+        -93.99999999999989,
+        -25.0
+      ]
+    },
+    "pair_factorized": {
+      "coverage": {
+        "issued": {
+          "covered": 591,
+          "total": 710,
+          "rate": 0.8323943661971831
+        },
+        "ready": {
+          "covered": 591,
+          "total": 710,
+          "rate": 0.8323943661971831
+        },
+        "informative": {
+          "covered": 167,
+          "total": 210,
+          "rate": 0.7952380952380952
+        },
+        "admitted": {
+          "covered": 5,
+          "total": 22,
+          "rate": 0.22727272727272727
+        }
+      },
+      "admissions": 22,
+      "beneficial": 15,
+      "harmful": 7,
+      "zero": 0,
+      "negative_loss": 515.0,
+      "net_increment": -232.0,
+      "excess_max": 230.99083999980004,
+      "excess_sum": 947.122863802039,
+      "excess_mean": 43.051039263729045,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -46.399999999999935,
+      "seed_increments": [
+        -41.999999999999886,
+        -90.99999999999989,
+        20.0,
+        -93.99999999999989,
+        -25.0
+      ]
+    },
+    "full_gaussian": {
+      "coverage": {
+        "issued": {
+          "covered": 564,
+          "total": 710,
+          "rate": 0.7943661971830986
+        },
+        "ready": {
+          "covered": 564,
+          "total": 710,
+          "rate": 0.7943661971830986
+        },
+        "informative": {
+          "covered": 168,
+          "total": 210,
+          "rate": 0.8
+        },
+        "admitted": {
+          "covered": 6,
+          "total": 25,
+          "rate": 0.24
+        }
+      },
+      "admissions": 25,
+      "beneficial": 17,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 574.0,
+      "net_increment": -265.0,
+      "excess_max": 228.6119580238469,
+      "excess_sum": 1068.0388976373645,
+      "excess_mean": 42.721555905494576,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -52.99999999999993,
+      "seed_increments": [
+        -41.999999999999886,
+        -77.99999999999989,
+        -39.0,
+        -93.99999999999989,
+        -12.0
+      ]
+    },
+    "joint_diagonal_kernel": {
+      "coverage": {
+        "issued": {
+          "covered": 554,
+          "total": 710,
+          "rate": 0.780281690140845
+        },
+        "ready": {
+          "covered": 554,
+          "total": 710,
+          "rate": 0.780281690140845
+        },
+        "informative": {
+          "covered": 158,
+          "total": 210,
+          "rate": 0.7523809523809524
+        },
+        "admitted": {
+          "covered": 6,
+          "total": 18,
+          "rate": 0.3333333333333333
+        }
+      },
+      "admissions": 18,
+      "beneficial": 12,
+      "harmful": 6,
+      "zero": 0,
+      "negative_loss": 494.0,
+      "net_increment": -294.0,
+      "excess_max": 206.140515639134,
+      "excess_sum": 823.3308555890924,
+      "excess_mean": 45.74060308828291,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.409859993616694,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -58.79999999999993,
+      "seed_increments": [
+        -72.99999999999989,
+        -90.99999999999989,
+        26.0,
+        -93.99999999999989,
+        -62.0
+      ]
+    },
+    "unconditional": {
+      "coverage": {
+        "issued": {
+          "covered": 516,
+          "total": 710,
+          "rate": 0.7267605633802817
+        },
+        "ready": {
+          "covered": 516,
+          "total": 710,
+          "rate": 0.7267605633802817
+        },
+        "informative": {
+          "covered": 152,
+          "total": 210,
+          "rate": 0.7238095238095238
+        },
+        "admitted": {
+          "covered": 5,
+          "total": 19,
+          "rate": 0.2631578947368421
+        }
+      },
+      "admissions": 19,
+      "beneficial": 11,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 683.0,
+      "net_increment": -495.0,
+      "excess_max": 174.11278481888422,
+      "excess_sum": 939.4955603887136,
+      "excess_mean": 49.44713475730072,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.409859993616694,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -98.99999999999993,
+      "seed_increments": [
+        -72.99999999999989,
+        -90.99999999999989,
+        -45.0,
+        -223.9999999999999,
+        -62.0
+      ]
+    },
+    "conditional_moment": {
+      "coverage": {
+        "issued": {
+          "covered": 559,
+          "total": 710,
+          "rate": 0.7873239436619718
+        },
+        "ready": {
+          "covered": 559,
+          "total": 710,
+          "rate": 0.7873239436619718
+        },
+        "informative": {
+          "covered": 162,
+          "total": 210,
+          "rate": 0.7714285714285715
+        },
+        "admitted": {
+          "covered": 5,
+          "total": 23,
+          "rate": 0.21739130434782608
+        }
+      },
+      "admissions": 23,
+      "beneficial": 15,
+      "harmful": 8,
+      "zero": 0,
+      "negative_loss": 574.0,
+      "net_increment": -291.0,
+      "excess_max": 236.96326999580728,
+      "excess_sum": 1005.1745249165251,
+      "excess_mean": 43.70324021376196,
+      "guard_refusals": 0,
+      "max_spent_plus_pending": 130.0,
+      "ledger_supplied": true,
+      "calibration_effective_count_min": 4.323485269372264,
+      "calibration_effective_count_max": 6.420956045592469,
+      "empty_stratum_issued": 0,
+      "empty_stratum_positive_raw_refusals": 0,
+      "empty_stratum_beneficial_opportunities": 0,
+      "empty_stratum_harmful_opportunities": 0,
+      "empty_stratum_missed_potential_gain": 0,
+      "mean_increment": -58.19999999999993,
+      "seed_increments": [
+        -41.999999999999886,
+        -90.99999999999989,
+        -39.0,
+        -93.99999999999989,
+        -25.0
+      ]
+    }
+  },
+  "selected": {
+    "paired": {
+      "arm": "paired",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "pair_factorized": {
+      "arm": "pair_factorized",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "full_gaussian": {
+      "arm": "full_gaussian",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 46.0
+    },
+    "joint_diagonal_kernel": {
+      "arm": "joint_diagonal_kernel",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "unconditional": {
+      "arm": "unconditional",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    },
+    "conditional_moment": {
+      "arm": "conditional_moment",
+      "config": {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      "net": 65.33333333333333
+    }
+  },
+  "target_checks": [
+    {
+      "arm": "paired",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p051",
+      "person": 51,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152001,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152001,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152001,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152001,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152001,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152001,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152002,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152002,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152002,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152002,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152002,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152002,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "forks": 10,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152003,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152004,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152004,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152004,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152004,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152004,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152004,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152005,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152005,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152005,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152005,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152005,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p052",
+      "person": 52,
+      "seed": 152005,
+      "forks": 10,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "paired",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p053",
+      "person": 53,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p054",
+      "person": 54,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p055",
+      "person": 55,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 3.552713678800501e-15
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p056",
+      "person": 56,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p057",
+      "person": 57,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p058",
+      "person": 58,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "paired",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 7.105427357601002e-15
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p059",
+      "person": 59,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p060",
+      "person": 60,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 1.4210854715202004e-14
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p061",
+      "person": 61,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p062",
+      "person": 62,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152001,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152002,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152003,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152004,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "paired",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "recording": "p063",
+      "person": 63,
+      "seed": 152005,
+      "forks": 11,
+      "maximum_error": 0.0
+    }
+  ],
+  "max_service_error": 1.1368683772161603e-13,
+  "cache": {
+    "hits": 192,
+    "misses": 3,
+    "bypasses": 2088,
+    "retained": 3,
+    "train_seconds": 0.041359874987392686,
+    "hash_seconds": 0.569951585988747,
+    "first_hit_bitwise_recomputed": true,
+    "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+  }
+}

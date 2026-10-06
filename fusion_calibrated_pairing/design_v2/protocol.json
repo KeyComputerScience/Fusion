@@ -1,0 +1,324 @@
+{
+  "utc": "2026-10-05T13:25:06.682768+00:00",
+  "version": 2,
+  "status": "KNOWN selfBACK development calibration repair; former physical outcomes already inspected; no independent confirmation",
+  "source_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/audit_canary_execution.py": "5f6c6ec9448913d923066afac07f69b4e3ba5518c81c7e918484aa5bb8561b49",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/cached_runner.py": "53443799ca051f7c24b60c8d1346ecbed8d5df9c48bfb5f84e17de5378788208",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/independent_bayes_extension.py": "c70141db94d36b06079e89bd69e7a84c240938d2e40977cb807078cdb6f0253f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/base/independent_bayes_fusion.py": "15e3fc99d3f0935d2e66853b9b1949ef7825869c2f0d56a8ba49513838376e57",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/new_data_adapter.py": "15c32d48e7af7e49309b10a424665f64a47c33314ea286fb0275786042a91a7c",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/run_recovery_external.py": "638ba60c15998266d1a0f61baf47515c87a8a61670117d27005d103acf2d947f",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/extension/run_recovery_fusion.py": "81cdadbe726909573e63e1cf78670e6f1abfb75ec21559ad9ada5a5ca13ff3c0",
+    "/Users/key/Documents/Codex/2026-10-02/jih/outputs/Fusion_Recovery_Repro/external_fusion_validation_20261002/run_external_pdf.py": "50dbfaa37d89ff97975bc61cdd1ec4b6afc9de63cfea199c21ec02068dc3c517",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/conditional_moment_control.py": "ee47c4ac9efc1c67829a79f5e435122038e5f42dca5992e5a53086a05af44e28",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/conditional_pairing.py": "ea649144b6f832397c13fc45e282648b127d49d294fe8e6b20d3daae79c81bd8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/run_selfback_development.py": "6345dc3d6a49b1e536c90afca3293c174a3ce9576440c03ad51b805d35854006",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design_v2/run_stored_score_repair.py": "029aed2a3d1f6607d6781d3d530358e4585a7040eb4888bd1e701011962ae0a5",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/risk/immutable_conditional_calibration.py": "f6095b0c75bbe008b89ff6865723bc3a0ae2d79fa5ef530fd2f038b4fab097c7",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/risk/immutable_conditional_calibration_v2.py": "74f0dc248453be53aaf740dbf8d2e9d4883c3a37a09acb30532cb614df896161",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/controls/run_strong_controls.py": "7e375eb9d4bbb7eacbe492cc0191cbb3af06a95c00f8f730a1737d3136b7bec8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_focus_20261003/external_author/run_trained_external.py": "27dc4c56a1d32ebabadbf0bcfa20c6132f697fbe8949c9c961bacbf4d6f6838d",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_return_20261005/ratio/prospective_v2.py": "eeeeb3668e5fdd46a018d56f5bd82c8236611fbba4065a8cef246d0aa4a132d8",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_return_20261005/ratio/run_ratio.py": "8e7b1a2287a7902a74d6afab813bb27b9cb1797810266976c37fcd7ff2167bb0",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/physical_adapter.py": "09bd97f0028582fb394c8794a4b3162959a09d1f817ed2847607cda225c8d3bd",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/run_replay.py": "da316e06203a14a1b51c4e8e7ca99224e4f14eda35fa52bb1661f0c82eada03b",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_joint_tail_20261005/tail_fusion.py": "73d3425667b9bdfa6ffdff2256aa2efc62d31b8e823df7e1425582be776b75b9",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/joint_competitors/conditional_laws.py": "2480a4f73c8369cf0bd171209fd946b2e37e93f2a183a2839b354628b7cbbdb3",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_revision_20261005/joint_competitors/run_competitors.py": "3e93e9ac3009dc0633210f3b0dba3ff57993d7b92ce6b7816c07c5e1bffaa016"
+  },
+  "immutable_input_hashes": {
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/protocol.json": "c67c5dcb92aa7c52ff4d2aa545a4146d26aedd644ac6ec322e404d789354cb13",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/selection.json": "bbc0d381cbcd713e92d054c6b58ca31bd83ea07282a1648019000d318d9539d2",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/calibration_trials.json.gz": "401617c973baeb622f8b7a91579a352b2097375f48a4a7c0e71588a35e0ddf14",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/development_results.json.gz": "a64f053cafdca272e8a7641de8cb93fd80b0c1b8c029757725ef337c43b38071",
+    "/Users/key/Documents/Codex/2026-10-02/jih/work/fusion_calibrated_pairing_20261005/design/development_summary.json": "0addf55335a63218c48485ecff546d26b5cd13ce4cf0cc78fb76806c7265533a"
+  },
+  "raw_scores": "exact V1 raw_gate_score; no paired-law, conditional-moment, forecaster, quality, or target refitting",
+  "service": "unchanged exogenous linear candidate/reference world regenerated solely for independent request-level service reconstruction; no neural training",
+  "calibration": "V2 same previsible quiet/informative stratum; persistent whole canonical score-fit pool; global latest48 mature callbacks then stratum filtering with true global callback age; empty stratum physical minimum",
+  "grid": {
+    "paired": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "pair_factorized": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "full_gaussian": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "joint_diagonal_kernel": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "unconditional": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ],
+    "conditional_moment": [
+      {
+        "bandwidth": 0.25,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.25,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 0.5,
+        "probability": 0.95
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.8
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.9
+      },
+      {
+        "bandwidth": 1.0,
+        "probability": 0.95
+      }
+    ]
+  },
+  "configurations_per_arm": 9,
+  "selection": "same dedicated two selection participants and three delays; maximize complete guarded net; ties higher quantile probability then larger bandwidth",
+  "partitions": {
+    "statefit": [
+      42,
+      43,
+      44,
+      46
+    ],
+    "scorefit": [
+      47,
+      48
+    ],
+    "selection": [
+      49,
+      50
+    ],
+    "development": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  "calibration_seeds": [
+    151001,
+    151002,
+    151003
+  ],
+  "development_seeds": [
+    152001,
+    152002,
+    152003,
+    152004,
+    152005
+  ],
+  "budgets": [
+    0.0,
+    110.0,
+    130.0,
+    260.0
+  ],
+  "primary_budget": 130.0,
+  "reserve": 130.0,
+  "causal_scope": "models use individually arrived labels; complete aggregate calibration/state callbacks require full maturity. Target-poison checks fix issued forecaster events, not labels legitimately already received by the shared predictor."
+}
