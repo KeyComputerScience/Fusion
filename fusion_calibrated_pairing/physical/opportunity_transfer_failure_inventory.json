@@ -1,0 +1,120 @@
+{
+  "utc": "2026-10-05T13:51:08.804669+00:00",
+  "role": "Filename/size inventory only; no .dat sensor or label payload decoded",
+  "static_transfer": {
+    "exit_code": 18,
+    "error": "transfer closed with outstanding read data remaining",
+    "bytes": 67787697
+  },
+  "legacy_transfer": {
+    "exit_code": 130,
+    "stopped_by_root_instruction": true,
+    "bytes": 32620544
+  },
+  "required_native_sessions": 24,
+  "complete_native_local_members": 5,
+  "all_required_present": false,
+  "entries": [
+    {
+      "name": "OpportunityUCIDataset/",
+      "local_header_offset": 0,
+      "compressed_size": 0,
+      "uncompressed_size": 0,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 0,
+      "crc_header": 0
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/",
+      "local_header_offset": 52,
+      "compressed_size": 0,
+      "uncompressed_size": 0,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 0,
+      "crc_header": 0
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/column_names.txt",
+      "local_header_offset": 112,
+      "compressed_size": 1808,
+      "uncompressed_size": 22677,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 532229456
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/label_legend.txt",
+      "local_header_offset": 1996,
+      "compressed_size": 836,
+      "uncompressed_size": 4146,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 3008805913
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/S1-ADL1.dat",
+      "local_header_offset": 2908,
+      "compressed_size": 16902027,
+      "uncompressed_size": 51803164,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 1650935028
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/S1-ADL2.dat",
+      "local_header_offset": 16905006,
+      "compressed_size": 10746570,
+      "uncompressed_size": 32761206,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 1197190171
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/S1-ADL3.dat",
+      "local_header_offset": 27651647,
+      "compressed_size": 11113593,
+      "uncompressed_size": 33899243,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 1172019584
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/S1-ADL4.dat",
+      "local_header_offset": 38765311,
+      "compressed_size": 10967668,
+      "uncompressed_size": 34242592,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 3435300128
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/S1-ADL5.dat",
+      "local_header_offset": 49733050,
+      "compressed_size": 10095827,
+      "uncompressed_size": 30729238,
+      "complete_compressed_member": true,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 2224962057
+    },
+    {
+      "name": "OpportunityUCIDataset/dataset/S1-Drill.dat",
+      "local_header_offset": 59828948,
+      "compressed_size": 19080362,
+      "uncompressed_size": 56321443,
+      "complete_compressed_member": false,
+      "flags": 0,
+      "method": 8,
+      "crc_header": 1266842694
+    }
+  ],
+  "streaming_processing_feasible": false
+}

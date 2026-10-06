@@ -1,0 +1,11 @@
+STATE S2-Drill 40
+STATE S2-ADL1 22
+SCORE_CAL S2-ADL2
+SCORE_CAL S2-ADL3
+SELECT_REPLAY S2-ADL4 161001
+SELECT_REPLAY S2-ADL4 161002
+SELECT_REPLAY S2-ADL4 161003
+SELECT_REPLAY S2-ADL5 161001
+SELECT_REPLAY S2-ADL5 161002
+SELECT_REPLAY S2-ADL5 161003
+SELECTED {'paired': ({'bandwidth': 0.5, 'probability': 0.8}, 146.33333333333454), 'pair_factorized': ({'bandwidth': 0.5, 'probability': 0.95}, 139.33333333333422), 'full_gaussian': ({'bandwidth': 0.25, 'probability': 0.95}, 118.0000000000006), 'joint_diagonal_kernel': ({'bandwidth': 0.25, 'probability': 0.95}, 144.33333333333422), 'unconditional': ({'bandwidth': 0.25, 'probability': 0.9}, 100.33333333333393), 'conditional_moment': ({'bandwidth': 0.5, 'probability': 0.8}, 146.33333333333454), 'pdf': ({'bandwidth': 0.25, 'probability': 0.9}, 133.66666666666757), 'qmf': ({'bandwidth': 1.0, 'probability': 0.9}, 121.33333333333424), 'dbf': ({'bandwidth': 0.25, 'probability': 0.95}, 87.33333333333394)} STRONGEST paired

@@ -1,0 +1,921 @@
+{
+  "overall": {
+    "paired": {
+      "mean_paid_increment": 659.0000000000003,
+      "seed_increments": [
+        532.0,
+        578.0,
+        1009.0000000000018,
+        530.0,
+        646.0
+      ],
+      "mean_service_net": 99226.84,
+      "admissions": 135,
+      "beneficial": 105,
+      "harmful": 26,
+      "zero": 4,
+      "negative_loss": 183.0,
+      "max_excess": 65.84221376326727,
+      "total_excess": 859.836753278706,
+      "mean_excess": 6.369161135397823,
+      "coverage": {
+        "issued": {
+          "covered": 4109,
+          "total": 5315,
+          "rate": 0.7730950141110066
+        },
+        "ready": {
+          "covered": 4109,
+          "total": 5315,
+          "rate": 0.7730950141110066
+        },
+        "informative": {
+          "covered": 1062,
+          "total": 1359,
+          "rate": 0.7814569536423841
+        },
+        "admitted": {
+          "covered": 69,
+          "total": 135,
+          "rate": 0.5111111111111111
+        }
+      },
+      "refused": 39,
+      "binding_chains": 19,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -41.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "pair_factorized": {
+      "mean_paid_increment": 558.8,
+      "seed_increments": [
+        428.0,
+        553.0,
+        890.0,
+        423.0,
+        500.0
+      ],
+      "mean_service_net": 99126.64,
+      "admissions": 78,
+      "beneficial": 67,
+      "harmful": 10,
+      "zero": 1,
+      "negative_loss": 102.0,
+      "max_excess": 60.820173053030004,
+      "total_excess": 371.78231870378374,
+      "mean_excess": 4.766439983381843,
+      "coverage": {
+        "issued": {
+          "covered": 4916,
+          "total": 5315,
+          "rate": 0.9249294449670743
+        },
+        "ready": {
+          "covered": 4916,
+          "total": 5315,
+          "rate": 0.9249294449670743
+        },
+        "informative": {
+          "covered": 1267,
+          "total": 1359,
+          "rate": 0.9323031640912436
+        },
+        "admitted": {
+          "covered": 56,
+          "total": 78,
+          "rate": 0.717948717948718
+        }
+      },
+      "refused": 4,
+      "binding_chains": 4,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -41.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "full_gaussian": {
+      "mean_paid_increment": 511.0,
+      "seed_increments": [
+        418.0,
+        467.0,
+        810.0,
+        458.0,
+        402.0
+      ],
+      "mean_service_net": 99078.84,
+      "admissions": 73,
+      "beneficial": 62,
+      "harmful": 10,
+      "zero": 1,
+      "negative_loss": 71.0,
+      "max_excess": 62.63837801980921,
+      "total_excess": 269.82194631518854,
+      "mean_excess": 3.6961910454135416,
+      "coverage": {
+        "issued": {
+          "covered": 4933,
+          "total": 5315,
+          "rate": 0.9281279397930385
+        },
+        "ready": {
+          "covered": 4933,
+          "total": 5315,
+          "rate": 0.9281279397930385
+        },
+        "informative": {
+          "covered": 1220,
+          "total": 1359,
+          "rate": 0.8977189109639441
+        },
+        "admitted": {
+          "covered": 48,
+          "total": 73,
+          "rate": 0.6575342465753424
+        }
+      },
+      "refused": 8,
+      "binding_chains": 7,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -41.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "joint_diagonal_kernel": {
+      "mean_paid_increment": 578.6,
+      "seed_increments": [
+        406.0,
+        506.0,
+        966.0,
+        493.0,
+        522.0
+      ],
+      "mean_service_net": 99146.44,
+      "admissions": 85,
+      "beneficial": 72,
+      "harmful": 12,
+      "zero": 1,
+      "negative_loss": 91.0,
+      "max_excess": 50.78847222541749,
+      "total_excess": 321.8937015910523,
+      "mean_excess": 3.7869847246006154,
+      "coverage": {
+        "issued": {
+          "covered": 4841,
+          "total": 5315,
+          "rate": 0.9108184383819379
+        },
+        "ready": {
+          "covered": 4841,
+          "total": 5315,
+          "rate": 0.9108184383819379
+        },
+        "informative": {
+          "covered": 1227,
+          "total": 1359,
+          "rate": 0.9028697571743929
+        },
+        "admitted": {
+          "covered": 56,
+          "total": 85,
+          "rate": 0.6588235294117647
+        }
+      },
+      "refused": 12,
+      "binding_chains": 9,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -41.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "unconditional": {
+      "mean_paid_increment": 628.6,
+      "seed_increments": [
+        523.0,
+        603.0,
+        861.0,
+        565.0,
+        591.0
+      ],
+      "mean_service_net": 99196.44,
+      "admissions": 122,
+      "beneficial": 93,
+      "harmful": 25,
+      "zero": 4,
+      "negative_loss": 221.0,
+      "max_excess": 59.03323438630055,
+      "total_excess": 593.5014805024846,
+      "mean_excess": 4.864766233626923,
+      "coverage": {
+        "issued": {
+          "covered": 4524,
+          "total": 5315,
+          "rate": 0.8511759172154281
+        },
+        "ready": {
+          "covered": 4524,
+          "total": 5315,
+          "rate": 0.8511759172154281
+        },
+        "informative": {
+          "covered": 1150,
+          "total": 1359,
+          "rate": 0.8462104488594555
+        },
+        "admitted": {
+          "covered": 73,
+          "total": 122,
+          "rate": 0.5983606557377049
+        }
+      },
+      "refused": 38,
+      "binding_chains": 19,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -41.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "conditional_moment": {
+      "mean_paid_increment": 648.6000000000004,
+      "seed_increments": [
+        538.0,
+        599.0,
+        942.0000000000018,
+        518.0,
+        646.0
+      ],
+      "mean_service_net": 99216.44,
+      "admissions": 138,
+      "beneficial": 106,
+      "harmful": 28,
+      "zero": 4,
+      "negative_loss": 225.0,
+      "max_excess": 66.07896095719335,
+      "total_excess": 902.8516963971989,
+      "mean_excess": 6.542403597081153,
+      "coverage": {
+        "issued": {
+          "covered": 4111,
+          "total": 5315,
+          "rate": 0.7734713076199435
+        },
+        "ready": {
+          "covered": 4111,
+          "total": 5315,
+          "rate": 0.7734713076199435
+        },
+        "informative": {
+          "covered": 1061,
+          "total": 1359,
+          "rate": 0.7807211184694628
+        },
+        "admitted": {
+          "covered": 70,
+          "total": 138,
+          "rate": 0.5072463768115942
+        }
+      },
+      "refused": 41,
+      "binding_chains": 21,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -41.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "pdf": {
+      "mean_paid_increment": 540.6,
+      "seed_increments": [
+        512.0,
+        504.0,
+        754.0,
+        381.0,
+        552.0
+      ],
+      "mean_service_net": 99108.44,
+      "admissions": 113,
+      "beneficial": 82,
+      "harmful": 27,
+      "zero": 4,
+      "negative_loss": 275.0,
+      "max_excess": 58.770850260978065,
+      "total_excess": 692.7380235719111,
+      "mean_excess": 6.130424987362045,
+      "coverage": {
+        "issued": {
+          "covered": 4974,
+          "total": 5315,
+          "rate": 0.9358419567262465
+        },
+        "ready": {
+          "covered": 4974,
+          "total": 5315,
+          "rate": 0.9358419567262465
+        },
+        "informative": {
+          "covered": 1164,
+          "total": 1359,
+          "rate": 0.8565121412803532
+        },
+        "admitted": {
+          "covered": 64,
+          "total": 113,
+          "rate": 0.5663716814159292
+        }
+      },
+      "refused": 44,
+      "binding_chains": 22,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -41.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "qmf": {
+      "mean_paid_increment": 608.3999999999996,
+      "seed_increments": [
+        429.0,
+        708.0,
+        770.0,
+        424.9999999999982,
+        710.0
+      ],
+      "mean_service_net": 99176.24,
+      "admissions": 117,
+      "beneficial": 93,
+      "harmful": 21,
+      "zero": 3,
+      "negative_loss": 349.0,
+      "max_excess": 90.83056365328329,
+      "total_excess": 1492.7538787640158,
+      "mean_excess": 12.758580160376203,
+      "coverage": {
+        "issued": {
+          "covered": 5017,
+          "total": 5315,
+          "rate": 0.9439322671683913
+        },
+        "ready": {
+          "covered": 5017,
+          "total": 5315,
+          "rate": 0.9439322671683913
+        },
+        "informative": {
+          "covered": 1207,
+          "total": 1359,
+          "rate": 0.8881530537159676
+        },
+        "admitted": {
+          "covered": 48,
+          "total": 117,
+          "rate": 0.41025641025641024
+        }
+      },
+      "refused": 26,
+      "binding_chains": 15,
+      "max_chain_loss": 66.0,
+      "minimum_chain_prefix": -57.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    },
+    "dbf": {
+      "mean_paid_increment": 366.4,
+      "seed_increments": [
+        312.0,
+        402.0,
+        708.0,
+        241.0,
+        169.0
+      ],
+      "mean_service_net": 98934.24,
+      "admissions": 39,
+      "beneficial": 36,
+      "harmful": 3,
+      "zero": 0,
+      "negative_loss": 56.0,
+      "max_excess": 40.764215998805774,
+      "total_excess": 111.67088027220547,
+      "mean_excess": 2.8633559044155246,
+      "coverage": {
+        "issued": {
+          "covered": 5054,
+          "total": 5315,
+          "rate": 0.9508936970837253
+        },
+        "ready": {
+          "covered": 5054,
+          "total": 5315,
+          "rate": 0.9508936970837253
+        },
+        "informative": {
+          "covered": 1225,
+          "total": 1359,
+          "rate": 0.9013980868285504
+        },
+        "admitted": {
+          "covered": 31,
+          "total": 39,
+          "rate": 0.7948717948717948
+        }
+      },
+      "refused": 2,
+      "binding_chains": 1,
+      "max_chain_loss": 35.0,
+      "minimum_chain_prefix": -57.0,
+      "empty_stratum_issues": 0,
+      "empty_stratum_missed_beneficial": 0,
+      "empty_stratum_missed_beneficial_value": 0,
+      "empty_stratum_harmful_potential": 0,
+      "empty_stratum_harmful_potential_loss": 0
+    }
+  },
+  "comparisons": {
+    "pair_factorized": {
+      "terms": {
+        "added_gain": {
+          "count": 46,
+          "value": 775.0
+        },
+        "avoided_loss": {
+          "count": 3,
+          "value": 25.0
+        },
+        "missed_gain": {
+          "count": 8,
+          "value": 193.0
+        },
+        "incurred_loss": {
+          "count": 19,
+          "value": 106.0
+        }
+      },
+      "mean_total_difference": 100.2,
+      "delay_difference": {
+        "n": 5,
+        "mean": 100.20000000000036,
+        "values": [
+          104.0,
+          25.0,
+          119.00000000000182,
+          107.0,
+          146.0
+        ],
+        "interval": [
+          44.0951954965382,
+          156.30480450346252
+        ],
+        "wins": 5,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 50.10000000000018,
+        "values": [
+          51.600000000000335,
+          48.60000000000002
+        ],
+        "interval": [
+          31.040692895350052,
+          69.15930710465031
+        ],
+        "wins": 2,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 79
+    },
+    "full_gaussian": {
+      "terms": {
+        "added_gain": {
+          "count": 47,
+          "value": 930.0
+        },
+        "avoided_loss": {
+          "count": 1,
+          "value": 5.0
+        },
+        "missed_gain": {
+          "count": 4,
+          "value": 78.0
+        },
+        "incurred_loss": {
+          "count": 17,
+          "value": 117.0
+        }
+      },
+      "mean_total_difference": 148.0,
+      "delay_difference": {
+        "n": 5,
+        "mean": 148.00000000000037,
+        "values": [
+          114.0,
+          111.0,
+          199.00000000000182,
+          72.0,
+          244.0
+        ],
+        "interval": [
+          59.94247083884498,
+          236.05752916115574
+        ],
+        "wins": 5,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 74.00000000000017,
+        "values": [
+          75.80000000000035,
+          72.19999999999999
+        ],
+        "interval": [
+          51.12883147442009,
+          96.87116852558026
+        ],
+        "wins": 2,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 72
+    },
+    "joint_diagonal_kernel": {
+      "terms": {
+        "added_gain": {
+          "count": 42,
+          "value": 710.0
+        },
+        "avoided_loss": {
+          "count": 3,
+          "value": 14.0
+        },
+        "missed_gain": {
+          "count": 9,
+          "value": 216.0
+        },
+        "incurred_loss": {
+          "count": 17,
+          "value": 106.0
+        }
+      },
+      "mean_total_difference": 80.4,
+      "delay_difference": {
+        "n": 5,
+        "mean": 80.40000000000036,
+        "values": [
+          126.0,
+          72.0,
+          43.00000000000182,
+          37.0,
+          124.0
+        ],
+        "interval": [
+          27.235607180978164,
+          133.56439281902254
+        ],
+        "wins": 5,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 40.20000000000016,
+        "values": [
+          15.400000000000318,
+          65.0
+        ],
+        "interval": [
+          -274.91387746351376,
+          355.3138774635141
+        ],
+        "wins": 2,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 74
+    },
+    "unconditional": {
+      "terms": {
+        "added_gain": {
+          "count": 30,
+          "value": 601.0
+        },
+        "avoided_loss": {
+          "count": 9,
+          "value": 91.0
+        },
+        "missed_gain": {
+          "count": 18,
+          "value": 487.0
+        },
+        "incurred_loss": {
+          "count": 10,
+          "value": 53.0
+        }
+      },
+      "mean_total_difference": 30.4,
+      "delay_difference": {
+        "n": 5,
+        "mean": 30.400000000000365,
+        "values": [
+          9.0,
+          -25.0,
+          148.00000000000182,
+          -35.0,
+          55.0
+        ],
+        "interval": [
+          -62.183516824345304,
+          122.98351682434603
+        ],
+        "wins": 3,
+        "ties": 0,
+        "losses": 2,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 15.200000000000188,
+        "values": [
+          15.800000000000352,
+          14.600000000000023
+        ],
+        "interval": [
+          7.576277158138836,
+          22.82372284186154
+        ],
+        "wins": 2,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 67
+    },
+    "conditional_moment": {
+      "terms": {
+        "added_gain": {
+          "count": 1,
+          "value": 37.0
+        },
+        "avoided_loss": {
+          "count": 3,
+          "value": 43.0
+        },
+        "missed_gain": {
+          "count": 2,
+          "value": 27.0
+        },
+        "incurred_loss": {
+          "count": 1,
+          "value": 1.0
+        }
+      },
+      "mean_total_difference": 10.4,
+      "delay_difference": {
+        "n": 5,
+        "mean": 10.4,
+        "values": [
+          -6.0,
+          -21.0,
+          67.0,
+          12.0,
+          0.0
+        ],
+        "interval": [
+          -31.565671567014334,
+          52.36567156701433
+        ],
+        "wins": 2,
+        "ties": 1,
+        "losses": 2,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 5.199999999999989,
+        "values": [
+          -2.400000000000034,
+          12.800000000000011
+        ],
+        "interval": [
+          -91.36715599688422,
+          101.7671559968842
+        ],
+        "wins": 1,
+        "ties": 0,
+        "losses": 1,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 7
+    },
+    "pdf": {
+      "terms": {
+        "added_gain": {
+          "count": 37,
+          "value": 843.0
+        },
+        "avoided_loss": {
+          "count": 13,
+          "value": 167.0
+        },
+        "missed_gain": {
+          "count": 14,
+          "value": 343.0
+        },
+        "incurred_loss": {
+          "count": 12,
+          "value": 75.0
+        }
+      },
+      "mean_total_difference": 118.4,
+      "delay_difference": {
+        "n": 5,
+        "mean": 118.40000000000036,
+        "values": [
+          20.0,
+          74.0,
+          255.00000000000182,
+          149.0,
+          94.0
+        ],
+        "interval": [
+          7.6111425077622386,
+          229.18885749223847
+        ],
+        "wins": 5,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 59.20000000000019,
+        "values": [
+          69.80000000000035,
+          48.60000000000002
+        ],
+        "interval": [
+          -75.48577020618211,
+          193.88577020618249
+        ],
+        "wins": 2,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 76
+    },
+    "qmf": {
+      "terms": {
+        "added_gain": {
+          "count": 36,
+          "value": 798.0
+        },
+        "avoided_loss": {
+          "count": 12,
+          "value": 255.0
+        },
+        "missed_gain": {
+          "count": 24,
+          "value": 711.0
+        },
+        "incurred_loss": {
+          "count": 17,
+          "value": 89.0
+        }
+      },
+      "mean_total_difference": 50.6,
+      "delay_difference": {
+        "n": 5,
+        "mean": 50.600000000000726,
+        "values": [
+          103.0,
+          -130.0,
+          239.00000000000182,
+          105.00000000000182,
+          -64.0
+        ],
+        "interval": [
+          -132.46566123120112,
+          233.6656612312026
+        ],
+        "wins": 3,
+        "ties": 0,
+        "losses": 2,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 25.300000000000352,
+        "values": [
+          83.8000000000007,
+          -33.19999999999999
+        ],
+        "interval": [
+          -718.0129770812814,
+          768.6129770812822
+        ],
+        "wins": 1,
+        "ties": 0,
+        "losses": 1,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 90
+    },
+    "dbf": {
+      "terms": {
+        "added_gain": {
+          "count": 76,
+          "value": 1919.0
+        },
+        "avoided_loss": {
+          "count": 1,
+          "value": 18.0
+        },
+        "missed_gain": {
+          "count": 7,
+          "value": 329.0
+        },
+        "incurred_loss": {
+          "count": 24,
+          "value": 145.0
+        }
+      },
+      "mean_total_difference": 292.6,
+      "delay_difference": {
+        "n": 5,
+        "mean": 292.60000000000036,
+        "values": [
+          220.0,
+          176.0,
+          301.0000000000018,
+          289.0,
+          477.0
+        ],
+        "interval": [
+          149.73685767910405,
+          435.4631423208967
+        ],
+        "wins": 5,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "person_difference": {
+        "n": 2,
+        "mean": 146.30000000000018,
+        "values": [
+          121.20000000000033,
+          171.4
+        ],
+        "interval": [
+          -172.6257388844433,
+          465.2257388844437
+        ],
+        "wins": 2,
+        "ties": 0,
+        "losses": 0,
+        "scope": "Descriptive fixed-trace delay or two-person summary; no independent-session or site-level inference"
+      },
+      "changed_actions": 112
+    }
+  },
+  "audit": {
+    "proposal_checks": 95670,
+    "coverage_checks": 95670,
+    "ledger_states": 770770,
+    "policy_trajectories": 540,
+    "budget_paths": 2160,
+    "maximum_service_error": 1.8189894035458565e-12,
+    "maximum_target_error": 1.4210854715202004e-14
+  }
+}

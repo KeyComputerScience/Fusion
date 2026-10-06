@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-05T14:45:48.807504+00:00",
+  "dataset": "OPPORTUNITY226, all24 native sessions, same declared archive",
+  "status": "Pending full official archive; no OPPORTUNITY sensor/label .dat values decoded, preprocessing/calibration/test not run",
+  "complete_archive_exists": false,
+  "cache_exists": false,
+  "numerical_results_exist": false,
+  "no_claim_of_positive_or_negative_physical_results": true,
+  "browser_download": {
+    "path": "/Users/key/Downloads/\u672a\u786e\u8ba4 395670.crdownload",
+    "bytes": 34213148,
+    "state": "Original Chrome transfer resumed and progressing; no further transport launched",
+    "official_url": "https://archive.ics.uci.edu/static/public/226/opportunity+activity+recognition.zip",
+    "download_filename": "opportunity+activity+recognition.zip",
+    "prefix65536_matches_preserved_official_archive": true,
+    "tls_validation_preserved": true
+  },
+  "preserved_transports": {
+    "original_static": {
+      "path": "raw/opportunity226.zip.part",
+      "exit": 18,
+      "bytes": 67787697
+    },
+    "legacy_duplicate": {
+      "path": "raw/opportunity226_legacy.zip.part",
+      "exit": 130,
+      "bytes": 32620544,
+      "reason": "Root stopped duplicate to avoid splitting bandwidth"
+    },
+    "static_retry2": {
+      "path": "raw/opportunity226_retry2.zip.part",
+      "exit": 18,
+      "bytes": 189416674,
+      "error": "upstream closed chunked response prematurely"
+    },
+    "short_retry3": {
+      "path": "raw/opportunity226_retry3.zip.part",
+      "exit": 130,
+      "bytes": 823296,
+      "reason": "Root stop instruction arrived immediately after short launch; stopped without continuing third transport"
+    }
+  },
+  "range_probes": "Both declared HTTPS routes and encoded static URL returned200/file prefix, not requested byte range. WWW alias certificate-host mismatch and official AWS alias expired certificate were not bypassed",
+  "candidate_freeze_sha256": "77f9a98858f5dfa34874f19f3959b77209d78eaf720edb8d32ddb89bf3104935",
+  "authorization_freeze_sha256": "6ad88d454bd0c4086d0f0c641ea7bc05d164201c888dfcc79ffa6a664b91437c",
+  "metadata_repair_freeze_sha256": "44f2ad2e6b012e56d544798db0085bfee785dd41b3da2c3a71122cfeb88d0faa",
+  "frozen_numerical_sources_unchanged": true,
+  "metadata_only_repair": "Official native body columns2-134+232-243,object135-194,ambient195-231; performed before any.dat payload decoding; originals preserved",
+  "required_before_process": [
+    "Fully completed original archive or root-reviewed all24-member CRC-verified official resource archive",
+    "Validate ZIP central directory, inventory all24 sessions and both official legend hashes",
+    "Record completed archiveSHA and acquisition UTC",
+    "Verify unchanged60-source closure"
+  ],
+  "no_scheduled_or_automatic_followup": true,
+  "no_data_or_scientific_protocol_replacement": true,
+  "commands_file": "OPPORTUNITY_RESUME_AND_EXECUTION.md"
+}

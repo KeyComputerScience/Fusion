@@ -1,0 +1,135 @@
+{
+  "role": "Synthetic interface preflight only; not physical empirical evidence",
+  "raw_sensor_payload_decoded": false,
+  "fixture_only": true,
+  "raw_transfer_started": true,
+  "metadata_files": 2,
+  "filename_sessions": 24,
+  "feature_count": 1453,
+  "source_feature_counts": [
+    871,
+    361,
+    223
+  ],
+  "nonempty_nn_forecast_error": 0.0,
+  "empty_mask_reference_probability_error": 0.0,
+  "controls": [
+    "paired",
+    "pair_factorized",
+    "full_gaussian",
+    "joint_diagonal_kernel",
+    "unconditional",
+    "conditional_moment",
+    "pdf",
+    "qmf",
+    "dbf"
+  ],
+  "checks": [
+    {
+      "arm": "paired",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "pair_factorized",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "full_gaussian",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "joint_diagonal_kernel",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "unconditional",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "conditional_moment",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "pdf",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "qmf",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    },
+    {
+      "arm": "dbf",
+      "rows": 2,
+      "forks": 2,
+      "service_error": 0.0,
+      "target_error": 0.0
+    }
+  ],
+  "dbf_operator": {
+    "passed": true,
+    "seed": 20261005,
+    "author_operator": "get_doc_belief_fusion",
+    "fixed_lambda": 1.0,
+    "author_epsilon": 1e-06,
+    "cases": [
+      {
+        "sources": 1,
+        "loop_error": 1.1102230246251565e-16,
+        "permutation_error": 0.0,
+        "opinion_normalization_error": 2.220446049250313e-16
+      },
+      {
+        "sources": 2,
+        "loop_error": 5.551115123125783e-17,
+        "permutation_error": 0.0,
+        "opinion_normalization_error": 2.220446049250313e-16
+      },
+      {
+        "sources": 4,
+        "loop_error": 8.326672684688674e-17,
+        "permutation_error": 8.326672684688674e-17,
+        "opinion_normalization_error": 1.1102230246251565e-16
+      }
+    ],
+    "no_epsilon_singleton_error": 1.1102230246251565e-16,
+    "no_epsilon_identical_opinion_error": 1.1102230246251565e-16,
+    "author_epsilon_singleton_discrepancy": 5.144475913043678e-07,
+    "evidence_opinion_roundtrip_error": 8.881784197001252e-16,
+    "disclosure": "author epsilon induces a small contraction even for singleton/identical opinions; no exact invariance is claimed with epsilon",
+    "empty_views": "rejected; physical worlds always have at least one available view"
+  },
+  "cache": {
+    "hits": 0,
+    "misses": 0,
+    "bypasses": 12,
+    "retained": 0,
+    "train_seconds": 0.0,
+    "hash_seconds": 0.0,
+    "first_hit_bitwise_recomputed": false,
+    "original_function_sha256": "328b836c2e5e913ff5b96c565258a1fc8605dc281b9139f978a20f8255e1e2db"
+  }
+}

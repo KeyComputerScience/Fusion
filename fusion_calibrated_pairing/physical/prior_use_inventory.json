@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-05T12:58:09.718697+00:00",
+  "status": "History inventory before new metadata inspection; no raw acquisition",
+  "roots": [
+    "/Users/key/Documents/Codex",
+    "/Users/key/Downloads"
+  ],
+  "commands": [
+    "rg --files work outputs | rg -i 'wisdm|opportunity|realdisp|casas|hhar|heterogeneity|pamap'",
+    "rg -l -i 'wisdm|opportunity226|opportunity activity recognition' /Users/key/Documents/Codex --glob '*.json' --glob '*.md' --glob '*.py' --glob '*.tex' --glob '!**/outputs/**'"
+  ],
+  "candidates": {
+    "opportunity226": {
+      "raw_or_cache_or_result_found": false,
+      "filename_matches": [
+        "work/fusion_increment_20261003/daphnet/fork_opportunity.json",
+        "outputs/Fusion_Joint_Tail_Repro/records/daphnet/fork_opportunity.json"
+      ],
+      "interpretation": "Generic fork-opportunity analysis of Daphnet; not OPPORTUNITY dataset data. Only earlier candidate metadata in selfBACK inventory/README.",
+      "chosen": true
+    },
+    "wisdm507": {
+      "raw_or_cache_or_result_found": false,
+      "metadata_only": [
+        "work/fusion_joint_return_20261005/new_physical/inventory.json",
+        "work/fusion_joint_return_20261005/new_physical/README.md"
+      ],
+      "chosen": false
+    },
+    "realdisp305": {
+      "raw_or_cache_or_result_found": false,
+      "metadata_only": true,
+      "chosen": false
+    },
+    "pamap231": {
+      "previous_raw": true,
+      "chosen": false,
+      "reason": "Earlier partial protocol/main raw acquisition; ineligible as wholly unused acquisition"
+    }
+  },
+  "previous_collection": "selfBACK raw/results/negative and tied outcomes retained; cannot be reused as independent validation of the new method"
+}

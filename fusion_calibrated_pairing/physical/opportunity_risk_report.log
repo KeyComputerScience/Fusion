@@ -1,0 +1,443 @@
+{
+  "conditional_moment": {
+    "mean_increment": 648.6000000000004,
+    "seed_increments": {
+      "162001": 538.0,
+      "162002": 599.0,
+      "162003": 942.0000000000018,
+      "162004": 518.0,
+      "162005": 646.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 4111,
+        "total": 5315,
+        "rate": 0.7734713076199435
+      },
+      "ready": {
+        "covered": 4111,
+        "total": 5315,
+        "rate": 0.7734713076199435
+      },
+      "informative": {
+        "covered": 1061,
+        "total": 1359,
+        "rate": 0.7807211184694628
+      },
+      "admitted": {
+        "covered": 70,
+        "total": 138,
+        "rate": 0.5072463768115942
+      }
+    },
+    "admissions": 138,
+    "beneficial": 106,
+    "harmful": 28,
+    "zero": 4,
+    "negative_loss": 225.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 41,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 66.07896095719335,
+    "excess_sum": 902.8516963971989,
+    "excess_mean": 6.542403597081152,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "dbf": {
+    "mean_increment": 366.4,
+    "seed_increments": {
+      "162001": 312.0,
+      "162002": 402.0,
+      "162003": 708.0,
+      "162004": 241.0,
+      "162005": 169.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 5054,
+        "total": 5315,
+        "rate": 0.9508936970837253
+      },
+      "ready": {
+        "covered": 5054,
+        "total": 5315,
+        "rate": 0.9508936970837253
+      },
+      "informative": {
+        "covered": 1225,
+        "total": 1359,
+        "rate": 0.9013980868285504
+      },
+      "admitted": {
+        "covered": 31,
+        "total": 39,
+        "rate": 0.7948717948717948
+      }
+    },
+    "admissions": 39,
+    "beneficial": 36,
+    "harmful": 3,
+    "zero": 0,
+    "negative_loss": 56.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 2,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 40.764215998805774,
+    "excess_sum": 111.67088027220547,
+    "excess_mean": 2.8633559044155246,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "full_gaussian": {
+    "mean_increment": 511.0,
+    "seed_increments": {
+      "162001": 418.0,
+      "162002": 467.0,
+      "162003": 810.0,
+      "162004": 458.0,
+      "162005": 402.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 4933,
+        "total": 5315,
+        "rate": 0.9281279397930385
+      },
+      "ready": {
+        "covered": 4933,
+        "total": 5315,
+        "rate": 0.9281279397930385
+      },
+      "informative": {
+        "covered": 1220,
+        "total": 1359,
+        "rate": 0.8977189109639441
+      },
+      "admitted": {
+        "covered": 48,
+        "total": 73,
+        "rate": 0.6575342465753424
+      }
+    },
+    "admissions": 73,
+    "beneficial": 62,
+    "harmful": 10,
+    "zero": 1,
+    "negative_loss": 71.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 8,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 62.63837801980921,
+    "excess_sum": 269.82194631518854,
+    "excess_mean": 3.6961910454135416,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "joint_diagonal_kernel": {
+    "mean_increment": 578.6,
+    "seed_increments": {
+      "162001": 406.0,
+      "162002": 506.0,
+      "162003": 966.0,
+      "162004": 493.0,
+      "162005": 522.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 4841,
+        "total": 5315,
+        "rate": 0.9108184383819379
+      },
+      "ready": {
+        "covered": 4841,
+        "total": 5315,
+        "rate": 0.9108184383819379
+      },
+      "informative": {
+        "covered": 1227,
+        "total": 1359,
+        "rate": 0.9028697571743929
+      },
+      "admitted": {
+        "covered": 56,
+        "total": 85,
+        "rate": 0.6588235294117647
+      }
+    },
+    "admissions": 85,
+    "beneficial": 72,
+    "harmful": 12,
+    "zero": 1,
+    "negative_loss": 91.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 12,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 50.78847222541749,
+    "excess_sum": 321.8937015910523,
+    "excess_mean": 3.7869847246006154,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "pair_factorized": {
+    "mean_increment": 558.8,
+    "seed_increments": {
+      "162001": 428.0,
+      "162002": 553.0,
+      "162003": 890.0,
+      "162004": 423.0,
+      "162005": 500.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 4916,
+        "total": 5315,
+        "rate": 0.9249294449670743
+      },
+      "ready": {
+        "covered": 4916,
+        "total": 5315,
+        "rate": 0.9249294449670743
+      },
+      "informative": {
+        "covered": 1267,
+        "total": 1359,
+        "rate": 0.9323031640912436
+      },
+      "admitted": {
+        "covered": 56,
+        "total": 78,
+        "rate": 0.717948717948718
+      }
+    },
+    "admissions": 78,
+    "beneficial": 67,
+    "harmful": 10,
+    "zero": 1,
+    "negative_loss": 102.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 4,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 60.820173053030004,
+    "excess_sum": 371.78231870378374,
+    "excess_mean": 4.766439983381843,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "paired": {
+    "mean_increment": 659.0000000000003,
+    "seed_increments": {
+      "162001": 532.0,
+      "162002": 578.0,
+      "162003": 1009.0000000000018,
+      "162004": 530.0,
+      "162005": 646.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 4109,
+        "total": 5315,
+        "rate": 0.7730950141110066
+      },
+      "ready": {
+        "covered": 4109,
+        "total": 5315,
+        "rate": 0.7730950141110066
+      },
+      "informative": {
+        "covered": 1062,
+        "total": 1359,
+        "rate": 0.7814569536423841
+      },
+      "admitted": {
+        "covered": 69,
+        "total": 135,
+        "rate": 0.5111111111111111
+      }
+    },
+    "admissions": 135,
+    "beneficial": 105,
+    "harmful": 26,
+    "zero": 4,
+    "negative_loss": 183.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 39,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 65.84221376326727,
+    "excess_sum": 859.836753278706,
+    "excess_mean": 6.369161135397823,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "pdf": {
+    "mean_increment": 540.6,
+    "seed_increments": {
+      "162001": 512.0,
+      "162002": 504.0,
+      "162003": 754.0,
+      "162004": 381.0,
+      "162005": 552.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 4974,
+        "total": 5315,
+        "rate": 0.9358419567262465
+      },
+      "ready": {
+        "covered": 4974,
+        "total": 5315,
+        "rate": 0.9358419567262465
+      },
+      "informative": {
+        "covered": 1164,
+        "total": 1359,
+        "rate": 0.8565121412803532
+      },
+      "admitted": {
+        "covered": 64,
+        "total": 113,
+        "rate": 0.5663716814159292
+      }
+    },
+    "admissions": 113,
+    "beneficial": 82,
+    "harmful": 27,
+    "zero": 4,
+    "negative_loss": 275.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 44,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 58.770850260978065,
+    "excess_sum": 692.7380235719111,
+    "excess_mean": 6.130424987362045,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "qmf": {
+    "mean_increment": 608.3999999999996,
+    "seed_increments": {
+      "162001": 429.0,
+      "162002": 708.0,
+      "162003": 770.0,
+      "162004": 424.9999999999982,
+      "162005": 710.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 5017,
+        "total": 5315,
+        "rate": 0.9439322671683913
+      },
+      "ready": {
+        "covered": 5017,
+        "total": 5315,
+        "rate": 0.9439322671683913
+      },
+      "informative": {
+        "covered": 1207,
+        "total": 1359,
+        "rate": 0.8881530537159676
+      },
+      "admitted": {
+        "covered": 48,
+        "total": 117,
+        "rate": 0.41025641025641024
+      }
+    },
+    "admissions": 117,
+    "beneficial": 93,
+    "harmful": 21,
+    "zero": 3,
+    "negative_loss": 349.0,
+    "max_chain_negative_loss": 66.0,
+    "guard_refusals": 26,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 90.83056365328329,
+    "excess_sum": 1492.7538787640158,
+    "excess_mean": 12.758580160376203,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  },
+  "unconditional": {
+    "mean_increment": 628.6,
+    "seed_increments": {
+      "162001": 523.0,
+      "162002": 603.0,
+      "162003": 861.0,
+      "162004": 565.0,
+      "162005": 591.0
+    },
+    "coverage": {
+      "issued": {
+        "covered": 4524,
+        "total": 5315,
+        "rate": 0.8511759172154281
+      },
+      "ready": {
+        "covered": 4524,
+        "total": 5315,
+        "rate": 0.8511759172154281
+      },
+      "informative": {
+        "covered": 1150,
+        "total": 1359,
+        "rate": 0.8462104488594555
+      },
+      "admitted": {
+        "covered": 73,
+        "total": 122,
+        "rate": 0.5983606557377049
+      }
+    },
+    "admissions": 122,
+    "beneficial": 93,
+    "harmful": 25,
+    "zero": 4,
+    "negative_loss": 221.0,
+    "max_chain_negative_loss": 35.0,
+    "guard_refusals": 38,
+    "max_spent_plus_pending": 130.0,
+    "excess_max": 59.03323438630055,
+    "excess_sum": 593.5014805024846,
+    "excess_mean": 4.864766233626923,
+    "empty_stratum_issued": 0,
+    "empty_stratum_positive_raw_refusals": 0,
+    "empty_stratum_beneficial_opportunities": 0,
+    "empty_stratum_harmful_opportunities": 0,
+    "empty_stratum_missed_potential_gain": 0,
+    "descriptive_only": true
+  }
+}

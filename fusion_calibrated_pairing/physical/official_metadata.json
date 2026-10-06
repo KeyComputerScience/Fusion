@@ -1,0 +1,66 @@
+{
+  "utc": "2026-10-05T12:58:09.718697+00:00",
+  "metadata_only": true,
+  "raw_access": false,
+  "chosen": "opportunity226",
+  "sources": [
+    {
+      "url": "https://archive.ics.uci.edu/dataset/226/opportunity+activity+recognition",
+      "role": "Official primary dataset metadata",
+      "facts": {
+        "subjects": 4,
+        "runs_each": 6,
+        "compressed_MB": 292.4,
+        "features": 242,
+        "physical_groups": {
+          "body": 145,
+          "objects": 60,
+          "ambient": 37
+        },
+        "native_midlevel_gestures": 17,
+        "missing_values": true,
+        "doi": "10.24432/C5M027"
+      }
+    },
+    {
+      "url": "https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset",
+      "role": "Official alternative metadata",
+      "facts": {
+        "subjects": 51,
+        "classes": 18,
+        "sensor_types": [
+          "accelerometer",
+          "gyroscope"
+        ],
+        "devices": [
+          "phone",
+          "watch"
+        ],
+        "Hz": 20,
+        "compressed_MB": 295.9
+      },
+      "unresolved": "Cross-device capture clock offsets not independently verified; no raw inspected"
+    },
+    {
+      "url": "https://archive.ics.uci.edu/dataset/305/realistic+activity+recognition",
+      "role": "Official alternative metadata",
+      "facts": {
+        "subjects": 17,
+        "classes": 33,
+        "sensors": 9,
+        "conditions": 3,
+        "compressed_GB": 2.5
+      }
+    },
+    {
+      "url": "https://github.com/STRCWearlab/DeepConvLSTM/blob/master/preprocess_data.py",
+      "role": "Published method author primary implementation used only to establish native midlevel-label codes and explicit session names; no data values accessed",
+      "notes": "Last native gesture annotation original index249; complete18classes inclnull0. Author code starts Drill then ADL1..5. This validation does not reproduce its113body-channel subset."
+    }
+  ],
+  "decisions": {
+    "selection_reason": "Three diverse co-recorded physical source families, existing common matrix time column, native missing observations, controllable292.4MB acquisition. Choice fixed before results; no replacement based on outcomes.",
+    "official_legend_access": "Official text legends are inside the archive. External direct metadata URLs not reachable. Adapter requires both legends and verifies time/target labels before opening any .dat payload."
+  },
+  "scope": "Two withheld people in one studio scenario; twelve retained sessions are repeated recording units, not twelve sites or twelve independent people."
+}

@@ -1,0 +1,409 @@
+{
+  "utc": "2026-10-05T15:51:34.214064+00:00",
+  "recording": "S4-Drill",
+  "seed": 162003,
+  "rows": {
+    "paired": {
+      "68": {
+        "issued": {
+          "k": 68,
+          "action": false,
+          "maturity": 74,
+          "gate_score": -0.21836364604050473,
+          "raw_gate_score": -28.507603634694906,
+          "gain": 4.781636353959495,
+          "posterior_or_block_sd": 1.0,
+          "q_issued": 0.0,
+          "information_ready": true,
+          "disagreement": 1.0,
+          "anchor": 0.08537587434681851,
+          "cal_context": [
+            0.08537587434681851,
+            1.0,
+            1.0
+          ],
+          "N": 128.0,
+          "source_descriptor": [
+            0.011788191560032246,
+            -0.028861124359463648,
+            -0.15305738286307077
+          ],
+          "active_source_ids": [
+            0,
+            1,
+            2
+          ],
+          "conditional_paid_mean": 2.7586430803326385,
+          "conditional_paid_variance": 1542.8323743550009,
+          "calibration_correction": -0.2210096874113625,
+          "calibration_history_count": 42,
+          "calibration_prior_history_count": 37,
+          "calibration_online_history_count": 5,
+          "calibration_effective_count": 8.273491953655835,
+          "calibration_weight_mass": 1.9203086563445162,
+          "calibration_stratum": 1,
+          "calibration_empty_stratum_fallback": false,
+          "calibration_retained_prior_history_count": 166,
+          "calibration_retained_online_history_count": 16,
+          "risk_certificate": false,
+          "truegross": -27.0,
+          "local_net": -30.0,
+          "lower_covered": false,
+          "standardized_score": 31.781636353959495,
+          "proposed_action": false
+        },
+        "ledger": {
+          "k": 68,
+          "proposal": false,
+          "action": false,
+          "arrived": [],
+          "spent_loss": 0.0,
+          "settled_increment": 95.0,
+          "reserved": 0,
+          "pending_origins": [],
+          "capacity_before": 130.0,
+          "capacity_after": 130.0,
+          "issued_reserve": 130.0
+        }
+      },
+      "132": {
+        "issued": {
+          "k": 132,
+          "action": true,
+          "maturity": 136,
+          "gate_score": 2.749373695463156,
+          "raw_gate_score": -10.464077770201321,
+          "gain": 7.749373695463156,
+          "posterior_or_block_sd": 1.0,
+          "q_issued": 0.0,
+          "information_ready": true,
+          "disagreement": 0.4375,
+          "anchor": 0.3977837677067376,
+          "cal_context": [
+            0.3977837677067376,
+            0.4375,
+            1.0
+          ],
+          "N": 128.0,
+          "source_descriptor": [
+            0.014897393418109028,
+            -0.2960783608047376,
+            -0.2689081833694813
+          ],
+          "active_source_ids": [
+            0,
+            1,
+            2
+          ],
+          "conditional_paid_mean": 20.119788033678525,
+          "conditional_paid_variance": 1453.6375989590451,
+          "calibration_correction": -0.10323008957550373,
+          "calibration_history_count": 49,
+          "calibration_prior_history_count": 37,
+          "calibration_online_history_count": 12,
+          "calibration_effective_count": 14.876110061417272,
+          "calibration_weight_mass": 5.493279447873796,
+          "calibration_stratum": 1,
+          "calibration_empty_stratum_fallback": false,
+          "calibration_retained_prior_history_count": 166,
+          "calibration_retained_online_history_count": 32,
+          "risk_certificate": false,
+          "truegross": 42.0,
+          "local_net": 37.0,
+          "lower_covered": true,
+          "standardized_score": -34.250626304536844,
+          "proposed_action": true
+        },
+        "ledger": {
+          "k": 132,
+          "proposal": true,
+          "action": true,
+          "arrived": [],
+          "spent_loss": 0.0,
+          "settled_increment": 95.0,
+          "reserved": 130.0,
+          "pending_origins": [
+            132
+          ],
+          "capacity_before": 130.0,
+          "capacity_after": 0.0,
+          "issued_reserve": 130.0
+        }
+      }
+    },
+    "conditional_moment": {
+      "68": {
+        "issued": {
+          "k": 68,
+          "action": true,
+          "maturity": 74,
+          "gate_score": 0.12344691765787985,
+          "raw_gate_score": -28.67972307357938,
+          "gain": 5.12344691765788,
+          "posterior_or_block_sd": 1.0,
+          "q_issued": 0.0,
+          "information_ready": true,
+          "disagreement": 1.0,
+          "anchor": 0.08537587434681851,
+          "cal_context": [
+            0.08537587434681851,
+            1.0,
+            1.0
+          ],
+          "N": 128.0,
+          "source_descriptor": [
+            0.011788191560032246,
+            -0.028861124359463648,
+            -0.15305738286307077
+          ],
+          "active_source_ids": [
+            0,
+            1,
+            2
+          ],
+          "conditional_paid_mean": 2.758643080332658,
+          "conditional_paid_variance": 1542.8323743550031,
+          "calibration_correction": -0.2250247655565411,
+          "calibration_history_count": 42,
+          "calibration_prior_history_count": 37,
+          "calibration_online_history_count": 5,
+          "calibration_effective_count": 8.273491953655835,
+          "calibration_weight_mass": 1.9203086563445162,
+          "calibration_stratum": 1,
+          "calibration_empty_stratum_fallback": false,
+          "calibration_retained_prior_history_count": 166,
+          "calibration_retained_online_history_count": 16,
+          "risk_certificate": false,
+          "truegross": -27.0,
+          "local_net": -30.0,
+          "lower_covered": false,
+          "standardized_score": 32.12344691765788,
+          "proposed_action": true
+        },
+        "ledger": {
+          "k": 68,
+          "proposal": true,
+          "action": true,
+          "arrived": [],
+          "spent_loss": 0.0,
+          "settled_increment": 95.0,
+          "reserved": 130.0,
+          "pending_origins": [
+            68
+          ],
+          "capacity_before": 130.0,
+          "capacity_after": 0.0,
+          "issued_reserve": 130.0
+        }
+      },
+      "132": {
+        "issued": {
+          "k": 132,
+          "action": false,
+          "maturity": 136,
+          "gate_score": 3.297604094481816,
+          "raw_gate_score": -10.465500267198692,
+          "gain": 8.297604094481816,
+          "posterior_or_block_sd": 1.0,
+          "q_issued": 0.0,
+          "information_ready": true,
+          "disagreement": 0.4375,
+          "anchor": 0.3977837677067376,
+          "cal_context": [
+            0.3977837677067376,
+            0.4375,
+            1.0
+          ],
+          "N": 128.0,
+          "source_descriptor": [
+            0.014897393418109028,
+            -0.2960783608047376,
+            -0.2689081833694813
+          ],
+          "active_source_ids": [
+            0,
+            1,
+            2
+          ],
+          "conditional_paid_mean": 20.11978803368173,
+          "conditional_paid_variance": 1453.6375989596268,
+          "calibration_correction": -0.10752425282562897,
+          "calibration_history_count": 49,
+          "calibration_prior_history_count": 37,
+          "calibration_online_history_count": 12,
+          "calibration_effective_count": 14.876110061417272,
+          "calibration_weight_mass": 5.493279447873796,
+          "calibration_stratum": 1,
+          "calibration_empty_stratum_fallback": false,
+          "calibration_retained_prior_history_count": 166,
+          "calibration_retained_online_history_count": 32,
+          "risk_certificate": false,
+          "truegross": 42.0,
+          "local_net": 37.0,
+          "lower_covered": true,
+          "standardized_score": -33.70239590551819,
+          "proposed_action": true
+        },
+        "ledger": {
+          "k": 132,
+          "proposal": true,
+          "action": false,
+          "arrived": [],
+          "spent_loss": 30.0,
+          "settled_increment": 65.0,
+          "reserved": 0,
+          "pending_origins": [],
+          "capacity_before": 100.0,
+          "capacity_after": 100.0,
+          "issued_reserve": 130.0
+        }
+      }
+    }
+  },
+  "settlements": {
+    "paired": [
+      {
+        "k": 74,
+        "proposal": false,
+        "action": false,
+        "arrived": [],
+        "spent_loss": 0.0,
+        "settled_increment": 95.0,
+        "reserved": 0,
+        "pending_origins": [],
+        "capacity_before": 130.0,
+        "capacity_after": 130.0,
+        "issued_reserve": null
+      },
+      {
+        "k": 136,
+        "proposal": false,
+        "action": false,
+        "arrived": [
+          {
+            "origin": 132,
+            "maturity": 136,
+            "increment": 37.0
+          }
+        ],
+        "spent_loss": 0.0,
+        "settled_increment": 132.0,
+        "reserved": 0,
+        "pending_origins": [],
+        "capacity_before": 130.0,
+        "capacity_after": 130.0,
+        "issued_reserve": 130.0
+      }
+    ],
+    "conditional_moment": [
+      {
+        "k": 74,
+        "proposal": false,
+        "action": false,
+        "arrived": [
+          {
+            "origin": 68,
+            "maturity": 74,
+            "increment": -30.0
+          }
+        ],
+        "spent_loss": 30.0,
+        "settled_increment": 65.0,
+        "reserved": 0,
+        "pending_origins": [],
+        "capacity_before": 100.0,
+        "capacity_after": 100.0,
+        "issued_reserve": null
+      },
+      {
+        "k": 136,
+        "proposal": false,
+        "action": false,
+        "arrived": [],
+        "spent_loss": 30.0,
+        "settled_increment": 65.0,
+        "reserved": 0,
+        "pending_origins": [],
+        "capacity_before": 100.0,
+        "capacity_after": 100.0,
+        "issued_reserve": 130.0
+      }
+    ]
+  },
+  "lease_132_return_decomposition": {
+    "gross_correctness_contrast": 42.0,
+    "extra_interruption_correctness_loss": 2.0,
+    "installation_fee": 2,
+    "restoration_fee": 1,
+    "complete_paid_increment": 37.0,
+    "served_correctness_contrast": 40.0,
+    "identity": "37 = 42 - 2 - 2 - 1; served correctness contrast = 40, fees = 3"
+  },
+  "chain_totals": {
+    "paired": {
+      "increment": 132.0,
+      "negative_loss": 0.0,
+      "admissions": 2,
+      "beneficial": 2,
+      "harmful": 0,
+      "refused": 0
+    },
+    "conditional_moment": {
+      "increment": 65.0,
+      "negative_loss": 30.0,
+      "admissions": 2,
+      "beneficial": 1,
+      "harmful": 1,
+      "refused": 1
+    }
+  },
+  "pooled_CM_four_terms": {
+    "added_gain": {
+      "count": 1,
+      "value": 37.0
+    },
+    "avoided_loss": {
+      "count": 3,
+      "value": 43.0
+    },
+    "missed_gain": {
+      "count": 2,
+      "value": 27.0
+    },
+    "incurred_loss": {
+      "count": 1,
+      "value": 1.0
+    }
+  },
+  "pooled_CM_difference": 52,
+  "mean_CM_difference": 10.4,
+  "conditional_moment_mean_max_error": 1.0198419886364718e-09,
+  "conditional_moment_variance_max_error": 1.488040197727969e-07,
+  "robust_geometry_by_person": {
+    "full_gaussian": {
+      "3": {
+        "actual_extra_beneficial_count": 20,
+        "realized_gain_sum": 437.0,
+        "lower_target_covered": 12
+      },
+      "4": {
+        "actual_extra_beneficial_count": 9,
+        "realized_gain_sum": 212.0,
+        "lower_target_covered": 9
+      }
+    },
+    "joint_diagonal_kernel": {
+      "3": {
+        "actual_extra_beneficial_count": 0,
+        "realized_gain_sum": 0,
+        "lower_target_covered": 0
+      },
+      "4": {
+        "actual_extra_beneficial_count": 1,
+        "realized_gain_sum": 6.0,
+        "lower_target_covered": 1
+      }
+    }
+  },
+  "scope": "37 is capacity-mediated following the avoided -30 at68. Both132 raw pipelines propose; this is not a direct common-offset tail crossing. Full joint KDE1/6 and Gaussian29/649 are separately audited direct proposal crossings."
+}
