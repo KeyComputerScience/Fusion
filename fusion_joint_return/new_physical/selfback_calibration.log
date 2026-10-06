@@ -1,0 +1,127 @@
+CAL_NATIVE legacy_factorized {'prior_sd': 0.05, 'q_floor': 0.0, 'slice_bandwidth': 1.0} 230.0
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.05, 'q_floor': 0.0, 'slice_bandwidth': 1.0} 230.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.05, 'q_floor': 0.32, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.05, 'q_floor': 0.32, 'slice_bandwidth': 1.0} 223.66666666666666
+CAL_NATIVE legacy_factorized {'prior_sd': 0.05, 'q_floor': 0.64, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.05, 'q_floor': 0.64, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.05, 'q_floor': 0.96, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.05, 'q_floor': 0.96, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_factorized {'prior_sd': 0.05, 'q_floor': 1.2815515655446004, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.05, 'q_floor': 1.2815515655446004, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_factorized {'prior_sd': 0.05, 'q_floor': 1.64, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.05, 'q_floor': 1.64, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_factorized {'prior_sd': 0.1, 'q_floor': 0.0, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.1, 'q_floor': 0.0, 'slice_bandwidth': 1.0} 230.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.1, 'q_floor': 0.32, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.1, 'q_floor': 0.32, 'slice_bandwidth': 1.0} 223.66666666666666
+CAL_NATIVE legacy_factorized {'prior_sd': 0.1, 'q_floor': 0.64, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.1, 'q_floor': 0.64, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.1, 'q_floor': 0.96, 'slice_bandwidth': 1.0} 189.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.1, 'q_floor': 0.96, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.1, 'q_floor': 1.2815515655446004, 'slice_bandwidth': 1.0} 148.66666666666666
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.1, 'q_floor': 1.2815515655446004, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.1, 'q_floor': 1.64, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.1, 'q_floor': 1.64, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.2, 'q_floor': 0.0, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.2, 'q_floor': 0.0, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.2, 'q_floor': 0.32, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.2, 'q_floor': 0.32, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.2, 'q_floor': 0.64, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.2, 'q_floor': 0.64, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.2, 'q_floor': 0.96, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.2, 'q_floor': 0.96, 'slice_bandwidth': 1.0} 183.0
+CAL_NATIVE legacy_factorized {'prior_sd': 0.2, 'q_floor': 1.2815515655446004, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.2, 'q_floor': 1.2815515655446004, 'slice_bandwidth': 1.0} 102.33333333333333
+CAL_NATIVE legacy_factorized {'prior_sd': 0.2, 'q_floor': 1.64, 'slice_bandwidth': 1.0} 142.33333333333334
+CAL_NATIVE legacy_sandwich {'prior_sd': 0.2, 'q_floor': 1.64, 'slice_bandwidth': 1.0} 102.33333333333333
+CAL_RATIO paired {'bandwidth': 0.25, 'zeta': 0.0} 230.0
+CAL_RATIO paired {'bandwidth': 0.25, 'zeta': 0.5} 230.0
+CAL_RATIO paired {'bandwidth': 0.25, 'zeta': 1.0} 189.33333333333334
+CAL_RATIO paired {'bandwidth': 0.5, 'zeta': 0.0} 230.0
+CAL_RATIO paired {'bandwidth': 0.5, 'zeta': 0.5} 230.0
+CAL_RATIO paired {'bandwidth': 0.5, 'zeta': 1.0} 189.33333333333334
+CAL_RATIO paired {'bandwidth': 1.0, 'zeta': 0.0} 230.0
+CAL_RATIO paired {'bandwidth': 1.0, 'zeta': 0.5} 230.0
+CAL_RATIO paired {'bandwidth': 1.0, 'zeta': 1.0} 230.0
+CAL_RATIO marginal {'bandwidth': 0.25, 'zeta': 0.0} 230.0
+CAL_RATIO marginal {'bandwidth': 0.25, 'zeta': 0.5} 189.33333333333334
+CAL_RATIO marginal {'bandwidth': 0.25, 'zeta': 1.0} 148.66666666666666
+CAL_RATIO marginal {'bandwidth': 0.5, 'zeta': 0.0} 230.0
+CAL_RATIO marginal {'bandwidth': 0.5, 'zeta': 0.5} 230.0
+CAL_RATIO marginal {'bandwidth': 0.5, 'zeta': 1.0} 148.66666666666666
+CAL_RATIO marginal {'bandwidth': 1.0, 'zeta': 0.0} 230.0
+CAL_RATIO marginal {'bandwidth': 1.0, 'zeta': 0.5} 230.0
+CAL_RATIO marginal {'bandwidth': 1.0, 'zeta': 1.0} 230.0
+CAL_RATIO factorized {'bandwidth': 0.25, 'zeta': 0.0} 230.0
+CAL_RATIO factorized {'bandwidth': 0.25, 'zeta': 0.5} 189.33333333333334
+CAL_RATIO factorized {'bandwidth': 0.25, 'zeta': 1.0} 148.66666666666666
+CAL_RATIO factorized {'bandwidth': 0.5, 'zeta': 0.0} 230.0
+CAL_RATIO factorized {'bandwidth': 0.5, 'zeta': 0.5} 230.0
+CAL_RATIO factorized {'bandwidth': 0.5, 'zeta': 1.0} 148.66666666666666
+CAL_RATIO factorized {'bandwidth': 1.0, 'zeta': 0.0} 230.0
+CAL_RATIO factorized {'bandwidth': 1.0, 'zeta': 0.5} 230.0
+CAL_RATIO factorized {'bandwidth': 1.0, 'zeta': 1.0} 230.0
+CAL_RATIO zero_increment {'bandwidth': 0.25, 'zeta': 0.0} 230.0
+CAL_RATIO zero_increment {'bandwidth': 0.25, 'zeta': 0.5} 230.0
+CAL_RATIO zero_increment {'bandwidth': 0.25, 'zeta': 1.0} 230.0
+CAL_RATIO zero_increment {'bandwidth': 0.5, 'zeta': 0.0} 230.0
+CAL_RATIO zero_increment {'bandwidth': 0.5, 'zeta': 0.5} 230.0
+CAL_RATIO zero_increment {'bandwidth': 0.5, 'zeta': 1.0} 230.0
+CAL_RATIO zero_increment {'bandwidth': 1.0, 'zeta': 0.0} 230.0
+CAL_RATIO zero_increment {'bandwidth': 1.0, 'zeta': 0.5} 230.0
+CAL_RATIO zero_increment {'bandwidth': 1.0, 'zeta': 1.0} 230.0
+CAL_KDE {'b_parallel': 0.25, 'b_perp': 0.125, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.25, 'b_perp': 0.25, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.25, 'b_perp': 0.5, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.25, 'b_perp': 1.0, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.25, 'b_perp': 1.5, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.25, 'b_perp': 2.0, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.5, 'b_perp': 0.125, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.5, 'b_perp': 0.25, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.5, 'b_perp': 0.5, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.5, 'b_perp': 1.0, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.5, 'b_perp': 1.5, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 0.5, 'b_perp': 2.0, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 1.0, 'b_perp': 0.125, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 1.0, 'b_perp': 0.25, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 1.0, 'b_perp': 0.5, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 1.0, 'b_perp': 1.0, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 1.0, 'b_perp': 1.5, 'cap': 1.0} 71.66666666666667
+CAL_KDE {'b_parallel': 1.0, 'b_perp': 2.0, 'cap': 1.0} 71.66666666666667
+CAL_EXTERNAL pdf 0.02 0.0 78.0
+CAL_EXTERNAL pdf 0.02 2.0 71.66666666666667
+CAL_EXTERNAL pdf 0.02 4.0 71.66666666666667
+CAL_EXTERNAL pdf 0.02 8.0 71.66666666666667
+CAL_EXTERNAL pdf 0.02 12.0 71.66666666666667
+CAL_EXTERNAL pdf 0.02 16.0 71.66666666666667
+CAL_EXTERNAL pdf 0.08 0.0 134.33333333333334
+CAL_EXTERNAL pdf 0.08 2.0 134.33333333333334
+CAL_EXTERNAL pdf 0.08 4.0 175.33333333333334
+CAL_EXTERNAL pdf 0.08 8.0 151.0
+CAL_EXTERNAL pdf 0.08 12.0 142.0
+CAL_EXTERNAL pdf 0.08 16.0 169.66666666666666
+CAL_EXTERNAL pdf 0.2 0.0 282.6666666666667
+CAL_EXTERNAL pdf 0.2 2.0 282.6666666666667
+CAL_EXTERNAL pdf 0.2 4.0 282.6666666666667
+CAL_EXTERNAL pdf 0.2 8.0 273.6666666666667
+CAL_EXTERNAL pdf 0.2 12.0 266.3333333333333
+CAL_EXTERNAL pdf 0.2 16.0 256.0
+CAL_EXTERNAL qmf 0.02 0.0 78.0
+CAL_EXTERNAL qmf 0.02 2.0 78.0
+CAL_EXTERNAL qmf 0.02 4.0 78.0
+CAL_EXTERNAL qmf 0.02 8.0 71.66666666666667
+CAL_EXTERNAL qmf 0.02 12.0 71.66666666666667
+CAL_EXTERNAL qmf 0.02 16.0 71.66666666666667
+CAL_EXTERNAL qmf 0.08 0.0 139.66666666666666
+CAL_EXTERNAL qmf 0.08 2.0 139.66666666666666
+CAL_EXTERNAL qmf 0.08 4.0 139.66666666666666
+CAL_EXTERNAL qmf 0.08 8.0 187.0
+CAL_EXTERNAL qmf 0.08 12.0 149.33333333333334
+CAL_EXTERNAL qmf 0.08 16.0 169.66666666666666
+CAL_EXTERNAL qmf 0.2 0.0 279.0
+CAL_EXTERNAL qmf 0.2 2.0 279.0
+CAL_EXTERNAL qmf 0.2 4.0 279.0
+CAL_EXTERNAL qmf 0.2 8.0 263.3333333333333
+CAL_EXTERNAL qmf 0.2 12.0 263.3333333333333
+CAL_EXTERNAL qmf 0.2 16.0 263.3333333333333
+SELECT_SELFBACK {'legacy_factorized': ({'prior_sd': 0.05, 'q_floor': 0.0, 'slice_bandwidth': 1.0}, 230.0), 'legacy_sandwich': ({'prior_sd': 0.05, 'q_floor': 0.0, 'slice_bandwidth': 1.0}, 230.0), 'paired': ({'bandwidth': 1.0, 'zeta': 1.0}, 230.0), 'marginal': ({'bandwidth': 1.0, 'zeta': 1.0}, 230.0), 'factorized': ({'bandwidth': 1.0, 'zeta': 1.0}, 230.0), 'zero_increment': ({'bandwidth': 1.0, 'zeta': 1.0}, 230.0), 'kde_aligned': ({'b_parallel': 1.0, 'b_perp': 2.0, 'cap': 1.0}, 71.66666666666667), 'pdf': ({'lr': 0.2, 'margin': 0.0}, 282.6666666666667), 'qmf': ({'lr': 0.2, 'margin': 0.0}, 279.0)}

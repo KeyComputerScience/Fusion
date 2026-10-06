@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "seed": 20261005,
+  "author_operator": "get_doc_belief_fusion",
+  "fixed_lambda": 1.0,
+  "author_epsilon": 1e-06,
+  "cases": [
+    {
+      "sources": 1,
+      "loop_error": 1.1102230246251565e-16,
+      "permutation_error": 0.0,
+      "opinion_normalization_error": 2.220446049250313e-16
+    },
+    {
+      "sources": 2,
+      "loop_error": 5.551115123125783e-17,
+      "permutation_error": 0.0,
+      "opinion_normalization_error": 2.220446049250313e-16
+    },
+    {
+      "sources": 4,
+      "loop_error": 8.326672684688674e-17,
+      "permutation_error": 8.326672684688674e-17,
+      "opinion_normalization_error": 1.1102230246251565e-16
+    }
+  ],
+  "no_epsilon_singleton_error": 1.1102230246251565e-16,
+  "no_epsilon_identical_opinion_error": 1.1102230246251565e-16,
+  "author_epsilon_singleton_discrepancy": 5.144475913043678e-07,
+  "evidence_opinion_roundtrip_error": 8.881784197001252e-16,
+  "disclosure": "author epsilon induces a small contraction even for singleton/identical opinions; no exact invariance is claimed with epsilon",
+  "empty_views": "rejected; physical worlds always have at least one available view"
+}

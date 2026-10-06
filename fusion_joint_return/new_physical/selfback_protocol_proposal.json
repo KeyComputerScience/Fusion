@@ -1,0 +1,55 @@
+{
+  "status": "metadata-only proposal, not an algorithm freeze or completed experiment",
+  "dataset": "selfBACK521",
+  "official_metadata_url": "https://archive.ics.uci.edu/dataset/521/selfback",
+  "official_archive_url": "https://archive.ics.uci.edu/static/public/521/selfback.zip",
+  "doi": "10.24432/C5SK65",
+  "raw_data_access": "No raw archive was downloaded, opened, parsed, or evaluated by this preparation agent. Workspace inventory found no previous selfBACK files or protocol mentions.",
+  "sources": ["dominant-side wrist Axivity AX3 accelerometer", "dominant-side thigh Axivity AX3 accelerometer"],
+  "physical_units": "33 participants in one collection; held-out participants are separate physical participants, not independent sites",
+  "expected_participants": 33,
+  "sampling_rate_Hz": 100,
+  "target": "original nine annotated activity classes; no constructed label threshold",
+  "participant_split": {
+    "rule": "Sort original numeric participant IDs using filename metadata before any signal or class outcome is inspected. Ranks1--12 fit,13--20 calibration,21--33 test. Any participant-count/schema mismatch stops the run and is reported; it does not select replacement participants.",
+    "fit_ranks": [1, 12],
+    "calibration_ranks": [13, 20],
+    "test_ranks": [21, 33],
+    "all_test_participants_retained": true
+  },
+  "adapter": {
+    "use_original_raw_w_and_t": true,
+    "pairing": "Same one-second calendar-timestamp bins from original w and t panels. Require at least50 actual raw samples in each device bin. Retain mean, standard deviation, minimum, maximum per axis in the completed bin. A supplied wt panel may be used only after original provenance and timestamp mapping are independently verified.",
+    "features_per_panel": 12,
+    "chronology": "Sort by original participant timestamp; never order segments by target/activity code. Original activity-folder annotation determines the target only. Exclude mixed-label bins before constructing the stream, and record their counts. Predictors contain no target, participant ID, file/activity name, or label-derived boundary.",
+    "lags": "Current and two preceding covariate feature rows; reset at participant boundary or an observable timestamp gap >1second, never at a ground-truth class transition alone.",
+    "forecast_outage": "Same rotating source forecast is hidden in the first2 of every13 replay windows; raw physical input remains available.",
+    "training_error_holdout": "Within the12 fit participants reserve SHA256(participant,timestamp) first8hex modulo10<3 for held-out source quality/error observations; other fit labels fit preprocessing and models. No fit/cal/test participant overlap.",
+    "normalization": "Mean/scale from fit-training rows only, scale floor0.05 and feature clip8 standard deviations. No per-test-subject scaling.",
+    "class_mapping": "Nine labels fixed by annotation metadata, never chosen using test frequency or utility. Actual file naming requires a metadata-only validation before processing."
+  },
+  "service_contract": {
+    "window_records": 32,
+    "lease_windows": 4,
+    "installation_fee": 2,
+    "restoration_fee": 1,
+    "maximum_extra_interruption_correctness_loss": 2,
+    "fixed_reserve": 130,
+    "loss_budget": 130,
+    "label_delay_windows": [1, 4],
+    "utility_units": "correct served classifications minus declared action/preparation fees; not money or a clinical outcome",
+    "chains": "Each test participant begins from the same fit-only model state, with its own causal history and budget. Actual timestamps and gaps are retained. Four-window leases count prediction opportunities rather than a fixed wall-clock duration."
+  },
+  "evaluation": {
+    "calibration_seeds": [151001, 151002, 151003],
+    "test_seeds": [152001, 152002, 152003, 152004, 152005],
+    "primary_units": "13 withheld physical participants; five artificial delays per participant are repeated scenarios, not additional participants",
+    "controls": "Frozen proposed joint mechanism, strongest same-information marginal/factorized/native non-Bayesian matrix pipelines, full Student-t/KDE/copula conditional laws, objective-trained PDF/QMF and DBF adaptations as feasible. Exact model grids and total tuning/work budgets must be frozen by root before acquisition.",
+    "primary_endpoint": "Participant-level paired full service net increment versus each complete selected pipeline",
+    "mechanism_endpoint": "All shared-state strict score crossings and their realized paid returns; all added gains, avoided losses, missed gains, incurred losses; preserve whole action comparison",
+    "risk_endpoints": "Issued/ready/informative/actually admitted coverage with exact denominators; maximum and summed conservative-target exceedance; harmful leases and negative-return magnitude; ledger maximum committed reserve and budget-rejected action values",
+    "no_outcome_replacement": true,
+    "no_test_retuning": true
+  },
+  "acquisition_gate": "Root must complete and save a source-closure algorithm/controls/protocol freeze before any raw transfer. This metadata proposal is not that freeze. No observed outcome is promised."
+}

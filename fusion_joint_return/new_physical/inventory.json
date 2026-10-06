@@ -1,0 +1,45 @@
+{
+  "status": "metadata-only; no real raw data downloaded or read",
+  "created_utc": "2026-10-05T11:25:37.367515+00:00",
+  "filename_inventory": "rg --files work outputs plus case-insensitive search for selfback/wisdm/heterogeneity/opportunity226; no prior dataset artifacts before this preparation",
+  "content_audit": "JSON/MD/protocol/adapter/metadata/readme/status files <=250000bytes, excluding source_audit_bundle/core_relocated/portable_/project replicas",
+  "prior_evaluated": [
+    "occupancy357",
+    "occupancy864",
+    "mhealth319",
+    "har240",
+    "dsads256",
+    "gas224",
+    "rss348",
+    "har780",
+    "arem366",
+    "gashome362",
+    "daphnet245",
+    "localization196",
+    "harth779",
+    "flow308",
+    "appliances374",
+    "sml274"
+  ],
+  "prior_partially_acquired": {
+    "pamap231": "work/fusion_focus_20261003/fresh/HAR70_ARTIFACT_MANIFEST.json documents incomplete251MBsource"
+  },
+  "candidate_untouched_before_this_preparation": [
+    "selfback521",
+    "wisdm507",
+    "hhar344",
+    "opportunity226",
+    "realdisp305",
+    "casas506"
+  ],
+  "metadata_only_prior_discussion": {
+    "opportunity226": "work/fusion_cj_next_20261004/physical/METADATA_PREPARATION.md"
+  },
+  "selected": "selfback521",
+  "adapter_syntax": "AST parse passed",
+  "synthetic_parser_checks": [
+    "100 calendar-timestamp samples share one original calendar-second bin",
+    "numeric device-relative clock rejected"
+  ],
+  "algorithm_freeze_ready": false
+}
